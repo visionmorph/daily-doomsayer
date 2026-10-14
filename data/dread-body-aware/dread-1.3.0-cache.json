@@ -251052,8 +251052,985 @@
           "vulnerability": 0
         }
       }
+    },
+    "d080bab8fd4725b3169f": {
+      "storyId": "d080bab8fd4725b3169f",
+      "url": "https://www.bbc.co.uk/news/articles/cm4g1rekpgnjo?at_campaign=rss&at_medium=RSS",
+      "title": "Zimbabwean author denies using AI to write award-winning story",
+      "source": "BBC News AI",
+      "published": "2026-10-13T23:31:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2f837d5612088ea7c7e56172",
+      "bodyFingerprint": "3b048ed4b44b0745cd1d1f4f",
+      "bodyCharacterCount": 7171,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T01:14:57.578Z",
+      "assessment": {
+        "centralEvent": "Zimbabwean author denies using AI to write award-winning story",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The backlash to the article on social media has included comments from African writers with suggestions that such accusations are primarily being made against non-white writers.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Caine Prize / Seth Avusuglo Image caption, Simbarashe Kundizeza says he was inspired by a poem about fish tanks to write a story about his family struggles in Zimbabwe By Lucy Fleming Published 1 hour ago Zimbabwean writer Sim",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4b533c9e17a5cd607462": {
+      "storyId": "4b533c9e17a5cd607462",
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home",
+      "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T23:05:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "90c174b8d57cc8cfa1433d1b",
+      "bodyFingerprint": "189c20ff33d9d7ae9c2cd234",
+      "bodyCharacterCount": 3346,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T01:14:57.588Z",
+      "assessment": {
+        "centralEvent": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f581adf32b14cf27ac83": {
+      "storyId": "f581adf32b14cf27ac83",
+      "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient",
+      "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T23:13:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b8cc92d4b0a439b75df82b8e",
+      "bodyFingerprint": "51ecf4efabf8fe0a7198b48f",
+      "bodyCharacterCount": 6603,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T01:14:57.598Z",
+      "assessment": {
+        "centralEvent": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Approximately 150,000 people worldwide have lost vision due to the disease.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "07be684d83ff499fbdf8": {
+      "storyId": "07be684d83ff499fbdf8",
+      "url": "https://www.bbc.co.uk/news/articles/c1wxdjx27ypo?at_campaign=rss&at_medium=RSS",
+      "title": "How long will humans be needed for translation?",
+      "source": "BBC News AI",
+      "published": "2026-10-13T23:05:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "864a4be0aa32a2b65d492bad",
+      "bodyFingerprint": "4db0fc20ea2552626613ca25",
+      "bodyCharacterCount": 7269,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T01:14:57.615Z",
+      "assessment": {
+        "centralEvent": "How long will humans be needed for translation?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A comment on the weather is pretty low-risk, but more and more translation is being done by machines, and on topics with higher stakes than the weather.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images Image caption, Google's translation service handles one trillion words per month By John Laurenson Business reporter , Reporting from Paris Published 2 hours ago \"Il pleut des cordes,\" say the French when it's rai",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related topics International Business Technology of Business Artificial intelligence More on this story The critical tech staying safe by going underground Published 19 August Tokenomics: Why making AI pay is tricky Published 12 August Why ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Ariella Baltié Image caption, Ariella Baltié specialises in legal translation work Accuracy is a matter of life and death in the medical field. \"The units for dosages and blood tests often include Greek letters,\" says Carol Be",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "With more than 10,000 published pieces, mostly into Spanish, Portuguese and English, OKA is, Zimmerman says, the single largest contributor of translated articles to the collaborative online encyclopedia.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.16,
+        "rawScore": 30.16,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.56,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f1804c4e138a285ddd0b": {
+      "storyId": "f1804c4e138a285ddd0b",
+      "url": "https://www.bbc.co.uk/news/articles/c623dnkn8pkyo?at_campaign=rss&at_medium=RSS",
+      "title": "Is it OK for jobseekers or employers to use AI?",
+      "source": "BBC News AI",
+      "published": "2026-10-13T23:04:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "52bc5c7dd9fdb18b2e30b4f4",
+      "bodyFingerprint": "704dad8155126561195394d0",
+      "bodyCharacterCount": 5849,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T01:14:57.628Z",
+      "assessment": {
+        "centralEvent": "Is it OK for jobseekers or employers to use AI?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "And Stephen Isherwood, joint chief executive of the ISE, says it is \"driving up the competition and pressure on students\" in an already competitive graduate recruitment market. 'It's not a level playing field' Image source, EDF Image captio",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "By Daniel Thomas and Oliver Smith , BBC News Published 2 hours ago Would you use AI to help you write a CV or cover letter?",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b27d148e512fc806d239": {
+      "storyId": "b27d148e512fc806d239",
+      "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks",
+      "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T23:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9569f05e91b6f5be39bdbc38",
+      "bodyFingerprint": "c330bc608279cc26035788e9",
+      "bodyCharacterCount": 7393,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T01:14:57.655Z",
+      "assessment": {
+        "centralEvent": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6c9c5e9aa63b9ed7a485": {
+      "storyId": "6c9c5e9aa63b9ed7a485",
+      "url": "https://www.theguardian.com/technology/2026/oct/13/openai-employee-arrested-hidden-recording-device",
+      "title": "OpenAI employee arrested after recording device found in office",
+      "source": "The Guardian AI",
+      "published": "2026-10-13T22:59:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "08e684c720d9ab5fc3e45e44",
+      "bodyFingerprint": "37579b86398c5416ac57a38b",
+      "bodyCharacterCount": 4886,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T01:14:57.679Z",
+      "assessment": {
+        "centralEvent": "OpenAI employee arrested after recording device found in office",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Surveillance footage allegedly documented him walking around the meeting room in the days leading up to its discovery.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Surveillance footage allegedly documented him walking around the meeting room in the days leading up to its discovery.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The employee was terminated.” Abdulrahman Alfozan, 35, a Saudi national, was arrested on 9 October, according to a press release from the US Department of Justice.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.13,
+        "rawScore": 47.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "57a3a65bb47fe93ff7d5": {
+      "storyId": "57a3a65bb47fe93ff7d5",
+      "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office",
+      "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
+      "source": "WIRED AI",
+      "published": "2026-10-13T23:17:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1622a48bf02855c278d6ce13",
+      "bodyFingerprint": "86171c2b648d4a6cd32e2cd2",
+      "bodyCharacterCount": 8545,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T01:14:57.692Z",
+      "assessment": {
+        "centralEvent": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Abdulrahman Alfozan, who federal prosecutors describe as a 35-year-old Saudi Arabian national and US permanent resident, allegedly spent several weeks querying an unspecified “productivity agent” and an “AI chatbot” to plan his alleged surv",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The files included thousands of videos and logs showing that the device captured 1.6 million images of 50,000 vehicles in 21 days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Abdulrahman Alfozan, who federal prosecutors describe as a 35-year-old Saudi Arabian national and US permanent resident, allegedly spent several weeks querying an unspecified “productivity agent” and an “AI chatbot” to plan his alleged surv",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Abdulrahman Alfozan, who federal prosecutors describe as a 35-year-old Saudi Arabian national and US permanent resident, allegedly spent several weeks querying an unspecified “productivity agent” and an “AI chatbot” to plan his alleged surv",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Isabella Ward A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data While the focus has been on AI agents’ hacking capabilities, a recently patched vulnerability in a ChatGPT app shows that AI software is itself an inviting",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.83,
+        "rawScore": 49.83,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.53,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "42b26e2f5aa4b54c951e": {
+      "storyId": "42b26e2f5aa4b54c951e",
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings",
+      "title": "Cerebras CEO pushes back on AI doomsday warnings",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T22:36:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ef8431615dd3c79ca61cc220",
+      "bodyFingerprint": "1f290da0fbad30369d90a29d",
+      "bodyCharacterCount": 4445,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T01:14:57.701Z",
+      "assessment": {
+        "centralEvent": "Cerebras CEO pushes back on AI doomsday warnings",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "However, he’s pragmatic about weighing the trade-offs between risk and reward.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "96b40593ee3b1790d9df": {
+      "storyId": "96b40593ee3b1790d9df",
+      "url": "https://www.politico.com/news/2026/10/13/openai-employee-arrested-and-charged-over-hidden-recording-01117275",
+      "title": "OpenAI employee arrested and charged over hidden recording",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-13T22:30:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "24a75c7288bb0b0cee372294",
+      "bodyFingerprint": "9b0411943b19d9a7d9868098",
+      "bodyCharacterCount": 130,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-14T01:14:57.753Z",
+      "assessment": {
+        "centralEvent": "OpenAI employee arrested and charged over hidden recording",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cb6315da3cfe84fe75cb": {
+      "storyId": "cb6315da3cfe84fe75cb",
+      "url": "https://www.inc.com/kevin-haynes/disney-accused-characterai-copyright-infringement-now-bidding-bankrupt-startups-assets/91419440",
+      "title": "Disney Accused Character.ai of Copyright Infringement. Now It’s Bidding on the Bankrupt Startup’s Assets",
+      "source": "Inc. AI",
+      "published": "2026-10-13T21:54:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cfb1f1f82d67740e3e2ce94b",
+      "bodyFingerprint": "dba965e99fb34fd404cf84da",
+      "bodyCharacterCount": 73,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-14T01:14:57.757Z",
+      "assessment": {
+        "centralEvent": "Disney Accused Character.ai of Copyright Infringement. Now It’s Bidding on the Bankrupt Startup’s Assets",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f9979bbcccfb33859982": {
+      "storyId": "f9979bbcccfb33859982",
+      "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_campaign=rss&at_medium=RSS",
+      "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
+      "source": "BBC News AI",
+      "published": "2026-10-13T21:42:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "13c604add991859072f7464e",
+      "bodyFingerprint": "3027d4a7f848145a5b07d378",
+      "bodyCharacterCount": 3591,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T01:14:57.768Z",
+      "assessment": {
+        "centralEvent": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "On 30 September, OpenAI employees discovered the device - two days after prosecutors say it had been installed.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1287b603db9f85a9f69c": {
+      "storyId": "1287b603db9f85a9f69c",
+      "url": "https://mashable.com/tech/mia-goth-ai-image-instagram-fan-account",
+      "title": "An AI image of Mia Goth sparks Instagram fan account controversy",
+      "source": "Mashable AI",
+      "published": "2026-10-13T21:59:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0f6b62159857cbbd5b541162",
+      "bodyFingerprint": "fe3bab7af5aabe45892647fd",
+      "bodyCharacterCount": 6138,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T01:14:57.777Z",
+      "assessment": {
+        "centralEvent": "An AI image of Mia Goth sparks Instagram fan account controversy",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Comedian Sarah Purdum told Mashable that women’s material was being \"stolen and repurposed for sexy AI models.\" SEE ALSO: Fake influencers, real money: Inside the AI creator business For celebrities, the consequences extend beyond invented ",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Mia Goth’s team says a verified Instagram fan account posted AI-generated images of her, raising questions about celebrity likenesses and Meta’s rules.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "After news of the Pearl and MaXXXine actress's divorce filing from Shia LaBeouf a few weeks ago, an Instagram post appeared to show Goth wearing a shirt that read \"MY EX IS MY BIGGEST FAN.\" Paired with Beyonc&eacute;’s \"Single Ladies (Put a",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cfd386ee0afcc7d08cdf": {
+      "storyId": "cfd386ee0afcc7d08cdf",
+      "url": "https://news.sky.com/story/raye-says-royal-albert-hall-gig-sign-up-was-overwhelmed-by-ticket-touts-using-ai-bots-13599002",
+      "title": "Raye says Royal Albert Hall gig sign-up was 'overwhelmed' by ticket touts using AI bots",
+      "source": "Sky News AI",
+      "published": "2026-10-13T20:34:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d84818c9972c0d7d4082ee8e",
+      "bodyFingerprint": "18cf0b70dc5ab8363e482d49",
+      "bodyCharacterCount": 207,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-14T01:14:57.804Z",
+      "assessment": {
+        "centralEvent": "Raye says Royal Albert Hall gig sign-up was 'overwhelmed' by ticket touts using AI bots",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2c4e88091f3741b4ce70": {
+      "storyId": "2c4e88091f3741b4ce70",
+      "url": "https://www.theguardian.com/technology/2026/oct/14/use-of-ai-job-interviews-on-rise-uk-recruiters-cheats",
+      "title": "Use of AI in job interviews on the rise – but UK recruiters say they can spot the cheats",
+      "source": "The Guardian AI",
+      "published": "2026-10-13T23:01:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a4fdaf51da86bce77c705ba2",
+      "bodyFingerprint": "8e754fb6eb1466db66895078",
+      "bodyCharacterCount": 4381,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-14T01:14:57.814Z",
+      "assessment": {
+        "centralEvent": "Use of AI in job interviews on the rise – but UK recruiters say they can spot the cheats",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It’s because of economic uncertainty.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Body representing some of Britain’s biggest graduate employers reveals misconduct is at a record high It is obvious when someone is using AI to drum up answers in a job interview, according to Chris Morrow, who runs a recruitment agency in ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The most common form of misconduct was the unauthorised use of AI during interviews and online assessments, with 66% of respondents reporting at least one incident of a graduate misusing AI during an interview.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The most common form of misconduct was the unauthorised use of AI during interviews and online assessments, with 66% of respondents reporting at least one incident of a graduate misusing AI during an interview.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.93,
+        "rawScore": 25.93,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.175,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-13T21:17:57.398Z"
+  "updatedAt": "2026-10-14T01:14:57.815Z"
 }
