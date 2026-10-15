@@ -256507,8 +256507,467 @@
           "vulnerability": 0
         }
       }
+    },
+    "c583a0918e79df9da857": {
+      "storyId": "c583a0918e79df9da857",
+      "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform",
+      "title": "Figma announces new features to define how agents work on its platform",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T04:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8a489d8065164a61d09294f1",
+      "bodyFingerprint": "2745a451cf1039c70683b2ae",
+      "bodyCharacterCount": 4508,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T04:44:52.720Z",
+      "assessment": {
+        "centralEvent": "Figma announces new features to define how agents work on its platform",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d9fce76b3320b1cbfdbe": {
+      "storyId": "d9fce76b3320b1cbfdbe",
+      "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_campaign=rss&at_medium=RSS",
+      "title": "Anthropic flags revenue surge to investors ahead of stock market debut",
+      "source": "BBC News AI",
+      "published": "2026-10-15T04:19:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "29bc57c0c8394a23956aa91a",
+      "bodyFingerprint": "1eb19c41f50fb822f4e2d905",
+      "bodyCharacterCount": 2953,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T04:44:52.731Z",
+      "assessment": {
+        "centralEvent": "Anthropic flags revenue surge to investors ahead of stock market debut",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "How backlash against data centres could shape the US midterm elections Published 5 hours ago 'I applied for 200 jobs' - How 'spray and pray' AI job applications can backfire Published 20 hours ago The falls come after remarks by Hock Tan, t",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "How backlash against data centres could shape the US midterm elections Published 5 hours ago 'I applied for 200 jobs' - How 'spray and pray' AI job applications can backfire Published 20 hours ago The falls come after remarks by Hock Tan, t",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related topics International Business Artificial intelligence",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6961d7c2dc9bbc858b72": {
+      "storyId": "6961d7c2dc9bbc858b72",
+      "url": "https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015",
+      "title": "Q&A: The “collision” between AI, your brain, and society",
+      "source": "MIT News AI",
+      "published": "2026-10-15T04:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bcd08f8ad7df9eec66fee4d4",
+      "bodyFingerprint": "f6ff586cc0848cd2c63e71bd",
+      "bodyCharacterCount": 9111,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T04:44:52.750Z",
+      "assessment": {
+        "centralEvent": "Q&A: The “collision” between AI, your brain, and society",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "For example we have a real biological instinct to conserve our mental energy, and socially, we face situations where AI is used by other people to race ahead, and it rachets up the pressure on everyone else to use AI.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In general, he says, evidence shows that our ability to learn gets dramatically better when we wrestle with material, work through initial failures, keep iterating, and in the process acquire better thinking skills while retaining more know",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "MIT News talked to So, who is the Sloan Distinguished Professor of Global Economics and Behavioral Science in the MIT Sloan School of Management, about the book.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.63,
+        "rawScore": 27.63,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "330343a7bdb3fdd17aaa": {
+      "storyId": "330343a7bdb3fdd17aaa",
+      "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis",
+      "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T01:01:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c598fc75e2ceed8062353110",
+      "bodyFingerprint": "7c28d52aa09a30564b6c0cee",
+      "bodyCharacterCount": 4296,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T04:44:52.761Z",
+      "assessment": {
+        "centralEvent": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cdbbaea14508232a7551": {
+      "storyId": "cdbbaea14508232a7551",
+      "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt",
+      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d0d2bd47f410a13e94ab79a0",
+      "bodyFingerprint": "334112c29092cf0245c1542f",
+      "bodyCharacterCount": 6204,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T04:44:52.805Z",
+      "assessment": {
+        "centralEvent": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "A seemingly insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can quickly snowball into a much larger public controversy.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Presley, its customer base includes a Fortune 50 telecommunications company, a Fortune 50 retailer, “one of the world’s largest AI labs, one of the world’s largest bands,” public relations and crisis communications agencies, an",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Every day, conversations unfold across social media and websites around the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Every day, conversations unfold across social media and websites around the world.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.4,
+        "rawScore": 28.4,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "47d46d1066d4b90bf202": {
+      "storyId": "47d46d1066d4b90bf202",
+      "url": "https://www.theguardian.com/science/audio/2026/oct/15/is-your-boss-watching-you-the-rise-of-ai-surveillance-at-work-podcast",
+      "title": "Is your boss watching you? The rise of AI surveillance at work – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-10-15T04:00:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b4e7383fbf17a68c2fc65143",
+      "bodyFingerprint": "2bf2bf84c16b3733b52d63a9",
+      "bodyCharacterCount": 876,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T04:44:52.977Z",
+      "assessment": {
+        "centralEvent": "Is your boss watching you? The rise of AI surveillance at work – podcast",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "The rise of AI surveillance at work – podcast",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "29da422f19ac393b7042": {
+      "storyId": "29da422f19ac393b7042",
+      "url": "https://www.politico.eu/article/anguilla-reassures-population-ai-domain-trump-threats",
+      "title": "How a tiny Caribbean island shrugged off Trump’s AI rebrand",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-14T16:27:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2a5931878d62563c374517f4",
+      "bodyFingerprint": "3e19c7a3ead6c0cbaede4984",
+      "bodyCharacterCount": 3251,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T04:44:52.985Z",
+      "assessment": {
+        "centralEvent": "How a tiny Caribbean island shrugged off Trump’s AI rebrand",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Trump's attempt to rebrand artificial intelligence as “ super intelligence ” caused concern that the island's income could be damaged.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "30 alone, reported the BBC.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In her budget address in November 2025, Richardson-Hodge said .ai was projected “to contribute nearly 40% of total non-tax revenue; a remarkable example of how a small island can create global value through good governance and foresight.” O",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-14T23:56:45.642Z"
+  "updatedAt": "2026-10-15T04:44:52.985Z"
 }
