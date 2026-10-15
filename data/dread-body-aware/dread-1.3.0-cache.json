@@ -256966,8 +256966,354 @@
           "vulnerability": 0
         }
       }
+    },
+    "4d41b0e70817644c65b9": {
+      "storyId": "4d41b0e70817644c65b9",
+      "url": "https://mashable.com/tech/oct-15-1minai-advanced-business-plan-lifetime-subscription",
+      "title": "Last call to get ChatGPT, Claude, Gemini, and more for life for just $69.97",
+      "source": "Mashable AI",
+      "published": "2026-10-15T06:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b179d35879783865da9c1c83",
+      "bodyFingerprint": "8a071c354ff8cae03db7160c",
+      "bodyCharacterCount": 3023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T09:58:51.153Z",
+      "assessment": {
+        "centralEvent": "Last call to get ChatGPT, Claude, Gemini, and more for life for just $69.97",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It’s also only $69.97 (reg. $540) for a lifetime subscription, available today only as part of the extended Deal Days sale.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bb92c371629fda3025ce": {
+      "storyId": "bb92c371629fda3025ce",
+      "url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
+      "title": "Tech market sell-off deepens amid fears over US inflation and AI debt",
+      "source": "The Guardian AI",
+      "published": "2026-10-15T08:39:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c2c46388e75dd9cf9176f531",
+      "bodyFingerprint": "29f74c98e3fe73f70c7b8d6b",
+      "bodyCharacterCount": 4771,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T09:58:51.183Z",
+      "assessment": {
+        "centralEvent": "Tech market sell-off deepens amid fears over US inflation and AI debt",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Aside from the US, Asian markets would be most exposed, with the UK and eurozone potentially more insulated – although investors with US holdings would be hit.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Markets have just had an incredibly tumultuous 24 hours, as a strong US CPI print was then followed up with mounting fears around the AI trade,” Deutsche Bank analysts led by Jim Reid, said.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Chip makers and tech investors such as Samsung and SoftBank plunge as global investors fret over potential interest rate hikes Business news – live updates Larry Elliott: the global economy is muddling through.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "553c5d9cda750a6d57c7": {
+      "storyId": "553c5d9cda750a6d57c7",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/15/global-economy-multilateral-cooperation-crisis-imf",
+      "title": "The global economy is muddling through against the odds. But a storm is coming | Larry Elliott",
+      "source": "The Guardian AI",
+      "published": "2026-10-15T05:00:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "00c88fa897b68f6b5d4870f0",
+      "bodyFingerprint": "b280d8798bb4d31b70c07f70",
+      "bodyCharacterCount": 7175,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T09:58:51.188Z",
+      "assessment": {
+        "centralEvent": "The global economy is muddling through against the odds. But a storm is coming | Larry Elliott",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In the past, oil shocks of the magnitude witnessed since the start of Iran war have had a marked and immediate impact, but there are three key reasons why growth has remained robust and inflationary pressure has been muted this time.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As the former UN official Richard Kozul-Wright points out in a paper published next month, the IMF and World Bank – created at the 1944 Bretton Woods conference – may still be operational but they have lost their connection to the New Deal ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "The global economy is muddling through against the odds.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5d3c9cc9740eaf538102": {
+      "storyId": "5d3c9cc9740eaf538102",
+      "url": "https://www.theguardian.com/world/2026/oct/15/poland-economy-heights-transformed-regional-tech-hub",
+      "title": "Poland’s ascent from communist state to top 20 economy reverses the brain drain",
+      "source": "The Guardian AI",
+      "published": "2026-10-15T05:56:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5cab3f68ad25333158d50f62",
+      "bodyFingerprint": "90f5836475d1e1fe1e42f30c",
+      "bodyCharacterCount": 10734,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T09:58:51.194Z",
+      "assessment": {
+        "centralEvent": "Poland’s ascent from communist state to top 20 economy reverses the brain drain",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "For others, it is an icon on the skyline and a monumental warning from history.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "At €19.10 (£16.10) an hour, average labour costs (wages, taxes and other costs) are still half the level of Germany and France , but the gap is closing. skip past newsletter promotion after newsletter promotion Since 2004, the average month",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "International Monetary Fund projections show income per capita will soon overtake Japan and Spain.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Now Britons are increasingly likely to have their taps fixed by Romanians and Bulgarians, after a surge in the number of Polish nationals leaving.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Now Britons are increasingly likely to have their taps fixed by Romanians and Bulgarians, after a surge in the number of Polish nationals leaving.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 84,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.09,
+        "rawScore": 29.09,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4625,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "634ea495c3d824abd8f0": {
+      "storyId": "634ea495c3d824abd8f0",
+      "url": "https://www.nature.com/articles/d41586-026-03194-w",
+      "title": "ArXiv versus AI slop: will capping preprint submissions work?",
+      "source": "Nature AI News & Comment",
+      "published": "2026-10-15T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d908614d01288e7cc5ed3c42",
+      "bodyFingerprint": "cf8dca3a863be833069e63eb",
+      "bodyCharacterCount": 62,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-15T09:58:52.121Z",
+      "assessment": {
+        "centralEvent": "ArXiv versus AI slop: will capping preprint submissions work?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-15T04:44:52.985Z"
+  "updatedAt": "2026-10-15T09:58:52.121Z"
 }
