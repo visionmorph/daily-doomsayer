@@ -257312,8 +257312,1378 @@
           "vulnerability": 0
         }
       }
+    },
+    "b7e6e91e4028317e604e": {
+      "storyId": "b7e6e91e4028317e604e",
+      "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
+      "title": "How Windows is being optimized for Nvidia’s RTX Spark laptops",
+      "source": "The Verge AI",
+      "published": "2026-10-15T14:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "419ab16eb07008e556bbc4b9",
+      "bodyFingerprint": "c538362f1580704575b84211",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:28.765Z",
+      "assessment": {
+        "centralEvent": "How Windows is being optimized for Nvidia’s RTX Spark laptops",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Satya Nadella says we should assume all AI models are “compromised.” Microsoft CEO Satya Nadella published a lengthy post on X over the weekend that laid out his views on the dangers of advanced AI models.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Microsoft has announced its new Microsoft-Decision-1 model just days after OpenAI revealed its new Decisions API.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Lee has always been the main face of Microsoft Research, and he led the company’s research operations across 14 worldwide laboratories over the past four years.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Microsoft says it disabled over 20,000 accounts connected to YAM Store and blocked over 100,000 web domains being used for impersonation and fraud.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Retro gaming is booming at the moment thanks to decompilations and recompilations that are letting gamers port classic titles to new devices, or merge code from two different games into a single new experience.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 117,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.01,
+        "rawScore": 49.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8560a2cd1b5ad897d1f0": {
+      "storyId": "8560a2cd1b5ad897d1f0",
+      "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us",
+      "title": "Google’s Universal Cart shopping tool launches in the US",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T14:29:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ab8a731c1130dd5f7998df25",
+      "bodyFingerprint": "a9bbb2019eb2eef186a6dc65",
+      "bodyCharacterCount": 3208,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:28.780Z",
+      "assessment": {
+        "centralEvent": "Google’s Universal Cart shopping tool launches in the US",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fa3be6b020a0d422ad5c": {
+      "storyId": "fa3be6b020a0d422ad5c",
+      "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars",
+      "title": "AI agents are coming to Rivian’s cars",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T15:02:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9e0d3d7f131259c308e6f818",
+      "bodyFingerprint": "1bc51684749a05fc76ed46e8",
+      "bodyCharacterCount": 5153,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:28.784Z",
+      "assessment": {
+        "centralEvent": "AI agents are coming to Rivian’s cars",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Most of the time, that involves what you’d expect: asking the car to turn down the temperature, activate the seat warmers, or summarize the news.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bd42108ff227ced5a405": {
+      "storyId": "bd42108ff227ced5a405",
+      "url": "https://www.theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth",
+      "title": "Nobody is safe from celebrity AI deepfakes",
+      "source": "The Verge AI",
+      "published": "2026-10-15T14:03:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b6ed89c76e6919cec2111047",
+      "bodyFingerprint": "e0bb6f9a0f954ea6dab9c470",
+      "bodyCharacterCount": 11849,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:28.792Z",
+      "assessment": {
+        "centralEvent": "Nobody is safe from celebrity AI deepfakes",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In the absence of national right of publicity laws , AI-generated content featuring real people is being litigated on the platform level. (The US’s Take It Down Act, which was signed into law in 2025, specifically criminalizes the distribut",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 75,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c3345e3bee2e27bb3bb7": {
+      "storyId": "c3345e3bee2e27bb3bb7",
+      "url": "https://www.inc.com/liyana-illyas/the-knot-acquires-zola-wedding-industry-merger/91420041",
+      "title": "The Knot Acquires Zola. Inside the Massive Wedding Tech Merger",
+      "source": "Inc. AI",
+      "published": "2026-10-15T14:10:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9b14a6150dec4c0f66a0f53f",
+      "bodyFingerprint": "b23a091151971b6c5ee419f9",
+      "bodyCharacterCount": 158,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-15T15:04:28.794Z",
+      "assessment": {
+        "centralEvent": "The Knot Acquires Zola. Inside the Massive Wedding Tech Merger",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "38883cff1d0be07e3d20": {
+      "storyId": "38883cff1d0be07e3d20",
+      "url": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day",
+      "title": "TechCrunch Disrupt 2026: Last day",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c33cc14a6fac7657ef4d6011",
+      "bodyFingerprint": "41e65c804ec1e32b95492676",
+      "bodyCharacterCount": 8202,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:28.859Z",
+      "assessment": {
+        "centralEvent": "TechCrunch Disrupt 2026: Last day",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "TechCrunch Disrupt 2026: Last day",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4b235d19b2c1618b275a": {
+      "storyId": "4b235d19b2c1618b275a",
+      "url": "https://www.theverge.com/podcast/1011170/benn-jordan-flock-cameras-alpr-ai-surveillance-privacy",
+      "title": "Benn Jordan on Flock, privacy, and the new surveillance backlash",
+      "source": "The Verge AI",
+      "published": "2026-10-15T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6b567fc5e1fb52d34a4fee0f",
+      "bodyFingerprint": "352276c3dff0c646a1bbcaf4",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:28.908Z",
+      "assessment": {
+        "centralEvent": "Benn Jordan on Flock, privacy, and the new surveillance backlash",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Benn Jordan on Flock, privacy, and the new surveillance backlash",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Police departments across the country can then run a license plate with 30 days of retention on everywhere someone’s been, anywhere in the country, as long as they’re sharing the data.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Because those local politics affect your life way more than national politics.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "But one thing that happens in our society all too often is when we have a big controversy, especially on social media, and then there is no remediation at all.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Basically, anybody can look at them, anybody can own them, nobody can change them...” If they said that, then they immediately went and fixed all the security vulnerabilities and you just had a smarter way of looking at these things...",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Instead, Benn now talks to Flock directly, including to its CEO Garrett Langley, and reports security vulnerabilities to the company when he finds them. (As a side note: we have also invited Flock’s CEO on the show; Garrett if you’re listen",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 678,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.34,
+        "rawScore": 49.34,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.485,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9bfe8bee5e6d75f35848": {
+      "storyId": "9bfe8bee5e6d75f35848",
+      "url": "https://www.inc.com/jason-mitchell/ai-social-media-marketing-tools-limitations/91419423",
+      "title": "The Real Reason Most AI Social Tools Are Useless (or a Liability) for Brands",
+      "source": "Inc. AI",
+      "published": "2026-10-15T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f8d57a04924acc6e3f310374",
+      "bodyFingerprint": "b772dbc8d939edcc39b91127",
+      "bodyCharacterCount": 87,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-15T15:04:28.909Z",
+      "assessment": {
+        "centralEvent": "The Real Reason Most AI Social Tools Are Useless (or a Liability) for Brands",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ffc7b43ee50f74cceaeb": {
+      "storyId": "ffc7b43ee50f74cceaeb",
+      "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
+      "title": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
+      "source": "The Verge AI",
+      "published": "2026-10-15T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b9232b3330c6d032b62ea893",
+      "bodyFingerprint": "5d1c0003053a46a14cf90d62",
+      "bodyCharacterCount": 4448,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:28.931Z",
+      "assessment": {
+        "centralEvent": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Jess Weatherbed AI Google News Tech Most Popular Most Popular The Tesla Roadster could have stayed vaporware Honey, Xbox shrunk its controller As a TV enthusiast, I was hoping for more from the Apple TV 4K The Ocarina of Time remake feels r",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "An Israeli firm is sending spyware through online ads, researchers say Emma Roth 51 minutes ago Prep your cart before iPhone Duo preorders open tomorrow Cameron Faulkner 54 minutes ago Nobody is safe from celebrity AI deepfakes Mia Sato 58 ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c07a9af3c9fccff99bb2": {
+      "storyId": "c07a9af3c9fccff99bb2",
+      "url": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs",
+      "title": "Amazon’s always-listening Bee wearable can now help you buy stuff",
+      "source": "The Verge AI",
+      "published": "2026-10-15T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d4099de27dd76bdeeaf18929",
+      "bodyFingerprint": "16024356b5bc272c0d6f699d",
+      "bodyCharacterCount": 6528,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:28.952Z",
+      "assessment": {
+        "centralEvent": "Amazon’s always-listening Bee wearable can now help you buy stuff",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It’s an interesting time for Amazon to introduce these products, given the recent backlash against so-called surveillance tech .",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Its larger size allows for a bigger battery, getting 21 days on a single charge.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Like the previous version, it has dual microphones, a recording indicator light, and roughly seven days of battery life on a single charge.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a0dd901df9cb7cea9e7f": {
+      "storyId": "a0dd901df9cb7cea9e7f",
+      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75",
+      "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3c18e52bbd9341c0e46f1186",
+      "bodyFingerprint": "ebd7088ab236278b32c55670",
+      "bodyCharacterCount": 5099,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:28.969Z",
+      "assessment": {
+        "centralEvent": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image Credits: Amazon All Bee devices can create conversation summaries and recaps for free, and offer 14 days of memory.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d7d08535584e1ad738c6": {
+      "storyId": "d7d08535584e1ad738c6",
+      "url": "https://www.theguardian.com/science/video/2026/oct/15/is-your-boss-watching-you-the-rise-of-ai-surveillance-at-work-video",
+      "title": "Is your boss watching you? The rise of AI surveillance at work - video",
+      "source": "The Guardian AI",
+      "published": "2026-10-15T11:10:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4efa945b863933fbe528efe8",
+      "bodyFingerprint": "7afbd319fc2b786f84250481",
+      "bodyCharacterCount": 704,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:29.149Z",
+      "assessment": {
+        "centralEvent": "Is your boss watching you? The rise of AI surveillance at work - video",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "The rise of AI surveillance at work - video",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c0b77d592a9eb64d6164": {
+      "storyId": "c0b77d592a9eb64d6164",
+      "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+      "title": "Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked",
+      "source": "The Verge AI",
+      "published": "2026-10-15T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e0b4f460c4ae25d40038a259",
+      "bodyFingerprint": "a6fdc34761e4c10ee87814d9",
+      "bodyCharacterCount": 9226,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:29.171Z",
+      "assessment": {
+        "centralEvent": "Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sean Hollister AI Gadgets Report Robot Security Tech Most Popular Most Popular The Tesla Roadster could have stayed vaporware Honey, Xbox shrunk its controller As a TV enthusiast, I was hoping for more from the Apple TV 4K The Ocarina of Ti",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He could access seemingly the entire active worldwide fleet of 68,000 robot toys.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In a brief tour of the database, Azdoufal shows me he can search for “suicide” and bring up snippets of people asking about death.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "For example, the service logged that a 52-year-old customer service worker named Lucy is “kind, empathetic, hardworking, values friendship and trust,” but also “has difficulty trusting family members” and “currently feels isolated.” It’s th",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.16,
+        "rawScore": 50.16,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.56,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dbf93256e47b3d45077d": {
+      "storyId": "dbf93256e47b3d45077d",
+      "url": "https://www.inc.com/joe-procopio/im-screening-head-of-ai-job-candidates-heres-where-theyre-fudging-their-resumes/91420077",
+      "title": "I’m Screening Head of AI Job Candidates—Here’s Where They’re Fudging Their Resumes",
+      "source": "Inc. AI",
+      "published": "2026-10-15T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a9179e219582963cd8e6b3e8",
+      "bodyFingerprint": "76b75f8d085f4ee692b77eb4",
+      "bodyCharacterCount": 56,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-15T15:04:29.195Z",
+      "assessment": {
+        "centralEvent": "I’m Screening Head of AI Job Candidates—Here’s Where They’re Fudging Their Resumes",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "14f01077535c2987d9ea": {
+      "storyId": "14f01077535c2987d9ea",
+      "url": "https://www.inc.com/kolawole-adebayo/this-manufacturing-giants-first-sales-agent-failed-the-second-one-helped-win-over-100-deals/91419735",
+      "title": "This Manufacturing Giant’s First Sales Agent Failed. The Second One Helped Win Over 100 Deals",
+      "source": "Inc. AI",
+      "published": "2026-10-15T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "31cf60a0b59eb4052c0fac65",
+      "bodyFingerprint": "09fc5d6883b07846e8b05ed6",
+      "bodyCharacterCount": 98,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-15T15:04:29.237Z",
+      "assessment": {
+        "centralEvent": "This Manufacturing Giant’s First Sales Agent Failed. The Second One Helped Win Over 100 Deals",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "362b8db6b985b4e0497b": {
+      "storyId": "362b8db6b985b4e0497b",
+      "url": "https://www.inc.com/tobi-opeyemi-amure/customer-ai-agent-startups-money-payment/91419859",
+      "title": "By 2028, Your Next Customer Might Be an AI Agent. Most Startups Can’t Take Its Money Yet",
+      "source": "Inc. AI",
+      "published": "2026-10-15T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "82b950edbc080b2c1f7cb3bd",
+      "bodyFingerprint": "a5ed883c6a957d74993ec129",
+      "bodyCharacterCount": 150,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-15T15:04:29.262Z",
+      "assessment": {
+        "centralEvent": "By 2028, Your Next Customer Might Be an AI Agent. Most Startups Can’t Take Its Money Yet",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Visa is plugging its network into ChatGPT so agents can pay merchants, and card dispute rules leave the seller holding most of the risk when one does.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d9eab8b23b0159f7b276": {
+      "storyId": "d9eab8b23b0159f7b276",
+      "url": "https://techpolicy.press/image-authentication-should-be-a-condition-of-ai-decisions",
+      "title": "Image Authentication Should be a Condition of AI Decisions",
+      "source": "Tech Policy Press AI",
+      "published": "2026-10-15T13:03:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "01ec8664c62eacade3f81e1d",
+      "bodyFingerprint": "81cc13b92b09725dbdb8a615",
+      "bodyCharacterCount": 6201,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:29.354Z",
+      "assessment": {
+        "centralEvent": "Image Authentication Should be a Condition of AI Decisions",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Otherwise, we risk scaling fraud and chaos without any tether back to reality.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Topics Related Analysis Scrutinizing the Many Faces of Political Deepfakes November 17, 2025 Analysis Synthetic Media Policy: Provenance and Authentication — Expert Insights and Questions May 2, 2025 Perspective The Ongoing Fight to Keep Ev",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Highlighting this dynamic, a technologist, Nikita Bier, recently shared a satirical post instructing an AI agent to conduct widespread return fraud against hundreds of companies with a single prompt.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.43,
+        "rawScore": 45.43,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.13,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "33a74585cabf1fe91457": {
+      "storyId": "33a74585cabf1fe91457",
+      "url": "https://restofworld.org/2026/west-ai-anxiety-optimism-innovation",
+      "title": "What the West can learn from AI optimists in the rest of the world",
+      "source": "Rest of World AI",
+      "published": "2026-10-15T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1b5de7f82d1e2a24fb6c62b6",
+      "bodyFingerprint": "7261be9482430d90f6d74a6f",
+      "bodyCharacterCount": 7820,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:29.422Z",
+      "assessment": {
+        "centralEvent": "What the West can learn from AI optimists in the rest of the world",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Having seen what deepfake abuse does to women, she sees AI as one of the few tools powerful enough to fight back.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Only 17% of U.S. adults think AI will have a positive impact on the country over the next 20 years, according to a 2025 Pew Research Center survey .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Rest of World/iStock By Payal Arora 15 October 2026 Ideas What the West can learn from AI optimists in the rest of the world By Payal Arora > Ideas Arguments, opinions and essays from a global perspective.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The countries with the least room for error are experimenting with AI not because they are blind to its risks, but because they cannot afford to wait for perfect systems to solve chronic problems.",
+            "matchedRule": "/\\b(?:long-lasting|lasting damage|years to recover|chronic|only partially reversible)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.32,
+        "rawScore": 48.32,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3925,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 3,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c1d1d07e9324be701d38": {
+      "storyId": "c1d1d07e9324be701d38",
+      "url": "https://techpolicy.press/uk-election-watchdog-develops-ai-system-to-flag-deepfakes-within-3-hours",
+      "title": "UK Election Watchdog Develops AI System to Flag Deepfakes Within 3 Hours",
+      "source": "Tech Policy Press AI",
+      "published": "2026-10-15T13:45:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2564d13008b988194836f4e6",
+      "bodyFingerprint": "fcc5da86ffb0e8d09faf913f",
+      "bodyCharacterCount": 8396,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:29.436Z",
+      "assessment": {
+        "centralEvent": "UK Election Watchdog Develops AI System to Flag Deepfakes Within 3 Hours",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "On the panel, Rangarajan cited a deepfake video circulated during Ireland’s 2025 presidential election that falsely depicted candidate Catherine Connolly announcing that the election had been called off and that she was withdrawing from the",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "UK Election Watchdog Develops AI System to Flag Deepfakes Within 3 Hours",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Over that time, he has worked on major international scoops including the Snowden disclosures, Panama Papers and offshore leaks, and Chelsea Manning’s document releases through WikiLeaks.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Unlike the USA’s fixed election cycle, UK parliamentary elections can be called at short notice — the next general election has to happen by August 2029, but it could happen much sooner, should the prime minister wish it.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Unlike the USA’s fixed election cycle, UK parliamentary elections can be called at short notice — the next general election has to happen by August 2029, but it could happen much sooner, should the prime minister wish it.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A voter leaves a polling station as voting continues in the Holborn and St Pancras by-election on October 8, 2026 in London, England. (Photo by Leon Neal/Getty Images) Republish Share The United Kingdom’s election watchdog is developing an ",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.75,
+        "rawScore": 49.75,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5225,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c37b4cddbe11d8cbcdcc": {
+      "storyId": "c37b4cddbe11d8cbcdcc",
+      "url": "https://www.lawfaremedia.org/article/why-anthropic-is-asking-for-a-rehearing-en-banc",
+      "title": "Why Anthropic Is Asking for a Rehearing En Banc",
+      "source": "Lawfare AI",
+      "published": "2026-10-15T11:00:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2b3f0ab55962d65a938a9bac",
+      "bodyFingerprint": "037418173f98b472018ec95f",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T15:04:30.253Z",
+      "assessment": {
+        "centralEvent": "Why Anthropic Is Asking for a Rehearing En Banc",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Anthropic refused to agree to a contractual requirement by the Department of Defense that its technology may be used for “all lawful use.” The frontier AI lab insisted that it would not permit the use of its Claude AI model for domestic mas",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The department subsequently mandated that all Anthropic products be removed from department systems within 180 days .",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Other Topics Armed Conflict Congress Courts & Litigation Criminal Justice & Rule of Law Cybersecurity & Tech Democracy & Elections Executive Branch Foreign Relations & International Law Intelligence States & Localities Surveillance & Privac",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Some observers predicted the death of legislative history as a tool in statutory interpretation after Justice Elena Kagan quipped, “We’re all textualists now,” and equated citing legislative history with “putting extra icing on a cake alrea",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The Senate report outlines the government’s position that their equipment “may be used for nefarious or otherwise unauthorized purposes by the Chinese government.” It also quotes the House Intelligence Committee’s 2012 warning: “Inserting m",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "3085 , the bill that became FASCSA, opens its “Background and Need for the Legislation” with a single framing sentence: “Hostile nation states and other bad actors are attempting to gain unprecedented access to sensitive and classified info",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 98,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.66,
+        "rawScore": 50.66,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.605,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-15T09:58:52.121Z"
+  "updatedAt": "2026-10-15T15:04:30.253Z"
 }
