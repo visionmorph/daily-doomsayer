@@ -258682,8 +258682,1022 @@
           "vulnerability": 0
         }
       }
+    },
+    "ba652ae58cd34a54e5ea": {
+      "storyId": "ba652ae58cd34a54e5ea",
+      "url": "https://www.inc.com/inc-video/building-whats-next-opportunity-and-responsibility-in-the-age-of-ai/91420685",
+      "title": "Building What’s Next: Opportunity and Responsibility in the Age of AI",
+      "source": "Inc. AI",
+      "published": "2026-10-15T18:32:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c267cd81697714d2ecd85560",
+      "bodyFingerprint": "ea552b46395ee8357e38bc89",
+      "bodyCharacterCount": 81,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-15T19:11:40.193Z",
+      "assessment": {
+        "centralEvent": "Building What’s Next: Opportunity and Responsibility in the Age of AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d0efebcc7c6f1b1c3d0f": {
+      "storyId": "d0efebcc7c6f1b1c3d0f",
+      "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more",
+      "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T18:56:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "109dcfa165493d3fca298383",
+      "bodyFingerprint": "cd8cc0392c90654b962532f7",
+      "bodyCharacterCount": 4739,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T19:11:40.243Z",
+      "assessment": {
+        "centralEvent": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "47e0b1fbbafa998f9e9f": {
+      "storyId": "47e0b1fbbafa998f9e9f",
+      "url": "https://mashable.com/tech/ai-job-interviews-chatbots-trolling-hiring",
+      "title": "AI job interviews are here, and people are already trying to break them",
+      "source": "Mashable AI",
+      "published": "2026-10-15T19:08:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "91bc7b3da2d2b2d2239aaae9",
+      "bodyFingerprint": "2f2bd5efe735d97a478b44a4",
+      "bodyCharacterCount": 9444,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T19:11:40.255Z",
+      "assessment": {
+        "centralEvent": "AI job interviews are here, and people are already trying to break them",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "SEE ALSO: People are threatening to uninstall ChatGPT just to see if it begs The concern is understandable.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Employers, however, see opportunities that extend well beyond having a chatbot ask introductory questions.Companies are making AI interviews part of the hiring processEarlier this month, TechCrunch reported that technical hiring platform Ha",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a4dc299544df68f2cb5e": {
+      "storyId": "a4dc299544df68f2cb5e",
+      "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+      "title": "Meta and Apple team up to make Muse AI models run better on Macs",
+      "source": "The Verge AI",
+      "published": "2026-10-15T18:15:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5ec80a2321d94bdf7cdc6f10",
+      "bodyFingerprint": "9cb0a56d02376899d0279e5c",
+      "bodyCharacterCount": 3902,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T19:11:40.266Z",
+      "assessment": {
+        "centralEvent": "Meta and Apple team up to make Muse AI models run better on Macs",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Jay Peters AI Apple Meta News Tech Most Popular Most Popular The Tesla Roadster could have stayed vaporware As a TV enthusiast, I was hoping for more from the Apple TV 4K Honey, Xbox shrunk its controller The best feature of Apple’s HomeVie",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters AI Apple Meta News Tech Most Popular Most Popular The Tesla Roadster could have stayed vaporware As a TV enthusiast, I was hoping for more from the Apple TV 4K Honey, Xbox shrunk its controller The best feature of Apple’s HomeVie",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "00f2754c37c41135cd8a": {
+      "storyId": "00f2754c37c41135cd8a",
+      "url": "https://www.inc.com/aaron-mok/rivian-ceo-rj-scaringe-says-physical-ai-will-have-its-science-fiction-moment-by-2030/91419398",
+      "title": "Rivian CEO RJ Scaringe Says Physical AI Will Have Its ‘Science Fiction’ Moment by 2030",
+      "source": "Inc. AI",
+      "published": "2026-10-15T17:54:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fd50a59cab506abd3e6e3c85",
+      "bodyFingerprint": "23c2ffe1154b3ab625648a68",
+      "bodyCharacterCount": 122,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-15T19:11:40.269Z",
+      "assessment": {
+        "centralEvent": "Rivian CEO RJ Scaringe Says Physical AI Will Have Its ‘Science Fiction’ Moment by 2030",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dbb4ac50000ed94ab766": {
+      "storyId": "dbb4ac50000ed94ab766",
+      "url": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16",
+      "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T18:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fd3b3d69044e45130cf0f1e5",
+      "bodyFingerprint": "1c727490670746630ccf69ff",
+      "bodyCharacterCount": 3176,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T19:11:40.277Z",
+      "assessment": {
+        "centralEvent": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "07d4d8f3f6b86e5f3a7e": {
+      "storyId": "07d4d8f3f6b86e5f3a7e",
+      "url": "https://mashable.com/tech/amelia-earhart-ai-missing-plane",
+      "title": "A new mission to find Amelia Earharts plane turns to AI for help",
+      "source": "Mashable AI",
+      "published": "2026-10-15T17:15:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "df28106d9e10874b1db5403e",
+      "bodyFingerprint": "ebf4a27460b9467224a48759",
+      "bodyCharacterCount": 6222,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T19:11:40.294Z",
+      "assessment": {
+        "centralEvent": "A new mission to find Amelia Earharts plane turns to AI for help",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "When modern underwater drones dive into the deep ocean, they return with mountains of sonar data and millions of hours of murky video.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7586e846bed49a42022b": {
+      "storyId": "7586e846bed49a42022b",
+      "url": "https://www.inc.com/marc-berman/he-studied-neuroscience-now-hes-using-ai-to-help-businesses-navigate-risk/91420267",
+      "title": "He Studied Neuroscience. Now He’s Using AI to Help Businesses Navigate Risk",
+      "source": "Inc. AI",
+      "published": "2026-10-15T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ea7c78f071c7176c2a166335",
+      "bodyFingerprint": "950c91f3dccefeda04dce106",
+      "bodyCharacterCount": 81,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-15T19:11:40.301Z",
+      "assessment": {
+        "centralEvent": "He Studied Neuroscience. Now He’s Using AI to Help Businesses Navigate Risk",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Now He’s Using AI to Help Businesses Navigate Risk",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d9823381f074243b91c5": {
+      "storyId": "d9823381f074243b91c5",
+      "url": "https://www.theguardian.com/technology/2026/oct/15/using-ai-online-dating-tell-us",
+      "title": "Tell us: have you used AI to help with online dating?",
+      "source": "The Guardian AI",
+      "published": "2026-10-15T16:47:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ae65599c292a8e3841c7cd1b",
+      "bodyFingerprint": "e517292f32c57c04f1ade493",
+      "bodyCharacterCount": 1741,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T19:11:40.310Z",
+      "assessment": {
+        "centralEvent": "Tell us: have you used AI to help with online dating?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "03a3d26159bcaeb4a9a1": {
+      "storyId": "03a3d26159bcaeb4a9a1",
+      "url": "https://www.404media.co/video-game-reverse-engineering-community-shuts-down-because-ai-has-made-it-too-easy",
+      "title": "Video Game Reverse Engineering Community Shuts Down Because AI Has Made It Too Easy",
+      "source": "404 Media AI",
+      "published": "2026-10-15T16:31:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "70b2352bd6640144583c8d22",
+      "bodyFingerprint": "5ccab388373893bcb7eb8289",
+      "bodyCharacterCount": 6578,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T19:11:40.317Z",
+      "assessment": {
+        "centralEvent": "Video Game Reverse Engineering Community Shuts Down Because AI Has Made It Too Easy",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "And small video game developers say their projects are regularly getting stolen by “clean room” AI clones of their games, in which the original code of a piece of software is never looked at.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Speed runners decompile video games to find potential glitches or advantages they can use to beat a game faster; hobbyists decompile video games to port them to new platforms or to emulate them (for example, making Super Mario 64 run native",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The news comes as AI-coded “clones” of popular enterprise software like the Adobe creative suite and Microsoft Office have gone viral and are seemingly popping up every day, and as people in video game modding communities warn that 'AI deco",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.52,
+        "rawScore": 47.52,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.32,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eb3656010e749434eb89": {
+      "storyId": "eb3656010e749434eb89",
+      "url": "https://www.inc.com/moses-jeanfrancois/why-new-york-city-is-suing-this-popular-online-car-shopping-platform/91419854",
+      "title": "Why New York City Is Suing This Popular Online Car Shopping Platform",
+      "source": "Inc. AI",
+      "published": "2026-10-15T16:00:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "edd93e27061a50d952839d77",
+      "bodyFingerprint": "dc045f0d23c90e729f8ae802",
+      "bodyCharacterCount": 136,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-15T19:11:40.320Z",
+      "assessment": {
+        "centralEvent": "Why New York City Is Suing This Popular Online Car Shopping Platform",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fd21c6c6982f4b55f04c": {
+      "storyId": "fd21c6c6982f4b55f04c",
+      "url": "https://www.404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month",
+      "title": "Accenture Tells Employees They Can Now Spend Only $29 on Claude Per Month",
+      "source": "404 Media AI",
+      "published": "2026-10-15T16:46:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6d282bfb30c7e22cd96205c0",
+      "bodyFingerprint": "300039809e7113b034053d1d",
+      "bodyCharacterCount": 4176,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T19:11:40.324Z",
+      "assessment": {
+        "centralEvent": "Accenture Tells Employees They Can Now Spend Only $29 on Claude Per Month",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The upgrade appears to be blocked on the support page.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c7c9cc2b493a13afd6e1": {
+      "storyId": "c7c9cc2b493a13afd6e1",
+      "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
+      "title": "Friends don’t let friends feed their data to AI agents",
+      "source": "The Verge AI",
+      "published": "2026-10-15T16:21:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cea14b1ccccbb31d78c00959",
+      "bodyFingerprint": "03f5c7c39d44951c4ce2a527",
+      "bodyCharacterCount": 14362,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T19:11:40.333Z",
+      "assessment": {
+        "centralEvent": "Friends don’t let friends feed their data to AI agents",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Related Everything is spying on you and there’s no opting out Privacy laws can’t keep up with ‘luxury surveillance’ AI agent makers are promising privacy — will they deliver?",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Janus Rose AI Meta Privacy Security Tech Most Popular Most Popular The Tesla Roadster could have stayed vaporware As a TV enthusiast, I was hoping for more from the Apple TV 4K Honey, Xbox shrunk its controller The best feature of Apple’s H",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "And for many people, the idea of having a virtual assistant that does menial tasks like filling out invoices and sending emails is compelling — especially if they don’t realize how much data they’re actually giving away in return.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "After security researchers extracted Muse’s operating instructions, they discovered an internal process that compiles and updates profiles of every single person in a user’s life on an hourly basis.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.52,
+        "rawScore": 47.52,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.32,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fe0fa43e6663edf37508": {
+      "storyId": "fe0fa43e6663edf37508",
+      "url": "https://www.inc.com/ash-kumra/why-founders-are-taking-their-marketing-offline-in-an-ai-saturated-world/91419197",
+      "title": "Why Founders Are Taking Their Marketing Offline in an AI-Saturated World",
+      "source": "Inc. AI",
+      "published": "2026-10-15T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9b6e6c0189035bb4bdb4d7dd",
+      "bodyFingerprint": "e0b30244b8b3af3a78e6041e",
+      "bodyCharacterCount": 46,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-15T19:11:40.335Z",
+      "assessment": {
+        "centralEvent": "Why Founders Are Taking Their Marketing Offline in an AI-Saturated World",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0e4b6a03be5e0ff7f4bf": {
+      "storyId": "0e4b6a03be5e0ff7f4bf",
+      "url": "https://www.inc.com/kit-eaton/an-alleged-spy-device-was-hidden-at-openai-check-this-overlooked-spot-in-your-office-today/91420378",
+      "title": "An Alleged Spy Device Was Hidden at OpenAI. Check This Overlooked Spot in Your Office Today",
+      "source": "Inc. AI",
+      "published": "2026-10-15T15:56:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a777c313341a3ef475ccd3e2",
+      "bodyFingerprint": "00df4b8e082a34a3cbc17b8a",
+      "bodyCharacterCount": 114,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-15T19:11:40.365Z",
+      "assessment": {
+        "centralEvent": "An Alleged Spy Device Was Hidden at OpenAI. Check This Overlooked Spot in Your Office Today",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "An Alleged Spy Device Was Hidden at OpenAI.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ff09edf0775022ca4432": {
+      "storyId": "ff09edf0775022ca4432",
+      "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says",
+      "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+      "source": "Ars Technica AI",
+      "published": "2026-10-15T15:43:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2d24c857eb0a180c29b1cb4e",
+      "bodyFingerprint": "7f3721338fbf3b60d25cff3a",
+      "bodyCharacterCount": 6331,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T19:11:40.462Z",
+      "assessment": {
+        "centralEvent": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav Following a string of incidents where AI models hacked websites and breached government systems dur",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "And Ferguson aligns with Trump that no new regulations are needed to protect the general public from emerging self-improving AI models that one departing Anthropic researcher warned could in the next few years “kill us all.” Trump has dismi",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "67872aee1515c3cacef7": {
+      "storyId": "67872aee1515c3cacef7",
+      "url": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs",
+      "title": "Singer or clanker? YouTube Music will tell you with new gen AI labeling.",
+      "source": "Ars Technica AI",
+      "published": "2026-10-15T15:12:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "94bd1874657544959181290f",
+      "bodyFingerprint": "c4384db643e6a171f4cb6279",
+      "bodyCharacterCount": 3831,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T19:11:40.466Z",
+      "assessment": {
+        "centralEvent": "Singer or clanker? YouTube Music will tell you with new gen AI labeling.",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-15T15:04:30.253Z"
+  "updatedAt": "2026-10-15T19:11:40.466Z"
 }
