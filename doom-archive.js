@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-15T09:00:00.000Z",
+  "generatedAt": "2026-10-15T15:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-15",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aceaa51eba493f958015701/191:100/w_1280,c_limit/politics_ai_guardrails_removed_terrorist.jpg",
           "peak": 51.31,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 51.31
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 50.16
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6acf68394246ebd08155f6c2/master/pass/2026-10-13T224936Z_547248141_RC2F2OAXO3WE_RTRMADP_3_OPENAI-SPYING-FBI.jpg",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 49.83
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 49.5,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 49.5
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ace48fd005dc85af95e36ae/master/pass/101326-Big%20Four%20UK%20parliment.jpg",
           "peak": 49.39,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 49.39
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 49.34
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 49.23
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Weather-Forecasting-01.gif?itok=n6-zCHF4",
           "peak": 48.18,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 48.18
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/6e3f91a7c491ffbb06b0d75f239e2786a37ee2e3/450_0_2915_2333/master/2915.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 48.18,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 48.18
         }
       ]
@@ -6848,11 +6848,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aceaa51eba493f958015701/191:100/w_1280,c_limit/politics_ai_guardrails_removed_terrorist.jpg",
           "peak": 51.31,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T17:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 51.31
         },
         {
@@ -6862,11 +6862,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 4,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 51.23
         },
         {
@@ -6890,11 +6890,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 4,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 50.16
         },
         {
@@ -6904,11 +6904,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6acf68394246ebd08155f6c2/master/pass/2026-10-13T224936Z_547248141_RC2F2OAXO3WE_RTRMADP_3_OPENAI-SPYING-FBI.jpg",
           "peak": 49.83,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 2,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T06:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 49.83
         },
         {
@@ -6932,11 +6932,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 49.5,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T23:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 49.5
         },
         {
@@ -6946,11 +6946,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ace48fd005dc85af95e36ae/master/pass/101326-Big%20Four%20UK%20parliment.jpg",
           "peak": 49.39,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-10-13",
           "firstObservedAt": "2026-10-14T01:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 49.39
         },
         {
@@ -6960,11 +6960,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 4,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 49.34
         }
       ]
@@ -8038,11 +8038,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aceaa51eba493f958015701/191:100/w_1280,c_limit/politics_ai_guardrails_removed_terrorist.jpg",
           "peak": 51.31,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T17:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 51.31
         },
         {
@@ -8052,11 +8052,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 62,
+          "observations": 63,
           "daysTracked": 15,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-15T09:00:00.000Z",
+          "lastObservedAt": "2026-10-15T15:00:00.000Z",
           "average": 51.23
         },
         {
