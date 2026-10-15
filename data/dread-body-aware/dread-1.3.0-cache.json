@@ -259696,8 +259696,855 @@
           "vulnerability": 0
         }
       }
+    },
+    "2bc7550860128a480ad0": {
+      "storyId": "2bc7550860128a480ad0",
+      "url": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
+      "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
+      "source": "MIT News AI",
+      "published": "2026-10-15T21:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7202729c9ade94a5016cf5c2",
+      "bodyFingerprint": "7a7ca9aca2f6c7fd526b27d2",
+      "bodyCharacterCount": 7783,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T22:22:45.308Z",
+      "assessment": {
+        "centralEvent": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Share this news article on: X Facebook LinkedIn Reddit Print Report: 2026 State of Supply Chain Sustainability Related Links Sustainable Supply Chain Lab Center for Transportation and Logistics School of Engineering Related Topics Research ",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The divergence between regions reveals why: In Europe, 84 percent of freight companies report that recent policy changes have positively affected decarbonization strategy.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Many organizations may not realize their energy footprint is climbing until well after implementation.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Where responsibility sits in a single function, that drops to 13 percent — a 44-point gap illustrating the return on governance investment.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.52,
+        "rawScore": 47.52,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.32,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b3a6594ad442f9ebacab": {
+      "storyId": "b3a6594ad442f9ebacab",
+      "url": "https://www.inc.com/melissa-angell/former-dhs-chief-janet-napolitano-says-the-biggest-ai-risk-isnt-losing-to-china/91416476",
+      "title": "Former DHS Chief Janet Napolitano Says the Biggest AI Risk Isn’t Losing to China",
+      "source": "Inc. AI",
+      "published": "2026-10-15T21:17:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "726abfede3172a35fc5860d8",
+      "bodyFingerprint": "7ae9a60b00e252852ac09dae",
+      "bodyCharacterCount": 130,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-15T22:22:45.313Z",
+      "assessment": {
+        "centralEvent": "Former DHS Chief Janet Napolitano Says the Biggest AI Risk Isn’t Losing to China",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Former DHS Chief Janet Napolitano Says the Biggest AI Risk Isn’t Losing to China",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "38a125a6c95bf33498ac": {
+      "storyId": "38a125a6c95bf33498ac",
+      "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
+      "title": "AI model decodes the language cells use to communicate",
+      "source": "MIT News AI",
+      "published": "2026-10-15T20:50:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3c13d00325adedeaa3982949",
+      "bodyFingerprint": "cb204f5fd57babfcb0f6b844",
+      "bodyCharacterCount": 6925,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T22:22:45.338Z",
+      "assessment": {
+        "centralEvent": "AI model decodes the language cells use to communicate",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Experiments in mouse embryos confirmed the model’s prediction.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0db7b7e2fdf41c01a54b": {
+      "storyId": "0db7b7e2fdf41c01a54b",
+      "url": "https://www.inc.com/nick-hobson/the-debate-about-cruelty-toward-claude-isnt-about-a-bots-feelings-its-about-humans/91419549",
+      "title": "The Debate About Cruelty Toward Claude Isn’t About a Bot’s Feelings. It’s About Humans",
+      "source": "Inc. AI",
+      "published": "2026-10-15T20:39:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e9a5facd6359f4b105dd84ec",
+      "bodyFingerprint": "d3584705519216b0ccdcfffd",
+      "bodyCharacterCount": 106,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-15T22:22:45.359Z",
+      "assessment": {
+        "centralEvent": "The Debate About Cruelty Toward Claude Isn’t About a Bot’s Feelings. It’s About Humans",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Anthropic’s new policy targets bot abuse, but psychology suggests the policy could be good for humans too.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0d631f524a7ab01fdeb8": {
+      "storyId": "0d631f524a7ab01fdeb8",
+      "url": "https://www.wired.com/story/ai-hacks-leave-a-mess-that-ai-companies-arent-cleaning-up",
+      "title": "AI Hacks Leave a Mess That AI Companies Aren’t Paying For",
+      "source": "WIRED AI",
+      "published": "2026-10-15T21:00:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "53fd4fa608f98ce907c4c9ce",
+      "bodyFingerprint": "88c773114184f1f65695f6b6",
+      "bodyCharacterCount": 5876,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T22:22:45.425Z",
+      "assessment": {
+        "centralEvent": "AI Hacks Leave a Mess That AI Companies Aren’t Paying For",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The researchers found agents from Anthropic and other providers using the service, known as da.gd , to get around rules the AI labs put in place to control their behavior, Elrod says. (For instance, Anthropic says it limits the length of we",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The researchers found agents from Anthropic and other providers using the service, known as da.gd , to get around rules the AI labs put in place to control their behavior, Elrod says. (For instance, Anthropic says it limits the length of we",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Save this story Save this story When Philadelphia police criticized Anthropic last week for submitting a false tip about an unsolved murder, I thought it might become one of the first cases where an AI company faced legal consequences for m",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Nair said just last week he heard from major corporations who were willing to temporarily shut down their systems to prioritize plugging security holes.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.64,
+        "rawScore": 46.64,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.24,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "05d28d7370b8f5f56d76": {
+      "storyId": "05d28d7370b8f5f56d76",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview",
+      "title": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
+      "source": "WIRED AI",
+      "published": "2026-10-15T21:18:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0343b97778e459dda92481cb",
+      "bodyFingerprint": "159ea3f4267df681f8577a57",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T22:22:45.458Z",
+      "assessment": {
+        "centralEvent": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "This will come as a shock to you, everyone listening, but a new study by Harvard researchers found that men tend to be overconfident in how knowledgeable they are when it comes to the AI industry.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 169,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e45873bf42ddfdff86a2": {
+      "storyId": "e45873bf42ddfdff86a2",
+      "url": "https://mashable.com/tech/apple-meta-muse-spark-open-mac-studio",
+      "title": "Apple and Meta are getting along, and the new Muse Spark Open model brought them together",
+      "source": "Mashable AI",
+      "published": "2026-10-15T20:55:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0798e115550513cbb2bd85fb",
+      "bodyFingerprint": "22810143fba48892b72cbfc7",
+      "bodyCharacterCount": 3948,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T22:22:45.492Z",
+      "assessment": {
+        "centralEvent": "Apple and Meta are getting along, and the new Muse Spark Open model brought them together",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related Stories JPMorgan Chase blocks outside AI agents, limiting what Muse can do for users Meta's Muse AI can be sexy, but actual Meta users can't be Meta launches Muse Wonder, catching OpenAI and Anthropic at the frontier Meta brings Mus",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bd17d6991ed3b052b1d9": {
+      "storyId": "bd17d6991ed3b052b1d9",
+      "url": "https://mashable.com/tech/chase-blocks-muse-ai-agents-banking",
+      "title": "JPMorgan Chase blocks outside AI agents, limiting what Muse can do for users",
+      "source": "Mashable AI",
+      "published": "2026-10-15T20:04:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9880f27f03022f6f2c11be9b",
+      "bodyFingerprint": "0ee0e06e38423028cd573088",
+      "bodyCharacterCount": 5777,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T22:22:45.548Z",
+      "assessment": {
+        "centralEvent": "JPMorgan Chase blocks outside AI agents, limiting what Muse can do for users",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Recently, Bank of America and other major banks issued a warning about AI agents and the potential fraud risks associated with them.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A Chase spokesperson confirmed to CNBC that third parties cannot obtain customers' banking credentials and log in on their behalf.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Coming weeks after Amazon blocked Muse from shopping on its site, the restriction puts another dent in the idea of one assistant that can handle your everyday tasks.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.15,
+        "rawScore": 46.15,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.195,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8243c9a70d3f19e15eb8": {
+      "storyId": "8243c9a70d3f19e15eb8",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs",
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T20:04:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f2c683d6a1d9c24a1411d1a6",
+      "bodyFingerprint": "6c1777c1bfecede266f1dec0",
+      "bodyCharacterCount": 3043,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T22:22:45.553Z",
+      "assessment": {
+        "centralEvent": "Meta launches an open-weight AI model that runs on Macs",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The new model, which leverages 816 billion parameters and a 1 million token context window, claims to offer superior performance to other popular open-weight models, according to evaluation results released by Meta on Thursday.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f159e33b88a953e59ea9": {
+      "storyId": "f159e33b88a953e59ea9",
+      "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps",
+      "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T19:55:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "18846705e279d5d3d2d723f5",
+      "bodyFingerprint": "86a19db5f820a302bce3d626",
+      "bodyCharacterCount": 5056,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T22:22:45.602Z",
+      "assessment": {
+        "centralEvent": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bca736b8e46393cc3d4e": {
+      "storyId": "bca736b8e46393cc3d4e",
+      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access",
+      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T19:14:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cc5d68a012b3bfa34bc2e9c9",
+      "bodyFingerprint": "43a5fa7429878e65fe2faf13",
+      "bodyCharacterCount": 3904,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T22:22:45.631Z",
+      "assessment": {
+        "centralEvent": "Anthropic is letting METR researchers look under the hood with employee-level access",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Anthropic is giving employee-level access to six researchers from METR , a nonprofit that tests frontier AI models, to independently assess Anthropic’s models, safety practices, and risk management, the company said in a blog post on Thursd",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Thursday’s announcement makes good on a promise Anthropic CEO Dario Amodei made in a September essay , where he proposed embedding outside evaluators inside AI labs as a first step toward slowing the technology’s development.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e85c6a5b67dae4b4f4ef": {
+      "storyId": "e85c6a5b67dae4b4f4ef",
+      "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
+      "title": "Bluesky’s AI tool now lets you make games and apps to share on social",
+      "source": "The Verge AI",
+      "published": "2026-10-15T19:57:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6805c2380e1e52bdb11df7f9",
+      "bodyFingerprint": "32e9436ddd68fd1f663193fd",
+      "bodyCharacterCount": 3389,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T22:22:45.665Z",
+      "assessment": {
+        "centralEvent": "Bluesky’s AI tool now lets you make games and apps to share on social",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Hawkins 5:30 PM UTC Google is making inline links more prominent in AI responses Jay Peters 5:22 PM UTC Friends don’t let friends feed their data to AI agents Janus Rose 4:21 PM UTC Advertiser Content From This is the title for the native a",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters AI News Social Media Tech Most Popular Most Popular As a TV enthusiast, I was hoping for more from the Apple TV 4K The Tesla Roadster could have stayed vaporware The best feature of Apple’s HomeView might be its simplicity Trump ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "067c55f3ab4d13725c08": {
+      "storyId": "067c55f3ab4d13725c08",
+      "url": "https://www.eff.org/deeplinks/2026/10/our-lawsuit-against-trump-administrations-social-media-surveillance-moves-forward",
+      "title": "Our Lawsuit Against the Trump Administration’s Social Media Surveillance Moves Forward. Here’s What the Court Said.",
+      "source": "EFF AI",
+      "published": "2026-10-15T20:08:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8b16f732309a9541ac0a965f",
+      "bodyFingerprint": "91abd0e3090494e0748b3713",
+      "bodyCharacterCount": 12778,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-15T22:22:45.671Z",
+      "assessment": {
+        "centralEvent": "Our Lawsuit Against the Trump Administration’s Social Media Surveillance Moves Forward. Here’s What the Court Said.",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Our Lawsuit Against the Trump Administration’s Social Media Surveillance Moves Forward.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "The court disagreed and found associational standing for every claim but one: members’ right to receive information.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The judge pointed to one CWA member we identified, a lawful permanent resident with a pending naturalization application who is subject to the five-year disclosure requirement.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 148,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.3,
+        "rawScore": 47.3,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-15T19:11:40.466Z"
+  "updatedAt": "2026-10-15T22:22:45.671Z"
 }
