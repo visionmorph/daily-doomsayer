@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-15T15:00:00.000Z",
+  "generatedAt": "2026-10-15T19:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-15",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aceaa51eba493f958015701/191:100/w_1280,c_limit/politics_ai_guardrails_removed_terrorist.jpg",
           "peak": 51.31,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
           "average": 51.31
         },
         {
@@ -31,12 +31,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "c37b4cddbe11d8cbcdcc",
+          "title": "Why Anthropic Is Asking for a Rehearing En Banc",
+          "url": "https://www.lawfaremedia.org/article/why-anthropic-is-asking-for-a-rehearing-en-banc",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 50.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-15",
+          "firstObservedAt": "2026-10-15T19:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
+          "average": 50.66
         },
         {
           "storyId": "ad3515efaaf2639ca92a",
@@ -45,11 +59,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
+          "average": 50.16
+        },
+        {
+          "storyId": "c0b77d592a9eb64d6164",
+          "title": "Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked",
+          "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/eiliko-verge-sean-004.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 50.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-15",
+          "firstObservedAt": "2026-10-15T19:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
           "average": 50.16
         },
         {
@@ -59,12 +87,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6acf68394246ebd08155f6c2/master/pass/2026-10-13T224936Z_547248141_RC2F2OAXO3WE_RTRMADP_3_OPENAI-SPYING-FBI.jpg",
           "peak": 49.83,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
           "average": 49.83
+        },
+        {
+          "storyId": "c1d1d07e9324be701d38",
+          "title": "UK Election Watchdog Develops AI System to Flag Deepfakes Within 3 Hours",
+          "url": "https://techpolicy.press/uk-election-watchdog-develops-ai-system-to-flag-deepfakes-within-3-hours",
+          "source": "Tech Policy Press AI",
+          "image": "",
+          "peak": 49.75,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-15",
+          "firstObservedAt": "2026-10-15T19:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
+          "average": 49.75
         },
         {
           "storyId": "2dcf16d6f1c0e22fcddf",
@@ -87,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ace48fd005dc85af95e36ae/master/pass/101326-Big%20Four%20UK%20parliment.jpg",
           "peak": 49.39,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
           "average": 49.39
         },
         {
@@ -101,54 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
           "average": 49.34
-        },
-        {
-          "storyId": "c185b1f669ce177c88ba",
-          "title": "Who gets to decide if AI is safe? Africa wants a say",
-          "url": "https://restofworld.org/2026/african-leaders-un-security-council-ai-safety/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
-          "peak": 49.23,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-15",
-          "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
-          "average": 49.23
-        },
-        {
-          "storyId": "40c8137255fe9e48d14a",
-          "title": "Researchers improve weather forecasts looking two to six weeks out",
-          "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
-          "source": "MIT News AI",
-          "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Weather-Forecasting-01.gif?itok=n6-zCHF4",
-          "peak": 48.18,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-15",
-          "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
-          "average": 48.18
-        },
-        {
-          "storyId": "b07c795d57e14f1c7c33",
-          "title": "OpenAI’s London staff receive average of £2.3m per person annually",
-          "url": "https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/6e3f91a7c491ffbb06b0d75f239e2786a37ee2e3/450_0_2915_2333/master/2915.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 48.18,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-15",
-          "firstObservedAt": "2026-10-15T09:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
-          "average": 48.18
         }
       ]
     },
@@ -6848,11 +6848,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aceaa51eba493f958015701/191:100/w_1280,c_limit/politics_ai_guardrails_removed_terrorist.jpg",
           "peak": 51.31,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T17:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
           "average": 51.31
         },
         {
@@ -6862,11 +6862,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 4,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
           "average": 51.23
         },
         {
@@ -6884,17 +6884,45 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.71
         },
         {
+          "storyId": "c37b4cddbe11d8cbcdcc",
+          "title": "Why Anthropic Is Asking for a Rehearing En Banc",
+          "url": "https://www.lawfaremedia.org/article/why-anthropic-is-asking-for-a-rehearing-en-banc",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 50.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-15",
+          "firstObservedAt": "2026-10-15T19:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
+          "average": 50.66
+        },
+        {
           "storyId": "ad3515efaaf2639ca92a",
           "title": "AI is less regulated than milk, says Microsoft president",
           "url": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da16/live/eacee500-c610-11f1-aae8-850c1751d51d.jpg",
           "peak": 50.16,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 4,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
+          "average": 50.16
+        },
+        {
+          "storyId": "c0b77d592a9eb64d6164",
+          "title": "Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked",
+          "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/eiliko-verge-sean-004.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 50.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-15",
+          "firstObservedAt": "2026-10-15T19:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
           "average": 50.16
         },
         {
@@ -6904,12 +6932,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6acf68394246ebd08155f6c2/master/pass/2026-10-13T224936Z_547248141_RC2F2OAXO3WE_RTRMADP_3_OPENAI-SPYING-FBI.jpg",
           "peak": 49.83,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T06:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
           "average": 49.83
+        },
+        {
+          "storyId": "c1d1d07e9324be701d38",
+          "title": "UK Election Watchdog Develops AI System to Flag Deepfakes Within 3 Hours",
+          "url": "https://techpolicy.press/uk-election-watchdog-develops-ai-system-to-flag-deepfakes-within-3-hours",
+          "source": "Tech Policy Press AI",
+          "image": "",
+          "peak": 49.75,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-15",
+          "firstObservedAt": "2026-10-15T19:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
+          "average": 49.75
         },
         {
           "storyId": "6c867da20aa7c42ab66c",
@@ -6924,48 +6966,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-13T00:00:00.000Z",
           "lastObservedAt": "2026-10-13T07:00:00.000Z",
           "average": 49.66
-        },
-        {
-          "storyId": "2dcf16d6f1c0e22fcddf",
-          "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
-          "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 49.5,
-          "observations": 4,
-          "daysTracked": 2,
-          "peakDate": "2026-10-14",
-          "firstObservedAt": "2026-10-14T23:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
-          "average": 49.5
-        },
-        {
-          "storyId": "bb575fe9ad4e4a983b92",
-          "title": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
-          "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6ace48fd005dc85af95e36ae/master/pass/101326-Big%20Four%20UK%20parliment.jpg",
-          "peak": 49.39,
-          "observations": 9,
-          "daysTracked": 3,
-          "peakDate": "2026-10-13",
-          "firstObservedAt": "2026-10-14T01:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
-          "average": 49.39
-        },
-        {
-          "storyId": "3b2bd6e595cae7a06e8a",
-          "title": "Our Best Stuff on the Debate Over AI",
-          "url": "https://thedispatch.com/newsletter/weekly/artificial-intelligence-danger-catholic-church/",
-          "source": "The Dispatch AI",
-          "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
-          "peak": 49.34,
-          "observations": 15,
-          "daysTracked": 4,
-          "peakDate": "2026-10-12",
-          "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
-          "average": 49.34
         }
       ]
     },
@@ -8038,11 +8038,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aceaa51eba493f958015701/191:100/w_1280,c_limit/politics_ai_guardrails_removed_terrorist.jpg",
           "peak": 51.31,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T17:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
           "average": 51.31
         },
         {
@@ -8052,11 +8052,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 63,
+          "observations": 64,
           "daysTracked": 15,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-15T15:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
           "average": 51.23
         },
         {
@@ -8088,6 +8088,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.71
         },
         {
+          "storyId": "c37b4cddbe11d8cbcdcc",
+          "title": "Why Anthropic Is Asking for a Rehearing En Banc",
+          "url": "https://www.lawfaremedia.org/article/why-anthropic-is-asking-for-a-rehearing-en-banc",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 50.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-15",
+          "firstObservedAt": "2026-10-15T19:00:00.000Z",
+          "lastObservedAt": "2026-10-15T19:00:00.000Z",
+          "average": 50.66
+        },
+        {
           "storyId": "71d5bfe9bb93bb7ce7b2",
           "title": "China has cracked down on AI relationships. Is it ahead of the game?",
           "url": "https://www.bbc.co.uk/news/articles/cm4gjy9lr551o?at_medium=RSS&at_campaign=rss",
@@ -8114,20 +8128,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
           "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 50.33
-        },
-        {
-          "storyId": "deb3b6cf4c86fef5e692",
-          "title": "These AI Experts Want to Do High-Stakes Research Out in the Open",
-          "url": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6abfd54ac4eb41b65cf33011/master/pass/Trillium-Labs-Risky-AI-Research-Business-edit.jpg",
-          "peak": 50.22,
-          "observations": 21,
-          "daysTracked": 6,
-          "peakDate": "2026-10-02",
-          "firstObservedAt": "2026-10-02T22:00:00.000Z",
-          "lastObservedAt": "2026-10-07T08:00:00.000Z",
-          "average": 50.22
         }
       ]
     },
