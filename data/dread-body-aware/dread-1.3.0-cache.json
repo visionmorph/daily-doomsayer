@@ -260543,8 +260543,443 @@
           "vulnerability": 0
         }
       }
+    },
+    "bdb5caa1dae4ab509e1b": {
+      "storyId": "bdb5caa1dae4ab509e1b",
+      "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off",
+      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T23:44:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "10a715da76c88ce54610e1b2",
+      "bodyFingerprint": "c0225bce8c91ac541a38c1a8",
+      "bodyCharacterCount": 4074,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T01:23:59.033Z",
+      "assessment": {
+        "centralEvent": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c462dfdce3bb5a72ee6f": {
+      "storyId": "c462dfdce3bb5a72ee6f",
+      "url": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
+      "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
+      "source": "The Verge AI",
+      "published": "2026-10-15T22:35:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bbea785ba433491d9c062de0",
+      "bodyFingerprint": "089edd5d818a0cf55062e249",
+      "bodyCharacterCount": 3853,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T01:23:59.055Z",
+      "assessment": {
+        "centralEvent": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Jay Peters AI Gaming News Most Popular Most Popular As a TV enthusiast, I was hoping for more from the Apple TV 4K The Tesla Roadster could have stayed vaporware The best feature of Apple’s HomeView might be its simplicity Trump calls off l",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44.55,
+        "rawScore": 44.55,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e07170025272d6f16433": {
+      "storyId": "e07170025272d6f16433",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+      "title": "ChatGPT can peek at your Chrome tabs now",
+      "source": "The Verge AI",
+      "published": "2026-10-15T22:43:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1a4670762ff15313edc1eab6",
+      "bodyFingerprint": "95cb3841aa9103b010c4461b",
+      "bodyCharacterCount": 3696,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T01:23:59.082Z",
+      "assessment": {
+        "centralEvent": "ChatGPT can peek at your Chrome tabs now",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Stevie Bonifield AI Chrome Google News OpenAI Tech Most Popular Most Popular As a TV enthusiast, I was hoping for more from the Apple TV 4K The Tesla Roadster could have stayed vaporware The best feature of Apple’s HomeView might be its sim",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video showing someone asking ChatGPT to compare the three tabs they have open with sofas th",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44.55,
+        "rawScore": 44.55,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4be5a46cec5945959e36": {
+      "storyId": "4be5a46cec5945959e36",
+      "url": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
+      "title": "The tech backlash is now in theaters",
+      "source": "The Verge AI",
+      "published": "2026-10-15T21:39:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "83d5be12c14d205984893ebf",
+      "bodyFingerprint": "43575107323092f013228fb3",
+      "bodyCharacterCount": 9830,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T01:23:59.092Z",
+      "assessment": {
+        "centralEvent": "The tech backlash is now in theaters",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Charles Pulliam-Moore AI Analysis Elon Musk Entertainment Facebook Film Meta OpenAI Report Tech xAI Most Popular Most Popular As a TV enthusiast, I was hoping for more from the Apple TV 4K The Tesla Roadster could have stayed vaporware The ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "And while Luca Guadagnino’s Artificial is a dark comedy, it is also a character study that makes Sam Altman look like a manipulative sociopath .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Similarly, Gibney’s Musk documentary acts as both a chronicle of the xAI / SpaceX head’s past and an inquiry into why the public was ever willing to let Musk accrue so much power within governments across the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "X has blocked the feature from being advertised on the platform, and Musk — a self-proclaimed “free speech absolutist” — has threatened to take legal action against Gibney for producing a “hit piece.” It wasn’t entirely surprising to see Mu",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.58,
+        "rawScore": 47.58,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "efba77569468c0f0a9d6": {
+      "storyId": "efba77569468c0f0a9d6",
+      "url": "https://www.theguardian.com/technology/2026/oct/16/meta-releases-muse-spark-open-a-new-open-weight-ai-model",
+      "title": "Meta releases Muse Spark Open, a new ‘open-weight’ AI model",
+      "source": "The Guardian AI",
+      "published": "2026-10-16T00:34:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c8b092474c79c41104599fc4",
+      "bodyFingerprint": "3d5298028f44467c711a087d",
+      "bodyCharacterCount": 2331,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T01:23:59.095Z",
+      "assessment": {
+        "centralEvent": "Meta releases Muse Spark Open, a new ‘open-weight’ AI model",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "43032a6db2e0b8c5afd7": {
+      "storyId": "43032a6db2e0b8c5afd7",
+      "url": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
+      "title": "Trump posts AI-edited photo to brag about White House restoration work",
+      "source": "The Verge AI",
+      "published": "2026-10-15T21:09:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fa6ad39bbc5a6bdc4c32db65",
+      "bodyFingerprint": "359cc0966d18695a41fae190",
+      "bodyCharacterCount": 4187,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T01:23:59.111Z",
+      "assessment": {
+        "centralEvent": "Trump posts AI-edited photo to brag about White House restoration work",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emma Roth AI OpenAI Policy Politics Most Popular Most Popular As a TV enthusiast, I was hoping for more from the Apple TV 4K The Tesla Roadster could have stayed vaporware The best feature of Apple’s HomeView might be its simplicity Trump c",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emma Roth AI OpenAI Policy Politics Most Popular Most Popular As a TV enthusiast, I was hoping for more from the Apple TV 4K The Tesla Roadster could have stayed vaporware The best feature of Apple’s HomeView might be its simplicity Trump c",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d2a7caec1901f29211f3": {
+      "storyId": "d2a7caec1901f29211f3",
+      "url": "https://www.politico.com/news/2026/10/15/senate-add-claude-staffers-ai-01122420",
+      "title": "Senate poised to add Claude to staffers’ AI tools",
+      "source": "POLITICO AI",
+      "published": "2026-10-15T22:28:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c7b9161b0d808a02cb7d4f86",
+      "bodyFingerprint": "26f91459a0f81dac09e7ebe8",
+      "bodyCharacterCount": 60,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-16T01:23:59.131Z",
+      "assessment": {
+        "centralEvent": "Senate poised to add Claude to staffers’ AI tools",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-15T22:22:45.671Z"
+  "updatedAt": "2026-10-16T01:23:59.131Z"
 }
