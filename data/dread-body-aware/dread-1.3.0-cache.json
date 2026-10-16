@@ -261603,8 +261603,1409 @@
           "vulnerability": 0
         }
       }
+    },
+    "a7f932b21d4d88a30dc8": {
+      "storyId": "a7f932b21d4d88a30dc8",
+      "url": "https://www.inc.com/pam-didner/why-ai-strategy-fails-data-quality-budget/91419432",
+      "title": "Why Your AI Strategy Is Failing (Hint: It’s Not the Technology)",
+      "source": "Inc. AI",
+      "published": "2026-10-16T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eb18d4a0b60dd371fac77472",
+      "bodyFingerprint": "e09c20e387b3687a92bd61b8",
+      "bodyCharacterCount": 142,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-16T17:27:21.125Z",
+      "assessment": {
+        "centralEvent": "Why Your AI Strategy Is Failing (Hint: It’s Not the Technology)",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7cf2fb5203224340531f": {
+      "storyId": "7cf2fb5203224340531f",
+      "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it",
+      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+      "source": "TechCrunch AI",
+      "published": "2026-10-16T16:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1f9a45570284727a584f0a70",
+      "bodyFingerprint": "b1b72077d9c8156369c0f5e6",
+      "bodyCharacterCount": 4375,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.167Z",
+      "assessment": {
+        "centralEvent": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bf815e64fedf96f62911": {
+      "storyId": "bf815e64fedf96f62911",
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet",
+      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "source": "TechCrunch AI",
+      "published": "2026-10-16T16:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "060d6de555967fb37f8340b7",
+      "bodyFingerprint": "6b6a6e33b4aa7c89b347b345",
+      "bodyCharacterCount": 378,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-16T17:27:21.173Z",
+      "assessment": {
+        "centralEvent": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "75fa23d8834b88f0cdaa": {
+      "storyId": "75fa23d8834b88f0cdaa",
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them",
+      "title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "source": "TechCrunch AI",
+      "published": "2026-10-16T16:01:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eef107ac40bdf520c671b9cf",
+      "bodyFingerprint": "3c0445c22c77e4e0f09c3522",
+      "bodyCharacterCount": 4317,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.180Z",
+      "assessment": {
+        "centralEvent": "Elorian’s first AI model wants to reason with images, not just about them",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "08ae3f1b7d83d7996372": {
+      "storyId": "08ae3f1b7d83d7996372",
+      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever",
+      "title": "Jev is Vercel’s fastest-adopted AI model ever",
+      "source": "TechCrunch AI",
+      "published": "2026-10-16T15:33:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a2cbd065185eb88072eb6876",
+      "bodyFingerprint": "83466787e6e3f2f3e7021d68",
+      "bodyCharacterCount": 3327,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.209Z",
+      "assessment": {
+        "centralEvent": "Jev is Vercel’s fastest-adopted AI model ever",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It’s a necessarily limited view — particularly at risk of undercounting major labs like OpenAI and Anthropic that offer their own APIs — but it shows the buzz around Jev really did translate into actual usage.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It’s the fastest adoption a model has ever seen in its first two weeks, according to Vercel’s data, and a major accomplishment for the model’s creators, TypeSafe AI.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bd03643a45398d758140": {
+      "storyId": "bd03643a45398d758140",
+      "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
+      "title": "Fostering community amid Kendall Square’s innovation",
+      "source": "MIT News AI",
+      "published": "2026-10-16T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c76aa99745f6b6494200f71c",
+      "bodyFingerprint": "2fde841c5e351163ca1ca639",
+      "bodyCharacterCount": 8010,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.227Z",
+      "assessment": {
+        "centralEvent": "Fostering community amid Kendall Square’s innovation",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bd84a5781ff5dc011a49": {
+      "storyId": "bd84a5781ff5dc011a49",
+      "url": "https://mashable.com/tech/oct-16-apple-tv-4k-preorder-deal",
+      "title": "The new Apple TV 4K is $10 off at Amazon — score the 1st discount this weekend",
+      "source": "Mashable AI",
+      "published": "2026-10-16T15:18:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3d22147d94da5e2831c84f67",
+      "bodyFingerprint": "2620343448c6de908f420a68",
+      "bodyCharacterCount": 3270,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.310Z",
+      "assessment": {
+        "centralEvent": "The new Apple TV 4K is $10 off at Amazon — score the 1st discount this weekend",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4151c03df2ce245fffaf": {
+      "storyId": "4151c03df2ce245fffaf",
+      "url": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me",
+      "title": "Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’",
+      "source": "WIRED AI",
+      "published": "2026-10-16T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ee9e3a9c5bb73a5bf1e99199",
+      "bodyFingerprint": "3ed4002fb502cad9416bb1ed",
+      "bodyCharacterCount": 5815,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.343Z",
+      "assessment": {
+        "centralEvent": "Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It is a polemic warning that we have reached a state of emergency where our humanity is at risk from overreliance on soulless machines who pose as our tutors , mentors , friends, colleagues, and lovers .",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "STEVEN LEVY: Your previous books reported results of your research as a social scientist, often leading to troubling conclusions about how people, especially children, interact with computers.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Yet hundreds of millions of people use them.",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It’s really not afraid of death, it’s not afraid of illness, it's not afraid of pain, it doesn't love its children, and it doesn't care if you kill yourself or make dinner.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Do you really feel that our growing intimacy with AI can be stopped?",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.73,
+        "rawScore": 28.73,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.43,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7dc0e5c6956b6261873f": {
+      "storyId": "7dc0e5c6956b6261873f",
+      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy",
+      "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+      "source": "TechCrunch AI",
+      "published": "2026-10-16T14:26:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d7fa68ff9753e3075aecfa8a",
+      "bodyFingerprint": "04fa2252aa4b11211b843d3e",
+      "bodyCharacterCount": 4335,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.377Z",
+      "assessment": {
+        "centralEvent": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "54ebdfe79863725a2466": {
+      "storyId": "54ebdfe79863725a2466",
+      "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+      "source": "The Verge AI",
+      "published": "2026-10-16T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d136fe21d4d8e4be71114f0c",
+      "bodyFingerprint": "0c9e94888e4844b2c9c64075",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.409Z",
+      "assessment": {
+        "centralEvent": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Hawkins 2:15 PM UTC Meta’s new terms may allow it to train AI on news sites for free Emma Roth 2:02 PM UTC This stretchy MagSafe storage pouch gives your phone a sizable trunk Andrew Liszewski 1:33 PM UTC iPhone Duo orders are already delay",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "I mostly game on my desktop, where I’m spoiled by using an RTX 5090 on a 32-inch 4K screen every day with maxed-out game settings, but I didn’t mind the look of medium settings on a 15-inch display.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Using local AI has major privacy advantages over cloud models, but it’s definitely less convenient since local LLMs are much slower to process and more taxing on your system.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "My Evernote notes disappeared a few times one day when I alt-tabbed away, but a force refresh fixed that.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "My Evernote notes disappeared a few times one day when I alt-tabbed away, but a force refresh fixed that.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "I mostly game on my desktop, where I’m spoiled by using an RTX 5090 on a 32-inch 4K screen every day with maxed-out game settings, but I didn’t mind the look of medium settings on a 15-inch display.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 133,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.92,
+        "rawScore": 28.92,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4475,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8cf088839c476fd7711f": {
+      "storyId": "8cf088839c476fd7711f",
+      "url": "https://www.politico.eu/article/in-europe-tech-capital-ireland-irish-labor-unions-are-booming-amid-ai-layoffs",
+      "title": "In Europe’s tech capital, Irish labor unions are booming amid AI-driven layoffs",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-16T15:44:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4990078bee3884f135657029",
+      "bodyFingerprint": "1136a9eb9c20901cc8afecf7",
+      "bodyCharacterCount": 8640,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.416Z",
+      "assessment": {
+        "centralEvent": "In Europe’s tech capital, Irish labor unions are booming amid AI-driven layoffs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A report by the IMF earlier this year warned that Ireland’s labor market is “relatively more exposed” to AI than many advanced economies, partly due to its concentration of tech workers.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Ireland hosts the EU headquarters of most of the world’s largest tech companies, and more than 170,000 people are employed in the tech sector, according to the country's statistics institute.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Most eyes were on the International AI Summit , the signature tech event of Ireland's six-month presidency of the Council of the EU, where top brass from the world's biggest tech firms discussed ways to harness artificial intelligence and m",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“But post-Covid, workforce adjustments happened again and again, with layoffs and declining conditions in the sector.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“I do think what we will see is that parts of roles will be automated, which means that people will be competing more heavily for the same roles,\" she said. \"They won't have the same labor power and therefore we're going to see a drop in qu",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.01,
+        "rawScore": 49.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 2
+        }
+      }
+    },
+    "ca580b1475b7847a1b70": {
+      "storyId": "ca580b1475b7847a1b70",
+      "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+      "title": "Meta’s new terms may allow it to train AI on news sites for free",
+      "source": "The Verge AI",
+      "published": "2026-10-16T14:02:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "20d5faafb354802d6626269d",
+      "bodyFingerprint": "ea96c0f7b11dc229e98ec2a2",
+      "bodyCharacterCount": 5747,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.427Z",
+      "assessment": {
+        "centralEvent": "Meta’s new terms may allow it to train AI on news sites for free",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Hawkins 2:15 PM UTC This stretchy MagSafe storage pouch gives your phone a sizable trunk Andrew Liszewski 1:33 PM UTC iPhone Duo orders are already delayed into 2027 Stevie Bonifield 1:10 PM UTC Advertiser Content From This is the title for",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth AI Meta News Policy Tech Most Popular Most Popular The Tesla Roadster flew, drove upside down, and hit 60mph in under a second The incredible flying Tesla Roadster is just for show Friends don’t let friends feed their data to AI a",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "657188b4be634999a7ee": {
+      "storyId": "657188b4be634999a7ee",
+      "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods",
+      "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+      "source": "TechCrunch AI",
+      "published": "2026-10-16T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6a140f864272064b2884bbbe",
+      "bodyFingerprint": "6824eefe47d6e6c2bf7b0bb1",
+      "bodyCharacterCount": 4259,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.447Z",
+      "assessment": {
+        "centralEvent": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "As part of the partnership, all 18 championship crowns will include Veritas’ chips so they can be verified.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6ef595aef431497bcd61": {
+      "storyId": "6ef595aef431497bcd61",
+      "url": "https://www.404media.co/undercover-cops-using-ai-generated-child-arrest",
+      "title": "Cops Used AI Generated Photos of a Child to Lure Out a Suspected Predator",
+      "source": "404 Media AI",
+      "published": "2026-10-16T13:57:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7c8b204b2c6efefc81e04fa5",
+      "bodyFingerprint": "f1dcfdea77b37cc0f5859918",
+      "bodyCharacterCount": 4595,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.460Z",
+      "assessment": {
+        "centralEvent": "Cops Used AI Generated Photos of a Child to Lure Out a Suspected Predator",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In 2025, a 45-year-old man was arrested after investigators used AI generated images of children to catch him distributing child sexual abuse material.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to an affidavit written by the department’s FBI Task Force Officer McKailey Scott, the investigation was done by the Livonia Undercover Resistance to Exploitation Unit (LURE), which identifies and prosecutes child sex offenders.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The National Center for Missing and Exploited Children has reported a massive rise in generative AI child abuse material, with criminals using it to extort and entice children, and children using it to bully and harrass other children.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "87d5b089f046a18e36d3": {
+      "storyId": "87d5b089f046a18e36d3",
+      "url": "https://mashable.com/tech/amazon-bee-ai-wearable-where-to-buy",
+      "title": "Amazon’s all-new Bee Frontier is available now: Shop this always-listening AI wearable",
+      "source": "Mashable AI",
+      "published": "2026-10-16T13:39:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9d0b5824f4db0608571d60af",
+      "bodyFingerprint": "036636601415a40c54668462",
+      "bodyCharacterCount": 2889,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.481Z",
+      "assessment": {
+        "centralEvent": "Amazon’s all-new Bee Frontier is available now: Shop this always-listening AI wearable",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "02f60fa99bd6fa5dfa5e": {
+      "storyId": "02f60fa99bd6fa5dfa5e",
+      "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company",
+      "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+      "source": "TechCrunch AI",
+      "published": "2026-10-16T12:55:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e69840b34b43d050aa4e9b80",
+      "bodyFingerprint": "31818ac60fbce95864fde4e6",
+      "bodyCharacterCount": 4482,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.492Z",
+      "assessment": {
+        "centralEvent": "Replit’s CEO says the future of work is the ‘self-driving company’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "96acdef40d3eeadb1b65": {
+      "storyId": "96acdef40d3eeadb1b65",
+      "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees",
+      "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+      "source": "Ars Technica AI",
+      "published": "2026-10-16T15:41:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "09c192e21bb1429823f27a31",
+      "bodyFingerprint": "36caa62b4059eea8ee67449f",
+      "bodyCharacterCount": 8881,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.558Z",
+      "assessment": {
+        "centralEvent": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Targeted ads delivered 0-click exploits to install mercenary malware 5.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As Nieman Lab reported Thursday, this will affect all business accounts but is particularly shocking for news publishers who could perhaps charge Meta millions in licensing fees to continually access their articles for AI training.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He told Nieman Lab that he knows that his website has already been “scraped to death,” but the TOS update seemed like “such an arrogant, in-your-face move on” Meta’s part.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Notably, there is no mention of AI, but it’s inferred from a single use of the word “train” and references to automated scraping and crawling.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a3688c3437ffab6ac764": {
+      "storyId": "a3688c3437ffab6ac764",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261015073218.htm",
+      "title": "The uranium cubes that exposed Nazi Germany’s nuclear failure",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-16T12:32:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c2dea649e7bc1e34f6bc0d5b",
+      "bodyFingerprint": "439da49a3de0d1cde35e2af2",
+      "bodyCharacterCount": 10601,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.632Z",
+      "assessment": {
+        "centralEvent": "The uranium cubes that exposed Nazi Germany’s nuclear failure",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "The uranium cubes that exposed Nazi Germany’s nuclear failure",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "PNAS Nexus , 2026; 5 (9) DOI: 10.1093/pnasnexus/pgag282 Cite This Page : MLA APA Chicago PNAS Nexus. \"The uranium cubes that exposed Nazi Germany’s nuclear failure.\" ScienceDaily.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 82,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ffb9cafef072bda36587": {
+      "storyId": "ffb9cafef072bda36587",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261014072018.htm",
+      "title": "A quantum highway just one atom high could transform superconductors",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-16T04:22:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5713f7821d6d4f6572183675",
+      "bodyFingerprint": "dacfb579d1e7c7bb8f6b2b79",
+      "bodyCharacterCount": 8540,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.640Z",
+      "assessment": {
+        "centralEvent": "A quantum highway just one atom high could transform superconductors",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Using four-terminal resistance measurements, which allow researchers to precisely measure electrical resistance, the team found that vortices traveled more than 1,000 times more easily along the atomic steps than across them when exposed to",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Using four-terminal resistance measurements, which allow researchers to precisely measure electrical resistance, the team found that vortices traveled more than 1,000 times more easily along the atomic steps than across them when exposed to",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The discovery was made by researchers at the Research Center for Materials Nanoarchitectonics (MANA), part of Japan's National Institute for Materials Science (NIMS).",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Explore More from ScienceDaily RELATED STORIES Revealing the 'True Colors' of a Single-Atom Layer of Metal Alloys Jan.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.02,
+        "rawScore": 48.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ac965e8c22f65604d84f": {
+      "storyId": "ac965e8c22f65604d84f",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261014015507.htm",
+      "title": "Astronomers discover a strange universal rule behind black hole eruptions",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-16T10:45:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "396c1b91821ad528c2d5b06c",
+      "bodyFingerprint": "55c01f19ac556bcf99608c56",
+      "bodyCharacterCount": 13916,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.684Z",
+      "assessment": {
+        "centralEvent": "Astronomers discover a strange universal rule behind black hole eruptions",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The Eddington limit is a theoretical benchmark describing the point at which the outward pressure produced by radiation balances the inward pull of gravity.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The second can happen much later, hundreds or even thousands of days after the star is initially destroyed.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Adelle Goodwin, an astrophysicist at Curtin University's International Centre of Radio Astronomy Research (ICRAR) and a Forrest Research Foundation Fellow, alongside co-author Dr.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 91,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a9bac7249b15a7a13d80": {
+      "storyId": "a9bac7249b15a7a13d80",
+      "url": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain",
+      "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
+      "source": "Ars Technica AI",
+      "published": "2026-10-16T14:00:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e1cf14b18868f2990903399a",
+      "bodyFingerprint": "885dd6467c1a9668234d981d",
+      "bodyCharacterCount": 6225,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T17:27:21.800Z",
+      "assessment": {
+        "centralEvent": "Super Scam Me documentary shows what it takes to catch a romance scammer",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Super Scam Me documentary shows what it takes to catch a romance scammer",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The one-hour special notably drops shortly after a congressional investigation into dating app scams ended with a finding that scammers are getting harder to catch, NBC News reported .",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Sneak peek at National Geographic’s Super Scam Me .",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-16T12:29:20.924Z"
+  "updatedAt": "2026-10-16T17:27:21.800Z"
 }
