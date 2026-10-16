@@ -261122,8 +261122,489 @@
           "vulnerability": 0
         }
       }
+    },
+    "aba9009f34113e9cfcd2": {
+      "storyId": "aba9009f34113e9cfcd2",
+      "url": "https://www.inc.com/ray-fernandez/startup-chatbots-bank-accounts-fintech-founder/91420844",
+      "title": "Chatbots Can See Your Bank Accounts. This Fintech Founder Says There Are 2 Things They Still Can’t Do",
+      "source": "Inc. AI",
+      "published": "2026-10-16T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "44584c4735c6db1af23dfd21",
+      "bodyFingerprint": "0a2311155894c0c2231c08d0",
+      "bodyCharacterCount": 141,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-16T12:29:20.014Z",
+      "assessment": {
+        "centralEvent": "Chatbots Can See Your Bank Accounts. This Fintech Founder Says There Are 2 Things They Still Can’t Do",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "232194d3a534028a8330": {
+      "storyId": "232194d3a534028a8330",
+      "url": "https://www.inc.com/ash-kumra/disney-is-making-a-20-million-bet-on-character-ai-heres-what-its-really-buying/91419342",
+      "title": "Disney Is Making a $20 Million Bet on Character.AI. Here’s What It’s Really Buying",
+      "source": "Inc. AI",
+      "published": "2026-10-16T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "faa90ae45923a41571bd81ed",
+      "bodyFingerprint": "9658e6b628b58db658bcb9f6",
+      "bodyCharacterCount": 47,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-16T12:29:20.017Z",
+      "assessment": {
+        "centralEvent": "Disney Is Making a $20 Million Bet on Character.AI. Here’s What It’s Really Buying",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a27422ea186c64668efb": {
+      "storyId": "a27422ea186c64668efb",
+      "url": "https://www.inc.com/joe-procopio/hey-meatbags-stop-being-so-mean-to-your-ai/91420894",
+      "title": "Hey Meatbags! Stop Being So Mean To Your AI",
+      "source": "Inc. AI",
+      "published": "2026-10-16T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a5e1cd54e40c7a971733fe43",
+      "bodyFingerprint": "a8a46e3d980f5670e05ebb2b",
+      "bodyCharacterCount": 70,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-16T12:29:20.020Z",
+      "assessment": {
+        "centralEvent": "Hey Meatbags! Stop Being So Mean To Your AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f20c2ea0954dea8ecebf": {
+      "storyId": "f20c2ea0954dea8ecebf",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/16/ai-existential-threat-real-journalism-democracy-resistance",
+      "title": "AI threatens democracy. But we are not powerless: here’s how to fight back | Carine Fouteau",
+      "source": "The Guardian AI",
+      "published": "2026-10-16T07:49:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "50c6a96ef4df20e72f102213",
+      "bodyFingerprint": "52b15eed7fff8184ac7ef817",
+      "bodyCharacterCount": 7057,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T12:29:20.138Z",
+      "assessment": {
+        "centralEvent": "AI threatens democracy. But we are not powerless: here’s how to fight back | Carine Fouteau",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "AI companies appear answerable only to their shareholders.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "af9e2669fba13771a2f5": {
+      "storyId": "af9e2669fba13771a2f5",
+      "url": "https://www.wired.com/story/ai-generated-hot-girls-are-ripping-off-comedians-to-boost-their-horny-content",
+      "title": "AI-Generated Hot Girls Are Ripping Off Comedians to Boost Their Horny Content",
+      "source": "WIRED AI",
+      "published": "2026-10-16T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "337924a381670fc4f1601584",
+      "bodyFingerprint": "f5345b19455cecfd54b6cca2",
+      "bodyCharacterCount": 10071,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T12:29:20.156Z",
+      "assessment": {
+        "centralEvent": "AI-Generated Hot Girls Are Ripping Off Comedians to Boost Their Horny Content",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "For Jasunas, being ripped off by a sexy AI-generated comedian was “violating on so many different levels.” “It’s one thing to have your jokes stolen,” she says.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“It’s another to funnel your work into something so sexualized, for someone else’s profit.” She immediately reported the video to Meta for impersonation, but says Meta told her it did not violate community guidelines because Skye wasn’t pre",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2e298a35d6b6074f838b": {
+      "storyId": "2e298a35d6b6074f838b",
+      "url": "https://restofworld.org/2026/china-open-weight-models",
+      "title": "Western open-weight models still can’t beat China",
+      "source": "Rest of World AI",
+      "published": "2026-10-16T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bac902e4d6be33cacb381a23",
+      "bodyFingerprint": "3ad6b402ae2bdb6777950d5a",
+      "bodyCharacterCount": 8744,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T12:29:20.283Z",
+      "assessment": {
+        "centralEvent": "Western open-weight models still can’t beat China",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "American models are also very tuned for American workloads, but when you take those same models and try to deploy them in remote parts of the world, often they don’t work so well.” Daniel Björkegren, assistant professor at Columbia Universi",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Resource constraints forced Chinese developers to build leaner, more efficient systems that appeal to global markets.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.98,
+        "rawScore": 25.98,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d644ab82f6c9a4ebf22f": {
+      "storyId": "d644ab82f6c9a4ebf22f",
+      "url": "https://mashable.com/tech/ai-delete-swedish-reality-tv-episodes",
+      "title": "AI did not delete Swedish reality TV series, broadcaster says",
+      "source": "Mashable AI",
+      "published": "2026-10-16T07:32:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0bfd4a12a174acf9446e630d",
+      "bodyFingerprint": "178e7b6f0c74dbd627442c49",
+      "bodyCharacterCount": 2655,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T12:29:20.308Z",
+      "assessment": {
+        "centralEvent": "AI did not delete Swedish reality TV series, broadcaster says",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Related Stories 'Wonka’s Golden Ticket' on Netflix: How it uses AI Gene Wilder An OpenAI agent hacked the Australian government The 40 most addictive reality TV shows streaming on Netflix 7 of the best reality shows from around the world Go",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A spokesperson for The Challenge confirmed to Aftonbladet that the files had disappeared, stating that the show's premiere has been delayed from Nov.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories 'Wonka’s Golden Ticket' on Netflix: How it uses AI Gene Wilder An OpenAI agent hacked the Australian government The 40 most addictive reality TV shows streaming on Netflix 7 of the best reality shows from around the world Go",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0d442ac7397a8c18f6e8": {
+      "storyId": "0d442ac7397a8c18f6e8",
+      "url": "https://www.nature.com/articles/d41586-026-03253-2",
+      "title": "PhD students who write dissertation with AI less likely to stay in academia",
+      "source": "Nature AI News & Comment",
+      "published": "2026-10-16T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "86aadfc2c9cc474e57c7cc97",
+      "bodyFingerprint": "fe7ae2e426fe564d1f99a055",
+      "bodyCharacterCount": 76,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-16T12:29:20.924Z",
+      "assessment": {
+        "centralEvent": "PhD students who write dissertation with AI less likely to stay in academia",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-16T07:13:46.287Z"
+  "updatedAt": "2026-10-16T12:29:20.924Z"
 }
