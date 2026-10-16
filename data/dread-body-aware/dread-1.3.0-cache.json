@@ -260978,8 +260978,152 @@
           "vulnerability": 0
         }
       }
+    },
+    "611f4c912bb9826ffb9b": {
+      "storyId": "611f4c912bb9826ffb9b",
+      "url": "https://www.politico.eu/article/ai-eu-pressure-law-microsoft-brad-smith-google-deepmind-tech",
+      "title": "The EU is facing Big Tech pressure to revamp its AI law",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-15T18:12:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ef65cb44eac31f8a1b5a34ba",
+      "bodyFingerprint": "ebbfa2b0100cb2ca8f69dde8",
+      "bodyCharacterCount": 4544,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T07:13:46.271Z",
+      "assessment": {
+        "centralEvent": "The EU is facing Big Tech pressure to revamp its AI law",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "The EU is facing Big Tech pressure to revamp its AI law",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He admitted, though, that it’s vital to keep the rules “future-proof.” Advertisement Three gaps Most talks on the AI Act happened in 2023, and the law mentions AI agents only briefly, even though they drive more than half of current AI work",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In an exclusive interview for Decoded by POLITICO on the sidelines of the international AI summit in Dublin, Microsoft President Brad Smith said European officials should reconsider the relevance of the current rules.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "54d16d87c8f601e5874a": {
+      "storyId": "54d16d87c8f601e5874a",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crgqwvnnyv30o?at_campaign=rss&at_medium=RSS",
+      "title": "Sutton's predictions v boxer & Ipswich fan Fabio Wardley",
+      "source": "BBC News AI",
+      "published": "2026-10-15T19:26:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "17cfc9f4a672372d8955b6bb",
+      "bodyFingerprint": "457a5621a6dcefd8cfa429be",
+      "bodyCharacterCount": 16217,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-16T07:13:46.287Z",
+      "assessment": {
+        "centralEvent": "Sutton's predictions v boxer & Ipswich fan Fabio Wardley",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Published 15 October 2026 The pressure is mounting on Manchester United boss Michael Carrick after his side's poor start, but will things improve when they face rivals Leeds on Saturday? \"I cannot remember the last time Leeds were seen as f",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The AI predictions were generated using Microsoft Copilot Chat - we simply asked the tool to 'predict this weekend's Premier League scores'.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The fight, a rematch of their thrilling battle in May, when Dubois stopped Wardley in the 11th round to take his crown, will be shown live on DAZN and you can listen to live commentary on BBC Radio 5 Live as well as following a live watchal",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 118,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-16T01:23:59.131Z"
+  "updatedAt": "2026-10-16T07:13:46.287Z"
 }
