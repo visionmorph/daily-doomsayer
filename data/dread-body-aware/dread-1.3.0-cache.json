@@ -263559,8 +263559,231 @@
           "vulnerability": 0
         }
       }
+    },
+    "16ba5b64a38e8740ffa7": {
+      "storyId": "16ba5b64a38e8740ffa7",
+      "url": "https://mashable.com/tech/oct-17-askanymodel-ai-pro-plan-lifetime-subscription",
+      "title": "Get ChatGPT, Claude, Gemini, and Grok access for $39.99 for life",
+      "source": "Mashable AI",
+      "published": "2026-10-17T07:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f0d63548dede54787889c009",
+      "bodyFingerprint": "3d9a9bc6c03440522a56428f",
+      "bodyCharacterCount": 2941,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-17T09:25:07.865Z",
+      "assessment": {
+        "centralEvent": "Get ChatGPT, Claude, Gemini, and Grok access for $39.99 for life",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "46849e97e17e0f6d4177": {
+      "storyId": "46849e97e17e0f6d4177",
+      "url": "https://www.bbc.co.uk/news/articles/cm4g189jvnxjo?at_campaign=rss&at_medium=RSS",
+      "title": "Faisal Islam: Why China and AI are worrying global finance bosses",
+      "source": "BBC News AI",
+      "published": "2026-10-17T01:59:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "99c9253119ed5e89a1da9eb5",
+      "bodyFingerprint": "6fafb94e9373e89434555f6f",
+      "bodyCharacterCount": 5217,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-17T09:25:07.885Z",
+      "assessment": {
+        "centralEvent": "Faisal Islam: Why China and AI are worrying global finance bosses",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "At the IMF meeting in Bangkok this week finance and business leaders grappled with uncertainty.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, AFP via Getty Images By Faisal Islam Economics Editor Published 7 hours ago When it comes to the future direction of the global economy there is a bit of a tug of war going on.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Faisal Islam: Why China and AI are worrying global finance bosses",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b767546f449dada870ba": {
+      "storyId": "b767546f449dada870ba",
+      "url": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes",
+      "title": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
+      "source": "WIRED AI",
+      "published": "2026-10-17T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "13358ce7e145c3d0ff2c5513",
+      "bodyFingerprint": "f2a568603a3f831b0c048eda",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-17T09:25:07.910Z",
+      "assessment": {
+        "centralEvent": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Genomic “foundation models” such as Evo 2, Genos, and Google DeepMind’s AlphaGenome are trained on vast quantities of genomic data , which biologists use to make predictions about how differences in DNA sequence affect biological processes ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Some are counting on outsourcing the analysis to artificial intelligence.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Knowing the entire sequence —the order of all 3 billion or so of our DNA’s chemical building blocks, nearly fully deduced by the international Human Genome Project between 1990 and 2003—hasn’t helped much.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“We’ve stopped thinking about the genome as a linear piece of DNA code,” Bickmore said.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Researchers are learning more about what they can do every day, and many if not most of them seem to be involved in gene regulation.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 131,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.89,
+        "rawScore": 28.89,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.445,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-17T04:31:48.947Z"
+  "updatedAt": "2026-10-17T09:25:07.910Z"
 }
