@@ -264217,8 +264217,456 @@
           "vulnerability": 0
         }
       }
+    },
+    "66d43158f3af92ab81a6": {
+      "storyId": "66d43158f3af92ab81a6",
+      "url": "https://mashable.com/tech/apple-app-store-nudify-apps",
+      "title": "Apple adds further App Store restrictions around AI nudify apps",
+      "source": "Mashable AI",
+      "published": "2026-10-17T14:15:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2fad3e7920dddb9b665e7b5b",
+      "bodyFingerprint": "c7e938502b1f89e12f4e6ec0",
+      "bodyCharacterCount": 2290,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-17T17:13:54.168Z",
+      "assessment": {
+        "centralEvent": "Apple adds further App Store restrictions around AI nudify apps",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Credit: Jakub Porzycki/NurPhoto via Getty Images Apple is trying to tighten its control of the iOS App Store, especially as it regards AI deepfake nude photos.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Earlier this year, a study found dozens of apps that can create deepfake nudes of real people on both Apple's App Store and Google Play.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ada24c679dd65ef11fec": {
+      "storyId": "ada24c679dd65ef11fec",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261015073215.htm",
+      "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-17T12:26:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "95a840dcf2d3355b351f36d7",
+      "bodyFingerprint": "1e65bb12049ebe0152065a27",
+      "bodyCharacterCount": 12045,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-17T17:13:54.208Z",
+      "assessment": {
+        "centralEvent": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com NASA Is About to Investigate What Lies Beneath a Giant Hole on the Moon NASA Captures a Strange Formation on Earth With a Surprising Lunar Connection Scientists Discover a Surprising Shortcut to Nuclear Fusion S",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Although SIMP 0136 appears to have a highly complicated atmosphere, nearly all of its observed atmospheric variability could be explained by just two dominant components, consistent with temperature fluctuations and changes in the vertical ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Those insights are also relevant to one of astronomy's biggest questions: which planets beyond our Solar System might have conditions capable of supporting life?",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "NASA’s James Webb Space Telescope has revealed that a turbulent world 20 light-years away has a surprisingly orderly weather system, with three recurring atmospheric states driven by temperature changes and shifting clouds.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 77,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.14,
+        "rawScore": 27.14,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1c601858b5c461a1a2a8": {
+      "storyId": "1c601858b5c461a1a2a8",
+      "url": "https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
+      "title": "Why Britain should reject the lure of cheap – and scary – Chinese AI",
+      "source": "The Guardian AI",
+      "published": "2026-10-17T15:00:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6829f186aa18da6020dadd2a",
+      "bodyFingerprint": "cb70eff0156975bd4dbbd369",
+      "bodyCharacterCount": 6452,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-17T17:13:54.222Z",
+      "assessment": {
+        "centralEvent": "Why Britain should reject the lure of cheap – and scary – Chinese AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Now Beijing has huge surveillance capabilities, using AI to capture images of its citizens and monitor their activities if they need to.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Both types have the potential to destroy humanity, as many AI experts have documented .",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Explore more on these topics International trade Viewpoint column AI (artificial intelligence) Economics China Asia Pacific Automotive industry UK security and counter-terrorism comment Share Reuse this content Most viewed Most viewed",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "China’s reinvigorated belt and road initiative creates permanent channels for trade less obviously than the previous iteration, allowing Beijing to turn states into clients who depend for the basics of life on Chinese technology.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "He says DeepSeek cannot access the properly isolated use of its software, “but that addresses just part of the risk.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.61,
+        "rawScore": 49.61,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.51,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "64eec3307d023ba29be4": {
+      "storyId": "64eec3307d023ba29be4",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+      "title": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-17T13:28:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ca566a00d03ec968893090a5",
+      "bodyFingerprint": "8561a479ae1da359db3c9379",
+      "bodyCharacterCount": 11988,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-17T17:13:54.238Z",
+      "assessment": {
+        "centralEvent": "NASA’s Roman Space Telescope exceeds expectations by nearly 30%",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com NASA Is About to Investigate What Lies Beneath a Giant Hole on the Moon NASA Captures a Strange Formation on Earth With a Surprising Lunar Connection Scientists Discover a Surprising Shortcut to Nuclear Fusion S",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "If we scale that height up to the height of the Empire State Building, the change in height is a little bit less than you would get by stacking a single U.S. penny on top of the tip of the tower.\" Although nearly impossible to appreciate at",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "If we scale that height up to the height of the Empire State Building, the change in height is a little bit less than you would get by stacking a single U.S. penny on top of the tip of the tower.\" Although nearly impossible to appreciate at",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.43,
+        "rawScore": 25.43,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.13,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9c6f4aab548430ed444d": {
+      "storyId": "9c6f4aab548430ed444d",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261015073205.htm",
+      "title": "James Webb reveals a strange bulge in an alien planet's atmosphere",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-16T23:27:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aa9126253ef89319600c4142",
+      "bodyFingerprint": "bcfd602bdb806c6a824f3c31",
+      "bodyCharacterCount": 11466,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-17T17:13:54.273Z",
+      "assessment": {
+        "centralEvent": "James Webb reveals a strange bulge in an alien planet's atmosphere",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com NASA Is About to Investigate What Lies Beneath a Giant Hole on the Moon NASA Captures a Strange Formation on Earth With a Surprising Lunar Connection Scientists Discover a Surprising Shortcut to Nuclear Fusion S",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Together, they offer one of the most detailed three-dimensional pictures of an exoplanet's atmosphere yet produced, establishing a useful reference point for studying the more than 6,000 exoplanets confirmed so far.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Traditional methods generally combine light measurements from the entire limb into a single average spectrum.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 75,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.98,
+        "rawScore": 25.98,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "338205852008ae81c034": {
+      "storyId": "338205852008ae81c034",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261016070628.htm",
+      "title": "SpaceX just delivered some very strange cargo to the International Space Station",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-16T23:51:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fd09beba91264f8eae0a5e9a",
+      "bodyFingerprint": "29489f02155207a9fd3ecf04",
+      "bodyCharacterCount": 6627,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-17T17:13:54.401Z",
+      "assessment": {
+        "centralEvent": "SpaceX just delivered some very strange cargo to the International Space Station",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com NASA Is About to Investigate What Lies Beneath a Giant Hole on the Moon NASA Captures a Strange Formation on Earth With a Surprising Lunar Connection Scientists Discover a Surprising Shortcut to Nuclear Fusion S",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Explore More from ScienceDaily RELATED STORIES NASA’s Crew-13 Could Go from Florida to the ISS in Under 9 Hours Sep.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "SpaceX just delivered some very strange cargo to the International Space Station",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-17T13:45:59.617Z"
+  "updatedAt": "2026-10-17T17:13:54.402Z"
 }
