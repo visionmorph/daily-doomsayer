@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-17T19:00:00.000Z",
+  "generatedAt": "2026-10-17T22:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-17",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aceaa51eba493f958015701/191:100/w_1280,c_limit/politics_ai_guardrails_removed_terrorist.jpg",
           "peak": 51.31,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-17",
           "firstObservedAt": "2026-10-17T09:00:00.000Z",
-          "lastObservedAt": "2026-10-17T19:00:00.000Z",
+          "lastObservedAt": "2026-10-17T22:00:00.000Z",
           "average": 51.31
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-17",
           "firstObservedAt": "2026-10-17T09:00:00.000Z",
-          "lastObservedAt": "2026-10-17T19:00:00.000Z",
+          "lastObservedAt": "2026-10-17T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-17",
           "firstObservedAt": "2026-10-17T09:00:00.000Z",
-          "lastObservedAt": "2026-10-17T19:00:00.000Z",
+          "lastObservedAt": "2026-10-17T22:00:00.000Z",
           "average": 49.75
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/ed76515ea4f9df6a0b170674679392f87ba2c9ea/531_0_4025_3221/master/4025.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 49.61,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-17",
           "firstObservedAt": "2026-10-17T19:00:00.000Z",
-          "lastObservedAt": "2026-10-17T19:00:00.000Z",
+          "lastObservedAt": "2026-10-17T22:00:00.000Z",
           "average": 49.61
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-17",
           "firstObservedAt": "2026-10-17T09:00:00.000Z",
-          "lastObservedAt": "2026-10-17T19:00:00.000Z",
+          "lastObservedAt": "2026-10-17T22:00:00.000Z",
           "average": 49.34
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-17",
           "firstObservedAt": "2026-10-17T09:00:00.000Z",
-          "lastObservedAt": "2026-10-17T19:00:00.000Z",
+          "lastObservedAt": "2026-10-17T22:00:00.000Z",
           "average": 49.23
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/d767e28f4a63f2c033b1690340f479c914d87492/1000_0_5000_4000/master/5000.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 49.17,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-17",
           "firstObservedAt": "2026-10-17T17:00:00.000Z",
-          "lastObservedAt": "2026-10-17T19:00:00.000Z",
+          "lastObservedAt": "2026-10-17T22:00:00.000Z",
           "average": 49.17
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreif64ygwsfqjb6pfnscwwpdicq6t5od3w4hpilunkk75p6q6dzt6su",
           "peak": 49.01,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-17",
           "firstObservedAt": "2026-10-17T09:00:00.000Z",
-          "lastObservedAt": "2026-10-17T19:00:00.000Z",
+          "lastObservedAt": "2026-10-17T22:00:00.000Z",
           "average": 49.01
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/4ebcde00ba96fe3f02e1e3d31f290432784edae8/500_0_5000_4000/master/5000.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 48.9,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-17",
           "firstObservedAt": "2026-10-17T17:00:00.000Z",
-          "lastObservedAt": "2026-10-17T19:00:00.000Z",
+          "lastObservedAt": "2026-10-17T22:00:00.000Z",
           "average": 48.9
         }
       ]
@@ -7138,11 +7138,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aceaa51eba493f958015701/191:100/w_1280,c_limit/politics_ai_guardrails_removed_terrorist.jpg",
           "peak": 51.31,
-          "observations": 19,
+          "observations": 20,
           "daysTracked": 4,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T17:00:00.000Z",
-          "lastObservedAt": "2026-10-17T19:00:00.000Z",
+          "lastObservedAt": "2026-10-17T22:00:00.000Z",
           "average": 51.31
         },
         {
@@ -7152,11 +7152,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 28,
+          "observations": 29,
           "daysTracked": 6,
           "peakDate": "2026-10-12",
           "firstObservedAt": "2026-10-12T07:00:00.000Z",
-          "lastObservedAt": "2026-10-17T19:00:00.000Z",
+          "lastObservedAt": "2026-10-17T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -7236,11 +7236,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 3,
           "peakDate": "2026-10-15",
           "firstObservedAt": "2026-10-15T19:00:00.000Z",
-          "lastObservedAt": "2026-10-17T19:00:00.000Z",
+          "lastObservedAt": "2026-10-17T22:00:00.000Z",
           "average": 49.75
         },
         {
@@ -8328,11 +8328,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6aceaa51eba493f958015701/191:100/w_1280,c_limit/politics_ai_guardrails_removed_terrorist.jpg",
           "peak": 51.31,
-          "observations": 19,
+          "observations": 20,
           "daysTracked": 4,
           "peakDate": "2026-10-14",
           "firstObservedAt": "2026-10-14T17:00:00.000Z",
-          "lastObservedAt": "2026-10-17T19:00:00.000Z",
+          "lastObservedAt": "2026-10-17T22:00:00.000Z",
           "average": 51.31
         },
         {
@@ -8342,11 +8342,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 76,
+          "observations": 77,
           "daysTracked": 17,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-17T19:00:00.000Z",
+          "lastObservedAt": "2026-10-17T22:00:00.000Z",
           "average": 51.23
         },
         {
