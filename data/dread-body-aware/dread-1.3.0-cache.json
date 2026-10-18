@@ -266111,8 +266111,147 @@
           "vulnerability": 0
         }
       }
+    },
+    "71e1590c6c971a337879": {
+      "storyId": "71e1590c6c971a337879",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce",
+      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "source": "TechCrunch AI",
+      "published": "2026-10-18T16:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1b2ba76fbda9e648663d213e",
+      "bodyFingerprint": "eb34f2eccfde00d110e329c3",
+      "bodyCharacterCount": 2471,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-18T18:08:45.904Z",
+      "assessment": {
+        "centralEvent": "Disney agrees to hire the majority of Character.AI’s workforce",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "16 Register Now Newsletters See More Subscribe for the industry’s biggest tech news Related Transportation TechCrunch Mobility: Rivian’s next act Kirsten Korosec 2 hours ago AI Anthropic says its workforce has become less junior and is spen",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3055ac5eec49bd6dea89": {
+      "storyId": "3055ac5eec49bd6dea89",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access",
+      "title": "Anthropic gives outside AI watchdog “employee-like” access",
+      "source": "Ars Technica AI",
+      "published": "2026-10-18T16:25:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "89b672f15226e470a759a6d2",
+      "bodyFingerprint": "1d87dc3e9ce3b309d1d2d94e",
+      "bodyCharacterCount": 4536,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-18T18:08:45.955Z",
+      "assessment": {
+        "centralEvent": "Anthropic gives outside AI watchdog “employee-like” access",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A greater role for third-party evaluators is among the main concrete steps the labs have proposed in response to rising concern about the dangers more capable AI systems could pose to the economy, cyber security and humanity at large.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The evaluators will publish their analysis, and Anthropic cannot veto publication.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "METR was one of the organisations that investigated the hack of Hugging Face by rogue OpenAI models, reviewing thousands of logs and receiving company laptops.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav Anthropic has granted external evaluators “employee-like access” to assess the risks of its models,",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.57,
+        "rawScore": 27.57,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-18T14:37:10.584Z"
+  "updatedAt": "2026-10-18T18:08:45.955Z"
 }
