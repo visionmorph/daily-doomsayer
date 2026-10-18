@@ -266250,8 +266250,277 @@
           "vulnerability": 0
         }
       }
+    },
+    "33da8aabe6e16f93a795": {
+      "storyId": "33da8aabe6e16f93a795",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund",
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "source": "TechCrunch AI",
+      "published": "2026-10-18T20:37:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1a5dee5fe7869a444a4ac16e",
+      "bodyFingerprint": "070fb8d0e78a3cf07043261a",
+      "bodyCharacterCount": 2412,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-18T20:47:43.132Z",
+      "assessment": {
+        "centralEvent": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "16 Register Now Newsletters See More Subscribe for the industry’s biggest tech news Related Media & Entertainment Everyone’s watching the Elizabeth Holmes documentary ‘You Can See Everything’ Anthony Ha 2 hours ago Transportation TechCrunch",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f5d8dc039b320dffa503": {
+      "storyId": "f5d8dc039b320dffa503",
+      "url": "https://mashable.com/tech/anthropic-pitching-congress-ai-safety-bill",
+      "title": "Anthropic is pitching Congress its own AI safety bill, report says",
+      "source": "Mashable AI",
+      "published": "2026-10-18T19:22:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b8bd7c6df47b20df72d8fc8",
+      "bodyFingerprint": "8460c2d4617b6bab5d5a10d4",
+      "bodyCharacterCount": 14159,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-18T20:47:43.151Z",
+      "assessment": {
+        "centralEvent": "Anthropic is pitching Congress its own AI safety bill, report says",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "According to POLITICO, federal officials could stop a model from launching or being used only if it poses \"a foreseeable, imminent risk of more than $1 billion in damages, or of killing or seriously injuring more than 50 people.\" The danger",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Anthropic has been privately pitching lawmakers on a draft bill to regulate frontier AI safety and security, POLITICO reported Friday.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The FCC has also expanded national security restrictions by placing an import ban on foreign autonomous devices like robot vacuums over four pounds.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "SEE ALSO: Anthropic IPO docs reportedly reveal over $40 billion in losses last year POLITICO noted that AI labs disclosed several incidents this summer in which AI agents broke into or tested the defenses of online platforms.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.25,
+        "rawScore": 27.25,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.295,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3cf4d945cff63c953202": {
+      "storyId": "3cf4d945cff63c953202",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "title": "A woman was arrested in Philly for blocking a delivery robot",
+      "source": "The Verge AI",
+      "published": "2026-10-18T18:28:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "779099454265f75c4c087401",
+      "bodyFingerprint": "ff29f0003520c45181e4aed9",
+      "bodyCharacterCount": 3247,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-18T20:47:43.231Z",
+      "assessment": {
+        "centralEvent": "A woman was arrested in Philly for blocking a delivery robot",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The delivery robots have become a common sight on the streets of downtown Philadelphia and have sparked backlash.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Di Benedetto , Sean Hollister and 1 more Oct 16 Meta’s new terms may allow it to train AI on news sites for free Emma Roth Oct 16 ChatGPT can peek at your Chrome tabs now Stevie Bonifield Oct 15 Sega pulls Total War: Shogun 2 remaster from ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "960d682b21024a864e69": {
+      "storyId": "960d682b21024a864e69",
+      "url": "https://techpolicy.press/openai-faces-lawsuits-subpoenas-and-eu-scrutiny-in-a-single-week",
+      "title": "OpenAI Faces Lawsuits, Subpoenas and EU Scrutiny in a Single Week",
+      "source": "Tech Policy Press AI",
+      "published": "2026-10-18T20:26:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bd32ca29e27f6d1d318d50f2",
+      "bodyFingerprint": "89ea0f111f56f55006e8089c",
+      "bodyCharacterCount": 9211,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-18T20:47:43.386Z",
+      "assessment": {
+        "centralEvent": "OpenAI Faces Lawsuits, Subpoenas and EU Scrutiny in a Single Week",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The same day, European Commission executive vice president Henna Virkunnen announced the AI Office “sent requests for information addressing issues such as security, external evaluation and monitoring how models are used.” Then on Thursday,",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-18T18:08:45.955Z"
+  "updatedAt": "2026-10-18T20:47:43.387Z"
 }
