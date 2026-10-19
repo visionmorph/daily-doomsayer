@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-19T07:00:00.000Z",
+  "generatedAt": "2026-10-19T15:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-19",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 51.23
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 49.75
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 49.64
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 49.34
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 49.23
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreif64ygwsfqjb6pfnscwwpdicq6t5od3w4hpilunkk75p6q6dzt6su",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 49.01
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/10/illo_tech_optimism_final.jpg?width=380&dpr=2&crop=16:9",
           "peak": 48.32,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 48.32
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Weather-Forecasting-01.gif?itok=n6-zCHF4",
           "peak": 48.18,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 48.18
         }
       ]
@@ -7414,11 +7414,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 51.23
         },
         {
@@ -7428,11 +7428,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 49.75
         },
         {
@@ -7442,11 +7442,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 49.64
         },
         {
@@ -7470,11 +7470,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 49.34
         },
         {
@@ -7484,11 +7484,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 49.23
         },
         {
@@ -7512,11 +7512,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreif64ygwsfqjb6pfnscwwpdicq6t5od3w4hpilunkk75p6q6dzt6su",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 49.01
         },
         {
@@ -7526,11 +7526,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/10/illo_tech_optimism_final.jpg?width=380&dpr=2&crop=16:9",
           "peak": 48.32,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 48.32
         },
         {
@@ -7540,11 +7540,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Weather-Forecasting-01.gif?itok=n6-zCHF4",
           "peak": 48.18,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 48.18
         }
       ]
@@ -8777,11 +8777,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 86,
+          "observations": 87,
           "daysTracked": 19,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
+          "lastObservedAt": "2026-10-19T15:00:00.000Z",
           "average": 51.23
         },
         {
