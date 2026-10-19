@@ -266581,8 +266581,150 @@
           "vulnerability": 0
         }
       }
+    },
+    "0650689c253c6c88028a": {
+      "storyId": "0650689c253c6c88028a",
+      "url": "https://www.bbc.co.uk/news/articles/c60rl1xvjv89o?at_campaign=rss&at_medium=RSS",
+      "title": "Don't fall for this - how to protect yourself from AI scams",
+      "source": "BBC News AI",
+      "published": "2026-10-18T23:24:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fcdac0e93356b6024cd8e8a0",
+      "bodyFingerprint": "f6a2e75c0b190e5360e6519b",
+      "bodyCharacterCount": 2912,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-19T01:22:21.153Z",
+      "assessment": {
+        "centralEvent": "Don't fall for this - how to protect yourself from AI scams",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Kevin Peachey Cost of living correspondent Published 1 hour ago Be careful where you buy from, shoppers are being warned as criminals use AI to supercharge scams.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "913ef748e94ba370da80": {
+      "storyId": "913ef748e94ba370da80",
+      "url": "https://www.theguardian.com/music/2026/oct/19/australia-music-global-copywright-outlier-ai-music-body-warnsns",
+      "title": "Kylie Minogue songs already used to train AI as tech firms ‘strong-arm’ Australian government, music body warns",
+      "source": "The Guardian AI",
+      "published": "2026-10-19T00:57:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "efcb27389cded7118caae99b",
+      "bodyFingerprint": "943e59205cde19a47618ac76",
+      "bodyCharacterCount": 7481,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-19T01:22:21.344Z",
+      "assessment": {
+        "centralEvent": "Kylie Minogue songs already used to train AI as tech firms ‘strong-arm’ Australian government, music body warns",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "To that I say game on Full Story How Firmus went from Australia’s AI ‘fairytale’ to flop - Full Story podcast ‘Incredibly healing’: artist Tony Albert receives more than 2,000 public donations of racist Aboriginalia Australia may risk a dip",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "To that I say game on Full Story How Firmus went from Australia’s AI ‘fairytale’ to flop - Full Story podcast ‘Incredibly healing’: artist Tony Albert receives more than 2,000 public donations of racist Aboriginalia Australia may risk a dip",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Of the dozens of countries approached to water down their laws, Australia appears to be the only one considering it, publishers’ group says Get our new political email, free app or daily news podcast AI has already been trained on the works",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Phelan said 62 countries had considered making their own legal changes but none of the others had bought into AI companies’ demands. skip past newsletter promotion after newsletter promotion “There isn’t a single country among the other 61 ",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-18T23:16:20.364Z"
+  "updatedAt": "2026-10-19T01:22:21.344Z"
 }
