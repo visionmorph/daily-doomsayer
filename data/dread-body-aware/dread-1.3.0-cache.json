@@ -270570,8 +270570,338 @@
           "vulnerability": 0
         }
       }
+    },
+    "ddc8df7497bff0bbaad2": {
+      "storyId": "ddc8df7497bff0bbaad2",
+      "url": "https://www.theguardian.com/film/2026/oct/20/ai-actors-val-kilmer-as-deep-as-the-grave-tilly-norwood",
+      "title": "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?",
+      "source": "The Guardian AI",
+      "published": "2026-10-20T06:00:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "674bf68d29d1af4f86b443a7",
+      "bodyFingerprint": "70150b5160cb9822bebc24f6",
+      "bodyCharacterCount": 10291,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T06:04:30.678Z",
+      "assessment": {
+        "centralEvent": "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Director Coerte Voorhees knows exactly what he is doing – this is an AI-created version of the late actor, approved by his family but bringing with it a heap of controversy about whether such technology could make flesh-and-blood thespians ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "These two camps of AI acting – technological and human-centric – are fighting the latest bout in the struggle between the forces that have shaped the craft: external v internal; reproducing v experiencing; Laurence Olivier telling Dustin Ho",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Higgsfield AI – one of many companies currently pushing the possibilities of AI video – recently claimed to have “eliminated” the uncanny valley: that nagging phoneysimilitude effect that has plagued even sophisticated recent CGI reincarnat",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "08cbee451f7ad0d0bbfe": {
+      "storyId": "08cbee451f7ad0d0bbfe",
+      "url": "https://www.theguardian.com/business/2026/oct/20/ai-stock-market-boom-beginning-of-the-end-imf-wallstreet-nasdaq",
+      "title": "Is this the beginning of the end of the AI stock market boom?",
+      "source": "The Guardian AI",
+      "published": "2026-10-20T02:29:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "936c8d5cd984a03ec262cde8",
+      "bodyFingerprint": "575d96d9b7ce92e6f8c8af7c",
+      "bodyCharacterCount": 7293,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T06:04:30.692Z",
+      "assessment": {
+        "centralEvent": "Is this the beginning of the end of the AI stock market boom?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Experts say recent market corrections may reflect investors taking a ‘more balanced approach’, rather than it being a sign the entirety of the AI market is at risk.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "500a4518841bf1e3e616": {
+      "storyId": "500a4518841bf1e3e616",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/20/ai-supposed-to-save-time-opposite-government-uk",
+      "title": "Don’t be fooled. The AI that was supposed to save us time is doing just the opposite | Gaby Hinsliff",
+      "source": "The Guardian AI",
+      "published": "2026-10-20T05:00:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c19feae7250f0f34c96ea989",
+      "bodyFingerprint": "b2cf07b1e63a25c5a032f07f",
+      "bodyCharacterCount": 5490,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T06:04:30.698Z",
+      "assessment": {
+        "centralEvent": "Don’t be fooled. The AI that was supposed to save us time is doing just the opposite | Gaby Hinsliff",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Whitehall special advisers complain of departments drowning in AI-generated freedom of information requests, an abuse of a system originally intended to empower individuals.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It’s early days, but AI seems not so much to be streamlining public service delivery as gumming it up – partly because, as was once the case with email, the public is using it right back at them.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Since the adoption of ChatGPT, governments around the world are seeing surges in complaints and requests.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8771f5f8fa4a212171a4": {
+      "storyId": "8771f5f8fa4a212171a4",
+      "url": "https://www.theguardian.com/science/audio/2026/oct/20/these-risks-are-real-the-threat-of-ai-bioweapons-podcast",
+      "title": "‘These risks are real’: the threat of AI bioweapons – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-10-20T04:00:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ef483cb29f60fb107ca9bc98",
+      "bodyFingerprint": "adfcb35f4517eaa2534363a1",
+      "bodyCharacterCount": 869,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T06:04:30.701Z",
+      "assessment": {
+        "centralEvent": "‘These risks are real’: the threat of AI bioweapons – podcast",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "64a3076b94d5dad5f5bc": {
+      "storyId": "64a3076b94d5dad5f5bc",
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back",
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "source": "TechCrunch AI",
+      "published": "2026-10-20T01:27:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d91d9ab20757cbf60dfe5934",
+      "bodyFingerprint": "d058f598d5b0a4d6bbf4683f",
+      "bodyCharacterCount": 5166,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T06:04:30.757Z",
+      "assessment": {
+        "centralEvent": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“At a national level, when the conversation is about artificial intelligence, it’s so often framed in this language of an arms race with China, and any of the humanistic concern, we just push to the side in a language of national competitio",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“At a national level, when the conversation is about artificial intelligence, it’s so often framed in this language of an arms race with China, and any of the humanistic concern, we just push to the side in a language of national competitio",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.48,
+        "rawScore": 25.48,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.135,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-20T00:23:36.674Z"
+  "updatedAt": "2026-10-20T06:04:30.757Z"
 }
