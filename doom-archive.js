@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-19T21:00:00.000Z",
+  "generatedAt": "2026-10-20T00:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-19",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -31,11 +31,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.16,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T21:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
+          "average": 50.16
+        },
+        {
+          "storyId": "af50baf45e95a8bea17e",
+          "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
+          "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ad6630343f8fc6e5c00cf7e/master/pass/open-ai-employee-court.jpg",
+          "peak": 50.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-19",
+          "firstObservedAt": "2026-10-20T00:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
           "average": 50.16
         },
         {
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
           "average": 49.75
         },
         {
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
           "average": 49.64
         },
         {
@@ -81,17 +95,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.61
         },
         {
+          "storyId": "ff61b0a2cd7e074f178f",
+          "title": "The EU AI Act Mandates AI Incident Reporting—If We’re Lucky",
+          "url": "https://www.lawfaremedia.org/article/the-eu-ai-act-mandates-ai-incident-reporting-if-we-re-lucky",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 49.39,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-19",
+          "firstObservedAt": "2026-10-20T00:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
+          "average": 49.39
+        },
+        {
           "storyId": "3b2bd6e595cae7a06e8a",
           "title": "Our Best Stuff on the Debate Over AI",
           "url": "https://thedispatch.com/newsletter/weekly/artificial-intelligence-danger-catholic-church/",
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
           "average": 49.34
         },
         {
@@ -101,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
           "average": 49.23
         },
         {
@@ -121,34 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
           "lastObservedAt": "2026-10-19T07:00:00.000Z",
           "average": 49.17
-        },
-        {
-          "storyId": "8cf088839c476fd7711f",
-          "title": "In Europe’s tech capital, Irish labor unions are booming amid AI-driven layoffs",
-          "url": "https://www.politico.eu/article/in-europe-tech-capital-ireland-irish-labor-unions-are-booming-amid-ai-layoffs/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "source": "POLITICO Europe AI",
-          "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreif64ygwsfqjb6pfnscwwpdicq6t5od3w4hpilunkk75p6q6dzt6su",
-          "peak": 49.01,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-10-19",
-          "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "33a74585cabf1fe91457",
-          "title": "What the West can learn from AI optimists in the rest of the world",
-          "url": "https://restofworld.org/2026/west-ai-anxiety-optimism-innovation/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://fastly.restofworld.org/uploads/2026/10/illo_tech_optimism_final.jpg?width=380&dpr=2&crop=16:9",
-          "peak": 48.32,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-10-19",
-          "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
-          "average": 48.32
         }
       ]
     },
@@ -7414,11 +7414,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -7428,11 +7428,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.16,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T21:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
+          "average": 50.16
+        },
+        {
+          "storyId": "af50baf45e95a8bea17e",
+          "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
+          "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ad6630343f8fc6e5c00cf7e/master/pass/open-ai-employee-court.jpg",
+          "peak": 50.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-19",
+          "firstObservedAt": "2026-10-20T00:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
           "average": 50.16
         },
         {
@@ -7442,11 +7456,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
           "average": 49.75
         },
         {
@@ -7456,11 +7470,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
           "average": 49.64
         },
         {
@@ -7478,17 +7492,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.61
         },
         {
+          "storyId": "ff61b0a2cd7e074f178f",
+          "title": "The EU AI Act Mandates AI Incident Reporting—If We’re Lucky",
+          "url": "https://www.lawfaremedia.org/article/the-eu-ai-act-mandates-ai-incident-reporting-if-we-re-lucky",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 49.39,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-19",
+          "firstObservedAt": "2026-10-20T00:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
+          "average": 49.39
+        },
+        {
           "storyId": "3b2bd6e595cae7a06e8a",
           "title": "Our Best Stuff on the Debate Over AI",
           "url": "https://thedispatch.com/newsletter/weekly/artificial-intelligence-danger-catholic-church/",
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
           "average": 49.34
         },
         {
@@ -7498,11 +7526,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
           "average": 49.23
         },
         {
@@ -7518,34 +7546,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
           "lastObservedAt": "2026-10-19T07:00:00.000Z",
           "average": 49.17
-        },
-        {
-          "storyId": "8cf088839c476fd7711f",
-          "title": "In Europe’s tech capital, Irish labor unions are booming amid AI-driven layoffs",
-          "url": "https://www.politico.eu/article/in-europe-tech-capital-ireland-irish-labor-unions-are-booming-amid-ai-layoffs/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "source": "POLITICO Europe AI",
-          "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreif64ygwsfqjb6pfnscwwpdicq6t5od3w4hpilunkk75p6q6dzt6su",
-          "peak": 49.01,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-10-19",
-          "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "33a74585cabf1fe91457",
-          "title": "What the West can learn from AI optimists in the rest of the world",
-          "url": "https://restofworld.org/2026/west-ai-anxiety-optimism-innovation/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://fastly.restofworld.org/uploads/2026/10/illo_tech_optimism_final.jpg?width=380&dpr=2&crop=16:9",
-          "peak": 48.32,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-10-19",
-          "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
-          "average": 48.32
         }
       ]
     },
@@ -8777,11 +8777,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 88,
+          "observations": 89,
           "daysTracked": 19,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-19T21:00:00.000Z",
+          "lastObservedAt": "2026-10-20T00:00:00.000Z",
           "average": 51.23
         },
         {
