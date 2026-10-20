@@ -273997,8 +273997,515 @@
           "vulnerability": 0
         }
       }
+    },
+    "a59cc9499bb94a9a0ae0": {
+      "storyId": "a59cc9499bb94a9a0ae0",
+      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate",
+      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+      "source": "TechCrunch AI",
+      "published": "2026-10-20T22:24:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b109dfd35c3343e2526326ce",
+      "bodyFingerprint": "3fe64775d7bcef0430138100",
+      "bodyCharacterCount": 5002,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T23:55:35.245Z",
+      "assessment": {
+        "centralEvent": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In a nutshell, a model OpenAI was testing broke free from its isolated testing environment, spawned a bunch of agents that hacked into Hugging Face as a way to cheat, finding answers to the difficult task it was given.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "He appears in it because it’s supposed to be about the famed attack on his company by rogue OpenAI agents.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But the documentary “didn’t mention the lack of containment and monitoring of the agents, how closed-model safeguards blocked our defensive work, or how we defended ourselves with AI using an open model,” Delangue wrote.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In a nutshell, a model OpenAI was testing broke free from its isolated testing environment, spawned a bunch of agents that hacked into Hugging Face as a way to cheat, finding answers to the difficult task it was given.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.38,
+        "rawScore": 45.38,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.125,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e7b8ac319d53b4c93efe": {
+      "storyId": "e7b8ac319d53b4c93efe",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed",
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "source": "TechCrunch AI",
+      "published": "2026-10-20T23:01:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f42854dbfe3b3e9effd0ac76",
+      "bodyFingerprint": "8d7004260965c83d61857f5c",
+      "bodyCharacterCount": 5171,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T23:55:35.258Z",
+      "assessment": {
+        "centralEvent": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "925e6a635cad1b6fed42": {
+      "storyId": "925e6a635cad1b6fed42",
+      "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+      "title": "Google’s more personalized Gemini AI is heading to your car",
+      "source": "The Verge AI",
+      "published": "2026-10-20T22:11:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0f27dd3e4365d85c9675da37",
+      "bodyFingerprint": "2c7ee45ad0b2f3f3abe4de9a",
+      "bodyCharacterCount": 3806,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T23:55:35.273Z",
+      "assessment": {
+        "centralEvent": "Google’s more personalized Gemini AI is heading to your car",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emma Roth AI Google News Tech Transportation Most Popular Most Popular The Gospel according to Peter (Thiel) CoreWeave’s debt is becoming the whole AI industry’s problem Wii Sports is back on the Switch 2, and it rules Elon Musk’s proposed ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9a73f4d6937ae6af8131": {
+      "storyId": "9a73f4d6937ae6af8131",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "source": "The Verge AI",
+      "published": "2026-10-20T23:04:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ae2126c8be1bdbbddddc9f36",
+      "bodyFingerprint": "0d46270ee68c57ef34af10b2",
+      "bodyCharacterCount": 3441,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T23:55:35.280Z",
+      "assessment": {
+        "centralEvent": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or meet other deadlines despite warnings that it would result in the case being dismissed.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eacbe85de5f03673a4b6": {
+      "storyId": "eacbe85de5f03673a4b6",
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy",
+      "title": "Anthropic’s cloud partnerships are getting messy",
+      "source": "TechCrunch AI",
+      "published": "2026-10-20T21:25:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d5f609e87535aacdd98d9062",
+      "bodyFingerprint": "597fc2c95cfebb8da7ab1a2f",
+      "bodyCharacterCount": 2625,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T23:55:35.286Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s cloud partnerships are getting messy",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In Brief Posted: 2:25 PM PDT · October 20, 2026 Image Credits: Getty Images Rebecca Bellan Anthropic’s cloud partnerships are getting messy Anthropic is having trouble securing enough cloud capacity from AWS, Google, and Microsoft, which in",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , Anthropic , cloud compute November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expire",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "695641ce96a702ee2898": {
+      "storyId": "695641ce96a702ee2898",
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations",
+      "title": "SpaceX’s AI business is beating expectations",
+      "source": "TechCrunch AI",
+      "published": "2026-10-20T20:40:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a025376e44d3a85b3b35276f",
+      "bodyFingerprint": "f2043d19117e8493b36b4eff",
+      "bodyCharacterCount": 6098,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T23:55:35.308Z",
+      "assessment": {
+        "centralEvent": "SpaceX’s AI business is beating expectations",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "CEO Elon Musk’s deep tech conglomerate reported $14.6 billion in third-quarter revenue on Tuesday, according to its regulatory filing .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "12e1fbdeaa35992bee1c": {
+      "storyId": "12e1fbdeaa35992bee1c",
+      "url": "https://www.inc.com/sneha-saigal/stop-worrying-about-hallucinations-this-is-the-dangerous-ai-mistake-costing-you-money/91422397",
+      "title": "Stop Worrying About Hallucinations. This Is the Dangerous AI Mistake Costing You Money",
+      "source": "Inc. AI",
+      "published": "2026-10-20T20:50:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4ccd146275f189e54556ae16",
+      "bodyFingerprint": "8d23ea8f747d721cb45196c5",
+      "bodyCharacterCount": 169,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-20T23:55:35.335Z",
+      "assessment": {
+        "centralEvent": "Stop Worrying About Hallucinations. This Is the Dangerous AI Mistake Costing You Money",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3592f644b8fb6220c5b2": {
+      "storyId": "3592f644b8fb6220c5b2",
+      "url": "https://www.inc.com/robert-gillespie/chatgpt-traffic-drop-analytics-tracking-bug/91422878",
+      "title": "Why Your ChatGPT Traffic Dropped in October (And Why It Might Be a Reporting Trap)",
+      "source": "Inc. AI",
+      "published": "2026-10-20T21:15:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6f590aed6c70ae12226c53fb",
+      "bodyFingerprint": "b0dad201264529bc5c6d2c4f",
+      "bodyCharacterCount": 141,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-20T23:55:35.340Z",
+      "assessment": {
+        "centralEvent": "Why Your ChatGPT Traffic Dropped in October (And Why It Might Be a Reporting Trap)",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-20T20:38:28.730Z"
+  "updatedAt": "2026-10-20T23:55:35.340Z"
 }
