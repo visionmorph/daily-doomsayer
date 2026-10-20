@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-20T20:00:00.000Z",
+  "generatedAt": "2026-10-20T23:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-20",
@@ -17,12 +17,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-20",
           "firstObservedAt": "2026-10-20T06:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "56585df9ab02cd733024",
+          "title": "Who, If Anyone, Should Have a License to Kill AI?",
+          "url": "https://www.lawfaremedia.org/article/who--if-anyone--should-have-a-license-to-kill-ai",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 50.98,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-20",
+          "firstObservedAt": "2026-10-20T23:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
+          "average": 50.98
         },
         {
           "storyId": "7bf27ea750e3c7638bdb",
@@ -31,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.16,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-20",
           "firstObservedAt": "2026-10-20T06:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 50.16
         },
         {
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ad6630343f8fc6e5c00cf7e/master/pass/open-ai-employee-court.jpg",
           "peak": 50.16,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-20",
           "firstObservedAt": "2026-10-20T06:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 50.16
         },
         {
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-20",
           "firstObservedAt": "2026-10-20T06:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 49.75
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-20",
           "firstObservedAt": "2026-10-20T06:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 49.64
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-20",
           "firstObservedAt": "2026-10-20T06:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 49.34
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-20",
           "firstObservedAt": "2026-10-20T06:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 49.23
         },
         {
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreif64ygwsfqjb6pfnscwwpdicq6t5od3w4hpilunkk75p6q6dzt6su",
           "peak": 49.01,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-20",
           "firstObservedAt": "2026-10-20T06:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 49.01
-        },
-        {
-          "storyId": "33a74585cabf1fe91457",
-          "title": "What the West can learn from AI optimists in the rest of the world",
-          "url": "https://restofworld.org/2026/west-ai-anxiety-optimism-innovation/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://fastly.restofworld.org/uploads/2026/10/illo_tech_optimism_final.jpg?width=380&dpr=2&crop=16:9",
-          "peak": 48.32,
-          "observations": 4,
-          "daysTracked": 1,
-          "peakDate": "2026-10-20",
-          "firstObservedAt": "2026-10-20T06:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
-          "average": 48.32
         }
       ]
     },
@@ -7559,12 +7559,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "56585df9ab02cd733024",
+          "title": "Who, If Anyone, Should Have a License to Kill AI?",
+          "url": "https://www.lawfaremedia.org/article/who--if-anyone--should-have-a-license-to-kill-ai",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 50.98,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-20",
+          "firstObservedAt": "2026-10-20T23:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
+          "average": 50.98
         },
         {
           "storyId": "7bf27ea750e3c7638bdb",
@@ -7573,11 +7587,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.16,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T21:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 50.16
         },
         {
@@ -7587,11 +7601,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ad6630343f8fc6e5c00cf7e/master/pass/open-ai-employee-court.jpg",
           "peak": 50.16,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-20T00:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 50.16
         },
         {
@@ -7601,11 +7615,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 49.75
         },
         {
@@ -7615,11 +7629,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 49.64
         },
         {
@@ -7657,11 +7671,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 49.34
         },
         {
@@ -7671,26 +7685,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 49.23
-        },
-        {
-          "storyId": "43257cc55279cc87c683",
-          "title": "Inside the long, bitter fight over one man’s quest to build the biggest AI datacenter in California",
-          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/california-datacenter-imperial",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/d767e28f4a63f2c033b1690340f479c914d87492/1000_0_5000_4000/master/5000.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 49.17,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-10-19",
-          "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-19T07:00:00.000Z",
-          "average": 49.17
         }
       ]
     },
@@ -8922,12 +8922,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 93,
+          "observations": 94,
           "daysTracked": 20,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-20T20:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "56585df9ab02cd733024",
+          "title": "Who, If Anyone, Should Have a License to Kill AI?",
+          "url": "https://www.lawfaremedia.org/article/who--if-anyone--should-have-a-license-to-kill-ai",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 50.98,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-20",
+          "firstObservedAt": "2026-10-20T23:00:00.000Z",
+          "lastObservedAt": "2026-10-20T23:00:00.000Z",
+          "average": 50.98
         },
         {
           "storyId": "ea85306d25eb7dc14f98",
@@ -8983,20 +8997,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
           "lastObservedAt": "2026-10-01T23:00:00.000Z",
-          "average": 50.33
-        },
-        {
-          "storyId": "90f6d0072d1d6af08876",
-          "title": "Who Is AI Risk For? Centering People in the AI Risk Conversation",
-          "url": "https://techpolicy.press/who-is-ai-risk-for-centering-people-in-the-ai-risk-conversation",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 50.33,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-01",
-          "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T13:00:00.000Z",
           "average": 50.33
         }
       ]
