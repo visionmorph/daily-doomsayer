@@ -270900,8 +270900,553 @@
           "vulnerability": 0
         }
       }
+    },
+    "650a048e79be7f145a93": {
+      "storyId": "650a048e79be7f145a93",
+      "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool",
+      "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+      "source": "TechCrunch AI",
+      "published": "2026-10-20T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7d67d4ac3a84e326ee1036b2",
+      "bodyFingerprint": "173531fe246a8d07f2868370",
+      "bodyCharacterCount": 4665,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T11:42:49.830Z",
+      "assessment": {
+        "centralEvent": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The startup, which has been around for nearly a decade, has raised $50 million in total funding with its last round in 2021, according to PitchBook data.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b5f336611e7782897678": {
+      "storyId": "b5f336611e7782897678",
+      "url": "https://www.inc.com/chloe-aiello/small-businesses-are-ai-hackers-low-hanging-fruit-these-firms-are-fighting-back/91413517",
+      "title": "Small Businesses Are AI Hackers’ ‘Low-Hanging Fruit.’ These Firms Are Fighting Back",
+      "source": "Inc. AI",
+      "published": "2026-10-20T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "134e2edff0674da973836933",
+      "bodyFingerprint": "9b360853612546a16776796a",
+      "bodyCharacterCount": 92,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-20T11:42:49.854Z",
+      "assessment": {
+        "centralEvent": "Small Businesses Are AI Hackers’ ‘Low-Hanging Fruit.’ These Firms Are Fighting Back",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d1857662a73c78ded879": {
+      "storyId": "d1857662a73c78ded879",
+      "url": "https://www.inc.com/salvador-rodriguez/these-ai-tools-are-skyrocketing-productivity-by-letting-teams-focus-on-their-real-work/91413613",
+      "title": "These AI Tools Are Skyrocketing Productivity by Letting Teams Focus on Their Real Work",
+      "source": "Inc. AI",
+      "published": "2026-10-20T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "35ea144a153e6fce1b78ad16",
+      "bodyFingerprint": "a3950904d159f433e68019f3",
+      "bodyCharacterCount": 116,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-20T11:42:49.864Z",
+      "assessment": {
+        "centralEvent": "These AI Tools Are Skyrocketing Productivity by Letting Teams Focus on Their Real Work",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0a36e1ee65f5d2aa8625": {
+      "storyId": "0a36e1ee65f5d2aa8625",
+      "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant",
+      "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+      "source": "TechCrunch AI",
+      "published": "2026-10-20T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5eef5926a62df16f89db61b4",
+      "bodyFingerprint": "fbe9cc6461f235739ee4b8ed",
+      "bodyCharacterCount": 3912,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T11:42:49.883Z",
+      "assessment": {
+        "centralEvent": "Yelp can now call on your behalf to check wait times at a restaurant",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Plus, you can access your chat history from the past 30 days in the app, with full history available soon.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "524acab05c9b908c639d": {
+      "storyId": "524acab05c9b908c639d",
+      "url": "https://www.inc.com/salvador-rodriguez/meet-the-2026-power-partners-in-ai-technology-development/91413642",
+      "title": "Meet the 2026 Power Partners in AI, Technology & Development",
+      "source": "Inc. AI",
+      "published": "2026-10-20T10:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "81e9c8bbc9f4e82470269aec",
+      "bodyFingerprint": "93ec7da594bfc8a19940a8f4",
+      "bodyCharacterCount": 78,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-20T11:42:49.885Z",
+      "assessment": {
+        "centralEvent": "Meet the 2026 Power Partners in AI, Technology & Development",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d1c468cbdcdbb8584fa5": {
+      "storyId": "d1c468cbdcdbb8584fa5",
+      "url": "https://www.inc.com/sam-blum/mysterious-66-billion-wyoming-data-center-project-appears-backed-by-general-catalyst-powered-by-ex-palantir-energy-startup-aethel-energy/91420857",
+      "title": "Who’s Behind a Proposed $66 Billion Wyoming AI Data Center?",
+      "source": "Inc. AI",
+      "published": "2026-10-20T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fd21adf233b7f7563f721212",
+      "bodyFingerprint": "b1dd3d3565822c82588fbd9b",
+      "bodyCharacterCount": 163,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-20T11:42:49.892Z",
+      "assessment": {
+        "centralEvent": "Who’s Behind a Proposed $66 Billion Wyoming AI Data Center?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Who’s Behind a Proposed $66 Billion Wyoming AI Data Center?",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b56c74922fd92c8d9819": {
+      "storyId": "b56c74922fd92c8d9819",
+      "url": "https://mashable.com/tech/oct-20-caveat-ai-standard-plan-lifetime-subscription",
+      "title": "Don’t take AI’s word for it — this $60 tool double-checks its answers",
+      "source": "Mashable AI",
+      "published": "2026-10-20T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8f3d278b057e450ee2bdc800",
+      "bodyFingerprint": "fa3e3eca267412fb2d8ded4b",
+      "bodyCharacterCount": 2545,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T11:42:49.983Z",
+      "assessment": {
+        "centralEvent": "Don’t take AI’s word for it — this $60 tool double-checks its answers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d925494cc2ad819917b3": {
+      "storyId": "d925494cc2ad819917b3",
+      "url": "https://www.politico.com/news/2026/10/20/openai-ai-chips-china-nvidia-01127385",
+      "title": "OpenAI once pushed to keep AI chips from China. Now it's staying quiet.",
+      "source": "POLITICO AI",
+      "published": "2026-10-20T08:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9a2e0364906e8f447ff2ef25",
+      "bodyFingerprint": "df9ba43ae50efb48b628c51b",
+      "bodyCharacterCount": 108,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-20T11:42:49.992Z",
+      "assessment": {
+        "centralEvent": "OpenAI once pushed to keep AI chips from China. Now it's staying quiet.",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8e951cef9cfd59f13973": {
+      "storyId": "8e951cef9cfd59f13973",
+      "url": "https://www.bbc.co.uk/news/articles/c6lyexv93pkdo?at_campaign=rss&at_medium=RSS",
+      "title": "Can a simple photo of your face reveal how ill you are?",
+      "source": "BBC News AI",
+      "published": "2026-10-20T07:29:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c8ae8d92bdf3466a60769423",
+      "bodyFingerprint": "dc9ed468dfd65b127f9eb56c",
+      "bodyCharacterCount": 4411,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-20T11:42:50.087Z",
+      "assessment": {
+        "centralEvent": "Can a simple photo of your face reveal how ill you are?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Published 27 September 2025 Why doing a mix of exercise could be the key to longer life Published 21 January Can two hours of strength training a week reduce the risk of dying early?",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Michelle Roberts Digital health editor Published 3 hours ago An AI tool may be able to help doctors judge how ill a patient is using a single photograph of their face, say US researchers.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Trained on millions of healthy faces, and 35,000 photos of cancer patients, the tool can make estimates on survival by looking closely at features near the eyes, the scientists say.",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "AI may help doctors judge how ill a patient is using a single photograph of their face, say US researchers.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.02,
+        "rawScore": 28.02,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-20T06:04:30.757Z"
+  "updatedAt": "2026-10-20T11:42:50.087Z"
 }
