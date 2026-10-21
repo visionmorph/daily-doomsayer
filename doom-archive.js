@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-21T15:00:00.000Z",
+  "generatedAt": "2026-10-21T20:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-21",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
           "average": 51.23
         },
         {
@@ -39,25 +39,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.98
         },
         {
-          "storyId": "7bf27ea750e3c7638bdb",
-          "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
-          "url": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 50.16,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-21",
-          "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
-          "average": 50.16
-        },
-        {
           "storyId": "af50baf45e95a8bea17e",
           "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
           "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ad6630343f8fc6e5c00cf7e/master/pass/open-ai-employee-court.jpg",
+          "peak": 50.16,
+          "observations": 3,
+          "daysTracked": 1,
+          "peakDate": "2026-10-21",
+          "firstObservedAt": "2026-10-21T10:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "average": 50.16
+        },
+        {
+          "storyId": "7bf27ea750e3c7638bdb",
+          "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
+          "url": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.16,
           "observations": 2,
           "daysTracked": 1,
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
           "average": 49.75
         },
         {
@@ -87,12 +87,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
           "average": 49.64
+        },
+        {
+          "storyId": "ed88ba05aa9f8d012438",
+          "title": "‘This Is Not a Drill’: Critical PHP Vulnerabilities Are Setting the Internet on Fire",
+          "url": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ad8c3e67fa1a6118ccee121/master/pass/102126-PHP.jpg",
+          "peak": 49.5,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-21",
+          "firstObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "average": 49.5
         },
         {
           "storyId": "3b2bd6e595cae7a06e8a",
@@ -101,11 +115,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "average": 49.34
+        },
+        {
+          "storyId": "a543dcc418c01df034fe",
+          "title": "AI Guardrails Aren’t Stopping Criminal Hackers",
+          "url": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ad7cd65322aff8e01d3ff70/master/pass/Security_Claude%20Code's%20Guardrails%20Aren't%20Stopping%20Real-Life%20Attacks_v2.jpg",
+          "peak": 49.34,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-21",
+          "firstObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
           "average": 49.34
         },
         {
@@ -115,40 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
           "average": 49.23
-        },
-        {
-          "storyId": "8cf088839c476fd7711f",
-          "title": "In Europe’s tech capital, Irish labor unions are booming amid AI-driven layoffs",
-          "url": "https://www.politico.eu/article/in-europe-tech-capital-ireland-irish-labor-unions-are-booming-amid-ai-layoffs/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "source": "POLITICO Europe AI",
-          "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreif64ygwsfqjb6pfnscwwpdicq6t5od3w4hpilunkk75p6q6dzt6su",
-          "peak": 49.01,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-21",
-          "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "33a74585cabf1fe91457",
-          "title": "What the West can learn from AI optimists in the rest of the world",
-          "url": "https://restofworld.org/2026/west-ai-anxiety-optimism-innovation/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://fastly.restofworld.org/uploads/2026/10/illo_tech_optimism_final.jpg?width=380&dpr=2&crop=16:9",
-          "peak": 48.32,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-21",
-          "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
-          "average": 48.32
         }
       ]
     },
@@ -7704,11 +7704,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 3,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
           "average": 51.23
         },
         {
@@ -7746,11 +7746,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ad6630343f8fc6e5c00cf7e/master/pass/open-ai-employee-court.jpg",
           "peak": 50.16,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 3,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-20T00:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
           "average": 50.16
         },
         {
@@ -7760,11 +7760,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 3,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
           "average": 49.75
         },
         {
@@ -7774,11 +7774,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 3,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
           "average": 49.64
         },
         {
@@ -7794,6 +7794,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
           "lastObservedAt": "2026-10-19T07:00:00.000Z",
           "average": 49.61
+        },
+        {
+          "storyId": "ed88ba05aa9f8d012438",
+          "title": "‘This Is Not a Drill’: Critical PHP Vulnerabilities Are Setting the Internet on Fire",
+          "url": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ad8c3e67fa1a6118ccee121/master/pass/102126-PHP.jpg",
+          "peak": 49.5,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-21",
+          "firstObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "average": 49.5
         },
         {
           "storyId": "ff61b0a2cd7e074f178f",
@@ -7816,26 +7830,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 3,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
           "average": 49.34
-        },
-        {
-          "storyId": "c185b1f669ce177c88ba",
-          "title": "Who gets to decide if AI is safe? Africa wants a say",
-          "url": "https://restofworld.org/2026/african-leaders-un-security-council-ai-safety/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
-          "peak": 49.23,
-          "observations": 12,
-          "daysTracked": 3,
-          "peakDate": "2026-10-19",
-          "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
-          "average": 49.23
         }
       ]
     },
@@ -9067,11 +9067,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 97,
+          "observations": 98,
           "daysTracked": 21,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
+          "lastObservedAt": "2026-10-21T20:00:00.000Z",
           "average": 51.23
         },
         {
