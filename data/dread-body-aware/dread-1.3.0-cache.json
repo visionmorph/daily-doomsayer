@@ -274816,8 +274816,1434 @@
           "vulnerability": 0
         }
       }
+    },
+    "99803a857421ee105c29": {
+      "storyId": "99803a857421ee105c29",
+      "url": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using",
+      "title": "The $15 billion ad-powered AI startup your doctor may already be using",
+      "source": "Ars Technica AI",
+      "published": "2026-10-21T15:14:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "da1dd3b88fe5db24ec91a9b6",
+      "bodyFingerprint": "ac35f8c9a7a4bc3ce2c15f0f",
+      "bodyCharacterCount": 7023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:25.690Z",
+      "assessment": {
+        "centralEvent": "The $15 billion ad-powered AI startup your doctor may already be using",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The Internet goes on high alert after discovery of 8 compromised TLS certs 2.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "OpenEvidence has won praise from medical professionals who have found it helped ease workloads, according to interviews with eight senior physicians.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“It’s a really useful tool.” Widespread appeal has helped OpenEvidence forge relationships with several hospitals and specialist clinics such as Mount Sinai Health System and Memorial Sloan Kettering Cancer Center in New York, embedding its",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“It’s a really useful tool.” Widespread appeal has helped OpenEvidence forge relationships with several hospitals and specialist clinics such as Mount Sinai Health System and Memorial Sloan Kettering Cancer Center in New York, embedding its",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.75,
+        "rawScore": 46.75,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.25,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "46e5b47fa194179f07a0": {
+      "storyId": "46e5b47fa194179f07a0",
+      "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_campaign=rss&at_medium=RSS",
+      "title": "Websites taken down across Europe as critical cyber-security update issued",
+      "source": "BBC News AI",
+      "published": "2026-10-21T15:11:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "09f85cc82195756be76f3462",
+      "bodyFingerprint": "f831dd7321503172c75e2095",
+      "bodyCharacterCount": 5543,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:25.700Z",
+      "assessment": {
+        "centralEvent": "Websites taken down across Europe as critical cyber-security update issued",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Such a cyber-attack could potentially allow hackers to install malware and take down websites.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It has estimated \"roughly 70%\" of the internet is affected, though the BBC is unable to verify that figure.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Multiple national cyber-security agencies have urged organisations to rapidly adopt the updates, or consider taking their websites offline.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The UK's National Cyber Security Centre (NCSC), as well as its counterparts in the EU and Australia have urged those who use PHP to apply the fixes. \"Where immediate remediation is not feasible, organisations should consider taking the syst",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Finland has temporarily shut down the government's public web services, while the Netherlands' cyber-security agency said it was taking its own website offline due to the vulnerabilities.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.01,
+        "rawScore": 49.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b3bb7eb8417b3c05c751": {
+      "storyId": "b3bb7eb8417b3c05c751",
+      "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
+      "title": "Conversational Gemini navigation comes to Apple CarPlay",
+      "source": "The Verge AI",
+      "published": "2026-10-21T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cd971433600eedc48d3c7404",
+      "bodyFingerprint": "774111bea208553854b3daa2",
+      "bodyCharacterCount": 3608,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:25.731Z",
+      "assessment": {
+        "centralEvent": "Conversational Gemini navigation comes to Apple CarPlay",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Jess Weatherbed AI Apple Google Tech Transportation Most Popular Most Popular The Gospel according to Peter (Thiel) The iPhone Duo is a messy, expensive, good time A critical PHP vulnerability may take websites down today Can you see everyt",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hawkins Oct 20 I tried a $99 plug that promises to track your car and send help when needed — without selling your data Jennifer Pattison Tuohy Oct 19 The Maeving RM2 is high-style electric riding with a few compromises Tim Stevens Oct 19 C",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "The conversational Gemini in navigation is available today for US drivers, with \"rollout happening globally too,\" according to Google (we've asked for specific regional availability details).",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6297b63ba34dece126b6": {
+      "storyId": "6297b63ba34dece126b6",
+      "url": "https://www.theguardian.com/books/2026/oct/21/new-prize-launches-books-co-written-with-ai-france",
+      "title": "New prize launches for books co-written with AI",
+      "source": "The Guardian AI",
+      "published": "2026-10-21T14:59:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "54f8821a028f0e586edffc74",
+      "bodyFingerprint": "e3968490bfc8df2a8c754eeb",
+      "bodyCharacterCount": 2824,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:25.741Z",
+      "assessment": {
+        "centralEvent": "New prize launches for books co-written with AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "After months of controversy over the possible use of AI by winners of prestigious awards, the Prix Pascal de Littérature IA is rewarding fiction written with the help of LLMs A prize for AI-written books has launched this week.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fa1472d8387f6cb9d9f9": {
+      "storyId": "fa1472d8387f6cb9d9f9",
+      "url": "https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers",
+      "title": "Jensen Huang’s Vision for Europe Runs on Plug-In Data Centers",
+      "source": "WIRED AI",
+      "published": "2026-10-21T15:02:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dc7e5b06303cd7987ba53c67",
+      "bodyFingerprint": "6dd61791d434eed3c8d5c99e",
+      "bodyCharacterCount": 4091,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:25.760Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang’s Vision for Europe Runs on Plug-In Data Centers",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Comments Back to top Join the discussion Comments Back to top You Might Also Like Introducing the app: More ways to make the most of WIRED Meta failed to catch hundreds of AI child abuse ads Big Story: The search for Silicon Valley’s most p",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Close Banner 00 Days : 00 Hours : 00 Minutes : 00 Seconds Join us in Miami See the full lineup Save this story Save this story Jensen Huang outlined his vision of Europe’s future at Nvidia’s global conference in Berlin on Wednesday.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Close Banner 00 Days : 00 Hours : 00 Minutes : 00 Seconds Join us in Miami See the full lineup Save this story Save this story Jensen Huang outlined his vision of Europe’s future at Nvidia’s global conference in Berlin on Wednesday.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8eaa1a0c536053841d6f": {
+      "storyId": "8eaa1a0c536053841d6f",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+      "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+      "source": "The Verge AI",
+      "published": "2026-10-21T13:57:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2d7885570f9e4d896f130236",
+      "bodyFingerprint": "34fbc57d6676fd553946fd7f",
+      "bodyCharacterCount": 3577,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:25.781Z",
+      "assessment": {
+        "centralEvent": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Wii Sports is back on the Switch 2, and it rules Advertiser Content From This is the title for the native ad More in AI Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit Google’s more personalized Gemini AI is heading to your car M",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Wii Sports is back on the Switch 2, and it rules Advertiser Content From This is the title for the native ad More in AI Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit Google’s more personalized Gemini AI is heading to your car M",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. \"The reference didn't configure a monitor, and Astra decided that was reason to remove the monitoring integ",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "44f6ff9d4a47c985250c": {
+      "storyId": "44f6ff9d4a47c985250c",
+      "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey",
+      "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
+      "source": "TechCrunch AI",
+      "published": "2026-10-21T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1acd7a53a53f0b3e88f5e46e",
+      "bodyFingerprint": "997eef1664b82ec8f8b64b79",
+      "bodyCharacterCount": 6369,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:25.828Z",
+      "assessment": {
+        "centralEvent": "AI promises productivity, but for managers, it’s mostly a headache for now",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "That practice runs the risk of introducing even more bias than usual into the review process, given that LLMs are, at their core, prediction machines, and tend to repeat human patterns found in their training data.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He covered North American and European M&A, equity, regulatory news and debt markets at Reuters and Acuris Global, and has also written about travel, tourism, entertainment and books.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a543dcc418c01df034fe": {
+      "storyId": "a543dcc418c01df034fe",
+      "url": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers",
+      "title": "AI Guardrails Aren’t Stopping Criminal Hackers",
+      "source": "WIRED AI",
+      "published": "2026-10-21T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "525e41643be44983f56bd8ec",
+      "bodyFingerprint": "d83599818db4784e71ccc0ac",
+      "bodyCharacterCount": 7104,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:25.854Z",
+      "assessment": {
+        "centralEvent": "AI Guardrails Aren’t Stopping Criminal Hackers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The actor that worked in Spanish and English targeted Argentine health care entities and successfully compromised at least 15 organizations.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Close Banner 00 Days : 00 Hours : 00 Minutes : 00 Seconds Join us in Miami See the full lineup Save this story Save this story As AI adoption spreads among both malicious hackers and defenders , even relatively unsophisticated cybercriminal",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Hackers around the world are all-in on using agentic AI to wage attacks—and manipulating tools like Anthropic’s Claude to help them carry out their crimes.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "They’re really just taking advantage of the speed and the volume that you can use AI for in conducting these operations targeting the bulk of security hygiene issues in a lot of these environments—things that were preventable but weren’t pr",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The attackers also used multiple models to take advantage of differences in the guardrails meant to prevent people from using AI to carry out digital attacks.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.34,
+        "rawScore": 49.34,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.485,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "369e9fe44cde6862c771": {
+      "storyId": "369e9fe44cde6862c771",
+      "url": "https://www.theguardian.com/music/2026/oct/21/artificial-intelligence-music-grimes-asap-rocky",
+      "title": "As fans reject AI-generated music, even boosters are drawing the line",
+      "source": "The Guardian AI",
+      "published": "2026-10-21T13:22:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dfc6f1d48805211dd5af6f54",
+      "bodyFingerprint": "2924c4381ee1049290360e4f",
+      "bodyCharacterCount": 4986,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:25.863Z",
+      "assessment": {
+        "centralEvent": "As fans reject AI-generated music, even boosters are drawing the line",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Composite: Getty images Analysis As fans reject AI-generated music, even boosters are drawing the line Blake Montgomery Enthusiasts like Grimes and A$AP Rocky may embrace AI-generated content, but they won’t produce it themselves Streaming ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "67439353af365bebbe3b": {
+      "storyId": "67439353af365bebbe3b",
+      "url": "https://www.politico.eu/article/publishers-press-brussels-and-london-to-stop-metas-new-ai-terms",
+      "title": "Publishers want Brussels and London to stop Meta’s new AI terms",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-21T13:23:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f550caea3525a34ee80d4fa8",
+      "bodyFingerprint": "099a827c53a5f7d2034eb306",
+      "bodyCharacterCount": 3756,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:25.872Z",
+      "assessment": {
+        "centralEvent": "Publishers want Brussels and London to stop Meta’s new AI terms",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "BRUSSELS — Europe’s biggest media companies have asked regulators in Brussels and London to stop Meta from introducing new terms they say would let it copy publishers’ websites to build artificial intelligence, as a backlash that began in t",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The fight began in the U.S. last week, when Nieman Lab, a journalism research outlet at Harvard, reported on the terms after receiving a tip from a small business owner.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c2f78845dcdc658d7fa3": {
+      "storyId": "c2f78845dcdc658d7fa3",
+      "url": "https://www.inc.com/robert-gillespie/hubspot-ai-credit-swap-budget-rules/91422866",
+      "title": "HubSpot’s New AI Credit Swap Is a Trap If You Don’t Set This One Rule",
+      "source": "Inc. AI",
+      "published": "2026-10-21T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "53353d3c2c08770be1313f5a",
+      "bodyFingerprint": "82efd95fb6d40c3f1657781c",
+      "bodyCharacterCount": 139,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-21T15:19:25.920Z",
+      "assessment": {
+        "centralEvent": "HubSpot’s New AI Credit Swap Is a Trap If You Don’t Set This One Rule",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9b6ba4d5f1f99332bffb": {
+      "storyId": "9b6ba4d5f1f99332bffb",
+      "url": "https://www.inc.com/aaron-mok/this-startup-raised-20-million-to-help-police-sift-through-evidence-can-its-ai-be-trusted/91419405",
+      "title": "This Startup Raised $20 Million to Help Police Sift Through Evidence. Can Its AI Be Trusted?",
+      "source": "Inc. AI",
+      "published": "2026-10-21T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "694b3b29726876ad29528d3b",
+      "bodyFingerprint": "8b5100a7a59709d0e0d2337a",
+      "bodyCharacterCount": 144,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-21T15:19:25.921Z",
+      "assessment": {
+        "centralEvent": "This Startup Raised $20 Million to Help Police Sift Through Evidence. Can Its AI Be Trusted?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Longeye raised $20 million to help investigators analyze digital evidence faster, but experts say its safeguards will determine the real impact.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ed88ba05aa9f8d012438": {
+      "storyId": "ed88ba05aa9f8d012438",
+      "url": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire",
+      "title": "‘This Is Not a Drill’: Critical PHP Vulnerabilities Are Setting the Internet on Fire",
+      "source": "WIRED AI",
+      "published": "2026-10-21T14:26:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e7a1fc32d499ff36c824f2bc",
+      "bodyFingerprint": "736d762616fc41f07ed8edd4",
+      "bodyCharacterCount": 7737,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:26.025Z",
+      "assessment": {
+        "centralEvent": "‘This Is Not a Drill’: Critical PHP Vulnerabilities Are Setting the Internet on Fire",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Worst case is wormable malware affecting big chunks of the internet.” The overriding fear for security teams and developers is that malicious hackers could quickly jump upon the vulnerabilities and begin exploiting deployments before they a",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Close Banner 00 Days : 00 Hours : 00 Minutes : 00 Seconds Join us in Miami See the full lineup Save this story Save this story Internet security and web administration teams around the world are scrambling to prevent widespread disaster.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Close Banner 00 Days : 00 Hours : 00 Minutes : 00 Seconds Join us in Miami See the full lineup Save this story Save this story Internet security and web administration teams around the world are scrambling to prevent widespread disaster.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Where immediate remediation is not feasible, organizations should consider taking the system offline until it can be fully mitigated,” the agency wrote online.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Worst case is wormable malware affecting big chunks of the internet.” The overriding fear for security teams and developers is that malicious hackers could quickly jump upon the vulnerabilities and begin exploiting deployments before they a",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.5,
+        "rawScore": 49.5,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b7adcd526cddde93def7": {
+      "storyId": "b7adcd526cddde93def7",
+      "url": "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse",
+      "title": "A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse",
+      "source": "WIRED AI",
+      "published": "2026-10-21T12:35:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cbbb956dbf804ecdf8371358",
+      "bodyFingerprint": "98f248545b0ea1ec6f49104d",
+      "bodyCharacterCount": 6118,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:26.040Z",
+      "assessment": {
+        "centralEvent": "A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "After opening a few hundred of them, the researchers found information that was clearly not intended to be publicly available, including: a candidate’s notes preparing for a confidential executive-search call with a frontier AI lab, naming ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Close Banner 00 Days : 00 Hours : 00 Minutes : 00 Seconds Join us in Miami See the full lineup Save this story Save this story Muse, the new general-purpose AI agent from Meta, can expose sensitive information when users share conversations",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "After opening a few hundred of them, the researchers found information that was clearly not intended to be publicly available, including: a candidate’s notes preparing for a confidential executive-search call with a frontier AI lab, naming ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6c853a83268d1a513409": {
+      "storyId": "6c853a83268d1a513409",
+      "url": "https://www.inc.com/tony-manganiello/the-customer-interactions-ai-cant-afford-to-replace/91422454",
+      "title": "Chick-fil-A Is Keeping Humans in the Drive-Thru. Here’s the Business Lesson",
+      "source": "Inc. AI",
+      "published": "2026-10-21T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1bc81f9c7e533671e6f5a849",
+      "bodyFingerprint": "5079b3259f00f2f00d77cd7f",
+      "bodyCharacterCount": 47,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-21T15:19:26.055Z",
+      "assessment": {
+        "centralEvent": "Chick-fil-A Is Keeping Humans in the Drive-Thru. Here’s the Business Lesson",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c7ce7cd10ab1375231bf": {
+      "storyId": "c7ce7cd10ab1375231bf",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261020085021.htm",
+      "title": "A train was delayed by a solar storm. But something didn't add up.",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-21T12:35:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "57a818a2920bc53c9ab44092",
+      "bodyFingerprint": "f5b5ed8a8be4f7553f4226e1",
+      "bodyCharacterCount": 12950,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:26.062Z",
+      "assessment": {
+        "centralEvent": "A train was delayed by a solar storm. But something didn't add up.",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "6, 2024  New research into the vulnerability of power grids served by weather-dependent renewable energy sources (WD-RESs) such as solar and wind paints a hopeful picture as various countries around the globe ...",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "17, 2025  A new AI model from NYU Abu Dhabi predicts solar wind days in advance with far greater accuracy than existing methods.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "An international research team has solved a 178-year-old mystery involving one of the earliest documented cases of solar activity interfering with electrical technology.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 87,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ba8e540eda04d6cafb16": {
+      "storyId": "ba8e540eda04d6cafb16",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261020084818.htm",
+      "title": "NASA’s Perseverance Mars rover just shattered the all-time off-world driving record",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-21T09:22:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "85f0e2133cee16e0523250b1",
+      "bodyFingerprint": "bc662e41a3b279ca4e10f242",
+      "bodyCharacterCount": 12887,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:26.126Z",
+      "assessment": {
+        "centralEvent": "NASA’s Perseverance Mars rover just shattered the all-time off-world driving record",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Scientists Discover a Potential Early Warning Sign of Alzheimer’s in Adults As Young as 45 Late-Night Snacking Could Be Putting Your Liver at Risk Scientists Say a Simple Blood Test Could Reveal Depression 40 Ye",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The milestone came on the rover's 2,006th Martian day, known as a sol.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "How NASA's Self-Driving Mars Rover Broke the Record One of the biggest reasons Perseverance has been able to travel so far is its sophisticated autonomous driving system.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "NASA engineers describe this process as \"thinking while driving.\" The system operates while Perseverance travels at or near its maximum speed, allowing the rover to cover as much as 1,351 feet (412 meters) in a single Martian day.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 90,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.02,
+        "rawScore": 27.02,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2c4e7f92e57194808c7b": {
+      "storyId": "2c4e7f92e57194808c7b",
+      "url": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer",
+      "title": "OpenAI Invests in Startup That Uses Brain Implants to Detect Cancer",
+      "source": "WIRED AI",
+      "published": "2026-10-21T10:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "47a9036638ab081e57a30d54",
+      "bodyFingerprint": "014759884dbd0b42cd680f15",
+      "bodyCharacterCount": 4914,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:26.155Z",
+      "assessment": {
+        "centralEvent": "OpenAI Invests in Startup That Uses Brain Implants to Detect Cancer",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In its January announcement, OpenAI said it would “collaborate with Merge Labs on scientific foundation models and other frontier tools to accelerate progress.” Comments Back to top Join the discussion Comments Back to top You Might Also Li",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Close Banner 00 Days : 00 Hours : 00 Minutes : 00 Seconds Join us in Miami See the full lineup Save this story Save this story OpenAI’s venture capital arm as well as Peter Thiel’s Founders Fund are investing in Coherence Neuro , a startup ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The company says it already knows how to detect these signals in animals to determine whether cancer is growing, shrinking, or recurring.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.19,
+        "rawScore": 47.19,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ee3cb7a6771fe038fe9b": {
+      "storyId": "ee3cb7a6771fe038fe9b",
+      "url": "https://www.lawfaremedia.org/article/lawfare-daily--investigating-ai-cyber-risks--with-asad-ramzanali",
+      "title": "Lawfare Daily: Investigating AI Cyber Risks, with Asad Ramzanali",
+      "source": "Lawfare AI",
+      "published": "2026-10-21T11:00:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aaa52679337495b8a4d31ae3",
+      "bodyFingerprint": "9538d42e97d41b40f9aabfa5",
+      "bodyCharacterCount": 2268,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:26.824Z",
+      "assessment": {
+        "centralEvent": "Lawfare Daily: Investigating AI Cyber Risks, with Asad Ramzanali",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Other Topics Armed Conflict Congress Courts & Litigation Criminal Justice & Rule of Law Cybersecurity & Tech Democracy & Elections Executive Branch Foreign Relations & International Law Intelligence States & Localities Surveillance & Privac",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Lisa Klaassen Kevin Frazier Oct 20, 2026 Lawmakers want AI kill switches, but who pulls the trigger, what it shuts off, and when it’s justified remain dangerously unclear.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Other Topics Armed Conflict Congress Courts & Litigation Criminal Justice & Rule of Law Cybersecurity & Tech Democracy & Elections Executive Branch Foreign Relations & International Law Intelligence States & Localities Surveillance & Privac",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "320c58fb05df7572b482": {
+      "storyId": "320c58fb05df7572b482",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261020085016.htm",
+      "title": "Astronauts’ hearts just passed a surprising test for Mars",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-21T11:59:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "88be3956ec3537ee034048ae",
+      "bodyFingerprint": "6cc3d8e3a3be40511dafff7f",
+      "bodyCharacterCount": 11523,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T15:19:27.081Z",
+      "assessment": {
+        "centralEvent": "Astronauts’ hearts just passed a surprising test for Mars",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Encouragingly, the researchers found that the astronauts showed no significant signs of cardiovascular strain when exposed to simulated Martian gravity after returning to Earth. \"With our findings, there is now reason to think that we would",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "6, 2022  A small amount of simulated crushed Martian rock mixed with a titanium alloy made a stronger, high-performance material in a 3D-printing process that could one day be used on Mars to make tools or ...",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Researchers from Northwestern Medicine, UT Southwestern, and UT Houston monitored the hearts of 13 astronauts who spent approximately six months aboard the International Space Station.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-21T10:13:43.392Z"
+  "updatedAt": "2026-10-21T15:19:27.081Z"
 }
