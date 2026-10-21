@@ -274631,8 +274631,193 @@
           "vulnerability": 0
         }
       }
+    },
+    "8819c7b8ab7ff2d25977": {
+      "storyId": "8819c7b8ab7ff2d25977",
+      "url": "https://www.politico.com/news/2026/10/21/anthropic-bill-ai-risk-threshold-01128458",
+      "title": "Why Anthropic’s draft bill sets $1 billion threshold for AI risk",
+      "source": "POLITICO AI",
+      "published": "2026-10-21T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0a5f879c20c8630e96d5dae7",
+      "bodyFingerprint": "8ca1ce4d4e187e7b9b56ed73",
+      "bodyCharacterCount": 165,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-21T10:13:43.248Z",
+      "assessment": {
+        "centralEvent": "Why Anthropic’s draft bill sets $1 billion threshold for AI risk",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Why Anthropic’s draft bill sets $1 billion threshold for AI risk",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The artificial intelligence company’s proposed threshold mirrors a California law — but repurposes it to decide when the government could block an advanced AI model.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d5182669d4d6e4c1bb22": {
+      "storyId": "d5182669d4d6e4c1bb22",
+      "url": "https://www.inc.com/ray-fernandez/visa-beware-fake-online-stores-shopping-agents-holiday-season/91422671",
+      "title": "Visa: Beware of Fake Online Stores that Fool Shopping Agents this Holiday Season",
+      "source": "Inc. AI",
+      "published": "2026-10-21T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4dfc605008fceb6ceb0c6273",
+      "bodyFingerprint": "aa4b2baa2191fe9076f97f7a",
+      "bodyCharacterCount": 165,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-21T10:13:43.316Z",
+      "assessment": {
+        "centralEvent": "Visa: Beware of Fake Online Stores that Fool Shopping Agents this Holiday Season",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "As consumers increasingly use AI agents to search, compare, and shop for products, this holiday season will bring a new wave of industrialized-level scams and fraud.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "90d47dfd079706f7d781": {
+      "storyId": "90d47dfd079706f7d781",
+      "url": "https://www.wired.com/story/europe-data-centers-climate-change",
+      "title": "Europe Wants Data Centers. Its Climate Goals Are Getting in The Way",
+      "source": "WIRED AI",
+      "published": "2026-10-21T08:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5f04eeb64ec82b84b1863a76",
+      "bodyFingerprint": "7dd31db87233f95e1f41142a",
+      "bodyCharacterCount": 6122,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T10:13:43.391Z",
+      "assessment": {
+        "centralEvent": "Europe Wants Data Centers. Its Climate Goals Are Getting in The Way",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The idea was to minimize Germany’s dependence on the United States for access to AI—a point of concern across Europe —and boost its faltering economy.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-21T04:53:54.432Z"
+  "updatedAt": "2026-10-21T10:13:43.392Z"
 }
