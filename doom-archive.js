@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-21T20:00:00.000Z",
+  "generatedAt": "2026-10-21T23:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-21",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
           "average": 51.23
         },
         {
@@ -39,6 +39,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.98
         },
         {
+          "storyId": "7bf27ea750e3c7638bdb",
+          "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
+          "url": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 50.16,
+          "observations": 3,
+          "daysTracked": 1,
+          "peakDate": "2026-10-21",
+          "firstObservedAt": "2026-10-21T10:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
+          "average": 50.16
+        },
+        {
           "storyId": "af50baf45e95a8bea17e",
           "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
           "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
@@ -53,31 +67,17 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.16
         },
         {
-          "storyId": "7bf27ea750e3c7638bdb",
-          "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
-          "url": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 50.16,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-21",
-          "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
-          "average": 50.16
-        },
-        {
           "storyId": "c1d1d07e9324be701d38",
           "title": "UK Election Watchdog Develops AI System to Flag Deepfakes Within 3 Hours",
           "url": "https://techpolicy.press/uk-election-watchdog-develops-ai-system-to-flag-deepfakes-within-3-hours",
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
           "average": 49.75
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
           "average": 49.64
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ad8c3e67fa1a6118ccee121/master/pass/102126-PHP.jpg",
           "peak": 49.5,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T20:00:00.000Z",
-          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
           "average": 49.5
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
           "average": 49.34
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ad7cd65322aff8e01d3ff70/master/pass/Security_Claude%20Code's%20Guardrails%20Aren't%20Stopping%20Real-Life%20Attacks_v2.jpg",
           "peak": 49.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T20:00:00.000Z",
-          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
           "average": 49.34
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
           "average": 49.23
         }
       ]
@@ -7704,11 +7704,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 3,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
           "average": 51.23
         },
         {
@@ -7732,11 +7732,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.16,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 3,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T21:00:00.000Z",
-          "lastObservedAt": "2026-10-21T15:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
           "average": 50.16
         },
         {
@@ -7760,11 +7760,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 3,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
           "average": 49.75
         },
         {
@@ -7774,11 +7774,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 3,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
           "average": 49.64
         },
         {
@@ -7802,11 +7802,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ad8c3e67fa1a6118ccee121/master/pass/102126-PHP.jpg",
           "peak": 49.5,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T20:00:00.000Z",
-          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
           "average": 49.5
         },
         {
@@ -7830,11 +7830,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 3,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
           "average": 49.34
         }
       ]
@@ -9067,11 +9067,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 98,
+          "observations": 99,
           "daysTracked": 21,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-21T20:00:00.000Z",
+          "lastObservedAt": "2026-10-21T23:00:00.000Z",
           "average": 51.23
         },
         {
