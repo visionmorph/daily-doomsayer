@@ -274504,8 +274504,135 @@
           "vulnerability": 0
         }
       }
+    },
+    "14423eb5946bd5d1ae5f": {
+      "storyId": "14423eb5946bd5d1ae5f",
+      "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era",
+      "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
+      "source": "TechCrunch AI",
+      "published": "2026-10-20T16:20:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "61a8258f4a35eef6ee391cab",
+      "bodyFingerprint": "de2d519936276516838516fd",
+      "bodyCharacterCount": 3436,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T04:53:54.157Z",
+      "assessment": {
+        "centralEvent": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "55b2f90292efb75cfa80": {
+      "storyId": "55b2f90292efb75cfa80",
+      "url": "https://www.politico.eu/article/socialists-and-democrats-push-eu-law-deepfake",
+      "title": "Socialists push for EU law on deepfakes",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-20T16:45:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "422d4eac221871e18edb060f",
+      "bodyFingerprint": "4504806c743926d153abd976",
+      "bodyCharacterCount": 6388,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-21T04:53:54.432Z",
+      "assessment": {
+        "centralEvent": "Socialists push for EU law on deepfakes",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The push comes amid a Europe-wide debate over who controls a person’s digital identity as AI increasingly allows for the easy production of everything from a politician's fake endorsement to the clone of your neighbor's voice to pull off a ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The S&D proposal doesn't specify the mechanism for implementing the ban, but some see following Denmark's path of applying copyright law as the most effective solution.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“The current trend towards different national solutions only creates legal confusion bad actors could exploit,” German S&D MEP Tiemo Wölken, a key legislator on Parliament’s copyright and AI report , told POLITICO.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.03,
+        "rawScore": 46.03,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-20T23:55:35.340Z"
+  "updatedAt": "2026-10-21T04:53:54.432Z"
 }
