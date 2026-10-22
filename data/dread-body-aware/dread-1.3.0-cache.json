@@ -278797,8 +278797,702 @@
           "vulnerability": 0
         }
       }
+    },
+    "8837f108df9d7fd22581": {
+      "storyId": "8837f108df9d7fd22581",
+      "url": "https://www.inc.com/amy-zwagerman/ai-search-impact-on-e-commerce/91421687",
+      "title": "AI Took 58 Percent of Your Search Clicks. Now It’s Coming for Your Checkout",
+      "source": "Inc. AI",
+      "published": "2026-10-22T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "39f01eac9d954843a8d2ad6b",
+      "bodyFingerprint": "d20f2430d7013f9731122138",
+      "bodyCharacterCount": 158,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-22T10:14:51.890Z",
+      "assessment": {
+        "centralEvent": "AI Took 58 Percent of Your Search Clicks. Now It’s Coming for Your Checkout",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "70e8417c7dea6f7acf08": {
+      "storyId": "70e8417c7dea6f7acf08",
+      "url": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_campaign=rss&at_medium=RSS",
+      "title": "Barclays cutting 5,000 jobs as it increases reliance on AI",
+      "source": "BBC News AI",
+      "published": "2026-10-22T09:37:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6db15747476f1b9648058774",
+      "bodyFingerprint": "5be014629fd14ff42c9d5f0a",
+      "bodyCharacterCount": 2921,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T10:14:51.923Z",
+      "assessment": {
+        "centralEvent": "Barclays cutting 5,000 jobs as it increases reliance on AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The banking group said 1,000 posts had already been closed and it expects a further reduction of 4,000 to be complete by the end of this year, amounting to around 5% of its global workforce.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8cfeee77ef16cef0b37c": {
+      "storyId": "8cfeee77ef16cef0b37c",
+      "url": "https://www.bbc.co.uk/news/videos/c6y8lvg2p50po?at_campaign=rss&at_medium=RSS",
+      "title": "'500 new vulnerabilities' found in government, says AI minister",
+      "source": "BBC News AI",
+      "published": "2026-10-22T10:08:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b98f176f6773f7a9153b12c9",
+      "bodyFingerprint": "1bcb14b87d908aa6a63f98d2",
+      "bodyCharacterCount": 667,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T10:14:51.930Z",
+      "assessment": {
+        "centralEvent": "'500 new vulnerabilities' found in government, says AI minister",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "'500 new vulnerabilities' found in government, says AI minister '500 new vulnerabilities' found in government, says AI minister Close Organisations around the world are scrambling to fix a critical cyber-security flaw that could affect mill",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "'500 new vulnerabilities' found in government, says AI minister '500 new vulnerabilities' found in government, says AI minister Close Organisations around the world are scrambling to fix a critical cyber-security flaw that could affect mill",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 6,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.98,
+        "rawScore": 25.98,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0d0bc1f633cf82564638": {
+      "storyId": "0d0bc1f633cf82564638",
+      "url": "https://www.inc.com/jessica-stillman/flight-price-dropped-after-you-bought-a-ticket-heres-how-to-get-your-money-back/91422587",
+      "title": "Flight Price Dropped After You Bought a Ticket? Here’s How to Get Your Money Back",
+      "source": "Inc. AI",
+      "published": "2026-10-22T08:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0e005cbcdb9eaef9175c24e5",
+      "bodyFingerprint": "3e60557bc254ec71d0224671",
+      "bodyCharacterCount": 128,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-22T10:14:51.946Z",
+      "assessment": {
+        "centralEvent": "Flight Price Dropped After You Bought a Ticket? Here’s How to Get Your Money Back",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1db13b1120ad891aa484": {
+      "storyId": "1db13b1120ad891aa484",
+      "url": "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
+      "title": "Barclays to cut 5,000 jobs as bank’s bosses hail AI productivity advances",
+      "source": "The Guardian AI",
+      "published": "2026-10-22T08:40:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b788823abc29e4d28c6c3679",
+      "bodyFingerprint": "9718729e61413718ad95e351",
+      "bodyCharacterCount": 5260,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T10:14:51.962Z",
+      "assessment": {
+        "centralEvent": "Barclays to cut 5,000 jobs as bank’s bosses hail AI productivity advances",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "He told the Times : “I want to be a chancellor who backs business in Britain making a profit, those entrepreneurs who in the end are the ones who challenge the status quo, come up with innovative ideas and are trying, some of them through s",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "He told the Times : “I want to be a chancellor who backs business in Britain making a profit, those entrepreneurs who in the end are the ones who challenge the status quo, come up with innovative ideas and are trying, some of them through s",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Equating to the loss of 5% of its 93,000 global staff, job cuts come as bank announces jump in quarterly profits Business live – latest updates Barclays is cutting 5,000 jobs as part of wider cost-cutting plans that its bosses say are being",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "009a8d2ac1cd0ac1401e": {
+      "storyId": "009a8d2ac1cd0ac1401e",
+      "url": "https://www.bbc.co.uk/news/articles/cm9qzgg5z89no?at_campaign=rss&at_medium=RSS",
+      "title": "Is an 'AI war' complicating your job search?",
+      "source": "BBC News AI",
+      "published": "2026-10-22T05:01:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9a0deb349464a9f178943362",
+      "bodyFingerprint": "3cc1ae9303c0edbde516dcbf",
+      "bodyCharacterCount": 9611,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T10:14:51.983Z",
+      "assessment": {
+        "centralEvent": "Is an 'AI war' complicating your job search?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Fraud gets smaller when people trust the process.\" Can you tell when somebody has used AI on their CV?",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image caption, Sheeraz Gulsher says there are \"huge worries\" about AI By Meghan Owen London work and money correspondent Published 5 hours ago I have lost track of the number of people who have told me they have applied for hundreds of jobs",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One company, Workday, is facing legal claims , external in the US, alleging that its tools discriminated against job applicants.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.7,
+        "rawScore": 46.7,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a2365328ae84a2fb52ee": {
+      "storyId": "a2365328ae84a2fb52ee",
+      "url": "https://mashable.com/tech/oct-22-chatplayground-ai-unlimited-plan-lifetime-subscriptions",
+      "title": "ChatGPT, Claude, Gemini, and more — all yours for life for a one-time $59.97 payment",
+      "source": "Mashable AI",
+      "published": "2026-10-22T07:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b256421164a92c5cdcbc01df",
+      "bodyFingerprint": "102dfc6c3e1ed63c03b9b961",
+      "bodyCharacterCount": 2789,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T10:14:52.046Z",
+      "assessment": {
+        "centralEvent": "ChatGPT, Claude, Gemini, and more — all yours for life for a one-time $59.97 payment",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "be145cfed5b15d064d7a": {
+      "storyId": "be145cfed5b15d064d7a",
+      "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna",
+      "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
+      "source": "WIRED AI",
+      "published": "2026-10-22T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6099d03646e52701ecffa1fd",
+      "bodyFingerprint": "a711662270fc6d3c24a10b7c",
+      "bodyCharacterCount": 4790,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T10:14:52.063Z",
+      "assessment": {
+        "centralEvent": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Close Banner 00 Days : 00 Hours : 00 Minutes : 00 Seconds Join us in Miami See the full lineup Save this story Save this story The AI platform Hugging Face on Thursday released a new open-source model for understanding DNA that can run loca",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0d706251c10a87aa5bac": {
+      "storyId": "0d706251c10a87aa5bac",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened",
+      "title": "AI firms say UK has a year to head off datacentre protests before construction is threatened",
+      "source": "The Guardian AI",
+      "published": "2026-10-22T05:00:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "85213b3c7b5857b09d69e546",
+      "bodyFingerprint": "a7c84595efee37c3e8340d44",
+      "bodyCharacterCount": 6328,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T10:14:52.071Z",
+      "assessment": {
+        "centralEvent": "AI firms say UK has a year to head off datacentre protests before construction is threatened",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Exclusive: Nvidia, Microsoft and Cisco taskforce urges ministers to offer areas greater benefits from tech infrastructure amid fears of US-style opposition AI companies have told ministers they have 12 months to head off public opposition t",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The same arguments have begun to appear here.” It added: “Britain has a window – we think of roughly 12 months – to build a compact that earns public consent before that pattern takes hold.” The taskforce is calling for the government to cr",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Responding to the proposals, Joseph Miller, the director of PauseAI UK, which campaigns for a global pause to datacentre buildout, said: “People are going to feel it is undignified to be bought off by huge tech companies who do not share th",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Responding to the proposals, Joseph Miller, the director of PauseAI UK, which campaigns for a global pause to datacentre buildout, said: “People are going to feel it is undignified to be bought off by huge tech companies who do not share th",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "aeb39f055422cba3b1a4": {
+      "storyId": "aeb39f055422cba3b1a4",
+      "url": "https://news.sky.com/story/barclays-cutting-5000-jobs-in-ai-led-efficiency-drive-13602151",
+      "title": "Barclays cutting 5,000 jobs in AI-led efficiency drive",
+      "source": "Sky News AI",
+      "published": "2026-10-22T07:32:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3ae4b2bb56165c5960e1c21c",
+      "bodyFingerprint": "15c61d66d8655acaa9432656",
+      "bodyCharacterCount": 176,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-22T10:14:52.187Z",
+      "assessment": {
+        "centralEvent": "Barclays cutting 5,000 jobs in AI-led efficiency drive",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b2439282832576a241a2": {
+      "storyId": "b2439282832576a241a2",
+      "url": "https://thedispatch.com/article/character-ai-companion-bankruptcy",
+      "title": "What Happens When Your Robot Friend Goes Dark?",
+      "source": "The Dispatch AI",
+      "published": "2026-10-22T05:01:00+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "99246b9a7312bb9d8396d3ad",
+      "bodyFingerprint": "c89ca716f3f4b5c3e8b54f77",
+      "bodyCharacterCount": 4508,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T10:14:52.691Z",
+      "assessment": {
+        "centralEvent": "What Happens When Your Robot Friend Goes Dark?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Before joining The Dispatch, he reported on crypto, most recently at Fortune Magazine.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-22T04:53:17.746Z"
+  "updatedAt": "2026-10-22T10:14:52.692Z"
 }
