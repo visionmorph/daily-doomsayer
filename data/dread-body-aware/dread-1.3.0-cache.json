@@ -281424,8 +281424,1733 @@
           "vulnerability": 0
         }
       }
+    },
+    "f927b9dfca895a180389": {
+      "storyId": "f927b9dfca895a180389",
+      "url": "https://www.inc.com/nick-hobson/why-you-lose-motivation-when-youre-more-productive/91423969",
+      "title": "Why You Lose Motivation When You’re More Productive",
+      "source": "Inc. AI",
+      "published": "2026-10-22T19:31:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a0d6ac9e2d98c8bf0e8bcf7b",
+      "bodyFingerprint": "7e7cf8f4ecf303e2d7d1f1c7",
+      "bodyCharacterCount": 168,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-22T20:10:09.204Z",
+      "assessment": {
+        "centralEvent": "Why You Lose Motivation When You’re More Productive",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ce08a5dfb8d6322de39c": {
+      "storyId": "ce08a5dfb8d6322de39c",
+      "url": "https://www.inc.com/aaron-mok/claudes-new-duet-agent-will-do-this-1-helpful-task-for-you-each-morning/91424026",
+      "title": "Claude’s New Duet Agent Will Do This 1 Helpful Task for You Each Morning",
+      "source": "Inc. AI",
+      "published": "2026-10-22T19:51:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b1d8f37389b5da1cb0b1b3ed",
+      "bodyFingerprint": "f98d68ec2d4b8187c8f5622d",
+      "bodyCharacterCount": 116,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-22T20:10:09.209Z",
+      "assessment": {
+        "centralEvent": "Claude’s New Duet Agent Will Do This 1 Helpful Task for You Each Morning",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1c3f6e8b2704e3fb6b2b": {
+      "storyId": "1c3f6e8b2704e3fb6b2b",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+      "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+      "source": "The Verge AI",
+      "published": "2026-10-22T19:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2cfb3f208a7d259e75b0e22e",
+      "bodyFingerprint": "42c97d62ea6683b511073eeb",
+      "bodyCharacterCount": 16182,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.226Z",
+      "assessment": {
+        "centralEvent": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "At first blush, this may look comparable to the revenue of a company like Anthropic, whose leaked S-1 shows the company had $16.3 billion in revenue in the first half of this year from its frontier models.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Elizabeth Lopatto AI Analysis Business Electric Cars Elon Musk Report Science Space SpaceX Tech Tesla Transportation xAI Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans makin",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Leave aside the more complicated issues of national security (for SpaceX) and antitrust.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Elizabeth Lopatto AI Analysis Business Electric Cars Elon Musk Report Science Space SpaceX Tech Tesla Transportation xAI Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans makin",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 118,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "237e6e3b60f1e1086acc": {
+      "storyId": "237e6e3b60f1e1086acc",
+      "url": "https://www.wired.com/story/aged-intelligence-society-interview",
+      "title": "The Social Society Helping Women Join the AI Boom",
+      "source": "WIRED AI",
+      "published": "2026-10-22T19:56:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0ae31da1f71f1bdb35c92f5d",
+      "bodyFingerprint": "7e61d3a2b9e40699af530fed",
+      "bodyCharacterCount": 8252,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.263Z",
+      "assessment": {
+        "centralEvent": "The Social Society Helping Women Join the AI Boom",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Close Banner 00 Days : 00 Hours : 00 Minutes : 00 Seconds Join us in Miami See the full lineup Save this story Save this story I’m not even going to try to pretend I don’t have a bit of a girl-crush on Shoshana Berger.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7fe7774a3ecb03f8ceb8": {
+      "storyId": "7fe7774a3ecb03f8ceb8",
+      "url": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
+      "title": "Discord now formats Markdown previews right",
+      "source": "The Verge AI",
+      "published": "2026-10-22T18:58:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6bfb8931f15ca1cdcf3b75e1",
+      "bodyFingerprint": "c8b6ac35af243269b24ff78a",
+      "bodyCharacterCount": 3340,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.280Z",
+      "assessment": {
+        "centralEvent": "Discord now formats Markdown previews right",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Jay Peters AI Apps News Tech Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans making guests do dishes and take out the trash PHP: The three letters that shut down sites all ov",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters AI Apps News Tech Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans making guests do dishes and take out the trash PHP: The three letters that shut down sites all ov",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Jay Peters AI Apps News Tech Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans making guests do dishes and take out the trash PHP: The three letters that shut down sites all ov",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.7,
+        "rawScore": 46.7,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "662e68277c6361dd4b95": {
+      "storyId": "662e68277c6361dd4b95",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "source": "TechCrunch AI",
+      "published": "2026-10-22T19:07:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a747801631a135f069b326c2",
+      "bodyFingerprint": "cafd31ec4e224340c97f1ac2",
+      "bodyCharacterCount": 3745,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.346Z",
+      "assessment": {
+        "centralEvent": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular A",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "317abcdd1b20728a7e62": {
+      "storyId": "317abcdd1b20728a7e62",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model",
+      "title": "Canva releases its first image generation model",
+      "source": "TechCrunch AI",
+      "published": "2026-10-22T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "06c680d1684c644b5cc5bffb",
+      "bodyFingerprint": "5fbb368d469c94f5e67482b8",
+      "bodyCharacterCount": 3634,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.358Z",
+      "assessment": {
+        "centralEvent": "Canva releases its first image generation model",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular A",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "575971a63ca3280440cc": {
+      "storyId": "575971a63ca3280440cc",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up",
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "source": "TechCrunch AI",
+      "published": "2026-10-22T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2b8a370f3de3c0a8542bb379",
+      "bodyFingerprint": "41d990d1672e1ae533db6dc3",
+      "bodyCharacterCount": 5762,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.362Z",
+      "assessment": {
+        "centralEvent": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular A",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular A",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "OpenAI added new voice and visual modalities to the public version, and worked to ensure lower latency in regions around the world by targeting its inference resources geographically.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Handa also saw further increases in speed enabling new use cases: “Can we get this to something like you know 60 milliseconds, and then you could imagine like an API like call like for every single frame in like a video?” As these offerings",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dedf2896ecdb4ab528c7": {
+      "storyId": "dedf2896ecdb4ab528c7",
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence",
+      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+      "source": "TechCrunch AI",
+      "published": "2026-10-22T18:43:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a166e201e4767c7ab512945b",
+      "bodyFingerprint": "edb5e272fa39026257918f05",
+      "bodyCharacterCount": 8534,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.365Z",
+      "assessment": {
+        "centralEvent": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular A",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular A",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Microsoft tested MAI-DxO with models from several companies, including OpenAI, Google, Anthropic, Meta, and DeepSeek, but its best results came with OpenAI’s GPT-5 and GPT-5.5.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.19,
+        "rawScore": 27.19,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ee144e79e7d9cf213368": {
+      "storyId": "ee144e79e7d9cf213368",
+      "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
+      "title": "In Meta’s version of the future, I’ll have my Muse call your Muse",
+      "source": "The Verge AI",
+      "published": "2026-10-22T18:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3f959fa42226169a844ecfea",
+      "bodyFingerprint": "05262a3474b0f703cffa3fe8",
+      "bodyCharacterCount": 9624,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.376Z",
+      "assessment": {
+        "centralEvent": "In Meta’s version of the future, I’ll have my Muse call your Muse",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Meta, and the rest of Big Tech for that matter, is under increasing pressure to show that its AI investments will be worth it.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Ellen Thomas AI Meta Tech Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans making guests do dishes and take out the trash PHP: The three letters that shut down sites all over ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Ellen Thomas AI Meta Tech Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans making guests do dishes and take out the trash PHP: The three letters that shut down sites all over ",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.7,
+        "rawScore": 26.7,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7d11b7bedcea0f417efb": {
+      "storyId": "7d11b7bedcea0f417efb",
+      "url": "https://www.inc.com/bethany-mclean/spacex-earnings-coreweave-problem-elon-musk-ai-stocks/91423907",
+      "title": "SpaceX Has a CoreWeave Problem That No One Is Talking About",
+      "source": "Inc. AI",
+      "published": "2026-10-22T18:09:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "20cd6383d0ae6ed7c07d0cd5",
+      "bodyFingerprint": "0fedcc28e406402265b7731d",
+      "bodyCharacterCount": 143,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-22T20:10:09.378Z",
+      "assessment": {
+        "centralEvent": "SpaceX Has a CoreWeave Problem That No One Is Talking About",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c7b5ab6ad70c88c97d83": {
+      "storyId": "c7b5ab6ad70c88c97d83",
+      "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+      "title": "Someone hacked the Switch 2 by using an old game and AI",
+      "source": "The Verge AI",
+      "published": "2026-10-22T17:21:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af4be0b950326b78d5fc4722",
+      "bodyFingerprint": "27be00ed1a13f3548d296557",
+      "bodyCharacterCount": 3893,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.395Z",
+      "assessment": {
+        "centralEvent": "Someone hacked the Switch 2 by using an old game and AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Someone hacked the Switch 2 by using an old game and AI",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters Oct 15 Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans making guests do dishes and take out the trash PHP: The three letters that shut down sites all over the inte",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Jay Peters Oct 15 Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans making guests do dishes and take out the trash PHP: The three letters that shut down sites all over the inte",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.7,
+        "rawScore": 46.7,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5ddee939d5fa55a3d6e1": {
+      "storyId": "5ddee939d5fa55a3d6e1",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+      "title": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
+      "source": "The Verge AI",
+      "published": "2026-10-22T18:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c6557f16dc8e95f888521201",
+      "bodyFingerprint": "b736d19ad2c4b1cbedb4c68b",
+      "bodyCharacterCount": 7881,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.412Z",
+      "assessment": {
+        "centralEvent": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Robert Hart AI Health Microsoft Science Tech Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans making guests do dishes and take out the trash PHP: The three letters that shut d",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Robert Hart AI Health Microsoft Science Tech Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans making guests do dishes and take out the trash PHP: The three letters that shut d",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The findings, published Thursday in one of the world's most prestigious journals, Science, are based on tests pitting Microsoft's AI system against human physicians on a series of scenarios drawn from medical case reports and emergency depa",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Robert Hart AI Health Microsoft Science Tech Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans making guests do dishes and take out the trash PHP: The three letters that shut d",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Designed to function like a panel of medical experts, Microsoft’s Diagnostic Orchestrator uses multiple AI agents to reason through symptoms and medical histories, decide what tests to order, and arrive at a diagnosis, mimicking the process",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.85,
+        "rawScore": 47.85,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.35,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d6886caf53962cb24205": {
+      "storyId": "d6886caf53962cb24205",
+      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise",
+      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+      "source": "TechCrunch AI",
+      "published": "2026-10-22T16:47:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a88cdc9bc41852377d294571",
+      "bodyFingerprint": "d5d16746b3f582115ceb2401",
+      "bodyCharacterCount": 2618,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.447Z",
+      "assessment": {
+        "centralEvent": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , connectwise , cybersecurity , data breach , In Brief , Microsoft , Security November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e72bde83603e4531715f": {
+      "storyId": "e72bde83603e4531715f",
+      "url": "https://mashable.com/tech/ai-changing-halloween",
+      "title": "How AI is changing Halloween",
+      "source": "Mashable AI",
+      "published": "2026-10-22T18:38:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "58aba1bb98b2012af351951d",
+      "bodyFingerprint": "76ae9863e2b22403b56b4d41",
+      "bodyCharacterCount": 16287,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.465Z",
+      "assessment": {
+        "centralEvent": "How AI is changing Halloween",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Visuals show the vlogger speaking outdoors at night and brief glimpses inside themed horror attractions.\",\"keywords\":[\"halloween horror nights\",\"universal studios\",\"los angeles\",\"hellraiser\",\"killer klowns from outer space\",\"stranger things",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to CNET streaming writer and horror movie aficionado Aaron Pruner you might even say it\\u2019s a scream.\\n\\n#universalstudioshollywood #hhn #halloweenhorrornights #allaccess #halloween\\n\",\"disable_ads\":null,\"duration\":95,\"source_i",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The invisible hand of the candy aisle knows your neighborhood’s demographic profile better than you do, and it has already decided if your zip code deserves the \"good stuff.\" Where I grew up, we wouldn’t be getting Toblerone, that’s for sur",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "931ff2d310508418923d": {
+      "storyId": "931ff2d310508418923d",
+      "url": "https://www.inc.com/kit-eaton/apples-latest-design-move-offers-a-lesson-in-keeping-your-branding-authentic-in-an-era-of-ai-slop/91424031",
+      "title": "Apple’s Latest Design Move Offers a Lesson in Keeping Your Branding Authentic in an Era of AI Slop",
+      "source": "Inc. AI",
+      "published": "2026-10-22T16:26:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ac5a2434388d08d92952a5b4",
+      "bodyFingerprint": "3822dc800627fa8f7d1ffaed",
+      "bodyCharacterCount": 80,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-22T20:10:09.479Z",
+      "assessment": {
+        "centralEvent": "Apple’s Latest Design Move Offers a Lesson in Keeping Your Branding Authentic in an Era of AI Slop",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6d8c30677ef69bab4819": {
+      "storyId": "6d8c30677ef69bab4819",
+      "url": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+      "title": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
+      "source": "The Verge AI",
+      "published": "2026-10-22T16:16:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a946e95273e41cdcc65796c5",
+      "bodyFingerprint": "7a8cccc49a385b60138ee8b5",
+      "bodyCharacterCount": 6705,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.494Z",
+      "assessment": {
+        "centralEvent": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Andrew Webster AI Entertainment Film Report Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans making guests do dishes and take out the trash PHP: The three letters that shut do",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Andrew Webster AI Entertainment Film Report Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans making guests do dishes and take out the trash PHP: The three letters that shut do",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Andrew Webster AI Entertainment Film Report Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans making guests do dishes and take out the trash PHP: The three letters that shut do",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Entertainment AI Report Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’ Laika CEO Travis Knight explains why he remains hopeful despite the potential for AI to be ‘devastating.’ by Andrew Webster Oct 2",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.02,
+        "rawScore": 47.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "39a33fb977ec3f80a93f": {
+      "storyId": "39a33fb977ec3f80a93f",
+      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work",
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "source": "TechCrunch AI",
+      "published": "2026-10-22T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fb097f295a3b6a6353ce054c",
+      "bodyFingerprint": "17a14a140bc80fd266486e28",
+      "bodyCharacterCount": 3570,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.530Z",
+      "assessment": {
+        "centralEvent": "Uber puts all 30,000 employees on ChatGPT Work",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular A",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular A",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Uber and OpenAI announced an expansion of their partnership on Thursday, with the ride-share giant telling TechCrunch that its entire global workforce — some 30,000 people — will now be using ChatGPT Work.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "923baa0debc108433ed2": {
+      "storyId": "923baa0debc108433ed2",
+      "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+      "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
+      "source": "The Verge AI",
+      "published": "2026-10-22T15:50:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f4fe652c53a298f05675b149",
+      "bodyFingerprint": "891f949a886c5c0e2140e75f",
+      "bodyCharacterCount": 6062,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.550Z",
+      "assessment": {
+        "centralEvent": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Here’s what it told us Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit Trump says Sundar Pichai talked him out of renaming the Atlantic Ocean Stevie Bonifield 4:00 PM UTC Bill Gates says to prepare for 20 years of ‘tumultuous’ AI",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Here’s what it told us Sean Hollister Oct 21 Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit Richard Lawler Oct 20 Advertiser Content From This is the title for the native ad Top Stories Two hours ago Wildwood director: AI is ‘an",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Lauren Feiner AI Anthropic Apple Nvidia OpenAI Policy Politics Tech Most Popular Most Popular The iPhone Duo is a messy, expensive, good time EA is shutting down BioWare Airbnb bans making guests do dishes and take out the trash PHP: The th",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI didn’t even spend $1 million on lobbying in a single quarter until this year, and it didn’t spend more than half a million until the end of 2024.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.02,
+        "rawScore": 47.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0756f9306dcdde929b81": {
+      "storyId": "0756f9306dcdde929b81",
+      "url": "https://www.inc.com/dave-sokolin/something-is-listening-to-me-and-it-might-be-my-own-fault/91422319",
+      "title": "Something Is Spying on Me. And It’s My Fault",
+      "source": "Inc. AI",
+      "published": "2026-10-22T15:46:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "604fbca30c17023f80688b09",
+      "bodyFingerprint": "456cb338a6e4649897c56db8",
+      "bodyCharacterCount": 205,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-22T20:10:09.563Z",
+      "assessment": {
+        "centralEvent": "Something Is Spying on Me. And It’s My Fault",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Here’s why giving these tools total access to our lives might be surveillance capitalism’s ultimate dream.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "53218c2a2d09ca23c208": {
+      "storyId": "53218c2a2d09ca23c208",
+      "url": "https://www.theguardian.com/news/video/2026/oct/22/the-race-to-fix-huge-php-flaw-at-the-heart-of-the-internet-the-latest",
+      "title": "The race to fix huge PHP code flaw at the heart of the internet - The Latest",
+      "source": "The Guardian AI",
+      "published": "2026-10-22T17:12:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6556f319124cd1381411330b",
+      "bodyFingerprint": "54446dc54580dd0420ea8f73",
+      "bodyCharacterCount": 733,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.567Z",
+      "assessment": {
+        "centralEvent": "The race to fix huge PHP code flaw at the heart of the internet - The Latest",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "The race to fix huge PHP code flaw at the heart of the internet - The Latest",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Websites around the world have been taken offline as governments and businesses scramble to fix a flaw in the computer language PHP.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.98,
+        "rawScore": 25.98,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c400d3922f7c1f0f4741": {
+      "storyId": "c400d3922f7c1f0f4741",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/22/the-guardian-view-on-ai-safety-the-push-for-global-regulation-must-advance",
+      "title": "The Guardian view on AI safety: the push for global regulation must advance | Editorial",
+      "source": "The Guardian AI",
+      "published": "2026-10-22T17:30:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8b9d86482e22877ba6f3e895",
+      "bodyFingerprint": "5594f6e86d0b0d42d344670c",
+      "bodyCharacterCount": 4131,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.571Z",
+      "assessment": {
+        "centralEvent": "The Guardian view on AI safety: the push for global regulation must advance | Editorial",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Mr Trump takes the view that America’s lead at the most advanced frontier of AI is a national strategic asset that would be compromised if other nations, and China in particular, were allowed to set the pace of advancement.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "The Guardian view on AI safety: the push for global regulation must advance | Editorial",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e204cfb0942528159ef6": {
+      "storyId": "e204cfb0942528159ef6",
+      "url": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down",
+      "title": "PHP: The three little letters wreaking havoc across the web",
+      "source": "The Verge AI",
+      "published": "2026-10-22T15:12:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "38f698753c6f35c501f1c78f",
+      "bodyFingerprint": "dc011fa63a6e02e7255e9c91",
+      "bodyCharacterCount": 7226,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.583Z",
+      "assessment": {
+        "centralEvent": "PHP: The three little letters wreaking havoc across the web",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The flaws — CVE-2026-109618 and CVE-2026-109619 — could allow hackers to execute malicious code remotely on vulnerable devices.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Here’s all the latest developments in what security firm Wiz has called “among the most severe vulnerabilities discovered ... in software history.” Today, 4:49 PM UTC Emma Roth The disastrous PHP vulnerabilities were exploited days before t",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Ami Luttwak, co-founder of Google’s Wiz security team that also helped to identidy the PHP2Shell exploit, told the Wall Street Journal that its “the most severe AI vulnerability that was ever found.” Patch the Planet: global response coordi",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Here’s all the latest developments in what security firm Wiz has called “among the most severe vulnerabilities discovered ... in software history.” Today, 4:49 PM UTC Emma Roth The disastrous PHP vulnerabilities were exploited days before t",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "It powers Wikipedia, WordPress, Drupal, and a host of other popular sites and platforms, including DeviantArt and 4Chan, which were temporarily shut down after the vulnerabilities were disclosed.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.09,
+        "rawScore": 49.09,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4625,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4edc712c9dca74a6f70f": {
+      "storyId": "4edc712c9dca74a6f70f",
+      "url": "https://www.theguardian.com/news/audio/2026/oct/22/php-pretty-huge-problem-with-the-internet-the-latest",
+      "title": "PHP: Pretty Huge Problem with the internet – The Latest",
+      "source": "The Guardian AI",
+      "published": "2026-10-22T16:39:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dff6937eac0a55ba5a8e7f9e",
+      "bodyFingerprint": "291199f4c8c5cb7cd3afc953",
+      "bodyCharacterCount": 732,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:09.702Z",
+      "assessment": {
+        "centralEvent": "PHP: Pretty Huge Problem with the internet – The Latest",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Websites around the world have been taken offline as governments and businesses scramble to fix a flaw in the computer language PHP.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Websites around the world have been taken offline as governments and businesses scramble to fix a flaw in the computer language PHP.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.98,
+        "rawScore": 25.98,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4120829e1df6ee3e0518": {
+      "storyId": "4120829e1df6ee3e0518",
+      "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability",
+      "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
+      "source": "Ars Technica AI",
+      "published": "2026-10-22T15:25:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "640bdbe88783f53405432f28",
+      "bodyFingerprint": "94c448a14da1a8874a303882",
+      "bodyCharacterCount": 3704,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T20:10:10.001Z",
+      "assessment": {
+        "centralEvent": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Amazon added the flaws were “now being broadly exploited in the wild.” The US National Security Agency and UK authorities earlier on Wednesday warned that the vulnerabilities had left websites around the world critically exposed to hacking,",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought 3.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Amazon added the flaws were “now being broadly exploited in the wild.” The US National Security Agency and UK authorities earlier on Wednesday warned that the vulnerabilities had left websites around the world critically exposed to hacking,",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Amazon added the flaws were “now being broadly exploited in the wild.” The US National Security Agency and UK authorities earlier on Wednesday warned that the vulnerabilities had left websites around the world critically exposed to hacking,",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Amazon added the flaws were “now being broadly exploited in the wild.” The US National Security Agency and UK authorities earlier on Wednesday warned that the vulnerabilities had left websites around the world critically exposed to hacking,",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.09,
+        "rawScore": 49.09,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4625,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-22T15:21:19.022Z"
+  "updatedAt": "2026-10-22T20:10:10.001Z"
 }
