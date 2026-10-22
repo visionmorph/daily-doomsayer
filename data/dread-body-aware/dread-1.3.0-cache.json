@@ -278298,8 +278298,507 @@
           "vulnerability": 0
         }
       }
+    },
+    "321cbfbc7bd9eb68916d": {
+      "storyId": "321cbfbc7bd9eb68916d",
+      "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_campaign=rss&at_medium=RSS",
+      "title": "What is PHP and why did it spark a global cyber-security scramble?",
+      "source": "BBC News AI",
+      "published": "2026-10-22T03:48:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "09edafabaa41df5d4f4fac85",
+      "bodyFingerprint": "36b5de2437ffc498ba7b29cb",
+      "bodyCharacterCount": 6467,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T04:53:17.644Z",
+      "assessment": {
+        "centralEvent": "What is PHP and why did it spark a global cyber-security scramble?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But due to a flaw that could allow attackers to take control of affected web servers without authentication and steal sensitive data, everything built on PHP was left exposed.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Reuters By Osmond Chia Business reporter Published 1 hour ago For more than a decade, serious flaws had gone undetected in technology underpinning much of the internet.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "What is PHP and why did it spark a global cyber-security scramble?",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ad7f31c2a7e01556c23d": {
+      "storyId": "ad7f31c2a7e01556c23d",
+      "url": "https://www.inc.com/jason-aten/walmarts-latest-plan-to-beat-amazon-is-to-let-your-ai-agent-shop-for-you/91423885",
+      "title": "Walmart’s Latest Plan to Beat Amazon Is to Let Your AI Agent Shop for You",
+      "source": "Inc. AI",
+      "published": "2026-10-22T02:10:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e540b75faf303afe0438a312",
+      "bodyFingerprint": "08b9eb290c92d0ac0721f4d2",
+      "bodyCharacterCount": 82,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-22T04:53:17.649Z",
+      "assessment": {
+        "centralEvent": "Walmart’s Latest Plan to Beat Amazon Is to Let Your AI Agent Shop for You",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6ce7e996eaa8b15ca0cb": {
+      "storyId": "6ce7e996eaa8b15ca0cb",
+      "url": "https://www.theguardian.com/film/2026/oct/22/taika-waititi-kazuo-ishiguro-robot-friend-klara-and-the-sun",
+      "title": "‘I’d consider replacing one of my children’: Taika Waititi on robot kids, his cheese-o-meter and Klara and the Sun",
+      "source": "The Guardian AI",
+      "published": "2026-10-22T04:00:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "63c67a1ce61dcc187e6122d4",
+      "bodyFingerprint": "d5a0891c5b8984e69d8e16f7",
+      "bodyCharacterCount": 9226,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T04:53:17.668Z",
+      "assessment": {
+        "centralEvent": "‘I’d consider replacing one of my children’: Taika Waititi on robot kids, his cheese-o-meter and Klara and the Sun",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "His 2010 feature Boy was a comedy about child abuse, while What We Do in the Shadows reframed the vampire as a lost, lonesome immigrant.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "His 2010 feature Boy was a comedy about child abuse, while What We Do in the Shadows reframed the vampire as a lost, lonesome immigrant.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Tom Lue, VP of global affairs at Google Deepmind, suggested it be used as an “ethical touchstone”, the centrepiece of a “human-centred” approach to the future of frontier AI.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Not least death.” View image in fullscreen Ishiguro ... surprised to hear that Google Deepmind is a fan of his story.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 120,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.83,
+        "rawScore": 49.83,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.53,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c5dd0842d4055c16f4ce": {
+      "storyId": "c5dd0842d4055c16f4ce",
+      "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched",
+      "title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
+      "source": "WIRED AI",
+      "published": "2026-10-22T02:24:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2cb96025f1dbb1a6549e7aee",
+      "bodyFingerprint": "74ae20010ed3345262eca379",
+      "bodyCharacterCount": 4175,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T04:53:17.695Z",
+      "assessment": {
+        "centralEvent": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As a result, more actors can act within hours or even minutes once technical details of a vulnerability are disclosed.” Comments Back to top Join the discussion Comments Back to top You Might Also Like Introducing the app: More ways to make",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Close Banner 00 Days : 00 Hours : 00 Minutes : 00 Seconds Join us in Miami See the full lineup Save this story Save this story The internet’s mad scramble on Wednesday to patch a pair of critical vulnerabilities in PHP , a widely used web s",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Though it is unclear how the exploitation on October 17 happened or where it came from, AWS emphasizes that the findings underscore how coordinated vulnerability disclosure must evolve and speed up given global access to AI tools that can a",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In the hours leading up to the disclosure, AWS researchers say their honeypots were hit with multiple exploitation attempts anonymized using various providers and seemingly with various attack goals, likely indicating multiple different act",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.75,
+        "rawScore": 49.75,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5225,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d32270d19deaab9d8cbb": {
+      "storyId": "d32270d19deaab9d8cbb",
+      "url": "https://www.theguardian.com/culture/2026/oct/22/canadian-publisher-boreal-ends-relationship-author-thelyson-orelien-over-ai",
+      "title": "Canadian publisher Boréal ends relationship with novelist Thélyson Orélien over alleged use of AI",
+      "source": "The Guardian AI",
+      "published": "2026-10-22T01:13:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1545e165288e6a1070d7f05b",
+      "bodyFingerprint": "16057196d8ef696824355d26",
+      "bodyCharacterCount": 4015,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T04:53:17.710Z",
+      "assessment": {
+        "centralEvent": "Canadian publisher Boréal ends relationship with novelist Thélyson Orélien over alleged use of AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Author withdrawn from France’s Prix Goncourt last month has repeatedly denied using artificial intelligence to write novel The publisher of top-selling Haitian Canadian writer Thélyson Orélien, who was removed from France’s most prestigious",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cdc94824f0231fc8363b": {
+      "storyId": "cdc94824f0231fc8363b",
+      "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+      "title": "Meta to create a new class of shares to fund AI push",
+      "source": "The Verge AI",
+      "published": "2026-10-21T21:30:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c7319278143b33493d8fccb0",
+      "bodyFingerprint": "00b026c9f9756a4ee686bef0",
+      "bodyCharacterCount": 4215,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T04:53:17.739Z",
+      "assessment": {
+        "centralEvent": "Meta to create a new class of shares to fund AI push",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Emma Roth AI Meta News Tech Most Popular Most Popular The iPhone Duo is a messy, expensive, good time A critical PHP vulnerability may take websites down today EA is shutting down BioWare Apple Music has a new logo Can you see everything?",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Amid concerns about user privacy , a tech YouTuber reported that the agent gave out his address to a stranger on Facebook Marketplace.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5fda1e1adb27276c57f0": {
+      "storyId": "5fda1e1adb27276c57f0",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+      "title": "Data centers could erase decades of air quality gains",
+      "source": "The Verge AI",
+      "published": "2026-10-21T22:33:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b8ed3c460413517ea90f1549",
+      "bodyFingerprint": "bd861d03c17b0d8eb0bbcc8c",
+      "bodyCharacterCount": 5527,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-22T04:53:17.746Z",
+      "assessment": {
+        "centralEvent": "Data centers could erase decades of air quality gains",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But if all planned data center projects were to plug into the electricity grid in Texas and be powered by the anticipated grid mix, soot and smog-forming pollutants would skyrocket, according to a new report from the Houston Advanced Resear",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Stevie Bonifield Oct 21 Texas is still permitting data centers despite a supposed statewide moratorium.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-21T23:23:29.407Z"
+  "updatedAt": "2026-10-22T04:53:17.746Z"
 }
