@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-21T23:00:00.000Z",
+  "generatedAt": "2026-10-22T04:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-21",
@@ -17,12 +17,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T23:00:00.000Z",
+          "lastObservedAt": "2026-10-22T04:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "9155943304f11d5864c1",
+          "title": "EFF’s State Legislative Agenda to End ALPR Mass Surveillance",
+          "url": "https://www.eff.org/deeplinks/2026/10/effs-state-legislative-agenda-end-alpr-mass-surveillance",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
+          "peak": 51.15,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-21",
+          "firstObservedAt": "2026-10-22T04:00:00.000Z",
+          "lastObservedAt": "2026-10-22T04:00:00.000Z",
+          "average": 51.15
         },
         {
           "storyId": "56585df9ab02cd733024",
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T23:00:00.000Z",
+          "lastObservedAt": "2026-10-22T04:00:00.000Z",
           "average": 49.75
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T23:00:00.000Z",
+          "lastObservedAt": "2026-10-22T04:00:00.000Z",
           "average": 49.64
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ad8c3e67fa1a6118ccee121/master/pass/102126-PHP.jpg",
           "peak": 49.5,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T20:00:00.000Z",
-          "lastObservedAt": "2026-10-21T23:00:00.000Z",
+          "lastObservedAt": "2026-10-22T04:00:00.000Z",
           "average": 49.5
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Dispatch AI",
           "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
           "peak": 49.34,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T23:00:00.000Z",
+          "lastObservedAt": "2026-10-22T04:00:00.000Z",
           "average": 49.34
         },
         {
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ad7cd65322aff8e01d3ff70/master/pass/Security_Claude%20Code's%20Guardrails%20Aren't%20Stopping%20Real-Life%20Attacks_v2.jpg",
           "peak": 49.34,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T20:00:00.000Z",
-          "lastObservedAt": "2026-10-21T23:00:00.000Z",
+          "lastObservedAt": "2026-10-22T04:00:00.000Z",
           "average": 49.34
-        },
-        {
-          "storyId": "c185b1f669ce177c88ba",
-          "title": "Who gets to decide if AI is safe? Africa wants a say",
-          "url": "https://restofworld.org/2026/african-leaders-un-security-council-ai-safety/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
-          "peak": 49.23,
-          "observations": 4,
-          "daysTracked": 1,
-          "peakDate": "2026-10-21",
-          "firstObservedAt": "2026-10-21T10:00:00.000Z",
-          "lastObservedAt": "2026-10-21T23:00:00.000Z",
-          "average": 49.23
         }
       ]
     },
@@ -7704,12 +7704,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 3,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-21T23:00:00.000Z",
+          "lastObservedAt": "2026-10-22T04:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "9155943304f11d5864c1",
+          "title": "EFF’s State Legislative Agenda to End ALPR Mass Surveillance",
+          "url": "https://www.eff.org/deeplinks/2026/10/effs-state-legislative-agenda-end-alpr-mass-surveillance",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
+          "peak": 51.15,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-21",
+          "firstObservedAt": "2026-10-22T04:00:00.000Z",
+          "lastObservedAt": "2026-10-22T04:00:00.000Z",
+          "average": 51.15
         },
         {
           "storyId": "56585df9ab02cd733024",
@@ -7760,11 +7774,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 3,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-21T23:00:00.000Z",
+          "lastObservedAt": "2026-10-22T04:00:00.000Z",
           "average": 49.75
         },
         {
@@ -7774,11 +7788,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 3,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-21T23:00:00.000Z",
+          "lastObservedAt": "2026-10-22T04:00:00.000Z",
           "average": 49.64
         },
         {
@@ -7802,11 +7816,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ad8c3e67fa1a6118ccee121/master/pass/102126-PHP.jpg",
           "peak": 49.5,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-21T20:00:00.000Z",
-          "lastObservedAt": "2026-10-21T23:00:00.000Z",
+          "lastObservedAt": "2026-10-22T04:00:00.000Z",
           "average": 49.5
         },
         {
@@ -7822,20 +7836,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-20T00:00:00.000Z",
           "lastObservedAt": "2026-10-20T11:00:00.000Z",
           "average": 49.39
-        },
-        {
-          "storyId": "3b2bd6e595cae7a06e8a",
-          "title": "Our Best Stuff on the Debate Over AI",
-          "url": "https://thedispatch.com/newsletter/weekly/artificial-intelligence-danger-catholic-church/",
-          "source": "The Dispatch AI",
-          "image": "https://thedispatch.com/wp-content/uploads/2026/10/unlocked-og-130314.jpg",
-          "peak": 49.34,
-          "observations": 14,
-          "daysTracked": 3,
-          "peakDate": "2026-10-19",
-          "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-21T23:00:00.000Z",
-          "average": 49.34
         }
       ]
     },
@@ -9067,12 +9067,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 99,
+          "observations": 100,
           "daysTracked": 21,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-21T23:00:00.000Z",
+          "lastObservedAt": "2026-10-22T04:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "9155943304f11d5864c1",
+          "title": "EFF’s State Legislative Agenda to End ALPR Mass Surveillance",
+          "url": "https://www.eff.org/deeplinks/2026/10/effs-state-legislative-agenda-end-alpr-mass-surveillance",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
+          "peak": 51.15,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-21",
+          "firstObservedAt": "2026-10-22T04:00:00.000Z",
+          "lastObservedAt": "2026-10-22T04:00:00.000Z",
+          "average": 51.15
         },
         {
           "storyId": "56585df9ab02cd733024",
@@ -9129,20 +9143,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-15T19:00:00.000Z",
           "lastObservedAt": "2026-10-16T07:00:00.000Z",
           "average": 50.66
-        },
-        {
-          "storyId": "71d5bfe9bb93bb7ce7b2",
-          "title": "China has cracked down on AI relationships. Is it ahead of the game?",
-          "url": "https://www.bbc.co.uk/news/articles/cm4gjy9lr551o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/035f/live/4e878500-bcdb-11f1-babe-4199b0e7ccea.jpg",
-          "peak": 50.33,
-          "observations": 4,
-          "daysTracked": 1,
-          "peakDate": "2026-10-01",
-          "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-01T23:00:00.000Z",
-          "average": 50.33
         }
       ]
     },
