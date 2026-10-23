@@ -285214,8 +285214,810 @@
           "vulnerability": 0
         }
       }
+    },
+    "e8fbd857a8b6b0ff954a": {
+      "storyId": "e8fbd857a8b6b0ff954a",
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026",
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "source": "TechCrunch AI",
+      "published": "2026-10-23T19:06:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3fba3450ef7b7e62569a88bd",
+      "bodyFingerprint": "0a83aca9bcf9eab102bc8751",
+      "bodyCharacterCount": 7845,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T19:17:08.652Z",
+      "assessment": {
+        "centralEvent": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It is a useful counterpoint to startup culture’s constant pressure to move faster.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TechCrunch Events View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Lior Div on building for AI from day one AI is reshaping how new companies think about products, operations, and teams, but adding AI to an existing process is different from building a company around it from the start.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Dave Balter , venture partner at True Ventures and CEO of Edisyl , will explore that idea in “Your Pitch Has to Earn the Next Conversation.” For founders accustomed to explaining their companies every day, the session is a reminder that kno",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.02,
+        "rawScore": 28.02,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bf46daf9cbf15488576f": {
+      "storyId": "bf46daf9cbf15488576f",
+      "url": "https://www.inc.com/ray-fernandez/banks-fraud-feedzai-socure-capabilities-score/91424621",
+      "title": "Banks Say They’re Ready for the Next Fraud Wave. Their Capabilities Score Says Otherwise",
+      "source": "Inc. AI",
+      "published": "2026-10-23T17:48:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c3cfd7452664f532d3aebec4",
+      "bodyFingerprint": "688689a145b99331902515c7",
+      "bodyCharacterCount": 134,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-23T19:17:08.684Z",
+      "assessment": {
+        "centralEvent": "Banks Say They’re Ready for the Next Fraud Wave. Their Capabilities Score Says Otherwise",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Banks Say They’re Ready for the Next Fraud Wave.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "As fraud has a ‘Napster moment’ driven by AI, 96 percent of institutions expect AI fraud tech budgets to increase in the next 2 years.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5a7057149fcf0d06c5d9": {
+      "storyId": "5a7057149fcf0d06c5d9",
+      "url": "https://mashable.com/tech/etsy-ai-rules-generated-images-recipes-patterns",
+      "title": "Etsy is cracking down on AI slop. Here’s what’s changing.",
+      "source": "Mashable AI",
+      "published": "2026-10-23T18:46:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f6eea7678f0a96ea02804626",
+      "bodyFingerprint": "e5ac4c7cf3bf1ee4d411b1ae",
+      "bodyCharacterCount": 5429,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T19:17:08.716Z",
+      "assessment": {
+        "centralEvent": "Etsy is cracking down on AI slop. Here’s what’s changing.",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Sellers can still edit additional photos using software or AI tools, but those images must accurately show what buyers will receive.There are potential consequences for misleading listings.",
+            "matchedRule": "/\\b(?:could harm|may harm|might harm|potential consequences?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to online testimonies, generated images can make it harder to judge the actual product.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In a Reddit discussion about the announcement, one user said they stopped buying from a shop selling molds used to make bath bombs after it replaced real product photos with AI imagery.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.59,
+        "rawScore": 25.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.145,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1bb40ddffcb6c2abe17f": {
+      "storyId": "1bb40ddffcb6c2abe17f",
+      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "title": "The iPhone Duo should have been an iPad",
+      "source": "The Verge AI",
+      "published": "2026-10-23T17:00:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b42f18a13f29b4194375300e",
+      "bodyFingerprint": "de4b6454e0db4b94d24b3cd9",
+      "bodyCharacterCount": 3894,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T19:17:08.775Z",
+      "assessment": {
+        "centralEvent": "The iPhone Duo should have been an iPad",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "David Pierce AI Apple iPhone Podcasts Tech Vergecast Most Popular Most Popular Tesla driver using Full Self-Driving struck and killed a man crossing I-80 Trump says Sundar Pichai talked him out of renaming the Atlantic Ocean The iPhone Duo ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a9526976eeebfbfe11f7": {
+      "storyId": "a9526976eeebfbfe11f7",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "source": "The Verge AI",
+      "published": "2026-10-23T16:52:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "34966e01430461bae3c8f7e2",
+      "bodyFingerprint": "7158b6a63b836fb08bb052cb",
+      "bodyCharacterCount": 4561,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T19:17:08.782Z",
+      "assessment": {
+        "centralEvent": "Now Google says it might use your Gmail and Google Photos data to target ads",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jess Weatherbed AI Google News Tech Most Popular Most Popular Tesla driver using Full Self-Driving struck and killed a man crossing I-80 Trump says Sundar Pichai talked him out of renaming the Atlantic Ocean The iPhone Duo is a messy, expen",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8f2b6287631c00e33d56": {
+      "storyId": "8f2b6287631c00e33d56",
+      "url": "https://www.inc.com/dave-benton/i-went-looking-for-the-future-of-innovation-i-found-robots-making-medicine/91424130",
+      "title": "I Went Looking for the Future of Innovation. I Found Robots Making Medicine",
+      "source": "Inc. AI",
+      "published": "2026-10-23T16:15:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a58cfff3a7bd0ef4bc860b90",
+      "bodyFingerprint": "5e29b5ad10a9eea6f4b239c4",
+      "bodyCharacterCount": 146,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-23T19:17:08.802Z",
+      "assessment": {
+        "centralEvent": "I Went Looking for the Future of Innovation. I Found Robots Making Medicine",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "54fa33209d8b79e70579": {
+      "storyId": "54fa33209d8b79e70579",
+      "url": "https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election",
+      "title": "Opposition deepfake video sparks outrage in Spain ahead of election",
+      "source": "The Guardian AI",
+      "published": "2026-10-23T16:35:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e0ca78af00281442ad4f5903",
+      "bodyFingerprint": "19c4d951531844329a453492",
+      "bodyCharacterCount": 6150,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T19:17:08.811Z",
+      "assessment": {
+        "centralEvent": "Opposition deepfake video sparks outrage in Spain ahead of election",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Opposition deepfake video sparks outrage in Spain ahead of election",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“It’s telling people a colossal lie, and for a party to do it on its official accounts seems intolerable to me,” Óscar López, Spain’s digital transformation minister, told the broadcaster TVE on Friday.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“It’s truly regrettable that the official account of a party that claims to want to govern and revitalise democracy is using AI-generated deepfakes in its campaign,” said José Javier Olivas, an associate professor who researches populism, c",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.03,
+        "rawScore": 46.03,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "41eba32c517164bee757": {
+      "storyId": "41eba32c517164bee757",
+      "url": "https://mashable.com/tech/hackers-ai-coding-agents-downloads-malware",
+      "title": "Hackers find a way to turn users own AI agents and Downloads folders against them",
+      "source": "Mashable AI",
+      "published": "2026-10-23T16:14:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e2279f1cf5f6b3b41fe18301",
+      "bodyFingerprint": "c3659dadcc27b79c99dc1d71",
+      "bodyCharacterCount": 4869,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T19:17:08.850Z",
+      "assessment": {
+        "centralEvent": "Hackers find a way to turn users own AI agents and Downloads folders against them",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Credit: Getty Images Your Downloads folder probably contains a few PDFs, forgotten screenshots, and several files named some variation of \"final.\" But according to a recent report by security company Forever, it could also contain instructi",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In this case, the file told the assistant to install \"function-color,\" a software package linked to the MALFEX malware campaign documented by Checkmarx .",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The company blocked the installation, then traced the request to a text file in Downloads.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "When Forever tested the customer's file on an isolated computer, it said Codex downloaded and ran the malware.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.48,
+        "rawScore": 46.48,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.225,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "04ef38fbaa902b5cd198": {
+      "storyId": "04ef38fbaa902b5cd198",
+      "url": "https://www.inc.com/brian-contreras/accountants-automation-startup-pennylane-opportunity-ai-technology/91424628",
+      "title": "Accountants Fear Automation. This $4.25 Billion Startup Says Their Real Opportunity Is Just Beginning",
+      "source": "Inc. AI",
+      "published": "2026-10-23T15:55:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f8203bf7ca51aa6f0058414a",
+      "bodyFingerprint": "e89cdd7613ba4479b69040a1",
+      "bodyCharacterCount": 107,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-23T19:17:08.870Z",
+      "assessment": {
+        "centralEvent": "Accountants Fear Automation. This $4.25 Billion Startup Says Their Real Opportunity Is Just Beginning",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "95e9cf6bca16a3481f85": {
+      "storyId": "95e9cf6bca16a3481f85",
+      "url": "https://mashable.com/tech/ai-designed-virus-infects-person-for-the-first-time",
+      "title": "AI-designed virus infects person for the first time",
+      "source": "Mashable AI",
+      "published": "2026-10-23T16:13:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5e72f28e45f2ba2bbb18a4a8",
+      "bodyFingerprint": "caa6ecd3eb86373f5fe61b3b",
+      "bodyCharacterCount": 2927,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T19:17:08.884Z",
+      "assessment": {
+        "centralEvent": "AI-designed virus infects person for the first time",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Well, at least one individual just did, according to the company behind it.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c501a531f3bdbbc423c1": {
+      "storyId": "c501a531f3bdbbc423c1",
+      "url": "https://www.theguardian.com/technology/2026/oct/23/cybersecurity-ai-hacking-php-vulnerability",
+      "title": "‘Black October’: cybersecurity experts sound the alarm over new era of AI-enabled hacking",
+      "source": "The Guardian AI",
+      "published": "2026-10-23T18:48:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7fe57de389d9c1f1586335c8",
+      "bodyFingerprint": "106be610d6b330e81e9cb32d",
+      "bodyCharacterCount": 4261,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T19:17:08.893Z",
+      "assessment": {
+        "centralEvent": "‘Black October’: cybersecurity experts sound the alarm over new era of AI-enabled hacking",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "After discovery of severe bug in the PHP programming language, executives warn of ‘vulnerability tsunami’ Leaders in cybersecurity are sounding the alarm after the discovery of a major vulnerability this week.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Such an access vector could help attackers steal sensitive data, disrupt services or move deeper into a network,” the warning read. skip past newsletter promotion after newsletter promotion In a post on X, Prince said CloudFlare, a securit",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "They are predicting that artificial intelligence tools will expose more fundamental weaknesses in global internet infrastructure in the months to come.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8c56e44a24b1f6b86bea": {
+      "storyId": "8c56e44a24b1f6b86bea",
+      "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs",
+      "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+      "source": "Ars Technica AI",
+      "published": "2026-10-23T17:18:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "071f5a497337ccd17e9c22a9",
+      "bodyFingerprint": "63180d67a87c3731db7c643f",
+      "bodyCharacterCount": 4374,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T19:17:09.030Z",
+      "assessment": {
+        "centralEvent": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The Internet goes on high alert after discovery of 8 compromised TLS certs Customize",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The robots in question are automated guided vehicles operating on “tracks or predefined paths” while often requiring operator oversight, according to Intel’s website.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A report by the market intelligence firm International Data Corporation looks forward to 2030 and estimates that the FCC rule could reduce US revenue from deploying humanoid robots by 58 percent compared to pre-restriction expectations.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-23T15:07:52.091Z"
+  "updatedAt": "2026-10-23T19:17:09.030Z"
 }
