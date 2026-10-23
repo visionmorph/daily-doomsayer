@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-23T19:00:00.000Z",
+  "generatedAt": "2026-10-23T22:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-23",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-23",
           "firstObservedAt": "2026-10-23T10:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-23",
           "firstObservedAt": "2026-10-23T10:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 51.15
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-23",
           "firstObservedAt": "2026-10-23T10:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 49.75
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ad971de90e0d6636d239398/master/pass/Security_HackersExploitingPHPBugsforDays-ezgif.com-video-to-gif-converter.gif",
           "peak": 49.75,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-23",
           "firstObservedAt": "2026-10-23T10:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 49.75
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "",
           "peak": 49.75,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-23",
           "firstObservedAt": "2026-10-23T19:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 49.75
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-23",
           "firstObservedAt": "2026-10-23T10:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 49.64
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ad8c3e67fa1a6118ccee121/master/pass/102126-PHP.jpg",
           "peak": 49.5,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-23",
           "firstObservedAt": "2026-10-23T10:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 49.5
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ad7cd65322aff8e01d3ff70/master/pass/Security_Claude%20Code's%20Guardrails%20Aren't%20Stopping%20Real-Life%20Attacks_v2.jpg",
           "peak": 49.34,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-23",
           "firstObservedAt": "2026-10-23T10:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 49.34
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-23",
           "firstObservedAt": "2026-10-23T10:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 49.23
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/03/internet-routing-1000x648.jpeg",
           "peak": 49.09,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-23",
           "firstObservedAt": "2026-10-23T10:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 49.09
         }
       ]
@@ -8008,11 +8008,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 23,
+          "observations": 24,
           "daysTracked": 5,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -8022,11 +8022,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 3,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-22T04:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 51.15
         },
         {
@@ -8092,11 +8092,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.75,
-          "observations": 23,
+          "observations": 24,
           "daysTracked": 5,
           "peakDate": "2026-10-19",
           "firstObservedAt": "2026-10-19T07:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 49.75
         },
         {
@@ -8106,11 +8106,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ad971de90e0d6636d239398/master/pass/Security_HackersExploitingPHPBugsforDays-ezgif.com-video-to-gif-converter.gif",
           "peak": 49.75,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 2,
           "peakDate": "2026-10-22",
           "firstObservedAt": "2026-10-22T10:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 49.75
         },
         {
@@ -8120,11 +8120,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Lawfare AI",
           "image": "",
           "peak": 49.75,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-23",
           "firstObservedAt": "2026-10-23T19:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 49.75
         }
       ]
@@ -9371,11 +9371,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 108,
+          "observations": 109,
           "daysTracked": 23,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -9385,11 +9385,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 3,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-22T04:00:00.000Z",
-          "lastObservedAt": "2026-10-23T19:00:00.000Z",
+          "lastObservedAt": "2026-10-23T22:00:00.000Z",
           "average": 51.15
         },
         {
