@@ -284410,8 +284410,812 @@
           "vulnerability": 0
         }
       }
+    },
+    "7aa6acbd35f79e1aa638": {
+      "storyId": "7aa6acbd35f79e1aa638",
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "title": "Meta delays new business terms after publisher pushback on AI scraping",
+      "source": "The Verge AI",
+      "published": "2026-10-23T14:47:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6e42130198a20a7ea2391852",
+      "bodyFingerprint": "6cf32764b21a134bbed46716",
+      "bodyCharacterCount": 3782,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T15:07:51.071Z",
+      "assessment": {
+        "centralEvent": "Meta delays new business terms after publisher pushback on AI scraping",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The News/Media Alliance sent a letter to Meta CEO Mark Zuckerberg on Thursday, demanding that the company revise its business terms over concerns that they would cause “severe harm” to publishers.",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sean Hollister Oct 22 Advertiser Content From This is the title for the native ad Top Stories Oct 22 Sure, let’s smoosh SpaceX and Tesla together, who cares Two hours ago People are vibe coding their way to better TVs 10:00 AM UTC No, the i",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 66.2,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4fdce22163cac586d3d2": {
+      "storyId": "4fdce22163cac586d3d2",
+      "url": "https://www.inc.com/iza-montalvo/these-gen-z-founders-turned-an-ai-party-trick-into-a-4-5-million-startup-called-photon/91423541",
+      "title": "These Gen Z Founders Turned an AI Party Trick Into a $4.5 Million Startup",
+      "source": "Inc. AI",
+      "published": "2026-10-23T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "98b3768344e4180b4f3186b5",
+      "bodyFingerprint": "d68b0158fee21f8fd6d2a989",
+      "bodyCharacterCount": 58,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-23T15:07:51.084Z",
+      "assessment": {
+        "centralEvent": "These Gen Z Founders Turned an AI Party Trick Into a $4.5 Million Startup",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1a3c86bb17d305576250": {
+      "storyId": "1a3c86bb17d305576250",
+      "url": "https://www.theguardian.com/world/2026/oct/24/modern-life-is-stuck-in-a-sea-of-sameness-the-pursuit-of-beauty-is-a-necessary-antidote",
+      "title": "Modern life is stuck in a sea of sameness. The pursuit of beauty is a necessary antidote | Brigid Delaney",
+      "source": "The Guardian AI",
+      "published": "2026-10-23T14:00:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e838a57a4db3dda576b9ea23",
+      "bodyFingerprint": "6461a79a11f7ffb7b014bb74",
+      "bodyCharacterCount": 8650,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T15:07:51.228Z",
+      "assessment": {
+        "centralEvent": "Modern life is stuck in a sea of sameness. The pursuit of beauty is a necessary antidote | Brigid Delaney",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Critical thinking is one of the most important aspects of being human, according to Stoicism.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f2d8023b87443249cbc4": {
+      "storyId": "f2d8023b87443249cbc4",
+      "url": "https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts",
+      "title": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
+      "source": "The Guardian AI",
+      "published": "2026-10-23T14:00:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e7bd6c4767719bfc6a69d201",
+      "bodyFingerprint": "1488dc99ce69d1e2fcd778a2",
+      "bodyCharacterCount": 7324,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T15:07:51.236Z",
+      "assessment": {
+        "centralEvent": "Experts cast doubt on Anthropic report detailing how AI has altered work at the company",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Morgan Frank, a Case Western Reserve University researcher on how AI and technological changes affect workers, recently posted a paper that’s in peer review showing that AI-exposed job markets deteriorated well before the arrival of ChatGPT",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "From May 2026 onwards, AI agents logged more work hours than human employees, the report said.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“One possibility is single-person startups, each with a human founder steering swarms of agents to rake in billions in revenue.” In its report, Anthropic touts its “deep adoption of AI”, which it claims resulted in “producing more code per ",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“One possibility is single-person startups, each with a human founder steering swarms of agents to rake in billions in revenue.” In its report, Anthropic touts its “deep adoption of AI”, which it claims resulted in “producing more code per ",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Morgan Frank, a Case Western Reserve University researcher on how AI and technological changes affect workers, recently posted a paper that’s in peer review showing that AI-exposed job markets deteriorated well before the arrival of ChatGPT",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.96,
+        "rawScore": 47.96,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.36,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 2
+        }
+      }
+    },
+    "4958c298c83762219085": {
+      "storyId": "4958c298c83762219085",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "title": "Retro gaming is being overrun with AI",
+      "source": "The Verge AI",
+      "published": "2026-10-23T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "94cdc49d2a9a56dd03f1a6a3",
+      "bodyFingerprint": "3d639405a99caf2287d933e9",
+      "bodyCharacterCount": 9390,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T15:07:51.250Z",
+      "assessment": {
+        "centralEvent": "Retro gaming is being overrun with AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Andrew Webster AI Entertainment Gaming Report More in: Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports Someone hacked the Switch 2 by using an old game and AI Jay Peters Oct 22 Smash Bros in yo",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters Oct 19 Most Popular Most Popular Trump says Sundar Pichai talked him out of renaming the Atlantic Ocean Tesla driver using Full Self-Driving struck and killed a man crossing I-80 Bill Gates says to prepare for 20 years of ‘tumult",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The tools allow you to move much faster if you know what you want.” That speed has drawn many people to try out these AI tools, either for fun, the technical challenge, or for preservation reasons.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as hobbyists take apart games and then rebuild them for new platforms.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Last week, a community-focused website that tracks decomp projects and provides various resources abruptly shut down due to AI’s impact.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "AI Entertainment Gaming Retro gaming is being overrun with AI A rise in AI-powered decomps, recomps, and ports has thrust the community into chaos. by Andrew Webster Oct 23, 2026, 12:00 PM UTC Image: Cath Virginia / The Verge Part Of Revers",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.84,
+        "rawScore": 48.84,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0d98632d690b280f49f9": {
+      "storyId": "0d98632d690b280f49f9",
+      "url": "https://www.inc.com/jason-aten/meta-is-making-more-money-than-ever-its-not-enough-for-mark-zuckerbergs-ai-ambitions/91424597",
+      "title": "Meta Is Making More Money Than Ever. It’s Not Enough for Mark Zuckerberg’s AI Ambitions",
+      "source": "Inc. AI",
+      "published": "2026-10-23T11:52:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bfa5e8c0ebd91fc7989fd8ea",
+      "bodyFingerprint": "5d00c57127000d6e8e5a6783",
+      "bodyCharacterCount": 100,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-23T15:07:51.253Z",
+      "assessment": {
+        "centralEvent": "Meta Is Making More Money Than Ever. It’s Not Enough for Mark Zuckerberg’s AI Ambitions",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1e5c0087825c2d415415": {
+      "storyId": "1e5c0087825c2d415415",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261022081302.htm",
+      "title": "A tiny defect in a crystal reveals a big quantum surprise",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-23T10:22:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5a15ba29883d7fb7c9004d89",
+      "bodyFingerprint": "ac035931da7a3c4074f7e3fd",
+      "bodyCharacterCount": 10964,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T15:07:51.458Z",
+      "assessment": {
+        "centralEvent": "A tiny defect in a crystal reveals a big quantum surprise",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Researchers have solved a long-standing challenge in understanding how tiny defects in materials like diamond and silicon carbide behave when exposed to light.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Date: October 23, 2026 Source: University of Chicago Summary: Researchers have solved a long-standing challenge in understanding how tiny defects in materials like diamond and silicon carbide behave when exposed to light.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "An Elegant Method for the Detection of Single Spins Using Photovoltage Apr.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "75dbfa3dbb1890640aac": {
+      "storyId": "75dbfa3dbb1890640aac",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261022081308.htm",
+      "title": "MIT scientists build a tiny robot that swims using living muscle cells",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-23T10:33:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "95f4f2483c01a80880e33c79",
+      "bodyFingerprint": "a0d92708c723decaeb075647",
+      "bodyCharacterCount": 12862,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T15:07:51.464Z",
+      "assessment": {
+        "centralEvent": "MIT scientists build a tiny robot that swims using living muscle cells",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "These cells have been genetically modified to contract when exposed to light.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Raman explains that thinner designs could reduce manufacturing costs while potentially improving movement efficiency. \"Currently, biohybrid robots from our group and others' are built from bulky, 3D chunks of lab-grown skeletal muscle that ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The experiment established that researchers could grow extremely thin muscle layers in intricate arrangements and use light to control their movements along multiple directions. \"People hadn't seen this muscle architecture engineered from s",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Repeated pulses of light stimulated the cells to contract, strengthening the muscle tissue before it was incorporated into the swimming robot.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 88,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c6e26eae80c7be266011": {
+      "storyId": "c6e26eae80c7be266011",
+      "url": "https://www.lawfaremedia.org/article/openai's-kazoo-grade-spying-incident",
+      "title": "OpenAI's Kazoo-Grade Spying Incident",
+      "source": "Lawfare AI",
+      "published": "2026-10-23T14:21:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a35f78f87f8461420d1a7ee0",
+      "bodyFingerprint": "29d5c78288220efc33aac980",
+      "bodyCharacterCount": 13098,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T15:07:51.601Z",
+      "assessment": {
+        "centralEvent": "OpenAI's Kazoo-Grade Spying Incident",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "CoGUI and Iron Man sold phishing kits while the YAM Store sold compromised accounts.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Overall, NorForge reckons that about 10 percent of the hacks being managed by Cairn were successful, and they averaged less than 24 hours to complete.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Triple strike against the Chinese cybercrime ecosystem: An international collaboration including Microsoft, Japan's National Police Agency, and the Health-ISAC has taken down three Chinese cybercrime services.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "2 and 5, before it was spotted by a Swiss engineer and reported to the Tor security team. [ more on Risky Bulletin ] PwnEscape vulnerability lets you escape KVM: The Linux kernel team has patched a major vulnerability that lets virtual mach",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "2 and 5, before it was spotted by a Swiss engineer and reported to the Tor security team. [ more on Risky Bulletin ] PwnEscape vulnerability lets you escape KVM: The Linux kernel team has patched a major vulnerability that lets virtual mach",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Three Reasons to Be Cheerful This Week: AI safety on the agenda: The Federal Trade Commission has issued subpoenas to leading AI companies asking for documents relating to the firms' security incidents and their safety practices, reports Ax",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 92,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.75,
+        "rawScore": 49.75,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5225,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "329ad770280d7e60b212": {
+      "storyId": "329ad770280d7e60b212",
+      "url": "https://www.politico.eu/article/european-ceos-warn-against-surrendering-frontier-ai-to-us-and-china",
+      "title": "European CEOs warn against surrendering frontier AI to US and China",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-22T17:05:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "05104f69fcd1e96126c4614a",
+      "bodyFingerprint": "86e76194dbc9422c105857db",
+      "bodyCharacterCount": 3744,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T15:07:51.747Z",
+      "assessment": {
+        "centralEvent": "European CEOs warn against surrendering frontier AI to US and China",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The continent trails the U.S. and China in developing the most complex and advanced models, which have become a security concern because they can exploit software vulnerabilities.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "POLITICO last week reported that key leaders, including European Commission President Ursula von der Leyen and prominent tech founders, believe Europe should shift away from trying to catch U.S. frontrunners in developing the most advanced ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Otherwise we’re just going to be leaving a large part of the value creation [to others].” Advertisement The rift exposes how Europe is struggling to find its feet in the global AI race.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5498f8613108aa0a8986": {
+      "storyId": "5498f8613108aa0a8986",
+      "url": "https://techpolicy.press/a-congressional-commission-on-ai-risk-is-overdue",
+      "title": "A Congressional Commission on AI Risk is Overdue",
+      "source": "Tech Policy Press AI",
+      "published": "2026-10-23T14:44:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8abc77492c3f1a46e472ae14",
+      "bodyFingerprint": "9fe4fdc7eee860778e5990f5",
+      "bodyCharacterCount": 6234,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-23T15:07:52.091Z",
+      "assessment": {
+        "centralEvent": "A Congressional Commission on AI Risk is Overdue",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "A Congressional Commission on AI Risk is Overdue",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Instead of recommending the agency be abolished, a Congressional Commission proposed reorienting the intelligence community's mission toward emerging threats such as international terrorism years before most Americans understood how serious",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Fourth, what global alliances are most urgent to establish?",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-23T10:07:48.164Z"
+  "updatedAt": "2026-10-23T15:07:52.091Z"
 }
