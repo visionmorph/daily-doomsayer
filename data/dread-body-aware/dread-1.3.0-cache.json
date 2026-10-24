@@ -286853,8 +286853,349 @@
           "vulnerability": 0
         }
       }
+    },
+    "900659a2b19d688ec547": {
+      "storyId": "900659a2b19d688ec547",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/24/john-healey-pledges-to-use-budget-to-harness-power-of-ai-to-bolster-britains-security",
+      "title": "John Healey pledges to use budget to harness power of AI to bolster Britain’s security",
+      "source": "The Guardian AI",
+      "published": "2026-10-24T05:00:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6f38aad529584c7525bf125c",
+      "bodyFingerprint": "433b49dad6b4a44fc728b175",
+      "bodyCharacterCount": 5848,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-24T07:20:38.439Z",
+      "assessment": {
+        "centralEvent": "John Healey pledges to use budget to harness power of AI to bolster Britain’s security",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "However, there are growing fears over the security of the nation and critical industries as the technology opens up the danger of cyber-attacks, IT systems turning rogue and devastating job losses as companies invest in machines rather than",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The advice to stock up on supplies to last 72 hours, in a campaign called Be Ready , comes as Silicon Valley bosses sound the alarm over the increasingly existential threats AI could pose, and amid growing official concern over the impact o",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Chancellor says government to commit hundreds of millions to develop ‘distinctively British’ approach to AI John Healey has pledged to use Wednesday’s budget to harness the power of artificial intelligence to bolster Britain’s security and ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "51c48352576013fe064f": {
+      "storyId": "51c48352576013fe064f",
+      "url": "https://www.bbc.co.uk/news/videos/cm62y59zw8zko?at_campaign=rss&at_medium=RSS",
+      "title": "The rise of AI election ads in US midterms campaign",
+      "source": "BBC News AI",
+      "published": "2026-10-24T05:03:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aa271bde508f8f8647e69aaa",
+      "bodyFingerprint": "92e9fa375c61f4f2e665a600",
+      "bodyCharacterCount": 853,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-24T07:20:38.462Z",
+      "assessment": {
+        "centralEvent": "The rise of AI election ads in US midterms campaign",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Subsection BBC Verify Published 2 hours ago Share close panel Share page Copy link About sharing Related topics Artificial intelligence Follow Artificial intelligence United States Follow United States US midterm elections 2026 Follow US mi",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 8,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f4d53ac1c871f0a99f4e": {
+      "storyId": "f4d53ac1c871f0a99f4e",
+      "url": "https://www.inc.com/bill-murphy-jr/whos-more-likely-to-secretly-use-ai-at-work-bosses-or-employees-this-new-study-found-a-surprising-answer/91425026",
+      "title": "Bosses or Employees: Who’s More Likely to Use AI and Keep It Secret? A New Study Found the Surprising Answer",
+      "source": "Inc. AI",
+      "published": "2026-10-24T04:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1e9ba839e63e9279cccf17bd",
+      "bodyFingerprint": "7f60cd5d49aa91e12bb623ef",
+      "bodyCharacterCount": 31,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-24T07:20:38.542Z",
+      "assessment": {
+        "centralEvent": "Bosses or Employees: Who’s More Likely to Use AI and Keep It Secret? A New Study Found the Surprising Answer",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "title",
+            "excerpt": "A New Study Found the Surprising Answer",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "41a62801bb11ea96fbf8": {
+      "storyId": "41a62801bb11ea96fbf8",
+      "url": "https://news.sky.com/story/uk-pledges-to-spend-600m-to-defend-against-ai-health-and-security-threats-13602935",
+      "title": "UK pledges £600m to defend against AI health and security threats",
+      "source": "Sky News AI",
+      "published": "2026-10-24T02:49:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b9b054f092a75696ff53475e",
+      "bodyFingerprint": "551573f7db08a5368f57e5d0",
+      "bodyCharacterCount": 123,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-24T07:20:38.580Z",
+      "assessment": {
+        "centralEvent": "UK pledges £600m to defend against AI health and security threats",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "95e55b522ae19492ac5f": {
+      "storyId": "95e55b522ae19492ac5f",
+      "url": "https://www.politico.eu/article/the-cyber-flaw-scramble-that-brought-the-ai-threat-to-life",
+      "title": "Inside the cyber flaw scramble that brought the AI threat to life",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-24T02:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "834f7d546bddd57d5c18e2f2",
+      "bodyFingerprint": "de34457ba1bb7daea0d65786",
+      "bodyCharacterCount": 8122,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-24T07:20:38.751Z",
+      "assessment": {
+        "centralEvent": "Inside the cyber flaw scramble that brought the AI threat to life",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The decision by a cybersecurity company on Wednesday to prematurely release information about a flaw in the popular PHP computer programming language left much of the web exposed to hackers, triggering a panic that brought to life months of",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Vulnerabilities in a programming language underpinning much of the web set off a hectic 72-hour rush among virtually every cybersecurity agency in the world.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The exposure was immense, with AI multiplying the risks — and yet time-tested global cybersecurity procedures appeared to be functioning.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Then, according to the PHP Foundation, Chainguard “unilaterally broke the embargo,” which “disregarded weeks of work by many parties toward a coordinated disclosure.” PHP Foundation executive director Elizabeth Barron told POLITICO by email",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Then, according to the PHP Foundation, Chainguard “unilaterally broke the embargo,” which “disregarded weeks of work by many parties toward a coordinated disclosure.” PHP Foundation executive director Elizabeth Barron told POLITICO by email",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“The fire department is fighting multiple fires at once,” the official said, adding: “The good news is they're all one-story structures on fire, which the fire department deals with all day, every day.” Advertisement Matthew Prince, CEO of ",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 70.82,
+        "rawScore": 70.82,
+        "band": "DIRE",
+        "requestedBand": "DIRE",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.62,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-24T01:37:52.141Z"
+  "updatedAt": "2026-10-24T07:20:38.751Z"
 }
