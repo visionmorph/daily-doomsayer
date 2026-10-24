@@ -286481,8 +286481,380 @@
           "vulnerability": 0
         }
       }
+    },
+    "a35ae475cae47d2d1935": {
+      "storyId": "a35ae475cae47d2d1935",
+      "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_campaign=rss&at_medium=RSS",
+      "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
+      "source": "BBC News AI",
+      "published": "2026-10-24T00:05:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "25a63bc9da0e7e9b3f6f0e4e",
+      "bodyFingerprint": "4503bf194833eb3d115b8790",
+      "bodyCharacterCount": 4094,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-24T01:37:52.046Z",
+      "assessment": {
+        "centralEvent": "UK to invest £100m in 'world first' AI Biosecurity Lab",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Researchers who helped surface the vulnerabilities in PHP - a popular server-side scripting language used in web development for decades - warned platforms which use it could be exposed to potential hacks.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Liv McMahon Technology reporter Published 1 hour ago The UK says it will establish a national AI Biosecurity Lab (AIBL) to help strengthen its defences against emerging biological threats.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "But the AI Minister Kanishka Narayan said it would be a \"major new global institution\" that brings together \"world-leading scientific expertise\" to ensure the UK can safeguard its citizens and goals as AI develops. \"That means staying ahead",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But the AI Minister Kanishka Narayan said it would be a \"major new global institution\" that brings together \"world-leading scientific expertise\" to ensure the UK can safeguard its citizens and goals as AI develops. \"That means staying ahead",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.01,
+        "rawScore": 49.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "585ea363f084ac16178f": {
+      "storyId": "585ea363f084ac16178f",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "source": "TechCrunch AI",
+      "published": "2026-10-23T23:05:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "419bd8adec7abf794949fb3c",
+      "bodyFingerprint": "72e4ba1fcb9fbce10a7fae43",
+      "bodyCharacterCount": 4944,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-24T01:37:52.054Z",
+      "assessment": {
+        "centralEvent": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "To meet that requirement while still reaching its training goals, the lab said it created a “a vast set of indexed and cached web content with which our models can interact, without risk of affecting external systems.” Whether that strategy",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular W",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Keeping AI data centers separate from the internet “would need research teams to essentially be embedded inside of data centers in Iowa or wherever else around the world,” former OpenAI researcher Steven Adler told Fortune this month.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e4cc85becea33bb3cb23": {
+      "storyId": "e4cc85becea33bb3cb23",
+      "url": "https://www.theguardian.com/media/2026/oct/24/blue-planet-iii-cloudier-footage-prove-authenticity-ai-boom",
+      "title": "Blue Planet III features cloudier footage to prove authenticity amid AI boom",
+      "source": "The Guardian AI",
+      "published": "2026-10-23T23:01:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "75b44d5d68116d20fb3a8097",
+      "bodyFingerprint": "861757a26eb4bc1a49c7a238",
+      "bodyCharacterCount": 5707,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-24T01:37:52.060Z",
+      "assessment": {
+        "centralEvent": "Blue Planet III features cloudier footage to prove authenticity amid AI boom",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Instead he’s picked a fight – and he seems to be losing The Archers cast ‘angry’ at BBC decision to scrap new Birmingham studio BBC asks judge to force Trump to sit for deposition as part of his $10bn lawsuit BBC to stop recording The Arche",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b22be550229667dfd65a": {
+      "storyId": "b22be550229667dfd65a",
+      "url": "https://www.eff.org/deeplinks/2026/10/computer-security-about-get-lot-worse-heres-what-you-can-do",
+      "title": "Computer Security Is About to Get a Lot Worse, Here’s What You Can Do",
+      "source": "EFF AI",
+      "published": "2026-10-23T22:36:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8c9f9a966188d7321a30b2eb",
+      "bodyFingerprint": "c156c1d9eeca792592474907",
+      "bodyCharacterCount": 3698,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-24T01:37:52.126Z",
+      "assessment": {
+        "centralEvent": "Computer Security Is About to Get a Lot Worse, Here’s What You Can Do",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "A lot of computers are going to get hacked a lot more often, and unfortunately, it isn’t going to get better any time soon.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "This year alone researchers have found nearly a quarter of all software security issues which have ever been discovered.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "There absolutely needs to be a bigger conversation about how we got here and how to fix the systemic issues involved, including how corporations that depend on open-source code should contribute to their upkeep, and how big tech should be r",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Until recently there was a steady background hum of vulnerabilities being found and patched, with major vulnerabilities that could cripple the entire internet only happening every few years.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Until recently there was a steady background hum of vulnerabilities being found and patched, with major vulnerabilities that could cripple the entire internet only happening every few years.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.04,
+        "rawScore": 48.04,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3675,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3634c84f7d36aee199dd": {
+      "storyId": "3634c84f7d36aee199dd",
+      "url": "https://www.eff.org/deeplinks/2026/10/vulnerability-apocalypse-and-why-we-should-fund-open-source",
+      "title": "The Vulnerability Apocalypse and Why We Should Fund Open Source",
+      "source": "EFF AI",
+      "published": "2026-10-23T22:36:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "63e4c0f31eb3f575880b01ba",
+      "bodyFingerprint": "c864e73a9b37606071299763",
+      "bodyCharacterCount": 7302,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-24T01:37:52.141Z",
+      "assessment": {
+        "centralEvent": "The Vulnerability Apocalypse and Why We Should Fund Open Source",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "We now know that the vulnerabilities were so severe that they would have allowed even moderately inventive hackers to take over any website that uses PHP and then steal customer data, launch further malware attacks, spy on users, take websi",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Computer vulnerabilities reported are rising exponentially.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "While in the middle of the widespread, global effort to correct this mistake and deploy fixes, the problem was leaked by some of the security researchers who had gotten early access to the fixes.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 113,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-23T22:21:54.364Z"
+  "updatedAt": "2026-10-24T01:37:52.141Z"
 }
