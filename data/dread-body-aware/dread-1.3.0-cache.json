@@ -288188,8 +288188,131 @@
           "vulnerability": 0
         }
       }
+    },
+    "36111d6bc6b4991f37ea": {
+      "storyId": "36111d6bc6b4991f37ea",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "title": "Blue Planet III is keeping the rough edges in the age of AI",
+      "source": "The Verge AI",
+      "published": "2026-10-24T21:29:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fd53825ba22261307deb9075",
+      "bodyFingerprint": "0c21e7b411de17d89fd0552e",
+      "bodyCharacterCount": 3380,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-24T22:31:04.896Z",
+      "assessment": {
+        "centralEvent": "Blue Planet III is keeping the rough edges in the age of AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Terrence O'Brien AI Entertainment News Science TV Shows Most Popular Most Popular Xbox’s first chief operating officer is out after just a few months The first broken iPhone Duos are here Now Google says it might use your Gmail and Google P",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9bf70d4beac107826a1d": {
+      "storyId": "9bf70d4beac107826a1d",
+      "url": "https://mashable.com/tech/elon-musk-grok-odyssey-ai-film-adaption",
+      "title": "Elon Musk actually follows through on Grok AI adaptation of The Odyssey",
+      "source": "Mashable AI",
+      "published": "2026-10-24T19:32:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fa5c833c74a1f347ba17f07f",
+      "bodyFingerprint": "bc174e7d5b7dbf995fc6b97b",
+      "bodyCharacterCount": 6220,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-24T22:31:04.902Z",
+      "assessment": {
+        "centralEvent": "Elon Musk actually follows through on Grok AI adaptation of The Odyssey",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "With the casting details, Musk and right-leaning influencers predicted Nolan's adaptation would flop — \" go woke, go broke. \" Instead, The Odyssey opened to $124.5 million in July, a huge number for an R-rated, nearly three-hour film.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-24T19:31:08.465Z"
+  "updatedAt": "2026-10-24T22:31:04.902Z"
 }
