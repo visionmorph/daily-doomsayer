@@ -288390,8 +288390,714 @@
           "vulnerability": 0
         }
       }
+    },
+    "0718e1b5dd8712d29de4": {
+      "storyId": "0718e1b5dd8712d29de4",
+      "url": "https://www.inc.com/bernard-coleman/the-real-ai-risk-nobodys-talking-about/91423976",
+      "title": "The Real AI Risk Nobody’s Talking About",
+      "source": "Inc. AI",
+      "published": "2026-10-25T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "515cd8bf2aa42200222d04f7",
+      "bodyFingerprint": "dcb817bbb227ad496310634a",
+      "bodyCharacterCount": 60,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-25T16:26:33.976Z",
+      "assessment": {
+        "centralEvent": "The Real AI Risk Nobody’s Talking About",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "The Real AI Risk Nobody’s Talking About",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f0c80d5858e06e7593e6": {
+      "storyId": "f0c80d5858e06e7593e6",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "source": "TechCrunch AI",
+      "published": "2026-10-25T14:10:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "53c746478a4ed5e579ffee54",
+      "bodyFingerprint": "f0aa26f8032f4e50811b33e6",
+      "bodyCharacterCount": 8372,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-25T16:26:34.006Z",
+      "assessment": {
+        "centralEvent": "The hottest AI wearables and gadgets you should know about",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The companion app comes with 10 hours of AI features per month — such as transcription and summaries — with the option to unlock unlimited features for $29 per month.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e042c003c99917278c11": {
+      "storyId": "e042c003c99917278c11",
+      "url": "https://www.inc.com/robin-landa/stop-chasing-views-creators-ai-real-businesses/91424615",
+      "title": "Stop Chasing Views: How 87% of Creators Are Using AI to Build Real Businesses Beyond Social Media",
+      "source": "Inc. AI",
+      "published": "2026-10-25T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7aed048fb134be5611ba3a51",
+      "bodyFingerprint": "faf4e80e68169d720068157d",
+      "bodyCharacterCount": 133,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-25T16:26:34.041Z",
+      "assessment": {
+        "centralEvent": "Stop Chasing Views: How 87% of Creators Are Using AI to Build Real Businesses Beyond Social Media",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "19ec18c1f5a85a7e1c66": {
+      "storyId": "19ec18c1f5a85a7e1c66",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai",
+      "title": "‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report",
+      "source": "The Guardian AI",
+      "published": "2026-10-25T14:00:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d66adc6f8721ffba9d3453f5",
+      "bodyFingerprint": "f1a6c667fa8340bb297fc597",
+      "bodyCharacterCount": 6175,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-25T16:26:34.049Z",
+      "assessment": {
+        "centralEvent": "‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Deloitte is under pressure after a report into the potential merger of three WA universities contained AI-hallucinated references and incorrect figures.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Deloitte to pay money back to Albanese government after using AI in $440,000 report Read more Under the “high” cost scenario of a merger between Curtin and UWA, the report calculates the “total costs to day 1” as $514m, and “post day 1” ove",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Prof Christian Downie, from the school of regulation and global governance at the Australian National University, who has previously examined submissions to government that contained AI hallucinations, said human errors happen and mistakes ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b0030ce12cb40b84791d": {
+      "storyId": "b0030ce12cb40b84791d",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/26/neighbours-soap-recut-ai-microdrama-mobile-series-feat-margot-robbie",
+      "title": "Neighbours is being recut into a microdrama focused on Margot Robbie – and her co-stars aren’t happy",
+      "source": "The Guardian AI",
+      "published": "2026-10-25T14:00:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2875d7fc702cfab49e0f405a",
+      "bodyFingerprint": "d8c1c9f83955073c3c5ac211",
+      "bodyCharacterCount": 7411,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-25T16:26:34.055Z",
+      "assessment": {
+        "centralEvent": "Neighbours is being recut into a microdrama focused on Margot Robbie – and her co-stars aren’t happy",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“All week I’ve been dealing with deepfake videos and AI,” he said.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Push for regulation Australia’s largest union for actors, the Media, Entertainment and Arts Alliance (MEAA), confirmed it is assisting Neighbours cast members and their representatives after the announcement.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The soap also served as a launchpad for several international stars, including Robbie, Guy Pearce, Kylie Minogue, Jason Donovan, Dichen Lachman, Natalie Imbruglia, Liam Hemsworth and Jesse Spencer.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b411fbb2487aa2da4ef9": {
+      "storyId": "b411fbb2487aa2da4ef9",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "source": "The Verge AI",
+      "published": "2026-10-25T13:25:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "abaf4aa69bc3f5b28bea788c",
+      "bodyFingerprint": "6167a2e93d7748c3abfbd2c5",
+      "bodyCharacterCount": 3870,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-25T16:26:34.061Z",
+      "assessment": {
+        "centralEvent": "r/opensource just banned AI, non-English speakers, and more",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Terrence O'Brien AI News Reddit Tech Most Popular Most Popular The first broken iPhone Duos are here What to expect from Apple’s ‘Pro and tell’ event Xbox’s first chief operating officer is out after just a few months I hope Apple’s touchsc",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ab1f7cff37722d46d5fd": {
+      "storyId": "ab1f7cff37722d46d5fd",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "title": "Google’s AI search changes upended online publishing",
+      "source": "The Verge AI",
+      "published": "2026-10-25T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3a2923ee7f2ff61062d19679",
+      "bodyFingerprint": "d8718b4a2bf303ce21fb17ac",
+      "bodyCharacterCount": 9251,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-25T16:26:34.072Z",
+      "assessment": {
+        "centralEvent": "Google’s AI search changes upended online publishing",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It’s not just publishers and online forums that are concerned about AI Overviews — the nonprofit Common Sense Media claims the search summaries pose an “unacceptable” risk to kids by failing to respond appropriately to children in crisis.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A 2024 investigation from the Press Gazette found that Google’s AI Overviews appeared for almost a quarter of news-related searches in May 2024.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.65,
+        "rawScore": 25.65,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "95a7958d3a0a4c3e8258": {
+      "storyId": "95a7958d3a0a4c3e8258",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261024222000.htm",
+      "title": "Three giant black holes discovered in a galaxy from the dawn of time",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-25T12:07:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a76afd9228c0ca86973fae66",
+      "bodyFingerprint": "062eed0ece36a86f3428270a",
+      "bodyCharacterCount": 11747,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-25T16:26:34.147Z",
+      "assessment": {
+        "centralEvent": "Three giant black holes discovered in a galaxy from the dawn of time",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "24, 2025  Astronomers detected a black hole displaced nearly a kiloparsec from the center of a dwarf galaxy 230 million light-years away.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 78,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8b3a66dec3cc3753de71": {
+      "storyId": "8b3a66dec3cc3753de71",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261023023736.htm",
+      "title": "Astronomers may have discovered the first moon beyond our Solar System",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-25T03:13:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2fb02490e95c8cb95e113214",
+      "bodyFingerprint": "5dbf43083e1f0c4336e5a5a3",
+      "bodyCharacterCount": 11791,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-25T16:26:34.154Z",
+      "assessment": {
+        "centralEvent": "Astronomers may have discovered the first moon beyond our Solar System",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "If confirmed, the discovery could mark the first detection of a natural satellite outside our Solar System, potentially changing how astronomers define moons and planets.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 80,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a208f4f267addeda87d5": {
+      "storyId": "a208f4f267addeda87d5",
+      "url": "https://www.bbc.co.uk/news/articles/ckpdg4pl7pgvo?at_campaign=rss&at_medium=RSS",
+      "title": "Police using AI risks making discrimination worse, researchers warn",
+      "source": "BBC News AI",
+      "published": "2026-10-25T12:18:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3968b2e65bb15d07d8739625",
+      "bodyFingerprint": "616017e0a4972457b5ee890c",
+      "bodyCharacterCount": 9289,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-25T16:26:34.159Z",
+      "assessment": {
+        "centralEvent": "Police using AI risks making discrimination worse, researchers warn",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "He says that the technology has moved on to take the bias of historical data into account. \"The old-map analogy is useful for explaining how historical bias can be inherited, but it has its limits,\" he told BBC News. \"Modern AI systems do n",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Markus Spiske Image caption, AI can magnify biases contained in past police data, researchers say Published 3 hours ago In his award-winning essay, young British science writer Adrian Dredge wrote about the potential pitfalls ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8792a4f6e349b463bae0": {
+      "storyId": "8792a4f6e349b463bae0",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261023023731.htm",
+      "title": "Scientists discover a hidden flaw that challenges 40 years of superconductor science",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-25T02:19:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2e2d93a69e99f2e0c451d2e9",
+      "bodyFingerprint": "cfa3425520e2839cd288d631",
+      "bodyCharacterCount": 9536,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-25T16:26:34.275Z",
+      "assessment": {
+        "centralEvent": "Scientists discover a hidden flaw that challenges 40 years of superconductor science",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Scientists discover a hidden flaw that challenges 40 years of superconductor science",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers, using powerful supercomputers, found ...",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "RELATED TOPICS Matter & Energy Physics Chemistry Engineering and Construction Materials Science Computers & Math Computer Modeling Virtual Reality Computer Programming Computer Science RELATED TERMS Science Nanoparticle Scientific visualiza",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.63,
+        "rawScore": 27.63,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-25T11:36:22.036Z"
+  "updatedAt": "2026-10-25T16:26:34.275Z"
 }
