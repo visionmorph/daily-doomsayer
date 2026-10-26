@@ -291079,8 +291079,2144 @@
           "vulnerability": 0
         }
       }
+    },
+    "628d471647e33a643043": {
+      "storyId": "628d471647e33a643043",
+      "url": "https://www.bbc.co.uk/news/articles/cwn8d7g29vd9o?at_campaign=rss&at_medium=RSS",
+      "title": "Anthropic's blockbuster share listing - 5 surprising things we now know",
+      "source": "BBC News AI",
+      "published": "2026-10-26T19:57:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "47e4f88fe51297235b1bea77",
+      "bodyFingerprint": "16992061cd07cd2439438c05",
+      "bodyCharacterCount": 6432,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:30.828Z",
+      "assessment": {
+        "centralEvent": "Anthropic's blockbuster share listing - 5 surprising things we now know",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Anthropic's \"risk factors\" were unique, also disclosing how the AI technology it is developing could doom humanity as a whole. \"Sufficiently advanced AI systems could, if not developed, deployed, and operated with appropriate safeguards, ov",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Anthropic lost $80.7bn (£60bn) in the first half of this year, double what it lost across 2025 altogether.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Anthropic said AI could provide individually tailored education and expert financial and legal advice, advance power grids and battery design for greater efficiency and reliability and help the \"developing world\" build more technological ca",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dc2ba5f7e4bd3bc5e0e6": {
+      "storyId": "dc2ba5f7e4bd3bc5e0e6",
+      "url": "https://www.inc.com/nick-hobson/youtube-just-started-labeling-ai-music-have-you-been-misled/91425069",
+      "title": "YouTube Just Started Labeling AI Music. Have You Been Misled?",
+      "source": "Inc. AI",
+      "published": "2026-10-26T19:39:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bd67b4f1d6ecf759ce01dc1e",
+      "bodyFingerprint": "e727f6bb7778ae090d487320",
+      "bodyCharacterCount": 205,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-26T20:31:30.891Z",
+      "assessment": {
+        "centralEvent": "YouTube Just Started Labeling AI Music. Have You Been Misled?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8c9367ccb9864644234b": {
+      "storyId": "8c9367ccb9864644234b",
+      "url": "https://www.inc.com/victoria-salves/anthropic-ipo-gives-7-co-founders-50-percent-voting-power-1-is-left-out/91425368",
+      "title": "Anthropic’s IPO Gives 7 Co-Founders 50.1 Percent of Voting Power. 1 Is Left Out",
+      "source": "Inc. AI",
+      "published": "2026-10-26T19:42:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "847a35f80300b85672f94608",
+      "bodyFingerprint": "621772ea765b9f06f9add0b6",
+      "bodyCharacterCount": 124,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-26T20:31:30.895Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s IPO Gives 7 Co-Founders 50.1 Percent of Voting Power. 1 Is Left Out",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a4a0751bea9ff7bd353c": {
+      "storyId": "a4a0751bea9ff7bd353c",
+      "url": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo",
+      "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+      "source": "Ars Technica AI",
+      "published": "2026-10-26T20:04:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c1af8587f4ae282298074ea6",
+      "bodyFingerprint": "e1af6a3c481eb3f863790063",
+      "bodyCharacterCount": 5617,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:30.899Z",
+      "assessment": {
+        "centralEvent": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f54eaa8f68ebfdf8e8d3": {
+      "storyId": "f54eaa8f68ebfdf8e8d3",
+      "url": "https://www.inc.com/jason-aten/google-broke-its-biggest-promise-about-gmail-its-the-1-thing-no-company-should-ever-do/91425722",
+      "title": "Google Broke Its Biggest Promise About Gmail. It’s the 1 Thing No Company Should Ever Do",
+      "source": "Inc. AI",
+      "published": "2026-10-26T19:18:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "521e991135bdaf171d57fdc4",
+      "bodyFingerprint": "40beca3ba58e0ad63ab4a4cb",
+      "bodyCharacterCount": 85,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-26T20:31:30.909Z",
+      "assessment": {
+        "centralEvent": "Google Broke Its Biggest Promise About Gmail. It’s the 1 Thing No Company Should Ever Do",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7e56917bc2f252fb2e3c": {
+      "storyId": "7e56917bc2f252fb2e3c",
+      "url": "https://www.inc.com/chloe-aiello/the-ghost-of-elvis-presley-is-coming-for-anthropic-to-the-tune-of-41-million/91425585",
+      "title": "The Ghost of Elvis Presley Is Coming for Anthropic to the Tune of $41 Million",
+      "source": "Inc. AI",
+      "published": "2026-10-26T18:59:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3acfeee84b7f0c20b51a629b",
+      "bodyFingerprint": "c98519762a215cbd0ab65744",
+      "bodyCharacterCount": 164,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-26T20:31:30.939Z",
+      "assessment": {
+        "centralEvent": "The Ghost of Elvis Presley Is Coming for Anthropic to the Tune of $41 Million",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "98a71acc806bf75d935d": {
+      "storyId": "98a71acc806bf75d935d",
+      "url": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice",
+      "title": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
+      "source": "Ars Technica AI",
+      "published": "2026-10-26T18:50:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "17ebd29237987fd121f6922d",
+      "bodyFingerprint": "b3f70df66f0d8557723713cf",
+      "bodyCharacterCount": 9392,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:30.953Z",
+      "assessment": {
+        "centralEvent": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "US robotics company stands by ICE deal as more than 300 employees warn of risk.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "However, the Brennan Center for Justice has documented the Homeland Security Investigations unit as frequently being involved in deporting undocumented workers and conducting workplace raids during the first administration of President Dona",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The ICE contract represents “a complicated and emotionally charged topic for many people, including some of our own employees,” said the Boston Dynamics spokesperson.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“All elements of the ICE organization, not just Enforcement & Removal Operations, have worked to sow fear among all people living in this country.” That single largest immigration enforcement operation of its kind sparked public outrage in ",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.97,
+        "rawScore": 26.97,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.27,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a580e91b8bb57ab6f981": {
+      "storyId": "a580e91b8bb57ab6f981",
+      "url": "https://www.inc.com/michael-tasner/anthropic-ipo-2-trillion-bet-story-business-risk/91425451",
+      "title": "Anthropic’s IPO Is a $2 Trillion Bet on a Story. The Same Move That Builds a Business Can Sink One",
+      "source": "Inc. AI",
+      "published": "2026-10-26T18:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8b13a0442ac07c5fe2a787d9",
+      "bodyFingerprint": "58e704a618f4c6aac238153d",
+      "bodyCharacterCount": 168,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-26T20:31:30.974Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s IPO Is a $2 Trillion Bet on a Story. The Same Move That Builds a Business Can Sink One",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a4c5f32431d10496f0f5": {
+      "storyId": "a4c5f32431d10496f0f5",
+      "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
+      "title": "At New York Climate Week 2026, MIT connects with a global network",
+      "source": "MIT News AI",
+      "published": "2026-10-26T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b0704d03a38214ec232107b",
+      "bodyFingerprint": "7575ded55b29ccf4380d74e8",
+      "bodyCharacterCount": 11282,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:30.985Z",
+      "assessment": {
+        "centralEvent": "At New York Climate Week 2026, MIT connects with a global network",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Frontier technologies are often more expensive to start, so that means it’s even more important for scientists and engineers to think about end user adoption, and their incentives and constraints, from the start.” Share this news article o",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "At New York Climate Week 2026, MIT connects with a global network",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Credits : Photo: Justin Coleman Caption : The MIT Initiative for New Manufacturing organized a panel discussion on “Industrial Decarbonization: Pathways to Productivity and Growth.” The session drew upon four case studies highlighted in a r",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.64,
+        "rawScore": 46.64,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.24,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "481b7ca052cab9052b26": {
+      "storyId": "481b7ca052cab9052b26",
+      "url": "https://www.inc.com/dave-sokolin/i-let-grok-bot-handle-a-simple-task-what-it-did-next-exposed-a-terrifying-security-blind-spot/91425525",
+      "title": "I Let Grok Bot Handle a Simple Task. What It Did Next Exposed a Terrifying Security Blind Spot",
+      "source": "Inc. AI",
+      "published": "2026-10-26T17:51:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c8596e457900c53655d6f360",
+      "bodyFingerprint": "66dfff92dc82c8631e36aa55",
+      "bodyCharacterCount": 140,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-26T20:31:30.994Z",
+      "assessment": {
+        "centralEvent": "I Let Grok Bot Handle a Simple Task. What It Did Next Exposed a Terrifying Security Blind Spot",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "What It Did Next Exposed a Terrifying Security Blind Spot",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f805951fdf8d14c66cb7": {
+      "storyId": "f805951fdf8d14c66cb7",
+      "url": "https://www.theguardian.com/technology/2026/oct/26/microsoft-buyout-offers-ai-cuts",
+      "title": "Microsoft to reportedly offer buyouts to 60,000 employees in latest cuts",
+      "source": "The Guardian AI",
+      "published": "2026-10-26T18:44:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f6f336ee973e714aeec571a5",
+      "bodyFingerprint": "a9819812028484aa86cc9589",
+      "bodyCharacterCount": 2853,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.012Z",
+      "assessment": {
+        "centralEvent": "Microsoft to reportedly offer buyouts to 60,000 employees in latest cuts",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Explore more on these topics Microsoft AI (artificial intelligence) Job losses Technology sector news Share Reuse this content Most viewed Most viewed",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Tech company offers buyouts in an effort to reduce costs amid the rising use of AI, according to reports Microsoft announced that it would offer buyouts to 60,000 employees in an effort to reduce costs amid the rising use of artificial inte",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Its global workforce is made up of about 223,000 workers globally.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4cd5cd086e680b9e2e9f": {
+      "storyId": "4cd5cd086e680b9e2e9f",
+      "url": "https://www.inc.com/aaron-mok/anthropic-says-its-security-threats-arent-just-hackers-some-people-with-malicious-motives-are-applying-for-jobs/91425470",
+      "title": "Anthropic Says Its Security Threats Aren’t Coming Just From Hackers. Some People With ‘Malicious Motives’ Are Applying for Jobs",
+      "source": "Inc. AI",
+      "published": "2026-10-26T17:29:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "efd77a0d8d9fd86d4899f38c",
+      "bodyFingerprint": "6a9bd59e28cf407c7637baf8",
+      "bodyCharacterCount": 118,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-26T20:31:31.034Z",
+      "assessment": {
+        "centralEvent": "Anthropic Says Its Security Threats Aren’t Coming Just From Hackers. Some People With ‘Malicious Motives’ Are Applying for Jobs",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "In its S-1 filing, Anthropic reported that an ‘insider threat’ came in the form of applicants with ‘ulterior’ motives.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f64be88c708343055ae6": {
+      "storyId": "f64be88c708343055ae6",
+      "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo",
+      "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+      "source": "Ars Technica AI",
+      "published": "2026-10-26T17:26:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9149c503d8aa1e0c0475da03",
+      "bodyFingerprint": "02ecf42b1d6240bd54a5d0dc",
+      "bodyCharacterCount": 7361,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.078Z",
+      "assessment": {
+        "centralEvent": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Sometimes, a real delivery driver is hired to collect the cargo, unaware of the scam, and other times fake driver’s licenses are used to get accomplices hired.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A trailer carrying “several hundred pounds” of “computer server equipment” worth $13 million was destined to land in Fayetteville, Georgia, “home to one of the largest data center developments in the country.” Two off-duty cops hired as esc",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Scott Cornell is chair of the Transported Asset Protection Association, Americas, or TAPA Americas, which is “the largest global nonprofit organization dedicated to supply chain security standards.” He told NBC News that although overseas c",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Other trucks impacted were carrying additional freight, like a Los Angeles County Sheriff’s Department case where “data center cooling equipment” bound for Deepcool AI was recovered among nicotine pouches, televisions, shoes, printers, spea",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Since 2025, there have been “nearly two dozen cargo theft incidents” in “states including California, Texas, and Utah,” and the “issue is only expected to grow” as AI firms continue to invest billions into data center infrastructure.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.25,
+        "rawScore": 49.25,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4775,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c703d92e74636f36951a": {
+      "storyId": "c703d92e74636f36951a",
+      "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+      "title": "The RealReal won’t let AI agents hog designer clothing",
+      "source": "The Verge AI",
+      "published": "2026-10-26T17:30:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eec98f6689c58ae939235071",
+      "bodyFingerprint": "160cf4c8dd9f8f616d682037",
+      "bodyCharacterCount": 5511,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.156Z",
+      "assessment": {
+        "centralEvent": "The RealReal won’t let AI agents hog designer clothing",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Using Meta’s Muse, The Verge was able to instruct the AI agent to continuously re-add The RealReal listings in a shopping cart as soon as the 20-minute hold had expired, effectively blocking other shoppers from purchasing products for hours",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fe226da81d4606aeb688": {
+      "storyId": "fe226da81d4606aeb688",
+      "url": "https://www.theguardian.com/technology/2026/oct/26/ai-book-prize-judges-face-a-major-speed-reading-challenge",
+      "title": "AI book prize judges face a major speed-reading challenge | Brief letters",
+      "source": "The Guardian AI",
+      "published": "2026-10-26T17:38:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "754e076865c195b92e43cc5e",
+      "bodyFingerprint": "843528d93a6a11d1dbe313a7",
+      "bodyCharacterCount": 2155,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.162Z",
+      "assessment": {
+        "centralEvent": "AI book prize judges face a major speed-reading challenge | Brief letters",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fe6583a778a0b30ba7d2": {
+      "storyId": "fe6583a778a0b30ba7d2",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+      "title": "Five weird details from Anthropic’s IPO filing",
+      "source": "The Verge AI",
+      "published": "2026-10-26T17:10:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d8716fe41aacbea1ec25d019",
+      "bodyFingerprint": "280398473ace03a4e86b55b6",
+      "bodyCharacterCount": 5872,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.173Z",
+      "assessment": {
+        "centralEvent": "Five weird details from Anthropic’s IPO filing",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "AI Report Anthropic Five weird details from Anthropic’s IPO filing From conscious AI and ‘catastrophic’ risk to unusual corporate structures and executive perks.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "At more than 300 pages, there's a lot to unpack, and some of the disclosures have not previously been reported.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "For one, Anthropic warns that AI systems could cause potentially “catastrophic” harm, potentially of a kind that could not be underwritten by the entire “insurance industry in the aggregate.” As AI systems become more sophisticated, there’s",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.59,
+        "rawScore": 25.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.145,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3f7382b7697aab5a75bf": {
+      "storyId": "3f7382b7697aab5a75bf",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo",
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "source": "TechCrunch AI",
+      "published": "2026-10-26T16:46:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2fdca65a06c45e2c0f9661f9",
+      "bodyFingerprint": "1a4436141a87152554c1a1f2",
+      "bodyCharacterCount": 4181,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.264Z",
+      "assessment": {
+        "centralEvent": "SpaceX locks in $40B GPU financing deal with Apollo",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular G",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "68dfb7cd14f88c587aae": {
+      "storyId": "68dfb7cd14f88c587aae",
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked",
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "source": "TechCrunch AI",
+      "published": "2026-10-26T16:49:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5f92ec085aab7408af5b6193",
+      "bodyFingerprint": "8d4ebeab268a4efa0feacdb6",
+      "bodyCharacterCount": 6163,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.272Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular G",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "26826f6c4041164bdd4f": {
+      "storyId": "26826f6c4041164bdd4f",
+      "url": "https://www.inc.com/dave-sokolin/superintelligence-is-a-myth-heres-what-actually-changes-everything/91424778",
+      "title": "Superintelligence Is a Myth—Here’s What Actually Changes Everything",
+      "source": "Inc. AI",
+      "published": "2026-10-26T16:42:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9705e92a206592ba04334542",
+      "bodyFingerprint": "ed76d8958ee6d1ec1cfab0da",
+      "bodyCharacterCount": 174,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-26T20:31:31.286Z",
+      "assessment": {
+        "centralEvent": "Superintelligence Is a Myth—Here’s What Actually Changes Everything",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6f5918cacf7624004d07": {
+      "storyId": "6f5918cacf7624004d07",
+      "url": "https://www.inc.com/kamya-marwah/why-chaos-posting-is-your-brands-best-defense-against-ai-slop/91425085",
+      "title": "Why Chaos Posting Is Your Brand’s Best Defense Against AI Slop",
+      "source": "Inc. AI",
+      "published": "2026-10-26T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fc08afd066dc4f97db5565dc",
+      "bodyFingerprint": "e6942daa8427462099fa8fa2",
+      "bodyCharacterCount": 178,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-26T20:31:31.326Z",
+      "assessment": {
+        "centralEvent": "Why Chaos Posting Is Your Brand’s Best Defense Against AI Slop",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e30bddfbc05d54f4d54f": {
+      "storyId": "e30bddfbc05d54f4d54f",
+      "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+      "title": "Microsoft offers buyouts to 60,000 employees",
+      "source": "The Verge AI",
+      "published": "2026-10-26T15:58:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "883845e9242819e04275b592",
+      "bodyFingerprint": "cbc3cb06662b07bdd51a92c9",
+      "bodyCharacterCount": 4861,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.341Z",
+      "assessment": {
+        "centralEvent": "Microsoft offers buyouts to 60,000 employees",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The voluntary exit offers come just months after Microsoft laid off 4,800 employees , a move that primarily impacted its Xbox and commercial sales teams.",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Richard Lawler May 18 Most Popular Most Popular A YouTuber dissected an iPhone Duo and thinks he found the cause of crackgate The Gospel according to Peter (Thiel) Microsoft offers buyouts to 60,000 employees Apple updates the iPad Mini wit",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4ca3041e0bef44d27a44": {
+      "storyId": "4ca3041e0bef44d27a44",
+      "url": "https://www.eff.org/deeplinks/2026/10/anti-circumvention-laws-raise-cost-knowledge",
+      "title": "Anti-Circumvention Laws Raise the Cost of Knowledge",
+      "source": "EFF AI",
+      "published": "2026-10-26T17:20:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "45bd2d24d280cb2ef4effef0",
+      "bodyFingerprint": "51dea2342e11bde5b5e163c9",
+      "bodyCharacterCount": 3714,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.343Z",
+      "assessment": {
+        "centralEvent": "Anti-Circumvention Laws Raise the Cost of Knowledge",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "That’s a dangerous ruling, because it casts a cloud of legal uncertainty over lots of important research, including efforts to study public sentiment through social media and to preserve records of historical events.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Unfortunately, a federal district judge ruled in July that the suit could proceed, concluding that Section 1201 applied.",
+            "matchedRule": "/\\b(?:court ruled|judge ruled|regulator found|official investigation confirmed)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Checking facts, gauging public opinion, and other lines of inquiry depend on being able to analyze the overwhelming amount of material posted online every day.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.52,
+        "rawScore": 27.52,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.32,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5c00df488c69c6e0cc0c": {
+      "storyId": "5c00df488c69c6e0cc0c",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/26/royal-air-force-harv-smyth-ai-drone-future",
+      "title": "‘Autonomy, not flesh’: RAF chief outlines AI drone-powered future",
+      "source": "The Guardian AI",
+      "published": "2026-10-26T19:09:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "36e1393383c98c052ac0c706",
+      "bodyFingerprint": "0e17a7199c294f5c63dcee01",
+      "bodyCharacterCount": 4700,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.350Z",
+      "assessment": {
+        "centralEvent": "‘Autonomy, not flesh’: RAF chief outlines AI drone-powered future",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The technological shift would revolutionise warfare, limit the role of military personnel “towards the outside” and ease the pressure on recruitment, Air Chief Marshal Harv Smyth said in a speech in London.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Over the weekend Wes Streeting, the defence secretary, said the UK had “a little over 1,000 days to complete our mission: to be ready with our allies to fight and win”.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The aim, he added, was to mirror the Anglo-American second world war model of “steel, not flesh” – relying on tanks and combat aircraft rather than infantry – to avoid the bloody trench warfare that had led to millions of deaths in the firs",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The IDF used two databases, Lavender and Habsora ( or the Gospel ), to increase the pace at which it could attack people and buildings during the war in Gaza.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f292c8dcf3bbcb05eb5f": {
+      "storyId": "f292c8dcf3bbcb05eb5f",
+      "url": "https://www.inc.com/brian-contreras/anthropic-claude-ai-initial-public-offering-ipo-s-1-100-billion/91425354",
+      "title": "Anthropic Filed to Go Public With Key Numbers Missing. 1 Could Reach $100 Billion",
+      "source": "Inc. AI",
+      "published": "2026-10-26T15:55:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4cfe9b72c3fd8952dffa90e9",
+      "bodyFingerprint": "1b7b81da4ae9b2c46f30dfd3",
+      "bodyCharacterCount": 79,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-26T20:31:31.363Z",
+      "assessment": {
+        "centralEvent": "Anthropic Filed to Go Public With Key Numbers Missing. 1 Could Reach $100 Billion",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f693b8e16e53d70171d2": {
+      "storyId": "f693b8e16e53d70171d2",
+      "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems",
+      "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
+      "source": "404 Media AI",
+      "published": "2026-10-26T15:49:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b4ca6abdb46f5c734f48edb1",
+      "bodyFingerprint": "b0ccc8e08c80559abb6c50a8",
+      "bodyCharacterCount": 3015,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.498Z",
+      "assessment": {
+        "centralEvent": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "I think contacting journalists is worth considering [...] I recommend contacting both Russian and international journalists.” ChatGPT then gave him a list of several news outlets, including 404 Media: “404 Media Focus: Technology, digital p",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Around two weeks ago, we started emailing these people back and asking them how they found us; universally, the answer is that an AI chatbot recommended they reach out to us and, in many cases, the chatbot wrote the email, according to revi",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "I think contacting journalists is worth considering [...] I recommend contacting both Russian and international journalists.” ChatGPT then gave him a list of several news outlets, including 404 Media: “404 Media Focus: Technology, digital p",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Around two weeks ago, we started emailing these people back and asking them how they found us; universally, the answer is that an AI chatbot recommended they reach out to us and, in many cases, the chatbot wrote the email, according to revi",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.74,
+        "rawScore": 47.74,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.34,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "38c916cf86609025b222": {
+      "storyId": "38c916cf86609025b222",
+      "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer",
+      "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+      "source": "WIRED AI",
+      "published": "2026-10-26T16:01:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "79e56b564561265fc3cec4c0",
+      "bodyFingerprint": "1cc3b229a32cdbebd667e202",
+      "bodyCharacterCount": 8121,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.522Z",
+      "assessment": {
+        "centralEvent": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Duncan Fyfe Meet the AI Agents Trying to Be Real-Life Journalists Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "02a9bbeb7878e8a048e1": {
+      "storyId": "02a9bbeb7878e8a048e1",
+      "url": "https://mashable.com/tech/capcut-chatgpt-plugin-announced",
+      "title": "CapCut is adding a ChatGPT plugin. See it in action.",
+      "source": "Mashable AI",
+      "published": "2026-10-26T15:55:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a51c4d01aa43873dd2f40222",
+      "bodyFingerprint": "60b95274c9ca846cb36e2dc6",
+      "bodyCharacterCount": 3202,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.543Z",
+      "assessment": {
+        "centralEvent": "CapCut is adding a ChatGPT plugin. See it in action.",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The plugin isn’t available yet; CapCut says it will arrive in the coming months.According to CapCut, creators will be able to develop a video idea in ChatGPT and have CapCut put together a rough first cut.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fcee7fe2ae9bec9bd7c9": {
+      "storyId": "fcee7fe2ae9bec9bd7c9",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut",
+      "title": "Anthropic officially files for its public debut",
+      "source": "TechCrunch AI",
+      "published": "2026-10-26T14:35:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7eea1686b4db054532b6f7aa",
+      "bodyFingerprint": "d5aa43a38fd7f598a6fc5111",
+      "bodyCharacterCount": 3523,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.572Z",
+      "assessment": {
+        "centralEvent": "Anthropic officially files for its public debut",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular G",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0873146ef97f06cb3adb": {
+      "storyId": "0873146ef97f06cb3adb",
+      "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine",
+      "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
+      "source": "Ars Technica AI",
+      "published": "2026-10-26T14:30:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dc5344d91aa0d865e5e21214",
+      "bodyFingerprint": "9ea9fae382515e15e8461364",
+      "bodyCharacterCount": 9200,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.589Z",
+      "assessment": {
+        "centralEvent": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“SpaceX and Tesla have achieved extraordinary things, but combining his businesses risks tying their futures to his most speculative bets.” “My concern is that trouble in AI could spread across the group, putting otherwise strong businesses",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to William Blair analyst Jed Dorsheimer, the tie-up, if approved by shareholders and regulators, could allow Musk to control 50 percent or more of the merged entity.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav Elon Musk’s “flying” Roadster jumped and flipped through the air this month in a stunt that went vi",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Car groups, already grappling with growing Chinese competition, are seeking to move beyond a business model centered on vehicle sales towards one that also generates recurring revenues from software and AI-powered services.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.07,
+        "rawScore": 28.07,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.37,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "08be98c561875966e944": {
+      "storyId": "08be98c561875966e944",
+      "url": "https://www.politico.com/news/2026/10/26/anthropic-warns-investors-of-political-risks-01135241",
+      "title": "Anthropic warns investors of political risks as it prepares to go public",
+      "source": "POLITICO AI",
+      "published": "2026-10-26T14:43:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b87df10c69c01aee35d6ef5",
+      "bodyFingerprint": "92414d7ec0a537bedeb148b7",
+      "bodyCharacterCount": 167,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-26T20:31:31.616Z",
+      "assessment": {
+        "centralEvent": "Anthropic warns investors of political risks as it prepares to go public",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The artificial intelligence company said its public positions on AI safety and regulation could invite backlash, scrutiny and restrictions as it prepares to go public.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8988f05b23400e8d3fbd": {
+      "storyId": "8988f05b23400e8d3fbd",
+      "url": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet",
+      "title": "Will AI expose the rickety infrastructure of the internet?",
+      "source": "TechCrunch AI",
+      "published": "2026-10-24T20:15:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b78476a7efddddb4765087cc",
+      "bodyFingerprint": "eb9cc18d0664afba82a21567",
+      "bodyCharacterCount": 8997,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.643Z",
+      "assessment": {
+        "centralEvent": "Will AI expose the rickety infrastructure of the internet?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "So we have governments taking down websites, we have really popular websites that are going down briefly to be able to fix this vulnerability.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular G",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "I think the best way to think about this, if people are coming into this kind of cold: How many times over the last 10 years have we had these moments where something breaks or something nearly breaks, where one person maintaining one tiny ",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Now multiply that by a billion, when people have access to not only extremely advanced software in the form of these LLMs that everybody uses, but also the ability to task them to go out and do it themselves, with creating AI agents that ar",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.02,
+        "rawScore": 27.02,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bd0c3b652f41af63d9d4": {
+      "storyId": "bd0c3b652f41af63d9d4",
+      "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy",
+      "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+      "source": "WIRED AI",
+      "published": "2026-10-26T14:50:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4b58a6da262de00af11418fd",
+      "bodyFingerprint": "4e184a3d9e629565b961c641",
+      "bodyCharacterCount": 7899,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:31.726Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Anthropic was founded in 2021 by seven former employees of OpenAI, who had reportedly lost faith in the lab’s ability to develop advanced AI models safely.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8b2ffe9ee524d56ad6d7": {
+      "storyId": "8b2ffe9ee524d56ad6d7",
+      "url": "https://techpolicy.press/without-an-exit-plan-ai-partnerships-risk-becoming-the-new-tied-aid",
+      "title": "Without an Exit Plan, AI Partnerships in Africa Risk Becoming the New Tied Aid",
+      "source": "Tech Policy Press AI",
+      "published": "2026-10-26T14:21:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e946278a0b1a5bc1a1b3259a",
+      "bodyFingerprint": "b3425db51b13504c6b07c5ae",
+      "bodyCharacterCount": 12458,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T20:31:32.210Z",
+      "assessment": {
+        "centralEvent": "Without an Exit Plan, AI Partnerships in Africa Risk Becoming the New Tied Aid",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Without an Exit Plan, AI Partnerships in Africa Risk Becoming the New Tied Aid",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Data conditions in US health agreements are documented.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "When AI aid comes with strings For decades after World War II, wealthy countries routinely attached a condition to international aid: recipients had to spend it on the donor country’s goods and services.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 88,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.63,
+        "rawScore": 27.63,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-26T14:19:22.189Z"
+  "updatedAt": "2026-10-26T20:31:32.211Z"
 }
