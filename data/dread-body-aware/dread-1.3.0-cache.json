@@ -289628,8 +289628,1459 @@
           "vulnerability": 0
         }
       }
+    },
+    "6f7a1073a8b8ffd9755d": {
+      "storyId": "6f7a1073a8b8ffd9755d",
+      "url": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
+      "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
+      "source": "The Verge AI",
+      "published": "2026-10-26T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c8556d4813c91106532c5e22",
+      "bodyFingerprint": "a1c775f3289f0a148c5770c2",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:21.488Z",
+      "assessment": {
+        "centralEvent": "Kevin Roose is AGI-pilled. Why aren’t you?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Nilay Patel AI Anthropic Decoder Google OpenAI Podcasts Tech Most Popular Most Popular A YouTuber dissected an iPhone Duo and thinks he found the cause of crackgate r/opensource just banned AI, non-English speakers, and more The Gospel acco",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "I just remember that period, in 2023, when four different people woke up one day and said, “The computers are alive.” Or they had some out-of-body experience with a chatbot.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "If you are in a small scene in San Francisco, and you’re all playing poker together and the conversation at the poker table is that we might be the last company, that is in conflict with, “Oh, there’s millions upon billions of other people ",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The ones that have gone all in have not necessarily come out of that with good feelings about it because there are a lot of– Yeah, they pivot to video and also into death, routinely.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "What if I stopped running the business?",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The promises did not match reality, but every day now it can do one more thing that it couldn’t do before.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 763,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 51.15,
+        "rawScore": 51.15,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.65,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fb8d812fb8441f26943f": {
+      "storyId": "fb8d812fb8441f26943f",
+      "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_campaign=rss&at_medium=RSS",
+      "title": "Anthropic warns of AI's 'risks to humanity' ahead of blockbuster share listing",
+      "source": "BBC News AI",
+      "published": "2026-10-26T14:15:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3bb93da496fe4f43a76dedc4",
+      "bodyFingerprint": "263531f8ea9dd50433c09b9e",
+      "bodyCharacterCount": 3566,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:21.510Z",
+      "assessment": {
+        "centralEvent": "Anthropic warns of AI's 'risks to humanity' ahead of blockbuster share listing",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Ahead of its public listing, Anthropic said concerns had been raised by policymakers, regulators and researchers as well as by people within its organisation that AI systems posed a significant risk to humanity.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Published 17 September Musk and Anthropic pledge public share giveaways Published 7 days ago AI giant Anthropic woos potential investors ahead of stock market debut Published 15 October Sign up for our Tech Decoded newsletter to follow the ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8239d000cbf4efda46b6": {
+      "storyId": "8239d000cbf4efda46b6",
+      "url": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
+      "title": "Anthropic files for stock market IPO; Meta announces $95bn fundraising drive to pay for AI expansion – business live",
+      "source": "The Guardian AI",
+      "published": "2026-10-26T14:12:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "28ab750ee0256cb92351f58e",
+      "bodyFingerprint": "1599d9b663b047afda6557e5",
+      "bodyCharacterCount": 15700,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:21.520Z",
+      "assessment": {
+        "centralEvent": "Anthropic files for stock market IPO; Meta announces $95bn fundraising drive to pay for AI expansion – business live",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Limited transparency and the risk that the PuFins may suffer impairments on their investments will probably make bond market investors skeptical of the extra gilt issuance.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "SpaceX has reported that it has agreed to lease data centre hardware, including AI chips, from an entity managed by asset management firm Apollo Global Management .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View image in fullscreen A chart showing the Brazilian Ibovespa share index Photograph: LSEG Lale Akoner, global market strategist for etoro, explains: “Lula’s re-election could keep Brazilian stocks and the currency under pressure in the n",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Meta says share sale will support its “continued investment in AI infrastructure and personal superintelligence”, as Elon Musk warns some AI cloud computing firms face ‘guppy-level death’ UK government borrowing costs are dropping this morn",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It has now been given four months by the EU to prove it can remedy the breaches of the Digital Services Act.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 94,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.39,
+        "rawScore": 29.39,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.49,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5d69a787c1f3c48a64f4": {
+      "storyId": "5d69a787c1f3c48a64f4",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/27/how-big-are-the-ai-datacentre-power-poles-that-sparked-a-community-backlash-in-melbourne",
+      "title": "How tall are the AI datacentre power poles that sparked a community backlash in Melbourne?",
+      "source": "The Guardian AI",
+      "published": "2026-10-26T14:00:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f595c593a367a06994e21f7e",
+      "bodyFingerprint": "6fdf2e49a184090b4106ed21",
+      "bodyCharacterCount": 3140,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:21.526Z",
+      "assessment": {
+        "centralEvent": "How tall are the AI datacentre power poles that sparked a community backlash in Melbourne?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Guardian Australia reported in May that residents were concerned about the scale of the expansion, the construction noise and the potential for diesel generators being used in the event of power outages.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8730dc35da783e3d8b16": {
+      "storyId": "8730dc35da783e3d8b16",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+      "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
+      "source": "The Verge AI",
+      "published": "2026-10-26T13:32:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d3dd0978db727a1a22e20e0b",
+      "bodyFingerprint": "d5e7211c2f645f47539fe7b8",
+      "bodyCharacterCount": 5140,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:21.534Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As previously reported by the Wall Street Journal based on leaked versions of the document, the majority of that loss is from accounting charges related to notes issued by the company for funding.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Robert Hart AI Anthropic Business News Most Popular Most Popular A YouTuber dissected an iPhone Duo and thinks he found the cause of crackgate r/opensource just banned AI, non-English speakers, and more The Gospel according to Peter (Thiel)",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The company also warned about the risk of “catastrophic” AI-related incidents, and said it was likely no single insurer — “and potentially the insurance industry in the aggregate” — could underwrite such risk.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8cef9d6af68621e1052b": {
+      "storyId": "8cef9d6af68621e1052b",
+      "url": "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market",
+      "title": "Anthropic files for listing on US stock market with valuation of more than $1.5tn",
+      "source": "The Guardian AI",
+      "published": "2026-10-26T13:12:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1f9a77740fe23c1cb8dd1685",
+      "bodyFingerprint": "ddbd69b0512cda5cc0a7238f",
+      "bodyCharacterCount": 1831,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:21.551Z",
+      "assessment": {
+        "centralEvent": "Anthropic files for listing on US stock market with valuation of more than $1.5tn",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4d610e220c2d6684cb8c": {
+      "storyId": "4d610e220c2d6684cb8c",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+      "title": "Can AI help solve the COBOL code crisis?",
+      "source": "The Verge AI",
+      "published": "2026-10-26T13:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "192aab19cd87f04269b6ce97",
+      "bodyFingerprint": "6f6f5e93d6c00b52b78ccd3d",
+      "bodyCharacterCount": 10909,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:21.583Z",
+      "assessment": {
+        "centralEvent": "Can AI help solve the COBOL code crisis?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "These systems are often too important to risk breaking, and many of the programmers who understand them have long since retired or died.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Robert Hart AI Anthropic OpenAI Report Tech Most Popular Most Popular A YouTuber dissected an iPhone Duo and thinks he found the cause of crackgate r/opensource just banned AI, non-English speakers, and more The Gospel according to Peter (T",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "A computer running COBOL 73, an antiquated computer programming language, awaits taxpayer information entries at the Internal Revenue Service in Austin, Tx., on Friday, June 10, 2022. | Image: Getty Images What do the IRS, banks, airlines, ",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "That last bit is crucial for organizations looking to ditch code like COBOL, and OpenAI acknowledges that “a migration is considered successful only if all tests pass.” Related Unemployment checks are being held up by a coding language almo",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.68,
+        "rawScore": 28.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "11a6d6702759b785f9cd": {
+      "storyId": "11a6d6702759b785f9cd",
+      "url": "https://www.inc.com/kamya-marwah/creativity-career-trend-why-i-work-in-tech-no-longer-flex/91423550",
+      "title": "Why Saying ‘I Work in Tech’ Is No Longer the Ultimate Professional Flex",
+      "source": "Inc. AI",
+      "published": "2026-10-26T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9a45af452671cabbd6d29965",
+      "bodyFingerprint": "a3afc200be691278deddca96",
+      "bodyCharacterCount": 152,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-26T14:19:21.702Z",
+      "assessment": {
+        "centralEvent": "Why Saying ‘I Work in Tech’ Is No Longer the Ultimate Professional Flex",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7b24a1b229dbebdd6537": {
+      "storyId": "7b24a1b229dbebdd6537",
+      "url": "https://mashable.com/tech/oct-26-clearafi-ai-tier-1-lifetime-subscription",
+      "title": "Get side-by-side top AI model answers while lifetime Clearafi is just $49.99",
+      "source": "Mashable AI",
+      "published": "2026-10-26T12:16:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "191934bc831e76fe6316d220",
+      "bodyFingerprint": "67e742afd537ca439e31f43f",
+      "bodyCharacterCount": 2761,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:21.716Z",
+      "assessment": {
+        "centralEvent": "Get side-by-side top AI model answers while lifetime Clearafi is just $49.99",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9baca4369bbe5d11c93b": {
+      "storyId": "9baca4369bbe5d11c93b",
+      "url": "https://www.theguardian.com/technology/2026/oct/26/australians-should-prepare-for-online-services-to-go-down-unexpectedly-as-threats-rise-cyber-agency-warns",
+      "title": "Australians should prepare for online services to go down unexpectedly as threats rise, cyber agency warns",
+      "source": "The Guardian AI",
+      "published": "2026-10-26T11:30:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ae056dfa294f560c91f676d8",
+      "bodyFingerprint": "b2805c80189116de67b17c7b",
+      "bodyCharacterCount": 6139,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:21.724Z",
+      "assessment": {
+        "centralEvent": "Australians should prepare for online services to go down unexpectedly as threats rise, cyber agency warns",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "ASD warned “all network owners are facing elevated threat levels”, saying cybersecurity was now a “core business risk and leadership responsibility” for all organisations, no longer only a technical concern.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Explore more on these topics AI (artificial intelligence) news Share Reuse this content More on this story More on this story ‘Synthetic twin’: Why Socceroo Cristian Volpato is the latest footballer to license his AI clone Angus Taylor crit",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Australia must accelerate the modernisation of its technology and cybersecurity foundations to protect the systems we rely on every day.” The annual threat report, released on Tuesday, revealed that ASD had responded to 1,500 cybersecurity",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.87,
+        "rawScore": 25.87,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.17,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "27a94fbccecd690caaec": {
+      "storyId": "27a94fbccecd690caaec",
+      "url": "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
+      "title": "Anthropic’s Claude AI model accessed Georgia voter data in US",
+      "source": "The Guardian AI",
+      "published": "2026-10-26T11:03:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0ad18710929a451f42758863",
+      "bodyFingerprint": "48b6980324a9995bcb42148b",
+      "bodyCharacterCount": 4174,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:21.741Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s Claude AI model accessed Georgia voter data in US",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Examples of unauthorised behaviour by AI agents – programs powered by AI models that carry out tasks autonomously – have been mounting since OpenAI, the company behind ChatGPT, revealed in July that its bots had hacked an AI startup .",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Latest example of unauthorised behaviour shows AI model bypassed paywall to access data as part of statistics project Business live – latest updates Anthropic sued for allegedly using 274 Elvis songs to train AI models Anthropic’s Claude mo",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The incident was first reported by the news website Axios.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e8800623f2eaab99f7ff": {
+      "storyId": "e8800623f2eaab99f7ff",
+      "url": "https://news.sky.com/story/anthropic-reveals-loss-as-it-plans-to-sell-public-shares-for-first-time-13604009",
+      "title": "Anthropic reveals plans for blockbuster IPO",
+      "source": "Sky News AI",
+      "published": "2026-10-26T13:09:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f9494ea099f441e3f8618f0f",
+      "bodyFingerprint": "c7b6ad2e65a47a70f80788f4",
+      "bodyCharacterCount": 153,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-26T14:19:21.777Z",
+      "assessment": {
+        "centralEvent": "Anthropic reveals plans for blockbuster IPO",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4078d5f4a79024d9efe8": {
+      "storyId": "4078d5f4a79024d9efe8",
+      "url": "https://www.theguardian.com/technology/2026/oct/26/meta-plans-95bn-stock-offering-to-help-cover-ai-expansion",
+      "title": "Meta plans $95bn stock offering to help cover AI expansion",
+      "source": "The Guardian AI",
+      "published": "2026-10-26T13:37:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "49dbad45901da94673d64a75",
+      "bodyFingerprint": "8bb361ee93dc6f0f4a36f94e",
+      "bodyCharacterCount": 5517,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:21.930Z",
+      "assessment": {
+        "centralEvent": "Meta plans $95bn stock offering to help cover AI expansion",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "However, other companies in the AI sector found themselves under further pressure on Monday.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "SpaceX reported on Monday that it had entered a $40bn deal with Apollo Global Management to lease chips to power AI datacentres.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "SpaceX reported on Monday that it had entered a $40bn deal with Apollo Global Management to lease chips to power AI datacentres.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Meta’s announcement on Monday came after Musk added to the pressure on “neocloud” datacentre providers – which lease out computing power to AI companies – by saying the sector faced “death and consolidation” amid concerns over the sustainab",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.73,
+        "rawScore": 28.73,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.43,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e06ae4c4b12c72b3c65f": {
+      "storyId": "e06ae4c4b12c72b3c65f",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073055.htm",
+      "title": "A 2,700-year-old solar eclipse just revealed something surprising about Earth",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-26T11:06:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e153807522c53e31443ef76e",
+      "bodyFingerprint": "af05ed618612d14e43ab92c4",
+      "bodyCharacterCount": 13736,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:21.938Z",
+      "assessment": {
+        "centralEvent": "A 2,700-year-old solar eclipse just revealed something surprising about Earth",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "This interpretation agrees with earlier solar activity reconstructions derived from radiocarbon measurements in tree rings, although the uncertainty surrounding the historical corona description means it cannot be considered definitive proo",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "As a result, court astronomers carefully documented changes in the sky.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Credit: AI/ScienceDaily.com An international research team has revisited one of the oldest precisely dated records of a total solar eclipse, uncovering new details about how Earth's rotation has changed over thousands of years.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 86,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.63,
+        "rawScore": 27.63,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b949dfeca92cf0511025": {
+      "storyId": "b949dfeca92cf0511025",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073051.htm",
+      "title": "New 3D thermal invisibility cloak makes objects disappear from infrared cameras",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-26T10:24:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e0997b8b183b95ddd98da57a",
+      "bodyFingerprint": "4ce1bc972fec8558a19adb32",
+      "bodyCharacterCount": 10744,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:21.971Z",
+      "assessment": {
+        "centralEvent": "New 3D thermal invisibility cloak makes objects disappear from infrared cameras",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Thermal Cloak Passively Keeps Electric Vehicles Cool in the Summer and Warm in the Winter July 11, 2023  When an electric vehicle is parked outside, its temperature can swing wildly from day to night and season to season, which can lead to",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 66,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "54ab6a90455a94bd0bcf": {
+      "storyId": "54ab6a90455a94bd0bcf",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073038.htm",
+      "title": "Tiny magnetic vortices could help computers work more like your brain",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-26T10:06:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "43fbca2ad8fe619185cf8a0f",
+      "bodyFingerprint": "5f5f06f0fb19e82cd8c9ef34",
+      "bodyCharacterCount": 9445,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:21.976Z",
+      "assessment": {
+        "centralEvent": "Tiny magnetic vortices could help computers work more like your brain",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In the new study, researchers achieved something that had not been demonstrated before.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0646c013cedc7d4ede3f": {
+      "storyId": "0646c013cedc7d4ede3f",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261024222031.htm",
+      "title": "AI detects “invisible” signs of pancreatic cancer years before diagnosis",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-26T09:25:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ce74c17813c8ae79d6a7e1d5",
+      "bodyFingerprint": "f437b53fbb7d11e6eafad540",
+      "bodyCharacterCount": 11479,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:22.046Z",
+      "assessment": {
+        "centralEvent": "AI detects “invisible” signs of pancreatic cancer years before diagnosis",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The technology, called REDMOD, identified hidden warning signs an average of 475 days before diagnosis and was nearly twice as sensitive as experienced radiologists.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The technology, called REDMOD, identified hidden warning signs an average of 475 days before diagnosis and was nearly twice as sensitive as experienced radiologists.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "It performed even better on the publicly available US National Institutes of Health NIH-PCT dataset (80 patients), correctly identifying 87.5% as free of pancreatic cancer.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It is the fourth leading cause of cancer-related deaths in the western world.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "When the researchers analyzed scans taken from the same patients several months apart, the system produced matching results in 90 to 92% of cases.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 78,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.99,
+        "rawScore": 29.99,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.545,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f724b2722262f732dba9": {
+      "storyId": "f724b2722262f732dba9",
+      "url": "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity",
+      "title": "AI models cost more when you don’t use English",
+      "source": "Rest of World AI",
+      "published": "2026-10-26T10:00:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "873fb9dbd913fb284e8785ad",
+      "bodyFingerprint": "7211084b7b43930801983112",
+      "bodyCharacterCount": 5385,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:22.059Z",
+      "assessment": {
+        "centralEvent": "AI models cost more when you don’t use English",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A new study published last month by the Coalition for Language Equity in AI Research found AI models require far more tokens for some languages than others.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "67e7c3666f8e455b7a0d": {
+      "storyId": "67e7c3666f8e455b7a0d",
+      "url": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners",
+      "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
+      "source": "WIRED AI",
+      "published": "2026-10-26T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "18ba7bb76f2299aacdd02a6c",
+      "bodyFingerprint": "3a11c686d5f6788593495b7c",
+      "bodyCharacterCount": 14459,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:22.146Z",
+      "assessment": {
+        "centralEvent": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A broadcaster and voice-over artist, Becca Guzmán began working for Entravision in 2022 doing radio imaging—the prerecorded, interstitial station IDs, promotional spots, and jingles common to commercial radio. \"I feel like I am one of many ",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He recalls Entravision brass giving him 10 days to develop the “ amigo inteligente ” that eventually became Coyotec.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A broadcaster and voice-over artist, Becca Guzmán began working for Entravision in 2022 doing radio imaging—the prerecorded, interstitial station IDs, promotional spots, and jingles common to commercial radio. \"I feel like I am one of many ",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One Entravision contractor believes the station stopped working with her and alleges that a current Entravision employee told her that her work was being replaced by AI tools.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 95,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a6cfa419e9729400cf06": {
+      "storyId": "a6cfa419e9729400cf06",
+      "url": "https://mashable.com/tech/anthropic-claude-elvis-presley-lawsuit-copyright",
+      "title": "Anthropic sued for allegedly training Claude on Elvis Presleys music",
+      "source": "Mashable AI",
+      "published": "2026-10-26T08:11:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d591fd6f24368f56aa145f3a",
+      "bodyFingerprint": "3e03e115eab5d950f315e296",
+      "bodyCharacterCount": 3211,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:22.151Z",
+      "assessment": {
+        "centralEvent": "Anthropic sued for allegedly training Claude on Elvis Presleys music",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Anthropic is reportedly being sued for allegedly training its AI model Claude on Elvis Presley's music without permission.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3dd3b8be816bc2f2154e": {
+      "storyId": "3dd3b8be816bc2f2154e",
+      "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now",
+      "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
+      "source": "WIRED AI",
+      "published": "2026-10-26T09:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "99d7542dfaf36efe97862f69",
+      "bodyFingerprint": "c1cdd1a273af50ce6515f253",
+      "bodyCharacterCount": 10338,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T14:19:22.189Z",
+      "assessment": {
+        "centralEvent": "Meet the AI Agents Trying to Be Real-Life Journalists",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "That includes you.” Comments Back to top Join the discussion Comments Back to top You Might Also Like Introducing the app: More ways to make the most of WIRED Meta failed to catch hundreds of AI child abuse ads Big Story: The search for Sil",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-26T06:20:25.079Z"
+  "updatedAt": "2026-10-26T14:19:22.189Z"
 }
