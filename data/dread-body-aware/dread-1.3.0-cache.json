@@ -289402,8 +289402,234 @@
           "vulnerability": 0
         }
       }
+    },
+    "54abf2842f8775473cf8": {
+      "storyId": "54abf2842f8775473cf8",
+      "url": "https://www.theguardian.com/technology/video/2026/oct/26/dear-chatgpt-12-year-old-wins-top-youth-prize-at-australian-poetry-slam-video",
+      "title": "'Dear ChatGPT': 12-year-old wins top youth prize at Australian Poetry Slam – video",
+      "source": "The Guardian AI",
+      "published": "2026-10-26T04:43:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1c15fc37f2b9854b5b766ce7",
+      "bodyFingerprint": "07afe845345d135d0bb4156e",
+      "bodyCharacterCount": 1012,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T06:20:24.546Z",
+      "assessment": {
+        "centralEvent": "'Dear ChatGPT': 12-year-old wins top youth prize at Australian Poetry Slam – video",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a9baacb01853f7e8bfdb": {
+      "storyId": "a9baacb01853f7e8bfdb",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261024222024.htm",
+      "title": "Scientists overcome a hidden obstacle to more powerful quantum computers",
+      "source": "ScienceDaily Technology",
+      "published": "2026-10-26T01:42:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0f6c707e3d7d7e373bfea8b1",
+      "bodyFingerprint": "84d9af938d39ad04a628c77f",
+      "bodyCharacterCount": 10274,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T06:20:24.652Z",
+      "assessment": {
+        "centralEvent": "Scientists overcome a hidden obstacle to more powerful quantum computers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In a study published in Nature Physics , the team demonstrated highly accurate control of several silicon spin qubits operating simultaneously.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4439e9f04b6f404d68d1": {
+      "storyId": "4439e9f04b6f404d68d1",
+      "url": "https://www.bbc.co.uk/news/articles/c5x2v3ky1ek7o?at_campaign=rss&at_medium=RSS",
+      "title": "Fed-up driver builds AI litter tracker",
+      "source": "BBC News AI",
+      "published": "2026-10-26T06:18:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0bf34c456eaa64d8c4e82c3d",
+      "bodyFingerprint": "ec4756e87dd88db7422823a7",
+      "bodyCharacterCount": 3632,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T06:20:24.694Z",
+      "assessment": {
+        "centralEvent": "Fed-up driver builds AI litter tracker",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Bennett said: \"I've got a phone holder stuck to the dashboard, I've put my phone in securely. \"I start it and that's it, you don't have to touch the screen, and the screen will go black in a minute so it's not distracting in any way. \"Every",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "66347dc047d422210089": {
+      "storyId": "66347dc047d422210089",
+      "url": "https://thedispatch.com/article/ai-cyber-security-attacks-infrastructure",
+      "title": "Why AI Can’t Save Your Water Supply",
+      "source": "The Dispatch AI",
+      "published": "2026-10-26T05:02:00+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f8a7e762565316b759ec3587",
+      "bodyFingerprint": "451b5f8ff46e6999f8d74c3f",
+      "bodyCharacterCount": 4702,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-26T06:20:25.079Z",
+      "assessment": {
+        "centralEvent": "Why AI Can’t Save Your Water Supply",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-26T01:14:01.929Z"
+  "updatedAt": "2026-10-26T06:20:25.079Z"
 }
