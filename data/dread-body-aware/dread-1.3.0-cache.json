@@ -297189,8 +297189,982 @@
           "vulnerability": 0
         }
       }
+    },
+    "a660049bd369894dbfc9": {
+      "storyId": "a660049bd369894dbfc9",
+      "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid",
+      "title": "The data center boom has an upside: innovation for the US grid",
+      "source": "TechCrunch AI",
+      "published": "2026-10-27T22:55:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4dbfd2977aa42dcd16a04321",
+      "bodyFingerprint": "4556dba3a890f0305cdb8f24",
+      "bodyCharacterCount": 4420,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T22:58:55.321Z",
+      "assessment": {
+        "centralEvent": "The data center boom has an upside: innovation for the US grid",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "At TechCrunch Disrupt earlier this month, industry insiders tempered much of this criticism with optimism about how the flood of new energy connections could actually be opening the door for grid modernization.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular G",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9a3764356b202945ed7a": {
+      "storyId": "9a3764356b202945ed7a",
+      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant",
+      "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "source": "TechCrunch AI",
+      "published": "2026-10-27T21:44:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7a0c93138c1a5d88a806b393",
+      "bodyFingerprint": "eefaab7c54c869daa4b04a1f",
+      "bodyCharacterCount": 3251,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T22:58:55.325Z",
+      "assessment": {
+        "centralEvent": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular G",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f74f3a0c358e9a1dab0e": {
+      "storyId": "f74f3a0c358e9a1dab0e",
+      "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo",
+      "title": "Who’s really in charge at Anthropic after the IPO?",
+      "source": "TechCrunch AI",
+      "published": "2026-10-27T21:38:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "14713611cf8da3ac20d4a3f9",
+      "bodyFingerprint": "510b5395cc03618cd5a68a3d",
+      "bodyCharacterCount": 5526,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T22:58:55.363Z",
+      "assessment": {
+        "centralEvent": "Who’s really in charge at Anthropic after the IPO?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular G",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular G",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The LTBT is chaired by Neil Shah, a global health expert who was managing director at GiveWell, a nonprofit that ranks charities, and includes former Federal Reserve chair Ben Bernanke, national security expert Richard Fontaine, and Harvard",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As the frontier lab approaches its initial public offering, however, there’s one class of humanity that is being shut out of control: anyone who buys its stock on public markets.",
+            "matchedRule": "/\\b(?:out of control|uncontrollable|control (?:was|has been) lost|escaped containment)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.16,
+        "rawScore": 30.16,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.56,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 4,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a85581efeb426366fd98": {
+      "storyId": "a85581efeb426366fd98",
+      "url": "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban",
+      "title": "AI bots flooded 2023 UK government consultation on disposable vapes ban",
+      "source": "The Guardian AI",
+      "published": "2026-10-27T22:30:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "48028b8bfe4ffa5a5c533cf6",
+      "bodyFingerprint": "07cf55688137132a9df100d8",
+      "bodyCharacterCount": 5063,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T22:58:55.502Z",
+      "assessment": {
+        "centralEvent": "AI bots flooded 2023 UK government consultation on disposable vapes ban",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Given the tobacco industry’s history of seeking to undermine public health regulation, we need to be alert to the risk that technological advances can be used to further commercial interests around health policy and put safeguards in place",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The bombardment “appears to be the first documented instance of large-scale automated interference in a formal public health policy consultation”, the researchers said.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Decisions that affect public health must be based on sound evidence and expertise, not manipulated response numbers.” More than 6m vapes and pods discarded weekly in UK despite single-use ban, study finds Read more Azzurra Moores, the asso",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.98,
+        "rawScore": 25.98,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e734c0e90ec1424e9cd6": {
+      "storyId": "e734c0e90ec1424e9cd6",
+      "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses",
+      "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+      "source": "Ars Technica AI",
+      "published": "2026-10-27T21:50:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "87828b832a7a772f1446d870",
+      "bodyFingerprint": "ae0df86f1099062b184cb86e",
+      "bodyCharacterCount": 10139,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T22:58:55.561Z",
+      "assessment": {
+        "centralEvent": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Comer, chairman of the House Committee on Oversight and Government Reform, told Meyer that the committee “seeks assistance obtaining documents related to your state administration’s efforts to establish a new form of corporate entity to be ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He said the committee’s probe of Delaware’s plan would “inform possible federal legislative efforts including proposals to appropriately limit state AI regulatory initiatives.” Citing the Oversight Committee’s “jurisdiction to study intergo",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It has a single member, a person or an entity, responsible for keeping the AIC adequately capitalized, and the AIC must keep a log of its activities.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It has a single member, a person or an entity, responsible for keeping the AIC adequately capitalized, and the AIC must keep a log of its activities.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.92,
+        "rawScore": 45.92,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.175,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f6bcb634209c36dece37": {
+      "storyId": "f6bcb634209c36dece37",
+      "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
+      "title": "Learner collaborates with MIT peers to develop book of AI insights",
+      "source": "MIT News AI",
+      "published": "2026-10-27T20:55:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4c315ec826e662f1a1400910",
+      "bodyFingerprint": "2908afbbeef84d5565f4c8e2",
+      "bodyCharacterCount": 7893,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T22:58:55.601Z",
+      "assessment": {
+        "centralEvent": "Learner collaborates with MIT peers to develop book of AI insights",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "While the rapid evolution of the technology can bring fear, uncertainty, and confusion, Jha chose a different response: excitement.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“I think it was eye-opening to be able to meet so many people with diverse backgrounds and geography, and then we connected at the human level,” she says.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.99,
+        "rawScore": 24.99,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.09,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "578f4a1cc2a6a4ecc178": {
+      "storyId": "578f4a1cc2a6a4ecc178",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "source": "The Verge AI",
+      "published": "2026-10-27T20:48:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "97cef32309a2c4554d0ca2ad",
+      "bodyFingerprint": "d34dc795ba28a4e45c7898a6",
+      "bodyCharacterCount": 11193,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T22:58:55.655Z",
+      "assessment": {
+        "centralEvent": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related ‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop The AI takeover of mathematics has begun OpenAI just wants to win All three results concern some of the most consequential unsolved problems in ma",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“I am fine with them releasing the problems as they did today,” said Constantin Kogler, a researcher at the Institute for Advanced Study, welcoming the more manageable batch of three results compared with the hundreds released previously.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Having many groups around the world wrestle with these results supports rapid adoption of new tools by those that would like to use them,” he said. ”Fundamental results are being solved so quickly without human contribution ... the papers ",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3680aedf70659ea79553": {
+      "storyId": "3680aedf70659ea79553",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity",
+      "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+      "source": "Ars Technica AI",
+      "published": "2026-10-27T21:31:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6b4a9de04328d92b551efeaa",
+      "bodyFingerprint": "3ed1aab59b38e02efb538c3b",
+      "bodyCharacterCount": 12165,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T22:58:55.669Z",
+      "assessment": {
+        "centralEvent": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Anthropic also uses the Risk Factors section to worry over the potential “public perception that our models, platform, and applications contribute to job displacement or economic disruption.” That doesn’t seem to be happening thus far in an",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "But amid the numbers and forward-looking optimism about AI “rapidly transform[ing] every sector of the global economy in ways greater than the impact of industrialization, electricity, semiconductors, and the internet,” Anthropic also spend",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "And for agents operating physical equipment, Anthropic notes that mistakes could lead to “immediate and irreversible” liability issues, such as “bodily injury, property damage, damage to costly equipment or experimental materials, or the re",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ff390db43c3b5faf08c1": {
+      "storyId": "ff390db43c3b5faf08c1",
+      "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies",
+      "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+      "source": "TechCrunch AI",
+      "published": "2026-10-27T18:55:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2c8239bddb69bc97d0c15d90",
+      "bodyFingerprint": "908bd2ffe856ff4af0c2e6e2",
+      "bodyCharacterCount": 2435,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T22:58:55.708Z",
+      "assessment": {
+        "centralEvent": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , disruptive , In Brief , Startups , Venture November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c725efb1b2c45b80891c": {
+      "storyId": "c725efb1b2c45b80891c",
+      "url": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software",
+      "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+      "source": "Ars Technica AI",
+      "published": "2026-10-27T18:49:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4d194c86a7b6c8f27e4fb06d",
+      "bodyFingerprint": "00804a0cecd081ebf12d4401",
+      "bodyCharacterCount": 11601,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T22:58:55.783Z",
+      "assessment": {
+        "centralEvent": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "According to the authors, this avoids the risk of “overlooking a slightly less probable structure that can accommodate a far superior functional sequence.” How do you develop a system that can do all of this?",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to the authors, this avoids the risk of “overlooking a slightly less probable structure that can accommodate a far superior functional sequence.” How do you develop a system that can do all of this?",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Here, the probabilities generated earlier matter, since SAProt-T performs a global re-evaluation.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The re-training (technically termed mid-training) required a careful balancing act: “A low learning rate preserves English but leaves DNA at chance, and a high one learns DNA but forgets English.” But the result is a single model that can s",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 87,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.41,
+        "rawScore": 27.41,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b1e376bba5838b3f7304": {
+      "storyId": "b1e376bba5838b3f7304",
+      "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day",
+      "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
+      "source": "WIRED AI",
+      "published": "2026-10-27T19:39:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5d0aefee5a35e38a1d2e5b4b",
+      "bodyFingerprint": "68c5989651e084cae08a6532",
+      "bodyCharacterCount": 6938,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T22:58:55.861Z",
+      "assessment": {
+        "centralEvent": "Anthropic Says It Will Revolutionize Biology—Some Day",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Wherever it’s going, it seems, it will take some time to get there.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "15c50e57d7b5e6af0e52": {
+      "storyId": "15c50e57d7b5e6af0e52",
+      "url": "https://www.inc.com/aaron-mok/openai-says-its-newest-model-is-better-at-this-1-skill-it-starts-with-being-honest/91426030",
+      "title": "OpenAI Says Its Newest Model Is Better at This 1 Skill. It Starts With Being Honest",
+      "source": "Inc. AI",
+      "published": "2026-10-27T19:04:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3c7d3ab9344584cbee5c206c",
+      "bodyFingerprint": "75fd38f3a8a0934a32c6073a",
+      "bodyCharacterCount": 106,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-27T22:58:55.862Z",
+      "assessment": {
+        "centralEvent": "OpenAI Says Its Newest Model Is Better at This 1 Skill. It Starts With Being Honest",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cb3566329c9f927e3085": {
+      "storyId": "cb3566329c9f927e3085",
+      "url": "https://mashable.com/tech/everything-announced-m6-macbook-event",
+      "title": "Everything Apple announced so far: M6 MacBook Pro, M6 iMac, and an OLED iPad mini",
+      "source": "Mashable AI",
+      "published": "2026-10-27T18:35:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "84e27b7a7407089ba7a81a2e",
+      "bodyFingerprint": "e370112dbd3c46daaf8fe951",
+      "bodyCharacterCount": 7943,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T22:58:55.932Z",
+      "assessment": {
+        "centralEvent": "Everything Apple announced so far: M6 MacBook Pro, M6 iMac, and an OLED iPad mini",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Battery life is rated at up to 24 hours, which Apple calls the longest ever in a Mac, and fast charging reaches 50 percent in 30 minutes with a 96W adapter.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ec23f7b984d67a71144d": {
+      "storyId": "ec23f7b984d67a71144d",
+      "url": "https://www.eff.org/deeplinks/2026/10/social-media-when-elections-are-close-doing-impossible-better",
+      "title": "Social Media When Elections Are Close: Doing the Impossible Better",
+      "source": "EFF AI",
+      "published": "2026-10-27T21:20:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b5a4b0d689651c966c0dee1d",
+      "bodyFingerprint": "217b83986433f83a53431b29",
+      "bodyCharacterCount": 6284,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T22:58:56.270Z",
+      "assessment": {
+        "centralEvent": "Social Media When Elections Are Close: Doing the Impossible Better",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "In 2020, leaked document showed that Meta’s algorithms incorrectly deleted nonviolent Arabic-language content 77 percent of the time, while failing to detect hate speech under the company’s own policies in many instances.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "And moderation errors are even more likely when the language is spoken principally by the global majority.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "From the systemic suppression of content from Palestine to the repeated misclassification of LGBTQ+ content as adult or explicit material, these varied examples demonstrate the risks of overreliance on automated moderation—and the need for ",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Because content moderation shapes public discourse and fundamental rights, its design and oversight must respond to the concerns of policymakers, civil society, independent researchers, and the communities most affected by these systems.",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.91,
+        "rawScore": 47.91,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.355,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 2
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-27T18:44:41.751Z"
+  "updatedAt": "2026-10-27T22:58:56.270Z"
 }
