@@ -295645,8 +295645,1552 @@
           "vulnerability": 0
         }
       }
+    },
+    "1925d6dea48ba9cd9ba5": {
+      "storyId": "1925d6dea48ba9cd9ba5",
+      "url": "https://www.inc.com/michael-tasner/marissa-mayer-just-proved-the-ai-fatigue-backlash-is-real-heres-what-it-means-for-your-brand/91426072",
+      "title": "Marissa Mayer Just Proved the AI Fatigue Backlash Is Real. Here’s What It Means for Your Brand",
+      "source": "Inc. AI",
+      "published": "2026-10-27T17:55:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fe764ef0d22bcbb42b2b31de",
+      "bodyFingerprint": "628a06287ef2d685a716bff2",
+      "bodyCharacterCount": 135,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-27T18:44:40.694Z",
+      "assessment": {
+        "centralEvent": "Marissa Mayer Just Proved the AI Fatigue Backlash Is Real. Here’s What It Means for Your Brand",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Marissa Mayer Just Proved the AI Fatigue Backlash Is Real.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fb06d68c1555e333ffb5": {
+      "storyId": "fb06d68c1555e333ffb5",
+      "url": "https://mashable.com/tech/apple-creator-studio-updates-final-cut-pro-logic-pro",
+      "title": "Apple Creator Studio adds new AI-powered tools, upgrades to Final Cut Pro and Logic Pro",
+      "source": "Mashable AI",
+      "published": "2026-10-27T17:39:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3101875f247c14618bed5c48",
+      "bodyFingerprint": "8d446e3dba4d4868b18c78bc",
+      "bodyCharacterCount": 3469,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:40.727Z",
+      "assessment": {
+        "centralEvent": "Apple Creator Studio adds new AI-powered tools, upgrades to Final Cut Pro and Logic Pro",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bb9f02a56d8cd14e9863": {
+      "storyId": "bb9f02a56d8cd14e9863",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+      "source": "The Verge AI",
+      "published": "2026-10-27T16:51:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5ce236cba65d72123a9723d9",
+      "bodyFingerprint": "be3782ba7e13da15e2ab69bc",
+      "bodyCharacterCount": 11013,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:40.787Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s elaborate plan to keep Wall Street at bay",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Anthropic will still “need to stay in the good graces of their investors,” she said, adding that “competitive pressure and capital needs can erode safety commitments over time.” Anthropic did not respond to The Verge ’s request for comment ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Robert Hart AI Anthropic Policy Report Most Popular Most Popular Microsoft offers buyouts to 60,000 employees Apple acknowledges iPhone Duo display ‘issue’ after reports of cracked screens OpenAI announces three big science discoveries and ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The trust is made up of “five financially disinterested voting trustees” with expertise in “AI safety, national security, public policy, and social enterprise.” Through a special class of share called Class T stock, the trustees can appoint",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2c681cf3c5898ff692fb": {
+      "storyId": "2c681cf3c5898ff692fb",
+      "url": "https://www.eff.org/deeplinks/2026/10/new-records-obtained-eff-expose-more-problems-medicares-ai-experiment",
+      "title": "New Records Obtained by EFF Expose More Problems with Medicare’s AI Experiment",
+      "source": "EFF AI",
+      "published": "2026-10-27T19:05:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d13605f154d8083d7c5414f5",
+      "bodyFingerprint": "ba4d7201328e83e85753bf9f",
+      "bodyCharacterCount": 9798,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:40.795Z",
+      "assessment": {
+        "centralEvent": "New Records Obtained by EFF Expose More Problems with Medicare’s AI Experiment",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "EFF urges transparency, oversight, and legal limits to protect people from the harms of automated decision-making in high risk systems.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "For example, CMS requested information from one vendor, Virtix, about numerous reported issues, including “determination turnaround times that exceed established guidelines,” “denials that appear inaccurate or inconsistent with applicable c",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Even worse, at least one health insurance company actively pressured clinical reviewers to accept its AI systems’ recommendations.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 98,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.14,
+        "rawScore": 26.14,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.195,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b2aff63a03e983b29f98": {
+      "storyId": "b2aff63a03e983b29f98",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+      "title": "VisionQuest is what happens when AI really goes rogue",
+      "source": "The Verge AI",
+      "published": "2026-10-27T17:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1a4d2228e2fb747c4d0c258f",
+      "bodyFingerprint": "d1a712cf8ea33e2cce04a8b2",
+      "bodyCharacterCount": 9320,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:40.804Z",
+      "assessment": {
+        "centralEvent": "VisionQuest is what happens when AI really goes rogue",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In August, The UK’s AI Security Institute documented how Anthropic’s Mythos model attempted to complete a cybersecurity test by setting up fake GitHub accounts and targeting human developers with malware.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Charles Pulliam-Moore AI Anthropic Comics Disney Entertainment Marvel OpenAI Streaming TV Shows Most Popular Most Popular Microsoft offers buyouts to 60,000 employees Apple acknowledges iPhone Duo display ‘issue’ after reports of cracked sc",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "This Vision can recall the details of his death in Avengers: Infinity War and how WandaVision brought a version of him back, but he thinks of himself as a fundamentally different person who doesn’t quite connect with all of the memories in ",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.85,
+        "rawScore": 47.85,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.35,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1900d334cf325410d061": {
+      "storyId": "1900d334cf325410d061",
+      "url": "https://www.inc.com/nick-hobson/companies-think-agents-will-save-time-anthropics-employees-found-7-new-costs/91425516",
+      "title": "Companies Think Agents Will Save Time. Anthropic’s Employees Found 7 New Costs",
+      "source": "Inc. AI",
+      "published": "2026-10-27T16:34:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "29460dffeb54fc72ffec84eb",
+      "bodyFingerprint": "d434d0ce0a5e7ddf1e8d9513",
+      "bodyCharacterCount": 150,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-27T18:44:40.807Z",
+      "assessment": {
+        "centralEvent": "Companies Think Agents Will Save Time. Anthropic’s Employees Found 7 New Costs",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a89cc66cc574af3c9a66": {
+      "storyId": "a89cc66cc574af3c9a66",
+      "url": "https://www.inc.com/masters-of-scale/sarah-friar-says-leading-companies-have-more-than-tripled-their-ai-advantage-the-rest-arent-catching-up/91426098",
+      "title": "Sarah Friar Says Leading Companies Have More Than Tripled Their AI Advantage. The Rest Aren’t Catching Up",
+      "source": "Inc. AI",
+      "published": "2026-10-27T16:30:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7c93e9a0fcc82c905bfce6fb",
+      "bodyFingerprint": "c07581765930616d91561dfd",
+      "bodyCharacterCount": 105,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-27T18:44:40.836Z",
+      "assessment": {
+        "centralEvent": "Sarah Friar Says Leading Companies Have More Than Tripled Their AI Advantage. The Rest Aren’t Catching Up",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3235cff01c8a4fe9f74f": {
+      "storyId": "3235cff01c8a4fe9f74f",
+      "url": "https://www.inc.com/stephanie-davis/ai-selling-startup-founder-companies/91425365",
+      "title": "AI Changed the Game of Selling, and Most Companies Missed the Memo",
+      "source": "Inc. AI",
+      "published": "2026-10-27T16:22:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9bafb631adffe6bc3ee04cfd",
+      "bodyFingerprint": "023c7042861085bc58628fe0",
+      "bodyCharacterCount": 58,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-27T18:44:40.837Z",
+      "assessment": {
+        "centralEvent": "AI Changed the Game of Selling, and Most Companies Missed the Memo",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "991356d9e9385200ab3c": {
+      "storyId": "991356d9e9385200ab3c",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+      "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+      "source": "The Verge AI",
+      "published": "2026-10-27T16:14:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "23889300e4e6666826fa6e0a",
+      "bodyFingerprint": "0e49592146e82d75bc9bd8c1",
+      "bodyCharacterCount": 4136,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:40.862Z",
+      "assessment": {
+        "centralEvent": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Firefox will pause watching for updates if it doesn’t detect a change after 60 days, before stopping them completely after 90 days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "133651b428e97fdac262": {
+      "storyId": "133651b428e97fdac262",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering",
+      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "source": "TechCrunch AI",
+      "published": "2026-10-27T16:30:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6a8f4c090562aad6cb5673ab",
+      "bodyFingerprint": "9b2c514ecd01927486238e23",
+      "bodyCharacterCount": 5423,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:40.866Z",
+      "assessment": {
+        "centralEvent": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular G",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "64295c3ae779f4acba31": {
+      "storyId": "64295c3ae779f4acba31",
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean",
+      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "source": "TechCrunch AI",
+      "published": "2026-10-27T17:08:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f312846ef9ed8ba9c7411565",
+      "bodyFingerprint": "e1adc62f07241e20a54df976",
+      "bodyCharacterCount": 7408,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:40.874Z",
+      "assessment": {
+        "centralEvent": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular G",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular G",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“P = NP is asserting that this is true for every single problem you can verify quickly — if you can verify it quickly, you can solve it quickly.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bad4c53436f477a61479": {
+      "storyId": "bad4c53436f477a61479",
+      "url": "https://mashable.com/tech/microsoft-buyouts-60000-employees",
+      "title": "Microsoft offers buyouts to 60,000 employees amid AI investment",
+      "source": "Mashable AI",
+      "published": "2026-10-27T16:08:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5d656471d150db37c306b27b",
+      "bodyFingerprint": "456fb5bbc38a000f11a9da06",
+      "bodyCharacterCount": 2869,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:40.878Z",
+      "assessment": {
+        "centralEvent": "Microsoft offers buyouts to 60,000 employees amid AI investment",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The company has laid off thousands of workers across divisions, including multiple rounds of cuts at Xbox .",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "While the blog post doesn't provide a specific number, reporting from CBS News and other outlets indicates that about 60,000 employees (roughly a quarter of Microsoft's global workforce) will receive the offer.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8fc62bcb0cb101040102": {
+      "storyId": "8fc62bcb0cb101040102",
+      "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+      "title": "Google’s next Genie AI model generates more realistic experiences",
+      "source": "The Verge AI",
+      "published": "2026-10-27T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ac1b0ecc0201423df3ba5b1e",
+      "bodyFingerprint": "e07e454bc6d3146566423dcf",
+      "bodyCharacterCount": 3632,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:40.915Z",
+      "assessment": {
+        "centralEvent": "Google’s next Genie AI model generates more realistic experiences",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Di Benedetto 2:00 PM UTC Apple is adding an AI chatbot to Pages, Keynote, and Numbers Emma Roth 1:50 PM UTC Advertiser Content From This is the title for the native ad Top Stories 10:00 AM UTC Data center backlash is uniting America Two hou",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers Meta’s $25 billion legal loss just put blood in the water Lauren Feiner Two hours ago Firefox’s Smart Window adds AI form filling and webpage monitoring Emma Roth Two hours ago Ma",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "638435266086bc98428f": {
+      "storyId": "638435266086bc98428f",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/27/elon-musk-cyber-psychosis-ai-tech",
+      "title": "Elon Musk says he has ‘cyber psychosis’. Do you too? | Arwa Mahdawi",
+      "source": "The Guardian AI",
+      "published": "2026-10-27T15:01:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0005acb668da160900a9f36c",
+      "bodyFingerprint": "de4e6fc6bc4925e73bd8c1c6",
+      "bodyCharacterCount": 5270,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:40.934Z",
+      "assessment": {
+        "centralEvent": "Elon Musk says he has ‘cyber psychosis’. Do you too? | Arwa Mahdawi",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "I don’t know if Musk gushing over the beauty and harmony of AI slop is down to cyber psychosis or possibly his widely reported enthusiasm for the benefits of ketamine and psychedelics.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dc291fa0a78ddf3b2364": {
+      "storyId": "dc291fa0a78ddf3b2364",
+      "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace",
+      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "source": "TechCrunch AI",
+      "published": "2026-10-27T14:59:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9d78a9ad908e0cbbc2182889",
+      "bodyFingerprint": "6ccc9f465d06a1c4bc75af85",
+      "bodyCharacterCount": 7185,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:40.942Z",
+      "assessment": {
+        "centralEvent": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular G",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular G",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Patel is the latest in a handful of high-profile departures from Meta following the exits of Chief Global Affairs Officer Joel Kaplan , AI researcher Andrew Tulloch , and Head of Product for AI-for-Work Emily Dalton Smith .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "He says documents can be exported as a single “.ndoc.html” file that can be opened in any browser, a format he plans to open-source so other developers can build apps that work with it without being locked into Ndoc the way so many have bee",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cb464d61a73409cb324d": {
+      "storyId": "cb464d61a73409cb324d",
+      "url": "https://mashable.com/tech/apple-creator-studio-how-to-buy",
+      "title": "Apple Creator Studio is getting its biggest update yet — how to preorder",
+      "source": "Mashable AI",
+      "published": "2026-10-27T14:44:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cfc43ff8f4d98631f17e24aa",
+      "bodyFingerprint": "478e2ad360806315dd800fbd",
+      "bodyCharacterCount": 4433,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:40.965Z",
+      "assessment": {
+        "centralEvent": "Apple Creator Studio is getting its biggest update yet — how to preorder",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "683f624d4c614a2ed3a5": {
+      "storyId": "683f624d4c614a2ed3a5",
+      "url": "https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan",
+      "title": "‘Meaningless as a laptop screensaver’: reviewers slate Musk’s AI-made Odyssey film",
+      "source": "The Guardian AI",
+      "published": "2026-10-27T14:08:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ee52d379e3bca43fe3e642a6",
+      "bodyFingerprint": "cae425abe0ec8b85abda4f18",
+      "bodyCharacterCount": 4030,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:40.974Z",
+      "assessment": {
+        "centralEvent": "‘Meaningless as a laptop screensaver’: reviewers slate Musk’s AI-made Odyssey film",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nolan’s version cost $250m (£188m) and was shot in multiple locations over 91 days with a vast crew.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9ee3602dddc30aa8fb2b": {
+      "storyId": "9ee3602dddc30aa8fb2b",
+      "url": "https://mashable.com/uk/tech/oct-27-sony-bravia-6-smart-4k-ultra-hd-tv-deal",
+      "title": "The new Sony Bravia 6 65-inch OLED 4K TV is down to its lowest-ever price — save over $800",
+      "source": "Mashable AI",
+      "published": "2026-10-27T14:29:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e2b0ded6c864b05e96831447",
+      "bodyFingerprint": "242507271e8aa273f74bf6b5",
+      "bodyCharacterCount": 3139,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:40.987Z",
+      "assessment": {
+        "centralEvent": "The new Sony Bravia 6 65-inch OLED 4K TV is down to its lowest-ever price — save over $800",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a244b110095ab135c410": {
+      "storyId": "a244b110095ab135c410",
+      "url": "https://mashable.com/tech/apple-imac-m6-price-release-date",
+      "title": "Apples new M6 iMac is a powerful and colorful all-in-one computer",
+      "source": "Mashable AI",
+      "published": "2026-10-27T14:03:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "72a37682fb7265da91840810",
+      "bodyFingerprint": "038be32f5fe06feb7171a202",
+      "bodyCharacterCount": 3048,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:41.010Z",
+      "assessment": {
+        "centralEvent": "Apples new M6 iMac is a powerful and colorful all-in-one computer",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Credit: Apple Here are the specs you can expect when you pick up one of these: Display: 24-inch 4.5K retina display with 4480x2520 resolution and 500 nits peak brightness Processor: Apple M6 RAM: 16/24GB Storage: 256GB/512GB/1TB/2TB Ports: ",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c9f08b7f37026212ca8f": {
+      "storyId": "c9f08b7f37026212ca8f",
+      "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools",
+      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
+      "source": "WIRED AI",
+      "published": "2026-10-27T15:10:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "864b016355fdf1775fc125ae",
+      "bodyFingerprint": "23a2e5a26d2e211ad2aed53d",
+      "bodyCharacterCount": 10240,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:41.030Z",
+      "assessment": {
+        "centralEvent": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Ali Winston Feds Got Warrants to Use Fake Cell Towers to Hunt Down Don Lemon’s Producer Investigators also sought permission to use an invasive surveillance tool called a cell-site simulators against journalist Georgia Fort and a Minnesota ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“I just don’t think it’s appropriate that machines are doing that.” A Home Office spokesperson says, “Use of Artificial Intelligence is just one of the tools at our disposal to protect our borders, and does not replace or automate the role ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Dhruv Mehrotra A Mysterious Nonprofit Run by SpaceXAI’s Top Lawyer Is Paying the Salaries of Government Workers The National Design Studio has been something of a successor agency to DOGE.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.13,
+        "rawScore": 47.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "77387043f69a853ed6d4": {
+      "storyId": "77387043f69a853ed6d4",
+      "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+      "title": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
+      "source": "The Verge AI",
+      "published": "2026-10-27T13:50:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ee88d1e37ecec9f1dc799247",
+      "bodyFingerprint": "edd128ffed533bdc1f1c41a6",
+      "bodyCharacterCount": 4431,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:41.039Z",
+      "assessment": {
+        "centralEvent": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Di Benedetto 2:00 PM UTC Advertiser Content From This is the title for the native ad Top Stories 10:00 AM UTC Data center backlash is uniting America Two hours ago Anthropic’s elaborate plan to keep Wall Street at bay 1:00 PM UTC Palmer Luc",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Meta’s $25 billion legal loss just put blood in the water Lauren Feiner Two hours ago Firefox’s Smart Window adds AI form filling and webpage monitoring Emma Roth Two hours ago Major League Baseball is looking for a new kind of fan Mia Sato",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c7cc848b2884e07731ed": {
+      "storyId": "c7cc848b2884e07731ed",
+      "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations",
+      "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+      "source": "Ars Technica AI",
+      "published": "2026-10-27T16:00:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6100a3697f9d2567093270f7",
+      "bodyFingerprint": "cc89d8ad6dc9607cfcf67878",
+      "bodyCharacterCount": 5193,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:41.056Z",
+      "assessment": {
+        "centralEvent": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Google , world models are a key element in the march toward artificial general intelligence (AGI).",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1630e683256dee46dd1e": {
+      "storyId": "1630e683256dee46dd1e",
+      "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data",
+      "title": "Japan internet giant GMO says hackers posted stolen customer data",
+      "source": "TechCrunch AI",
+      "published": "2026-10-27T13:32:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f8578431c5b28597e793989c",
+      "bodyFingerprint": "1ed146338e1159b959bbeb1b",
+      "bodyCharacterCount": 4107,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:41.061Z",
+      "assessment": {
+        "centralEvent": "Japan internet giant GMO says hackers posted stolen customer data",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Japan internet giant GMO says hackers posted stolen customer data",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The company said 27,000 servers may be affected by the breach.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Artex’s Chinese developer has since stopped public updates and made the AI security tool closed-source after it was linked to cyberattacks targeting banks, per Reuters .",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.7,
+        "rawScore": 46.7,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ddc34f21ed5502d17b42": {
+      "storyId": "ddc34f21ed5502d17b42",
+      "url": "https://www.lawfaremedia.org/article/scaling-laws-roadshow-at-univ.-of-oregon--ai-and-state-governments-with-nik-blosser",
+      "title": "Scaling Laws Roadshow at Univ. of Oregon: AI and State Governments with Nik Blosser",
+      "source": "Lawfare AI",
+      "published": "2026-10-27T14:00:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4aa7bc21bdc664ec2b2913d1",
+      "bodyFingerprint": "be483fb995feb3063718b9da",
+      "bodyCharacterCount": 2216,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T18:44:41.751Z",
+      "assessment": {
+        "centralEvent": "Scaling Laws Roadshow at Univ. of Oregon: AI and State Governments with Nik Blosser",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Other Topics Armed Conflict Congress Courts & Litigation Criminal Justice & Rule of Law Cybersecurity & Tech Democracy & Elections Executive Branch Foreign Relations & International Law Intelligence States & Localities Surveillance & Privac",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Other Topics Armed Conflict Congress Courts & Litigation Criminal Justice & Rule of Law Cybersecurity & Tech Democracy & Elections Executive Branch Foreign Relations & International Law Intelligence States & Localities Surveillance & Privac",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.5,
+        "rawScore": 24.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.045,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-27T13:15:18.081Z"
+  "updatedAt": "2026-10-27T18:44:41.751Z"
 }
