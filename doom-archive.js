@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-27T06:00:00.000Z",
+  "generatedAt": "2026-10-27T13:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-27",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-27",
           "firstObservedAt": "2026-10-27T06:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 70.82
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-27",
           "firstObservedAt": "2026-10-27T06:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-27",
           "firstObservedAt": "2026-10-27T06:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 51.15
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_Kevin_Roose.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 51.15,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-27",
           "firstObservedAt": "2026-10-27T06:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 51.15
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Cook-County-Sheriffs-Office-X-1152x648-1793033307.jpeg",
           "peak": 49.25,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-27",
           "firstObservedAt": "2026-10-27T06:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 49.25
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-27",
           "firstObservedAt": "2026-10-27T06:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 49.23
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/03/internet-routing-1000x648.jpeg",
           "peak": 49.09,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-27",
           "firstObservedAt": "2026-10-27T06:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 49.09
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6adbb8a7e6d0c133525c3e7c/master/pass/KernelPanic_The%20PHP%20Meltdown%20Shows%20How%20AI%20Makes%20Bugs%20More%20Exploitable.jpg",
           "peak": 49.09,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-27",
           "firstObservedAt": "2026-10-27T06:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 49.09
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreif64ygwsfqjb6pfnscwwpdicq6t5od3w4hpilunkk75p6q6dzt6su",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-27",
           "firstObservedAt": "2026-10-27T06:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 49.01
         }
       ]
@@ -8574,11 +8574,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 70.82
         },
         {
@@ -8602,11 +8602,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 51.23
         },
         {
@@ -8616,11 +8616,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 51.15
         },
         {
@@ -8630,11 +8630,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_Kevin_Roose.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 51.15,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T20:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 51.15
         },
         {
@@ -8700,11 +8700,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Cook-County-Sheriffs-Office-X-1152x648-1793033307.jpeg",
           "peak": 49.25,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 2,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-27T00:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 49.25
         }
       ]
@@ -10040,11 +10040,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 4,
           "peakDate": "2026-10-24",
           "firstObservedAt": "2026-10-24T12:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 70.82
         },
         {
@@ -10124,11 +10124,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 127,
+          "observations": 128,
           "daysTracked": 27,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 51.23
         },
         {
@@ -10138,11 +10138,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 28,
+          "observations": 29,
           "daysTracked": 7,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-22T04:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 51.15
         },
         {
@@ -10152,11 +10152,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_Kevin_Roose.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 51.15,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T20:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
+          "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 51.15
         }
       ]
