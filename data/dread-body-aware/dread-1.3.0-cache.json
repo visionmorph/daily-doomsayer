@@ -293215,8 +293215,506 @@
           "vulnerability": 0
         }
       }
+    },
+    "b555ce2afa55383d5d6c": {
+      "storyId": "b555ce2afa55383d5d6c",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+      "source": "The Verge AI",
+      "published": "2026-10-26T23:34:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d9ba59f996bde00093fe49ee",
+      "bodyFingerprint": "d3f35f0d1f1191676a18b82a",
+      "bodyCharacterCount": 7028,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T00:28:53.495Z",
+      "assessment": {
+        "centralEvent": "OpenAI announces three big science discoveries and a new way to work with academics",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Related ‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop All the drama around AI’s takeover of mathematics The physics information has not been released in full, but is a “mathematically rigorous existen",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8235ac7c15207d2eb31b": {
+      "storyId": "8235ac7c15207d2eb31b",
+      "url": "https://www.theguardian.com/politics/2026/oct/27/digital-hostile-environment-ai-secretly-embedded-home-office-report",
+      "title": "‘Digital hostile environment’: AI secretly being embedded across Home Office, report claims",
+      "source": "The Guardian AI",
+      "published": "2026-10-27T00:01:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "08fb23bea6cb6d39fde28c7c",
+      "bodyFingerprint": "6a58080af208a9365772ade9",
+      "bodyCharacterCount": 4466,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T00:28:53.513Z",
+      "assessment": {
+        "centralEvent": "‘Digital hostile environment’: AI secretly being embedded across Home Office, report claims",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Tasks from determining asylum seekers’ ages to border surveillance now involve AI, says Open Rights Group AI has been embedded across the Home Office in near-total secrecy, reinforcing the so-called hostile environment for immigration, acco",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Tasks from determining asylum seekers’ ages to border surveillance now involve AI, says Open Rights Group AI has been embedded across the Home Office in near-total secrecy, reinforcing the so-called hostile environment for immigration, acco",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "AI is being trialled in near-total secrecy, with officials routinely invoking national security to stonewall FoI requests, the report says.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Successive governments are criticised for pushing an ideology that reduces complex human cases to a technical problem that can be fixed.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Successive governments are criticised for pushing an ideology that reduces complex human cases to a technical problem that can be fixed.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.49,
+        "rawScore": 47.49,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3175,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "092e8ceea2bd79fc970f": {
+      "storyId": "092e8ceea2bd79fc970f",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+      "title": "Anthropic is burning gas to feed the AI boom",
+      "source": "The Verge AI",
+      "published": "2026-10-26T21:45:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f1947a9165d871504319bec6",
+      "bodyFingerprint": "87cae30b9b33fcebb9fa76b8",
+      "bodyCharacterCount": 6881,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T00:28:53.528Z",
+      "assessment": {
+        "centralEvent": "Anthropic is burning gas to feed the AI boom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Even as data centers create more greenhouse gas pollution, Anthropic’s S-1 points to climate change as a risk to its bottom line.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Data center electricity demand could wipe out decades of gains in air quality over the next five years, one recent Texas-based study found — raising levels of soot, smog-forming pollutants, and planet-heating carbon dioxide.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "And in a possible catch-22, Anthropic admits that rising global temperatures — a symptom of burning fossil fuels — will increase the company’s operating costs.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Pissed-off residents have successfully blocked dozens of proposed data centers across the US .",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.58,
+        "rawScore": 47.58,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5066d3e170739d608d8e": {
+      "storyId": "5066d3e170739d608d8e",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/27/in-a-rush-to-lure-ai-companies-the-australian-government-risks-undoing-a-creative-ecosystem-that-has-taken-decades-to-build",
+      "title": "In a rush to lure AI companies, the Australian government risks undoing a creative ecosystem that has taken decades to build | Dan Guthrie",
+      "source": "The Guardian AI",
+      "published": "2026-10-26T22:21:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ea7d578928bcd7e146debdd8",
+      "bodyFingerprint": "e53137dbd733b1d4e34e4c03",
+      "bodyCharacterCount": 4798,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T00:28:53.537Z",
+      "assessment": {
+        "centralEvent": "In a rush to lure AI companies, the Australian government risks undoing a creative ecosystem that has taken decades to build | Dan Guthrie",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It could also fuel piracy, exposing Australians to malware.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "If proposed copyright reforms proceed, Australia will become a global IP-laundering paradise.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "If proposed copyright reforms proceed, Australia will become a global IP-laundering paradise.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "790d7983856d2fce46ce": {
+      "storyId": "790d7983856d2fce46ce",
+      "url": "https://mashable.com/tech/come-back-to-firefox-campaign-internet-personalities-memes",
+      "title": "Firefox brings back internet icons for new anti-tracking, anti-AI campaign",
+      "source": "Mashable AI",
+      "published": "2026-10-26T22:05:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dd8f2902d604cf54abb3c3c3",
+      "bodyFingerprint": "ca66c0d6f157fb05790c7dec",
+      "bodyCharacterCount": 3702,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T00:28:53.564Z",
+      "assessment": {
+        "centralEvent": "Firefox brings back internet icons for new anti-tracking, anti-AI campaign",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Overly Attached Girlfriend, Annoying Orange, Tay Zondaday of \"Chocolate Rain\" fame, and a slew of other internet memes appear in the ad longing for the internet days of old, before modern web browsers tracked your every move, sold user data",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c3da563e829cc5e60286": {
+      "storyId": "c3da563e829cc5e60286",
+      "url": "https://www.bbc.co.uk/news/articles/c6rmyl0kxyxjo?at_campaign=rss&at_medium=RSS",
+      "title": "Owners of Elvis music rights sue Anthropic for copyright violations",
+      "source": "BBC News AI",
+      "published": "2026-10-26T14:37:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9d6c0f4681c70eb359d4e660",
+      "bodyFingerprint": "cec97648766eea6d7ce5a9fa",
+      "bodyCharacterCount": 2744,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T00:28:53.643Z",
+      "assessment": {
+        "centralEvent": "Owners of Elvis music rights sue Anthropic for copyright violations",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Max Matza Published 9 hours ago The owners of the rights to music by Elvis Presley have sued artificial intelligence company Anthropic, claiming in court that the company violated copyright law by using Elvis m",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d4711f2306c23d0c059e": {
+      "storyId": "d4711f2306c23d0c059e",
+      "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers",
+      "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
+      "source": "WIRED AI",
+      "published": "2026-10-26T21:27:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a840b14f38c89c8a1a5a7bd1",
+      "bodyFingerprint": "b6f7652e84eb20474843b8ef",
+      "bodyCharacterCount": 9474,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-27T00:28:53.774Z",
+      "assessment": {
+        "centralEvent": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Joel Khalili The US Government Is Hiding a Secret Court Ruling About How It Spies on Americans Two US senators say the Trump administration is breaking the law by withholding the FISA court decision while it presses Congress to renew Americ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“Claude has experienced the fastest enterprise adoption of any technology in history, as demonstrated by revenue growing from $0 at commercial launch in the first quarter of 2023 to $_____ for the three months ended September 30, 2026,” rea",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "While experts expect many details to be disclosed before Anthropic goes public, their current absence may hint at the uncertainties of investing in artificial intelligence, as companies work to secure sufficient compute.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Then It Vanished Every day, Wikipedia biographies of living people are flagged for deletion because the subjects are not “notable” enough.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.96,
+        "rawScore": 47.96,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.36,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-26T20:31:32.211Z"
+  "updatedAt": "2026-10-27T00:28:53.774Z"
 }
