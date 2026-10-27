@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-26T20:00:00.000Z",
+  "generatedAt": "2026-10-27T00:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-26",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
           "average": 70.82
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
           "average": 51.15
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_Kevin_Roose.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 51.15,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T20:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
           "average": 51.15
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
           "average": 49.64
         },
         {
@@ -137,18 +137,18 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.5
         },
         {
-          "storyId": "c185b1f669ce177c88ba",
-          "title": "Who gets to decide if AI is safe? Africa wants a say",
-          "url": "https://restofworld.org/2026/african-leaders-un-security-council-ai-safety/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
-          "peak": 49.23,
-          "observations": 3,
+          "storyId": "f64be88c708343055ae6",
+          "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+          "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Cook-County-Sheriffs-Office-X-1152x648-1793033307.jpeg",
+          "peak": 49.25,
+          "observations": 1,
           "daysTracked": 1,
           "peakDate": "2026-10-26",
-          "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
-          "average": 49.23
+          "firstObservedAt": "2026-10-27T00:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
+          "average": 49.25
         }
       ]
     },
@@ -8429,11 +8429,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
           "average": 70.82
         },
         {
@@ -8457,11 +8457,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -8471,11 +8471,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
           "average": 51.15
         },
         {
@@ -8485,11 +8485,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_Kevin_Roose.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 51.15,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T20:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
           "average": 51.15
         },
         {
@@ -8527,11 +8527,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.64,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
           "average": 49.64
         },
         {
@@ -8549,18 +8549,18 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.5
         },
         {
-          "storyId": "c185b1f669ce177c88ba",
-          "title": "Who gets to decide if AI is safe? Africa wants a say",
-          "url": "https://restofworld.org/2026/african-leaders-un-security-council-ai-safety/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
-          "peak": 49.23,
-          "observations": 3,
+          "storyId": "f64be88c708343055ae6",
+          "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+          "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Cook-County-Sheriffs-Office-X-1152x648-1793033307.jpeg",
+          "peak": 49.25,
+          "observations": 1,
           "daysTracked": 1,
           "peakDate": "2026-10-26",
-          "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
-          "average": 49.23
+          "firstObservedAt": "2026-10-27T00:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
+          "average": 49.25
         }
       ]
     },
@@ -9895,11 +9895,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 3,
           "peakDate": "2026-10-24",
           "firstObservedAt": "2026-10-24T12:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
           "average": 70.82
         },
         {
@@ -9979,11 +9979,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 125,
+          "observations": 126,
           "daysTracked": 26,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -9993,11 +9993,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 26,
+          "observations": 27,
           "daysTracked": 6,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-22T04:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
           "average": 51.15
         },
         {
@@ -10007,11 +10007,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_Kevin_Roose.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 51.15,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T20:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
+          "lastObservedAt": "2026-10-27T00:00:00.000Z",
           "average": 51.15
         }
       ]
