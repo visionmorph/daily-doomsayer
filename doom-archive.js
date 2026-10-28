@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-28T16:00:00.000Z",
+  "generatedAt": "2026-10-28T21:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-28",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
           "average": 70.82
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,12 +45,40 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
           "average": 51.15
+        },
+        {
+          "storyId": "3a0e6f223eff99ed1756",
+          "title": "Voters in Texas agree: They hate data centers",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268813_TEXAS_DATA_CENTERS_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 50.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T21:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
+          "average": 50.16
+        },
+        {
+          "storyId": "e7a296048703a423de13",
+          "title": "Smaller EV batteries, longer range? Scientists may have found a way",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261027063708.htm",
+          "source": "ScienceDaily Technology",
+          "image": "",
+          "peak": 49.86,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T21:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
+          "average": 49.86
         },
         {
           "storyId": "db05b50ceb26005ac81d",
@@ -73,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae1120223d445186a16d911/master/pass/ai-weather-alerts-emergency.jpg",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T16:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
           "average": 49.83
         },
         {
@@ -87,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae127707e979e34b6579966/master/pass/Business_Should%20AI%20Decide%20Your%20Court%20Case_%20ThisJudgeSaysYes.gif",
           "peak": 49.5,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T16:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
           "average": 49.5
         },
         {
@@ -115,40 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Cook-County-Sheriffs-Office-X-1152x648-1793033307.jpeg",
           "peak": 49.25,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
           "average": 49.25
-        },
-        {
-          "storyId": "c185b1f669ce177c88ba",
-          "title": "Who gets to decide if AI is safe? Africa wants a say",
-          "url": "https://restofworld.org/2026/african-leaders-un-security-council-ai-safety/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
-          "peak": 49.23,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-28",
-          "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
-          "average": 49.23
-        },
-        {
-          "storyId": "8cf088839c476fd7711f",
-          "title": "In Europe’s tech capital, Irish labor unions are booming amid AI-driven layoffs",
-          "url": "https://www.politico.eu/article/in-europe-tech-capital-ireland-irish-labor-unions-are-booming-amid-ai-layoffs/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "source": "POLITICO Europe AI",
-          "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreif64ygwsfqjb6pfnscwwpdicq6t5od3w4hpilunkk75p6q6dzt6su",
-          "peak": 49.01,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-28",
-          "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
-          "average": 49.01
         }
       ]
     },
@@ -8719,11 +8719,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 11,
+          "observations": 12,
           "daysTracked": 3,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
           "average": 70.82
         },
         {
@@ -8747,11 +8747,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 11,
+          "observations": 12,
           "daysTracked": 3,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -8761,11 +8761,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 11,
+          "observations": 12,
           "daysTracked": 3,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
           "average": 51.15
         },
         {
@@ -8781,6 +8781,34 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-26T20:00:00.000Z",
           "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 51.15
+        },
+        {
+          "storyId": "3a0e6f223eff99ed1756",
+          "title": "Voters in Texas agree: They hate data centers",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268813_TEXAS_DATA_CENTERS_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 50.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T21:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
+          "average": 50.16
+        },
+        {
+          "storyId": "e7a296048703a423de13",
+          "title": "Smaller EV batteries, longer range? Scientists may have found a way",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261027063708.htm",
+          "source": "ScienceDaily Technology",
+          "image": "",
+          "peak": 49.86,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T21:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
+          "average": 49.86
         },
         {
           "storyId": "db05b50ceb26005ac81d",
@@ -8803,11 +8831,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae1120223d445186a16d911/master/pass/ai-weather-alerts-emergency.jpg",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T16:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
           "average": 49.83
         },
         {
@@ -8823,34 +8851,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
           "lastObservedAt": "2026-10-26T20:00:00.000Z",
           "average": 49.75
-        },
-        {
-          "storyId": "c1d1d07e9324be701d38",
-          "title": "UK Election Watchdog Develops AI System to Flag Deepfakes Within 3 Hours",
-          "url": "https://techpolicy.press/uk-election-watchdog-develops-ai-system-to-flag-deepfakes-within-3-hours",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 49.75,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-26",
-          "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-26T14:00:00.000Z",
-          "average": 49.75
-        },
-        {
-          "storyId": "6d2303616516402b3658",
-          "title": "Another Week of Lawsuits Piling Up at OpenAI",
-          "url": "https://techpolicy.press/another-week-of-lawsuits-piling-up-at-openai",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 49.64,
-          "observations": 5,
-          "daysTracked": 2,
-          "peakDate": "2026-10-26",
-          "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-27T06:00:00.000Z",
-          "average": 49.64
         }
       ]
     },
@@ -10185,11 +10185,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 22,
+          "observations": 23,
           "daysTracked": 5,
           "peakDate": "2026-10-24",
           "firstObservedAt": "2026-10-24T12:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
           "average": 70.82
         },
         {
@@ -10269,11 +10269,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 133,
+          "observations": 134,
           "daysTracked": 28,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -10283,11 +10283,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 34,
+          "observations": 35,
           "daysTracked": 8,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-22T04:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T21:00:00.000Z",
           "average": 51.15
         },
         {
