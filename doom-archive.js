@@ -5,8 +5,153 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-28T02:00:00.000Z",
+  "generatedAt": "2026-10-28T09:00:00.000Z",
   "daily": [
+    {
+      "period": "2026-10-28",
+      "stories": [
+        {
+          "storyId": "95e55b522ae19492ac5f",
+          "title": "Inside the cyber flaw scramble that brought the AI threat to life",
+          "url": "https://www.politico.eu/article/the-cyber-flaw-scramble-that-brought-the-ai-threat-to-life/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
+          "peak": 70.82,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "average": 70.82
+        },
+        {
+          "storyId": "3bf44cdfb8f59b7f06d5",
+          "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
+          "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
+          "source": "The Markup AI",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
+          "peak": 51.23,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "average": 51.23
+        },
+        {
+          "storyId": "9155943304f11d5864c1",
+          "title": "EFF’s State Legislative Agenda to End ALPR Mass Surveillance",
+          "url": "https://www.eff.org/deeplinks/2026/10/effs-state-legislative-agenda-end-alpr-mass-surveillance",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
+          "peak": 51.15,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "average": 51.15
+        },
+        {
+          "storyId": "db05b50ceb26005ac81d",
+          "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+          "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 49.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "average": 49.83
+        },
+        {
+          "storyId": "10515f024c670e282247",
+          "title": "Data center backlash is uniting America",
+          "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268813_ELECTIONS_DATA_CENTERS_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 49.34,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "average": 49.34
+        },
+        {
+          "storyId": "f64be88c708343055ae6",
+          "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+          "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Cook-County-Sheriffs-Office-X-1152x648-1793033307.jpeg",
+          "peak": 49.25,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "average": 49.25
+        },
+        {
+          "storyId": "c185b1f669ce177c88ba",
+          "title": "Who gets to decide if AI is safe? Africa wants a say",
+          "url": "https://restofworld.org/2026/african-leaders-un-security-council-ai-safety/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World AI",
+          "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
+          "peak": 49.23,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "average": 49.23
+        },
+        {
+          "storyId": "8cf088839c476fd7711f",
+          "title": "In Europe’s tech capital, Irish labor unions are booming amid AI-driven layoffs",
+          "url": "https://www.politico.eu/article/in-europe-tech-capital-ireland-irish-labor-unions-are-booming-amid-ai-layoffs/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "source": "POLITICO Europe AI",
+          "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreif64ygwsfqjb6pfnscwwpdicq6t5od3w4hpilunkk75p6q6dzt6su",
+          "peak": 49.01,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "average": 49.01
+        },
+        {
+          "storyId": "a35ae475cae47d2d1935",
+          "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
+          "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News AI",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43e7/live/343404d0-cf00-11f1-accf-3309656ad0bb.jpg",
+          "peak": 49.01,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "average": 49.01
+        },
+        {
+          "storyId": "3ba81838af30b2b86326",
+          "title": "I Tested Every Major AI Agent for a Day. Here’s the Best One",
+          "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6adbdf82eed013bcc79da54f/master/pass/gear-ai-agent-best.jpg",
+          "peak": 49.01,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "average": 49.01
+        }
+      ]
+    },
     {
       "period": "2026-10-27",
       "stories": [
@@ -8574,11 +8719,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 9,
-          "daysTracked": 2,
+          "observations": 10,
+          "daysTracked": 3,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-28T02:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
           "average": 70.82
         },
         {
@@ -8602,11 +8747,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 9,
-          "daysTracked": 2,
+          "observations": 10,
+          "daysTracked": 3,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-28T02:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
           "average": 51.23
         },
         {
@@ -8616,11 +8761,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 9,
-          "daysTracked": 2,
+          "observations": 10,
+          "daysTracked": 3,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-28T02:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
           "average": 51.15
         },
         {
@@ -8636,6 +8781,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-26T20:00:00.000Z",
           "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 51.15
+        },
+        {
+          "storyId": "db05b50ceb26005ac81d",
+          "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+          "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 49.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "average": 49.83
         },
         {
           "storyId": "c5dd0842d4055c16f4ce",
@@ -8692,20 +8851,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
           "lastObservedAt": "2026-10-26T06:00:00.000Z",
           "average": 49.5
-        },
-        {
-          "storyId": "10515f024c670e282247",
-          "title": "Data center backlash is uniting America",
-          "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268813_ELECTIONS_DATA_CENTERS_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 49.34,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-10-27",
-          "firstObservedAt": "2026-10-27T18:00:00.000Z",
-          "lastObservedAt": "2026-10-28T02:00:00.000Z",
-          "average": 49.34
         }
       ]
     },
@@ -10040,11 +10185,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 20,
-          "daysTracked": 4,
+          "observations": 21,
+          "daysTracked": 5,
           "peakDate": "2026-10-24",
           "firstObservedAt": "2026-10-24T12:00:00.000Z",
-          "lastObservedAt": "2026-10-28T02:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
           "average": 70.82
         },
         {
@@ -10124,11 +10269,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 131,
-          "daysTracked": 27,
+          "observations": 132,
+          "daysTracked": 28,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-28T02:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
           "average": 51.23
         },
         {
@@ -10138,11 +10283,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 32,
-          "daysTracked": 7,
+          "observations": 33,
+          "daysTracked": 8,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-22T04:00:00.000Z",
-          "lastObservedAt": "2026-10-28T02:00:00.000Z",
+          "lastObservedAt": "2026-10-28T09:00:00.000Z",
           "average": 51.15
         },
         {
