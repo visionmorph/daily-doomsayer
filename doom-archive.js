@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-28T09:00:00.000Z",
+  "generatedAt": "2026-10-28T16:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-28",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
           "average": 70.82
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
           "average": 51.15
         },
         {
@@ -59,12 +59,40 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
           "average": 49.83
+        },
+        {
+          "storyId": "4f9cf693308117251e45",
+          "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
+          "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ae1120223d445186a16d911/master/pass/ai-weather-alerts-emergency.jpg",
+          "peak": 49.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "average": 49.83
+        },
+        {
+          "storyId": "df65cd12f346a5f252dd",
+          "title": "Should AI Decide Your Court Case? This Judge Says Yes",
+          "url": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ae127707e979e34b6579966/master/pass/Business_Should%20AI%20Decide%20Your%20Court%20Case_%20ThisJudgeSaysYes.gif",
+          "peak": 49.5,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "average": 49.5
         },
         {
           "storyId": "10515f024c670e282247",
@@ -87,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Cook-County-Sheriffs-Office-X-1152x648-1793033307.jpeg",
           "peak": 49.25,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
           "average": 49.25
         },
         {
@@ -101,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Rest of World AI",
           "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
           "average": 49.23
         },
         {
@@ -115,39 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreif64ygwsfqjb6pfnscwwpdicq6t5od3w4hpilunkk75p6q6dzt6su",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "a35ae475cae47d2d1935",
-          "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
-          "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43e7/live/343404d0-cf00-11f1-accf-3309656ad0bb.jpg",
-          "peak": 49.01,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-10-28",
-          "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "3ba81838af30b2b86326",
-          "title": "I Tested Every Major AI Agent for a Day. Here’s the Best One",
-          "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6adbdf82eed013bcc79da54f/master/pass/gear-ai-agent-best.jpg",
-          "peak": 49.01,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-10-28",
-          "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
           "average": 49.01
         }
       ]
@@ -8719,11 +8719,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 3,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
           "average": 70.82
         },
         {
@@ -8747,11 +8747,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 3,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
           "average": 51.23
         },
         {
@@ -8761,11 +8761,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 3,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
           "average": 51.15
         },
         {
@@ -8789,11 +8789,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "TechCrunch AI",
           "image": "",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
+          "average": 49.83
+        },
+        {
+          "storyId": "4f9cf693308117251e45",
+          "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
+          "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ae1120223d445186a16d911/master/pass/ai-weather-alerts-emergency.jpg",
+          "peak": 49.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-28",
+          "firstObservedAt": "2026-10-28T16:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
           "average": 49.83
         },
         {
@@ -8837,20 +8851,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
           "lastObservedAt": "2026-10-27T06:00:00.000Z",
           "average": 49.64
-        },
-        {
-          "storyId": "ed88ba05aa9f8d012438",
-          "title": "‘This Is Not a Drill’: Critical PHP Vulnerabilities Are Setting the Internet on Fire",
-          "url": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6ad8c3e67fa1a6118ccee121/master/pass/102126-PHP.jpg",
-          "peak": 49.5,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-10-26",
-          "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-26T06:00:00.000Z",
-          "average": 49.5
         }
       ]
     },
@@ -10185,11 +10185,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 21,
+          "observations": 22,
           "daysTracked": 5,
           "peakDate": "2026-10-24",
           "firstObservedAt": "2026-10-24T12:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
           "average": 70.82
         },
         {
@@ -10269,11 +10269,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 132,
+          "observations": 133,
           "daysTracked": 28,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
           "average": 51.23
         },
         {
@@ -10283,11 +10283,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 33,
+          "observations": 34,
           "daysTracked": 8,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-22T04:00:00.000Z",
-          "lastObservedAt": "2026-10-28T09:00:00.000Z",
+          "lastObservedAt": "2026-10-28T16:00:00.000Z",
           "average": 51.15
         },
         {
