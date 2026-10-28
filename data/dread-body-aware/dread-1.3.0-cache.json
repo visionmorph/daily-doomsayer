@@ -300748,8 +300748,1694 @@
           "vulnerability": 0
         }
       }
+    },
+    "cf0b445a13fca74cd4d1": {
+      "storyId": "cf0b445a13fca74cd4d1",
+      "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
+      "title": "Akai is embracing vibe-coded mods with an open-source MPC",
+      "source": "The Verge AI",
+      "published": "2026-10-28T21:34:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5e544645bfd018d84224d80f",
+      "bodyFingerprint": "387cc130e126b6457a4f37d8",
+      "bodyCharacterCount": 4023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:05.559Z",
+      "assessment": {
+        "centralEvent": "Akai is embracing vibe-coded mods with an open-source MPC",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Terrence O'Brien AI Entertainment Gadgets Music News Tech More in: All the latest in AI ‘music’ Spotify pulled 50 million AI slop and spam tracks from its recommendations Emma Roth Oct 20 Vibe coding is turning the music gear world upside d",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "353dd9ae4406521804ae": {
+      "storyId": "353dd9ae4406521804ae",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai",
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T21:34:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "63f3cb66f0a0f918ce56ce38",
+      "bodyFingerprint": "75d87b68e88a8e62964f61ae",
+      "bodyCharacterCount": 3768,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:05.563Z",
+      "assessment": {
+        "centralEvent": "Microsoft recorded $10 billion in revenue from OpenAI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In November 2025, TechCrunch reported , citing leaked documents, that Microsoft had received $865.8 million in net revenue-sharing payments from OpenAI during the first nine months of that year.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "OpenAI reportedly shares 20% of its revenue with Microsoft as part of a previous deal in which the software giant invested more than $13 billion in the AI startup. (Neither the AI lab nor Microsoft have publicly confirmed this percentage.) ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.65,
+        "rawScore": 45.65,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7689670b21d5b35e8d49": {
+      "storyId": "7689670b21d5b35e8d49",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row",
+      "title": "Microsoft hits 10 quarters of record- breaking revenue in a row",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T21:25:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f503dce7904509e0424faebd",
+      "bodyFingerprint": "d671e0f701dabd676498a5ca",
+      "bodyCharacterCount": 3086,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:05.567Z",
+      "assessment": {
+        "centralEvent": "Microsoft hits 10 quarters of record- breaking revenue in a row",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7b5653451a244c2d34ef": {
+      "storyId": "7b5653451a244c2d34ef",
+      "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "source": "The Verge AI",
+      "published": "2026-10-28T20:03:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7a442c6d8078eb77e9145d93",
+      "bodyFingerprint": "f99fa16e13fa9acd356460bb",
+      "bodyCharacterCount": 4100,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:05.590Z",
+      "assessment": {
+        "centralEvent": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Carbon currently holds the number one spot on SEC-bench Pro , a benchmark that measures an AI model’s ability to discover real-world bugs, and ExploitGym , which measures how a model can turn a vulnerability into exploits.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image: Google Google says Gemini 4 Carbon is built for completing longer tasks, adding that its internal teams have seen it “run for days to persist through dead ends to tackle complex, multi-step engineering tasks.” It’s also better at avo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f4b434419296a583623d": {
+      "storyId": "f4b434419296a583623d",
+      "url": "https://www.inc.com/aaron-mok/oracle-is-offering-small-businesses-12000-a-year-in-cloud-credits-heres-how-to-apply/91426723",
+      "title": "Oracle Is Offering Small Businesses $12,000 a Year in Cloud Credits. Here’s How to Apply",
+      "source": "Inc. AI",
+      "published": "2026-10-28T21:06:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "73764ae3b8eebc371aea8d39",
+      "bodyFingerprint": "18e84bd5e553577e30b72a34",
+      "bodyCharacterCount": 71,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-28T21:41:05.622Z",
+      "assessment": {
+        "centralEvent": "Oracle Is Offering Small Businesses $12,000 a Year in Cloud Credits. Here’s How to Apply",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8580a0f623350a45695a": {
+      "storyId": "8580a0f623350a45695a",
+      "url": "https://www.inc.com/amy-zwagerman/elon-musk-skydance-investment-hollywood-tech/91427223",
+      "title": "Why Elon Musk’s $1 Billion Bet on Skydance Changes Everything, Turning Hollywood Into Big Tech Overnight",
+      "source": "Inc. AI",
+      "published": "2026-10-28T21:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a83ce92d714d6858098b4a69",
+      "bodyFingerprint": "0fdb9bf39ba86a1282b15c0f",
+      "bodyCharacterCount": 195,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-28T21:41:05.651Z",
+      "assessment": {
+        "centralEvent": "Why Elon Musk’s $1 Billion Bet on Skydance Changes Everything, Turning Hollywood Into Big Tech Overnight",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bb1f2f07f5994d40a024": {
+      "storyId": "bb1f2f07f5994d40a024",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T19:19:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7c3b7b7dfaa1f18f13fb8508",
+      "bodyFingerprint": "c834b0e7c9a8bd3198577ae9",
+      "bodyCharacterCount": 5844,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:05.701Z",
+      "assessment": {
+        "centralEvent": "Anthropic just launched tools to show companies what their AI spending is buying",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a35f53d8b4951c484240": {
+      "storyId": "a35f53d8b4951c484240",
+      "url": "https://www.inc.com/rachel-suleymanov/kalshi-is-sizing-up-a-5-trillion-compute-derivatives-market/91426715",
+      "title": "Kalshi Is Sizing Up a $5 Trillion Compute Derivatives Market",
+      "source": "Inc. AI",
+      "published": "2026-10-28T19:16:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8693405462721b195501fdd1",
+      "bodyFingerprint": "5fe920910c0b2a25b3dbca79",
+      "bodyCharacterCount": 168,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-28T21:41:05.726Z",
+      "assessment": {
+        "centralEvent": "Kalshi Is Sizing Up a $5 Trillion Compute Derivatives Market",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a37efbf7cd2f6c442d50": {
+      "storyId": "a37efbf7cd2f6c442d50",
+      "url": "https://mashable.com/tech/google-gemini-4-carbon-frontier-announcement",
+      "title": "Google announces Gemini 4 Carbon, its new frontier AI model",
+      "source": "Mashable AI",
+      "published": "2026-10-28T19:30:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ecbb50f5d405d58083195dca",
+      "bodyFingerprint": "8a85c0074393ef97923970cf",
+      "bodyCharacterCount": 7365,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:05.739Z",
+      "assessment": {
+        "centralEvent": "Google announces Gemini 4 Carbon, its new frontier AI model",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "And on Gray Swan’s prompt injection benchmark, which tests whether hidden instructions can hijack a model, Carbon blocked every attack attempt, improving on Argon’s 0.7 percent attack success rate.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Gemini 4 Carbon, Google's new frontier model, tops the Artificial Analysis Intelligence Index, just two weeks after Argon.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "And on Gray Swan’s prompt injection benchmark, which tests whether hidden instructions can hijack a model, Carbon blocked every attack attempt, improving on Argon’s 0.7 percent attack success rate.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Artificial Analysis runs a range of tests itself and combines them into a single composite score.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.92,
+        "rawScore": 45.92,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.175,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a8d38ade1e9972b10573": {
+      "storyId": "a8d38ade1e9972b10573",
+      "url": "https://www.inc.com/dan-schawbel/your-ai-rollout-may-be-moving-too-fast-for-employees-it-could-cost-you-25-5-million/91426835",
+      "title": "Your AI Rollout May Be Moving Too Fast for Employees. It Could Cost You $25.5 Million",
+      "source": "Inc. AI",
+      "published": "2026-10-28T19:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7aa96e7cd556c34de8b1d057",
+      "bodyFingerprint": "9c30c63a78c1603fb3e24454",
+      "bodyCharacterCount": 126,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-28T21:41:05.742Z",
+      "assessment": {
+        "centralEvent": "Your AI Rollout May Be Moving Too Fast for Employees. It Could Cost You $25.5 Million",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "A Deloitte study finds that leaders who outpace their people and skip modeling the change themselves put their return at risk.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "A Deloitte study finds that leaders who outpace their people and skip modeling the change themselves put their return at risk.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "078f5bfc7233df95c6e8": {
+      "storyId": "078f5bfc7233df95c6e8",
+      "url": "https://www.eff.org/deeplinks/2026/10/victory-you-can-now-exclude-apps-siri-ai",
+      "title": "Victory! You Can Now Exclude Apps from Siri AI",
+      "source": "EFF AI",
+      "published": "2026-10-28T20:04:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b075eaac9ebfd53271654ea9",
+      "bodyFingerprint": "7529cd4ac9e0094bf32ead3b",
+      "bodyCharacterCount": 4146,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:05.745Z",
+      "assessment": {
+        "centralEvent": "Victory! You Can Now Exclude Apps from Siri AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "But you do have some control over what Gemini can access: Open up the Gemini app Tap your user photo, then Settings > Personal Intelligence > Connected Apps Revoke access to any apps you do not want Gemini to have access to This process see",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "40e02ac52743a94781d1": {
+      "storyId": "40e02ac52743a94781d1",
+      "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse",
+      "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T19:05:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6ffd694e075c0a5752fbca89",
+      "bodyFingerprint": "7d33b701479835ae10c40bc5",
+      "bodyCharacterCount": 336,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-28T21:41:05.775Z",
+      "assessment": {
+        "centralEvent": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "According to researchers who found the [...]",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b0b0b86290ad20602242": {
+      "storyId": "b0b0b86290ad20602242",
+      "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto",
+      "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T18:50:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a8998e2e64ed33f1d8e02ab4",
+      "bodyFingerprint": "1e089f6e0ff1d631d090e5f5",
+      "bodyCharacterCount": 4030,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:05.788Z",
+      "assessment": {
+        "centralEvent": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nvidia CEO plays with adorable Microduck robots, 20,000 sell Julie Bort Warhound raises $200M to engineer war dogs and arm them with Anduril gear Dominic-Madori Davis Uber puts all 30,000 employees on ChatGPT Work Lucas Ropek Latest Equity ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "70f8970fbfdfe187a340": {
+      "storyId": "70f8970fbfdfe187a340",
+      "url": "https://www.inc.com/ray-fernandez/always-on-wearables-risk-companies-legal-liability-identity-theft-ransomware/91426676",
+      "title": "The Biggest Risk From Always-On Wearables Isn’t What Most Companies Think",
+      "source": "Inc. AI",
+      "published": "2026-10-28T18:41:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a598f02c7a88d71db7d6f4ce",
+      "bodyFingerprint": "06d3735fd41c6be14a3b5d7b",
+      "bodyCharacterCount": 137,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-28T21:41:05.789Z",
+      "assessment": {
+        "centralEvent": "The Biggest Risk From Always-On Wearables Isn’t What Most Companies Think",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "The Biggest Risk From Always-On Wearables Isn’t What Most Companies Think",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8c981a7773ea1054fdaf": {
+      "storyId": "8c981a7773ea1054fdaf",
+      "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+      "title": "Microsoft is ending Copilot support on smart TVs",
+      "source": "The Verge AI",
+      "published": "2026-10-28T18:36:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e9f21149aba0728110a2a86f",
+      "bodyFingerprint": "598fbc657b9296489e8459f7",
+      "bodyCharacterCount": 4124,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:05.797Z",
+      "assessment": {
+        "centralEvent": "Microsoft is ending Copilot support on smart TVs",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It doesn’t specify exactly when Copilot will stop working on smart TVs, but says the feature is “scheduled for discontinuation during 2026” and a specific date is “subject to Microsoft’s timeline.” Last December, LG faced backlash after an ",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Andrew Liszewski AI Gadgets Microsoft News Tech TVs Most Popular Most Popular All the news from Apple’s ‘Pro and tell’ event Here’s why the iPhone Duo’s hinge could be cracking the screen Hands-on with Apple’s touchscreen MacBook Pro Apple ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b247a5bbfdcb43638ff9": {
+      "storyId": "b247a5bbfdcb43638ff9",
+      "url": "https://www.inc.com/chloe-aiello/are-you-ready-for-driverless-big-rigs-autonomous-trucks-will-start-cruising-between-these-3-cities-in-2028/91426721",
+      "title": "Are You Ready for Driverless Big Rigs? Autonomous Trucks Will Start Cruising Between These 3 Cities in 2028",
+      "source": "Inc. AI",
+      "published": "2026-10-28T18:19:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2e8d607edd409a03f6b9fdb0",
+      "bodyFingerprint": "3f6b3a7699311d62f9cf7c47",
+      "bodyCharacterCount": 123,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-28T21:41:05.829Z",
+      "assessment": {
+        "centralEvent": "Are You Ready for Driverless Big Rigs? Autonomous Trucks Will Start Cruising Between These 3 Cities in 2028",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a1a88a3e2d44e65cc687": {
+      "storyId": "a1a88a3e2d44e65cc687",
+      "url": "https://www.bbc.co.uk/news/videos/cmr4y12pp5x9o?at_campaign=rss&at_medium=RSS",
+      "title": "Netanyahu shares AI image of Arab voters during Israeli election",
+      "source": "BBC News AI",
+      "published": "2026-10-28T17:51:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "514545af204b550ea56ecd22",
+      "bodyFingerprint": "004e6e61b8404f5c94e880fc",
+      "bodyCharacterCount": 379,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:05.933Z",
+      "assessment": {
+        "centralEvent": "Netanyahu shares AI image of Arab voters during Israeli election",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Subsection BBC Verify Published 3 hours ago Share close panel Share page Copy link About sharing Related topics Israel Follow Israel Benjamin Netanyahu Follow Benjamin Netanyahu Read description",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "490073e57670269a1c9c": {
+      "storyId": "490073e57670269a1c9c",
+      "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use",
+      "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+      "source": "Ars Technica AI",
+      "published": "2026-10-28T18:47:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6795952dbcdd46865a542d0a",
+      "bodyFingerprint": "e5d30318112dd6787f75f69b",
+      "bodyCharacterCount": 4354,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:05.960Z",
+      "assessment": {
+        "centralEvent": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Google says the model shows a “significant leap” in vulnerability detection, validation, and remediation.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Stop me if you’ve heard this one before: Google says its latest AI model reaches a new threshold in coding, agentic tasks, and scientific analysis.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Google says the model shows a “significant leap” in vulnerability detection, validation, and remediation.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.93,
+        "rawScore": 25.93,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.175,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2db0d8b09a5831ab2a03": {
+      "storyId": "2db0d8b09a5831ab2a03",
+      "url": "https://www.inc.com/jelinda-montes/cloudflares-new-tools-help-spot-the-hidden-dangers-in-your-vibe-code/91426194",
+      "title": "Cloudflare’s New Tools Help Spot the Hidden Dangers In Your Vibe Code",
+      "source": "Inc. AI",
+      "published": "2026-10-28T17:22:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "58faed240f7850f301dcee69",
+      "bodyFingerprint": "73583ad8a3d89fdc4da446b7",
+      "bodyCharacterCount": 203,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-28T21:41:05.986Z",
+      "assessment": {
+        "centralEvent": "Cloudflare’s New Tools Help Spot the Hidden Dangers In Your Vibe Code",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ef243006ac6a7e08f103": {
+      "storyId": "ef243006ac6a7e08f103",
+      "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections",
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "source": "Ars Technica AI",
+      "published": "2026-10-28T17:46:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3d67ee7eeade007e6a49b502",
+      "bodyFingerprint": "febf764a674665343c2a2979",
+      "bodyCharacterCount": 6683,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:05.995Z",
+      "assessment": {
+        "centralEvent": "Google AI gets cagey when asked who won the 2020 elections",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "When asked why it didn’t provide that kind of immediate answer the first time, Google’s AI Mode blamed “safety filters for recent and highly sensitive election topics [that] are very strict.” For recent elections or those involving active p",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The specific election cycles that received each type of response seemed to differ by individual user, though; one staffer reported only getting immediate answers from AI Mode when asking about the 2016 and 2024 presidential elections, with ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "db30df4bb3be374c7021": {
+      "storyId": "db30df4bb3be374c7021",
+      "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+      "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+      "source": "The Verge AI",
+      "published": "2026-10-28T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bc45088f0e32a9f48293f469",
+      "bodyFingerprint": "6dfecde77978f4a75d4e88ba",
+      "bodyCharacterCount": 3640,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:06.017Z",
+      "assessment": {
+        "centralEvent": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Andrew Liszewski AI Chrome Google News Tech Most Popular Most Popular All the news from Apple’s ‘Pro and tell’ event Here’s why the iPhone Duo’s hinge could be cracking the screen Hands-on with Apple’s touchscreen MacBook Pro Apple announce",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2ea704ca2c0e412df178": {
+      "storyId": "2ea704ca2c0e412df178",
+      "url": "https://mashable.com/tech/lawsuit-says-chatgpt-persuaded-person-to-stop-taking-meds",
+      "title": "Lawsuit says ChatGPT persuaded person to stop taking epilepsy meds, leading to her death",
+      "source": "Mashable AI",
+      "published": "2026-10-28T17:31:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "be2b901c75b44d196663dfae",
+      "bodyFingerprint": "eb2701db30f6fde765888fb5",
+      "bodyCharacterCount": 4813,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:06.021Z",
+      "assessment": {
+        "centralEvent": "Lawsuit says ChatGPT persuaded person to stop taking epilepsy meds, leading to her death",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "After learning she would be laid off from Amazon, she grew worried that her medication was slowing her speech.",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "13, 2026, the day after the medical examiner believes she died.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Lawsuit says ChatGPT persuaded person to stop taking epilepsy meds, leading to her death",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.85,
+        "rawScore": 47.85,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.35,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8965c562f4d21fcca2b0": {
+      "storyId": "8965c562f4d21fcca2b0",
+      "url": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team",
+      "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
+      "source": "WIRED AI",
+      "published": "2026-10-28T18:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3a3109433e43b21917640ad8",
+      "bodyFingerprint": "1215577c2673de6bdf7029a0",
+      "bodyCharacterCount": 8524,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:06.042Z",
+      "assessment": {
+        "centralEvent": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It’s one of a number of benchmarks designed to test AI’s future-gazing capabilities; another, Prediction Arena , from researchers at Harvard University and a company called Arcada Labs, recently gave frontier models $10,000 to wager on pred",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2c5fcb5691316a28921f": {
+      "storyId": "2c5fcb5691316a28921f",
+      "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms",
+      "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d4ac480f79c381e40d364e2d",
+      "bodyFingerprint": "7a7df417b459e8f10a8442cb",
+      "bodyCharacterCount": 2546,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:06.058Z",
+      "assessment": {
+        "centralEvent": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , Apps , Chrome , Google , In Brief November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO dea",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "090274bcc4740a7076a1": {
+      "storyId": "090274bcc4740a7076a1",
+      "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps",
+      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4a4dbc2403e9f8e7ec268463",
+      "bodyFingerprint": "845fed9fff18c991d8a92cbe",
+      "bodyCharacterCount": 4307,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:06.068Z",
+      "assessment": {
+        "centralEvent": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "After the app is live, developers can track traffic, latency, and error rates, and maintain control over their brand identity, such as their verified logos and authenticated accounts.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6fd95be9df94f068e335": {
+      "storyId": "6fd95be9df94f068e335",
+      "url": "https://mashable.com/tech/reddit-fyp-for-you-feed",
+      "title": "Reddit homepage introduces a TikTok-style \"For You\" feed",
+      "source": "Mashable AI",
+      "published": "2026-10-28T16:57:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "db4a3a87e0cfc62848c67912",
+      "bodyFingerprint": "54376427ac7e71acbaee999c",
+      "bodyCharacterCount": 2567,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:06.103Z",
+      "assessment": {
+        "centralEvent": "Reddit homepage introduces a TikTok-style \"For You\" feed",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In a company blog post , Reddit announced the rollout of a new \"For You\" feed for users, which appears on the Reddit homepage.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e22af108d5a57afd4c8e": {
+      "storyId": "e22af108d5a57afd4c8e",
+      "url": "https://www.lawfaremedia.org/article/a-first-amendment-approach-to-regulating-ai-model-weights",
+      "title": "A First Amendment Approach to Regulating AI Model Weights",
+      "source": "Lawfare AI",
+      "published": "2026-10-28T17:00:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4deabc7e13d594c5abd66165",
+      "bodyFingerprint": "1d5eea7efbe8383dad06dcaf",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-28T21:41:07.046Z",
+      "assessment": {
+        "centralEvent": "A First Amendment Approach to Regulating AI Model Weights",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A regulatory regime for model weights that adheres to the guardrails of the First Amendment will be legal if they are speech and will inoculate this nascent technology against abuse even if they aren’t.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The regime’s one nominal deadline proves that point: applications must be “resolved or referred to the President” within 90 days, but there is no further deadline if the application is referred—the precise loophole the U.S.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "While the International Traffic in Arms Regulations (ITAR) under the State Department and the International Emergency Economic Powers Act (IEEPA) grant the government vast powers to regulate economic activity, they fall short.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 115,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-28T16:40:16.974Z"
+  "updatedAt": "2026-10-28T21:41:07.046Z"
 }
