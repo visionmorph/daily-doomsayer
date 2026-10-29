@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-29T08:00:00.000Z",
+  "generatedAt": "2026-10-29T16:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-29",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-29",
           "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 70.82
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-29",
           "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-29",
           "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 51.15
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.86,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-29",
           "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 49.86
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae1120223d445186a16d911/master/pass/ai-weather-alerts-emergency.jpg",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-29",
           "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 49.83
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae127707e979e34b6579966/master/pass/Business_Should%20AI%20Decide%20Your%20Court%20Case_%20ThisJudgeSaysYes.gif",
           "peak": 49.5,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-29",
           "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 49.5
         },
         {
@@ -115,26 +115,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Cook-County-Sheriffs-Office-X-1152x648-1793033307.jpeg",
           "peak": 49.25,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-10-29",
           "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 49.25
-        },
-        {
-          "storyId": "c185b1f669ce177c88ba",
-          "title": "Who gets to decide if AI is safe? Africa wants a say",
-          "url": "https://restofworld.org/2026/african-leaders-un-security-council-ai-safety/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
-          "peak": 49.23,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-10-29",
-          "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
-          "average": 49.23
         },
         {
           "storyId": "5315fbef19dff1d49ddd",
@@ -142,6 +128,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "url": "https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi",
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/348dbc85214c965490fc99f4d07ce31c26d36a5c/389_0_6003_4803/master/6003.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 49.23,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-10-29",
+          "firstObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
+          "average": 49.23
+        },
+        {
+          "storyId": "c185b1f669ce177c88ba",
+          "title": "Who gets to decide if AI is safe? Africa wants a say",
+          "url": "https://restofworld.org/2026/african-leaders-un-security-council-ai-safety/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "source": "Rest of World AI",
+          "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
           "peak": 49.23,
           "observations": 1,
           "daysTracked": 1,
@@ -8864,11 +8864,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 4,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 70.82
         },
         {
@@ -8892,11 +8892,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 4,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 51.23
         },
         {
@@ -8906,11 +8906,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 14,
+          "observations": 15,
           "daysTracked": 4,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 51.15
         },
         {
@@ -8948,11 +8948,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.86,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T21:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 49.86
         },
         {
@@ -8962,11 +8962,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae1120223d445186a16d911/master/pass/ai-weather-alerts-emergency.jpg",
           "peak": 49.83,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T16:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 49.83
         },
         {
@@ -10330,11 +10330,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 25,
+          "observations": 26,
           "daysTracked": 6,
           "peakDate": "2026-10-24",
           "firstObservedAt": "2026-10-24T12:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 70.82
         },
         {
@@ -10414,11 +10414,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 136,
+          "observations": 137,
           "daysTracked": 29,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 51.23
         },
         {
@@ -10428,11 +10428,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 37,
+          "observations": 38,
           "daysTracked": 9,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-22T04:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
+          "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 51.15
         },
         {
