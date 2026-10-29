@@ -302434,8 +302434,465 @@
           "vulnerability": 0
         }
       }
+    },
+    "3b64f2126ca310fc1aab": {
+      "storyId": "3b64f2126ca310fc1aab",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "source": "The Verge AI",
+      "published": "2026-10-28T23:05:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fcf2033ad3c11515ad2a69bc",
+      "bodyFingerprint": "b797d7495626827ef455ee8e",
+      "bodyCharacterCount": 4747,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T01:50:16.705Z",
+      "assessment": {
+        "centralEvent": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4ce637ebaeae722e657e": {
+      "storyId": "4ce637ebaeae722e657e",
+      "url": "https://www.inc.com/jason-aten/delta-just-replaced-the-best-way-to-get-customer-service-with-an-ai-chatbot/91427502",
+      "title": "Delta Just Replaced the Best Way to Get Customer Service With an AI Chatbot",
+      "source": "Inc. AI",
+      "published": "2026-10-29T01:36:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5f619c59defe14af8559a121",
+      "bodyFingerprint": "715eb25aaf5b08ff5b4f52e5",
+      "bodyCharacterCount": 104,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-29T01:50:16.754Z",
+      "assessment": {
+        "centralEvent": "Delta Just Replaced the Best Way to Get Customer Service With an AI Chatbot",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3801bfeec8403796ab0b": {
+      "storyId": "3801bfeec8403796ab0b",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion",
+      "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T21:58:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "597ff0a366cba2351211b8c1",
+      "bodyFingerprint": "61576fe189bcb70ebc86ba5f",
+      "bodyCharacterCount": 3317,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T01:50:16.778Z",
+      "assessment": {
+        "centralEvent": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But on Wednesday, when it posted another record-breaking quarter , it reported that Azure brought in a healthy $33.2 billion in revenue for the July-September quarter, up 48% from a year earlier.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "14bd5a3a69122b7bb700": {
+      "storyId": "14bd5a3a69122b7bb700",
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows",
+      "title": "Google expands AI Search ads globally as core ad growth slows",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T21:48:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "866ea5da453c572ce30ef762",
+      "bodyFingerprint": "2312d1d7b84f6e35ea00ca56",
+      "bodyCharacterCount": 3948,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T01:50:16.785Z",
+      "assessment": {
+        "centralEvent": "Google expands AI Search ads globally as core ad growth slows",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The slowdown puts added pressure on Google to turn its expanding AI features into a meaningful source of advertising revenue.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The announcement came Wednesday during Alphabet’s third-quarter earnings call, as the company reported $127.6 billion in revenue, up 25% year over year.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Google is bringing ads in its AI-powered Search experiences to international markets, betting that generative AI can open up new revenue opportunities even as growth in its core search advertising business slows.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ce5d199a1eaddb9ab59b": {
+      "storyId": "ce5d199a1eaddb9ab59b",
+      "url": "https://mashable.com/tech/open-ai-launches-midterm-election-war-room",
+      "title": "OpenAI launching election war room",
+      "source": "Mashable AI",
+      "published": "2026-10-28T21:31:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "253f433b422c8c77772d955c",
+      "bodyFingerprint": "670155bb0c41bb9f7387348a",
+      "bodyCharacterCount": 14377,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T01:50:16.916Z",
+      "assessment": {
+        "centralEvent": "OpenAI launching election war room",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The developer will monitor abuse of its AI tools during next week's midterm elections, as bots and deepfakes proliferate.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "More than half of Americans were fooled by such election misinformation, and X's Community Notes failed to identify more than 93 percent of such posts, according to the organization's research. (() => { window.videoEmbeds = window.videoEmbe",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In the midst of the 2024 presidential election, a coalition of tech companies pledged to work together to combat generative AI's potential to undermine global elections.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b6a320917d702cc0ccef": {
+      "storyId": "b6a320917d702cc0ccef",
+      "url": "https://www.bbc.co.uk/news/articles/cmx28e44xxx7o?at_campaign=rss&at_medium=RSS",
+      "title": "'Super offensive' - We love how we look but AI tried to 'fix' our visible differences",
+      "source": "BBC News AI",
+      "published": "2026-10-28T23:02:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6fe2906ee7948bf8767006c8",
+      "bodyFingerprint": "207c2c7862ee3b425c5c90f6",
+      "bodyCharacterCount": 8988,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T01:50:16.923Z",
+      "assessment": {
+        "centralEvent": "'Super offensive' - We love how we look but AI tried to 'fix' our visible differences",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Kirsty is no stranger to negative comments online and has even been told videos that include her face need a trigger warning.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, BBC/ Debbie Todd/ Kirsty Hill Image caption, Rhiannon Morgan and Jono Lancaster have had their appearances changed by AI, while Kirsty Hill is offended AI might try to alter her visible difference By Gemma Dunstan BBC Wales Pu",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "He added: \"I love my ears and my beautiful face and I don't want it changed.\" Jono said he was working with Face Equality International , external to try to create a more diverse database for AI to work from.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "be9992c580eab6c9d5c0": {
+      "storyId": "be9992c580eab6c9d5c0",
+      "url": "https://mashable.com/tech/meta-waddle-world-ai-pet-journal-app",
+      "title": "Meta launches Waddle World, a Tamagotchi-style AI journal",
+      "source": "Mashable AI",
+      "published": "2026-10-28T21:33:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "43089692f8132525d95d0e01",
+      "bodyFingerprint": "842eab12ce1d107c4548aa0f",
+      "bodyCharacterCount": 5229,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T01:50:16.928Z",
+      "assessment": {
+        "centralEvent": "Meta launches Waddle World, a Tamagotchi-style AI journal",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Meta presents that routine as low-pressure, promising \"no pressure, no streaks to protect, no scores to chase.\" Still, the same description calls Waddle World a \"gentle journal habit tracker\" and encourages daily check-ins.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Available on iOS and Android only in the Philippines for now, the free app lets adults hatch a 16-bit pixelated pet, feed it, play mini-games , and tell it about their day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "That leaves some details unresolved.",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.19,
+        "rawScore": 27.19,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-28T21:41:07.046Z"
+  "updatedAt": "2026-10-29T01:50:16.929Z"
 }
