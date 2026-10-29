@@ -1,6 +1,6 @@
 {
   "version": "1.3.0",
-  "updatedAt": "2026-10-29T01:00:00.000Z",
+  "updatedAt": "2026-10-29T08:00:00.000Z",
   "stories": {
     "ff8ba60af3e634676f78": {
       "storyId": "ff8ba60af3e634676f78",
@@ -528,7 +528,7 @@
       "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
       "published": "2026-07-09T12:00:00.000Z",
       "firstSeen": "2026-08-05T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "985f27455e446170b0bc": {
       "storyId": "985f27455e446170b0bc",
@@ -984,7 +984,7 @@
       "image": "https://mrkp-static-production.themarkup.org/uploads/2026/06/060826-AI-Recordings-RL-CM.jpg",
       "published": "2026-06-16T12:00:00.000Z",
       "firstSeen": "2026-08-05T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "310ca79bd482dfe75ce8": {
       "storyId": "310ca79bd482dfe75ce8",
@@ -1188,7 +1188,7 @@
       "image": "https://mrkp-static-production.themarkup.org/uploads/2026/03/CC-CHATBOT_AH_MU_01.png",
       "published": "2026-03-07T13:00:00.000Z",
       "firstSeen": "2026-08-05T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "c5158f5b4317cae01725": {
       "storyId": "c5158f5b4317cae01725",
@@ -1872,7 +1872,7 @@
       "image": "",
       "published": "2025-03-18T15:51:47.000Z",
       "firstSeen": "2026-08-05T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "e503e27fdc0e7a42664c": {
       "storyId": "e503e27fdc0e7a42664c",
@@ -1884,7 +1884,7 @@
       "image": "",
       "published": "2024-04-17T15:57:55.000Z",
       "firstSeen": "2026-08-05T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "7a03ba7576453bc07020": {
       "storyId": "7a03ba7576453bc07020",
@@ -1896,7 +1896,7 @@
       "image": "",
       "published": "2024-04-18T16:02:15.000Z",
       "firstSeen": "2026-08-05T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "ea62191d3bde9ca864cf": {
       "storyId": "ea62191d3bde9ca864cf",
@@ -1908,7 +1908,7 @@
       "image": "",
       "published": "2024-05-07T16:29:33.000Z",
       "firstSeen": "2026-08-05T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "fcc742f29296a52fb633": {
       "storyId": "fcc742f29296a52fb633",
@@ -1920,7 +1920,7 @@
       "image": "",
       "published": "2024-04-18T16:29:34.000Z",
       "firstSeen": "2026-08-05T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "09969b184f2a4a22f6d5": {
       "storyId": "09969b184f2a4a22f6d5",
@@ -1932,7 +1932,7 @@
       "image": "",
       "published": "2024-04-18T16:02:55.000Z",
       "firstSeen": "2026-08-05T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "1e23abb8e9f6cdd9c0f3": {
       "storyId": "1e23abb8e9f6cdd9c0f3",
@@ -1944,7 +1944,7 @@
       "image": "",
       "published": "2024-04-16T15:50:02.000Z",
       "firstSeen": "2026-08-05T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "58c38a52cc6bef6bd1a2": {
       "storyId": "58c38a52cc6bef6bd1a2",
@@ -1956,7 +1956,7 @@
       "image": "",
       "published": "2024-04-16T15:50:57.000Z",
       "firstSeen": "2026-08-05T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "9c3315d30ba6385c87f1": {
       "storyId": "9c3315d30ba6385c87f1",
@@ -1968,7 +1968,7 @@
       "image": "",
       "published": "2024-04-17T15:55:35.000Z",
       "firstSeen": "2026-08-05T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "7292944e61ba5b05b253": {
       "storyId": "7292944e61ba5b05b253",
@@ -34188,7 +34188,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a78/live/50747000-b5cc-11f1-abb5-85e9be42cb76.jpg",
       "published": "2026-09-22T00:02:08.000Z",
       "firstSeen": "2026-09-22T09:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "78e8d522fb203d5d06c0": {
       "storyId": "78e8d522fb203d5d06c0",
@@ -35316,7 +35316,7 @@
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/09/photo-1754229164665-9ea0d5579063.jpeg",
       "published": "2026-09-23T11:13:53.000Z",
       "firstSeen": "2026-09-23T17:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "634b3ed0fddfb8fd98ab": {
       "storyId": "634b3ed0fddfb8fd98ab",
@@ -40680,7 +40680,7 @@
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/09/chatgptlawyer--1-.png",
       "published": "2026-09-30T18:15:31.000Z",
       "firstSeen": "2026-09-30T23:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "a8d59171d38049116b63": {
       "storyId": "a8d59171d38049116b63",
@@ -40980,7 +40980,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0645/live/cb36dd30-bd80-11f1-bc2e-018d645d8d21.jpg",
       "published": "2026-09-30T23:02:21.000Z",
       "firstSeen": "2026-10-01T05:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "edf2212146d06f57a6ea": {
       "storyId": "edf2212146d06f57a6ea",
@@ -40992,7 +40992,7 @@
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/09/CleanShot-2026-09-30-at-2.15.47-PM@2x.png",
       "published": "2026-09-30T21:23:11.000Z",
       "firstSeen": "2026-10-01T05:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "5812e4a50e9b69eb31ae": {
       "storyId": "5812e4a50e9b69eb31ae",
@@ -41784,7 +41784,7 @@
       "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
       "published": "2026-10-02T10:00:00.000Z",
       "firstSeen": "2026-10-02T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "a7d67921299ea2a1831a": {
       "storyId": "a7d67921299ea2a1831a",
@@ -43056,7 +43056,7 @@
       "image": "https://fastly.restofworld.org/uploads/2026/10/smartphone-price-ai-2.jpg?width=380&dpr=2&crop=16:9",
       "published": "2026-10-05T10:00:43.000Z",
       "firstSeen": "2026-10-05T22:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "73c34e14db0acb7782d9": {
       "storyId": "73c34e14db0acb7782d9",
@@ -43668,7 +43668,7 @@
       "image": "https://fastly.restofworld.org/uploads/2026/10/illo_china_tech_sketch_final.jpg?width=380&dpr=2&crop=16:9",
       "published": "2026-10-06T10:00:00.000Z",
       "firstSeen": "2026-10-06T17:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "6c53afb68d2072370438": {
       "storyId": "6c53afb68d2072370438",
@@ -45516,7 +45516,7 @@
       "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0m1ww2j.jpg",
       "published": "2026-10-08T20:00:00.000Z",
       "firstSeen": "2026-10-08T22:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "e5b532cf0deb5712749a": {
       "storyId": "e5b532cf0deb5712749a",
@@ -46788,7 +46788,7 @@
       "image": "https://mrkp-static-production.themarkup.org/uploads/2026/10/060226_Sac-Ballot-Count_FG_MU_09.jpg",
       "published": "2026-10-10T12:00:00.000Z",
       "firstSeen": "2026-10-10T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "91cec50203301e0a58b2": {
       "storyId": "91cec50203301e0a58b2",
@@ -47484,7 +47484,7 @@
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/10/raven-1.png",
       "published": "2026-10-12T13:00:05.000Z",
       "firstSeen": "2026-10-13T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "1e2db47d258dd52efadf": {
       "storyId": "1e2db47d258dd52efadf",
@@ -47988,7 +47988,7 @@
       "image": "https://fastly.restofworld.org/uploads/2026/10/School-AI-UAE_5.jpg?width=380&dpr=2&crop=16:9",
       "published": "2026-10-13T10:00:00.000Z",
       "firstSeen": "2026-10-13T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "b4c2fb5422179850ad58": {
       "storyId": "b4c2fb5422179850ad58",
@@ -48768,7 +48768,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a40/live/7b9bd230-b0d8-11f1-b1d1-571ed4d7ff2c.jpg",
       "published": "2026-10-13T23:05:29.000Z",
       "firstSeen": "2026-10-14T06:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "f1804c4e138a285ddd0b": {
       "storyId": "f1804c4e138a285ddd0b",
@@ -48888,7 +48888,7 @@
       "image": "https://e3.365dm.com/26/10/1920x1080/skynews-raye-reading-festival_7376290.jpg?20261013214705",
       "published": "2026-10-13T20:34:00.000Z",
       "firstSeen": "2026-10-14T06:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "b27d148e512fc806d239": {
       "storyId": "b27d148e512fc806d239",
@@ -49944,7 +49944,7 @@
       "image": "https://fastly.restofworld.org/uploads/2026/10/illo_tech_optimism_final.jpg?width=380&dpr=2&crop=16:9",
       "published": "2026-10-15T10:00:00.000Z",
       "firstSeen": "2026-10-15T19:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "c07a9af3c9fccff99bb2": {
       "storyId": "c07a9af3c9fccff99bb2",
@@ -50112,7 +50112,7 @@
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/10/CleanShot-2026-10-15-at-10.14.37-AM@2x.png",
       "published": "2026-10-15T16:31:30.000Z",
       "firstSeen": "2026-10-15T22:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "c7c9cc2b493a13afd6e1": {
       "storyId": "c7c9cc2b493a13afd6e1",
@@ -50196,7 +50196,7 @@
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/10/POLAND_RAILWAYS__26282341837000.jpg",
       "published": "2026-10-15T16:46:18.000Z",
       "firstSeen": "2026-10-15T22:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "0e4b6a03be5e0ff7f4bf": {
       "storyId": "0e4b6a03be5e0ff7f4bf",
@@ -50328,7 +50328,7 @@
       "image": "https://www.eff.org/files/banner_library/social-media-surveillance-2026.jpg",
       "published": "2026-10-15T20:08:58.000Z",
       "firstSeen": "2026-10-16T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "0d631f524a7ab01fdeb8": {
       "storyId": "0d631f524a7ab01fdeb8",
@@ -50544,7 +50544,7 @@
       "image": "https://static.politico.com/2c/71/abdc201c4f748ef06d9c5ec90b23/https-delivery-gettyimages.com/downloads/2294579829",
       "published": "2026-10-15T22:28:28.000Z",
       "firstSeen": "2026-10-16T07:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "611f4c912bb9826ffb9b": {
       "storyId": "611f4c912bb9826ffb9b",
@@ -50556,7 +50556,7 @@
       "image": "https://www.politico.eu/wp-content/uploads/2026/03/18/GettyImages-1082800026-1024x684.jpg",
       "published": "2026-10-15T18:12:09.000Z",
       "firstSeen": "2026-10-16T12:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "d644ab82f6c9a4ebf22f": {
       "storyId": "d644ab82f6c9a4ebf22f",
@@ -50592,7 +50592,7 @@
       "image": "https://fastly.restofworld.org/uploads/2026/10/illo_chinese_US_weight.jpg?width=380&dpr=2&crop=16:9",
       "published": "2026-10-16T10:00:00.000Z",
       "firstSeen": "2026-10-16T17:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "f20c2ea0954dea8ecebf": {
       "storyId": "f20c2ea0954dea8ecebf",
@@ -50664,7 +50664,7 @@
       "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreif64ygwsfqjb6pfnscwwpdicq6t5od3w4hpilunkk75p6q6dzt6su",
       "published": "2026-10-16T15:44:22.000Z",
       "firstSeen": "2026-10-16T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "ffb9cafef072bda36587": {
       "storyId": "ffb9cafef072bda36587",
@@ -50772,7 +50772,7 @@
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/10/Online_Child_Pornography_23318394664278.jpg",
       "published": "2026-10-16T13:57:18.000Z",
       "firstSeen": "2026-10-16T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "a9bac7249b15a7a13d80": {
       "storyId": "a9bac7249b15a7a13d80",
@@ -50988,7 +50988,7 @@
       "image": "https://static.politico.com/2d/ce/148fe8604ce7a4ebef0911cc1f68/https-delivery-gettyimages.com/downloads/2295566911",
       "published": "2026-10-16T21:45:14.000Z",
       "firstSeen": "2026-10-17T04:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "8f4036b74df273ae542d": {
       "storyId": "8f4036b74df273ae542d",
@@ -51276,7 +51276,7 @@
       "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Synthetic-Narratives-01-press.jpg?itok=Bh8fzury",
       "published": "2026-10-18T04:00:00.000Z",
       "firstSeen": "2026-10-18T11:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "452021bb30da092ac720": {
       "storyId": "452021bb30da092ac720",
@@ -51552,7 +51552,7 @@
       "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreignqgtdcx6gaul2rszch5r7wr7posir4xby4kcyyznfwmy7vls4ru",
       "published": "2026-10-19T02:00:00.000Z",
       "firstSeen": "2026-10-19T15:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "afbf7cb81fa6c69ee628": {
       "storyId": "afbf7cb81fa6c69ee628",
@@ -51648,7 +51648,7 @@
       "image": "https://fastly.restofworld.org/uploads/2026/10/illo_qgents_swarm_sketch_v3.jpg?width=380&dpr=2&crop=16:9",
       "published": "2026-10-19T10:00:00.000Z",
       "firstSeen": "2026-10-19T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "c713b9c06b3a02491be6": {
       "storyId": "c713b9c06b3a02491be6",
@@ -51756,7 +51756,7 @@
       "image": "",
       "published": "2026-10-19T00:00:00.000Z",
       "firstSeen": "2026-10-19T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "f61105b65ed1a593db5e": {
       "storyId": "f61105b65ed1a593db5e",
@@ -51864,7 +51864,7 @@
       "image": "https://images.unsplash.com/photo-1654993916157-e982996b812f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDd8fHNoZXJpZmZ8ZW58MHx8fHwxNzkyNDI2MTYwfDA&ixlib=rb-4.1.0&q=80&w=2000",
       "published": "2026-10-19T16:16:17.000Z",
       "firstSeen": "2026-10-20T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "8adbc6a2d3ed293efc6b": {
       "storyId": "8adbc6a2d3ed293efc6b",
@@ -52068,7 +52068,7 @@
       "image": "https://static.politico.com/c8/98/af12a7334615ba7a7f757c4d98f2/china-ai-deepseek-16768.jpg",
       "published": "2026-10-19T20:01:41.000Z",
       "firstSeen": "2026-10-20T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "820876c7f3cb0963dddc": {
       "storyId": "820876c7f3cb0963dddc",
@@ -52080,7 +52080,7 @@
       "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-jameel-clinic-fetal-brain.jpg?itok=TGq3tK5p",
       "published": "2026-10-19T18:20:00.000Z",
       "firstSeen": "2026-10-20T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "50ba9f8596cd1d299f6b": {
       "storyId": "50ba9f8596cd1d299f6b",
@@ -52128,7 +52128,7 @@
       "image": "",
       "published": "2026-10-19T00:00:00.000Z",
       "firstSeen": "2026-10-20T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "fe71d377ee244b059584": {
       "storyId": "fe71d377ee244b059584",
@@ -52332,7 +52332,7 @@
       "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:yf6hctt2ug3qyfty4in64yob/bafkreihfxuak3okjted7hlkhessjnvnpia2doi74huseqqjkahwgp7a7pu",
       "published": "2026-10-20T08:45:00.000Z",
       "firstSeen": "2026-10-20T17:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "5d7a67d656479c2a57de": {
       "storyId": "5d7a67d656479c2a57de",
@@ -52380,7 +52380,7 @@
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/10/CleanShot-2026-10-20-at-6.38.22-AM@2x.png",
       "published": "2026-10-20T13:42:20.000Z",
       "firstSeen": "2026-10-20T20:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "6e9a867871806dd967dd": {
       "storyId": "6e9a867871806dd967dd",
@@ -52476,7 +52476,7 @@
       "image": "",
       "published": "2026-10-20T16:12:26.000Z",
       "firstSeen": "2026-10-20T20:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "8015eb5359b47482acb1": {
       "storyId": "8015eb5359b47482acb1",
@@ -52908,7 +52908,7 @@
       "image": "https://www.politico.eu/wp-content/uploads/2026/10/20/20260916_EP-209987H_CU__AR_0126-1024x683.jpg",
       "published": "2026-10-20T16:45:04.000Z",
       "firstSeen": "2026-10-21T10:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "14423eb5946bd5d1ae5f": {
       "storyId": "14423eb5946bd5d1ae5f",
@@ -52932,7 +52932,7 @@
       "image": "https://static.politico.com/34/41/1dc9925b40119c81816a58779121/https-delivery-gettyimages.com/downloads/2285051415",
       "published": "2026-10-21T09:00:00.000Z",
       "firstSeen": "2026-10-21T15:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "d5182669d4d6e4c1bb22": {
       "storyId": "d5182669d4d6e4c1bb22",
@@ -53100,7 +53100,7 @@
       "image": "https://www.politico.eu/wp-content/uploads/2026/10/21/GettyImages-2185907422-1024x683.jpg",
       "published": "2026-10-21T13:23:02.000Z",
       "firstSeen": "2026-10-21T20:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "ee3cb7a6771fe038fe9b": {
       "storyId": "ee3cb7a6771fe038fe9b",
@@ -53232,7 +53232,7 @@
       "image": "",
       "published": "2026-10-21T15:30:59.000Z",
       "firstSeen": "2026-10-21T23:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "f7640e8646e202ca5285": {
       "storyId": "f7640e8646e202ca5285",
@@ -53316,7 +53316,7 @@
       "image": "",
       "published": "2026-10-21T00:00:00.000Z",
       "firstSeen": "2026-10-21T23:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "298ab808d89166c7be15": {
       "storyId": "298ab808d89166c7be15",
@@ -53340,7 +53340,7 @@
       "image": "",
       "published": "2026-10-21T16:19:59.000Z",
       "firstSeen": "2026-10-21T23:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "892308e86c2d7dbec477": {
       "storyId": "892308e86c2d7dbec477",
@@ -53376,7 +53376,7 @@
       "image": "",
       "published": "2026-10-21T00:00:00.000Z",
       "firstSeen": "2026-10-21T23:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "ba27572e2ee92e7c148e": {
       "storyId": "ba27572e2ee92e7c148e",
@@ -53400,7 +53400,7 @@
       "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
       "published": "2026-10-21T17:52:16.000Z",
       "firstSeen": "2026-10-22T04:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "e39c688df31a7f54f7ef": {
       "storyId": "e39c688df31a7f54f7ef",
@@ -53436,7 +53436,7 @@
       "image": "https://www.eff.org/files/banner_library/brazil-platform-2.png",
       "published": "2026-10-21T22:11:43.000Z",
       "firstSeen": "2026-10-22T04:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "65d1f116dfc064015180": {
       "storyId": "65d1f116dfc064015180",
@@ -53580,7 +53580,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fccd/live/bf4a03d0-ce15-11f1-9a39-31b474234113.jpg",
       "published": "2026-10-23T12:24:17.000Z",
       "firstSeen": "2026-10-22T10:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "5fda1e1adb27276c57f0": {
       "storyId": "5fda1e1adb27276c57f0",
@@ -53724,7 +53724,7 @@
       "image": "https://thedispatch.com/wp-content/uploads/2026/10/AIFRIEND2.jpg?w=1024",
       "published": "2026-10-22T05:01:00+00:00",
       "firstSeen": "2026-10-22T15:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "aeb39f055422cba3b1a4": {
       "storyId": "aeb39f055422cba3b1a4",
@@ -53784,7 +53784,7 @@
       "image": "",
       "published": "2026-10-22T10:57:28.000Z",
       "firstSeen": "2026-10-22T20:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "3edd5557a45d64303832": {
       "storyId": "3edd5557a45d64303832",
@@ -53796,7 +53796,7 @@
       "image": "",
       "published": "2026-10-22T12:02:00.000Z",
       "firstSeen": "2026-10-22T20:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "140efa109420f3d3dc3a": {
       "storyId": "140efa109420f3d3dc3a",
@@ -54012,7 +54012,7 @@
       "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreichx6qb2ftm64fi6vme3wjz3m3imuihdyoby5w7lsh6dvi5opmqte",
       "published": "2026-10-22T11:14:39.000Z",
       "firstSeen": "2026-10-22T20:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "981499e51d55c58368e4": {
       "storyId": "981499e51d55c58368e4",
@@ -54060,7 +54060,7 @@
       "image": "",
       "published": "2026-10-21T00:00:00.000Z",
       "firstSeen": "2026-10-22T20:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "4120829e1df6ee3e0518": {
       "storyId": "4120829e1df6ee3e0518",
@@ -54420,7 +54420,7 @@
       "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-csail-X-hinges-cover.gif?itok=IsidN-fT",
       "published": "2026-10-22T20:45:00.000Z",
       "firstSeen": "2026-10-23T04:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "0323131ef20ae520d323": {
       "storyId": "0323131ef20ae520d323",
@@ -54432,7 +54432,7 @@
       "image": "https://static.politico.com/70/c3/7d0c0bcc45519dde7aa96312215e/facebook-new-mexico-63369.jpg",
       "published": "2026-10-22T22:14:54.000Z",
       "firstSeen": "2026-10-23T04:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "ce51911d9d62a7828fca": {
       "storyId": "ce51911d9d62a7828fca",
@@ -54444,7 +54444,7 @@
       "image": "",
       "published": "2026-10-22T00:00:00.000Z",
       "firstSeen": "2026-10-23T04:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "ad858d5150de79be8c33": {
       "storyId": "ad858d5150de79be8c33",
@@ -54504,7 +54504,7 @@
       "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-indquist_Ben_IrrationalComputer-01-press.jpg?itok=syHYcG5I",
       "published": "2026-10-23T04:00:00.000Z",
       "firstSeen": "2026-10-23T10:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "c0b226b059d6b104b300": {
       "storyId": "c0b226b059d6b104b300",
@@ -54552,7 +54552,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c6fc/live/3dab9740-bbe0-11f1-bd21-bdf910f2cec6.jpg",
       "published": "2026-10-23T08:04:17.000Z",
       "firstSeen": "2026-10-23T15:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "f97a302d248c6ca39d0a": {
       "storyId": "f97a302d248c6ca39d0a",
@@ -54576,7 +54576,7 @@
       "image": "https://static.politico.com/e5/96/4e19807343c7a68bb35402f1e798/https-delivery-gettyimages.com/downloads/2301243847",
       "published": "2026-10-23T09:00:00.000Z",
       "firstSeen": "2026-10-23T15:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "0c7347a6fb169a0481fd": {
       "storyId": "0c7347a6fb169a0481fd",
@@ -54672,7 +54672,7 @@
       "image": "",
       "published": "2026-10-23T14:44:02.000Z",
       "firstSeen": "2026-10-23T19:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "329ad770280d7e60b212": {
       "storyId": "329ad770280d7e60b212",
@@ -54684,7 +54684,7 @@
       "image": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:bak7f4b3jsiqlpyo6o4ejaji/bafkreiakdu65s4hm6voqpfnbbzqliajrasfoh3nqwjbgsnnqdapuinfpsu",
       "published": "2026-10-22T17:05:52.000Z",
       "firstSeen": "2026-10-23T19:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "1a3c86bb17d305576250": {
       "storyId": "1a3c86bb17d305576250",
@@ -54876,7 +54876,7 @@
       "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/SHASS%2075th%20Anniversary%20Symposium%20Day%20One%20Teaching%20Panel_0.jpg?itok=bFh92Yaa",
       "published": "2026-10-23T19:35:00.000Z",
       "firstSeen": "2026-10-24T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "a6d2d5fdb7657f8a34ec": {
       "storyId": "a6d2d5fdb7657f8a34ec",
@@ -54900,7 +54900,7 @@
       "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT%20Compton-01-press.JPG?itok=WqxUfa0W",
       "published": "2026-10-23T21:00:00.000Z",
       "firstSeen": "2026-10-24T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "1e55c29e6e1a3d35fd94": {
       "storyId": "1e55c29e6e1a3d35fd94",
@@ -54948,7 +54948,7 @@
       "image": "https://static.politico.com/20/63/98371096426b81a2728268ccfcbe/https-delivery-gettyimages.com/downloads/1236279010",
       "published": "2026-10-23T20:39:19.000Z",
       "firstSeen": "2026-10-24T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "a35ae475cae47d2d1935": {
       "storyId": "a35ae475cae47d2d1935",
@@ -54960,7 +54960,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43e7/live/343404d0-cf00-11f1-accf-3309656ad0bb.jpg",
       "published": "2026-10-24T00:05:45.000Z",
       "firstSeen": "2026-10-24T07:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "b22be550229667dfd65a": {
       "storyId": "b22be550229667dfd65a",
@@ -54972,7 +54972,7 @@
       "image": "https://www.eff.org/files/banner_library/OG-GovernmentHacking-Playpen.png",
       "published": "2026-10-23T22:36:29.000Z",
       "firstSeen": "2026-10-24T07:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "3634c84f7d36aee199dd": {
       "storyId": "3634c84f7d36aee199dd",
@@ -54984,7 +54984,7 @@
       "image": "https://www.eff.org/files/banner_library/OG-GovernmentHacking-Playpen.png",
       "published": "2026-10-23T22:36:46.000Z",
       "firstSeen": "2026-10-24T07:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "585ea363f084ac16178f": {
       "storyId": "585ea363f084ac16178f",
@@ -55020,7 +55020,7 @@
       "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
       "published": "2026-10-24T02:00:00.000Z",
       "firstSeen": "2026-10-24T12:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "900659a2b19d688ec547": {
       "storyId": "900659a2b19d688ec547",
@@ -55068,7 +55068,7 @@
       "image": "https://e3.365dm.com/26/10/1920x1080/skynews-ai-generic_7385212.jpg?20261024035917",
       "published": "2026-10-24T02:49:00.000Z",
       "firstSeen": "2026-10-24T12:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "3e8922c315573e9a1fd9": {
       "storyId": "3e8922c315573e9a1fd9",
@@ -55512,7 +55512,7 @@
       "image": "https://thedispatch.com/wp-content/uploads/2026/10/GettyImages-2253289605.jpg?w=1024",
       "published": "2026-10-26T05:02:00+00:00",
       "firstSeen": "2026-10-26T14:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "6f7a1073a8b8ffd9755d": {
       "storyId": "6f7a1073a8b8ffd9755d",
@@ -55632,7 +55632,7 @@
       "image": "",
       "published": "2026-10-26T11:06:08.000Z",
       "firstSeen": "2026-10-26T20:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "fb8d812fb8441f26943f": {
       "storyId": "fb8d812fb8441f26943f",
@@ -55644,7 +55644,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e394/live/7affbe60-d147-11f1-93e1-3b657b665bcf.jpg",
       "published": "2026-10-26T16:27:17.000Z",
       "firstSeen": "2026-10-26T20:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "9baca4369bbe5d11c93b": {
       "storyId": "9baca4369bbe5d11c93b",
@@ -55668,7 +55668,7 @@
       "image": "",
       "published": "2026-10-26T10:24:20.000Z",
       "firstSeen": "2026-10-26T20:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "54ab6a90455a94bd0bcf": {
       "storyId": "54ab6a90455a94bd0bcf",
@@ -55680,7 +55680,7 @@
       "image": "",
       "published": "2026-10-26T10:06:16.000Z",
       "firstSeen": "2026-10-26T20:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "f724b2722262f732dba9": {
       "storyId": "f724b2722262f732dba9",
@@ -55692,7 +55692,7 @@
       "image": "https://fastly.restofworld.org/uploads/2026/10/Ai-Cost-Languages-3-scaled.png?width=380&dpr=2&crop=16:9",
       "published": "2026-10-26T10:00:22.000Z",
       "firstSeen": "2026-10-26T20:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "7b24a1b229dbebdd6537": {
       "storyId": "7b24a1b229dbebdd6537",
@@ -55740,7 +55740,7 @@
       "image": "https://e3.365dm.com/26/09/1920x1080/skynews-claude-ai_7347723.jpg?20260911092015",
       "published": "2026-10-26T13:09:00.000Z",
       "firstSeen": "2026-10-26T20:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "8cef9d6af68621e1052b": {
       "storyId": "8cef9d6af68621e1052b",
@@ -55764,7 +55764,7 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Cook-County-Sheriffs-Office-X-1152x648-1793033307.jpeg",
       "published": "2026-10-26T17:26:36.000Z",
       "firstSeen": "2026-10-27T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "f693b8e16e53d70171d2": {
       "storyId": "f693b8e16e53d70171d2",
@@ -55776,7 +55776,7 @@
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/10/Untitled-1.png",
       "published": "2026-10-26T15:49:44.000Z",
       "firstSeen": "2026-10-27T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "f805951fdf8d14c66cb7": {
       "storyId": "f805951fdf8d14c66cb7",
@@ -55800,7 +55800,7 @@
       "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-ny-climate-week.jpg?itok=c2Sg2eC6",
       "published": "2026-10-26T19:00:00.000Z",
       "firstSeen": "2026-10-27T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "481b7ca052cab9052b26": {
       "storyId": "481b7ca052cab9052b26",
@@ -55836,7 +55836,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6a4/live/4c5ea950-d15a-11f1-9f24-99bf1cc18b1d.jpg",
       "published": "2026-10-26T19:57:23.000Z",
       "firstSeen": "2026-10-27T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "0873146ef97f06cb3adb": {
       "storyId": "0873146ef97f06cb3adb",
@@ -55848,7 +55848,7 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/roadster-1152x648.jpg",
       "published": "2026-10-26T14:30:27.000Z",
       "firstSeen": "2026-10-27T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "8b2ffe9ee524d56ad6d7": {
       "storyId": "8b2ffe9ee524d56ad6d7",
@@ -55860,7 +55860,7 @@
       "image": "",
       "published": "2026-10-26T14:21:25.000Z",
       "firstSeen": "2026-10-27T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "4ca3041e0bef44d27a44": {
       "storyId": "4ca3041e0bef44d27a44",
@@ -55872,7 +55872,7 @@
       "image": "https://www.eff.org/files/banner_library/competition_reddit_robot.png",
       "published": "2026-10-26T17:20:40.000Z",
       "firstSeen": "2026-10-27T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "8988f05b23400e8d3fbd": {
       "storyId": "8988f05b23400e8d3fbd",
@@ -55896,7 +55896,7 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Radeco-Cerberus-robot-1152x648.jpg",
       "published": "2026-10-26T18:50:41.000Z",
       "firstSeen": "2026-10-27T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "fe6583a778a0b30ba7d2": {
       "storyId": "fe6583a778a0b30ba7d2",
@@ -55932,7 +55932,7 @@
       "image": "https://static.politico.com/ff/68/23916b7b4e318001c9e6712a45ca/https-delivery-gettyimages.com/downloads/2249797221",
       "published": "2026-10-26T14:43:27.000Z",
       "firstSeen": "2026-10-27T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "c703d92e74636f36951a": {
       "storyId": "c703d92e74636f36951a",
@@ -56016,7 +56016,7 @@
       "image": "https://media.wired.com/photos/6adf6d7844b1eb496ab79957/master/pass/Business_The%20Anthropic%20IPO%20Is%20Also%20a%20Doomsday%20Primer_v1.jpg",
       "published": "2026-10-26T16:01:55.000Z",
       "firstSeen": "2026-10-27T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "fcee7fe2ae9bec9bd7c9": {
       "storyId": "fcee7fe2ae9bec9bd7c9",
@@ -56052,7 +56052,7 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Siri-AI-1152x648.png",
       "published": "2026-10-26T20:04:16.000Z",
       "firstSeen": "2026-10-27T00:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "8c9367ccb9864644234b": {
       "storyId": "8c9367ccb9864644234b",
@@ -56160,7 +56160,7 @@
       "image": "https://media.wired.com/photos/6adf8a425d1e509438fb58ec/master/pass/Anthropic3.jpg",
       "published": "2026-10-26T21:27:15.000Z",
       "firstSeen": "2026-10-27T06:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "092e8ceea2bd79fc970f": {
       "storyId": "092e8ceea2bd79fc970f",
@@ -56292,7 +56292,7 @@
       "image": "https://thedispatch.com/wp-content/uploads/2026/10/ailanguage.jpg?w=1024",
       "published": "2026-10-27T05:00:00+00:00",
       "firstSeen": "2026-10-27T13:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "b69e483c562b3a54ebf5": {
       "storyId": "b69e483c562b3a54ebf5",
@@ -56328,7 +56328,7 @@
       "image": "https://media.wired.com/photos/6adbdf82eed013bcc79da54f/master/pass/gear-ai-agent-best.jpg",
       "published": "2026-10-27T09:30:00.000Z",
       "firstSeen": "2026-10-27T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "07bbe664522a5f3802ac": {
       "storyId": "07bbe664522a5f3802ac",
@@ -56340,7 +56340,7 @@
       "image": "",
       "published": "2026-10-27T09:02:57.000Z",
       "firstSeen": "2026-10-27T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "7eda2766ff708e7c1ada": {
       "storyId": "7eda2766ff708e7c1ada",
@@ -56352,7 +56352,7 @@
       "image": "",
       "published": "2026-10-27T10:20:52.000Z",
       "firstSeen": "2026-10-27T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "ec4fabfdd8d1edd82a39": {
       "storyId": "ec4fabfdd8d1edd82a39",
@@ -56412,7 +56412,7 @@
       "image": "",
       "published": "2026-10-27T09:16:50.000Z",
       "firstSeen": "2026-10-27T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "f84db203b806cc6705ea": {
       "storyId": "f84db203b806cc6705ea",
@@ -56436,7 +56436,7 @@
       "image": "",
       "published": "2026-10-27T00:00:00.000Z",
       "firstSeen": "2026-10-27T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "4d7746a3bca6ecc8e96b": {
       "storyId": "4d7746a3bca6ecc8e96b",
@@ -56448,7 +56448,7 @@
       "image": "https://media.wired.com/photos/6adfd6269b54dbfcc0225ffd/master/pass/business_ai_agents_media_audience.jpg",
       "published": "2026-10-27T11:00:00.000Z",
       "firstSeen": "2026-10-27T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "8adce847c5e7e41b7037": {
       "storyId": "8adce847c5e7e41b7037",
@@ -56460,7 +56460,7 @@
       "image": "",
       "published": "2026-10-27T09:22:06.000Z",
       "firstSeen": "2026-10-27T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "eb9bcd2680bc75a99d90": {
       "storyId": "eb9bcd2680bc75a99d90",
@@ -56472,7 +56472,7 @@
       "image": "",
       "published": "2026-10-27T09:48:35.000Z",
       "firstSeen": "2026-10-27T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "13169a7706177611a759": {
       "storyId": "13169a7706177611a759",
@@ -56508,7 +56508,7 @@
       "image": "https://i.guim.co.uk/img/media/92774383fe7ce51c65f27cb958af0171dee508c7/561_20_1550_1241/master/1550.jpg?width=800&dpr=2&s=none&crop=none",
       "published": "2026-10-27T13:01:46.000Z",
       "firstSeen": "2026-10-27T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "1d7ab110e132df8acb6f": {
       "storyId": "1d7ab110e132df8acb6f",
@@ -56520,7 +56520,7 @@
       "image": "",
       "published": "2026-10-27T00:00:00.000Z",
       "firstSeen": "2026-10-27T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "5232e16fe4fec30538da": {
       "storyId": "5232e16fe4fec30538da",
@@ -56532,7 +56532,7 @@
       "image": "",
       "published": "2026-10-27T00:00:00.000Z",
       "firstSeen": "2026-10-27T18:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "60b80798cdac4569f8ec": {
       "storyId": "60b80798cdac4569f8ec",
@@ -56568,7 +56568,7 @@
       "image": "https://media.wired.com/photos/6ada70c6eb086323489423af/master/pass/GettyImages-2275955534.jpg",
       "published": "2026-10-27T15:10:26.000Z",
       "firstSeen": "2026-10-27T22:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "1630e683256dee46dd1e": {
       "storyId": "1630e683256dee46dd1e",
@@ -56640,7 +56640,7 @@
       "image": "https://www.eff.org/files/banner_library/adm-bureaucratic-final-1200x600.jpg",
       "published": "2026-10-27T19:05:42.000Z",
       "firstSeen": "2026-10-27T22:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "77387043f69a853ed6d4": {
       "storyId": "77387043f69a853ed6d4",
@@ -56700,7 +56700,7 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-1152x648.png",
       "published": "2026-10-27T16:00:22.000Z",
       "firstSeen": "2026-10-27T22:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "133651b428e97fdac262": {
       "storyId": "133651b428e97fdac262",
@@ -56724,7 +56724,7 @@
       "image": "https://i.guim.co.uk/img/media/f5bb844cbf76398948b5d3efa0fb0e79205a0c23/408_0_1983_1586/master/1983.jpg?width=800&dpr=2&s=none&crop=none",
       "published": "2026-10-27T14:08:41.000Z",
       "firstSeen": "2026-10-27T22:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "638435266086bc98428f": {
       "storyId": "638435266086bc98428f",
@@ -56736,7 +56736,7 @@
       "image": "https://i.guim.co.uk/img/media/121853e4d08bed46c56e62c752f7dc3127c80dc0/1121_0_6827_5464/master/6827.jpg?width=800&dpr=2&s=none&crop=none",
       "published": "2026-10-27T15:01:14.000Z",
       "firstSeen": "2026-10-27T22:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "cb464d61a73409cb324d": {
       "storyId": "cb464d61a73409cb324d",
@@ -56844,7 +56844,7 @@
       "image": "",
       "published": "2026-10-27T21:20:30.000Z",
       "firstSeen": "2026-10-28T02:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "e734c0e90ec1424e9cd6": {
       "storyId": "e734c0e90ec1424e9cd6",
@@ -56856,7 +56856,7 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/09/robot-phone-headset-1152x648.jpg",
       "published": "2026-10-27T21:50:04.000Z",
       "firstSeen": "2026-10-28T02:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "f74f3a0c358e9a1dab0e": {
       "storyId": "f74f3a0c358e9a1dab0e",
@@ -56880,7 +56880,7 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/anthropic-crystal-ball-1152x648.jpg",
       "published": "2026-10-27T21:31:14.000Z",
       "firstSeen": "2026-10-28T02:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "c725efb1b2c45b80891c": {
       "storyId": "c725efb1b2c45b80891c",
@@ -56892,7 +56892,7 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-615307388-832x648.jpg",
       "published": "2026-10-27T18:49:08.000Z",
       "firstSeen": "2026-10-28T02:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "a660049bd369894dbfc9": {
       "storyId": "a660049bd369894dbfc9",
@@ -56916,7 +56916,7 @@
       "image": "https://i.guim.co.uk/img/media/aaba9471514c493b64cda0d52e0de7fe61c3d279/124_0_3703_2963/master/3703.jpg?width=800&dpr=2&s=none&crop=none",
       "published": "2026-10-27T22:30:45.000Z",
       "firstSeen": "2026-10-28T02:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "578f4a1cc2a6a4ecc178": {
       "storyId": "578f4a1cc2a6a4ecc178",
@@ -56928,7 +56928,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS537_AI_MATH_7.jpg?quality=90&strip=all&crop=0,0,100,100",
       "published": "2026-10-27T20:48:58.000Z",
       "firstSeen": "2026-10-28T02:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "f6bcb634209c36dece37": {
       "storyId": "f6bcb634209c36dece37",
@@ -56940,7 +56940,7 @@
       "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Open-Learning-Prabha-Jha.JPG?itok=UyNc7ADw",
       "published": "2026-10-27T20:55:00.000Z",
       "firstSeen": "2026-10-28T02:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "ff390db43c3b5faf08c1": {
       "storyId": "ff390db43c3b5faf08c1",
@@ -56964,7 +56964,7 @@
       "image": "https://helios-i.mashable.com/imagery/articles/01beWnTNQebDhwmzLXzc06N/hero-image.jpg",
       "published": "2026-10-27T18:35:45.000Z",
       "firstSeen": "2026-10-28T02:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "b1e376bba5838b3f7304": {
       "storyId": "b1e376bba5838b3f7304",
@@ -56976,7 +56976,7 @@
       "image": "https://media.wired.com/photos/6ae0b0627e979e34b657973e/master/pass/102726-Anthropic%20Bio.jpg",
       "published": "2026-10-27T19:39:04.000Z",
       "firstSeen": "2026-10-28T02:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "9a3764356b202945ed7a": {
       "storyId": "9a3764356b202945ed7a",
@@ -57024,7 +57024,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1f6/live/c49501d0-cdf4-11f1-a64c-550be9e3c66b.jpg",
       "published": "2026-10-28T01:01:02.000Z",
       "firstSeen": "2026-10-28T09:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "8128c7853b28b7676e19": {
       "storyId": "8128c7853b28b7676e19",
@@ -57048,7 +57048,7 @@
       "image": "https://media.wired.com/photos/6ae1120223d445186a16d911/master/pass/ai-weather-alerts-emergency.jpg",
       "published": "2026-10-28T08:30:00.000Z",
       "firstSeen": "2026-10-28T16:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "df65cd12f346a5f252dd": {
       "storyId": "df65cd12f346a5f252dd",
@@ -57060,7 +57060,7 @@
       "image": "https://media.wired.com/photos/6ae127707e979e34b6579966/master/pass/Business_Should%20AI%20Decide%20Your%20Court%20Case_%20ThisJudgeSaysYes.gif",
       "published": "2026-10-28T06:00:00.000Z",
       "firstSeen": "2026-10-28T16:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "f53c7c72ecdfd9549fc2": {
       "storyId": "f53c7c72ecdfd9549fc2",
@@ -57072,7 +57072,7 @@
       "image": "https://i.guim.co.uk/img/media/b3e44fb72cc705d89a54b8eb9719b50630ca675c/549_0_5485_4388/master/5485.jpg?width=800&dpr=2&s=none&crop=none",
       "published": "2026-10-28T05:31:55.000Z",
       "firstSeen": "2026-10-28T16:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "9eab77713c3920c6ed1b": {
       "storyId": "9eab77713c3920c6ed1b",
@@ -57084,7 +57084,7 @@
       "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Paris-Smaragdis_01-press.jpg?itok=6wvNzBlz",
       "published": "2026-10-28T04:00:00.000Z",
       "firstSeen": "2026-10-28T16:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "3a0e6f223eff99ed1756": {
       "storyId": "3a0e6f223eff99ed1756",
@@ -57096,7 +57096,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268813_TEXAS_DATA_CENTERS_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
       "published": "2026-10-28T12:00:00.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "e7a296048703a423de13": {
       "storyId": "e7a296048703a423de13",
@@ -57108,7 +57108,7 @@
       "image": "",
       "published": "2026-10-28T12:25:43.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "5315fbef19dff1d49ddd": {
       "storyId": "5315fbef19dff1d49ddd",
@@ -57120,7 +57120,7 @@
       "image": "https://i.guim.co.uk/img/media/348dbc85214c965490fc99f4d07ce31c26d36a5c/389_0_6003_4803/master/6003.jpg?width=800&dpr=2&s=none&crop=none",
       "published": "2026-10-28T15:32:41.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "0eb203cd398d25e6eb9d": {
       "storyId": "0eb203cd398d25e6eb9d",
@@ -57132,7 +57132,7 @@
       "image": "https://helios-i.mashable.com/imagery/articles/06gfs2mM5HF3ntiTJHN3OfN/hero-image.jpg",
       "published": "2026-10-28T17:40:46.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "49587c34002be669a324": {
       "storyId": "49587c34002be669a324",
@@ -57144,7 +57144,7 @@
       "image": "",
       "published": "2026-10-28T10:29:36.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "3db1c51608c54789f54e": {
       "storyId": "3db1c51608c54789f54e",
@@ -57168,7 +57168,7 @@
       "image": "https://media.wired.com/photos/6ad92ed7649bdf60df6fd555/master/pass/culture_macmillon_failed_ai_project.jpg",
       "published": "2026-10-28T10:15:00.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "a7d260144afdff68fb7d": {
       "storyId": "a7d260144afdff68fb7d",
@@ -57180,7 +57180,7 @@
       "image": "https://i.guim.co.uk/img/media/a8bb7ed7e6602f38677e183ed940fad6e2200bc1/176_0_6160_4928/master/6160.jpg?width=800&dpr=2&s=none&crop=none",
       "published": "2026-10-28T10:00:05.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "ba816ae2c66dda0a8ef1": {
       "storyId": "ba816ae2c66dda0a8ef1",
@@ -57192,7 +57192,7 @@
       "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cee-Infrastructure-CambridgeView.jpg?itok=VxEHmdNx",
       "published": "2026-10-28T16:00:00.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "837cfc8c3a669f2e4f7c": {
       "storyId": "837cfc8c3a669f2e4f7c",
@@ -57204,7 +57204,7 @@
       "image": "",
       "published": "2026-10-28T14:55:01.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "bddebf86268f0d308cda": {
       "storyId": "bddebf86268f0d308cda",
@@ -57216,7 +57216,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2289399619.jpg?quality=90&strip=all&crop=0,0,100,100",
       "published": "2026-10-28T14:44:00.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "f0081231c7988dffe7c9": {
       "storyId": "f0081231c7988dffe7c9",
@@ -57228,7 +57228,7 @@
       "image": "https://i.guim.co.uk/img/media/a596cf6ca3a9bbf57916a82d78076b7948a71372/175_0_1753_1403/master/1753.jpg?width=800&dpr=2&s=none&crop=none",
       "published": "2026-10-28T12:00:04.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "29526404518cacde12de": {
       "storyId": "29526404518cacde12de",
@@ -57240,7 +57240,7 @@
       "image": "",
       "published": "2026-10-28T15:53:52.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "54658cffc7663417be69": {
       "storyId": "54658cffc7663417be69",
@@ -57252,7 +57252,7 @@
       "image": "",
       "published": "2026-10-28T15:08:21.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "1583c560106073a3e7c9": {
       "storyId": "1583c560106073a3e7c9",
@@ -57264,7 +57264,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_3_Meta.jpg?quality=90&strip=all&crop=0,0,100,100",
       "published": "2026-10-28T16:15:30.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "17cfaccf3746d4c7bcbd": {
       "storyId": "17cfaccf3746d4c7bcbd",
@@ -57276,7 +57276,7 @@
       "image": "https://i.guim.co.uk/img/media/7521c6ee00cf52e4ccca7e9bc6d2d9babc518727/404_0_1429_1144/master/1429.jpg?width=800&dpr=2&s=none&crop=none",
       "published": "2026-10-28T14:00:05.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "9f07ad53bdac8ba06467": {
       "storyId": "9f07ad53bdac8ba06467",
@@ -57288,7 +57288,7 @@
       "image": "https://helios-i.mashable.com/imagery/articles/01qrJjjgZnhPAMtQYB4xPYI/hero-image.jpg",
       "published": "2026-10-28T17:44:10.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "6eba6831a66f807e1ef9": {
       "storyId": "6eba6831a66f807e1ef9",
@@ -57300,7 +57300,7 @@
       "image": "https://helios-i.mashable.com/imagery/articles/00kkAHFikZzFOemj5abvdPx/images-2.fill.size_256x202.v1793179421.jpg",
       "published": "2026-10-28T10:47:21.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "c3a4cf9faa6dea483a9a": {
       "storyId": "c3a4cf9faa6dea483a9a",
@@ -57312,7 +57312,7 @@
       "image": "https://i.guim.co.uk/img/media/1a3c98277d78595d1da189cd71df191cca462a56/377_0_3451_2761/master/3451.jpg?width=800&dpr=2&s=none&crop=none",
       "published": "2026-10-28T15:00:05.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "3c84bdc9f1b42a292410": {
       "storyId": "3c84bdc9f1b42a292410",
@@ -57324,7 +57324,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Waddle-World-meta-app-hero.jpg?quality=90&strip=all&crop=0,0,100,100",
       "published": "2026-10-28T11:27:30.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "83a93c348b55de589206": {
       "storyId": "83a93c348b55de589206",
@@ -57348,7 +57348,7 @@
       "image": "https://e3.365dm.com/26/10/1920x1080/2372610280574340607_7389883.png?20261028143712",
       "published": "2026-10-28T14:39:00.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "a2a04150535473068f0c": {
       "storyId": "a2a04150535473068f0c",
@@ -57360,7 +57360,7 @@
       "image": "https://static.politico.com/c5/cb/ce1c2f5b418eac7130bb4bc91378/https-delivery-gettyimages.com/downloads/2292626781",
       "published": "2026-10-28T14:00:00.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "5f99dd4b4b82da7a1a41": {
       "storyId": "5f99dd4b4b82da7a1a41",
@@ -57372,7 +57372,7 @@
       "image": "https://e3.365dm.com/24/01/1920x1080/skynews-bim-afolami-mp-conservative_6432111.jpg?20240124185914",
       "published": "2026-10-28T11:01:00.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "309be4c3a7b700fcffbd": {
       "storyId": "309be4c3a7b700fcffbd",
@@ -57384,7 +57384,7 @@
       "image": "",
       "published": "2026-10-28T00:00:00.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "2d159cb0ac202c49a1e9": {
       "storyId": "2d159cb0ac202c49a1e9",
@@ -57396,7 +57396,7 @@
       "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/10/productive-employees-inc-2203204815.jpg",
       "published": "2026-10-28T15:30:00.000Z",
       "firstSeen": "2026-10-28T21:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "e22af108d5a57afd4c8e": {
       "storyId": "e22af108d5a57afd4c8e",
@@ -57408,7 +57408,7 @@
       "image": "",
       "published": "2026-10-28T17:00:04.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "2ea704ca2c0e412df178": {
       "storyId": "2ea704ca2c0e412df178",
@@ -57420,7 +57420,7 @@
       "image": "https://helios-i.mashable.com/imagery/articles/02ASRzt89WkKQa9BjNcmFL5/hero-image.jpg",
       "published": "2026-10-28T17:31:37.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "a37efbf7cd2f6c442d50": {
       "storyId": "a37efbf7cd2f6c442d50",
@@ -57432,7 +57432,7 @@
       "image": "https://helios-i.mashable.com/imagery/articles/00wyH2LmFOgRUTh0lJSP62y/images-1.fill.size_2000x1683.v1793213303.jpg",
       "published": "2026-10-28T19:30:50.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "353dd9ae4406521804ae": {
       "storyId": "353dd9ae4406521804ae",
@@ -57444,7 +57444,7 @@
       "image": "",
       "published": "2026-10-28T21:34:30.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "490073e57670269a1c9c": {
       "storyId": "490073e57670269a1c9c",
@@ -57456,7 +57456,7 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-2-1152x648.jpg",
       "published": "2026-10-28T18:47:27.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "ef243006ac6a7e08f103": {
       "storyId": "ef243006ac6a7e08f103",
@@ -57468,7 +57468,7 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg",
       "published": "2026-10-28T17:46:32.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "7b5653451a244c2d34ef": {
       "storyId": "7b5653451a244c2d34ef",
@@ -57480,7 +57480,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK255_Google_Gemini_A.jpg?quality=90&strip=all&crop=0,0,100,100",
       "published": "2026-10-28T20:03:00.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "a8d38ade1e9972b10573": {
       "storyId": "a8d38ade1e9972b10573",
@@ -57492,7 +57492,7 @@
       "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/10/ai-rollout-overwhelming-inc-498365779.jpg",
       "published": "2026-10-28T19:30:00.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "8c981a7773ea1054fdaf": {
       "storyId": "8c981a7773ea1054fdaf",
@@ -57504,7 +57504,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/copilot.jpg?quality=90&strip=all&crop=0,0,100,100",
       "published": "2026-10-28T18:36:26.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "70f8970fbfdfe187a340": {
       "storyId": "70f8970fbfdfe187a340",
@@ -57516,7 +57516,7 @@
       "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/10/always-on-wearables-inc-1743890155.jpg",
       "published": "2026-10-28T18:41:25.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "cf0b445a13fca74cd4d1": {
       "storyId": "cf0b445a13fca74cd4d1",
@@ -57528,7 +57528,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Akai-MPC-Sample-Key.jpg?quality=90&strip=all&crop=0,0,100,100",
       "published": "2026-10-28T21:34:04.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "8965c562f4d21fcca2b0": {
       "storyId": "8965c562f4d21fcca2b0",
@@ -57540,7 +57540,7 @@
       "image": "https://media.wired.com/photos/6ae108712ec9b10c531020d9/master/pass/business_ai_predict_future.jpg",
       "published": "2026-10-28T18:30:00.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "2c5fcb5691316a28921f": {
       "storyId": "2c5fcb5691316a28921f",
@@ -57552,7 +57552,7 @@
       "image": "",
       "published": "2026-10-28T17:00:00.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "b0b0b86290ad20602242": {
       "storyId": "b0b0b86290ad20602242",
@@ -57564,7 +57564,7 @@
       "image": "",
       "published": "2026-10-28T18:50:39.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "40e02ac52743a94781d1": {
       "storyId": "40e02ac52743a94781d1",
@@ -57576,7 +57576,7 @@
       "image": "",
       "published": "2026-10-28T19:05:46.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "090274bcc4740a7076a1": {
       "storyId": "090274bcc4740a7076a1",
@@ -57588,7 +57588,7 @@
       "image": "",
       "published": "2026-10-28T17:00:00.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "a1a88a3e2d44e65cc687": {
       "storyId": "a1a88a3e2d44e65cc687",
@@ -57600,7 +57600,7 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8265/live/61c9a490-d2e3-11f1-93e1-3b657b665bcf.jpg",
       "published": "2026-10-28T17:51:20.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "7689670b21d5b35e8d49": {
       "storyId": "7689670b21d5b35e8d49",
@@ -57612,7 +57612,7 @@
       "image": "",
       "published": "2026-10-28T21:25:30.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "db30df4bb3be374c7021": {
       "storyId": "db30df4bb3be374c7021",
@@ -57624,7 +57624,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/chrome.jpg?quality=90&strip=all&crop=0,0,100,100",
       "published": "2026-10-28T17:00:00.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "078f5bfc7233df95c6e8": {
       "storyId": "078f5bfc7233df95c6e8",
@@ -57636,7 +57636,7 @@
       "image": "https://www.eff.org/files/banner_library/encrypt_banner-animated-loop.gif",
       "published": "2026-10-28T20:04:21.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "6fd95be9df94f068e335": {
       "storyId": "6fd95be9df94f068e335",
@@ -57648,7 +57648,7 @@
       "image": "https://helios-i.mashable.com/imagery/articles/05J8yY75Ms0aONw3DVDU13m/hero-image.jpg",
       "published": "2026-10-28T16:57:43.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "bb1f2f07f5994d40a024": {
       "storyId": "bb1f2f07f5994d40a024",
@@ -57660,7 +57660,7 @@
       "image": "",
       "published": "2026-10-28T19:19:58.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "f4b434419296a583623d": {
       "storyId": "f4b434419296a583623d",
@@ -57672,7 +57672,7 @@
       "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/10/GettyImages-2285722294.jpg",
       "published": "2026-10-28T21:06:18.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "8580a0f623350a45695a": {
       "storyId": "8580a0f623350a45695a",
@@ -57684,7 +57684,7 @@
       "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/10/elon-musk-skydance-media-inc-2256971457.jpg",
       "published": "2026-10-28T21:00:00.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "a35f53d8b4951c484240": {
       "storyId": "a35f53d8b4951c484240",
@@ -57696,7 +57696,7 @@
       "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/10/tarek-mansour-kalshi-inc-2302253450.jpg",
       "published": "2026-10-28T19:16:45.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "b247a5bbfdcb43638ff9": {
       "storyId": "b247a5bbfdcb43638ff9",
@@ -57708,7 +57708,7 @@
       "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/10/kodiak-self-driving-truck-inc.jpg",
       "published": "2026-10-28T18:19:56.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     },
     "2db0d8b09a5831ab2a03": {
       "storyId": "2db0d8b09a5831ab2a03",
@@ -57720,7 +57720,91 @@
       "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/10/cloudflare-void-vibe-coding-inc-502375632.jpg",
       "published": "2026-10-28T17:22:01.000Z",
       "firstSeen": "2026-10-29T01:00:00.000Z",
-      "lastSeen": "2026-10-29T01:00:00.000Z"
+      "lastSeen": "2026-10-29T08:00:00.000Z"
+    },
+    "ce5d199a1eaddb9ab59b": {
+      "storyId": "ce5d199a1eaddb9ab59b",
+      "currentTitle": "OpenAI launching election war room",
+      "originalTitle": "OpenAI launching election war room",
+      "url": "https://mashable.com/tech/open-ai-launches-midterm-election-war-room",
+      "canonicalUrl": "https://mashable.com/tech/open-ai-launches-midterm-election-war-room",
+      "source": "Mashable AI",
+      "image": "https://helios-i.mashable.com/imagery/articles/07sL0Bp2U16KzHRdepYnpHC/hero-image.jpg",
+      "published": "2026-10-28T21:31:33.000Z",
+      "firstSeen": "2026-10-29T08:00:00.000Z",
+      "lastSeen": "2026-10-29T08:00:00.000Z"
+    },
+    "b6a320917d702cc0ccef": {
+      "storyId": "b6a320917d702cc0ccef",
+      "currentTitle": "We love how we look but AI tried to 'fix' our visible differences",
+      "originalTitle": "We love how we look but AI tried to 'fix' our visible differences",
+      "url": "https://www.bbc.co.uk/news/articles/cmx28e44xxx7o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cmx28e44xxx7o?at_campaign=rss&at_medium=RSS",
+      "source": "BBC News AI",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/162f/live/9c87ca10-d1fa-11f1-93e1-3b657b665bcf.jpg",
+      "published": "2026-10-29T06:13:33.000Z",
+      "firstSeen": "2026-10-29T08:00:00.000Z",
+      "lastSeen": "2026-10-29T08:00:00.000Z"
+    },
+    "be9992c580eab6c9d5c0": {
+      "storyId": "be9992c580eab6c9d5c0",
+      "currentTitle": "Meta launches Waddle World, a Tamagotchi-style AI journal",
+      "originalTitle": "Meta launches Waddle World, a Tamagotchi-style AI journal",
+      "url": "https://mashable.com/tech/meta-waddle-world-ai-pet-journal-app",
+      "canonicalUrl": "https://mashable.com/tech/meta-waddle-world-ai-pet-journal-app",
+      "source": "Mashable AI",
+      "image": "https://helios-i.mashable.com/imagery/articles/02dofXXWKshLB9dXyWMdX9T/hero-image.png",
+      "published": "2026-10-28T21:33:36.000Z",
+      "firstSeen": "2026-10-29T08:00:00.000Z",
+      "lastSeen": "2026-10-29T08:00:00.000Z"
+    },
+    "14bd5a3a69122b7bb700": {
+      "storyId": "14bd5a3a69122b7bb700",
+      "currentTitle": "Google expands AI Search ads globally as core ad growth slows",
+      "originalTitle": "Google expands AI Search ads globally as core ad growth slows",
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "canonicalUrl": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows",
+      "source": "TechCrunch AI",
+      "image": "",
+      "published": "2026-10-28T21:48:37.000Z",
+      "firstSeen": "2026-10-29T08:00:00.000Z",
+      "lastSeen": "2026-10-29T08:00:00.000Z"
+    },
+    "3801bfeec8403796ab0b": {
+      "storyId": "3801bfeec8403796ab0b",
+      "currentTitle": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "originalTitle": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+      "canonicalUrl": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion",
+      "source": "TechCrunch AI",
+      "image": "",
+      "published": "2026-10-28T21:58:32.000Z",
+      "firstSeen": "2026-10-29T08:00:00.000Z",
+      "lastSeen": "2026-10-29T08:00:00.000Z"
+    },
+    "3b64f2126ca310fc1aab": {
+      "storyId": "3b64f2126ca310fc1aab",
+      "currentTitle": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "originalTitle": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "canonicalUrl": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "source": "The Verge AI",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2239561028.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "published": "2026-10-28T23:05:39.000Z",
+      "firstSeen": "2026-10-29T08:00:00.000Z",
+      "lastSeen": "2026-10-29T08:00:00.000Z"
+    },
+    "4ce637ebaeae722e657e": {
+      "storyId": "4ce637ebaeae722e657e",
+      "currentTitle": "Delta Just Replaced the Best Way to Get Customer Service With an AI Chatbot",
+      "originalTitle": "Delta Just Replaced the Best Way to Get Customer Service With an AI Chatbot",
+      "url": "https://www.inc.com/jason-aten/delta-just-replaced-the-best-way-to-get-customer-service-with-an-ai-chatbot/91427502",
+      "canonicalUrl": "https://www.inc.com/jason-aten/delta-just-replaced-the-best-way-to-get-customer-service-with-an-ai-chatbot/91427502",
+      "source": "Inc. AI",
+      "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/10/delta_messages-imagely.jpg",
+      "published": "2026-10-29T01:36:27.000Z",
+      "firstSeen": "2026-10-29T08:00:00.000Z",
+      "lastSeen": "2026-10-29T08:00:00.000Z"
     }
   },
   "formulas": {
@@ -57829,7 +57913,7 @@
       "kind": "body-aware-consequence-severity-v1.3.0",
       "status": "public",
       "firstObservedAt": "2026-08-30T18:00:00.000Z",
-      "lastObservedAt": "2026-10-29T01:00:00.000Z"
+      "lastObservedAt": "2026-10-29T08:00:00.000Z"
     }
   }
 }
