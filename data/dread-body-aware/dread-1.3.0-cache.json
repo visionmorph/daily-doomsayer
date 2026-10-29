@@ -305263,8 +305263,1290 @@
           "vulnerability": 0
         }
       }
+    },
+    "f3117e1d89a120caf342": {
+      "storyId": "f3117e1d89a120caf342",
+      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant",
+      "title": "Rivian expands joint venture with VW to include AI assistant",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T20:05:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "390cc2a80a750c7964498e59",
+      "bodyFingerprint": "03da6ae866c20bf2cd577d0d",
+      "bodyCharacterCount": 5424,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T21:10:13.076Z",
+      "assessment": {
+        "centralEvent": "Rivian expands joint venture with VW to include AI assistant",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Rivian is now licensing elements of its AI voice assistant technology to Volkswagen Group as part of the broader joint venture, according to the company’s third-quarter investor presentation released Thursday.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b35042356bf7a80acb00": {
+      "storyId": "b35042356bf7a80acb00",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience",
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T20:08:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3da7d2f80f359524fea5296f",
+      "bodyFingerprint": "4b9c907e4ac771e0cc162edc",
+      "bodyCharacterCount": 6096,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T21:10:13.082Z",
+      "assessment": {
+        "centralEvent": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "008a80220cea7b641e65": {
+      "storyId": "008a80220cea7b641e65",
+      "url": "https://www.inc.com/kamya-marwah/lovable-shebuilds-women-ai-software-creation/91426273",
+      "title": "What Happens When More Women Build With AI? Lovable’s SheBuilds Is Finding Out",
+      "source": "Inc. AI",
+      "published": "2026-10-29T20:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "890f98fb7734d3f5724fe608",
+      "bodyFingerprint": "23f9b01291e8627c377bd853",
+      "bodyCharacterCount": 169,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-29T21:10:13.106Z",
+      "assessment": {
+        "centralEvent": "What Happens When More Women Build With AI? Lovable’s SheBuilds Is Finding Out",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5229178591e013ae66fa": {
+      "storyId": "5229178591e013ae66fa",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt",
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T19:56:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "66b72b9a8170907cd504d84c",
+      "bodyFingerprint": "91f0f198a6f5c6ab07c8f467",
+      "bodyCharacterCount": 2484,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T21:10:13.113Z",
+      "assessment": {
+        "centralEvent": "OpenAI-backed Thrive Holdings acquires ADT",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics ADT , AI , In Brief , M&A , thrive holdings , Venture November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book befo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8f06908a1271277b7003": {
+      "storyId": "8f06908a1271277b7003",
+      "url": "https://www.inc.com/sadiya-kherani/prada-hand-drawn-campaign-anti-ai-slop-luxury-strategy/91426507",
+      "title": "Prada’s Hand-Drawn Campaign Is a Direct Middle Finger to ‘AI Slop’—And A Shift To Luxury Consumers Actually Value",
+      "source": "Inc. AI",
+      "published": "2026-10-29T19:30:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ea9806926c495e94437c2f8d",
+      "bodyFingerprint": "306588756318cd7f924aa6e0",
+      "bodyCharacterCount": 166,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-29T21:10:13.124Z",
+      "assessment": {
+        "centralEvent": "Prada’s Hand-Drawn Campaign Is a Direct Middle Finger to ‘AI Slop’—And A Shift To Luxury Consumers Actually Value",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5b569cdd6a567fec61c3": {
+      "storyId": "5b569cdd6a567fec61c3",
+      "url": "https://www.inc.com/aaron-mok/this-new-gemini-powered-feature-can-tame-your-crazy-inbox-i-tried-it-on-70000-unread-emails/91419420",
+      "title": "This New Gemini-Powered Feature Can Tame Your Crazy Inbox. I Tried It on 70,000 Unread Emails",
+      "source": "Inc. AI",
+      "published": "2026-10-29T20:21:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1b1ad14f26b74e5b156658d5",
+      "bodyFingerprint": "7b7fc0ee625fc89304091e3c",
+      "bodyCharacterCount": 95,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-29T21:10:13.126Z",
+      "assessment": {
+        "centralEvent": "This New Gemini-Powered Feature Can Tame Your Crazy Inbox. I Tried It on 70,000 Unread Emails",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "79cec0107600d9d54854": {
+      "storyId": "79cec0107600d9d54854",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch",
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T19:14:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "79730afcdb0e8dfcb89966ab",
+      "bodyFingerprint": "6edcd45946effd0cd7a41b6d",
+      "bodyCharacterCount": 4117,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T21:10:13.139Z",
+      "assessment": {
+        "centralEvent": "Meta quietly launches an AI fashion app called Style Sketch",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Rather than relying on random suggestions, users can also select a specific item from their wardrobe and get fresh outfit ideas built around it, according to the app description.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "26f706ca7413458e5352": {
+      "storyId": "26f706ca7413458e5352",
+      "url": "https://www.inc.com/robert-gillespie/draftkings-kids-gambling-ai-responsibility/91427816",
+      "title": "DraftKings Wants Parents to Talk to Kids About Gambling. Brands Using AI Targeting Can’t Hand Off Responsibility That Easily",
+      "source": "Inc. AI",
+      "published": "2026-10-29T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "673f0fd461edd9ff7f6e2e96",
+      "bodyFingerprint": "1fcd4fa7a0ebf45b21b6aa62",
+      "bodyCharacterCount": 189,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-29T21:10:13.146Z",
+      "assessment": {
+        "centralEvent": "DraftKings Wants Parents to Talk to Kids About Gambling. Brands Using AI Targeting Can’t Hand Off Responsibility That Easily",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4aa6b4f10322be2ed130": {
+      "storyId": "4aa6b4f10322be2ed130",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "source": "The Verge AI",
+      "published": "2026-10-29T18:45:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e33db37cc33ddc3b61a83b23",
+      "bodyFingerprint": "b90f355046f212c9a29805e7",
+      "bodyCharacterCount": 3033,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T21:10:13.302Z",
+      "assessment": {
+        "centralEvent": "You can generate and edit Google Docs files directly in Gemini chats now",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a71dbaaeaa7c1f5887ad": {
+      "storyId": "a71dbaaeaa7c1f5887ad",
+      "url": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat",
+      "title": "Trump declares robot imports a national security threat",
+      "source": "Ars Technica AI",
+      "published": "2026-10-29T19:07:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eea65691e746359d3cf297b6",
+      "bodyFingerprint": "4a60c456cf5922df6d8c2b46",
+      "bodyCharacterCount": 5078,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T21:10:13.310Z",
+      "assessment": {
+        "centralEvent": "Trump declares robot imports a national security threat",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Code-execution flaw in UEFI firmware affects most servers on planet Earth Customize",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Now Trump’s directive for the United States and trading partners “to adjust imports of robotics, industrial machinery, and their components” aims to strike new agreements on the issue within 180 days of the proclamation’s date.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "That would likely increase the cost of US manufacturing operations at a time when the United States has become the second largest market in using industrial robots, with the International Federation of Robotics reporting nearly 38,500 new U",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But that FCC action had specifically exempted industrial robot arms and other fixed or stationary robots commonly deployed in automotive factories and logistics warehouses.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But that FCC action had specifically exempted industrial robot arms and other fixed or stationary robots commonly deployed in automotive factories and logistics warehouses.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.09,
+        "rawScore": 29.09,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4625,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "de85bcb379e622371b47": {
+      "storyId": "de85bcb379e622371b47",
+      "url": "https://www.politico.eu/article/mark-carney-canada-ai-investment-national-security-imperative",
+      "title": "Carney frames C$1.6B AI investment as national security imperative",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-29T18:21:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d53770613d0a6a42cd9ecc94",
+      "bodyFingerprint": "daa7926becf3a9262c3c9c97",
+      "bodyCharacterCount": 2496,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T21:10:13.316Z",
+      "assessment": {
+        "centralEvent": "Carney frames C$1.6B AI investment as national security imperative",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1eeaaa19a778c9f88fb6": {
+      "storyId": "1eeaaa19a778c9f88fb6",
+      "url": "https://www.inc.com/peter-economy/ai-can-give-you-the-notes-but-your-best-employees-know-how-to-play-the-song/91426349",
+      "title": "AI Can Give You the Notes but Your Best Employees Know How to Play the Song",
+      "source": "Inc. AI",
+      "published": "2026-10-29T18:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "73e9e8fa5876a8ddb1bd4d0e",
+      "bodyFingerprint": "fdf9b9d67e5dbc4cafd79681",
+      "bodyCharacterCount": 60,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-29T21:10:13.322Z",
+      "assessment": {
+        "centralEvent": "AI Can Give You the Notes but Your Best Employees Know How to Play the Song",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dd6dbab130c2d2ccf209": {
+      "storyId": "dd6dbab130c2d2ccf209",
+      "url": "https://www.inc.com/kit-eaton/openais-sam-altman-told-an-audience-of-students-that-hes-disappointed-in-them-heres-why/91427771",
+      "title": "OpenAI’s Sam Altman Told an Audience of Students That He’s Disappointed in Them. Here’s Why",
+      "source": "Inc. AI",
+      "published": "2026-10-29T18:18:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7d2a7e09a4a424e5ac41d1f7",
+      "bodyFingerprint": "f54da390467bfc0aff7bf215",
+      "bodyCharacterCount": 103,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-29T21:10:13.324Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s Sam Altman Told an Audience of Students That He’s Disappointed in Them. Here’s Why",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e51e6fdf8aaad024aa22": {
+      "storyId": "e51e6fdf8aaad024aa22",
+      "url": "https://www.inc.com/hillary-remy/deploy-ai-agents-business-security-risk-ibm-cost-data-breach/91427576",
+      "title": "How to Deploy AI Without Opening Your Business to Security Risk",
+      "source": "Inc. AI",
+      "published": "2026-10-29T17:24:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2142c57a79789b43d0e05bd4",
+      "bodyFingerprint": "074b18c623e8bcc1c8a1294b",
+      "bodyCharacterCount": 92,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-10-29T21:10:13.341Z",
+      "assessment": {
+        "centralEvent": "How to Deploy AI Without Opening Your Business to Security Risk",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "How to Deploy AI Without Opening Your Business to Security Risk",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3e7c26f588631c0faae7": {
+      "storyId": "3e7c26f588631c0faae7",
+      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr",
+      "title": "Granola crunches up a dictation feature to compete with Wispr",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T17:54:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4d6b39f5b4ef7ba98571af45",
+      "bodyFingerprint": "c3ef299e736466b5f5ffbd52",
+      "bodyCharacterCount": 2586,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T21:10:13.353Z",
+      "assessment": {
+        "centralEvent": "Granola crunches up a dictation feature to compete with Wispr",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , ai dictation , Apps , granola , In Brief , Wispr flow November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "912dfdbd28658cc8a20b": {
+      "storyId": "912dfdbd28658cc8a20b",
+      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system",
+      "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
+      "source": "WIRED AI",
+      "published": "2026-10-29T18:39:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e5cd05ff6876739bb349b33b",
+      "bodyFingerprint": "cdedfa28ee7ceb8cca958554",
+      "bodyCharacterCount": 15165,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T21:10:13.371Z",
+      "assessment": {
+        "centralEvent": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "If the third-party software was compromised, “there could be somebody out there with the ability to log into a secure environment without anyone knowing.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "DOD employees and federal contractors are required to report any cybersecurity incident within 72 hours of its discovery, but sources indicate Accenture did not initially report the breach to the government at all.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It appears that the agent used by the contractor, who is employed by global consulting firm Accenture, then sent information about the DOD system, including login credentials, to a high-risk third-party website.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Boone Ashworth I Gave My Blood to the AI Death Clock Death Clock promises to predict when you’re going to die and help you extend your time on Earth.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 90,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.33,
+        "rawScore": 50.33,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.575,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "990b533cbb64ab7a1489": {
+      "storyId": "990b533cbb64ab7a1489",
+      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo",
+      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T16:42:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "73150f1ad6af8dc0a53bf6fc",
+      "bodyFingerprint": "d90672f2f110cc90ab11eccc",
+      "bodyCharacterCount": 2534,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T21:10:13.389Z",
+      "assessment": {
+        "centralEvent": "US investigated Chinese spy plot aimed at Nvidia CEO",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The concern, sources said, was that Alice Huang had grown so close to Jensen Huang that she could have been gathering information about Nvidia’s plans and the CEO’s efforts to convince the Trump administration to allow it to ship more advan",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , In Brief , Jensen Huang , nvidia November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "But an Nvidia spokesperson denied this, telling TechCrunch that the CEO’s relationship with the Megaspeed executive was the same as with any other regional customer.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "927698c982f0f5113cd1": {
+      "storyId": "927698c982f0f5113cd1",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eddae37958f99ded204d4677",
+      "bodyFingerprint": "149084eb2955c3ebdafbac64",
+      "bodyCharacterCount": 4726,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T21:10:13.397Z",
+      "assessment": {
+        "centralEvent": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The company also claims that the model outranks all other open models when it comes to agentic coding tasks on Artificial Analysis’ Coding Agent Index, an AI benchmarking site.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "68ffd79b6629483f7345": {
+      "storyId": "68ffd79b6629483f7345",
+      "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads",
+      "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+      "source": "Ars Technica AI",
+      "published": "2026-10-29T16:24:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5db6bc1c2d923b7e54c0229c",
+      "bodyFingerprint": "efb9dbdf71e2a9a872572673",
+      "bodyCharacterCount": 5698,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T21:10:13.404Z",
+      "assessment": {
+        "centralEvent": "Google admits AI search makes less money, but it's fixing that with more ads",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Code-execution flaw in UEFI firmware affects most servers on planet Earth Customize",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As of this story’s publication, the stock price is down almost 12 percent, and it was down about 13 percent earlier in the day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "These ads will begin appearing in more international markets soon.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "06fa0e4540548db09e4e": {
+      "storyId": "06fa0e4540548db09e4e",
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction",
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T16:21:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "25d5e1f5bf64a369b166223d",
+      "bodyFingerprint": "fb2a44b0b15c0d2afbc68214",
+      "bodyCharacterCount": 4578,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T21:10:13.428Z",
+      "assessment": {
+        "centralEvent": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Dream has already begun selling its product to AEC professionals and developers, who use the model to conceptualize building designs and estimate overall costs, according to the founders.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "07d3b20e6a5661715d6b": {
+      "storyId": "07d3b20e6a5661715d6b",
+      "url": "https://www.eff.org/deeplinks/2026/10/tech-tips-parents-digital-parenting-week",
+      "title": "Tech Tips for Parents this Digital Parenting Week",
+      "source": "EFF AI",
+      "published": "2026-10-29T17:00:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a28cff0bec61d26c870b0e52",
+      "bodyFingerprint": "c1142512b380f9d198d4c7e6",
+      "bodyCharacterCount": 6695,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-29T21:10:13.545Z",
+      "assessment": {
+        "centralEvent": "Tech Tips for Parents this Digital Parenting Week",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "How bad are the consequences if we fail? e.g, losing some money on a scam or having creepy conversations with strangers that could escalate into something more nefarious or dangerous.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 87,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-29T16:10:58.091Z"
+  "updatedAt": "2026-10-29T21:10:13.546Z"
 }
