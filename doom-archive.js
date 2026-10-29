@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-10-29T16:00:00.000Z",
+  "generatedAt": "2026-10-29T21:00:00.000Z",
   "daily": [
     {
       "period": "2026-10-29",
@@ -17,12 +17,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-29",
           "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
           "average": 70.82
+        },
+        {
+          "storyId": "d62a8f09dced3dd91988",
+          "title": "AI has come for Arizona’s water",
+          "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268658_Data_center_AZ_LEDE_VOSSS50.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 51.65,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-29",
+          "firstObservedAt": "2026-10-29T21:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
+          "average": 51.65
         },
         {
           "storyId": "3bf44cdfb8f59b7f06d5",
@@ -31,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-29",
           "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,12 +59,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-29",
           "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
           "average": 51.15
+        },
+        {
+          "storyId": "7472c3c6cdd911f6bd88",
+          "title": "The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself",
+          "url": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ae2968f0262809bad6615e8/master/pass/Untitled-6.gif",
+          "peak": 50.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-29",
+          "firstObservedAt": "2026-10-29T21:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
+          "average": 50.66
         },
         {
           "storyId": "3a0e6f223eff99ed1756",
@@ -73,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.86,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-29",
           "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
           "average": 49.86
         },
         {
@@ -87,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae1120223d445186a16d911/master/pass/ai-weather-alerts-emergency.jpg",
           "peak": 49.83,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-29",
           "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
           "average": 49.83
         },
         {
@@ -101,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae127707e979e34b6579966/master/pass/Business_Should%20AI%20Decide%20Your%20Court%20Case_%20ThisJudgeSaysYes.gif",
           "peak": 49.5,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-10-29",
           "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
           "average": 49.5
         },
         {
@@ -121,34 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-29T08:00:00.000Z",
           "lastObservedAt": "2026-10-29T16:00:00.000Z",
           "average": 49.25
-        },
-        {
-          "storyId": "5315fbef19dff1d49ddd",
-          "title": "‘Elonville’: US residents say Musk’s xAI offered to buy homes if they don’t sue over datacenter noise",
-          "url": "https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/348dbc85214c965490fc99f4d07ce31c26d36a5c/389_0_6003_4803/master/6003.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 49.23,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-29",
-          "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
-          "average": 49.23
-        },
-        {
-          "storyId": "c185b1f669ce177c88ba",
-          "title": "Who gets to decide if AI is safe? Africa wants a say",
-          "url": "https://restofworld.org/2026/african-leaders-un-security-council-ai-safety/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://fastly.restofworld.org/uploads/2026/09/AI-safety-Nesta.jpg?width=380&dpr=2&crop=16:9",
-          "peak": 49.23,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-10-29",
-          "firstObservedAt": "2026-10-29T08:00:00.000Z",
-          "lastObservedAt": "2026-10-29T08:00:00.000Z",
-          "average": 49.23
         }
       ]
     },
@@ -8864,11 +8864,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 4,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
           "average": 70.82
         },
         {
@@ -8886,17 +8886,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 51.65
         },
         {
+          "storyId": "d62a8f09dced3dd91988",
+          "title": "AI has come for Arizona’s water",
+          "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268658_Data_center_AZ_LEDE_VOSSS50.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 51.65,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-29",
+          "firstObservedAt": "2026-10-29T21:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
+          "average": 51.65
+        },
+        {
           "storyId": "3bf44cdfb8f59b7f06d5",
           "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
           "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 4,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -8906,11 +8920,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 4,
           "peakDate": "2026-10-26",
           "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
           "average": 51.15
         },
         {
@@ -8926,6 +8940,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-10-26T20:00:00.000Z",
           "lastObservedAt": "2026-10-27T13:00:00.000Z",
           "average": 51.15
+        },
+        {
+          "storyId": "7472c3c6cdd911f6bd88",
+          "title": "The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself",
+          "url": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ae2968f0262809bad6615e8/master/pass/Untitled-6.gif",
+          "peak": 50.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-29",
+          "firstObservedAt": "2026-10-29T21:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
+          "average": 50.66
         },
         {
           "storyId": "3a0e6f223eff99ed1756",
@@ -8948,11 +8976,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.86,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T21:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
           "average": 49.86
         },
         {
@@ -8962,40 +8990,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae1120223d445186a16d911/master/pass/ai-weather-alerts-emergency.jpg",
           "peak": 49.83,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-10-28",
           "firstObservedAt": "2026-10-28T16:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
           "average": 49.83
-        },
-        {
-          "storyId": "db05b50ceb26005ac81d",
-          "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-          "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 49.83,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-10-28",
-          "firstObservedAt": "2026-10-28T09:00:00.000Z",
-          "lastObservedAt": "2026-10-28T16:00:00.000Z",
-          "average": 49.83
-        },
-        {
-          "storyId": "c5dd0842d4055c16f4ce",
-          "title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
-          "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6ad971de90e0d6636d239398/master/pass/Security_HackersExploitingPHPBugsforDays-ezgif.com-video-to-gif-converter.gif",
-          "peak": 49.75,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-10-26",
-          "firstObservedAt": "2026-10-26T06:00:00.000Z",
-          "lastObservedAt": "2026-10-26T20:00:00.000Z",
-          "average": 49.75
         }
       ]
     },
@@ -10330,11 +10330,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 26,
+          "observations": 27,
           "daysTracked": 6,
           "peakDate": "2026-10-24",
           "firstObservedAt": "2026-10-24T12:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
           "average": 70.82
         },
         {
@@ -10380,6 +10380,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 51.65
         },
         {
+          "storyId": "d62a8f09dced3dd91988",
+          "title": "AI has come for Arizona’s water",
+          "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268658_Data_center_AZ_LEDE_VOSSS50.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 51.65,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-10-29",
+          "firstObservedAt": "2026-10-29T21:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
+          "average": 51.65
+        },
+        {
           "storyId": "076739a25693e037eaba",
           "title": "The UN's AI Panel Sees Misalignment. We See Corporate (Mis)Behavior.",
           "url": "https://techpolicy.press/the-uns-ai-panel-sees-misalignment-we-see-corporate-misbehavior",
@@ -10414,11 +10428,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 137,
+          "observations": 138,
           "daysTracked": 29,
           "peakDate": "2026-10-01",
           "firstObservedAt": "2026-10-01T05:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -10428,25 +10442,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
           "peak": 51.15,
-          "observations": 38,
+          "observations": 39,
           "daysTracked": 9,
           "peakDate": "2026-10-21",
           "firstObservedAt": "2026-10-22T04:00:00.000Z",
-          "lastObservedAt": "2026-10-29T16:00:00.000Z",
-          "average": 51.15
-        },
-        {
-          "storyId": "6f7a1073a8b8ffd9755d",
-          "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
-          "url": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_Kevin_Roose.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 51.15,
-          "observations": 4,
-          "daysTracked": 2,
-          "peakDate": "2026-10-26",
-          "firstObservedAt": "2026-10-26T20:00:00.000Z",
-          "lastObservedAt": "2026-10-27T13:00:00.000Z",
+          "lastObservedAt": "2026-10-29T21:00:00.000Z",
           "average": 51.15
         }
       ]
