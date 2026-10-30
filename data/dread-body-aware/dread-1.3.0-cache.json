@@ -306545,8 +306545,337 @@
           "vulnerability": 0
         }
       }
+    },
+    "f3faa96e8f7b995be1f0": {
+      "storyId": "f3faa96e8f7b995be1f0",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big",
+      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T23:42:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "39637f1e42a09a2d2b466673",
+      "bodyFingerprint": "1f61544afac19ad3b1bab191",
+      "bodyCharacterCount": 4159,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-30T01:03:56.389Z",
+      "assessment": {
+        "centralEvent": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Amazon’s big spending on its AI infrastructure buildout has been an ongoing source of concern for investors this year.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“With our continued pace of innovation, new core and AI functionality, enterprises wanting to run their core and AI workloads in AWS, and the amount of capacity that we’re adding each year, we believe that AWS can grow north of 40 percent i",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jassy told them it was all money well spent because the e-commerce giant planned to capitalize on a historic moment in global cloud demand driven by AI.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "During Amazon’s quarterly earnings call on Thursday, he repeated this ambition.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.17,
+        "rawScore": 29.17,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "881e4269c1f7163b377d": {
+      "storyId": "881e4269c1f7163b377d",
+      "url": "https://mashable.com/tech/google-stock-drops-q3-earnings-spooked-markets",
+      "title": "Google stock just had its worst day ever: Why the markets are so spooked",
+      "source": "Mashable AI",
+      "published": "2026-10-29T22:28:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e0b82173252782ca19085db1",
+      "bodyFingerprint": "08f6e3a6b0563908449d0417",
+      "bodyCharacterCount": 4308,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-30T01:03:56.405Z",
+      "assessment": {
+        "centralEvent": "Google stock just had its worst day ever: Why the markets are so spooked",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Credit: Benjamin Fanjoy/Bloomberg via Getty Images Alphabet stock recorded its worst-ever day on Thursday, dropping 12.29 percent by close of day; Alphabet is the owner of Google, among other companies.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cacae6cbf6a007bb3099": {
+      "storyId": "cacae6cbf6a007bb3099",
+      "url": "https://www.theguardian.com/technology/2026/oct/29/amazon-earnings-report-mixed-picture",
+      "title": "Amazon gives Wall Street mixed financial picture in earnings report",
+      "source": "The Guardian AI",
+      "published": "2026-10-29T21:23:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "eba6d71ab928983253ac5dbe",
+      "bodyFingerprint": "9174bcd5b425ac92c2c31c61",
+      "bodyCharacterCount": 3645,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-30T01:03:56.472Z",
+      "assessment": {
+        "centralEvent": "Amazon gives Wall Street mixed financial picture in earnings report",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The latest earnings report from Alphabet late Wednesday raised alarm bells when it reported weaker growth for the summer than analysts expected.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7d0eb76b47d2cb63ce7a": {
+      "storyId": "7d0eb76b47d2cb63ce7a",
+      "url": "https://www.theguardian.com/law/2026/oct/30/victorian-lawyers-ai-clients-fees",
+      "title": "More than half of Victorian lawyers use AI – but only a quarter have cut client fees as a result",
+      "source": "The Guardian AI",
+      "published": "2026-10-29T23:00:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7904c0a10bb876ab387c8f9b",
+      "bodyFingerprint": "52430bfd356dc38790ebaff3",
+      "bodyCharacterCount": 5772,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-30T01:03:56.478Z",
+      "assessment": {
+        "centralEvent": "More than half of Victorian lawyers use AI – but only a quarter have cut client fees as a result",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Explore more on these topics Australian law AI (artificial intelligence) Business news Share Reuse this content More on this story More on this story ‘Emotional intimacy’ from AI chatbots would be banned under Australia’s digital duty of ca",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Photograph: Posed by models; Jacob Wackerhausen/Getty Images More than half of Victorian lawyers use AI – but only a quarter have cut client fees as a result Research finds 55% of lawyers are using AI in legal practices, up from 37% last ye",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3b816aa4c782d98b31d2": {
+      "storyId": "3b816aa4c782d98b31d2",
+      "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_campaign=rss&at_medium=RSS",
+      "title": "Google value plunges by $500bn as AI fears rattle Wall Street",
+      "source": "BBC News AI",
+      "published": "2026-10-29T22:17:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e0e0b9812fe19a22047b2ef8",
+      "bodyFingerprint": "8acccf60bcdd62175aa67c00",
+      "bodyCharacterCount": 5308,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-30T01:03:57.191Z",
+      "assessment": {
+        "centralEvent": "Google value plunges by $500bn as AI fears rattle Wall Street",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "By Kali Hays Technology reporter Published 29 October 2026 Google parent Alphabet lost just over $500bn (£374bn) in value on Thursday after it rattled Wall Street with its last update of the year on its business operations.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-29T21:10:13.546Z"
+  "updatedAt": "2026-10-30T01:03:57.191Z"
 }
