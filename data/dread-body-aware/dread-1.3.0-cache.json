@@ -311254,8 +311254,439 @@
           "vulnerability": 0
         }
       }
+    },
+    "aa9a4da2b7657b1edae1": {
+      "storyId": "aa9a4da2b7657b1edae1",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/31/ai-your-wingman-chatbots-transforming-dating",
+      "title": "Is AI your new wingman? How chatbots are transforming dating",
+      "source": "The Guardian AI",
+      "published": "2026-10-31T12:00:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0632b0e01817c6855bbbbe07",
+      "bodyFingerprint": "53eb0e9f30b1377a62d71758",
+      "bodyCharacterCount": 5467,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-31T12:37:53.515Z",
+      "assessment": {
+        "centralEvent": "Is AI your new wingman? How chatbots are transforming dating",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Sam says pressure to make a good impression on dating apps means a misunderstood message could risk him losing out on dates.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Rather than saying: ‘Hey, how’s your weekend going?’ it’s thinking about what I can pick up that might get a response.” The most common use of AI across all cohorts, according to Match, is to get advice about someone they are talking to, p",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Photograph: oatawa/Getty Images/iStockphoto A single mother from New Zealand, who asked to remain anonymous, says she has used AI as a dating mentor.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.43,
+        "rawScore": 25.43,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.13,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e491d34d72154f0e09b4": {
+      "storyId": "e491d34d72154f0e09b4",
+      "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet",
+      "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+      "source": "WIRED AI",
+      "published": "2026-10-31T10:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3b64e22a0050fefc1c974dde",
+      "bodyFingerprint": "8477a9faaae608772a858464",
+      "bodyCharacterCount": 7984,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-31T12:37:53.668Z",
+      "assessment": {
+        "centralEvent": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Many of them last reported earnings before Muse launched and haven’t shared data about it yet.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "47a72f30500379030ef9": {
+      "storyId": "47a72f30500379030ef9",
+      "url": "https://mashable.com/tech/how-to-spot-deepfakes-ai-detection-viral-videos",
+      "title": "How to protect yourself from falling for a deepfake",
+      "source": "Mashable AI",
+      "published": "2026-10-31T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "55ce5b7f9f0880dbdd4e6aeb",
+      "bodyFingerprint": "84cf24624014bd4669c5ce51",
+      "bodyCharacterCount": 16297,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-31T12:37:53.681Z",
+      "assessment": {
+        "centralEvent": "How to protect yourself from falling for a deepfake",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "How to protect yourself from falling for a deepfake",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Does this information appear anywhere else, from anyone with a familiar, credible name attached?",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "As federal oversight lags, state-level regulation and industry-wide content provenance measures are also aiding the battle against deepfakes.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "When it comes to video, don't hunt for glitches, which are being patched out of generative models fast, explains Roei Sherman, senior director of research at cloud security firm Mitiga. \"Every detection tip we publish eventually becomes a l",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "When it comes to video, don't hunt for glitches, which are being patched out of generative models fast, explains Roei Sherman, senior director of research at cloud security firm Mitiga. \"Every detection tip we publish eventually becomes a l",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.94,
+        "rawScore": 46.94,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2675,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "69f3e1526a4d78e59993": {
+      "storyId": "69f3e1526a4d78e59993",
+      "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse",
+      "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+      "source": "WIRED AI",
+      "published": "2026-10-31T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2ad357c7df7727312c98876a",
+      "bodyFingerprint": "92fe676b96e8ec87e2e2cbf6",
+      "bodyCharacterCount": 8618,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-31T12:37:53.690Z",
+      "assessment": {
+        "centralEvent": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The resulting back and forth delayed the procedure, Santero says: A typical brain injection surgery like this takes about 45 minutes, while this experiment lasted slightly longer than an hour.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cfd9c022f552f991968f": {
+      "storyId": "cfd9c022f552f991968f",
+      "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware",
+      "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+      "source": "WIRED AI",
+      "published": "2026-10-31T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "089bb0c19075e0955418b3e1",
+      "bodyFingerprint": "d3d08aaae5524e00471a6cd4",
+      "bodyCharacterCount": 9324,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-31T12:37:53.699Z",
+      "assessment": {
+        "centralEvent": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It’s like a prioritization and analysis function.” Talos flagged the malware using its new CAIRN framework, built to identify hacking tools that incorporate AI capabilities.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Researchers at threat intelligence firm Crowdstrike, for example, recently told WIRED they had seen four distinct hacking groups with varying sophistication—operating in Chinese, Spanish and English, Indonesian, and Russian—using AI tools t",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It was a sensational finding—that is until the worms stopped learning.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.58,
+        "rawScore": 47.58,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b80a3a5c9beb2dd49ca0": {
+      "storyId": "b80a3a5c9beb2dd49ca0",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/31/ai-rely-brain-new-tech-product-lives-boredom",
+      "title": "Relying on AI is rotting your brain. But here’s what you can do about it | Carly Dober",
+      "source": "The Guardian AI",
+      "published": "2026-10-31T08:00:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4846effd105e9389e1c0eb92",
+      "bodyFingerprint": "af69bd0efaf499b727b96313",
+      "bodyCharacterCount": 7670,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-10-31T12:37:53.705Z",
+      "assessment": {
+        "centralEvent": "Relying on AI is rotting your brain. But here’s what you can do about it | Carly Dober",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "However, my immediate concern is a little closer to home.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Some technology, such as large language models (LLMs) and social media that has an infinite scroll algorithm, seem to have a dose effect: too much reliance on this technology can lead to particular cognitive biases being activated, brain ch",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "And with the demands of modern life feeling so overwhelming for so many people, the urge to scroll after a long week or defer to a chatbot because you are exhausted is incredibly seducing.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-31T05:48:35.047Z"
+  "updatedAt": "2026-10-31T12:37:53.705Z"
 }
