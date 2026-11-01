@@ -312546,8 +312546,208 @@
           "vulnerability": 0
         }
       }
+    },
+    "4d43dabb596a0c54e0fa": {
+      "storyId": "4d43dabb596a0c54e0fa",
+      "url": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_campaign=rss&at_medium=RSS",
+      "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
+      "source": "BBC News AI",
+      "published": "2026-11-01T01:37:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ce17923a52ab8fc786f55b0a",
+      "bodyFingerprint": "f0b24f3dbcdbfb4bb5a48fb3",
+      "bodyCharacterCount": 5642,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-01T07:37:12.102Z",
+      "assessment": {
+        "centralEvent": "These firms you've never heard of are feeding fears the AI bubble could burst",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But the trade-off of their model is \"greater financial risk\" in the face of change, said Forrester VP and principal analyst Charlie Dai.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Reuters By Lily Jamali North America Technology correspondent , Reporting from San Francisco Published 5 hours ago A once-obscure corner of the AI ecosystem finds itself in the spotlight – and investors don't all like what the",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Now, the success of these firms hinges on the fate of major AI developers and hyperscalers – even larger data centre operators which neocloud firms often count as key customers. \"There is just an enormous amount of spending getting injected",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "If AI proves to be a bubble – and bursts – neocloud firms \"are definitely going to face collateral damage,\" said Bradley Tusk of Tusk Ventures. 'Guppy-level death' The future of the neoclouds also depend on their ability to keep borrowing, ",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.83,
+        "rawScore": 29.83,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.53,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3ff08ef9d7fe98eb12b3": {
+      "storyId": "3ff08ef9d7fe98eb12b3",
+      "url": "https://www.inc.com/kevin-haynes/worker-unexpected-exemption-from-using-ai-at-work-1-thing-cant-avoid/91429350",
+      "title": "A Worker Got an Unexpected Exemption From Using AI at Work. But There’s 1 Thing He Still Can’t Avoid​‌",
+      "source": "Inc. AI",
+      "published": "2026-11-01T01:31:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d5f5a1fd019153e4d04eafa6",
+      "bodyFingerprint": "6b3b99563cba2846c9c218b3",
+      "bodyCharacterCount": 98,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-01T07:37:12.106Z",
+      "assessment": {
+        "centralEvent": "A Worker Got an Unexpected Exemption From Using AI at Work. But There’s 1 Thing He Still Can’t Avoid​‌",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dd303facb7c61db2d289": {
+      "storyId": "dd303facb7c61db2d289",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm",
+      "title": "Scientists say a forgotten particle may explain why the universe exists",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-01T04:33:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a854947f2a360f0b84f49805",
+      "bodyFingerprint": "3391d03d434257489390688c",
+      "bodyCharacterCount": 9892,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-01T07:37:12.144Z",
+      "assessment": {
+        "centralEvent": "Scientists say a forgotten particle may explain why the universe exists",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As the cosmos cooled after the Big Bang, the particle lived long enough that it temporarily took over the energy density of the universe and triggered a matter-dominated period.\" The findings were published in Physical Review Letters , a sc",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Now, researchers from the University of Southampton and the Indian Institute of Technology Kanpur believe they may have found an important piece of the puzzle.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-01T01:14:01.869Z"
+  "updatedAt": "2026-11-01T07:37:12.144Z"
 }
