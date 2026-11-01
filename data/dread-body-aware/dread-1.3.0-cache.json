@@ -313376,8 +313376,261 @@
           "vulnerability": 0
         }
       }
+    },
+    "e621a5b384ce839c8a49": {
+      "storyId": "e621a5b384ce839c8a49",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "source": "TechCrunch AI",
+      "published": "2026-11-01T21:55:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a5445eaec55507b214c8eb3a",
+      "bodyFingerprint": "8bd43b3413ee28fa82d20250",
+      "bodyCharacterCount": 2354,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-01T23:38:27.433Z",
+      "assessment": {
+        "centralEvent": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , Chris Lehane , Government & Policy , OpenAI November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before th",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8134a8edd77537993de2": {
+      "storyId": "8134a8edd77537993de2",
+      "url": "https://mashable.com/tech/nov-1-claude-ai-professional-e-degree",
+      "title": "Become a Claude power user with this $20 E-Degree",
+      "source": "Mashable AI",
+      "published": "2026-11-01T22:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "109d66db0635b0da105d0142",
+      "bodyFingerprint": "c7235c5a8aad9f90da60eaf1",
+      "bodyCharacterCount": 2988,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-01T23:38:27.438Z",
+      "assessment": {
+        "centralEvent": "Become a Claude power user with this $20 E-Degree",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "This 8-hour E-Degree shows you how it works, how to prompt, how to use it for coding and integrations, and a whole lot more.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c33aab374796d53e0f1d": {
+      "storyId": "c33aab374796d53e0f1d",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else",
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "source": "TechCrunch AI",
+      "published": "2026-11-01T20:57:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "08720a4598eb6225b4e13b20",
+      "bodyFingerprint": "cb438eed915b5b65e0b2fc9c",
+      "bodyCharacterCount": 9009,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-01T23:38:27.444Z",
+      "assessment": {
+        "centralEvent": "AI can make tech CEOs’ lives easier. What about everyone else?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Dazzle AI CEO Marissa Mayer recently became the latest tech CEO to face criticism over seemingly out-of-touch comments extolling the usefulness of AI.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 64,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c877c8bfd2d4eb931b84": {
+      "storyId": "c877c8bfd2d4eb931b84",
+      "url": "https://www.politico.eu/article/eu-quantum-act-boost-europe-tech-competitiveness",
+      "title": "Forget AI, Europe has a plan to win the next tech revolution",
+      "source": "POLITICO Europe AI",
+      "published": "2026-10-31T16:05:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "56e319a5cce6187f8d34e3a1",
+      "bodyFingerprint": "bf5b7d91f939824825e8d08c",
+      "bodyCharacterCount": 4794,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-01T23:38:27.452Z",
+      "assessment": {
+        "centralEvent": "Forget AI, Europe has a plan to win the next tech revolution",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A draft of the November proposal obtained by POLITICO seeks to overcome factors that have constrained Europe’s ambitions in artificial intelligence, including a lack of funding to turn research into commercially viable and competitive produ",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-01T19:44:43.030Z"
+  "updatedAt": "2026-11-01T23:38:27.452Z"
 }
