@@ -312481,8 +312481,73 @@
           "vulnerability": 0
         }
       }
+    },
+    "362d7951270f22867c3f": {
+      "storyId": "362d7951270f22867c3f",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "source": "TechCrunch AI",
+      "published": "2026-10-31T21:41:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "253d3f27dfe8e711921cb13c",
+      "bodyFingerprint": "11ec92ae39bafe04f94b9709",
+      "bodyCharacterCount": 2319,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-01T01:14:01.868Z",
+      "assessment": {
+        "centralEvent": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "What matters is, did we build something that they really love?” And when Levy pressed him on whether AI might affect Apple and its ecosystem more dramatically, with agents potentially making things like apps unnecessary, Ternus replied,”Tha",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "What matters is, did we build something that they really love?” And when Levy pressed him on whether AI might affect Apple and its ecosystem more dramatically, with agents potentially making things like apps unnecessary, Ternus replied,”Tha",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-10-31T21:39:01.811Z"
+  "updatedAt": "2026-11-01T01:14:01.869Z"
 }
