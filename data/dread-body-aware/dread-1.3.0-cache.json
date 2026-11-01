@@ -312746,8 +312746,461 @@
           "vulnerability": 0
         }
       }
+    },
+    "24977e44eece671db36c": {
+      "storyId": "24977e44eece671db36c",
+      "url": "https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb",
+      "title": "AI is stealing Indigenous Australian art and churning out ‘Temu slop’, artist says",
+      "source": "The Guardian AI",
+      "published": "2026-11-01T14:00:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "60a03e0894736e8514271880",
+      "bodyFingerprint": "9ff96b35eb842b5f69091517",
+      "bodyCharacterCount": 5878,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-01T15:14:08.514Z",
+      "assessment": {
+        "centralEvent": "AI is stealing Indigenous Australian art and churning out ‘Temu slop’, artist says",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Janke has also warned of the broader risk of AI reproducing cultural knowledge without regard to its accuracy or appropriate use.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In a submission to the joint select committee inquiry on artificial intelligence, Nava pointed to work by the Wuthathi and Meriam lawyer Terri Janke, an international authority on Indigenous cultural and intellectual property, who has “docu",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In a submission to the joint select committee inquiry on artificial intelligence, Nava pointed to work by the Wuthathi and Meriam lawyer Terri Janke, an international authority on Indigenous cultural and intellectual property, who has “docu",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.63,
+        "rawScore": 27.63,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fc49a5531efa80d9e5c9": {
+      "storyId": "fc49a5531efa80d9e5c9",
+      "url": "https://www.inc.com/tomas-gorny/forget-hiring-an-army-of-holiday-workers-ai-employees-could-help-handle-the-rush/91428318",
+      "title": "Forget Hiring an Army of Holiday Workers. AI Employees Could Help Handle the Rush",
+      "source": "Inc. AI",
+      "published": "2026-11-01T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e5a22c368a0f90b1354936c6",
+      "bodyFingerprint": "a6127ee26ab939d970fb3c46",
+      "bodyCharacterCount": 41,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-01T15:14:08.564Z",
+      "assessment": {
+        "centralEvent": "Forget Hiring an Army of Holiday Workers. AI Employees Could Help Handle the Rush",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "05c032c7a37da0315e19": {
+      "storyId": "05c032c7a37da0315e19",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261030002940.htm",
+      "title": "Scientists shrink Archimedes’ screw to the size of a single molecule",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-01T11:55:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "de3161ba0332695297ee1285",
+      "bodyFingerprint": "04d4981c39c034e76d1a7624",
+      "bodyCharacterCount": 11434,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-01T15:14:08.655Z",
+      "assessment": {
+        "centralEvent": "Scientists shrink Archimedes’ screw to the size of a single molecule",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Using the simulation results, the scientists developed a simplified theoretical model that successfully recreated both the rotation observed in the experiments and the accompanying increase in electrical current.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 85,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "411d627815170b79d07b": {
+      "storyId": "411d627815170b79d07b",
+      "url": "https://mashable.com/tech/how-to-protect-yourself-voice-clones-audio-deepfake",
+      "title": "Voice cloning scams: How to protect yourself from audio deepfakes",
+      "source": "Mashable AI",
+      "published": "2026-11-01T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3637624ac4c6da7d142633a3",
+      "bodyFingerprint": "e14011f922db2b4337fe9b55",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-01T15:14:08.668Z",
+      "assessment": {
+        "centralEvent": "Voice cloning scams: How to protect yourself from audio deepfakes",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Their voices have been cloned, and malicious actors are donning their audio likenesses to scam you out of your personal information, and sometimes cold, hard cash.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In 2025, Americans lost around $148.2 billion to digital crimes, a jump of more than 25 percent from the year before.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Get it wrong once and that is the one that counts,\" Briedis explained. \"Nobody holds that standard across a lifetime, and most security advice assumes they will.\"As an alternative, users can prepare themselves, and their community, to be ab",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Voice cloning tools, previously a standalone novelty tech, are now sold as a single feature in all-encompassing, common criminal toolkits, or \"scam kits,\" experts told Mashable.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 69,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.02,
+        "rawScore": 47.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3a6aaa6215e1db1a2aaa": {
+      "storyId": "3a6aaa6215e1db1a2aaa",
+      "url": "https://mashable.com/tech/nov-1-askanymodel-ai-pro-plan-lifetime-subscription",
+      "title": "Ditch monthly AI bills — compare answers from ChatGPT, Claude, and more for $30",
+      "source": "Mashable AI",
+      "published": "2026-11-01T08:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e3360d7f38979c61fb8d9301",
+      "bodyFingerprint": "5155e95846e407b9f9e8e98a",
+      "bodyCharacterCount": 2788,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-01T15:14:08.675Z",
+      "assessment": {
+        "centralEvent": "Ditch monthly AI bills — compare answers from ChatGPT, Claude, and more for $30",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a4742b8ffcd9363d8501": {
+      "storyId": "a4742b8ffcd9363d8501",
+      "url": "https://news.sky.com/story/national-grid-sparks-deal-to-pave-way-for-giant-uk-data-centre-13606573",
+      "title": "National Grid sparks deal to pave way for giant UK data centre",
+      "source": "Sky News AI",
+      "published": "2026-11-01T07:43:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c5d63e00e8d565326740d578",
+      "bodyFingerprint": "7aa971320677eeb15ea3768a",
+      "bodyCharacterCount": 212,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-01T15:14:08.750Z",
+      "assessment": {
+        "centralEvent": "National Grid sparks deal to pave way for giant UK data centre",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9cc601c88b93f2dfebba": {
+      "storyId": "9cc601c88b93f2dfebba",
+      "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences",
+      "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
+      "source": "WIRED AI",
+      "published": "2026-11-01T10:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4b8febed909ee9cfa9769d75",
+      "bodyFingerprint": "242be34396ebc474c1cd6786",
+      "bodyCharacterCount": 8400,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-01T15:14:08.769Z",
+      "assessment": {
+        "centralEvent": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Will Knight AI Is Getting Really Good at Messing With Cybercriminals Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It’s still unclear how questionable advice from a robot will influence all those people, he added.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Grand Teton National Park in Wyoming has also seen a marked uptick over the past year in the percentage of visitors who report using AI for travel information, said Park Superintendent Chip Jenkins.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.03,
+        "rawScore": 46.03,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-01T07:37:12.144Z"
+  "updatedAt": "2026-11-01T15:14:08.769Z"
 }
