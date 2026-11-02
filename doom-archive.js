@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-02T06:00:00.000Z",
+  "generatedAt": "2026-11-02T16:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-02",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 70.82
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 51.23
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae2968f0262809bad6615e8/master/pass/Untitled-6.gif",
           "peak": 50.66,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 50.66
         },
         {
@@ -73,12 +73,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif",
           "peak": 50.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 50.33
+        },
+        {
+          "storyId": "c063c2f3517d60612df9",
+          "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
+          "peak": 48.84,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-11-02",
+          "firstObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
+          "average": 48.84
         },
         {
           "storyId": "302d921a2ed3f90f56d5",
@@ -95,31 +109,17 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 48.84
         },
         {
-          "storyId": "c063c2f3517d60612df9",
-          "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
-          "peak": 48.84,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-02",
-          "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
-          "average": 48.84
-        },
-        {
           "storyId": "7a2ff422d91cef5c48f9",
           "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
           "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae34b392cfd29b998d6a112/master/pass/Business_Mistral%20Says%20Its%20%E2%80%98Le%20Chonk%E2%80%99%20Model%20Can%20Outperform%20Top%20Chinese%20Models%20in%20Coding%20and%20Cybersecurity_v3.jpg",
           "peak": 48.73,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 48.73
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.59,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 48.59
         }
       ]
@@ -9444,11 +9444,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 70.82
         },
         {
@@ -9458,11 +9458,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 51.23
         },
         {
@@ -9486,11 +9486,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae2968f0262809bad6615e8/master/pass/Untitled-6.gif",
           "peak": 50.66,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 50.66
         },
         {
@@ -9500,12 +9500,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif",
           "peak": 50.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 50.33
+        },
+        {
+          "storyId": "c063c2f3517d60612df9",
+          "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
+          "peak": 48.84,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-11-02",
+          "firstObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
+          "average": 48.84
         },
         {
           "storyId": "302d921a2ed3f90f56d5",
@@ -9522,31 +9536,17 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 48.84
         },
         {
-          "storyId": "c063c2f3517d60612df9",
-          "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
-          "peak": 48.84,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-02",
-          "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
-          "average": 48.84
-        },
-        {
           "storyId": "7a2ff422d91cef5c48f9",
           "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
           "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae34b392cfd29b998d6a112/master/pass/Business_Mistral%20Says%20Its%20%E2%80%98Le%20Chonk%E2%80%99%20Model%20Can%20Outperform%20Top%20Chinese%20Models%20in%20Coding%20and%20Cybersecurity_v3.jpg",
           "peak": 48.73,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 48.73
         },
         {
@@ -9570,11 +9570,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.59,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 48.59
         }
       ]
@@ -11041,11 +11041,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 70.82
         },
         {
@@ -11055,11 +11055,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 51.23
         },
         {
@@ -11083,11 +11083,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae2968f0262809bad6615e8/master/pass/Untitled-6.gif",
           "peak": 50.66,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 50.66
         },
         {
@@ -11097,12 +11097,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif",
           "peak": 50.33,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 50.33
+        },
+        {
+          "storyId": "c063c2f3517d60612df9",
+          "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
+          "peak": 48.84,
+          "observations": 6,
+          "daysTracked": 2,
+          "peakDate": "2026-11-01",
+          "firstObservedAt": "2026-11-01T07:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
+          "average": 48.84
         },
         {
           "storyId": "302d921a2ed3f90f56d5",
@@ -11119,31 +11133,17 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 48.84
         },
         {
-          "storyId": "c063c2f3517d60612df9",
-          "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
-          "peak": 48.84,
-          "observations": 5,
-          "daysTracked": 2,
-          "peakDate": "2026-11-01",
-          "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
-          "average": 48.84
-        },
-        {
           "storyId": "7a2ff422d91cef5c48f9",
           "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
           "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae34b392cfd29b998d6a112/master/pass/Business_Mistral%20Says%20Its%20%E2%80%98Le%20Chonk%E2%80%99%20Model%20Can%20Outperform%20Top%20Chinese%20Models%20in%20Coding%20and%20Cybersecurity_v3.jpg",
           "peak": 48.73,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 48.73
         },
         {
@@ -11167,11 +11167,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.59,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-02T16:00:00.000Z",
           "average": 48.59
         }
       ]
