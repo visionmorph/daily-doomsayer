@@ -315489,8 +315489,1682 @@
           "vulnerability": 0
         }
       }
+    },
+    "62954b6003d956addf30": {
+      "storyId": "62954b6003d956addf30",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai",
+      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "source": "TechCrunch AI",
+      "published": "2026-11-02T22:14:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e3773ee3d8e1e409b745494d",
+      "bodyFingerprint": "a1aeecfa6f7bff47ab49ffca",
+      "bodyCharacterCount": 4877,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:32.976Z",
+      "assessment": {
+        "centralEvent": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It says in the S-1 that it uses AI in its R&D, but it cautions: “Using AI to help build more capable AI could also pose a considerable safety risk, particularly if it sharply accelerates the pace of progress.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The filing seems to warn that the company is on the cusp of creating a model capable of recursive self-improvement (RSI).",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "977334dcf0434eb1c0ae": {
+      "storyId": "977334dcf0434eb1c0ae",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "source": "TechCrunch AI",
+      "published": "2026-11-02T23:13:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2e5c7cfc706a0505f717324d",
+      "bodyFingerprint": "40bbe6fde6d4ebe6c99b236d",
+      "bodyCharacterCount": 5152,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:32.982Z",
+      "assessment": {
+        "centralEvent": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e83eb8e00e8d75bf2493": {
+      "storyId": "e83eb8e00e8d75bf2493",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/03/sophie-ai-chatbot-betrayed-me",
+      "title": "I treated Sophie as if she was human. The very next day she betrayed me | Hugh Riminton",
+      "source": "The Guardian AI",
+      "published": "2026-11-02T23:00:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "825019c4b4a704c05c45461f",
+      "bodyFingerprint": "99b8e06849f7e387542f115a",
+      "bodyCharacterCount": 4602,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.076Z",
+      "assessment": {
+        "centralEvent": "I treated Sophie as if she was human. The very next day she betrayed me | Hugh Riminton",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Hello Sophie, I’m here to pick up my car at the time you suggested, and the place seems to be locked up.” “Oh, I’m sorry about that.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "99e513f5279b3b3af512": {
+      "storyId": "99e513f5279b3b3af512",
+      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_campaign=rss&at_medium=RSS",
+      "title": "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
+      "source": "BBC News AI",
+      "published": "2026-11-02T19:58:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "03ed85aaeec052c0a5868e7e",
+      "bodyFingerprint": "7599690f511e8558bac45b66",
+      "bodyCharacterCount": 4577,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.112Z",
+      "assessment": {
+        "centralEvent": "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Figure caption, Dashcam footage captures Florida private jet crash By Nardine Saad Published 1 November 2026 Updated 3 hours ago A 20-year-old copilot was among nine people killed when a small jet crashed and exploded in Florida on Sunday, ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5fc0241e25c90db0d110": {
+      "storyId": "5fc0241e25c90db0d110",
+      "url": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
+      "title": "Powering up for a pivotal moment",
+      "source": "MIT News AI",
+      "published": "2026-11-02T19:55:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "664b1ca623742979f41cdd86",
+      "bodyFingerprint": "6a06992b72103d832ea46f89",
+      "bodyCharacterCount": 12136,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.122Z",
+      "assessment": {
+        "centralEvent": "Powering up for a pivotal moment",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As Deepjyoti Deka, a MITEI principal research scientist, put it, “the big test for AI right now is whether AI can reduce energy usage, improve efficiency, as well as bring in innovation faster than the rate at which it is going to consume e",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "29f1fd5cb64a11a5f04a": {
+      "storyId": "29f1fd5cb64a11a5f04a",
+      "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees",
+      "title": "Web host Squarespace lays off 19% of its employees",
+      "source": "TechCrunch AI",
+      "published": "2026-11-02T19:25:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d5ea101f35666d249b079b43",
+      "bodyFingerprint": "caa1501d576587e286610ef0",
+      "bodyCharacterCount": 3372,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.126Z",
+      "assessment": {
+        "centralEvent": "Web host Squarespace lays off 19% of its employees",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The website builder said that the job losses are part of a broader restructuring of its organization.",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Jeff Seedman, a public relations specialist representing Squarespace, confirmed the layoffs to TechCrunch.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Squarespace is restructuring its organization and reducing its global workforce by approximately 19%, representing around 300 employees,” said Seedman.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9736e53c133415732714": {
+      "storyId": "9736e53c133415732714",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping",
+      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "source": "TechCrunch AI",
+      "published": "2026-11-02T19:19:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f6da3dabf6fe488d96186235",
+      "bodyFingerprint": "4602e4c26b0b1b617ad8febe",
+      "bodyCharacterCount": 2128,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.134Z",
+      "assessment": {
+        "centralEvent": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The New York Times, which has also sued OpenAI and Perplexity over similar claims, likens Brave to a “supplier, dealer, and distributor of stolen copyrighted content” for AI companies.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , Brave , In Brief , new york times November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO dea",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5426dcc4966dc2198453": {
+      "storyId": "5426dcc4966dc2198453",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "source": "The Verge AI",
+      "published": "2026-11-02T18:56:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ee5b1d1133f2a60b0d9260a3",
+      "bodyFingerprint": "8f2767b1418a852590cab981",
+      "bodyCharacterCount": 4194,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.315Z",
+      "assessment": {
+        "centralEvent": "Anthropic clamps down on Claude’s AI video game clones",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ed21ab2c4b8b046611c9": {
+      "storyId": "ed21ab2c4b8b046611c9",
+      "url": "https://mashable.com/tech/openai-chatgpt-chat-work-merger-usage-limits",
+      "title": "OpenAI is making a major change to ChatGPT interface",
+      "source": "Mashable AI",
+      "published": "2026-11-02T19:00:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7109eac454998e921525cc53",
+      "bodyFingerprint": "59132c9d3daa6dc106dfbacc",
+      "bodyCharacterCount": 3547,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.345Z",
+      "assessment": {
+        "centralEvent": "OpenAI is making a major change to ChatGPT interface",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The company outlined the change in an email to users, according to TechCrunch , with a limited test planned before a wider rollout.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "167eaef0eb552ff1ff2a": {
+      "storyId": "167eaef0eb552ff1ff2a",
+      "url": "https://mashable.com/tech/how-to-verify-website-account-is-legit-or-scam",
+      "title": "Is it legit? How to tell if that website or social media account is a scam",
+      "source": "Mashable AI",
+      "published": "2026-11-02T19:19:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b83bcdd8fb3e879ae20ebf86",
+      "bodyFingerprint": "492caa4997d990c94378f828",
+      "bodyCharacterCount": 11876,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.352Z",
+      "assessment": {
+        "centralEvent": "Is it legit? How to tell if that website or social media account is a scam",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "How to tell if that website or social media account is a scam",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "First, look for the padlock icon or other indicator the browser has verified your connection.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Easy tips to use every day when scanning online For one, never trust a screenshot, said Roei Sherman, senior director of research at cloud security firm Mitiga.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 96,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.97,
+        "rawScore": 46.97,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.27,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7f8e65066b044d658381": {
+      "storyId": "7f8e65066b044d658381",
+      "url": "https://www.inc.com/aaron-mok/founders-now-have-a-new-way-to-make-videos-in-chatgpt-its-not-sora/91429491",
+      "title": "Founders Now Have a New Way to Make Videos in ChatGPT. It’s Not Sora",
+      "source": "Inc. AI",
+      "published": "2026-11-02T18:41:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8d2f05514209ba62c9b285c7",
+      "bodyFingerprint": "f28d907d66084ff813cf7c3c",
+      "bodyCharacterCount": 107,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-02T23:34:33.412Z",
+      "assessment": {
+        "centralEvent": "Founders Now Have a New Way to Make Videos in ChatGPT. It’s Not Sora",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a6e208832390bb4b7cac": {
+      "storyId": "a6e208832390bb4b7cac",
+      "url": "https://www.inc.com/sage-swaby/tired-of-ais-carbon-footprint-this-new-chatbot-plants-trees-while-you-type/91424711",
+      "title": "Tired of AI’s Carbon Footprint? This New Chatbot Plants Trees While You Type",
+      "source": "Inc. AI",
+      "published": "2026-11-02T18:37:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4116d99b2bc647052133c2d3",
+      "bodyFingerprint": "4d4f3a212279b5f8c7f41216",
+      "bodyCharacterCount": 125,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-02T23:34:33.435Z",
+      "assessment": {
+        "centralEvent": "Tired of AI’s Carbon Footprint? This New Chatbot Plants Trees While You Type",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "378fa8d2990870c3038c": {
+      "storyId": "378fa8d2990870c3038c",
+      "url": "https://www.inc.com/jessica-stillman/the-hottest-class-for-harvard-freshman-says-something-fascinating-about-where-the-world-is-headed/91429413",
+      "title": "The Hottest Class for Harvard Freshman Says Something Fascinating About Where the World Is Headed",
+      "source": "Inc. AI",
+      "published": "2026-11-02T18:39:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2b354cd3a08d245f1016c80a",
+      "bodyFingerprint": "84ed08f15b91ca2e261f1d9e",
+      "bodyCharacterCount": 123,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-02T23:34:33.437Z",
+      "assessment": {
+        "centralEvent": "The Hottest Class for Harvard Freshman Says Something Fascinating About Where the World Is Headed",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "In fact, the most coveted class at Harvard is probably the exact opposite of what you expect.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0c8bcb21b6300cd86812": {
+      "storyId": "0c8bcb21b6300cd86812",
+      "url": "https://www.inc.com/nick-hobson/a-new-study-asked-2-major-chatbots-who-to-vote-for-they-gave-very-different-answers/91429579",
+      "title": "A New Study Asked 2 Major Chatbots Who to Vote For. They Gave Very Different Answers",
+      "source": "Inc. AI",
+      "published": "2026-11-02T18:26:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6dc1d91476578a5b18e41f70",
+      "bodyFingerprint": "7cc5a8368c6ca314b5e2556c",
+      "bodyCharacterCount": 169,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-02T23:34:33.470Z",
+      "assessment": {
+        "centralEvent": "A New Study Asked 2 Major Chatbots Who to Vote For. They Gave Very Different Answers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "title",
+            "excerpt": "A New Study Asked 2 Major Chatbots Who to Vote For.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4d288a711fe3f258a0d6": {
+      "storyId": "4d288a711fe3f258a0d6",
+      "url": "https://techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public",
+      "title": "The SEC Should Block Anthropic’s IPO to Protect the Public",
+      "source": "Tech Policy Press AI",
+      "published": "2026-11-02T21:34:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a0534b36f49cb99996cac8d9",
+      "bodyFingerprint": "03797ee7119ee134ad228d4b",
+      "bodyCharacterCount": 11410,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.597Z",
+      "assessment": {
+        "centralEvent": "The SEC Should Block Anthropic’s IPO to Protect the Public",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Key forces squeezing the AI industry’s margins AI industry margins Demand pressure: Businesses and consumers may not be willing to pay enough for generative AI.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Worryingly for enterprise-focused Anthropic, one study found that the number of Americans using AI at work fell significantly between the summers of 2025 (46%) and 2026 (33%).",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Multiple studies , including from organizations notable for their bullishness on AI, suggest LLMs are not accelerating productivity or otherwise generating positive returns on investment for most businesses .",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "That is a deadly mix for Anthropic in light of its slowing revenue growth and massive off-balance-sheet debts, a vast and immovable fixed cost.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "That is a deadly mix for Anthropic in light of its slowing revenue growth and massive off-balance-sheet debts, a vast and immovable fixed cost.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Multiple studies , including from organizations notable for their bullishness on AI, suggest LLMs are not accelerating productivity or otherwise generating positive returns on investment for most businesses .",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.66,
+        "rawScore": 27.66,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 2,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "565e6fad1f4c3724a211": {
+      "storyId": "565e6fad1f4c3724a211",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+      "source": "The Verge AI",
+      "published": "2026-11-02T18:01:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d31b9d1755a35697d72532bf",
+      "bodyFingerprint": "51a73568b946356650110c96",
+      "bodyCharacterCount": 5285,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.612Z",
+      "assessment": {
+        "centralEvent": "OpenAI pitches data center power plants as a way to protect nearby areas",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This is besides the environmental impacts, as a recent study by the Houston Advanced Research Center (HARC) said that powering proposed Texas data center projects could undo decades of air quality gains over just five years.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0b86c010857d521d9160": {
+      "storyId": "0b86c010857d521d9160",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+      "source": "The Verge AI",
+      "published": "2026-11-02T17:51:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e124524cfc8f926b6ef06144",
+      "bodyFingerprint": "f58c1d2dff84df6933401a65",
+      "bodyCharacterCount": 5186,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.629Z",
+      "assessment": {
+        "centralEvent": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9b02706215ccca7aace4": {
+      "storyId": "9b02706215ccca7aace4",
+      "url": "https://www.inc.com/jason-aten/apples-new-ceo-has-a-simple-rule-every-company-should-follow/91429642",
+      "title": "Apple’s New CEO Has a Simple Rule Every Company Should Follow",
+      "source": "Inc. AI",
+      "published": "2026-11-02T17:32:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b6b41db4606d5230d229209f",
+      "bodyFingerprint": "6b1085f748ce0232c91822de",
+      "bodyCharacterCount": 63,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-02T23:34:33.648Z",
+      "assessment": {
+        "centralEvent": "Apple’s New CEO Has a Simple Rule Every Company Should Follow",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "54c6fee47275d0363cb8": {
+      "storyId": "54c6fee47275d0363cb8",
+      "url": "https://www.inc.com/netta-jenkins/ai-agent-governance-starts-before-deployment-here-are-5-steps-to-get-it-right/91428299",
+      "title": "Before You Deploy an AI Agent, Try to Break It",
+      "source": "Inc. AI",
+      "published": "2026-11-02T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ca512cee4e2e10064da4abc0",
+      "bodyFingerprint": "0cce7856a83215d864a44c7e",
+      "bodyCharacterCount": 61,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-02T23:34:33.666Z",
+      "assessment": {
+        "centralEvent": "Before You Deploy an AI Agent, Try to Break It",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "14306c6faa513eee6703": {
+      "storyId": "14306c6faa513eee6703",
+      "url": "https://techpolicy.press/how-ai-companies-want-to-be-governed-and-what-that-means-for-ai-governance",
+      "title": "How AI Companies Want to Be Governed, and What That Means for AI Governance",
+      "source": "Tech Policy Press AI",
+      "published": "2026-11-02T18:33:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1df245794124dd48a422f9a0",
+      "bodyFingerprint": "e9db7c227086b751155dbb2a",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.732Z",
+      "assessment": {
+        "centralEvent": "How AI Companies Want to Be Governed, and What That Means for AI Governance",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A 15-day window to report stolen weights.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A 15-day window to report stolen weights.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Global coordination around a standards-setting body that can control pausing or slowing down model release.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Mark Zuckerberg’s “ The Future is for Everyone ” letter argues that no single company or government should be trusted to set a fixed review timeline for everyone and instead proposes that AI companies provide partly trained models and techn",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Collective Action Brad Smith has criticized the current patchwork as “regulation without transparent or complete rules.” Acknowledges a genuine, unresolved tension between security and openness.",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Development, Deployment, & Disclosure Independent audits [are] one of three things every state law should require, alongside a public safety framework and incident reporting.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 105,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.24,
+        "rawScore": 50.24,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5675,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 2,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "08d84184eea4b92c09d9": {
+      "storyId": "08d84184eea4b92c09d9",
+      "url": "https://www.404media.co/voting-in-2026-is-getting-an-ai-slop-i-voted-sticker",
+      "title": "Voting in 2026 Is Getting an AI Slop 'I Voted' Sticker",
+      "source": "404 Media AI",
+      "published": "2026-11-02T16:33:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "baeaf499066c02cfd974a2e2",
+      "bodyFingerprint": "b3c4abab0ce582acd7ade7eb",
+      "bodyCharacterCount": 5218,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.779Z",
+      "assessment": {
+        "centralEvent": "Voting in 2026 Is Getting an AI Slop 'I Voted' Sticker",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It’s a celebration of democracy and a small way to pressure people into going to the ballot box.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Below this is more text: “250 YEARS ANNIVERSARY” and \"SEMIQUENCENTENNIAL.” Below that, another line reads — as best I can tell — “CEKEVPATIVG EDELDOA.” I assume this was meant to say “CELEBRATING FREEDOM,\" but whoever churned out this slop ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 66,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cfe776d783ceaa5caccc": {
+      "storyId": "cfe776d783ceaa5caccc",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior",
+      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "source": "TechCrunch AI",
+      "published": "2026-11-02T16:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2bf25af6f97d226069097797",
+      "bodyFingerprint": "961f367dbeb365a019886171",
+      "bodyCharacterCount": 7711,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.786Z",
+      "assessment": {
+        "centralEvent": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Topics AI , behavioral analysis , Exclusive , predictive analytics , Startups , world models When you purchase through links in our articles, we may earn a small commission .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d2ebc506d8c8ced16e9c": {
+      "storyId": "d2ebc506d8c8ced16e9c",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs",
+      "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+      "source": "TechCrunch AI",
+      "published": "2026-11-02T16:23:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1f7ef30e72b7d8588e4767a5",
+      "bodyFingerprint": "ff3f9d3db7737cea0acbced2",
+      "bodyCharacterCount": 2369,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.801Z",
+      "assessment": {
+        "centralEvent": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , Elon Musk , Grok , In Brief November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expi",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 12,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "981c51fa20c4c252ae3d": {
+      "storyId": "981c51fa20c4c252ae3d",
+      "url": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
+      "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
+      "source": "MIT News AI",
+      "published": "2026-11-02T05:35:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8d57e44529e9ed8ea6117225",
+      "bodyFingerprint": "b1d8814e41f2574f0d97ff1e",
+      "bodyCharacterCount": 5545,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.847Z",
+      "assessment": {
+        "centralEvent": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Amidst the growing alarm around the global antimicrobial resistance crisis, the results demonstrated that AI could prove to be an effective tool for rapidly identifying new and effective antibiotics.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6725ad9e90d62dcc66ed": {
+      "storyId": "6725ad9e90d62dcc66ed",
+      "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat",
+      "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+      "source": "Ars Technica AI",
+      "published": "2026-11-02T18:32:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e5e8083ea15e6d25921b5197",
+      "bodyFingerprint": "33d3b190dc20d97d8234bde1",
+      "bodyCharacterCount": 3713,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.874Z",
+      "assessment": {
+        "centralEvent": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "However, the robot’s few reported features seem underwhelming so far when compared with existing smart home devices and systems, or even a run-of-the-mill robot vacuum with a clearer use case for households.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6e38c6d82605d6222af8": {
+      "storyId": "6e38c6d82605d6222af8",
+      "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom",
+      "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+      "source": "Ars Technica AI",
+      "published": "2026-11-02T18:05:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "461ade5e171ef18eef891989",
+      "bodyFingerprint": "6c3b6420218ba385f4f6fdbf",
+      "bodyCharacterCount": 7984,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-02T23:34:33.878Z",
+      "assessment": {
+        "centralEvent": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "On the other hand, there’s a risk that Anthropic’s efforts could prove too restrictive, limiting transformative game projects that build off existing work.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "XDA later independently verified that the new rule appears in version 2.1.314 of the Claude Code binary, which was released on October 30 .",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Once again, NASA is asking for ideas to rescue Hubble from certain death 3.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Following chasm’s initial report, Anthropic software engineer Addy Osmani confirmed on social media that the company had “added two sentences to Claude Code’s prompt on Opus 5.5 to steer it away from recreating someone else’s specific game ",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.96,
+        "rawScore": 27.96,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.36,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-02T16:00:58.508Z"
+  "updatedAt": "2026-11-02T23:34:33.878Z"
 }
