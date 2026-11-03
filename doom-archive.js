@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-03T06:00:00.000Z",
+  "generatedAt": "2026-11-03T15:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-03",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 70.82
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 51.23
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif",
           "peak": 50.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 50.33
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 50.24
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 49.01
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
           "peak": 48.84,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 48.84
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6adfc11328ba980ed3d0219a/master/pass/Security_ChinaAppsBehindDeepFakes_v1.jpg",
           "peak": 48.67,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 48.67
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.59,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 48.59
         }
       ]
@@ -9589,11 +9589,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 70.82
         },
         {
@@ -9603,11 +9603,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 51.23
         },
         {
@@ -9645,11 +9645,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif",
           "peak": 50.33,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 50.33
         },
         {
@@ -9659,11 +9659,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 50.24
         },
         {
@@ -9673,11 +9673,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T23:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 49.01
         },
         {
@@ -9687,11 +9687,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
           "peak": 48.84,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 48.84
         },
         {
@@ -11186,11 +11186,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 70.82
         },
         {
@@ -11200,11 +11200,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 51.23
         },
         {
@@ -11242,11 +11242,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif",
           "peak": 50.33,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 50.33
         },
         {
@@ -11256,11 +11256,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 50.24
         },
         {
@@ -11270,11 +11270,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T23:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 49.01
         },
         {
@@ -11284,11 +11284,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
           "peak": 48.84,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
+          "lastObservedAt": "2026-11-03T15:00:00.000Z",
           "average": 48.84
         },
         {
