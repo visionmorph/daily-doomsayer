@@ -319508,8 +319508,1841 @@
           "vulnerability": 0
         }
       }
+    },
+    "8fdb108aaca7ce7da2d4": {
+      "storyId": "8fdb108aaca7ce7da2d4",
+      "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+      "title": "Don’t be fooled by the fake hair on these famous baldies",
+      "source": "The Verge AI",
+      "published": "2026-11-03T21:01:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8ac4d229f574fc282ac9c52a",
+      "bodyFingerprint": "63c2538943cb443f83e22c15",
+      "bodyCharacterCount": 6750,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.710Z",
+      "assessment": {
+        "centralEvent": "Don’t be fooled by the fake hair on these famous baldies",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jess Weatherbed AI News Tech Web Most Popular Most Popular One of Google’s Android partners turned 1.3 million set-top boxes into a botnet Xbox’s former COO has ‘serious concerns’ about her abrupt departure The 2026 iPad Mini is a terrific ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ec51e351ec2747a241f3": {
+      "storyId": "ec51e351ec2747a241f3",
+      "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+      "title": "Apple starts giving Siri AI access to third-party apps",
+      "source": "The Verge AI",
+      "published": "2026-11-03T20:16:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8412f253683fdaf7499a667e",
+      "bodyFingerprint": "1edac5a14d918020aa0bc71a",
+      "bodyCharacterCount": 3966,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.731Z",
+      "assessment": {
+        "centralEvent": "Apple starts giving Siri AI access to third-party apps",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth AI Apple Apps Mobile News Tech Most Popular Most Popular One of Google’s Android partners turned 1.3 million set-top boxes into a botnet Xbox’s former COO has ‘serious concerns’ about her abrupt departure The 2026 iPad Mini is a t",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e9f81d7b8157d0594ee1": {
+      "storyId": "e9f81d7b8157d0594ee1",
+      "url": "https://www.theguardian.com/technology/2026/nov/03/google-search-artificial-intelligence",
+      "title": "Google says there’s no way to use Search without using artificial intelligence",
+      "source": "The Guardian AI",
+      "published": "2026-11-03T20:30:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3cf13b7864dd89407f586011",
+      "bodyFingerprint": "49e772e5894fb522becdd751",
+      "bodyCharacterCount": 4353,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.779Z",
+      "assessment": {
+        "centralEvent": "Google says there’s no way to use Search without using artificial intelligence",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "One of the new features Google announced today was Guided Learning, an AI study tool that “coaches students through the process of problem solving” rather than giving them the answer.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d876112b6943310b8aef": {
+      "storyId": "d876112b6943310b8aef",
+      "url": "https://www.inc.com/sage-swaby/google-plans-to-make-ai-overviews-even-worse-but-you-can-avoid-them/91429634",
+      "title": "Google Plans to Make AI Overviews Even Worse. But You Can Avoid Them",
+      "source": "Inc. AI",
+      "published": "2026-11-03T20:30:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6651f33b41d1613b5454c017",
+      "bodyFingerprint": "ccc4d510669a4228b7bd49cb",
+      "bodyCharacterCount": 192,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-03T21:02:15.781Z",
+      "assessment": {
+        "centralEvent": "Google Plans to Make AI Overviews Even Worse. But You Can Avoid Them",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "661f7cba25c7352c4789": {
+      "storyId": "661f7cba25c7352c4789",
+      "url": "https://www.theguardian.com/business/2026/nov/03/hackers-63bn-binance-heist-malware-bogus-job-interviews-cryptocurrency",
+      "title": "Hackers behind $6.3bn Binance heist ‘used malware and bogus job interviews’",
+      "source": "The Guardian AI",
+      "published": "2026-11-03T19:00:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ce68a3e250b9726d7205b574",
+      "bodyFingerprint": "2f95522585210eabb00cba3a",
+      "bodyCharacterCount": 3729,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.799Z",
+      "assessment": {
+        "centralEvent": "Hackers behind $6.3bn Binance heist ‘used malware and bogus job interviews’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Hackers behind $6.3bn Binance heist ‘used malware and bogus job interviews’",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to an update Binance released on Tuesday, the hackers got their first foothold in the summer when a company engineer inadvertently downloaded malware that exposed the employee’s role and that of others in the team that looked afte",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“It is a grave political provocation against the DPRK that the US misleads international public opinion as if all the cybercrimes in different parts of the world are our deeds.” Explore more on these topics Binance Cryptocurrencies E-commer",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "64e891378c13ac062e9f": {
+      "storyId": "64e891378c13ac062e9f",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges",
+      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "source": "TechCrunch AI",
+      "published": "2026-11-03T19:34:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "038a963be00397c27b316f67",
+      "bodyFingerprint": "b14075ccdcb7844c3196df62",
+      "bodyCharacterCount": 2559,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.804Z",
+      "assessment": {
+        "centralEvent": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , Bessemer Venture Partners , inference , infrastructure , Startups November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner f",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e96cef6b06a192cd7e51": {
+      "storyId": "e96cef6b06a192cd7e51",
+      "url": "https://www.inc.com/scott-hutcheson/ai-can-teach-employees-but-can-it-really-help-them-grow/91428681",
+      "title": "AI Can Teach Employees. But Can It Really Help Them Grow?",
+      "source": "Inc. AI",
+      "published": "2026-11-03T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dd33a6b7abfe54c99bcd770b",
+      "bodyFingerprint": "08b775a2aa6126256ad2f3bd",
+      "bodyCharacterCount": 60,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-03T21:02:15.833Z",
+      "assessment": {
+        "centralEvent": "AI Can Teach Employees. But Can It Really Help Them Grow?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d05cff2b935d0ed4bfcd": {
+      "storyId": "d05cff2b935d0ed4bfcd",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood",
+      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "source": "TechCrunch AI",
+      "published": "2026-11-03T18:42:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7103c1d8f6690170c93fbffd",
+      "bodyFingerprint": "01bdc405c4288b8b27c0dab6",
+      "bodyCharacterCount": 3928,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.842Z",
+      "assessment": {
+        "centralEvent": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular A",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "24379856c459e00abd66": {
+      "storyId": "24379856c459e00abd66",
+      "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back",
+      "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
+      "source": "Ars Technica AI",
+      "published": "2026-11-03T20:39:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fa3ccfe7113f9c17b45d35ce",
+      "bodyFingerprint": "214381d402f03e53057ff8fc",
+      "bodyCharacterCount": 4698,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.850Z",
+      "assessment": {
+        "centralEvent": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Now, state-owned telecommunications company Rostelcom has raised the possibility of moving some Russian data centers underground in talks with the nickel and palladium mining company Norilsk, according to Russian newspaper Vedomosti .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav Russian tech companies are scrambling to harden and hide their data centers underground after Ukrai",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "That marks a notable policy change because Putin and the Russian parliament previously enacted Russia’s “ Sovereign Internet Law, ” which has blocked Russian companies from using cloud computing infrastructure outside Russia’s borders.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3d8dcd9da9a1edd068b1": {
+      "storyId": "3d8dcd9da9a1edd068b1",
+      "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+      "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+      "source": "The Verge AI",
+      "published": "2026-11-03T18:31:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b5a17bd5bfa0313e7b2fad30",
+      "bodyFingerprint": "70b67688847a0b6588548da5",
+      "bodyCharacterCount": 4526,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.858Z",
+      "assessment": {
+        "centralEvent": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Stevie Bonifield AI Apple Gadgets News Smartwatch Tech Wearable Most Popular Most Popular One of Google’s Android partners turned 1.3 million set-top boxes into a botnet Xbox’s former COO has ‘serious concerns’ about her abrupt departure Th",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dd1d9cb4e66e85b0eb6a": {
+      "storyId": "dd1d9cb4e66e85b0eb6a",
+      "url": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
+      "title": "Building connections across the research infrastructure",
+      "source": "MIT News AI",
+      "published": "2026-11-03T19:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cd5ed9337e53f4354d60de7b",
+      "bodyFingerprint": "1d098a8db151156c0a26b759",
+      "bodyCharacterCount": 10119,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.864Z",
+      "assessment": {
+        "centralEvent": "Building connections across the research infrastructure",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "At MIT.nano alone, NEMO supports more than 1,600 active researchers using more than 200 tools, with approximately 160,000 hours of tool usage each year.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 56,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b4080f358f8f7c5cf81b": {
+      "storyId": "b4080f358f8f7c5cf81b",
+      "url": "https://www.theguardian.com/news/audio/2026/nov/03/cold-war-why-are-fridges-being-hacked-and-what-could-be-next-the-latest",
+      "title": "Cold war? Why are fridges being hacked and what could be next? - The Latest",
+      "source": "The Guardian AI",
+      "published": "2026-11-03T18:21:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "826d2a9dc72bc9ca5e61c4b0",
+      "bodyFingerprint": "b866aca9a9500c7c6669529f",
+      "bodyCharacterCount": 857,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.873Z",
+      "assessment": {
+        "centralEvent": "Cold war? Why are fridges being hacked and what could be next? - The Latest",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Why are fridges being hacked and what could be next? - The Latest",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Supermarket fridges and freezers in several European countries have malfunctioned after a reported cyber-attack, with their thermostats remotely cranked up.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Lucy Hough speaks to global tech reporter Aisha Down – watch on YouTube Continue reading...",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Supermarket fridges and freezers in several European countries have malfunctioned after a reported cyber-attack, with their thermostats remotely cranked up.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 10,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.74,
+        "rawScore": 47.74,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.34,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "62ed14364f0e88ad623d": {
+      "storyId": "62ed14364f0e88ad623d",
+      "url": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
+      "title": "Indie games are missing launch dates because Steam is backed up",
+      "source": "The Verge AI",
+      "published": "2026-11-03T18:14:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "95f1e12bb3f0e89ecafb1ab4",
+      "bodyFingerprint": "a7f2e4b158d54fcd76417296",
+      "bodyCharacterCount": 4835,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.879Z",
+      "assessment": {
+        "centralEvent": "Indie games are missing launch dates because Steam is backed up",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Valve says on a Steam developer website that a review of a game’s store presence “typically takes 3-5 business days to complete,” though the company suggests submitting a page for review “at least 7 business days before you want it live to ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2a746fdcd099abae656f": {
+      "storyId": "2a746fdcd099abae656f",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "title": "OpenAI says ChatGPT is catching up to Google in search",
+      "source": "The Verge AI",
+      "published": "2026-11-03T18:30:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "55406f4d3f8e2511cae3de82",
+      "bodyFingerprint": "8d49b3bd266441189c4bb201",
+      "bodyCharacterCount": 4965,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.891Z",
+      "assessment": {
+        "centralEvent": "OpenAI says ChatGPT is catching up to Google in search",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI has defended its ads in the past, and Fry told reporters they hadn’t produced a lasting backlash.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hayden Field AI Google OpenAI Report Tech Most Popular Most Popular One of Google’s Android partners turned 1.3 million set-top boxes into a botnet Xbox’s former COO has ‘serious concerns’ about her abrupt departure The 2026 iPad Mini is a ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c01265aacc1a10af6e56": {
+      "storyId": "c01265aacc1a10af6e56",
+      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+      "title": "Google is entirely disabling Search in schools that don’t want AI",
+      "source": "The Verge AI",
+      "published": "2026-11-03T17:00:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "049c4df4d164ec36479b9bbe",
+      "bodyFingerprint": "a2b619087e5f09cb2036f002",
+      "bodyCharacterCount": 4808,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.908Z",
+      "assessment": {
+        "centralEvent": "Google is entirely disabling Search in schools that don’t want AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth AI Google News Tech Most Popular Most Popular One of Google’s Android partners turned 1.3 million set-top boxes into a botnet Xbox’s former COO has ‘serious concerns’ about her abrupt departure The 2026 iPad Mini is a terrific tin",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c968c83100b75a67cad3": {
+      "storyId": "c968c83100b75a67cad3",
+      "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+      "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+      "source": "The Verge AI",
+      "published": "2026-11-03T18:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "437dbe7fdf83183d1745425a",
+      "bodyFingerprint": "bf534285e3d3f5acce7320d1",
+      "bodyCharacterCount": 3287,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.915Z",
+      "assessment": {
+        "centralEvent": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The company says that AI Discover is powered by “a new intelligence layer we’ve been building that responds to what members tell us in real time and keeps learning.” AI Discover, which will show up as a “Discover” tab along your top menu, i",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "56d477bb7172cb5d5db6": {
+      "storyId": "56d477bb7172cb5d5db6",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute",
+      "title": "Anthropic is still grappling with the economics of compute",
+      "source": "TechCrunch AI",
+      "published": "2026-11-03T17:07:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "505fb8fff51cc964046c26fa",
+      "bodyFingerprint": "3954bc00fcbc1eb476f0a59b",
+      "bodyCharacterCount": 5354,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.921Z",
+      "assessment": {
+        "centralEvent": "Anthropic is still grappling with the economics of compute",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "As the new filing puts it, “We expect compute and infrastructure expenses to increase in absolute dollars and remain our largest operating expense for the foreseeable future as additional committed compute becomes available to us under mult",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e3aeb1451c8b24c4386f": {
+      "storyId": "e3aeb1451c8b24c4386f",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/03/datacentres-are-deeply-unpopular-so-the-geniuses-at-openai-are-rebranding-them",
+      "title": "Datacentres are deeply unpopular – so the geniuses at OpenAI are rebranding them | Arwa Mahdawi",
+      "source": "The Guardian AI",
+      "published": "2026-11-03T16:58:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ba9ed8ac47120ddd7e9c0e3a",
+      "bodyFingerprint": "2ac4a55867da029c8135f213",
+      "bodyCharacterCount": 5235,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.931Z",
+      "assessment": {
+        "centralEvent": "Datacentres are deeply unpopular – so the geniuses at OpenAI are rebranding them | Arwa Mahdawi",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "That’s not a random date; it’s when the National Republican Senatorial Committee sent out a memo warning that animosity towards the industry could hurt pro-datacentre Republican candidates in the midterms.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A 2017 Morning Consult study found that a third of Americans had no idea that the ACA and Obamacare were the same things.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "People around the world are increasingly nervous about AI.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.08,
+        "rawScore": 27.08,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "31f5b2ce230bd9a5bc2f": {
+      "storyId": "31f5b2ce230bd9a5bc2f",
+      "url": "https://www.inc.com/kamya-marwah/expert-ai-clone-strategy-jodie-cook-coachvox/91429800",
+      "title": "Jodie Cook Built an AI Clone That Managed 5,000 Coaching Conversations While She Slept",
+      "source": "Inc. AI",
+      "published": "2026-11-03T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c928fb83e5dd555855df47bd",
+      "bodyFingerprint": "228764335a574f8a8a31499b",
+      "bodyCharacterCount": 168,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-03T21:02:15.939Z",
+      "assessment": {
+        "centralEvent": "Jodie Cook Built an AI Clone That Managed 5,000 Coaching Conversations While She Slept",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b3b7fa6c1f3dcbf6ed06": {
+      "storyId": "b3b7fa6c1f3dcbf6ed06",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too",
+      "title": "Google will let schools skip AI tools, but they have to give up search, too",
+      "source": "Ars Technica AI",
+      "published": "2026-11-03T17:54:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5933422721e351b4f74b39b6",
+      "bodyFingerprint": "b36be9e86ed9804b87c786b5",
+      "bodyCharacterCount": 3754,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.946Z",
+      "assessment": {
+        "centralEvent": "Google will let schools skip AI tools, but they have to give up search, too",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5fb7488de8910ebe9bc3": {
+      "storyId": "5fb7488de8910ebe9bc3",
+      "url": "https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news",
+      "title": "Midterm elections 2026: all the news",
+      "source": "The Verge AI",
+      "published": "2026-11-03T15:58:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a6474446bd00bfc3ff23439e",
+      "bodyFingerprint": "c237747d384b7dcd0db6cf44",
+      "bodyCharacterCount": 16820,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.965Z",
+      "assessment": {
+        "centralEvent": "Midterm elections 2026: all the news",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Among them are concerns about data centers, and whether voters will have to bear the burden of higher energy costs, AI safety, and the rapid expansion of surveillance technology through Flock.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "According to The Guardian , the campaign they’re funding is spending over $1 million per day trying to defeat Proposition 40 , which would enact a one-time 5 percent tax on California’s billionaires .",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The national average for a gallon of gasoline is $4.12 and $6.28 for a gallon of diesel, according to GasBuddy.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Several artists asked to appear at the forum declined out of fear for their livelihoods, according to House Judiciary Committee Ranking Member Jamie Raskin (D-MD), who co-hosted the forum with Senate Homeland Security permanent subcommittee",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "According to The Guardian , the campaign they’re funding is spending over $1 million per day trying to defeat Proposition 40 , which would enact a one-time 5 percent tax on California’s billionaires .",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 106,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.66,
+        "rawScore": 49.66,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.515,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0258c4a6a8796918028e": {
+      "storyId": "0258c4a6a8796918028e",
+      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search",
+      "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+      "source": "TechCrunch AI",
+      "published": "2026-11-03T16:30:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a4553182ffb5d08ff4d29e18",
+      "bodyFingerprint": "88fa77c4f9acb935124eb8b0",
+      "bodyCharacterCount": 3664,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.974Z",
+      "assessment": {
+        "centralEvent": "Google will let schools disable its AI tools, but not without sacrificing Search",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular A",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dd125cf04518033b4969": {
+      "storyId": "dd125cf04518033b4969",
+      "url": "https://www.theguardian.com/food/2026/nov/03/bakers-and-cake-lovers-have-you-used-ai-for-inspiration",
+      "title": "Bakers and cake lovers: have you used AI for inspiration?",
+      "source": "The Guardian AI",
+      "published": "2026-11-03T16:42:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d65274c38ed2e33766779a14",
+      "bodyFingerprint": "a816df3357b7f31a6dea1954",
+      "bodyCharacterCount": 1711,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.978Z",
+      "assessment": {
+        "centralEvent": "Bakers and cake lovers: have you used AI for inspiration?",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "03ad66ba1fba6125878e": {
+      "storyId": "03ad66ba1fba6125878e",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
+      "title": "Apple is all in on AI — its own and everyone else’s",
+      "source": "The Verge AI",
+      "published": "2026-11-03T15:24:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "701a512100618165a7f29172",
+      "bodyFingerprint": "53d40d09b8f05bc5e0591767",
+      "bodyCharacterCount": 8594,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:15.987Z",
+      "assessment": {
+        "centralEvent": "Apple is all in on AI — its own and everyone else’s",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hawkins Oct 30 Most Popular Most Popular One of Google’s Android partners turned 1.3 million set-top boxes into a botnet Xbox’s former COO has ‘serious concerns’ about her abrupt departure The 2026 iPad Mini is a terrific tiny tablet — for ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c40ef06463fd80465ef4": {
+      "storyId": "c40ef06463fd80465ef4",
+      "url": "https://www.inc.com/phil-rosen/apple-magnificent-7-stock-spending-iphone-nvidia-microsoft-meta/91429487",
+      "title": "Apple Is Beating Every Magnificent 7 Stock. It’s Not Winning the Spending Race",
+      "source": "Inc. AI",
+      "published": "2026-11-03T15:06:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "748c792f5054150ca7a84c0d",
+      "bodyFingerprint": "a9faf0393ed83af78232f0ce",
+      "bodyCharacterCount": 58,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-03T21:02:15.994Z",
+      "assessment": {
+        "centralEvent": "Apple Is Beating Every Magnificent 7 Stock. It’s Not Winning the Spending Race",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7caab5e9f7407b2f647f": {
+      "storyId": "7caab5e9f7407b2f647f",
+      "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up",
+      "title": "Apple restricts dating apps and AI companions to users 18 and up",
+      "source": "TechCrunch AI",
+      "published": "2026-11-03T15:38:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6fafe1714426ca50f35e7b20",
+      "bodyFingerprint": "aa89bae567e618f02c6cd474",
+      "bodyCharacterCount": 3517,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:16.004Z",
+      "assessment": {
+        "centralEvent": "Apple restricts dating apps and AI companions to users 18 and up",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular A",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0cae8a5da85a1ce69ae5": {
+      "storyId": "0cae8a5da85a1ce69ae5",
+      "url": "https://news.sky.com/story/ai-toys-should-be-banned-over-child-harm-fears-say-mps-as-they-urge-retailers-to-remove-them-13607511",
+      "title": "MPs urge online retailers to stop selling AI toys over child harm fears",
+      "source": "Sky News AI",
+      "published": "2026-11-03T15:10:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6372670c650f828f14c6dd86",
+      "bodyFingerprint": "032b74782240b751fca64791",
+      "bodyCharacterCount": 183,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-03T21:02:16.041Z",
+      "assessment": {
+        "centralEvent": "MPs urge online retailers to stop selling AI toys over child harm fears",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "AI toys with built-in chatbots could expose children to psychological harms and inappropriate material, according to MPs and peers who are urging Amazon and eBay to stop selling them.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6b9c8b8fc6472db124c1": {
+      "storyId": "6b9c8b8fc6472db124c1",
+      "url": "https://www.inc.com/ash-kumra/an-nba-championship-coach-uses-ai-every-day-his-reason-is-surprisingly-simple/91429816",
+      "title": "An NBA Championship Coach Uses AI Every Day. His Reason Is Surprisingly Simple",
+      "source": "Inc. AI",
+      "published": "2026-11-03T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f0589c24286f48f656fd1796",
+      "bodyFingerprint": "92df368f3bc294a51126bddf",
+      "bodyCharacterCount": 70,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-03T21:02:16.043Z",
+      "assessment": {
+        "centralEvent": "An NBA Championship Coach Uses AI Every Day. His Reason Is Surprisingly Simple",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e6f0d32f7a7ae4ddc7c7": {
+      "storyId": "e6f0d32f7a7ae4ddc7c7",
+      "url": "https://techpolicy.press/the-incident-report-is-becoming-a-building-block-of-ai-governance",
+      "title": "The Incident Report Is Becoming a Building Block of AI Governance",
+      "source": "Tech Policy Press AI",
+      "published": "2026-11-03T14:57:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "351d324ced03c33d3c449898",
+      "bodyFingerprint": "bcaac1f8b795f31357153936",
+      "bodyCharacterCount": 13297,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-03T21:02:17.021Z",
+      "assessment": {
+        "centralEvent": "The Incident Report Is Becoming a Building Block of AI Governance",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "None were processed, the department said its systems were never compromised, and Anthropic reported the episode to the government itself, alongside several other unintended actions its models had taken during testing.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "On October 27, the ranking Democrats on the House Energy and Commerce, Science, Space and Technology, and Judiciary committees asked Anthropic, Google, Meta, OpenAI, and SpaceXSI to notify their committees within 48 hours of discovering a c",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The next day, the National Institute of Standards and Technology (NIST)', the National Security Agency, and the Cybersecurity and Infrastructure Security Agency published voluntary practices for preparing for and responding to incidents dur",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The federal government is now building another way in, one that starts with what happened, why it happened, what stopped it, and whether anyone has seen it before.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Police criticized what they described as a roughly two-month delay in detecting and reporting the incident.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 106,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.84,
+        "rawScore": 48.84,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-03T15:12:38.907Z"
+  "updatedAt": "2026-11-03T21:02:17.021Z"
 }
