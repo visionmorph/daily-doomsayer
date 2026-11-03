@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-03T15:00:00.000Z",
+  "generatedAt": "2026-11-03T21:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-03",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 70.82
         },
         {
@@ -31,12 +31,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "930f302b2638ee1ebe2c",
+          "title": "Don’t Let ‘Misaligned’ and ‘Rogue’ Agents Obscure Corporate Accountability in OpenAI–Hugging Face Probes",
+          "url": "https://techpolicy.press/dont-let-misaligned-and-rogue-agents-obscure-corporate-accountability-in-openai-hugging-face-probes",
+          "source": "Tech Policy Press AI",
+          "image": "",
+          "peak": 51.07,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-03",
+          "firstObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "average": 51.07
         },
         {
           "storyId": "7472c3c6cdd911f6bd88",
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif",
           "peak": 50.33,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 50.33
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 50.24
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 49.01
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
           "peak": 48.84,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 48.84
         },
         {
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6adfc11328ba980ed3d0219a/master/pass/Security_ChinaAppsBehindDeepFakes_v1.jpg",
           "peak": 48.67,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 48.67
-        },
-        {
-          "storyId": "07bbe664522a5f3802ac",
-          "title": "What to Do About the Coming Glut of AI Data Centers",
-          "url": "https://techpolicy.press/what-to-do-about-the-coming-glut-of-ai-data-centers",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 48.59,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-11-03",
-          "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
-          "average": 48.59
         }
       ]
     },
@@ -9589,11 +9589,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 70.82
         },
         {
@@ -9603,11 +9603,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -9623,6 +9623,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
           "lastObservedAt": "2026-11-02T06:00:00.000Z",
           "average": 51.15
+        },
+        {
+          "storyId": "930f302b2638ee1ebe2c",
+          "title": "Don’t Let ‘Misaligned’ and ‘Rogue’ Agents Obscure Corporate Accountability in OpenAI–Hugging Face Probes",
+          "url": "https://techpolicy.press/dont-let-misaligned-and-rogue-agents-obscure-corporate-accountability-in-openai-hugging-face-probes",
+          "source": "Tech Policy Press AI",
+          "image": "",
+          "peak": 51.07,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-03",
+          "firstObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "average": 51.07
         },
         {
           "storyId": "7472c3c6cdd911f6bd88",
@@ -9645,11 +9659,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif",
           "peak": 50.33,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 50.33
         },
         {
@@ -9659,11 +9673,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 50.24
         },
         {
@@ -9673,11 +9687,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T23:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 49.01
         },
         {
@@ -9687,11 +9701,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
           "peak": 48.84,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 48.84
         },
         {
@@ -9707,20 +9721,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
           "lastObservedAt": "2026-11-02T06:00:00.000Z",
           "average": 48.84
-        },
-        {
-          "storyId": "7a2ff422d91cef5c48f9",
-          "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
-          "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6ae34b392cfd29b998d6a112/master/pass/Business_Mistral%20Says%20Its%20%E2%80%98Le%20Chonk%E2%80%99%20Model%20Can%20Outperform%20Top%20Chinese%20Models%20in%20Coding%20and%20Cybersecurity_v3.jpg",
-          "peak": 48.73,
-          "observations": 4,
-          "daysTracked": 2,
-          "peakDate": "2026-11-02",
-          "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
-          "average": 48.73
         }
       ]
     },
@@ -11186,11 +11186,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 3,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 70.82
         },
         {
@@ -11200,11 +11200,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 3,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 51.23
         },
         {
@@ -11220,6 +11220,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
           "lastObservedAt": "2026-11-02T06:00:00.000Z",
           "average": 51.15
+        },
+        {
+          "storyId": "930f302b2638ee1ebe2c",
+          "title": "Don’t Let ‘Misaligned’ and ‘Rogue’ Agents Obscure Corporate Accountability in OpenAI–Hugging Face Probes",
+          "url": "https://techpolicy.press/dont-let-misaligned-and-rogue-agents-obscure-corporate-accountability-in-openai-hugging-face-probes",
+          "source": "Tech Policy Press AI",
+          "image": "",
+          "peak": 51.07,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-03",
+          "firstObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "average": 51.07
         },
         {
           "storyId": "7472c3c6cdd911f6bd88",
@@ -11242,11 +11256,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif",
           "peak": 50.33,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 3,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 50.33
         },
         {
@@ -11256,11 +11270,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 50.24
         },
         {
@@ -11270,11 +11284,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T23:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 49.01
         },
         {
@@ -11284,11 +11298,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
           "peak": 48.84,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 3,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-03T15:00:00.000Z",
+          "lastObservedAt": "2026-11-03T21:00:00.000Z",
           "average": 48.84
         },
         {
@@ -11304,20 +11318,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
           "lastObservedAt": "2026-11-02T06:00:00.000Z",
           "average": 48.84
-        },
-        {
-          "storyId": "7a2ff422d91cef5c48f9",
-          "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
-          "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6ae34b392cfd29b998d6a112/master/pass/Business_Mistral%20Says%20Its%20%E2%80%98Le%20Chonk%E2%80%99%20Model%20Can%20Outperform%20Top%20Chinese%20Models%20in%20Coding%20and%20Cybersecurity_v3.jpg",
-          "peak": 48.73,
-          "observations": 8,
-          "daysTracked": 3,
-          "peakDate": "2026-11-01",
-          "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
-          "average": 48.73
         }
       ]
     },
