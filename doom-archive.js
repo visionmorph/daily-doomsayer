@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-04T17:00:00.000Z",
+  "generatedAt": "2026-11-04T23:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-04",
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-04",
           "firstObservedAt": "2026-11-04T09:00:00.000Z",
-          "lastObservedAt": "2026-11-04T17:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,12 +45,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-04",
           "firstObservedAt": "2026-11-04T09:00:00.000Z",
-          "lastObservedAt": "2026-11-04T17:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
           "average": 51.07
+        },
+        {
+          "storyId": "389ee200181666d34f5f",
+          "title": "Where the Weight Lies: A Balancing Act for the Governance of Open-Weight AI Models",
+          "url": "https://www.lawfaremedia.org/article/where-the-weight-lies--a-balancing-act-for-the-governance-of-open-weight-ai-models",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 50.82,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-04",
+          "firstObservedAt": "2026-11-04T23:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
+          "average": 50.82
         },
         {
           "storyId": "912dfdbd28658cc8a20b",
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-04",
           "firstObservedAt": "2026-11-04T09:00:00.000Z",
-          "lastObservedAt": "2026-11-04T17:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
           "average": 50.24
         },
         {
@@ -101,11 +115,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-04",
           "firstObservedAt": "2026-11-04T09:00:00.000Z",
-          "lastObservedAt": "2026-11-04T17:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
+          "average": 49.01
+        },
+        {
+          "storyId": "0beed25ab06a25ff60d2",
+          "title": "Data centers lost the midterms",
+          "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 49.01,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-04",
+          "firstObservedAt": "2026-11-04T23:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
           "average": 49.01
         },
         {
@@ -115,40 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.84,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-04",
           "firstObservedAt": "2026-11-04T09:00:00.000Z",
-          "lastObservedAt": "2026-11-04T17:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
           "average": 48.84
-        },
-        {
-          "storyId": "c063c2f3517d60612df9",
-          "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
-          "peak": 48.84,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-04",
-          "firstObservedAt": "2026-11-04T09:00:00.000Z",
-          "lastObservedAt": "2026-11-04T09:00:00.000Z",
-          "average": 48.84
-        },
-        {
-          "storyId": "6305e141035d81c82167",
-          "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-          "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6adfc11328ba980ed3d0219a/master/pass/Security_ChinaAppsBehindDeepFakes_v1.jpg",
-          "peak": 48.67,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-11-04",
-          "firstObservedAt": "2026-11-04T09:00:00.000Z",
-          "lastObservedAt": "2026-11-04T17:00:00.000Z",
-          "average": 48.67
         }
       ]
     },
@@ -9748,11 +9748,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 3,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-04T17:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
           "average": 51.23
         },
         {
@@ -9776,12 +9776,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T21:00:00.000Z",
-          "lastObservedAt": "2026-11-04T17:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
           "average": 51.07
+        },
+        {
+          "storyId": "389ee200181666d34f5f",
+          "title": "Where the Weight Lies: A Balancing Act for the Governance of Open-Weight AI Models",
+          "url": "https://www.lawfaremedia.org/article/where-the-weight-lies--a-balancing-act-for-the-governance-of-open-weight-ai-models",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 50.82,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-04",
+          "firstObservedAt": "2026-11-04T23:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
+          "average": 50.82
         },
         {
           "storyId": "7472c3c6cdd911f6bd88",
@@ -9818,11 +9832,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-04T17:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
           "average": 50.24
         },
         {
@@ -9846,26 +9860,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 7,
-          "daysTracked": 3,
-          "peakDate": "2026-11-02",
-          "firstObservedAt": "2026-11-02T23:00:00.000Z",
-          "lastObservedAt": "2026-11-04T17:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "c063c2f3517d60612df9",
-          "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
-          "peak": 48.84,
           "observations": 8,
           "daysTracked": 3,
           "peakDate": "2026-11-02",
-          "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-04T09:00:00.000Z",
-          "average": 48.84
+          "firstObservedAt": "2026-11-02T23:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
+          "average": 49.01
         }
       ]
     },
@@ -11345,11 +11345,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 13,
+          "observations": 14,
           "daysTracked": 4,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-04T17:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
           "average": 51.23
         },
         {
@@ -11373,12 +11373,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T21:00:00.000Z",
-          "lastObservedAt": "2026-11-04T17:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
           "average": 51.07
+        },
+        {
+          "storyId": "389ee200181666d34f5f",
+          "title": "Where the Weight Lies: A Balancing Act for the Governance of Open-Weight AI Models",
+          "url": "https://www.lawfaremedia.org/article/where-the-weight-lies--a-balancing-act-for-the-governance-of-open-weight-ai-models",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 50.82,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-04",
+          "firstObservedAt": "2026-11-04T23:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
+          "average": 50.82
         },
         {
           "storyId": "7472c3c6cdd911f6bd88",
@@ -11415,11 +11429,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-04T17:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
           "average": 50.24
         },
         {
@@ -11443,26 +11457,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 3,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T23:00:00.000Z",
-          "lastObservedAt": "2026-11-04T17:00:00.000Z",
+          "lastObservedAt": "2026-11-04T23:00:00.000Z",
           "average": 49.01
-        },
-        {
-          "storyId": "c063c2f3517d60612df9",
-          "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
-          "peak": 48.84,
-          "observations": 12,
-          "daysTracked": 4,
-          "peakDate": "2026-11-01",
-          "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-04T09:00:00.000Z",
-          "average": 48.84
         }
       ]
     },
