@@ -322189,8 +322189,176 @@
           "vulnerability": 0
         }
       }
+    },
+    "0479bcda1a6074021ea0": {
+      "storyId": "0479bcda1a6074021ea0",
+      "url": "https://www.inc.com/jason-aten/adobe-just-removed-ai-from-lightroom-well-sort-of/91430412",
+      "title": "Adobe Just Removed AI From Lightroom. Well, Sort Of",
+      "source": "Inc. AI",
+      "published": "2026-11-04T01:21:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8309859813e58ae40685bdc2",
+      "bodyFingerprint": "552407e4fbeae22b2d7a43d4",
+      "bodyCharacterCount": 74,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-04T09:19:13.109Z",
+      "assessment": {
+        "centralEvent": "Adobe Just Removed AI From Lightroom. Well, Sort Of",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "85484e2cc2830ea25803": {
+      "storyId": "85484e2cc2830ea25803",
+      "url": "https://www.inc.com/chloe-rosenberg/ollie-promised-more-private-home-assistant-could-not-survive-big-tech/91429907",
+      "title": "Ollie Promised a More Private Home Assistant. It Still Couldn’t Survive Big Tech",
+      "source": "Inc. AI",
+      "published": "2026-11-04T02:17:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a781c322ddaedf9d44c8b07f",
+      "bodyFingerprint": "dd1bca014945cb3bb50ab55f",
+      "bodyCharacterCount": 135,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-04T09:19:13.115Z",
+      "assessment": {
+        "centralEvent": "Ollie Promised a More Private Home Assistant. It Still Couldn’t Survive Big Tech",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2b5ce4b32047cf141782": {
+      "storyId": "2b5ce4b32047cf141782",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261103003149.htm",
+      "title": "A hidden star is plowing through Betelgeuse’s atmosphere, new evidence suggests",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-04T02:52:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "51452ad86495ac03a95b5989",
+      "bodyFingerprint": "cf21cc09a6e5cc93b6e53f15",
+      "bodyCharacterCount": 12539,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-04T09:19:13.281Z",
+      "assessment": {
+        "centralEvent": "A hidden star is plowing through Betelgeuse’s atmosphere, new evidence suggests",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Astronomers first proposed the companion's existence in 2024 as a possible explanation for a puzzling cycle in which Betelgeuse's brightness changes approximately every 2,100 days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 82,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-04T01:25:41.561Z"
+  "updatedAt": "2026-11-04T09:19:13.281Z"
 }
