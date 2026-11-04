@@ -321341,8 +321341,856 @@
           "vulnerability": 0
         }
       }
+    },
+    "0f0ab228cafb4d56349c": {
+      "storyId": "0f0ab228cafb4d56349c",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/04/canva-layoffs-job-cuts-restructure",
+      "title": "Canva layoffs: design giant to cut or relocate more than 1,200 jobs in major restructure",
+      "source": "The Guardian AI",
+      "published": "2026-11-04T00:14:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f96d32649dd675a54138eadf",
+      "bodyFingerprint": "405fc1dec98e70339ec9a465",
+      "bodyCharacterCount": 3245,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-04T01:25:41.321Z",
+      "assessment": {
+        "centralEvent": "Canva layoffs: design giant to cut or relocate more than 1,200 jobs in major restructure",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Sadly, it will also mean saying goodbye to teammates and friends who have helped build Canva into what it is today.” The restructure will affect 1,271 people, according to the company, as it focuses on “collapsing layers” and bringing “mor",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "24f681b5db36fdb606f2": {
+      "storyId": "24f681b5db36fdb606f2",
+      "url": "https://www.bbc.co.uk/news/articles/cdx8080nq74o?at_campaign=rss&at_medium=RSS",
+      "title": "Scammers using AI-generated images of missing pets to demand reward money",
+      "source": "BBC News AI",
+      "published": "2026-11-04T00:44:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ecdf37b8764184e41f8e3206",
+      "bodyFingerprint": "77ce41fd96886ddb6c6b171d",
+      "bodyCharacterCount": 6537,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-04T01:25:41.366Z",
+      "assessment": {
+        "centralEvent": "Scammers using AI-generated images of missing pets to demand reward money",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Young is one of a growing number of people affected by an online scam where fraudsters threaten to kill missing pets after owners refuse to pay hundreds of pounds for their return.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It was very upsetting,\" she said. \"I've been waiting ever since.\" The 55-year-old added anyone that had lost their pet \"would do anything\" to get them back, but to \"hand money over and be scammed is just not right\".",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The death threats left Young feeling \"upset and angry at how anybody could be so evil\". \"I'm not going to deny that every inch of your body wants that cat back,\" she said. \"They can hook you, the more they ask the more you think 'I better d",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.85,
+        "rawScore": 47.85,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.35,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b9360772e92b87184b24": {
+      "storyId": "b9360772e92b87184b24",
+      "url": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_campaign=rss&at_medium=RSS",
+      "title": "Graduates are managing AI - but are they learning much else?",
+      "source": "BBC News AI",
+      "published": "2026-11-04T00:04:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8d0181dbcac8280fc2439254",
+      "bodyFingerprint": "35a436b97574e975a1632478",
+      "bodyCharacterCount": 7197,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-04T01:25:41.381Z",
+      "assessment": {
+        "centralEvent": "Graduates are managing AI - but are they learning much else?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Lotte Underwood Image caption, Managing AI agents is a big part of Lotte Underwood's job By MaryLou Costa Technology reporter Published 1 hour ago Recent university graduate Lotte Underwood is a public relations executive with",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "92c50f67a507db6c8047": {
+      "storyId": "92c50f67a507db6c8047",
+      "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+      "title": "The biggest modding site in PC gaming is taking a stance on AI",
+      "source": "The Verge AI",
+      "published": "2026-11-04T00:42:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "31ebfe60089d6a1bf50f38e9",
+      "bodyFingerprint": "f5320ce0717982b515c127fe",
+      "bodyCharacterCount": 4933,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-04T01:25:41.399Z",
+      "assessment": {
+        "centralEvent": "The biggest modding site in PC gaming is taking a stance on AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Valve is making changes to deal with a ‘significant increase’ in Steam game submissions Nexus Mods’ full AI policy is here , and mod authors have 60 days to update their existing mods to meet the requirements.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9d97c8271a19f07f2108": {
+      "storyId": "9d97c8271a19f07f2108",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+      "title": "Please stop asking me when the AI bubble will pop",
+      "source": "The Verge AI",
+      "published": "2026-11-03T23:37:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "32803a203c780fbb68a93c6e",
+      "bodyFingerprint": "7416439bdcb8caaca74fd118",
+      "bodyCharacterCount": 6035,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-04T01:25:41.406Z",
+      "assessment": {
+        "centralEvent": "Please stop asking me when the AI bubble will pop",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Apollo Global Management, which lately had been talking with SpaceX about a $40 billion chip deal , is also warning of AI risk.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "For instance, Meta drew $58 billion in orders for a bond offering that’s expected to be $15 billion to $20 billion, Bloomberg reported today.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Emmanuel Roman, chief executive officer of Pacific Investment Management Co. (Pimco), during the Global Financial Leaders' Investment Summit in Hong Kong, China, on Tuesday, Nov.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "32c42b1a9bd9b90f7d19": {
+      "storyId": "32c42b1a9bd9b90f7d19",
+      "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows",
+      "title": "Data centers are turning to old jet engines as the wait for power grows",
+      "source": "TechCrunch AI",
+      "published": "2026-11-03T22:19:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "597e3a636197cf29ee7f1a0b",
+      "bodyFingerprint": "545fe27f398e21696fb3c106",
+      "bodyCharacterCount": 4121,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-04T01:25:41.424Z",
+      "assessment": {
+        "centralEvent": "Data centers are turning to old jet engines as the wait for power grows",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Currently the Trump administration is adding to the pressure by encouraging data centers to generate their own electricity.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Stuck in years-long lines for grid connections and new turbines, some AI data centers are making their own electricity with converted jet engines, the New York Times reported Tuesday.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hooking up 100 megawatts to the grid in Northern Virginia, by comparison, takes about seven years , according to the International Energy Agency.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The engines, pulled from retired aircraft and rebuilt to burn natural gas, aren’t anyone’s idea of a permanent power plant.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.73,
+        "rawScore": 28.73,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.43,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fa00b4f66d246a49cbf0": {
+      "storyId": "fa00b4f66d246a49cbf0",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity",
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "source": "TechCrunch AI",
+      "published": "2026-11-03T22:41:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "48f0cd0285b9500a1686b013",
+      "bodyFingerprint": "fb5123fba21e7ca2239c7cb8",
+      "bodyCharacterCount": 3927,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-04T01:25:41.430Z",
+      "assessment": {
+        "centralEvent": "Anthropic is working on a system to prove AI models’ identity",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“How can a user verify these claims?” To work, the system requires AI labs to publish a “fingerprint” of each model they release that can later be matched to specific outputs and verified cryptographically.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "96fe654d833fe36f856a": {
+      "storyId": "96fe654d833fe36f856a",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "title": "AI ‘godfather’ Geoffrey Hinton: it might turn out we were better off without AI",
+      "source": "The Guardian AI",
+      "published": "2026-11-03T21:35:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3186cf9aa14d257546d2951e",
+      "bodyFingerprint": "210ea1732f5b41a14b46b192",
+      "bodyCharacterCount": 6711,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-04T01:25:41.449Z",
+      "assessment": {
+        "centralEvent": "AI ‘godfather’ Geoffrey Hinton: it might turn out we were better off without AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It’ll only work if we put a big effort into it, but we might well put a big effort into it.” Explore more on these topics UK news AI (artificial intelligence) Computing OpenAI Ethics Sam Altman news Share Reuse this content More on this sto",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This Chornobyl-type of event would not be a nuclear incident, according to the examples he gave, but rather could include an AI-enabled attack on the electricity-generating system that “causes a massive brownout” or an incident that brings ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hinton backs a tougher plan endorsed by the president of Finland and 32 other countries, including Singapore, Germany, Canada and Australia, for mandatory testing of frontier AI models, independent evaluation and intergovernmental common st",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Hinton backs a tougher plan endorsed by the president of Finland and 32 other countries, including Singapore, Germany, Canada and Australia, for mandatory testing of frontier AI models, independent evaluation and intergovernmental common st",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.41,
+        "rawScore": 47.41,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9427f87f31ac6b742f96": {
+      "storyId": "9427f87f31ac6b742f96",
+      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom",
+      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "source": "TechCrunch AI",
+      "published": "2026-11-03T21:43:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a8943fd504e24b179300fe92",
+      "bodyFingerprint": "43f9a682a9034aa5e97666ec",
+      "bodyCharacterCount": 4084,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-04T01:25:41.456Z",
+      "assessment": {
+        "centralEvent": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular A",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e529e3957e845009c443": {
+      "storyId": "e529e3957e845009c443",
+      "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal",
+      "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+      "source": "TechCrunch AI",
+      "published": "2026-11-03T21:05:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b604d9327b1008e87a2dd763",
+      "bodyFingerprint": "89a53bf28c39dc94a78fca64",
+      "bodyCharacterCount": 4735,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-04T01:25:41.477Z",
+      "assessment": {
+        "centralEvent": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The data analysis company Palantir delivered such a huge third-quarter earnings report on Monday that its press release even bragged that the numbers were “crushing consensus expectations.” Yet retail investors were lukewarm on the company ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "998853d72b0facbe35be": {
+      "storyId": "998853d72b0facbe35be",
+      "url": "https://mashable.com/tech/nov-3-shark-ai-robot-vacuum-early-black-friday-deal",
+      "title": "The Shark AV2501S AI Ultra robot vacuum is almost half off at Amazon — save $270",
+      "source": "Mashable AI",
+      "published": "2026-11-03T22:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5ba38b43ee77c079b4a8111a",
+      "bodyFingerprint": "7c2881dd41d38e87bdf39d6c",
+      "bodyCharacterCount": 2719,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-04T01:25:41.510Z",
+      "assessment": {
+        "centralEvent": "The Shark AV2501S AI Ultra robot vacuum is almost half off at Amazon — save $270",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The best tech deal this week The Apple iPhone 18 Pro is free right now with T-Mobile One of the biggest selling points is its self-emptying , bagless base, which can hold up to 30 days of dirt and debris before needing to be emptied manuall",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e676f08e20296dd03680": {
+      "storyId": "e676f08e20296dd03680",
+      "url": "https://www.inc.com/dave-sokolin/the-better-name-for-super-intelligence-might-be-super-surveillance/91426254",
+      "title": "The Better Name for ‘Super Intelligence’ Might Be ‘Super-Surveillance’",
+      "source": "Inc. AI",
+      "published": "2026-11-03T20:58:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "03b04caf20058e7a3f827637",
+      "bodyFingerprint": "7f1f4faa86e8cd7ee2629c50",
+      "bodyCharacterCount": 176,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-04T01:25:41.537Z",
+      "assessment": {
+        "centralEvent": "The Better Name for ‘Super Intelligence’ Might Be ‘Super-Surveillance’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8fb47c722971ec48c735": {
+      "storyId": "8fb47c722971ec48c735",
+      "url": "https://www.theguardian.com/business/2026/nov/03/us-tech-stocks-recovery-ai-spending",
+      "title": "US tech stocks recover after selloff spooks investors over AI spending",
+      "source": "The Guardian AI",
+      "published": "2026-11-03T22:18:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7c910a90de5eb3b69cf4d0be",
+      "bodyFingerprint": "05df6a7cfed60988fbf1eec0",
+      "bodyCharacterCount": 2584,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-04T01:25:41.561Z",
+      "assessment": {
+        "centralEvent": "US tech stocks recover after selloff spooks investors over AI spending",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The S&P 500 was up 0.37% at market closing on Tuesday, while the tech-heavy Nasdaq increased 0.83% for the day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-03T21:02:17.021Z"
+  "updatedAt": "2026-11-04T01:25:41.561Z"
 }
