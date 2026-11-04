@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-03T21:00:00.000Z",
+  "generatedAt": "2026-11-04T01:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-03",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 70.82
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T21:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 51.07
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif",
           "peak": 50.33,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 50.33
         },
         {
@@ -87,12 +87,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 50.24
+        },
+        {
+          "storyId": "5fb7488de8910ebe9bc3",
+          "title": "Midterm elections 2026: all the news",
+          "url": "https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK423_ELECTIONS2.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 49.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-03",
+          "firstObservedAt": "2026-11-04T01:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
+          "average": 49.66
         },
         {
           "storyId": "5c8b564162bfa0a4a224",
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 49.01
         },
         {
@@ -115,40 +129,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
           "peak": 48.84,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 48.84
         },
         {
-          "storyId": "7a2ff422d91cef5c48f9",
-          "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
-          "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6ae34b392cfd29b998d6a112/master/pass/Business_Mistral%20Says%20Its%20%E2%80%98Le%20Chonk%E2%80%99%20Model%20Can%20Outperform%20Top%20Chinese%20Models%20in%20Coding%20and%20Cybersecurity_v3.jpg",
-          "peak": 48.73,
+          "storyId": "e6f0d32f7a7ae4ddc7c7",
+          "title": "The Incident Report Is Becoming a Building Block of AI Governance",
+          "url": "https://techpolicy.press/the-incident-report-is-becoming-a-building-block-of-ai-governance",
+          "source": "Tech Policy Press AI",
+          "image": "",
+          "peak": 48.84,
           "observations": 1,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
-          "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T06:00:00.000Z",
-          "average": 48.73
-        },
-        {
-          "storyId": "6305e141035d81c82167",
-          "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-          "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6adfc11328ba980ed3d0219a/master/pass/Security_ChinaAppsBehindDeepFakes_v1.jpg",
-          "peak": 48.67,
-          "observations": 3,
-          "daysTracked": 1,
-          "peakDate": "2026-11-03",
-          "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
-          "average": 48.67
+          "firstObservedAt": "2026-11-04T01:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
+          "average": 48.84
         }
       ]
     },
@@ -9589,11 +9589,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 70.82
         },
         {
@@ -9603,11 +9603,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 51.23
         },
         {
@@ -9631,11 +9631,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T21:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 51.07
         },
         {
@@ -9659,11 +9659,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif",
           "peak": 50.33,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 50.33
         },
         {
@@ -9673,12 +9673,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 50.24
+        },
+        {
+          "storyId": "5fb7488de8910ebe9bc3",
+          "title": "Midterm elections 2026: all the news",
+          "url": "https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK423_ELECTIONS2.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 49.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-03",
+          "firstObservedAt": "2026-11-04T01:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
+          "average": 49.66
         },
         {
           "storyId": "5c8b564162bfa0a4a224",
@@ -9687,11 +9701,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T23:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 49.01
         },
         {
@@ -9701,25 +9715,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
           "peak": 48.84,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
-          "average": 48.84
-        },
-        {
-          "storyId": "302d921a2ed3f90f56d5",
-          "title": "Gruffalo illustrator considering legal action against AI firms",
-          "url": "https://www.bbc.co.uk/news/articles/cj04032rp5wro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3305/live/7cbf47b0-d3c3-11f1-93e1-3b657b665bcf.jpg",
-          "peak": 48.84,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-02",
-          "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 48.84
         }
       ]
@@ -11186,11 +11186,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "POLITICO Europe AI",
           "image": "https://www.politico.eu/wp-content/uploads/2026/10/23/GettyImages-2260944681-1024x683.jpg",
           "peak": 70.82,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 3,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 70.82
         },
         {
@@ -11200,11 +11200,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 3,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 51.23
         },
         {
@@ -11228,11 +11228,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T21:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 51.07
         },
         {
@@ -11256,11 +11256,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae113db6239096998a832f8/master/pass/102726-department-of-defense-ai-agent.gif",
           "peak": 50.33,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 3,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 50.33
         },
         {
@@ -11270,12 +11270,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 50.24
+        },
+        {
+          "storyId": "5fb7488de8910ebe9bc3",
+          "title": "Midterm elections 2026: all the news",
+          "url": "https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK423_ELECTIONS2.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 49.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-03",
+          "firstObservedAt": "2026-11-04T01:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
+          "average": 49.66
         },
         {
           "storyId": "5c8b564162bfa0a4a224",
@@ -11284,11 +11298,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T23:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 49.01
         },
         {
@@ -11298,25 +11312,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6ae29474af20331957eab922/master/pass/business-Uncanny-Valley-anthropic-ipo.jpg",
           "peak": 48.84,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 3,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-03T21:00:00.000Z",
-          "average": 48.84
-        },
-        {
-          "storyId": "302d921a2ed3f90f56d5",
-          "title": "Gruffalo illustrator considering legal action against AI firms",
-          "url": "https://www.bbc.co.uk/news/articles/cj04032rp5wro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3305/live/7cbf47b0-d3c3-11f1-93e1-3b657b665bcf.jpg",
-          "peak": 48.84,
-          "observations": 5,
-          "daysTracked": 2,
-          "peakDate": "2026-11-01",
-          "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
+          "lastObservedAt": "2026-11-04T01:00:00.000Z",
           "average": 48.84
         }
       ]
