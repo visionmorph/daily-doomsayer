@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-05T06:00:00.000Z",
+  "generatedAt": "2026-11-05T15:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-05",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-05",
           "firstObservedAt": "2026-11-05T06:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
           "average": 51.23
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-05",
           "firstObservedAt": "2026-11-05T06:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
           "average": 51.07
         },
         {
@@ -59,12 +59,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-05",
           "firstObservedAt": "2026-11-05T06:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
           "average": 50.24
+        },
+        {
+          "storyId": "806fd4811804d7b24b40",
+          "title": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
+          "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/cb4db687d218902c0710319b5c22a27ce31c84f2/446_0_3333_2667/master/3333.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 50.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-05",
+          "firstObservedAt": "2026-11-05T15:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
+          "average": 50.16
         },
         {
           "storyId": "5c8b564162bfa0a4a224",
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-05",
           "firstObservedAt": "2026-11-05T06:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
           "average": 49.01
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_D.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-05",
           "firstObservedAt": "2026-11-05T06:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
           "average": 49.01
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.84,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-05",
           "firstObservedAt": "2026-11-05T06:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
           "average": 48.84
         },
         {
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.54,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-05",
           "firstObservedAt": "2026-11-05T06:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
           "average": 48.54
-        },
-        {
-          "storyId": "33a74585cabf1fe91457",
-          "title": "What the West can learn from AI optimists in the rest of the world",
-          "url": "https://restofworld.org/2026/west-ai-anxiety-optimism-innovation/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://fastly.restofworld.org/uploads/2026/10/illo_tech_optimism_final.jpg?width=380&dpr=2&crop=16:9",
-          "peak": 48.32,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-05",
-          "firstObservedAt": "2026-11-05T06:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
-          "average": 48.32
         }
       ]
     },
@@ -9893,11 +9893,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 11,
+          "observations": 12,
           "daysTracked": 4,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
           "average": 51.23
         },
         {
@@ -9921,11 +9921,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 3,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T21:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
           "average": 51.07
         },
         {
@@ -9977,12 +9977,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
           "average": 50.24
+        },
+        {
+          "storyId": "806fd4811804d7b24b40",
+          "title": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
+          "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/cb4db687d218902c0710319b5c22a27ce31c84f2/446_0_3333_2667/master/3333.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 50.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-05",
+          "firstObservedAt": "2026-11-05T15:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
+          "average": 50.16
         },
         {
           "storyId": "5fb7488de8910ebe9bc3",
@@ -9997,20 +10011,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-04T01:00:00.000Z",
           "lastObservedAt": "2026-11-04T09:00:00.000Z",
           "average": 49.66
-        },
-        {
-          "storyId": "5c8b564162bfa0a4a224",
-          "title": "Independent Digital Media Is Not a Privilege Governments Can Revoke: The Fight to Save Egypt’s Mada Masr",
-          "url": "https://www.eff.org/deeplinks/2026/11/independent-digital-media-not-privilege-governments-can-revoke-fight-save-egypts",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/offline-general.png",
-          "peak": 49.01,
-          "observations": 9,
-          "daysTracked": 4,
-          "peakDate": "2026-11-02",
-          "firstObservedAt": "2026-11-02T23:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
-          "average": 49.01
         }
       ]
     },
@@ -11490,11 +11490,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 5,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
           "average": 51.23
         },
         {
@@ -11518,11 +11518,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 3,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T21:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
           "average": 51.07
         },
         {
@@ -11574,12 +11574,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
           "average": 50.24
+        },
+        {
+          "storyId": "806fd4811804d7b24b40",
+          "title": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
+          "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/cb4db687d218902c0710319b5c22a27ce31c84f2/446_0_3333_2667/master/3333.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 50.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-05",
+          "firstObservedAt": "2026-11-05T15:00:00.000Z",
+          "lastObservedAt": "2026-11-05T15:00:00.000Z",
+          "average": 50.16
         },
         {
           "storyId": "5fb7488de8910ebe9bc3",
@@ -11594,20 +11608,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-04T01:00:00.000Z",
           "lastObservedAt": "2026-11-04T09:00:00.000Z",
           "average": 49.66
-        },
-        {
-          "storyId": "5c8b564162bfa0a4a224",
-          "title": "Independent Digital Media Is Not a Privilege Governments Can Revoke: The Fight to Save Egypt’s Mada Masr",
-          "url": "https://www.eff.org/deeplinks/2026/11/independent-digital-media-not-privilege-governments-can-revoke-fight-save-egypts",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/offline-general.png",
-          "peak": 49.01,
-          "observations": 9,
-          "daysTracked": 4,
-          "peakDate": "2026-11-02",
-          "firstObservedAt": "2026-11-02T23:00:00.000Z",
-          "lastObservedAt": "2026-11-05T06:00:00.000Z",
-          "average": 49.01
         }
       ]
     },
