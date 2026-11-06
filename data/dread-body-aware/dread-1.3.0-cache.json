@@ -331171,8 +331171,511 @@
           "vulnerability": 0
         }
       }
+    },
+    "48a26be0d0669fa5f2a7": {
+      "storyId": "48a26be0d0669fa5f2a7",
+      "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
+      "title": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
+      "source": "The Guardian AI",
+      "published": "2026-11-06T10:46:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "914f941fdb17c5d5c7131e7c",
+      "bodyFingerprint": "69fcbb333203f700b25cb1c7",
+      "bodyCharacterCount": 16453,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T10:57:53.049Z",
+      "assessment": {
+        "centralEvent": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Reuters reports: Several large multi-manager hedge fund platforms have cut leverage and laid off loss-making teams in recent weeks, said market participants, who expect more layoffs if declines continue.",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Business live Business Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live Rolling coverage of the latest economic and financial news, as Asia-Pacific markets slide after Wall Street rout LIVE Upd",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Global stocks tumble as AI panic grips markets after Democrats’ midterm success – business live",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "And yes, yesterday was a bad day in particular for technology stocks, with the Nasdaq losing $2.5tn in market capital in a single day.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 94,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 48.51,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a83a56374fd6aa91bfb5": {
+      "storyId": "a83a56374fd6aa91bfb5",
+      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m",
+      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "source": "TechCrunch AI",
+      "published": "2026-11-06T06:28:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "544acfae895fb15416d5d517",
+      "bodyFingerprint": "a42ab96b7a6a5a6ca0d180dd",
+      "bodyCharacterCount": 3841,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T10:57:53.095Z",
+      "assessment": {
+        "centralEvent": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular C",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The startup is currently approaching $10 million in annual recurring revenue (ARR).",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.09,
+        "rawScore": 46.09,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.19,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "20e5ea8a8d5139236251": {
+      "storyId": "20e5ea8a8d5139236251",
+      "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
+      "title": "Global stocks plunge amid AI slowdown fears after Democrats’ midterm triumph",
+      "source": "The Guardian AI",
+      "published": "2026-11-06T08:58:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dbb199d38fcd5620b257cfb9",
+      "bodyFingerprint": "f1813493aa5babf72b97119a",
+      "bodyCharacterCount": 4998,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T10:57:53.137Z",
+      "assessment": {
+        "centralEvent": "Global stocks plunge amid AI slowdown fears after Democrats’ midterm triumph",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "People are wedded to their positions and views on a stock or outcome, and you’re telling them: ‘Look, you’ve just lost money.’” Chris Beauchamp, the chief market analyst at the investing and trading platform IG, said: “Yesterday’s brutal se",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Germany’s Dax index fell by 1.9% in morning trading, France’s Cac 40 dropped by 1.5% and Spain’s Ibex lost 1.1%.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Global stocks plunge amid AI slowdown fears after Democrats’ midterm triumph",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4c5687fbef3f828e08e1": {
+      "storyId": "4c5687fbef3f828e08e1",
+      "url": "https://www.bbc.co.uk/news/articles/crvg9yyz5437o?at_campaign=rss&at_medium=RSS",
+      "title": "Did a data centre revolt affect the US mid-term election results?",
+      "source": "BBC News AI",
+      "published": "2026-11-06T06:01:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "71eb38e2d061357664988d5a",
+      "bodyFingerprint": "1b1f55713a1717e0de513fc1",
+      "bodyCharacterCount": 5385,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T10:57:53.203Z",
+      "assessment": {
+        "centralEvent": "Did a data centre revolt affect the US mid-term election results?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Ben Chu Policy and analysis correspondent Published 4 hours ago A US midterms voter poll has suggested data centres were a highly motivating issue for many Americans, leading some to argue public backlash again",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Ben Chu Policy and analysis correspondent Published 4 hours ago A US midterms voter poll has suggested data centres were a highly motivating issue for many Americans, leading some to argue public backlash again",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Seema Shah, from global investment firm Principal Asset Management, said requirements for developers to pay for additional investment in the electricity grid, meet tougher standards over their usage of resources like water, or give up tax i",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a4ddca98cc72b6c77262": {
+      "storyId": "a4ddca98cc72b6c77262",
+      "url": "https://www.politico.eu/article/eu-budget-battle-paralyzes-brussels-key-priorities",
+      "title": "EU budget battle paralyzes Brussels on AI chips, the Arctic and agriculture",
+      "source": "POLITICO Europe AI",
+      "published": "2026-11-05T13:19:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "09c434ec914be2591d2334ad",
+      "bodyFingerprint": "1fba822e0fbda7633304d3dd",
+      "bodyCharacterCount": 5650,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T10:57:53.430Z",
+      "assessment": {
+        "centralEvent": "EU budget battle paralyzes Brussels on AI chips, the Arctic and agriculture",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Advertisement The Czech Senate’s resolution pointed to “uncertainty related to the long-term financing of the proposed measures” and asked that the goals be “supported by adequate and predictable resources.” The budget uncertainty is not on",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The so-called frugal countries pushing for major budget cuts — Germany, the Netherlands, Austria, Sweden, Denmark and Finland — have publicly said that a proposal by the Irish presidency of the Council of the EU envisioning €159 billion cut",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The BelGaN chip factory in Oudenaarde, Belgium is pictured on March 12, 2025. | Eric Lalmand/Belga Mag/AFP via Getty Images European Commissioner for international partnerships Jozef Síkela said at the time that it was “not possible” to com",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "During a gathering of EU environment ministers in Luxembourg last month, Cyril Piquemal, France’s deputy permanent representative, said: “We cannot adopt more rules without providing the means to put them into force.” Reshuffle it Uncertain",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "European policymakers are blocked on proposals linked to EU funding amid a negotiating impasse over the size of the 2028-2034 budget.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.68,
+        "rawScore": 28.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "53ae7382f15474ce19d9": {
+      "storyId": "53ae7382f15474ce19d9",
+      "url": "https://techpolicy.press/europes-ai-ambitions-meet-the-data-center-backlash",
+      "title": "Europe's AI Ambitions Meet the Data Center Backlash",
+      "source": "Tech Policy Press AI",
+      "published": "2026-11-06T09:29:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a7436a96deedf09cfae0a383",
+      "bodyFingerprint": "7fc031e7b7801762fdc99ca4",
+      "bodyCharacterCount": 384,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-06T10:57:53.469Z",
+      "assessment": {
+        "centralEvent": "Europe's AI Ambitions Meet the Data Center Backlash",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Europe's AI Ambitions Meet the Data Center Backlash",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "beefe2e11e06f6117492": {
+      "storyId": "beefe2e11e06f6117492",
+      "url": "https://thedispatch.com/article/midterms-super-pacs-ai-spending",
+      "title": "The Midterms’ Other Big Loser: AI",
+      "source": "The Dispatch AI",
+      "published": "2026-11-06T06:02:00+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "15245f5abbe886cfd4586a8a",
+      "bodyFingerprint": "337ac3d7169edd3bb8cf2afa",
+      "bodyCharacterCount": 4679,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T10:57:53.883Z",
+      "assessment": {
+        "centralEvent": "The Midterms’ Other Big Loser: AI",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Magness / November 5, 2026 Politics How Republicans Lost Texas Ryan J.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-06T02:30:09.934Z"
+  "updatedAt": "2026-11-06T10:57:53.883Z"
 }
