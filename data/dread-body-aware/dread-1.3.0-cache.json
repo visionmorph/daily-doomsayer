@@ -330700,8 +330700,479 @@
           "vulnerability": 0
         }
       }
+    },
+    "ad929875c5a71925cbce": {
+      "storyId": "ad929875c5a71925cbce",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "title": "OpenAI is stepping back from NDAs for data center projects",
+      "source": "The Verge AI",
+      "published": "2026-11-06T00:37:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c18d61978e5f06e408ad3c3d",
+      "bodyFingerprint": "edf0390522a46a25f60d0238",
+      "bodyCharacterCount": 3806,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T02:30:09.821Z",
+      "assessment": {
+        "centralEvent": "OpenAI is stepping back from NDAs for data center projects",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters Nov 4 Data centers lost the midterms Lauren Feiner Nov 4 Maine Republican Susan Collins concedes Senate seat in a tech-fueled race.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8b33f1382f19de19bb66": {
+      "storyId": "8b33f1382f19de19bb66",
+      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "title": "Airbnb is working on an AI travel agent",
+      "source": "The Verge AI",
+      "published": "2026-11-06T00:06:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "106b5b38f9712807c7473d3c",
+      "bodyFingerprint": "f071cc617432467eba2caf1c",
+      "bodyCharacterCount": 3551,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T02:30:09.833Z",
+      "assessment": {
+        "centralEvent": "Airbnb is working on an AI travel agent",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1121cf54e69f72cb6b4f": {
+      "storyId": "1121cf54e69f72cb6b4f",
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027",
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "source": "TechCrunch AI",
+      "published": "2026-11-05T22:40:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3e546c728af60db4feba5acc",
+      "bodyFingerprint": "796ee9f0c81ce6360b02f1f5",
+      "bodyCharacterCount": 5613,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T02:30:09.841Z",
+      "assessment": {
+        "centralEvent": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Our agent will be able to help guests throughout their trip — from changing a reservation or resolving a payment issue to getting help with refunds, rebooking, or 24-hour safety support.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2165b65a40c289be1bb3": {
+      "storyId": "2165b65a40c289be1bb3",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "title": "Perplexity launches its own take on AI agents for work",
+      "source": "The Verge AI",
+      "published": "2026-11-05T22:26:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "42fa7a58c6446029093b317b",
+      "bodyFingerprint": "c113a4b3e4fb8519720d2c49",
+      "bodyCharacterCount": 3779,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T02:30:09.865Z",
+      "assessment": {
+        "centralEvent": "Perplexity launches its own take on AI agents for work",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2be5d517526899404b87": {
+      "storyId": "2be5d517526899404b87",
+      "url": "https://www.eff.org/deeplinks/2026/11/reflecting-digital-rights-wins-and-losses-sacramento",
+      "title": "Reflecting on Digital Rights Wins and Losses in Sacramento",
+      "source": "EFF AI",
+      "published": "2026-11-05T23:33:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "85a22e839589c69d47afcef8",
+      "bodyFingerprint": "f771e5af73eda884305d82ac",
+      "bodyCharacterCount": 16600,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T02:30:09.906Z",
+      "assessment": {
+        "centralEvent": "Reflecting on Digital Rights Wins and Losses in Sacramento",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "These included proposed regulations on 3D printers, access to social media platforms, police, commercial, and workplace surveillance practices, AI, and other privacy concerns.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "SB 1013 initially appeared on track to pass with broad support, but ultimately stalled in the final days of the session.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Fortunately an outpouring of opposition from makers and civil liberties advocates resulted in a bill so limited that, despite having passed and been signed into law, will not affect makers until ASTM International publishes a standard — som",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 197,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "563a1924bf4ac20e8897": {
+      "storyId": "563a1924bf4ac20e8897",
+      "url": "https://mashable.com/tech/meta-muse-voice-mode",
+      "title": "Metas AI agent Muse adds voice support, expressive avatars",
+      "source": "Mashable AI",
+      "published": "2026-11-05T22:39:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ae6ca1b44177b170116b88c8",
+      "bodyFingerprint": "55d0e17d25b3425b169927a1",
+      "bodyCharacterCount": 4027,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T02:30:09.915Z",
+      "assessment": {
+        "centralEvent": "Metas AI agent Muse adds voice support, expressive avatars",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Lately, the AI industry has learned that a cute little guy is a great way to anthropomorphize AI , making it seem cutesy rather than intimidating, for better or worse.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "be9b8df07000df046ad5": {
+      "storyId": "be9b8df07000df046ad5",
+      "url": "https://www.inc.com/jason-aten/sam-altman-backtracked-on-his-most-absurd-ai-claim-yet-sort-of/91432236",
+      "title": "Sam Altman Backtracked on His Most Absurd AI Claim Yet. Sort of",
+      "source": "Inc. AI",
+      "published": "2026-11-05T21:57:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5019af92a9c3e55c47c90570",
+      "bodyFingerprint": "2ea1d2d136ff86b2a99bd2cf",
+      "bodyCharacterCount": 78,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-06T02:30:09.916Z",
+      "assessment": {
+        "centralEvent": "Sam Altman Backtracked on His Most Absurd AI Claim Yet. Sort of",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0ee10f6ac4e1c7be2ef2": {
+      "storyId": "0ee10f6ac4e1c7be2ef2",
+      "url": "https://www.inc.com/amy-zwagerman/openai-data-center-rebrand-voter-backlash/91432154",
+      "title": "OpenAI Tried to Rebrand Its Data Centers. Voters Rejected Them Anyway",
+      "source": "Inc. AI",
+      "published": "2026-11-05T22:15:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fdb5e9b97f3a48c31b0ce370",
+      "bodyFingerprint": "c25a1de96f64da0adb760d99",
+      "bodyCharacterCount": 80,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-06T02:30:09.934Z",
+      "assessment": {
+        "centralEvent": "OpenAI Tried to Rebrand Its Data Centers. Voters Rejected Them Anyway",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-05T22:01:59.568Z"
+  "updatedAt": "2026-11-06T02:30:09.934Z"
 }
