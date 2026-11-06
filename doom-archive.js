@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-06T10:00:00.000Z",
+  "generatedAt": "2026-11-06T17:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-06",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-06",
           "firstObservedAt": "2026-11-06T10:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
+          "lastObservedAt": "2026-11-06T17:00:00.000Z",
           "average": 51.23
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-06",
           "firstObservedAt": "2026-11-06T10:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
+          "lastObservedAt": "2026-11-06T17:00:00.000Z",
           "average": 51.07
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-06",
           "firstObservedAt": "2026-11-06T10:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
+          "lastObservedAt": "2026-11-06T17:00:00.000Z",
           "average": 50.24
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-06",
           "firstObservedAt": "2026-11-06T10:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
+          "lastObservedAt": "2026-11-06T17:00:00.000Z",
           "average": 49.01
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-06",
           "firstObservedAt": "2026-11-06T10:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
+          "lastObservedAt": "2026-11-06T17:00:00.000Z",
           "average": 49.01
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.84,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-06",
           "firstObservedAt": "2026-11-06T10:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
+          "lastObservedAt": "2026-11-06T17:00:00.000Z",
           "average": 48.84
         },
         {
@@ -129,26 +129,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.54,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-06",
           "firstObservedAt": "2026-11-06T10:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
+          "lastObservedAt": "2026-11-06T17:00:00.000Z",
           "average": 48.54
         },
         {
-          "storyId": "e5a25966251123f48915",
-          "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
-          "url": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2240656304-1024x648.jpg",
-          "peak": 48.34,
+          "storyId": "48a26be0d0669fa5f2a7",
+          "title": "US tech stocks recovering on Wall Street after worst day in 19 months – as it happened",
+          "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/0e4c788de335f06b675ebb989bef6fdeb25ba7e8/566_34_4958_3966/master/4958.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 48.51,
           "observations": 1,
           "daysTracked": 1,
           "peakDate": "2026-11-06",
-          "firstObservedAt": "2026-11-06T10:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
-          "average": 48.34
+          "firstObservedAt": "2026-11-06T17:00:00.000Z",
+          "lastObservedAt": "2026-11-06T17:00:00.000Z",
+          "average": 48.51
         }
       ]
     },
@@ -10038,11 +10038,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 5,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
+          "lastObservedAt": "2026-11-06T17:00:00.000Z",
           "average": 51.23
         },
         {
@@ -10066,11 +10066,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 4,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T21:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
+          "lastObservedAt": "2026-11-06T17:00:00.000Z",
           "average": 51.07
         },
         {
@@ -10122,11 +10122,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 4,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
+          "lastObservedAt": "2026-11-06T17:00:00.000Z",
           "average": 50.24
         },
         {
@@ -11635,11 +11635,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 19,
+          "observations": 20,
           "daysTracked": 6,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
+          "lastObservedAt": "2026-11-06T17:00:00.000Z",
           "average": 51.23
         },
         {
@@ -11663,11 +11663,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 4,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T21:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
+          "lastObservedAt": "2026-11-06T17:00:00.000Z",
           "average": 51.07
         },
         {
@@ -11719,11 +11719,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 4,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
+          "lastObservedAt": "2026-11-06T17:00:00.000Z",
           "average": 50.24
         },
         {
