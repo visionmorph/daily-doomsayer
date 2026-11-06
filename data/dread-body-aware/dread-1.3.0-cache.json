@@ -333815,8 +333815,1453 @@
           "vulnerability": 0
         }
       }
+    },
+    "d4f20cbcd020b7a2e00b": {
+      "storyId": "d4f20cbcd020b7a2e00b",
+      "url": "https://www.inc.com/javier-david/texas-ai-boom-dallas-fort-worth-data-centers/91432822",
+      "title": "Texas Just Shook Up the AI Boom. Dallas-Fort Worth Is Feeling the Pressure",
+      "source": "Inc. AI",
+      "published": "2026-11-06T22:30:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9d00f2a23ec6a2cccba9b75d",
+      "bodyFingerprint": "64f615d548c9dc74dd6b5132",
+      "bodyCharacterCount": 158,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-06T23:12:19.422Z",
+      "assessment": {
+        "centralEvent": "Texas Just Shook Up the AI Boom. Dallas-Fort Worth Is Feeling the Pressure",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Dallas-Fort Worth Is Feeling the Pressure",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "A historic election has raised new questions about billions in planned data-center investments.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d9d8ed120c50cfe24ebb": {
+      "storyId": "d9d8ed120c50cfe24ebb",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "source": "TechCrunch AI",
+      "published": "2026-11-06T22:53:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ee6a598e31dab60ad54df8a9",
+      "bodyFingerprint": "8b8a61beebedbef45957095e",
+      "bodyCharacterCount": 2667,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.455Z",
+      "assessment": {
+        "centralEvent": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Topics AI , AI , Anthropic , fundraising , OpenAI November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Topics AI , AI , Anthropic , fundraising , OpenAI November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9b92abbaa83783413ac4": {
+      "storyId": "9b92abbaa83783413ac4",
+      "url": "https://www.inc.com/sadiya-kherani/dior-animated-holiday-short-ai-backlash-critics/91432462",
+      "title": "Dior Claimed Its Animated Holiday Short Took Months to Hand-Draw. Critics Aren’t Buying It",
+      "source": "Inc. AI",
+      "published": "2026-11-06T22:03:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3862e9ed72ee69847d2412e9",
+      "bodyFingerprint": "5491f703f24b92c3a4c3eaca",
+      "bodyCharacterCount": 157,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-06T23:12:19.459Z",
+      "assessment": {
+        "centralEvent": "Dior Claimed Its Animated Holiday Short Took Months to Hand-Draw. Critics Aren’t Buying It",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Viewers and digital artists are spotting telltale AI red flags in Dior’s star-studded holiday campaign, sparking a fierce backlash over luxury craftsmanship.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d7c6cd47f4de7042bde3": {
+      "storyId": "d7c6cd47f4de7042bde3",
+      "url": "https://mashable.com/tech/nov-6-google-pixel-watch-5-early-black-friday-deal",
+      "title": "Our favorite Android smartwatch is $100 off: Save on the new Google Pixel Watch 5 before Black Friday",
+      "source": "Mashable AI",
+      "published": "2026-11-06T23:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e41c39b5a82da550548a37e7",
+      "bodyFingerprint": "8ed4b4ffedafec7b9d3c8a26",
+      "bodyCharacterCount": 11769,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.466Z",
+      "assessment": {
+        "centralEvent": "Our favorite Android smartwatch is $100 off: Save on the new Google Pixel Watch 5 before Black Friday",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The clip is brief and focused purely on wearable tech accessories.\",\"keywords\":[\"fitbit\",\"google\",\"smartwatch\",\"metal mesh band\",\"champagne gold\",\"unboxing\",\"wearable technology\",\"accessory\",\"review\"],\"language\":\"en\",\"autoChapters\":[],\"iabC",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Last year's Pixel Watch 4 was already a running favorite for former Mashable reporter Christianna Silva, but the 5 earned its upgrade by adding a faster processor, double the storage, faster charging, and more accurate GPS route tracking fo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c55545460668462db7a3": {
+      "storyId": "c55545460668462db7a3",
+      "url": "https://www.inc.com/ray-fernandez/ai-agent-business-decision-sycophancy/91432344",
+      "title": "Your AI Agent May Create a Business Decision Nobody Actually Ordered",
+      "source": "Inc. AI",
+      "published": "2026-11-06T21:29:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b171e723ff921c5a4f063bcd",
+      "bodyFingerprint": "9baaa47e68873f612cf96fdf",
+      "bodyCharacterCount": 138,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-06T23:12:19.469Z",
+      "assessment": {
+        "centralEvent": "Your AI Agent May Create a Business Decision Nobody Actually Ordered",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a7e1415152c9585b8d71": {
+      "storyId": "a7e1415152c9585b8d71",
+      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "source": "The Verge AI",
+      "published": "2026-11-06T23:00:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "61091e3406cd7f92f1d5f937",
+      "bodyFingerprint": "80d30ac5e17466ca78680492",
+      "bodyCharacterCount": 3600,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.482Z",
+      "assessment": {
+        "centralEvent": "China reportedly recruited AI exec to spy on Jensen Huang",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8918f50849b90e539181": {
+      "storyId": "8918f50849b90e539181",
+      "url": "https://www.theguardian.com/us-news/2026/nov/06/democrats-renew-calls-for-datacenter-pauses",
+      "title": "Several Democrats renew calls for datacenter pauses after blue wave",
+      "source": "The Guardian AI",
+      "published": "2026-11-06T21:14:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ea7937d9a72834e81485b16d",
+      "bodyFingerprint": "b631bd572f0d4ee0c4b1611c",
+      "bodyCharacterCount": 4399,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.501Z",
+      "assessment": {
+        "centralEvent": "Several Democrats renew calls for datacenter pauses after blue wave",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Sanders was joined by several Democrats , including Representative Yassamin Ansari of Arizona – a state where Elon Musk’s SpaceX has proposed a datacenter project that would span more than 700 acres.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "358c61084baa4890242b": {
+      "storyId": "358c61084baa4890242b",
+      "url": "https://www.theguardian.com/us-news/2026/nov/06/ai-ceo-impersonation-theft",
+      "title": "Three men charged in US with using AI to impersonate CEOs and steal millions",
+      "source": "The Guardian AI",
+      "published": "2026-11-06T21:20:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3d48fed82d69b479411fb98d",
+      "bodyFingerprint": "3461b277131879313bbe5f94",
+      "bodyCharacterCount": 3614,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.506Z",
+      "assessment": {
+        "centralEvent": "Three men charged in US with using AI to impersonate CEOs and steal millions",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The alleged fraud took place between 2024 and 2026.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Men allegedly impersonated voices and images of executives to convince employees to send large payments Three foreign nationals were arrested and charged with using AI to allegedly impersonate corporate CEOs and attorneys to steal over $100",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "They would then instruct the employees to get in touch with lawyers at a large international law firm.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1747de811b5cc0f448b5": {
+      "storyId": "1747de811b5cc0f448b5",
+      "url": "https://www.inc.com/liyana-illyas/lebron-james-y-combinator-startup-cease-and-desist-may-have-been-point/91431970",
+      "title": "LeBron James Sent a Y Combinator-Backed Startup a Cease-and-Desist Letter. That May Have Been the Point",
+      "source": "Inc. AI",
+      "published": "2026-11-06T19:50:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1539a179cd5ffef97c757454",
+      "bodyFingerprint": "aeeceef7d11ef832f7ab2805",
+      "bodyCharacterCount": 130,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-06T23:12:19.508Z",
+      "assessment": {
+        "centralEvent": "LeBron James Sent a Y Combinator-Backed Startup a Cease-and-Desist Letter. That May Have Been the Point",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "abf0e2ec4421a35c7d78": {
+      "storyId": "abf0e2ec4421a35c7d78",
+      "url": "https://mashable.com/tech/how-tech-stocks-performing-friday-amid-ai-slowdown-fears",
+      "title": "How tech stocks are performing Friday amid AI slowdown fears",
+      "source": "Mashable AI",
+      "published": "2026-11-06T21:11:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5ee43e31820d834987867fd5",
+      "bodyFingerprint": "41e5afaf618eec87b39f2635",
+      "bodyCharacterCount": 2695,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.511Z",
+      "assessment": {
+        "centralEvent": "How tech stocks are performing Friday amid AI slowdown fears",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As Mashable reported on Thursday , Tuesday's U.S. midterm election results have sent shockwaves through the tech sector.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7414ce7d0f6042ec3113": {
+      "storyId": "7414ce7d0f6042ec3113",
+      "url": "https://www.inc.com/larry-alton/why-spending-millions-ai-hardware-isnt-giving-performance/91431870",
+      "title": "Why Spending Millions on AI Hardware Isn’t Giving Your Company the Performance You Expect",
+      "source": "Inc. AI",
+      "published": "2026-11-06T19:03:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "76f4b8acebac502bde4e6dac",
+      "bodyFingerprint": "fd68b83231ea27376a560031",
+      "bodyCharacterCount": 173,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-06T23:12:19.522Z",
+      "assessment": {
+        "centralEvent": "Why Spending Millions on AI Hardware Isn’t Giving Your Company the Performance You Expect",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Why Spending Millions on AI Hardware Isn’t Giving Your Company the Performance You Expect",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f8fe21ba7f368ed10ce0": {
+      "storyId": "f8fe21ba7f368ed10ce0",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "title": "All the latest updates on AI data centers",
+      "source": "The Verge AI",
+      "published": "2026-11-06T20:02:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "143cd06d8e63b5ecd6121c36",
+      "bodyFingerprint": "5b1c81cf0cc358f17fa205ee",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.540Z",
+      "assessment": {
+        "centralEvent": "All the latest updates on AI data centers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Prop 45 in California could be hiding a loophole for data centers Maine’s data center revolt will decide who controls the Senate Data centers could send US climate pollution skyrocketing AI has come for Arizona’s water This week in the big ",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Here are a few recent articles about the projects: Bloomberg : AI Data Center Boom Set for Upheaval After US Election Rout The Guardian : How a small Wisconsin city scuttled a secretive $1.6bn datacenter project The Hill : San Diego delays ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "“A data center should not be a potential death sentence for a community’s health.” Iran threatens OpenAI’s Stargate data center in Abu Dhabi Senators are pushing to find out how much electricity data centers actually use Arm’s first CPU eve",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 190,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.83,
+        "rawScore": 49.83,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.53,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "481077c705105cb61b27": {
+      "storyId": "481077c705105cb61b27",
+      "url": "https://www.inc.com/moses-jeanfrancois/fbi-warns-businesses-after-129-million-dollar-fake-ceo-scheme/91432514",
+      "title": "FBI Warns Businesses After a $129 Million Fake-CEO Scheme. The Caller Wasn’t the Only Impostor",
+      "source": "Inc. AI",
+      "published": "2026-11-06T18:58:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2129275cdd8a73b34837b710",
+      "bodyFingerprint": "9757d76ab1a789ee2a1405e0",
+      "bodyCharacterCount": 133,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-06T23:12:19.541Z",
+      "assessment": {
+        "centralEvent": "FBI Warns Businesses After a $129 Million Fake-CEO Scheme. The Caller Wasn’t the Only Impostor",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The alleged perpetrators used AI-generated voices and images to convince employees that major financial transactions were legitimate.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b95390dd81560d011e39": {
+      "storyId": "b95390dd81560d011e39",
+      "url": "https://www.inc.com/aaron-mok/small-business-owners-can-get-a-free-crash-course-on-ai-from-google-and-tiktok-heres-how/91432381",
+      "title": "Small-Business Owners Can Get a Free Crash Course on AI From Google and TikTok. Here’s How",
+      "source": "Inc. AI",
+      "published": "2026-11-06T18:51:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3d9244549c4338569ac9e165",
+      "bodyFingerprint": "f37d2cb82af6bbb6bf8e70ba",
+      "bodyCharacterCount": 128,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-06T23:12:19.549Z",
+      "assessment": {
+        "centralEvent": "Small-Business Owners Can Get a Free Crash Course on AI From Google and TikTok. Here’s How",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4124fc328a5ee49a687c": {
+      "storyId": "4124fc328a5ee49a687c",
+      "url": "https://www.theguardian.com/world/2026/nov/06/activists-break-into-building-site-of-microsoft-datacentre-in-amsterdam",
+      "title": "Activists break into building site of Microsoft datacentre in Amsterdam",
+      "source": "The Guardian AI",
+      "published": "2026-11-06T18:51:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1c0dc9e31dd2cad8e6a7887c",
+      "bodyFingerprint": "bdf759b160b030fc0df3193f",
+      "bodyCharacterCount": 6223,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.560Z",
+      "assessment": {
+        "centralEvent": "Activists break into building site of Microsoft datacentre in Amsterdam",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Photograph: Fadel Dawod/Getty Images The ecological fallout of the datacentre boom has alarmed some climate scientists, while growing frustration with AI’s societal impact – from energy bills and job losses to the role of tech companies in ",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The action comes amid Europe-wide resistance to the rapid expansion of energy-hungry AI, with more than 100 groups involved in a two-day series of protests to demand moratoria on the construction of new datacentres.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Activists across Europe prepare two days of protests against datacentres Read more Stop Dirty Data Centres, a coalition of independent groups that include national branches of Greenpeace and Friends of the Earth, said it had not coordinated",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0bb49f96544d94ecd80e": {
+      "storyId": "0bb49f96544d94ecd80e",
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "title": "How to predict the behavior of molecules from scant data",
+      "source": "MIT News AI",
+      "published": "2026-11-06T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "999c7fca95cdf634c8ada341",
+      "bodyFingerprint": "3530c029100879782133b622",
+      "bodyCharacterCount": 7981,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.571Z",
+      "assessment": {
+        "centralEvent": "How to predict the behavior of molecules from scant data",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The findings were reported in the Sept.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0b47ae94b8dc6c928b08": {
+      "storyId": "0b47ae94b8dc6c928b08",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "source": "TechCrunch AI",
+      "published": "2026-11-06T18:44:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c97b5770a618435a447267e3",
+      "bodyFingerprint": "540ba524ed799cca119d7d72",
+      "bodyCharacterCount": 4750,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.580Z",
+      "assessment": {
+        "centralEvent": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular C",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.7,
+        "rawScore": 46.7,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a8fc5de6487f58f91f0a": {
+      "storyId": "a8fc5de6487f58f91f0a",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "source": "TechCrunch AI",
+      "published": "2026-11-06T18:44:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6a4e79a9d70e3424e80c25a8",
+      "bodyFingerprint": "f430a8946d182c09db89d059",
+      "bodyCharacterCount": 3753,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.606Z",
+      "assessment": {
+        "centralEvent": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular C",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9aeac73058ac351bd96e": {
+      "storyId": "9aeac73058ac351bd96e",
+      "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+      "source": "The Verge AI",
+      "published": "2026-11-06T18:10:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4061ad06b33abcd8eccf0cf6",
+      "bodyFingerprint": "90363b14fb06f278d473a364",
+      "bodyCharacterCount": 4025,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.619Z",
+      "assessment": {
+        "centralEvent": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "94d3f146301ece8ef609": {
+      "storyId": "94d3f146301ece8ef609",
+      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry",
+      "title": "How a Blue Wave midterm might reshape the AI industry",
+      "source": "TechCrunch AI",
+      "published": "2026-11-06T18:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0f1fe96a95414c33b249141c",
+      "bodyFingerprint": "c9e42ca031c3a9204290029e",
+      "bodyCharacterCount": 5289,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.639Z",
+      "assessment": {
+        "centralEvent": "How a Blue Wave midterm might reshape the AI industry",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular C",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular C",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular C",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.7,
+        "rawScore": 46.7,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "181035002433e93daeeb": {
+      "storyId": "181035002433e93daeeb",
+      "url": "https://www.eff.org/deeplinks/2026/11/google-forcing-ai-students-bs",
+      "title": "Google Forcing AI on Students Is BS",
+      "source": "EFF AI",
+      "published": "2026-11-06T19:14:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a1585c32358111ba228a892e",
+      "bodyFingerprint": "1700564a6a3a7cc659b52477",
+      "bodyCharacterCount": 4845,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.715Z",
+      "assessment": {
+        "centralEvent": "Google Forcing AI on Students Is BS",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "224c3d5c5f30d73d95d2": {
+      "storyId": "224c3d5c5f30d73d95d2",
+      "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+      "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+      "source": "WIRED AI",
+      "published": "2026-11-06T18:43:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4b43f15d6999a6e84d881362",
+      "bodyFingerprint": "d136b1954eeff44bd41f54ad",
+      "bodyCharacterCount": 6152,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-06T23:12:19.775Z",
+      "assessment": {
+        "centralEvent": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The researchers found OpenAI’s most advanced cyber model, Daybreak, which is available only to trusted partners, to be the most capable, completing 81 percent of the tasks it was given in an average of two tests.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "97b54e0189ef6f498736": {
+      "storyId": "97b54e0189ef6f498736",
+      "url": "https://www.nature.com/articles/d41586-026-03587-x",
+      "title": "These AI agents design your perfect robot-powered lab — and run it for you",
+      "source": "Nature AI News & Comment",
+      "published": "2026-11-06T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1bbf2b8d4491ebc5bd4bbc60",
+      "bodyFingerprint": "8c22bb552158f67bfc09685f",
+      "bodyCharacterCount": 176,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-06T23:12:20.277Z",
+      "assessment": {
+        "centralEvent": "These AI agents design your perfect robot-powered lab — and run it for you",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-06T18:00:16.032Z"
+  "updatedAt": "2026-11-06T23:12:20.277Z"
 }
