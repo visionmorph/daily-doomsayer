@@ -336472,8 +336472,68 @@
           "vulnerability": 0
         }
       }
+    },
+    "ba84036a0a06fb5cdec0": {
+      "storyId": "ba84036a0a06fb5cdec0",
+      "url": "https://www.theguardian.com/us-news/2026/nov/07/faa-digital-air-traffic-control-tower-technology",
+      "title": "FAA announces first US digital air traffic control towers in Florida and Alaska",
+      "source": "The Guardian AI",
+      "published": "2026-11-07T20:03:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "793932497afa9fe021e092c3",
+      "bodyFingerprint": "41d1f31a71122e43c699100b",
+      "bodyCharacterCount": 3626,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-07T20:55:34.386Z",
+      "assessment": {
+        "centralEvent": "FAA announces first US digital air traffic control towers in Florida and Alaska",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Staffing levels in control towers and many related aspects of US air traffic safety systems have been under especially close scrutiny since a midair collision between a passenger jet and a military helicopter on the outskirts of Washington ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-07T16:31:49.367Z"
+  "updatedAt": "2026-11-07T20:55:34.386Z"
 }
