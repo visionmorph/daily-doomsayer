@@ -335446,8 +335446,369 @@
           "vulnerability": 0
         }
       }
+    },
+    "7b67c173124e815b07d0": {
+      "storyId": "7b67c173124e815b07d0",
+      "url": "https://mashable.com/tech/ai-agents-for-parents-pros-and-cons",
+      "title": "AI agents may run your household. What could go wrong?",
+      "source": "Mashable AI",
+      "published": "2026-11-07T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c79f1d081b88f80184071d5e",
+      "bodyFingerprint": "fe9d197d9ba996ab1e723291",
+      "bodyCharacterCount": 10020,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-07T10:16:48.005Z",
+      "assessment": {
+        "centralEvent": "AI agents may run your household. What could go wrong?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Experts say the excitement over agentic products for families is warranted, but that parents should first grasp how to best protect their data. \"I would love to have this mental load out of my head\" In a few short months, overwhelmed parent",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bd254bcf06160fa0fd8c": {
+      "storyId": "bd254bcf06160fa0fd8c",
+      "url": "https://mashable.com/tech/dji-matrice-5t-drone-launch",
+      "title": "DJI unveils an all-weather drone built for pitch-black rescue missions: Features, night vision, and thermal imaging",
+      "source": "Mashable AI",
+      "published": "2026-11-07T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d3cf6595a8ce344c9e77efdb",
+      "bodyFingerprint": "39eff9b1c41e749e0f33e427",
+      "bodyCharacterCount": 15235,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-07T10:16:48.014Z",
+      "assessment": {
+        "centralEvent": "DJI unveils an all-weather drone built for pitch-black rescue missions: Features, night vision, and thermal imaging",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0dcf5e690b0eae8fd2ec": {
+      "storyId": "0dcf5e690b0eae8fd2ec",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/07/lanarkshire-ai-datacentre-datavita-chapelhall-national-grid-renewable-energy",
+      "title": "Lanarkshire AI datacentre to fully rely on National Grid despite renewables claim",
+      "source": "The Guardian AI",
+      "published": "2026-11-07T10:00:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5687a9d71da7793554693828",
+      "bodyFingerprint": "e488e62380b05b4f07c1ab1d",
+      "bodyCharacterCount": 5586,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-07T10:16:48.032Z",
+      "assessment": {
+        "centralEvent": "Lanarkshire AI datacentre to fully rely on National Grid despite renewables claim",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "But this strategy began to founder just over a year after it was announced, when the Guardian’s investigations demonstrated that there was little solidity behind many announced plans.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bef028bbd7f40d5d158e": {
+      "storyId": "bef028bbd7f40d5d158e",
+      "url": "https://www.theguardian.com/technology/2026/nov/07/datacentres-southeast-asia",
+      "title": "The datacentre arms race hits pause in south-east Asia",
+      "source": "The Guardian AI",
+      "published": "2026-11-07T10:00:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "54a070eacdb501315eba16eb",
+      "bodyFingerprint": "b933179ffebe4408f393abd6",
+      "bodyCharacterCount": 9858,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-07T10:16:48.039Z",
+      "assessment": {
+        "centralEvent": "The datacentre arms race hits pause in south-east Asia",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Protesters expressed concern about the dust pollution caused by construction of the site near a residential location and the potential impact on water supply.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Malaysia has established a datacentre taskforce to review new projects with an eye on energy and water security, and Johor announced that it would no longer approve Tier 1 and Tier 2 datacentres, which used up to 50m litres of water per day",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "With the global rise of AI usage driving an increased demand for datacentres, south-east Asia has emerged as a surprise centre of growth in the Asia Pacific region.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 58,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "46dc5237b37cc0da5330": {
+      "storyId": "46dc5237b37cc0da5330",
+      "url": "https://news.sky.com/story/dozens-of-anti-data-centre-groups-set-to-march-in-edinburgh-as-part-of-europe-wide-protest-13609164",
+      "title": "Anti-data centre groups set to march in Edinburgh as part of Europe-wide protest",
+      "source": "Sky News AI",
+      "published": "2026-11-07T08:19:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e52bc8f1597037f1e1aece2d",
+      "bodyFingerprint": "e35318899b0e8dba3fa2b615",
+      "bodyCharacterCount": 121,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-07T10:16:48.123Z",
+      "assessment": {
+        "centralEvent": "Anti-data centre groups set to march in Edinburgh as part of Europe-wide protest",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7ddc1659b9313d0b8b05": {
+      "storyId": "7ddc1659b9313d0b8b05",
+      "url": "https://www.theguardian.com/money/2026/nov/07/can-ai-save-you-money-heating-bill",
+      "title": "Can AI really save you money on your heating bill? I spent two years testing to find out",
+      "source": "The Guardian AI",
+      "published": "2026-11-07T07:00:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "87b9306050dd641d2ac2deeb",
+      "bodyFingerprint": "bbe4b7c8aaac27db88ec9804",
+      "bodyCharacterCount": 8752,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-07T10:16:48.453Z",
+      "assessment": {
+        "centralEvent": "Can AI really save you money on your heating bill? I spent two years testing to find out",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "After controlling for hot water usage by using recordings from when the heating was not used during the summer months of 2025 to create a daily average, my manual control consumed 14,316.7 kilowatt hours of gas across 213 days from November",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-07T02:51:00.316Z"
+  "updatedAt": "2026-11-07T10:16:48.453Z"
 }
