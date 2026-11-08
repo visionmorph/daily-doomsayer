@@ -336752,8 +336752,810 @@
           "vulnerability": 0
         }
       }
+    },
+    "bbbb86b7d578c108f500": {
+      "storyId": "bbbb86b7d578c108f500",
+      "url": "https://www.theguardian.com/books/2026/nov/08/the-efficiency-trap-why-optimising-everything-can-backfire-badly",
+      "title": "The efficiency trap: why optimising everything can backfire, badly",
+      "source": "The Guardian AI",
+      "published": "2026-11-08T12:00:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c25539b15def1a89ba5407e3",
+      "bodyFingerprint": "9a035d1603eba5163957e6b4",
+      "bodyCharacterCount": 7086,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-08T15:15:53.827Z",
+      "assessment": {
+        "centralEvent": "The efficiency trap: why optimising everything can backfire, badly",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The concern here goes beyond what any given AI may or may not do; it’s about what happens when swarms of them join forces.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Indeed, researchers have found that training algorithms on human preferences can encourage AI to sycophantically agree with us rather than tell us uncomfortable truths.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The hospital bed story illustrated the first one: weakening a system’s robustness by squeezing out too much slack.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The whipsaw on the upside was even wilder; within 10 minutes, the market had recovered.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 69,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.56,
+        "rawScore": 26.56,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 1,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "229c2118057985c38e52": {
+      "storyId": "229c2118057985c38e52",
+      "url": "https://www.theguardian.com/books/picture/2026/nov/08/tom-gauld-on-prompts-for-a-cartoon-about-artificial-intelligence-and-writing-cartoon",
+      "title": "Tom Gauld on prompts for a cartoon about artificial intelligence and writing – cartoon",
+      "source": "The Guardian AI",
+      "published": "2026-11-08T12:00:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "30a8a3fd819116908fa082d7",
+      "bodyFingerprint": "7633e1408d57247dbf0396ac",
+      "bodyCharacterCount": 19,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-08T15:15:53.923Z",
+      "assessment": {
+        "centralEvent": "Tom Gauld on prompts for a cartoon about artificial intelligence and writing – cartoon",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 1,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f086e69ea291a4275211": {
+      "storyId": "f086e69ea291a4275211",
+      "url": "https://www.theguardian.com/business/2026/nov/08/us-midterms-ai-datacentres-broligarchy-voter-backlash",
+      "title": "1-0 to humankind? US midterms vote puts AI, datacentres and the broligarchy back in their box | Heather Stewart",
+      "source": "The Guardian AI",
+      "published": "2026-11-08T12:05:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b395bafc49dbee61e2de3e3e",
+      "bodyFingerprint": "b79867473c5928f35a40d5e8",
+      "bodyCharacterCount": 7807,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-08T15:15:53.935Z",
+      "assessment": {
+        "centralEvent": "1-0 to humankind? US midterms vote puts AI, datacentres and the broligarchy back in their box | Heather Stewart",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Election results appear to have turbo-charged an already growing social, political and financial market rethink about AI ‘AI clog’: UK battles onslaught of chatbot-generated complaints Editorial: the AI backlash – Silicon Valley’s political",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Election results appear to have turbo-charged an already growing social, political and financial market rethink about AI ‘AI clog’: UK battles onslaught of chatbot-generated complaints Editorial: the AI backlash – Silicon Valley’s political",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As just one example, the International Monetary Fund pointed last month to“growing evidence” that the successful rollout of AI “may not require investment on the massive scale being undertaken by ‘hyperscaler’ firms”, and that “potential ec",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 3,
+            "source": "body",
+            "excerpt": "As such, this [the midterms] could plausibly become the catalyst that leads to a more long-lasting unwind of the AI equity boom.” skip past newsletter promotion after newsletter promotion Two things can both be true: AI is a transformative ",
+            "matchedRule": "/\\b(?:long-lasting|lasting damage|years to recover|chronic|only partially reversible)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.77,
+        "rawScore": 27.77,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 3,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4e0e57590300e582bc83": {
+      "storyId": "4e0e57590300e582bc83",
+      "url": "https://www.theguardian.com/technology/2026/nov/09/weakening-ai-copyright-law-will-spell-disaster-for-creativity-australia",
+      "title": "Weakening AI copyright law will spell ‘disaster for creativity’, global music body warns Albanese",
+      "source": "The Guardian AI",
+      "published": "2026-11-08T14:00:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d603778ed658649db344496d",
+      "bodyFingerprint": "2236ef1ad9d862ce0e3bd13c",
+      "bodyCharacterCount": 5712,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-08T15:15:53.940Z",
+      "assessment": {
+        "centralEvent": "Weakening AI copyright law will spell ‘disaster for creativity’, global music body warns Albanese",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Illustration: alengo/Getty Images/iStockphoto Weakening AI copyright law will spell ‘disaster for creativity’, global music body warns Albanese Exclusive: Head of IFPI says allowing AI companies access to online content would be a ‘huge mis",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Oakley said she worried about AI and copyright “everywhere”, but feared “Australia appears to be threatening to do something really ridiculous and dangerous.” She said creative industries worried about “contagion” of copyright relaxation if",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Weakening AI copyright law will spell ‘disaster for creativity’, global music body warns Albanese",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1bf3de5d437f5ff562d8": {
+      "storyId": "1bf3de5d437f5ff562d8",
+      "url": "https://www.theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence",
+      "title": "‘AI clog’: UK public bodies battle onslaught of chatbot-generated complaints",
+      "source": "The Guardian AI",
+      "published": "2026-11-08T08:00:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4198fc6025a743c5d2e5f6c1",
+      "bodyFingerprint": "188309dc97c76a8a203ee1e7",
+      "bodyCharacterCount": 12036,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-08T15:15:53.969Z",
+      "assessment": {
+        "centralEvent": "‘AI clog’: UK public bodies battle onslaught of chatbot-generated complaints",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Photograph: Martin Godwin/The Guardian The statutory response times for some requests are putting further pressure on public bodies clogged up by AI-generated correspondence.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The number of employment tribunal claims opened between April and June soared by 28% compared with a year earlier, representing 14,000 cases from single claimants, according to the most recent government figures.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The technology journalist Jamie Bartlett has been approached by many people sharing their experiences of AI clog.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The number of employment tribunal claims opened between April and June soared by 28% compared with a year earlier, representing 14,000 cases from single claimants, according to the most recent government figures.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.42,
+        "rawScore": 26.42,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.22,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0e34e988e4e9a6f2ebc3": {
+      "storyId": "0e34e988e4e9a6f2ebc3",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261106174532.htm",
+      "title": "A nuclear blast could save Earth from an asteroid, but there's a catch",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-08T10:11:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3c6352dfc97af2e77a40722d",
+      "bodyFingerprint": "2b53288b2821a87ed81507ab",
+      "bodyCharacterCount": 11735,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-08T15:15:54.107Z",
+      "assessment": {
+        "centralEvent": "A nuclear blast could save Earth from an asteroid, but there's a catch",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Those differences can dramatically influence how an asteroid moves when exposed to intense radiation.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The event was first signaled by a gamma-ray burst and later confirmed ...",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Science News from research organizations A nuclear blast could save Earth from an asteroid, but there's a catch Date: November 8, 2026 Source: Sandia National Laboratories Summary: A nuclear explosion might save Earth from a deadly asteroid",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Scientists Discover Something Unexpected 90 Kilometers Beneath Earth A Healthier Form of Salt Could Prevent Nearly 3 Million Deaths Every Year, Scientists Say Deep-Sea Scientists Capture Extraordinary 4K Footage",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 78,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.78,
+        "rawScore": 48.78,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.435,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9a720b3178d2f33796ad": {
+      "storyId": "9a720b3178d2f33796ad",
+      "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good",
+      "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+      "source": "WIRED AI",
+      "published": "2026-11-08T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af7b28704adebe7ee95097ee",
+      "bodyFingerprint": "13778dd2f95d53b29be9085d",
+      "bodyCharacterCount": 11820,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-08T15:15:54.133Z",
+      "assessment": {
+        "centralEvent": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Since AI is often a lousy chef , giving it a role in the presentation of NYT's gold mine of content is a big risk.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Now, in the iOS-only beta, a \"customize this recipe\" field appears just above the ingredient list.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "My writing for WIRED over the past decade has shown me again and again that adding tech to a kitchen product is risky at best.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 80,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.54,
+        "rawScore": 25.54,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.14,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7a6ddd94fc2d29aa49a5": {
+      "storyId": "7a6ddd94fc2d29aa49a5",
+      "url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
+      "title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
+      "source": "WIRED AI",
+      "published": "2026-11-08T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "789d626fc5189cb941f5f8da",
+      "bodyFingerprint": "b7c058ec121911e12f52733a",
+      "bodyCharacterCount": 5555,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-08T15:15:54.144Z",
+      "assessment": {
+        "centralEvent": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“So with a language model, you have a sentence, and it will predict the next word in the sentence,” says Oliver Cameron, the CEO of Odyssey , an AI lab focused on world models.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "098970078f056940e969": {
+      "storyId": "098970078f056940e969",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261106174525.htm",
+      "title": "Mysterious gas leaks suggest Mars may still be volcanically alive",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-08T01:09:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "61a49e36682f69401dc9d582",
+      "bodyFingerprint": "41fc96c71ea4df2a44734a04",
+      "bodyCharacterCount": 11730,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-08T15:15:54.186Z",
+      "assessment": {
+        "centralEvent": "Mysterious gas leaks suggest Mars may still be volcanically alive",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "If confirmed, this would indicate that Mars still has dormant volcanic systems capable of releasing gases to the surface.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 87,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fcba619a931fe449f288": {
+      "storyId": "fcba619a931fe449f288",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261104012329.htm",
+      "title": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-08T03:46:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "038014c103a3f0291cb364c8",
+      "bodyFingerprint": "2b60478fb6abb1f866c155ab",
+      "bodyCharacterCount": 11008,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-08T15:15:54.232Z",
+      "assessment": {
+        "centralEvent": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "22, 2024  Scientists report incredibly small time delays in a molecule's electron activity when the particles are exposed to X-rays.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "22, 2024  Scientists report incredibly small time delays in a molecule's electron activity when the particles are exposed to X-rays.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Once the system has been installed and commissioned, scientists from around the world using the MID instrument are expected to gain access to these exceptionally brief and intense X-ray flashes.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Share: Facebook Twitter Pinterest LinkedIN Email FULL STORY In an undulator with permanent magnets of alternating polarization, a wiggling cloud of electrons emits a sharp, short pulse of X-rays.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 75,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.83,
+        "rawScore": 49.83,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.53,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7287f273bb744d29d4a9": {
+      "storyId": "7287f273bb744d29d4a9",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261106174537.htm",
+      "title": "A hidden limit of space and time could unlock electronics 100,000 times faster",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-07T23:34:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bb697597eaf74dd2aa19e4ca",
+      "bodyFingerprint": "81a118ff6862b1df95ef62c3",
+      "bodyCharacterCount": 14204,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-08T15:15:54.237Z",
+      "assessment": {
+        "centralEvent": "A hidden limit of space and time could unlock electronics 100,000 times faster",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Werner Heisenberg's famous uncertainty principle states that certain properties, such as a particle's position and momentum, cannot both be measured with unlimited precision.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Now, researchers have experimentally demonstrated another fundamental limitation: an electron's location and its behavior over time cannot both be determined with arbitrary precision.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The discovery comes from an international collaboration involving research groups at the Regensburg Center for Ultrafast Nanoscopy (RUN), led by Profs.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Scientists Discover Something Unexpected 90 Kilometers Beneath Earth A Healthier Form of Salt Could Prevent Nearly 3 Million Deaths Every Year, Scientists Say Deep-Sea Scientists Capture Extraordinary 4K Footage",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "About ten years ago, scientists in Regensburg used ultrafast scanning tunneling microscopy to resolve the movement of a single molecule across space and time for the first time.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 104,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.61,
+        "rawScore": 29.61,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.51,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-08T07:25:17.503Z"
+  "updatedAt": "2026-11-08T15:15:54.237Z"
 }
