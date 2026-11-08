@@ -336532,8 +336532,135 @@
           "vulnerability": 0
         }
       }
+    },
+    "3b069222ecbd3b59ba7f": {
+      "storyId": "3b069222ecbd3b59ba7f",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "source": "TechCrunch AI",
+      "published": "2026-11-07T21:17:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d951f03fb0652309e375518a",
+      "bodyFingerprint": "5562c3a73aba0e13b20eecf3",
+      "bodyCharacterCount": 2357,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-08T00:40:58.095Z",
+      "assessment": {
+        "centralEvent": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The Nvidia spokesperson said the company sells “the first, best and most of our technology in America.” Topics AI , Government & Policy November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder boo",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 10,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "51a247b5b6ae00e91ef5": {
+      "storyId": "51a247b5b6ae00e91ef5",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "source": "TechCrunch AI",
+      "published": "2026-11-07T22:07:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5501458c2c451daa7f0122e1",
+      "bodyFingerprint": "7f4409390557a0cb55096d8a",
+      "bodyCharacterCount": 8762,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-08T00:40:58.104Z",
+      "assessment": {
+        "centralEvent": "After the midterms, things are looking rocky for Elon Musk and data centers",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular T",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Sean kicked it off by noting that Elon Musk “seems to have basically nothing out of donating half a billion dollars” to Republicans, while his companies are now headquartered “in a state that has, remarkably, turned about as blue as it coul",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44.55,
+        "rawScore": 44.55,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-07T20:55:34.386Z"
+  "updatedAt": "2026-11-08T00:40:58.104Z"
 }
