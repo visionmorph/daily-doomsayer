@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-07T20:00:00.000Z",
+  "generatedAt": "2026-11-08T00:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-07",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-07",
           "firstObservedAt": "2026-11-07T10:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-07",
           "firstObservedAt": "2026-11-07T10:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 51.07
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_110726.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.66,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-07",
           "firstObservedAt": "2026-11-07T20:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 50.66
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-07",
           "firstObservedAt": "2026-11-07T10:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 50.24
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_C.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 49.83,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-07",
           "firstObservedAt": "2026-11-07T10:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 49.83
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268841_When_it_comes_to_dating_is_AI_the_new_politics__CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 49.34,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-07",
           "firstObservedAt": "2026-11-07T10:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 49.34
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-07",
           "firstObservedAt": "2026-11-07T10:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 49.01
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-07",
           "firstObservedAt": "2026-11-07T10:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 49.01
         },
         {
@@ -129,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.84,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-07",
           "firstObservedAt": "2026-11-07T10:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 48.84
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.54,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 1,
           "peakDate": "2026-11-07",
           "firstObservedAt": "2026-11-07T10:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 48.54
         }
       ]
@@ -10183,11 +10183,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 21,
+          "observations": 22,
           "daysTracked": 6,
           "peakDate": "2026-11-02",
           "firstObservedAt": "2026-11-02T06:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -10211,11 +10211,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 5,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T21:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 51.07
         },
         {
@@ -10253,11 +10253,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_110726.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.66,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-07",
           "firstObservedAt": "2026-11-07T20:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 50.66
         },
         {
@@ -10281,11 +10281,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 18,
+          "observations": 19,
           "daysTracked": 5,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 50.24
         },
         {
@@ -11780,11 +11780,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 25,
+          "observations": 26,
           "daysTracked": 7,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -11808,11 +11808,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 16,
+          "observations": 17,
           "daysTracked": 5,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T21:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 51.07
         },
         {
@@ -11850,11 +11850,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_110726.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.66,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-07",
           "firstObservedAt": "2026-11-07T20:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 50.66
         },
         {
@@ -11878,11 +11878,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 50.24,
-          "observations": 18,
+          "observations": 19,
           "daysTracked": 5,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
-          "lastObservedAt": "2026-11-07T20:00:00.000Z",
+          "lastObservedAt": "2026-11-08T00:00:00.000Z",
           "average": 50.24
         },
         {
