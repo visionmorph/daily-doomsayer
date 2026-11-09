@@ -337960,8 +337960,386 @@
           "vulnerability": 0
         }
       }
+    },
+    "6fbb9cbc09ce7eb4c3ad": {
+      "storyId": "6fbb9cbc09ce7eb4c3ad",
+      "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+      "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
+      "source": "MIT News AI",
+      "published": "2026-11-09T05:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c40c633f1904d20dfdedf679",
+      "bodyFingerprint": "d61baf7c63ca9e00607dd46f",
+      "bodyCharacterCount": 9663,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T06:39:50.036Z",
+      "assessment": {
+        "centralEvent": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "They demonstrated WorldParticle by modeling six different physical phenomena, including deformable objects, granular materials, and proteins, with higher accuracy than numerical simulation methods.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f2b130fea883df692eb4": {
+      "storyId": "f2b130fea883df692eb4",
+      "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+      "title": "AI-assisted learning platform helps robots reason beyond literal commands",
+      "source": "MIT News AI",
+      "published": "2026-11-09T05:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2ce3621c7f1d5453eea7cf0e",
+      "bodyFingerprint": "7e05024f12dd749733148918",
+      "bodyCharacterCount": 9606,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T06:39:50.047Z",
+      "assessment": {
+        "centralEvent": "AI-assisted learning platform helps robots reason beyond literal commands",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The team demonstrated FLEX in several simulated scenarios, including one in which a robot serves a cup of coffee.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "177dd03271cc9aec73ac": {
+      "storyId": "177dd03271cc9aec73ac",
+      "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50",
+      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+      "source": "TechCrunch AI",
+      "published": "2026-11-09T05:26:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cd3c56accab50021f2215482",
+      "bodyFingerprint": "ad57d0ad252af007c2bc3e88",
+      "bodyCharacterCount": 9219,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T06:39:50.076Z",
+      "assessment": {
+        "centralEvent": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The board, meanwhile, says it sees no sign that national security or company secrets were compromised, and that Huang is staying on.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Executives who survive personal scandals usually pick up where they left off at another company, Sonnenfeld observed.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "That won’t stop the worldwide guessing game that’s sure to follow in the coming weeks.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0d208e2c1172ff8b0915": {
+      "storyId": "0d208e2c1172ff8b0915",
+      "url": "https://news.sky.com/story/tech-giant-nvidia-launches-investigation-after-reports-ceo-was-targeted-by-chinese-intelligence-13609986",
+      "title": "AI giant Nvidia launches investigation into CEO's affair with 'Chinese spy'",
+      "source": "Sky News AI",
+      "published": "2026-11-08T20:41:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e1e51a994892bfab3eb96f17",
+      "bodyFingerprint": "6f93d1fecfe01a7cb5fe1c02",
+      "bodyCharacterCount": 124,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-09T06:39:50.081Z",
+      "assessment": {
+        "centralEvent": "AI giant Nvidia launches investigation into CEO's affair with 'Chinese spy'",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "efacc90450d8908eaab6": {
+      "storyId": "efacc90450d8908eaab6",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261104084011.htm",
+      "title": "Einstein's equations reveal how gravity could break, reconnect, and release energy",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-08T22:14:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fdce254fe700aca06ab5b592",
+      "bodyFingerprint": "66f80a63cd4e187fa49ea2d7",
+      "bodyCharacterCount": 13193,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T06:39:50.227Z",
+      "assessment": {
+        "centralEvent": "Einstein's equations reveal how gravity could break, reconnect, and release energy",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "As Comisso explained, \"It takes energy from the magnetic field and gives it to the particles in the plasma, producing explosions, energetic events.\" The researchers found that gravitational fields may undergo an analogous transformation.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 87,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9839b08bf31f01d8df69": {
+      "storyId": "9839b08bf31f01d8df69",
+      "url": "https://www.politico.eu/article/eu-countries-still-cant-get-it-together-on-ai",
+      "title": "EU countries still can’t get it together on AI",
+      "source": "POLITICO Europe AI",
+      "published": "2026-11-08T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "59ec63bec0da0738e8b3f349",
+      "bodyFingerprint": "fbd601d610c9645b193886b5",
+      "bodyCharacterCount": 3296,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T06:39:50.260Z",
+      "assessment": {
+        "centralEvent": "EU countries still can’t get it together on AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Safety has been a growing concern for EU leaders amid a series of incidents of rogue AI agents over summer, more recent cyberattacks and ominous warnings of possible existential risk for humanity from those inside the industry.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "With an August 2025 deadline to appoint the national enforcement authority, six countries — Austria, Belgium, Bulgaria, Croatia, Slovakia and Hungary — have not selected an authority, while 10 other capitals have only made a provisional dec",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Yet 16 capitals have missed a deadline to appoint a national authority to enforce the bloc’s AI safety law, and Brussels has also pushed back an effort to support the buildout of data centers because of national administrative delays.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.14,
+        "rawScore": 27.14,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-08T23:45:44.196Z"
+  "updatedAt": "2026-11-09T06:39:50.260Z"
 }
