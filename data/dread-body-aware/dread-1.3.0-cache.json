@@ -338338,8 +338338,1836 @@
           "vulnerability": 0
         }
       }
+    },
+    "7e4769dffa0edef4e84d": {
+      "storyId": "7e4769dffa0edef4e84d",
+      "url": "https://www.inc.com/pam-didner/google-classroom-ai-search-extraction-model/91433331",
+      "title": "Google’s Ultimatum to Schools Proves AI Isn’t a Feature. It’s an Extraction Model",
+      "source": "Inc. AI",
+      "published": "2026-11-09T17:30:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "706d7bcbe7f05e6d03a9d4c8",
+      "bodyFingerprint": "0ac3b7037bcfdfa368f66a74",
+      "bodyCharacterCount": 151,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-09T17:34:03.266Z",
+      "assessment": {
+        "centralEvent": "Google’s Ultimatum to Schools Proves AI Isn’t a Feature. It’s an Extraction Model",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "It’s not a technical limitation—it’s a warning about how software vendors will price the future.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "398e56d888611bfedf5b": {
+      "storyId": "398e56d888611bfedf5b",
+      "url": "https://www.inc.com/ash-kumra/servicenow-and-snowflake-are-using-ai-agents-at-scale-heres-what-they-learned/91433164",
+      "title": "ServiceNow and Snowflake Are Using AI Agents at Scale. Here’s What They Learned",
+      "source": "Inc. AI",
+      "published": "2026-11-09T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "63d0dada626efe030d5861b8",
+      "bodyFingerprint": "5f94454033e0d7ed849d9aac",
+      "bodyCharacterCount": 61,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-09T17:34:03.274Z",
+      "assessment": {
+        "centralEvent": "ServiceNow and Snowflake Are Using AI Agents at Scale. Here’s What They Learned",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "48b9783d0be504133140": {
+      "storyId": "48b9783d0be504133140",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines",
+      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "source": "TechCrunch AI",
+      "published": "2026-11-09T16:56:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "890c9e460fd9b90315730575",
+      "bodyFingerprint": "59603bd95474299fb4a92177",
+      "bodyCharacterCount": 4113,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:03.291Z",
+      "assessment": {
+        "centralEvent": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The AI company, which is planning to go public this year, is buying Caterpillar generators that equipment supplier OnePWR had originally ordered, according to a Financial Times report .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a01f7b57cd6fae9ffda8": {
+      "storyId": "a01f7b57cd6fae9ffda8",
+      "url": "https://www.inc.com/phil-rosen/stock-market-outlook-tech-ai-trade-technology-energy-sector-2/91433234",
+      "title": "Buying the Entire Stock Market Is Really Just a Narrow Bet on Tech Dominance",
+      "source": "Inc. AI",
+      "published": "2026-11-09T15:57:54.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "35cafbb26a08262dbb0eeccc",
+      "bodyFingerprint": "a6ca5338317551080301bd3f",
+      "bodyCharacterCount": 67,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-09T17:34:03.332Z",
+      "assessment": {
+        "centralEvent": "Buying the Entire Stock Market Is Really Just a Narrow Bet on Tech Dominance",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d65b75d7c2a2b265ec1b": {
+      "storyId": "d65b75d7c2a2b265ec1b",
+      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process",
+      "title": "Medium’s new TK app brings AI assistance directly into the writing process",
+      "source": "TechCrunch AI",
+      "published": "2026-11-09T16:12:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "42b3ba22a1e384f62e14c7bb",
+      "bodyFingerprint": "debd41629a677134b0b93caa",
+      "bodyCharacterCount": 5572,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:03.350Z",
+      "assessment": {
+        "centralEvent": "Medium’s new TK app brings AI assistance directly into the writing process",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2ecf841fedbcee54db81": {
+      "storyId": "2ecf841fedbcee54db81",
+      "url": "https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-affair-trump-musk",
+      "title": "Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy",
+      "source": "The Guardian AI",
+      "published": "2026-11-09T16:42:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b57c33ea9a11bd07adb22cce",
+      "bodyFingerprint": "80a8481be656d137e4011b48",
+      "bodyCharacterCount": 5069,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:03.465Z",
+      "assessment": {
+        "centralEvent": "Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Nvidia said in a statement that neither trade secrets nor US national security had been compromised.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The chip mogul is alleged to have had a relationship with Alice Huang, a businesswoman that US intelligence services suspect of spying for the Chinese government, according to The New York Times .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Donald Trump stands with Nvidia CEO Jensen Huang after presenting him with the National Medal of Science in Washington DC on 8 October 2026.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7cea50907b9af2ddea78": {
+      "storyId": "7cea50907b9af2ddea78",
+      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
+      "title": "Claude Code settings files expose thousands of secrets on GitHub",
+      "source": "Ars Technica AI",
+      "published": "2026-11-09T17:24:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "60b649d30dc99571e93cb47d",
+      "bodyFingerprint": "0fd1306cf5cf9d0821635ddc",
+      "bodyCharacterCount": 5062,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:03.542Z",
+      "assessment": {
+        "centralEvent": "Claude Code settings files expose thousands of secrets on GitHub",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This isn’t really a significant security issue if the settings file stays on the user’s local machine (assuming that machine doesn’t become compromised itself, of course).",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "These bug reports were all closed without action after 60 days of inactivity.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "And Anthropic notes in its Claude Code documentation that this particular settings file gets added to the developer’s global .gitignore list , which usually prevents it from being shared publicly.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d8ba4af02850aa5ef5b5": {
+      "storyId": "d8ba4af02850aa5ef5b5",
+      "url": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+      "title": "Jonathan Kanter is using AI to take on Big Tech",
+      "source": "The Verge AI",
+      "published": "2026-11-09T14:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a9ed01d0b0382aa443466209",
+      "bodyFingerprint": "dd36233bd01528d7506dd7f9",
+      "bodyCharacterCount": 8153,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:03.596Z",
+      "assessment": {
+        "centralEvent": "Jonathan Kanter is using AI to take on Big Tech",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Hawkins Nov 7 Lame-duck Congress might actually do something: speed up energy projects Justine Calma Nov 6 Just about anyone can rent access to White House IP addresses Emma Roth Nov 6 Big Tech lost big in the 2026 election David Pierce Nov",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8368c66208828eb04bde": {
+      "storyId": "8368c66208828eb04bde",
+      "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year",
+      "title": "Jensen Huang Hired a PR Firm Known for Handling Sex Scandals Last Year",
+      "source": "WIRED AI",
+      "published": "2026-11-09T14:30:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1e7549168355a1503b183275",
+      "bodyFingerprint": "0b0565016af35053e4bd78ad",
+      "bodyCharacterCount": 4854,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:03.615Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang Hired a PR Firm Known for Handling Sex Scandals Last Year",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It said it had no reason to believe that national security or confidential Nvidia information was compromised.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The firm, Heller, has handled Huang’s behind-the-scenes communications since at least October 2025, according to two sources familiar with the matter.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "It said it had no reason to believe that national security or confidential Nvidia information was compromised.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.59,
+        "rawScore": 46.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c1b3a32ffab2200b4b7d": {
+      "storyId": "c1b3a32ffab2200b4b7d",
+      "url": "https://www.theguardian.com/us-news/2026/nov/09/parents-teachers-google-search-schools-ai",
+      "title": "Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’",
+      "source": "The Guardian AI",
+      "published": "2026-11-09T14:00:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7ec412d90b0ea01625b0e193",
+      "bodyFingerprint": "742e1fa63f4b87720a8eb1ff",
+      "bodyCharacterCount": 6320,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:03.620Z",
+      "assessment": {
+        "centralEvent": "Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "002b5d6d214abd27bf87": {
+      "storyId": "002b5d6d214abd27bf87",
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet",
+      "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
+      "source": "TechCrunch AI",
+      "published": "2026-11-09T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1c68a19fd4d40ba916a9d21b",
+      "bodyFingerprint": "90562cefc6fdc1a50f34a2e2",
+      "bodyCharacterCount": 5669,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:03.648Z",
+      "assessment": {
+        "centralEvent": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular T",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In October, TechCrunch reported that the company had begun layoffs across several properties and more cuts were expected.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Ivan Mehta Ivan covers global consumer tech developments at TechCrunch.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3460e02250b075001179": {
+      "storyId": "3460e02250b075001179",
+      "url": "https://www.politico.com/news/2026/11/09/democrats-2028-brainstorm-ai-safety-01155925",
+      "title": "Inside Democrats’ 2028 brainstorm on AI safety",
+      "source": "POLITICO AI",
+      "published": "2026-11-09T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e517218e1c60701c54916ec0",
+      "bodyFingerprint": "13cd05a6e1300e2e17ba8e5a",
+      "bodyCharacterCount": 140,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-09T17:34:03.715Z",
+      "assessment": {
+        "centralEvent": "Inside Democrats’ 2028 brainstorm on AI safety",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "33a0483307191e736514": {
+      "storyId": "33a0483307191e736514",
+      "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage",
+      "title": "Nvidia CEO's affair becomes a national security problem",
+      "source": "Ars Technica AI",
+      "published": "2026-11-09T15:23:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f4e1b2c3c88e41bf11b0f1cd",
+      "bodyFingerprint": "9e548c4e87154523785cf6ba",
+      "bodyCharacterCount": 6346,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:03.755Z",
+      "assessment": {
+        "centralEvent": "Nvidia CEO's affair becomes a national security problem",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“While the board has no reason to believe that either national security or Nvidia secrets were compromised, the board’s inquiry will examine all available information.” Huang, who co-founded Nvidia as a video-game graphics card company in 1",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav Nvidia’s chief executive Jensen Huang has admitted having an affair two days after the FT reported ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Huang leads a close and loyal core team of about half a dozen executives, acting as its chief salesman on the international stage while directly managing dozens of direct reports who keep the company running.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "254fd81d762414d8499b": {
+      "storyId": "254fd81d762414d8499b",
+      "url": "https://www.bbc.co.uk/news/articles/cmwyvydp2vz8o?at_campaign=rss&at_medium=RSS",
+      "title": "Ioan Gruffudd in AI warning after fan claimed they had been in year-long affair",
+      "source": "BBC News AI",
+      "published": "2026-11-09T12:09:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5ac6fe0532bf90a02fc32bb6",
+      "bodyFingerprint": "2811fe31b5b68075c035bfdc",
+      "bodyCharacterCount": 3452,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:03.844Z",
+      "assessment": {
+        "centralEvent": "Ioan Gruffudd in AI warning after fan claimed they had been in year-long affair",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In January, Sir Tom shared a similar warning after he became aware of a number of social media accounts attempting to scam fans.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images Image caption, Ioan Gruffudd described discovering the AI-generated content as \"distressing and disturbing\" By Danielle Herbert BBC Wales Published 5 hours ago Hollywood actor Ioan Gruffudd has warned fans of \"exp",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e9e814f082dabce7f9ad": {
+      "storyId": "e9e814f082dabce7f9ad",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/07/anti-ai-populism-is-the-future-of-american-politics",
+      "title": "Anti-AI populism is the future of American politics | Garrison Lovely",
+      "source": "The Guardian AI",
+      "published": "2026-11-09T11:00:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8e16f907da7c214cb7f9f6a7",
+      "bodyFingerprint": "c4354ae34f5079416056ea1e",
+      "bodyCharacterCount": 9721,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:03.859Z",
+      "assessment": {
+        "centralEvent": "Anti-AI populism is the future of American politics | Garrison Lovely",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Some ideas: ban surveillance pricing and “bossware”, make it easier for workers to unionize (and organize across sectors), and create strict liability for AI developers.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Tuesday night clearly demonstrated that economic populism is the most potent force in American politics – and it’s incompatible with a friendly relationship with corporations that have already grown far too powerful.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Several Democrats renew calls for datacenter pauses after blue wave Read more And OpenAI’s CEO, Sam Altman , infamously said, “AI will probably, most likely, sort of lead to the end of the world, but in the meantime there will be great comp",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In my view, if the public really understood what the industry was trying to do, we would shut down further development immediately.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.13,
+        "rawScore": 47.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "129afffcefeaa8a89935": {
+      "storyId": "129afffcefeaa8a89935",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/09/ai-superintelligence-risk",
+      "title": "Today’s AI won’t achieve superintelligence. But catastrophic risk is real | Sunita Verma",
+      "source": "The Guardian AI",
+      "published": "2026-11-09T11:00:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b80cac28ff246070eb53b0ae",
+      "bodyFingerprint": "f104c15c6690ad9f8f4db96b",
+      "bodyCharacterCount": 6869,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:03.874Z",
+      "assessment": {
+        "centralEvent": "Today’s AI won’t achieve superintelligence. But catastrophic risk is real | Sunita Verma",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Public unrest grew this summer after a series of cyberattacks by “rogue” OpenAI agents broke out of a contained environment and hacked the software company Hugging Face.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Last month, OpenAI announced that a swarm of 10,000 concurrent agents collectively resolved a variant of the Navier–Stokes existence and smoothness problem, a major mathematical challenge, in 88 hours.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The Guardian view on AI safety: the push for global regulation must advance | Editorial Read more According to OpenAI, a review of the Hugging Face attack found that the agents recognized their hack was “ outside intended scope ”.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Regulations change, software updates ship, and markets shift every day.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.5,
+        "rawScore": 49.5,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d87410c6c541a05ee78b": {
+      "storyId": "d87410c6c541a05ee78b",
+      "url": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools",
+      "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+      "source": "WIRED AI",
+      "published": "2026-11-09T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "075db521b94c55f63d205378",
+      "bodyFingerprint": "ed350e0069442ae9b85af2e5",
+      "bodyCharacterCount": 10301,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:03.998Z",
+      "assessment": {
+        "centralEvent": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Pangram , a robust but by no means infallible AI detection tool, some 78 percent of the text was AI-generated.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2136f264e96a1f14922c": {
+      "storyId": "2136f264e96a1f14922c",
+      "url": "https://www.inc.com/minda-zetlin/a-stanford-study-just-explained-when-to-use-ai-for-research-and-when-not-to/91431430",
+      "title": "A Stanford Study Just Explained When to Use AI for Research—and When Not To",
+      "source": "Inc. AI",
+      "published": "2026-11-09T10:48:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "55c022a5a0276028bb401b02",
+      "bodyFingerprint": "3fcaa01fbda2ba15faf957d7",
+      "bodyCharacterCount": 65,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-09T17:34:04.019Z",
+      "assessment": {
+        "centralEvent": "A Stanford Study Just Explained When to Use AI for Research—and When Not To",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "title",
+            "excerpt": "A Stanford Study Just Explained When to Use AI for Research—and When Not To",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4b75bf6703b71c1bad63": {
+      "storyId": "4b75bf6703b71c1bad63",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261105224536.htm",
+      "title": "A quantum breakthrough makes light behave like both a solid and a liquid",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-09T11:19:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "298f0ef57e8ae528142f1af5",
+      "bodyFingerprint": "edea40ebb231d1164de55ba4",
+      "bodyCharacterCount": 16022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:04.085Z",
+      "assessment": {
+        "centralEvent": "A quantum breakthrough makes light behave like both a solid and a liquid",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Scientists have observed a bizarre quantum state of matter that combines the structure of a crystal with the frictionless flow of a liquid, all at room temperature.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 119,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "498519c87733ddee5786": {
+      "storyId": "498519c87733ddee5786",
+      "url": "https://techpolicy.press/a-new-agenda-for-tech-regulation-beyond-ai",
+      "title": "A New Agenda for Tech Regulation Beyond AI",
+      "source": "Tech Policy Press AI",
+      "published": "2026-11-09T13:08:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2a94bf5771950445798d526a",
+      "bodyFingerprint": "0457d5514bb42482c0a97db3",
+      "bodyCharacterCount": 15579,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:04.151Z",
+      "assessment": {
+        "centralEvent": "A New Agenda for Tech Regulation Beyond AI",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Affordability Affordability is at the top of the populist agenda; witness El Sayed’s often-repeated refrain “Money out of politics, money in your pocket, Medicare for all.” While gas and grocery prices aren’t tech related, Big Tech’s enthus",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Perspective A New Agenda for Tech Regulation Beyond AI Alice Marwick / Nov 9, 2026 The sun rises over the US Capitol and the Washington Monument on the National Mall the day after election day on November 04, 2026 in Washington, DC. (Photo ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Scams are a hard problem to solve simply because the ecosystem is global, but there is low-hanging fruit that can be tackled immediately.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Recently, Coinme was forced to shut down all of its crypto ATMS as part of a settlement against money laundering; this is another quick win that would signal to voters that policymakers are taking scams seriously.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Affordability Affordability is at the top of the populist agenda; witness El Sayed’s often-repeated refrain “Money out of politics, money in your pocket, Medicare for all.” While gas and grocery prices aren’t tech related, Big Tech’s enthus",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 88,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.66,
+        "rawScore": 49.66,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.515,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5f08bcef559a7456b2de": {
+      "storyId": "5f08bcef559a7456b2de",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261108233043.htm",
+      "title": "Caltech robot makes history by building a structure in space",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-09T10:01:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8cd6924d150d6e54e9afdff6",
+      "bodyFingerprint": "9398ae0fbe11249dc8ee5796",
+      "bodyCharacterCount": 16538,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:04.160Z",
+      "assessment": {
+        "centralEvent": "Caltech robot makes history by building a structure in space",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "During the first two stages, Caltech researchers developed the construction concept, worked out the engineering design, and verified its operation in laboratory experiments on Earth.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 97,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3524bc1615ee1e1de8f2": {
+      "storyId": "3524bc1615ee1e1de8f2",
+      "url": "https://mashable.com/tech/apple-siri-ai-agent",
+      "title": "Apple might turn Siri AI into an agent next year",
+      "source": "Mashable AI",
+      "published": "2026-11-09T10:40:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bd610263b74cc874e86d6227",
+      "bodyFingerprint": "db9ad48333a9ec0780931d0a",
+      "bodyCharacterCount": 4117,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:04.193Z",
+      "assessment": {
+        "centralEvent": "Apple might turn Siri AI into an agent next year",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Apple's smart assistant Siri will become a lot more like an AI agent next year, according to a new report.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "070ecc27b60977a321d4": {
+      "storyId": "070ecc27b60977a321d4",
+      "url": "https://techpolicy.press/in-the-ai-era-language-is-now-an-attack-surface",
+      "title": "In the AI Era, Language is Now an Attack Surface",
+      "source": "Tech Policy Press AI",
+      "published": "2026-11-09T14:12:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d6c6a597fd05697668da3dd8",
+      "bodyFingerprint": "59bba36f689230ddb5d5d451",
+      "bodyCharacterCount": 13104,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:04.223Z",
+      "assessment": {
+        "centralEvent": "In the AI Era, Language is Now an Attack Surface",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Or from Hugging Face’s own write up of the incident : “It was thousands of small, automated decisions, executed at machine speed across short-lived sandbox environments, with command-and-control staged on ordinary public web services.” Even",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "As Eryk Salvaggio, one of the few commentators to address the role of language in the incident, put it in The Bulletin of Atomic Scientists : “When you design these systems, you are building a pinball machine for words, with different lever",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But neither side has lingered over what strikes me as the single most obvious and overwhelming fact of these events.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44.83,
+        "rawScore": 44.83,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.075,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ad34c832c41eff920a14": {
+      "storyId": "ad34c832c41eff920a14",
+      "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers",
+      "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
+      "source": "WIRED AI",
+      "published": "2026-11-09T08:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a7f9ff6a898c07e90a9a506d",
+      "bodyFingerprint": "f30a1b5638d8a2b81f024714",
+      "bodyCharacterCount": 6576,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:04.299Z",
+      "assessment": {
+        "centralEvent": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Nonprofit Foxglove says the data center will emit too much pollution.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But like in the US , people living near to the proposed developments are making their objections known and trying to gum up the works.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "When locals caught wind, they coordinated with national wildlife and environmental groups and began to kick up a fuss.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.03,
+        "rawScore": 46.03,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "03c46726276b69485a36": {
+      "storyId": "03c46726276b69485a36",
+      "url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech",
+      "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+      "source": "TechCrunch AI",
+      "published": "2026-11-07T04:16:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "daa7534b44a5e9213c4cf733",
+      "bodyFingerprint": "b07af3fff00d9edded613322",
+      "bodyCharacterCount": 6799,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:04.337Z",
+      "assessment": {
+        "centralEvent": "From the front row to the hot seat — what the midterms mean for Big Tech",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "View Bio November 4 Boston Buy One Pass, Get a Second Free Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free Book before the BOGO deal expires Register Now Most Popular T",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "On Wednesday, the day after the midterms, a trillion-dollar market sell-off spooked investors, some are whom are reportedly now reconsidering Anthropic’s reported trillion-dollar IPO.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In a statement to TechCrunch, a White House official said: “American leadership in super intelligence is essential for our national security, economic prosperity, and the quality of life of the American people.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Now, with the midterms shifting the balance of power in Washington, those same companies are working to rebuild ties with Democrats, who have pledged to tighten oversight of AI.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.41,
+        "rawScore": 47.41,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 2,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e5e73983d016b33b4370": {
+      "storyId": "e5e73983d016b33b4370",
+      "url": "https://restofworld.org/2026/chinese-ai-labs-hire-silicon-valley-engineers-openai-anthropic",
+      "title": "Chinese AI firms want Silicon Valley’s top minds. Poaching them won’t be easy",
+      "source": "Rest of World AI",
+      "published": "2026-11-09T08:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4d809bfa7cde2e5853316a0c",
+      "bodyFingerprint": "5017195b96ca86a2361eb2c9",
+      "bodyCharacterCount": 8678,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:04.426Z",
+      "assessment": {
+        "centralEvent": "Chinese AI firms want Silicon Valley’s top minds. Poaching them won’t be easy",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“I think most of the top Chinese talent would feel pretty comfortable in Silicon Valley; it’s the only other place where “ 996 ” isn’t really frowned upon,” Damien Ma, director of Carnegie China, told Rest of World , referring to the demand",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 55,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c75762fbaba7dc7aa94c": {
+      "storyId": "c75762fbaba7dc7aa94c",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261108233054.htm",
+      "title": "NASA reveals bold new plan to return astronauts to the Moon in 2028",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-09T09:13:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "845a8b43f3406852d7447ae8",
+      "bodyFingerprint": "2b98a50d09f5db8701949395",
+      "bodyCharacterCount": 12159,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-09T17:34:04.450Z",
+      "assessment": {
+        "centralEvent": "NASA reveals bold new plan to return astronauts to the Moon in 2028",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "During the planned 14-day mission, the crew will practice rendezvous and docking procedures with both companies' lander test vehicles.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 83,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ba06e28b26c781b27fad": {
+      "storyId": "ba06e28b26c781b27fad",
+      "url": "https://www.nature.com/articles/d41586-026-03627-6",
+      "title": "AI has transformed maths — this is how we got here",
+      "source": "Nature AI News & Comment",
+      "published": "2026-11-09T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c25fea5f5b7c2aa9cd895282",
+      "bodyFingerprint": "f342d927cf35437b9d6f7257",
+      "bodyCharacterCount": 51,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-09T17:34:04.899Z",
+      "assessment": {
+        "centralEvent": "AI has transformed maths — this is how we got here",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-09T06:39:50.260Z"
+  "updatedAt": "2026-11-09T17:34:04.899Z"
 }
