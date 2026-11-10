@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-10T17:00:00.000Z",
+  "generatedAt": "2026-11-10T23:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-10",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-10",
           "firstObservedAt": "2026-11-10T09:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 51.23
         },
         {
@@ -31,12 +31,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-10",
           "firstObservedAt": "2026-11-10T09:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 51.07
+        },
+        {
+          "storyId": "4cc686f0d8904bd210ba",
+          "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+          "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 49.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-10",
+          "firstObservedAt": "2026-11-10T23:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
+          "average": 49.83
         },
         {
           "storyId": "498519c87733ddee5786",
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.66,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-10",
           "firstObservedAt": "2026-11-10T09:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 49.66
         },
         {
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-10",
           "firstObservedAt": "2026-11-10T09:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 49.01
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-10",
           "firstObservedAt": "2026-11-10T09:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 49.01
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.84,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-10",
           "firstObservedAt": "2026-11-10T09:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 48.84
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 48.78,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-10",
           "firstObservedAt": "2026-11-10T09:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 48.78
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.54,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-10",
           "firstObservedAt": "2026-11-10T09:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 48.54
         },
         {
@@ -135,20 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-10T09:00:00.000Z",
           "lastObservedAt": "2026-11-10T09:00:00.000Z",
           "average": 48.51
-        },
-        {
-          "storyId": "e5a25966251123f48915",
-          "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
-          "url": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2240656304-1024x648.jpg",
-          "peak": 48.34,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-11-10",
-          "firstObservedAt": "2026-11-10T09:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
-          "average": 48.34
         }
       ]
     },
@@ -10604,11 +10604,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-09",
           "firstObservedAt": "2026-11-09T06:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 51.23
         },
         {
@@ -10618,11 +10618,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-09",
           "firstObservedAt": "2026-11-09T06:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 51.07
         },
         {
@@ -10668,17 +10668,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.83
         },
         {
+          "storyId": "4cc686f0d8904bd210ba",
+          "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+          "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 49.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-10",
+          "firstObservedAt": "2026-11-10T23:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
+          "average": 49.83
+        },
+        {
           "storyId": "498519c87733ddee5786",
           "title": "A New Agenda for Tech Regulation Beyond AI",
           "url": "https://techpolicy.press/a-new-agenda-for-tech-regulation-beyond-ai",
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.66,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-11-09",
           "firstObservedAt": "2026-11-10T01:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 49.66
         },
         {
@@ -10702,11 +10716,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-09",
           "firstObservedAt": "2026-11-09T06:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 49.01
         },
         {
@@ -10716,26 +10730,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-09",
           "firstObservedAt": "2026-11-09T06:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 49.01
-        },
-        {
-          "storyId": "e6f0d32f7a7ae4ddc7c7",
-          "title": "The Incident Report Is Becoming a Building Block of AI Governance",
-          "url": "https://techpolicy.press/the-incident-report-is-becoming-a-building-block-of-ai-governance",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 48.84,
-          "observations": 5,
-          "daysTracked": 2,
-          "peakDate": "2026-11-09",
-          "firstObservedAt": "2026-11-09T06:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
-          "average": 48.84
         }
       ]
     },
@@ -12360,11 +12360,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 35,
+          "observations": 36,
           "daysTracked": 10,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 51.23
         },
         {
@@ -12388,11 +12388,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 51.07,
-          "observations": 26,
+          "observations": 27,
           "daysTracked": 8,
           "peakDate": "2026-11-03",
           "firstObservedAt": "2026-11-03T21:00:00.000Z",
-          "lastObservedAt": "2026-11-10T17:00:00.000Z",
+          "lastObservedAt": "2026-11-10T23:00:00.000Z",
           "average": 51.07
         },
         {
