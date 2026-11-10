@@ -342206,8 +342206,877 @@
           "vulnerability": 0
         }
       }
+    },
+    "39b4d56f992f32859640": {
+      "storyId": "39b4d56f992f32859640",
+      "url": "https://mashable.com/tech/nov-10-drawthis-starter-plan-lifetime-subscription",
+      "title": "Create up to 100 watermark-free images every month for just $59",
+      "source": "Mashable AI",
+      "published": "2026-11-10T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5191e54c74a2064d1385395b",
+      "bodyFingerprint": "d5166418b79d2029f85e2861",
+      "bodyCharacterCount": 2971,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-10T09:55:28.403Z",
+      "assessment": {
+        "centralEvent": "Create up to 100 watermark-free images every month for just $59",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0f192bba36f64bb6ee3d": {
+      "storyId": "0f192bba36f64bb6ee3d",
+      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages",
+      "title": "Otter AI can now follow conversations across 30+ languages",
+      "source": "TechCrunch AI",
+      "published": "2026-11-10T07:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b71298df64d474c8b4efdc65",
+      "bodyFingerprint": "82b67c8e18e2b8e8e137f5c3",
+      "bodyCharacterCount": 3478,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-10T09:55:28.413Z",
+      "assessment": {
+        "centralEvent": "Otter AI can now follow conversations across 30+ languages",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bf679c28a6a5a75d27f0": {
+      "storyId": "bf679c28a6a5a75d27f0",
+      "url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+      "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
+      "source": "The Guardian AI",
+      "published": "2026-11-10T06:00:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f27e409403fcd180c2875579",
+      "bodyFingerprint": "181a3e54e3a0a6341b9dfe4f",
+      "bodyCharacterCount": 7575,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-10T09:55:28.524Z",
+      "assessment": {
+        "centralEvent": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "While Albanese did not directly answer a question about whether the OpenAI incident in June would have breached the proposed new laws if they were in place, government sources indicated that the new legislation would address similar future ",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“All of that was confirmed essentially ... but that doesn’t mean that it wasn’t a serious issue and that in other areas there might be more serious implications.” skip past newsletter promotion after newsletter promotion In a statement, an ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Explore more on these topics Australian politics AI (artificial intelligence) Anthony Albanese Medicare Australia OpenAI news Share Reuse this content More on this story More on this story There’s more than a whiff of politics to the sudden",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ccc979e1da2b25eea513": {
+      "storyId": "ccc979e1da2b25eea513",
+      "url": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information",
+      "title": "Security Flaws Across UK Government Sites Exposed ‘God-Tier’ Information",
+      "source": "WIRED AI",
+      "published": "2026-11-10T07:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1c6561349b41c687c54dc6aa",
+      "bodyFingerprint": "5a246d56566b6be401636dae",
+      "bodyCharacterCount": 4912,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-10T09:55:28.533Z",
+      "assessment": {
+        "centralEvent": "Security Flaws Across UK Government Sites Exposed ‘God-Tier’ Information",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Security Flaws Across UK Government Sites Exposed ‘God-Tier’ Information",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "A researcher’s trawl through publicly available code found private information was at risk across multiple departments.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The agency identified and fixed this vulnerability within 20 minutes of the report and verified that no data breach occurred.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The agency identified and fixed this vulnerability within 20 minutes of the report and verified that no data breach occurred.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“We have reviewed and strengthened our systems and processes to prevent this type of issue recurring and we are grateful for the researcher’s work and for alerting us to it,” they told WIRED.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.55,
+        "rawScore": 47.55,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3225,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e5f73c6c7a56a50af605": {
+      "storyId": "e5f73c6c7a56a50af605",
+      "url": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_campaign=rss&at_medium=RSS",
+      "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+      "source": "BBC News AI",
+      "published": "2026-11-10T05:22:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a7d6e563eda4b70cfd08b0cc",
+      "bodyFingerprint": "401b50ee68aef64b06244389",
+      "bodyCharacterCount": 2582,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-10T09:55:28.537Z",
+      "assessment": {
+        "centralEvent": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "AI safety regulator will also be created after a rogue OpenAI agent hacked government websites.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Image caption, PM Anthony Albanese says the law needs to catch up with a \"fast-changing world\" By Lana Lam Sydney Published 4 hours ago Australia plans to create a new AI safety regulator and has flagged criminal penalti",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related topics Artificial intelligence Data breaches Australia More on this story Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.7,
+        "rawScore": 46.7,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "079d077a4d9b2f8ef9f7": {
+      "storyId": "079d077a4d9b2f8ef9f7",
+      "url": "https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_campaign=rss&at_medium=RSS",
+      "title": "Qantas to outsource 850 local jobs with most roles moving to India",
+      "source": "BBC News AI",
+      "published": "2026-11-10T01:55:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b179edef5a6b47bbdaf3828a",
+      "bodyFingerprint": "be8f1f78412d93295790e520",
+      "bodyCharacterCount": 2235,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-10T09:55:28.557Z",
+      "assessment": {
+        "centralEvent": "Qantas to outsource 850 local jobs with most roles moving to India",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In an internal email to staff on Tuesday, the Australian company's CEO Vanessa Hudson said \"this is hard news for some and I'm sorry for the uncertainty it brings\".",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images Image caption, Qantas CEO Vanessa Hudson apologised for the \"hard news\" of 850 job cuts By Lana Lam Sydney Published 10 November 2026, 01:38 GMT Updated 7 hours ago Qantas will outsource 850 local corporate jobs t",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e492c134981293039aa9": {
+      "storyId": "e492c134981293039aa9",
+      "url": "https://www.theguardian.com/australia-news/video/2026/nov/10/mandatory-ai-safety-and-security-protections-announced-after-openai-breach-of-medicare-video",
+      "title": "Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video",
+      "source": "The Guardian AI",
+      "published": "2026-11-10T05:29:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0cd04f10fe44a74e2f3042fe",
+      "bodyFingerprint": "88c2ad32861c29c7c9e43b16",
+      "bodyCharacterCount": 723,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-10T09:55:28.575Z",
+      "assessment": {
+        "centralEvent": "Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 7,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ec52a02e1b50c5bf7b9e": {
+      "storyId": "ec52a02e1b50c5bf7b9e",
+      "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
+      "title": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
+      "source": "MIT News AI",
+      "published": "2026-11-10T05:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5318c87f22aeb736d9faa359",
+      "bodyFingerprint": "66e36e37a9e2637707914b8c",
+      "bodyCharacterCount": 8092,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-10T09:55:28.618Z",
+      "assessment": {
+        "centralEvent": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Farm workers can be exposed from frequent herbicide use, but many U.S. residents are also exposed to these chemicals in small amounts through food and drinking water.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The generative AI group will develop models that can predict molecules — either chemical compounds or small interfering RNA (siRNA) — that disrupt the same plant enzymes targeted by glyphosate and other herbicides.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“And if you combine the resistance mutations with issues around national security of the supply chain of the precursors to herbicides, we could find ourselves without these core agrochemicals that are absolutely essential for getting the hi",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Farm workers can be exposed from frequent herbicide use, but many U.S. residents are also exposed to these chemicals in small amounts through food and drinking water.",
+            "matchedRule": "/\\b(?:students|workers|consumers|patients|children|communities)\\b.*\\b(?:affected|exposed|targeted|disrupted)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.97,
+        "rawScore": 46.97,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.27,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 2
+        }
+      }
+    },
+    "ec2d92e0a347c935d359": {
+      "storyId": "ec2d92e0a347c935d359",
+      "url": "https://mashable.com/tech/meta-muse-ember-ai-model",
+      "title": "What is Muse Ember? Meet Meta’s new low-cost AI model",
+      "source": "Mashable AI",
+      "published": "2026-11-10T01:42:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8c0721e46e902c78944d630e",
+      "bodyFingerprint": "6b237793e272639674d4e51c",
+      "bodyCharacterCount": 4561,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-10T09:55:28.638Z",
+      "assessment": {
+        "centralEvent": "What is Muse Ember? Meet Meta’s new low-cost AI model",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "SEE ALSO: Meta launches Muse Wonder, catching OpenAI and Anthropic at the frontier What Muse looks like in action In early testing shared by Meta, cloud storage company Box said it used Ember to check contracts clause by clause against a co",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The app passed 5 million downloads in 22 days , and has already had many updates; last week, Meta started rolling out voice conversations and animated avatars for the assistant in the U.S.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "If Meta wants people to hand off that kind of chore every day, it has to make checking the carry-on policy cheap on its end, too.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.52,
+        "rawScore": 27.52,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.32,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f3957bc9f46278e8e5d9": {
+      "storyId": "f3957bc9f46278e8e5d9",
+      "url": "https://www.theguardian.com/us-news/video/2026/nov/09/trump-hegseth-jensen-huang",
+      "title": "Trump backs embattled Hegseth and Jensen Huang and says FBI looking into spy allegations – video",
+      "source": "The Guardian AI",
+      "published": "2026-11-10T01:40:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c78c8074e53588fa01a2bf11",
+      "bodyFingerprint": "90b7e9fe17eb749099577443",
+      "bodyCharacterCount": 765,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-10T09:55:28.691Z",
+      "assessment": {
+        "centralEvent": "Trump backs embattled Hegseth and Jensen Huang and says FBI looking into spy allegations – video",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The president, who said he had spoken to Nvidia CEO Jensen Huang, said he was 'amazed' by claims Huang conducted an affair with an alleged Chinese spy, and that the FBI was now looking into the issue Jensen Huang’s image has been shattered.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b61ba34289d3e8db137d": {
+      "storyId": "b61ba34289d3e8db137d",
+      "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol",
+      "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+      "source": "WIRED AI",
+      "published": "2026-11-10T05:01:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "030cba4c5648adc9bce8e49f",
+      "bodyFingerprint": "a1ac8613fd3df51db542ffb0",
+      "bodyCharacterCount": 5193,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-10T09:55:28.715Z",
+      "assessment": {
+        "centralEvent": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The DeepMind analysis did not find any new vulnerabilities in the portions of the Signal protocol it looked at, but when the researchers used AlphaProof Code on older versions of Signal that contain known and long-fixed vulnerabilities, it ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d633f53f3b2344e9414d": {
+      "storyId": "d633f53f3b2344e9414d",
+      "url": "https://www.theguardian.com/business/2026/nov/10/qantas-850-job-cuts-outsource-work-to-india-ai-overhaul",
+      "title": "Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul",
+      "source": "The Guardian AI",
+      "published": "2026-11-10T01:34:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7e2157976739ce4788a5b23c",
+      "bodyFingerprint": "7cb7a8aeb8841bcc60956240",
+      "bodyCharacterCount": 4717,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-10T09:55:28.748Z",
+      "assessment": {
+        "centralEvent": "Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Shoppers, streetscapes and 188 years of Australian style: David Jones through the years – in pictures Like many others, 87-year-old Janet came to ‘say goodbye’ to the Australian institution that is David Jones David Jones goes into administ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Shoppers, streetscapes and 188 years of Australian style: David Jones through the years – in pictures Like many others, 87-year-old Janet came to ‘say goodbye’ to the Australian institution that is David Jones David Jones goes into administ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The changes represent the third major corporate layoff plan announced in Australia in three weeks, after restructuring moves flagged by the design company Canva and National Australia Bank .",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fb9a85ae230146d3d112": {
+      "storyId": "fb9a85ae230146d3d112",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261108233047.htm",
+      "title": "After 40 years, CERN finds evidence of a one-in-10-billion particle decay",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-10T00:42:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "36a7b53474cfad19e45f174d",
+      "bodyFingerprint": "934cb28fd2f031b4ca076e09",
+      "bodyCharacterCount": 10389,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-10T09:55:28.781Z",
+      "assessment": {
+        "centralEvent": "After 40 years, CERN finds evidence of a one-in-10-billion particle decay",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Scientists have previously observed a related process involving a different beauty particle, called B s .",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-10T01:35:41.646Z"
+  "updatedAt": "2026-11-10T09:55:28.781Z"
 }
