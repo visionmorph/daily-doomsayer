@@ -346960,8 +346960,534 @@
           "vulnerability": 0
         }
       }
+    },
+    "bfa3dd0819657cd97fea": {
+      "storyId": "bfa3dd0819657cd97fea",
+      "url": "https://www.politico.com/news/2026/11/10/nvidia-ceos-spy-scandal-tilts-capitol-hills-chip-fight-01160548",
+      "title": "Nvidia loses ground in Washington chip fight after CEO spy scandal",
+      "source": "POLITICO AI",
+      "published": "2026-11-11T03:18:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a7d1e27b9c14436202a2d976",
+      "bodyFingerprint": "1c13bd9064b86d6fa347f892",
+      "bodyCharacterCount": 104,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-11T06:29:25.258Z",
+      "assessment": {
+        "centralEvent": "Nvidia loses ground in Washington chip fight after CEO spy scandal",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1a1168aef48685941f32": {
+      "storyId": "1a1168aef48685941f32",
+      "url": "https://www.bbc.co.uk/news/articles/cw0k0klz2x37o?at_campaign=rss&at_medium=RSS",
+      "title": "Students passing university assessments in minutes using AI, regulator warns",
+      "source": "BBC News AI",
+      "published": "2026-11-11T00:21:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3c74f8241bfb4439bb082125",
+      "bodyFingerprint": "bcfd92675f19428eeb567c14",
+      "bodyCharacterCount": 4635,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T06:29:25.296Z",
+      "assessment": {
+        "centralEvent": "Students passing university assessments in minutes using AI, regulator warns",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It said this posed a \"significant risk\" to their credibility, and closed-book and practical exams were the most effective forms of assessments.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Hazel Shearing Education correspondent Published 6 hours ago Too many university students can use AI to complete assessments without staff finding out, the higher education regulator in England has said.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "This includes more in-person exams, presentations, vivas, process-based assessment and assessments that integrate AI in a controlled way,\" a spokesperson said. \"Different subjects will require different approaches, and universities should h",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Three friends on their student debt: One paid off, one chipping away and one creeping up Published 11 October 'Misleading' student loans information left out examples of higher-salary repayments Published 5 days ago The OfS said it had hear",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.34,
+        "rawScore": 28.34,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.395,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6f47cdbccf8b4a0eecf3": {
+      "storyId": "6f47cdbccf8b4a0eecf3",
+      "url": "https://www.theguardian.com/news/audio/2026/nov/11/from-the-archive-weizenbaums-nightmares-how-the-inventor-of-the-first-chatbot-turned-against-ai-podcast",
+      "title": "From the archive: Weizenbaum’s nightmares: how the inventor of the first chatbot turned against AI – podcast",
+      "source": "The Guardian AI",
+      "published": "2026-11-11T05:00:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ad4ca276f4c18e7d8878f916",
+      "bodyFingerprint": "ccbeffb61a2df1d99b55e778",
+      "bodyCharacterCount": 811,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T06:29:25.402Z",
+      "assessment": {
+        "centralEvent": "From the archive: Weizenbaum’s nightmares: how the inventor of the first chatbot turned against AI – podcast",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "61f0428671aff0092492": {
+      "storyId": "61f0428671aff0092492",
+      "url": "https://www.theguardian.com/commentisfree/picture/2026/nov/11/australians-are-not-streaming-australian-music-why-the-hell-not",
+      "title": "Australians are not streaming Australian music. Why the hell not?! | First Dog on the Moon",
+      "source": "The Guardian AI",
+      "published": "2026-11-11T05:34:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b5e8aab1d748be6b14556153",
+      "bodyFingerprint": "dbb5a13ceb8203483bb0af8f",
+      "bodyCharacterCount": 864,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T06:29:25.435Z",
+      "assessment": {
+        "centralEvent": "Australians are not streaming Australian music. Why the hell not?! | First Dog on the Moon",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 8,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a23485fd871564b01286": {
+      "storyId": "a23485fd871564b01286",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261108233028.htm",
+      "title": "Astronomers discover hidden alien planet in James Webb images",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-10T23:56:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e485cf4f509e5fa7fcd1c1a6",
+      "bodyFingerprint": "2e18606681282bd71a94dcfc",
+      "bodyCharacterCount": 17638,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T06:29:25.507Z",
+      "assessment": {
+        "centralEvent": "Astronomers discover hidden alien planet in James Webb images",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The technique uses a sophisticated computer simulation of the James Webb Space Telescope (JWST) and has already exposed an exoplanet that was concealed in existing observations.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers can then subtract that modeled starlight from the original observations, allowing previously obscured objects to become visible. \"This is the first time that we have demonstrated that these little imperfections or instabilities ",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The research received support from the Space Telescope Science Institute, the Sloan Foundation, an Amazon AI4Science Discovery Award, and the National Science Foundation.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 107,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.13,
+        "rawScore": 47.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a0bc7c01bae020f16c0d": {
+      "storyId": "a0bc7c01bae020f16c0d",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261109205358.htm",
+      "title": "Global fossil fuel emissions set to fall in 2026, but total CO2 keeps rising",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-10T06:05:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "41a5edf55a5621771f65cd92",
+      "bodyFingerprint": "c3722cf8089a58afe76a0d01",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T06:29:25.519Z",
+      "assessment": {
+        "centralEvent": "Global fossil fuel emissions set to fall in 2026, but total CO2 keeps rising",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The sharp increase demonstrates how quickly cleaner electricity generation is expanding and how much additional pollution would be produced without it.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to the latest Global Carbon Budget from the Global Carbon Project, fossil fuel CO 2 emissions are projected to fall by 0.4%, partly because of growing solar and wind power generation and disruptions linked to the Iran conflict.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Global fossil fuel emissions set to fall in 2026, but total CO2 keeps rising",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Permanent deforestation remains a major source of carbon dioxide.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In 2010, these renewable energy sources prevented an estimated 0.28 billion metric tons of CO 2 emissions.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A further acceleration could turn the tide on global emissions within a few years.\" However, a single year of falling emissions does not necessarily mean the world has reached a lasting peak.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 126,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.55,
+        "rawScore": 49.55,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.505,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ae79fefd9b8d48b1e3c9": {
+      "storyId": "ae79fefd9b8d48b1e3c9",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261109205406.htm",
+      "title": "NASA’s CHAPEA Mars crew finally emerges after more than a year in isolation",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-10T05:00:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dca894dfd1a44c45bb094131",
+      "bodyFingerprint": "8779ec754cfbd360c1b3e5bd",
+      "bodyCharacterCount": 7306,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T06:29:25.560Z",
+      "assessment": {
+        "centralEvent": "NASA’s CHAPEA Mars crew finally emerges after more than a year in isolation",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "8, 2026  NASA’s SpaceX Crew-12 astronauts have returned to Earth after 237 days in space, traveling more than 100 million miles and completing over 3,792 orbits while conducting research to prepare for ...",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7845029b5448d9b9a1be": {
+      "storyId": "7845029b5448d9b9a1be",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261109205404.htm",
+      "title": "NASA offers $500,000 to develop next-generation electric rocket engines",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-10T02:36:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ba2e041511a9879410e75cdf",
+      "bodyFingerprint": "ceb7d0f42a30374081ed4ba3",
+      "bodyCharacterCount": 8238,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T06:29:25.658Z",
+      "assessment": {
+        "centralEvent": "NASA offers $500,000 to develop next-generation electric rocket engines",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Explore More from ScienceDaily RELATED STORIES NASA’s Moon Base Is Taking Shape With 20+ Lunar Landings Planned Aug.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-10T23:25:57.831Z"
+  "updatedAt": "2026-11-11T06:29:25.658Z"
 }
