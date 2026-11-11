@@ -347486,8 +347486,1206 @@
           "vulnerability": 0
         }
       }
+    },
+    "3101e89281fd28d6f05a": {
+      "storyId": "3101e89281fd28d6f05a",
+      "url": "https://www.inc.com/moses-jeanfrancois/17-billion-dollar-nvidia-backed-startup-breached-twice-18-days/91434215",
+      "title": "A $17.5 Billion Nvidia-Backed Startup Was Breached Twice in 18 Days. The Latest Attack Raised the Stakes",
+      "source": "Inc. AI",
+      "published": "2026-11-11T14:39:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "888e687e67e5de78b155431f",
+      "bodyFingerprint": "5421ae8c9101abd0cd957de6",
+      "bodyCharacterCount": 85,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-11T15:16:51.168Z",
+      "assessment": {
+        "centralEvent": "A $17.5 Billion Nvidia-Backed Startup Was Breached Twice in 18 Days. The Latest Attack Raised the Stakes",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "A $17.5 Billion Nvidia-Backed Startup Was Breached Twice in 18 Days.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "A $17.5 Billion Nvidia-Backed Startup Was Breached Twice in 18 Days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The AI infrastructure startup disclosed two separate security incidents within weeks.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 46.86,
+        "rawScore": 46.86,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.26,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1880ed043902954cca9f": {
+      "storyId": "1880ed043902954cca9f",
+      "url": "https://techpolicy.press/a-defining-moment-for-the-united-nations-and-the-future-of-ai",
+      "title": "A Defining Moment for the United Nations and the Future of AI",
+      "source": "Tech Policy Press AI",
+      "published": "2026-11-11T14:12:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1ffe5b8dc2ead1188ad765bb",
+      "bodyFingerprint": "224086f6881ee65e158c4efe",
+      "bodyCharacterCount": 15677,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T15:16:51.262Z",
+      "assessment": {
+        "centralEvent": "A Defining Moment for the United Nations and the Future of AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The report recommended “expressly ban[ning] AI applications that cannot be operated in compliance with international human rights law and impos[ing] moratoriums on the sale and use of AI systems that carry a high risk for the enjoyment of h",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "During the Dialogue, the Independent International Scientific Panel on AI released its Preliminary Report , detailing both the risks and opportunities presented by AI.",
+            "matchedRule": "/\\b(?:still developing|preliminary|early findings?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Our choice will shape the direction of the world’s unique multilateral organization and demonstrate whether the United Nations truly represents the more than eight billion people we serve around the world, half of whom are women and girls.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 79,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7db3dbf05615c3ed6508": {
+      "storyId": "7db3dbf05615c3ed6508",
+      "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+      "title": "Google DeepMind just mathematically verified key parts of Signal",
+      "source": "Ars Technica AI",
+      "published": "2026-11-11T14:08:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f2262e007b1c4ba73e66348d",
+      "bodyFingerprint": "9bc2b0010b72afced4008a9a",
+      "bodyCharacterCount": 5089,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T15:16:51.326Z",
+      "assessment": {
+        "centralEvent": "Google DeepMind just mathematically verified key parts of Signal",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "title",
+            "excerpt": "Google DeepMind just mathematically verified key parts of Signal",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "db5640ece0e3af4ffa65": {
+      "storyId": "db5640ece0e3af4ffa65",
+      "url": "https://www.inc.com/inc-video/ivan-zhao-says-ai-can-help-anyone-build-taste-is-the-hard-part/91433672",
+      "title": "Ivan Zhao Says AI Can Help Anyone Build. Taste Is the Hard Part.",
+      "source": "Inc. AI",
+      "published": "2026-11-11T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1bff6d67d0484a8e4f20270f",
+      "bodyFingerprint": "b52fd7a494e7fd1c4b754a4a",
+      "bodyCharacterCount": 216,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-11T15:16:51.348Z",
+      "assessment": {
+        "centralEvent": "Ivan Zhao Says AI Can Help Anyone Build. Taste Is the Hard Part.",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "87209848417b63cfc532": {
+      "storyId": "87209848417b63cfc532",
+      "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads",
+      "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "51d893f4b71898089bb149cf",
+      "bodyFingerprint": "fc0724947c1bb377e6c9ea71",
+      "bodyCharacterCount": 5603,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T15:16:51.367Z",
+      "assessment": {
+        "centralEvent": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Most Popular Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks Aisha Malik Jensen Huang’s alleged honeypot scandal has inspired some top-notch memes Dominic-Madori Da",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "503c03de49d0f9ad7f0d": {
+      "storyId": "503c03de49d0f9ad7f0d",
+      "url": "https://www.inc.com/emily-reynolds/why-storytelling-is-the-strategic-antidote-to-ai-content/91426573",
+      "title": "Why Storytelling Is the Strategic Antidote to AI Content",
+      "source": "Inc. AI",
+      "published": "2026-11-11T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "39a15bb8afd1e37024c4dbc3",
+      "bodyFingerprint": "6787a2cdf48fdf32125561d4",
+      "bodyCharacterCount": 97,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-11T15:16:51.381Z",
+      "assessment": {
+        "centralEvent": "Why Storytelling Is the Strategic Antidote to AI Content",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1a42238359885b7f46f6": {
+      "storyId": "1a42238359885b7f46f6",
+      "url": "https://www.inc.com/komninos-chatzipapas/blue-collar-jobs-arent-as-ai-proof-as-they-look/91433317",
+      "title": "Blue-Collar Jobs Aren’t as AI-Proof as They Look",
+      "source": "Inc. AI",
+      "published": "2026-11-11T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "816b3a46c4d27c4de0115ba9",
+      "bodyFingerprint": "aaf77d49b0564ae50b4d7e5e",
+      "bodyCharacterCount": 90,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-11T15:16:51.384Z",
+      "assessment": {
+        "centralEvent": "Blue-Collar Jobs Aren’t as AI-Proof as They Look",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6aeebc4842f91e379584": {
+      "storyId": "6aeebc4842f91e379584",
+      "url": "https://techpolicy.press/dont-let-ai-become-the-internets-gatekeeper",
+      "title": "Don't Let AI Become the Internet's Gatekeeper",
+      "source": "Tech Policy Press AI",
+      "published": "2026-11-11T14:54:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "84a0a9ac8909ffe359d39db6",
+      "bodyFingerprint": "2b5ad6302e5efe25da37cbe6",
+      "bodyCharacterCount": 5279,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T15:16:51.400Z",
+      "assessment": {
+        "centralEvent": "Don't Let AI Become the Internet's Gatekeeper",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "By 2030, purchases \"initiated, influenced, or completed\" by AI agents could account for hundreds of billions in US e-commerce activity, according to Bain & Company .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e754224b043f5de8867d": {
+      "storyId": "e754224b043f5de8867d",
+      "url": "https://www.theguardian.com/world/2026/nov/11/ai-datacentres-on-site-gas-fired-power-stations",
+      "title": "AI datacentres plan on-site power stations on huge scale despite climate risks, research reveals",
+      "source": "The Guardian AI",
+      "published": "2026-11-11T12:00:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7d3976a520724b14e36ff25f",
+      "bodyFingerprint": "f9a99e428c386592a93d5c0b",
+      "bodyCharacterCount": 4703,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T15:16:51.412Z",
+      "assessment": {
+        "centralEvent": "AI datacentres plan on-site power stations on huge scale despite climate risks, research reveals",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Daly said while the developers of the future datacentres claimed their gas-fired power supplies would be temporary while they waited for grid connections, once they were online, the economics could encourage them to continue generating ener",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“The climate outcome will depend not only on how much electricity these facilities use, but on how quickly grids can connect them and whether power systems add cleaner generation alongside that demand.” Activists break into building site of",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The report was published on Wednesday as global leaders gathered in Turkey for the 31st UN climate summit , where increasing electrification – ideally from clean sources – is a central part of discussions.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "65032c1748e75a539ea6": {
+      "storyId": "65032c1748e75a539ea6",
+      "url": "https://www.inc.com/rebecca-deczynski/notions-ivan-zhao-takes-pride-in-his-product-and-is-betting-11-billion-that-good-design-matters/91428211",
+      "title": "Notion’s Ivan Zhao Takes Pride in His Product, and is Betting $11 Billion That Good Design Matters",
+      "source": "Inc. AI",
+      "published": "2026-11-11T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fb9730261d6329224055c744",
+      "bodyFingerprint": "ec2c6f00413e9dbd58bed2fd",
+      "bodyCharacterCount": 167,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-11T15:16:51.424Z",
+      "assessment": {
+        "centralEvent": "Notion’s Ivan Zhao Takes Pride in His Product, and is Betting $11 Billion That Good Design Matters",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d574e9f79d4d56b9e979": {
+      "storyId": "d574e9f79d4d56b9e979",
+      "url": "https://mashable.com/tech/adobe-max-2026-keynote-creative-cloud-highlights",
+      "title": "Adobe Max 2026 keynote: See all the highlights from the creative conference",
+      "source": "Mashable AI",
+      "published": "2026-11-11T10:38:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a25566c162265a131a48b35c",
+      "bodyFingerprint": "ac058db8f4cf96776af0096e",
+      "bodyCharacterCount": 1307,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T15:16:51.528Z",
+      "assessment": {
+        "centralEvent": "Adobe Max 2026 keynote: See all the highlights from the creative conference",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 8,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1eccf93e31f9e7526965": {
+      "storyId": "1eccf93e31f9e7526965",
+      "url": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_campaign=rss&at_medium=RSS",
+      "title": "New Indian mega library rocked by scandal over 'AI-generated books'",
+      "source": "BBC News AI",
+      "published": "2026-11-11T11:33:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b088acb370691e4f2586fd57",
+      "bodyFingerprint": "35610fbd9f6c3d0beedd316c",
+      "bodyCharacterCount": 5106,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T15:16:51.537Z",
+      "assessment": {
+        "centralEvent": "New Indian mega library rocked by scandal over 'AI-generated books'",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Tamil Nadu's School Education Minister A Rajmohan has described the allegations as potentially \"India's first AI scam\" and said the investigation would cover purchases at other public libraries across the state.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image caption, The newly opened Periyar Arivulagam library is at the centre of the allegations By Xavier Selvakumar and Yazhiniyan BBC Tamil Published 3 hours ago An Indian court has ordered an investigation into allegations that a public l",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Murugan, whose novels Pyre and One Part Woman have received international recognition, raised concerns after visiting the library last month.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "530f98d92d2fa6a8b5aa": {
+      "storyId": "530f98d92d2fa6a8b5aa",
+      "url": "https://www.inc.com/mita-mallick/your-boss-is-obsessed-with-chatgpt-this-1-question-can-bring-them-back-to-reality/91434397",
+      "title": "Your Boss Is Obsessed With ChatGPT. This 1 Question Can Bring Them Back to Reality",
+      "source": "Inc. AI",
+      "published": "2026-11-11T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6b10776c8f122a22a0783851",
+      "bodyFingerprint": "46b7746fbd3e8b96f121f76c",
+      "bodyCharacterCount": 126,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-11T15:16:51.542Z",
+      "assessment": {
+        "centralEvent": "Your Boss Is Obsessed With ChatGPT. This 1 Question Can Bring Them Back to Reality",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1a82fe7532bdbaf87304": {
+      "storyId": "1a82fe7532bdbaf87304",
+      "url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged",
+      "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
+      "source": "WIRED AI",
+      "published": "2026-11-11T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "54d57946cf19479d8d86277d",
+      "bodyFingerprint": "822a50d97bea3db0f08b0de2",
+      "bodyCharacterCount": 8421,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T15:16:51.568Z",
+      "assessment": {
+        "centralEvent": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But it also illustrates the limitations of surveillance tools that thousands of schools have adopted in recent years, which are ostensibly designed to protect students from themselves when browsing and chatting online.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“It’s really only through that human connection,” he says, “that we can address the root issues.” If you or someone you know needs help, call 988 for free, 24-hour support from the National Suicide Prevention Lifeline .",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Outside the US, visit the International Association for Suicide Prevention for crisis centers around the world.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Save this story Save this story A 13-year-old girl spent three months using her school-issued laptop to discuss depression, research suicide, and plan her funeral before self-harm-monitoring software finally prompted school officials to ale",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.67,
+        "rawScore": 48.67,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f4e4ebe108d8e8cbed59": {
+      "storyId": "f4e4ebe108d8e8cbed59",
+      "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn",
+      "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T07:30:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4e945fafe011d87bce368458",
+      "bodyFingerprint": "b6781fa9f378c3628f3a8bae",
+      "bodyCharacterCount": 8435,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T15:16:51.582Z",
+      "assessment": {
+        "centralEvent": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“There have actually been affair cases and sexual harassment cases,” Lipton said, but was quick to add that she doesn’t know of previous cases that also involve potential national security compromises.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nvidia’s stock sank 5.47% on Tuesday, following a 4% drop on Monday, a loss of about 9.5% in two days, even though there wasn’t much news out of the company.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“There have actually been affair cases and sexual harassment cases,” Lipton said, but was quick to add that she doesn’t know of previous cases that also involve potential national security compromises.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "062f08284c31e40c7060": {
+      "storyId": "062f08284c31e40c7060",
+      "url": "https://www.theguardian.com/education/2026/nov/11/ai-close-to-impossible-assess-university-coursework-regulator",
+      "title": "AI has made it ‘close to impossible’ to assess university coursework, regulator says",
+      "source": "The Guardian AI",
+      "published": "2026-11-11T07:00:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fff369cdd3d66258364e6e29",
+      "bodyFingerprint": "aa870e37019661e9cedfa8ff",
+      "bodyCharacterCount": 4821,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T15:16:51.588Z",
+      "assessment": {
+        "centralEvent": "AI has made it ‘close to impossible’ to assess university coursework, regulator says",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "AI may be denting computer science graduates’ job prospects, UK data shows Read more Josh Fleming, the director of strategy and delivery at the OfS, said AI use in higher education “presents a generational risk to the system as it stands, t",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "One academic told the researchers: “AI has put academic integrity at serious risk ... coursework is now overwhelmingly written in part, or exclusively, with the help of AI.” Smartglasses and earpieces may worsen exam cheating in schools, sa",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.65,
+        "rawScore": 25.65,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9c20131c63d2dea77287": {
+      "storyId": "9c20131c63d2dea77287",
+      "url": "https://mashable.com/tech/nov-11-the-lifetime-ai-software-stack-bundle",
+      "title": "Pay $48 and claim lifetime access to AI apps: How to compare ChatGPT, Claude, and Gemini",
+      "source": "Mashable AI",
+      "published": "2026-11-11T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fc3f046f3a318ff5782f5342",
+      "bodyFingerprint": "3fb398c394f670165dec4bbc",
+      "bodyCharacterCount": 3427,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T15:16:51.591Z",
+      "assessment": {
+        "centralEvent": "Pay $48 and claim lifetime access to AI apps: How to compare ChatGPT, Claude, and Gemini",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e6067463e41278de12e7": {
+      "storyId": "e6067463e41278de12e7",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261108233040.htm",
+      "title": "A radical theory says the universe is twice as old as we thought",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-11T06:46:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b51b93e1377cc85521a42111",
+      "bodyFingerprint": "7d44d4ca1a81eee326de57c8",
+      "bodyCharacterCount": 12658,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T15:16:51.754Z",
+      "assessment": {
+        "centralEvent": "A radical theory says the universe is twice as old as we thought",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Credit: AI/ScienceDaily.com A radical alternative to the standard picture of the cosmos is gaining attention after researchers at the University of Ottawa reported that it successfully matched several important astronomical observations.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 92,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a6535ca236a21e7d7af5": {
+      "storyId": "a6535ca236a21e7d7af5",
+      "url": "https://thedispatch.com/article/monthly-mailbag-jack-kubinec-answers",
+      "title": "The Monthly Mailbag With Jack Kubinec",
+      "source": "The Dispatch AI",
+      "published": "2026-11-11T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "85316f6b59f9b8592040549a",
+      "bodyFingerprint": "2d5aa7f879f4dd18df64deb4",
+      "bodyCharacterCount": 4426,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-11T15:16:51.877Z",
+      "assessment": {
+        "centralEvent": "The Monthly Mailbag With Jack Kubinec",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Before joining The Dispatch, he reported on crypto, most recently at Fortune Magazine.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-11T06:29:25.658Z"
+  "updatedAt": "2026-11-11T15:16:51.877Z"
 }
