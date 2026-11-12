@@ -350571,8 +350571,536 @@
           "vulnerability": 0
         }
       }
+    },
+    "250f99f84a41d79eedfb": {
+      "storyId": "250f99f84a41d79eedfb",
+      "url": "https://www.theguardian.com/news/audio/2026/nov/12/the-alleged-spy-who-loved-me-the-nvidia-scandal-podcast",
+      "title": "The (alleged) spy who loved me: the Nvidia scandal - podcast",
+      "source": "The Guardian AI",
+      "published": "2026-11-12T03:00:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "776ad20f9bc744c4a47a78ba",
+      "bodyFingerprint": "069338805953992eb4d854bd",
+      "bodyCharacterCount": 1072,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T03:03:49.217Z",
+      "assessment": {
+        "centralEvent": "The (alleged) spy who loved me: the Nvidia scandal - podcast",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "The (alleged) spy who loved me: the Nvidia scandal - podcast",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "64cb458074bc19a852a2": {
+      "storyId": "64cb458074bc19a852a2",
+      "url": "https://www.theguardian.com/technology/2026/nov/12/facial-recognition-errors-put-ethnic-minorities-at-risk-of-wrongful-arrest-police-watchdog-warns",
+      "title": "Facial recognition errors put ethnic minorities at risk of wrongful arrest, police watchdog warns",
+      "source": "The Guardian AI",
+      "published": "2026-11-12T00:01:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0b5e2cfe6a8a27ba116da5fd",
+      "bodyFingerprint": "1d9d2f8a918487f049ac439f",
+      "bodyCharacterCount": 5108,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T03:03:49.234Z",
+      "assessment": {
+        "centralEvent": "Facial recognition errors put ethnic minorities at risk of wrongful arrest, police watchdog warns",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Police cannot be allowed to continue using the algorithm with so few safeguards and at biased settings that are more likely to misidentify women, Asian and black people and search against millions of unlawfully held custody images.” Ben Ru",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Inspectors find some officers acted on potential matches from retrospective searches without making enough checks Police officers risk arresting innocent people, especially from ethnic minorities, if they treat inaccurate facial recognition",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A clearer statutory framework, stronger national standards and improved governance and oversight arrangements are essential to maintaining public confidence.” Facial recognition is seen by police chiefs as the next big leap forward in crime",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.13,
+        "rawScore": 47.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eb294a56c70bf2d1f7b8": {
+      "storyId": "eb294a56c70bf2d1f7b8",
+      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang",
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T23:28:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "533fd9e2e90a19029a6adc57",
+      "bodyFingerprint": "ed4b7f1a5f2d4bea8b64e5ed",
+      "bodyCharacterCount": 2243,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T03:03:49.261Z",
+      "assessment": {
+        "centralEvent": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nvidia has become one of the most valuable companies in the world as it designs the chips that power the AI boom, but in the midst of Huang’s ongoing scandal , Nvidia stock fell about 8% in after hours trading on Wednesday.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3927e8656e242ccd5091": {
+      "storyId": "3927e8656e242ccd5091",
+      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T23:50:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ab1b196f58d5a1dc3931050c",
+      "bodyFingerprint": "d2e6106d0617069566e8a541",
+      "bodyCharacterCount": 11790,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T03:03:49.268Z",
+      "assessment": {
+        "centralEvent": "The unfolding Jensen Huang scandal: a timeline",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Late 2025: President Trump briefed on U.S. surveillance of Alice Huang and her relationship to Nvidia CEO but does not take action Around the same time, per the New York Times’ report , U.S.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Stock fell about 8% in after hours trading on Wednesday and is down 11% in the past five days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nvidia’s head lawyer, Tim Teter, intervened in a 2025 U.S. government probe surrounding the suspected smuggling of AI chips by Megaspeed International, Bloomberg reported .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "November 5, 2026: Three Republican committee chairmen ask Huang for closed-door briefing Three Republican congressmen — Chairman John Moolenaar of the House Select Committee on China, Chairman Brian Mast of the House Foreign Affairs Committ",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 78,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.83,
+        "rawScore": 49.83,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.53,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d1f3df81d4d143b4729a": {
+      "storyId": "d1f3df81d4d143b4729a",
+      "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec",
+      "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T23:17:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "74ff76d4de44ced44e2c514b",
+      "bodyFingerprint": "f19f1c8faf28778fb131f180",
+      "bodyCharacterCount": 2441,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T03:03:49.282Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang accused of having another affair — with an Nvidia exec",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news Related AI Nvidia’s crisis has corporate governance experts reaching for the popcorn Connie Loizos 19 hours ago AI Google broadens its",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2d2ec2e2257dea8fb289": {
+      "storyId": "2d2ec2e2257dea8fb289",
+      "url": "https://www.inc.com/aaron-mok/small-businesses-can-now-claim-a-free-chatgpt-profile-to-reach-customers-heres-how-to-set-it-up/91434978",
+      "title": "Small Businesses Can Now Claim a Free ChatGPT Profile to Reach Customers. Here’s How to Set It Up",
+      "source": "Inc. AI",
+      "published": "2026-11-11T21:48:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "756b8753d457c3379b225068",
+      "bodyFingerprint": "43a81014486c9819fe16fe1c",
+      "bodyCharacterCount": 116,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-12T03:03:49.399Z",
+      "assessment": {
+        "centralEvent": "Small Businesses Can Now Claim a Free ChatGPT Profile to Reach Customers. Here’s How to Set It Up",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a6547f8cea67f8f6609b": {
+      "storyId": "a6547f8cea67f8f6609b",
+      "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "source": "The Verge AI",
+      "published": "2026-11-11T22:44:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "30e17dec3938c7cc675b0e2f",
+      "bodyFingerprint": "3da27eed2773de7efe3b24f3",
+      "bodyCharacterCount": 4957,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T03:03:49.447Z",
+      "assessment": {
+        "centralEvent": "Nvidia is reportedly preparing to fire Jensen Huang",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nvidia’s stock fell more than 7 percent in after-hours trading Wednesday.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3a9e1f5ab3bf9ab17878": {
+      "storyId": "3a9e1f5ab3bf9ab17878",
+      "url": "https://techpolicy.press/friends-of-the-court-flock-to-the-openai-copyright-fight",
+      "title": "Friends of the Court Flock to the OpenAI Copyright Fight",
+      "source": "Tech Policy Press AI",
+      "published": "2026-11-11T21:01:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ac3cd939d423ffb8f09c3667",
+      "bodyFingerprint": "d89684acce218dada750f69e",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T03:03:49.897Z",
+      "assessment": {
+        "centralEvent": "Friends of the Court Flock to the OpenAI Copyright Fight",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "29 Proposed brief, 25 pages In their words 6 quotes “The Association of American Publishers, Inc. (‘AAP’) is a not-for-profit organization that represents approximately 120 book, journal, and education publishers in the United States on mat",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Suskind is also the CEO of Sourcebase, an AI company founded and led by journalists.” “This amicus brief observes that generative AI does not necessarily harm the market for or value of news, and may in fact benefit the News Plaintiffs by r",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Suskind is also the CEO of Sourcebase, an AI company founded and led by journalists.” “This amicus brief observes that generative AI does not necessarily harm the market for or value of news, and may in fact benefit the News Plaintiffs by r",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The plaintiffs are two groups, authors in the book cases and news organizations, and some briefs support only one of them; some briefs likewise support OpenAI but not Microsoft.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 115,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.29,
+        "rawScore": 28.29,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.39,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-11T22:02:22.856Z"
+  "updatedAt": "2026-11-12T03:03:49.897Z"
 }
