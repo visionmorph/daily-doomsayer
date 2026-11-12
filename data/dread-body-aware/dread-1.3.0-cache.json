@@ -351099,8 +351099,1287 @@
           "vulnerability": 0
         }
       }
+    },
+    "5c9e7ff84dfaf69e05f4": {
+      "storyId": "5c9e7ff84dfaf69e05f4",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/12/billions-lost-markets-roiled-one-man-indiscretion-tech-bro-jensen-huang-affair-nvidia",
+      "title": "Billions lost and markets roiled by one man’s indiscretion. Isn’t it now clear that these tech bros are too powerful? | Aditya Chakrabortty",
+      "source": "The Guardian AI",
+      "published": "2026-11-12T11:17:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f8d6828eded9d06ed3f5fb55",
+      "bodyFingerprint": "3675bf062dbe4930b5953bf2",
+      "bodyCharacterCount": 7397,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.453Z",
+      "assessment": {
+        "centralEvent": "Billions lost and markets roiled by one man’s indiscretion. Isn’t it now clear that these tech bros are too powerful? | Aditya Chakrabortty",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It declared on Sunday that it “has no reason to believe that either national security or Nvidia secrets were compromised” – before any independent investigation.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Neither, it seems, can Washington: it’s been more than a year since Nvidia was revealed to be selling some of its best stuff to a “ dilapidated storefront ” outside Kuala Lumpur, which sounded awfully like a pit stop on the way to China.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Not only is Huang one of Trump’s favourite businessmen, he’s warmly welcomed by leaders around the world – including Andy Burnham, who last month in London sank a whisky with him .",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e87aacabb74e4e98fb12": {
+      "storyId": "e87aacabb74e4e98fb12",
+      "url": "https://www.theguardian.com/technology/2026/nov/12/nhs-england-deletes-misleading-claim-137-trusts-benefiting-from-palantir-ai-tools",
+      "title": "NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI tools",
+      "source": "The Guardian AI",
+      "published": "2026-11-12T11:00:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4e418ae77887accaaefe3b8c",
+      "bodyFingerprint": "3c392b063d3fef3b6b265201",
+      "bodyCharacterCount": 5583,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.465Z",
+      "assessment": {
+        "centralEvent": "NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI tools",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“It’s a relief to see these webpages taken down, but this has only happened after multiple investigations exposed the misleading nature of NHS England’s claims,” said Rhiannon Mihranian Osborne, an NHS doctor and Medact spokesperson.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“The question remains, why did NHSE [NHS England] spend years using shaky evidence to promote the alleged ‘benefits’ of Palantir software?” Last week it was reported ministers planned to extend Palantir’s deal, amid intense lobbying.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.1,
+        "rawScore": 45.1,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d1c66578b63174b33e5e": {
+      "storyId": "d1c66578b63174b33e5e",
+      "url": "https://restofworld.org/2026/ai-government-ethics-bias-risk",
+      "title": "The promise and peril of AI in government",
+      "source": "Rest of World AI",
+      "published": "2026-11-12T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "04468b930fcab2718a8c1546",
+      "bodyFingerprint": "66963fbc4e1f81416a5366ae",
+      "bodyCharacterCount": 10611,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.480Z",
+      "assessment": {
+        "centralEvent": "The promise and peril of AI in government",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As the home of Taiwan’s international airport as well as 2.2 million residents, Taoyuan must manage heavy truck traffic, air pollution, rapid population growth , and constant construction.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "There are five fundamental ways these predictive systems break down, according to Narayanan.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As the home of Taiwan’s international airport as well as 2.2 million residents, Taoyuan must manage heavy truck traffic, air pollution, rapid population growth , and constant construction.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Two years later, Taoyuan’s program had screened over 400,000 residents, detecting 233 lung cancer cases (90% in early stage), and achieving cost savings of NT$500 million ($17 million) through AI-aided diagnostics.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.74,
+        "rawScore": 47.74,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.34,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a0b8b72f544cf0bb8a84": {
+      "storyId": "a0b8b72f544cf0bb8a84",
+      "url": "https://www.inc.com/aaron-mok/this-19-year-old-turned-down-harvard-and-yale-now-investors-are-betting-11-million-on-his-big-idea/91428699",
+      "title": "This 19-Year-Old Turned Down Harvard and Yale. Now Investors Are Betting $11 Million on His Big Idea",
+      "source": "Inc. AI",
+      "published": "2026-11-12T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "606e7dc71d739baf1adc36fa",
+      "bodyFingerprint": "ffe24ce076de493f469275a2",
+      "bodyCharacterCount": 89,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-12T11:19:31.510Z",
+      "assessment": {
+        "centralEvent": "This 19-Year-Old Turned Down Harvard and Yale. Now Investors Are Betting $11 Million on His Big Idea",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "816b94ad40e3a1b31781": {
+      "storyId": "816b94ad40e3a1b31781",
+      "url": "https://mashable.com/tech/nov-12-pansophy-private-personal-ai-desktop-assistant",
+      "title": "Use AI offline and keep conversations and documents stored locally with this $63.20 lifetime tool",
+      "source": "Mashable AI",
+      "published": "2026-11-12T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "173fe681b5f99a3af343b82e",
+      "bodyFingerprint": "e0a914b2c7c757c4a77373bd",
+      "bodyCharacterCount": 3172,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.583Z",
+      "assessment": {
+        "centralEvent": "Use AI offline and keep conversations and documents stored locally with this $63.20 lifetime tool",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3e3432c02eb3b61a5070": {
+      "storyId": "3e3432c02eb3b61a5070",
+      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_campaign=rss&at_medium=RSS",
+      "title": "Who could replace Jensen Huang as Nvidia's chief executive?",
+      "source": "BBC News AI",
+      "published": "2026-11-12T10:37:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e4464740d254e638d8f053cc",
+      "bodyFingerprint": "7b6bc3a68ea1abc4dee4695a",
+      "bodyCharacterCount": 4375,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.598Z",
+      "assessment": {
+        "centralEvent": "Who could replace Jensen Huang as Nvidia's chief executive?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Additional reporting by Kali Hays Related topics International Business Artificial intelligence More on this story What we know as pressure builds on embattled Nvidia CEO Jensen Huang Published 6 hours ago Zoe Kleinman: Nvidia CEO's affair ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eb81dbba908191602ed9": {
+      "storyId": "eb81dbba908191602ed9",
+      "url": "https://www.wired.com/story/google-wanted-spirit-airlines-data-flight-attendants-found-a-way-to-opt-out",
+      "title": "Google Wanted Spirit Airlines Data. Flight Attendants Found a Way to Opt Out",
+      "source": "WIRED AI",
+      "published": "2026-11-12T10:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6f47d2da7c13ee47093447c2",
+      "bodyFingerprint": "5a9ea1a6ebe61d33f43068ef",
+      "bodyCharacterCount": 5891,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.645Z",
+      "assessment": {
+        "centralEvent": "Google Wanted Spirit Airlines Data. Flight Attendants Found a Way to Opt Out",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But the union, the 55,000-member Association for Flight Attendants, argued that Google’s proposed safeguards would not prevent serious privacy violations for Spirit Airlines flight attendants, whose records—including 1.99 billion emails, 66",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 39,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "71f3f6602b4371f07ad5": {
+      "storyId": "71f3f6602b4371f07ad5",
+      "url": "https://www.wired.com/story/alex-karp-said-hes-a-progressive-ok-heres-some-other-stuff-hes-said-recently",
+      "title": "Alex Karp Said He’s a ‘Progressive.’ OK! Here’s Some Other Stuff He’s Said Recently",
+      "source": "WIRED AI",
+      "published": "2026-11-12T10:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4f66ae9e25dc1704b9e2dc80",
+      "bodyFingerprint": "3630c9a9372757d9ba836d6e",
+      "bodyCharacterCount": 4803,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.667Z",
+      "assessment": {
+        "centralEvent": "Alex Karp Said He’s a ‘Progressive.’ OK! Here’s Some Other Stuff He’s Said Recently",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He pointedly excludes anyone who has criticized Palantir in what he calls “ridiculously stupid and malicious, incredibly hard to understand attacks.” (Karp didn’t name examples, although many critiques of Palantir have come from the America",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In 2018, The New York Times reported that Karp described himself as such.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He pointedly excludes anyone who has criticized Palantir in what he calls “ridiculously stupid and malicious, incredibly hard to understand attacks.” (Karp didn’t name examples, although many critiques of Palantir have come from the America",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b9c79e7a2e9a6ed7ec0c": {
+      "storyId": "b9c79e7a2e9a6ed7ec0c",
+      "url": "https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai",
+      "title": "Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI",
+      "source": "The Guardian AI",
+      "published": "2026-11-12T06:55:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "516c95bd368c18676d8fd18a",
+      "bodyFingerprint": "50e9c4a954e6ccfeb8dd6129",
+      "bodyCharacterCount": 5485,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.674Z",
+      "assessment": {
+        "centralEvent": "Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Sharing the benefits of AI through better pay and shorter hours is a good idea, and it is exactly why it needs to be written into law instead of left to the goodwill of employers.” The Reserve Bank this week reported it had seen “little ev",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Meanwhile, National Australian Bank announced 2,500 job losses and while Canva announced 1,200 layoffs.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.59,
+        "rawScore": 46.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "36841df3d1321307afbc": {
+      "storyId": "36841df3d1321307afbc",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm",
+      "title": "Earth's fiery birth may have created hundreds of oceans' worth of water",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-12T08:38:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "241e29b0bf52873873ce58ca",
+      "bodyFingerprint": "852c47251b3b403ea3d1cdce",
+      "bodyCharacterCount": 11679,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.680Z",
+      "assessment": {
+        "centralEvent": "Earth's fiery birth may have created hundreds of oceans' worth of water",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Experiments Reveal Water Can Form in Minutes To determine whether this process could actually occur, the researchers exposed samples of silicate rock to temperatures ranging from 1,200 to 1,400 degrees Celsius.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Each experiment ran for between 15 minutes and three hours.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One prominent theory suggests that much of it was transported to the developing planet by icy material originating in the colder, more distant regions of the early solar system.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "There are also unresolved questions about whether this delivery process accounts for Earth's chemical composition.",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "They conducted experiments using flowing hydrogen gas and repeated the tests with helium to provide a comparison.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 79,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.67,
+        "rawScore": 48.67,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ce5e1fa823cbaec20cf9": {
+      "storyId": "ce5e1fa823cbaec20cf9",
+      "url": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair",
+      "title": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
+      "source": "The Guardian AI",
+      "published": "2026-11-12T06:43:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "83268b517484c7696b8cd29b",
+      "bodyFingerprint": "6ff15be13b553b8673ec2983",
+      "bodyCharacterCount": 14627,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.691Z",
+      "assessment": {
+        "centralEvent": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In depth: Everything we know (or don’t) about the Nvidia affair View image in fullscreen US intelligence officials had been conducting surveillance on Alice Huang.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "By yesterday, $430bn (5.5%) had been wiped off its share price, and in the early hours of this morning, that figure ballooned to about $600bn following reports that Nvidia’s board was deciding whether to oust Huang (you can follow the lates",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Lucy Hough speaks to global editor, Devika Bhat .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 106,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d652bf4e1f2db5615f13": {
+      "storyId": "d652bf4e1f2db5615f13",
+      "url": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
+      "title": "New research could lead to faster, trustworthy AI models for climate prediction",
+      "source": "MIT News AI",
+      "published": "2026-11-12T05:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "033061be183d25566ed96105",
+      "bodyFingerprint": "de72c62bced0ea42f11ecc97",
+      "bodyCharacterCount": 8450,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.713Z",
+      "assessment": {
+        "centralEvent": "New research could lead to faster, trustworthy AI models for climate prediction",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Related Links Glenn Flierl Noelle Selin Institute for Data, Systems, and Society Department of Earth, Atmospheric and Planetary Sciences School of Science MIT Schwarzman College of Computing Related Topics Research Climate change Emissions ",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The MIT researchers recently found that using realistic future scenarios as training data can lead to underperforming emulators that fail to predict unfamiliar or novel scenarios.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Speedier surrogates Climate scientists typically use earth system models (ESMs) to make long-term projections about how global temperature or precipitation could change in response to varying greenhouse gas emissions.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3ee0fcb17f2d6022c40d": {
+      "storyId": "3ee0fcb17f2d6022c40d",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm",
+      "title": "A massive new simulation reveals how the universe emerged from darkness",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-12T04:07:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cfb1657bec010b2194c66b45",
+      "bodyFingerprint": "54108840b9068465a70ba490",
+      "bodyCharacterCount": 15376,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.736Z",
+      "assessment": {
+        "centralEvent": "A massive new simulation reveals how the universe emerged from darkness",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This is the first simulation to capture both processes together, offering a more complete view of how the early universe changed. \"Lumina does everything from small-scale star and galaxy formation to large-scale reionization of hydrogen and",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 86,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d0923a9bc12806766f81": {
+      "storyId": "d0923a9bc12806766f81",
+      "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors",
+      "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+      "source": "TechCrunch AI",
+      "published": "2026-11-12T03:13:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "815cba289273094121bdaf65",
+      "bodyFingerprint": "d0909532bdf084c204d13d4b",
+      "bodyCharacterCount": 6627,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.773Z",
+      "assessment": {
+        "centralEvent": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "He then took over as OpenAI’s board chair after the “Blip,” Sam Altman’s firing and fast return.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "That’s hurt Intel (PC chips are a big part of its business), and its stock plunged 20% in after-hours trading on the warning, having already slid more than 30% since September.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "He ran Google from 2001 to 2011, chaired the National Security Commission on AI from 2018 to 2021, and now runs the rocket company Relativity Space.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Her company stands to benefit from every day that Nvidia spends distracted by an investigation, congressional briefings, and all the mini dramas that are sure to follow.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.01,
+        "rawScore": 49.01,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "16e3754d888626c6164f": {
+      "storyId": "16e3754d888626c6164f",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261109205411.htm",
+      "title": "NASA’s Parker Solar Probe discovers a hidden pattern in the Sun’s chaotic magnetic fields",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-12T01:45:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0cf520050504f815df79a1a2",
+      "bodyFingerprint": "4ac72dd7c7bb9372532d68ba",
+      "bodyCharacterCount": 9471,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.782Z",
+      "assessment": {
+        "centralEvent": "NASA’s Parker Solar Probe discovers a hidden pattern in the Sun’s chaotic magnetic fields",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "20, 2025  NASA’s Parker Solar Probe has directly observed magnetic reconnection in the Sun’s atmosphere for the first time, confirming decades-old theories about solar explosions.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e22ffa84e89896b50a2d": {
+      "storyId": "e22ffa84e89896b50a2d",
+      "url": "https://techpolicy.press/europes-ai-future-and-security-challenges-take-center-stage-at-dublin-summit",
+      "title": "Europe’s AI Future and Security Challenges Take Center Stage at Dublin Summit",
+      "source": "Tech Policy Press AI",
+      "published": "2026-11-12T08:50:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fb1a6566d186950224f643e7",
+      "bodyFingerprint": "f19038cf2d8b5c6c832ef802",
+      "bodyCharacterCount": 7988,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.825Z",
+      "assessment": {
+        "centralEvent": "Europe’s AI Future and Security Challenges Take Center Stage at Dublin Summit",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Thursday’s summit will focus on security, with the official theme of the meeting “Europe – strong, secure and connected.” It is likely that discussions will include how to deal with the fallout from Ukraine’s drones being throttled by Elon ",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The recent hacks of supermarket refrigeration systems , that sent temperatures in in-store coolers across Europe soaring to 50 degrees Celsius, affected 13 SuperValu outlets in Ireland.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The second part turns to AI's risks, safety and security, and to how Europe can contribute to international cooperation on the governance of advanced AI.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "696336fe54d97cb8573a": {
+      "storyId": "696336fe54d97cb8573a",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261109205416.htm",
+      "title": "Inside this quantum computer, memory vibrates like a guitar string",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-12T02:35:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c321d5476caaa715c4dbef2c",
+      "bodyFingerprint": "ffa4f6c6c09d325412cfe432",
+      "bodyCharacterCount": 11598,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:31.830Z",
+      "assessment": {
+        "centralEvent": "Inside this quantum computer, memory vibrates like a guitar string",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "The breakthrough successfully demonstrated advanced quantum calculations and could help overcome major barriers to practical quantum computing.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 80,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "df414c643958c3a1d8d6": {
+      "storyId": "df414c643958c3a1d8d6",
+      "url": "https://news.sky.com/story/ai-rollout-boosts-economy-as-slowdown-fears-mount-13610911",
+      "title": "Economy grows 0.7% in third quarter but slowdown looms",
+      "source": "Sky News AI",
+      "published": "2026-11-11T10:26:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "16343f2544c717746ce720d1",
+      "bodyFingerprint": "8328bfa120d47ff3f4a07859",
+      "bodyCharacterCount": 133,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-12T11:19:31.902Z",
+      "assessment": {
+        "centralEvent": "Economy grows 0.7% in third quarter but slowdown looms",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The UK economy grew 0.7% in the third quarter of the year, according to early official figures confirming a boost from AI investment.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "be5ef8ddfbb61e03252d": {
+      "storyId": "be5ef8ddfbb61e03252d",
+      "url": "https://www.politico.eu/article/ai-yoshua-bengio-implore-europe-build-frontier-models",
+      "title": "AI pioneer Yoshua Bengio implores Europe to build frontier models",
+      "source": "POLITICO Europe AI",
+      "published": "2026-11-09T11:06:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e7efb478b5149f8144c97d0f",
+      "bodyFingerprint": "85ddf069b36a96c86a6574c6",
+      "bodyCharacterCount": 2445,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-12T11:19:32.276Z",
+      "assessment": {
+        "centralEvent": "AI pioneer Yoshua Bengio implores Europe to build frontier models",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-12T03:03:49.897Z"
+  "updatedAt": "2026-11-12T11:19:32.276Z"
 }
