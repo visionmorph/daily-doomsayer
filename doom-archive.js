@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-12T11:00:00.000Z",
+  "generatedAt": "2026-11-12T19:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-12",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-12",
           "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T11:00:00.000Z",
+          "lastObservedAt": "2026-11-12T19:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.66,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-12",
           "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T11:00:00.000Z",
+          "lastObservedAt": "2026-11-12T19:00:00.000Z",
           "average": 49.66
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.55,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-12",
           "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T11:00:00.000Z",
+          "lastObservedAt": "2026-11-12T19:00:00.000Z",
           "average": 49.55
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-12",
           "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T11:00:00.000Z",
+          "lastObservedAt": "2026-11-12T19:00:00.000Z",
           "average": 49.01
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-12",
           "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T11:00:00.000Z",
+          "lastObservedAt": "2026-11-12T19:00:00.000Z",
           "average": 49.01
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.73,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-12",
           "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T11:00:00.000Z",
+          "lastObservedAt": "2026-11-12T19:00:00.000Z",
           "average": 48.73
         },
         {
@@ -123,6 +123,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 48.67
         },
         {
+          "storyId": "36841df3d1321307afbc",
+          "title": "Earth's fiery birth may have created hundreds of oceans' worth of water",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm",
+          "source": "ScienceDaily Technology",
+          "image": "",
+          "peak": 48.67,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-12",
+          "firstObservedAt": "2026-11-12T19:00:00.000Z",
+          "lastObservedAt": "2026-11-12T19:00:00.000Z",
+          "average": 48.67
+        },
+        {
           "storyId": "1340eca528bf94ae2324",
           "title": "China’s Nvidia Honeypot Isn’t Surprising. Jensen Huang Fell for It Anyway",
           "url": "https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/",
@@ -135,20 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-12T11:00:00.000Z",
           "lastObservedAt": "2026-11-12T11:00:00.000Z",
           "average": 48.51
-        },
-        {
-          "storyId": "33a74585cabf1fe91457",
-          "title": "What the West can learn from AI optimists in the rest of the world",
-          "url": "https://restofworld.org/2026/west-ai-anxiety-optimism-innovation/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "source": "Rest of World AI",
-          "image": "https://fastly.restofworld.org/uploads/2026/10/illo_tech_optimism_final.jpg?width=380&dpr=2&crop=16:9",
-          "peak": 48.32,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-12",
-          "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T11:00:00.000Z",
-          "average": 48.32
         }
       ]
     },
@@ -10894,11 +10894,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 11,
+          "observations": 12,
           "daysTracked": 4,
           "peakDate": "2026-11-09",
           "firstObservedAt": "2026-11-09T06:00:00.000Z",
-          "lastObservedAt": "2026-11-12T11:00:00.000Z",
+          "lastObservedAt": "2026-11-12T19:00:00.000Z",
           "average": 51.23
         },
         {
@@ -10992,11 +10992,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.66,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 4,
           "peakDate": "2026-11-09",
           "firstObservedAt": "2026-11-10T01:00:00.000Z",
-          "lastObservedAt": "2026-11-12T11:00:00.000Z",
+          "lastObservedAt": "2026-11-12T19:00:00.000Z",
           "average": 49.66
         },
         {
@@ -11006,11 +11006,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.55,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-11",
           "firstObservedAt": "2026-11-11T15:00:00.000Z",
-          "lastObservedAt": "2026-11-12T11:00:00.000Z",
+          "lastObservedAt": "2026-11-12T19:00:00.000Z",
           "average": 49.55
         },
         {
@@ -12650,11 +12650,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 41,
+          "observations": 42,
           "daysTracked": 12,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-12T11:00:00.000Z",
+          "lastObservedAt": "2026-11-12T19:00:00.000Z",
           "average": 51.23
         },
         {
