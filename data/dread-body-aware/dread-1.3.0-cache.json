@@ -356769,8 +356769,426 @@
           "vulnerability": 0
         }
       }
+    },
+    "7f1254a5ee31987f4143": {
+      "storyId": "7f1254a5ee31987f4143",
+      "url": "https://mashable.com/tech/google-gemini-4-hydrogen-ai-model-launch",
+      "title": "Google unveils Gemini 4 Hydrogen, its new AI model built for speed",
+      "source": "Mashable AI",
+      "published": "2026-11-13T07:14:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8d678bac5a6a1bb29d39ad17",
+      "bodyFingerprint": "90e5e95dcf653d62c7cd03f7",
+      "bodyCharacterCount": 3748,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T08:02:25.895Z",
+      "assessment": {
+        "centralEvent": "Google unveils Gemini 4 Hydrogen, its new AI model built for speed",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "33bf12a1540d754c2090": {
+      "storyId": "33bf12a1540d754c2090",
+      "url": "https://www.theguardian.com/commentisfree/picture/2026/nov/13/have-we-finally-found-a-valid-use-case-for-ai-meet-pino-the-autonomous-virtual-kiwi",
+      "title": "Have we finally found a valid use case for AI? Meet Pino the autonomous virtual kiwi | First Dog on the Moon",
+      "source": "The Guardian AI",
+      "published": "2026-11-13T05:35:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "976774b405c1271b7fad9a9a",
+      "bodyFingerprint": "0527e1a92b4612d41c8f12ec",
+      "bodyCharacterCount": 755,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T08:02:25.902Z",
+      "assessment": {
+        "centralEvent": "Have we finally found a valid use case for AI? Meet Pino the autonomous virtual kiwi | First Dog on the Moon",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "50ed42af2146ca4cb516": {
+      "storyId": "50ed42af2146ca4cb516",
+      "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+      "title": "Nvidia scandal sparks US national security furore and calls to take tough line on China",
+      "source": "The Guardian AI",
+      "published": "2026-11-13T06:34:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "79b47f06a4eb89296aa54d57",
+      "bodyFingerprint": "65499d1df13524e8aa186975",
+      "bodyCharacterCount": 5792,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T08:02:25.911Z",
+      "assessment": {
+        "centralEvent": "Nvidia scandal sparks US national security furore and calls to take tough line on China",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Now he’s gone, will Nvidia’s ramparts be breached?",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Former CEO Jensen Huang and US commerce secretary to appear before Congress amid bipartisan concern that America’s security was put at risk Nvidia scandal – latest updates Analysis: Jensen Huang built an AI kingdom.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "title",
+            "excerpt": "Nvidia scandal sparks US national security furore and calls to take tough line on China",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.59,
+        "rawScore": 46.59,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8e7baf33f092e81d7d41": {
+      "storyId": "8e7baf33f092e81d7d41",
+      "url": "https://www.bbc.co.uk/news/videos/cwm2591k27e2o?at_campaign=rss&at_medium=RSS",
+      "title": "What happened overnight with the Microsoft global outage",
+      "source": "BBC News AI",
+      "published": "2026-11-13T07:18:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "adfd6bc2885cafb7d15a4d0f",
+      "bodyFingerprint": "c073fa4dadbbe6e9cd361388",
+      "bodyCharacterCount": 582,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T08:02:25.918Z",
+      "assessment": {
+        "centralEvent": "What happened overnight with the Microsoft global outage",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 6,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "babb1d695637283d5ca3": {
+      "storyId": "babb1d695637283d5ca3",
+      "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
+      "title": "New AI “copilot” helps engineers design better structures",
+      "source": "MIT News AI",
+      "published": "2026-11-13T05:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1c7ea70e980d8a652d3badc6",
+      "bodyFingerprint": "e4bce93aa86739ba3f7f96dd",
+      "bodyCharacterCount": 7827,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T08:02:25.983Z",
+      "assessment": {
+        "centralEvent": "New AI “copilot” helps engineers design better structures",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6068b27a56970dfc88d4": {
+      "storyId": "6068b27a56970dfc88d4",
+      "url": "https://www.politico.eu/article/jensen-huang-fall-exposes-eu-leaders-ai-nvidia-european-council",
+      "title": "Jensen Huang’s fall further exposes EU leaders on AI",
+      "source": "POLITICO Europe AI",
+      "published": "2026-11-12T22:53:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ab73377ff970aa0244ccb08d",
+      "bodyFingerprint": "fa8fec96f119da5d10aa225a",
+      "bodyCharacterCount": 6470,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T08:02:25.988Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang’s fall further exposes EU leaders on AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Mistral’s Mensch has been a key voice in that debate, warning that giving up the frontier would be “a fundamental mistake” in an essay titled “Build or Surrender.” Advertisement Two European PMs — Finland’s Petteri Orpo and Estonian Kristen",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As Europe’s 27 leaders meet for their first conversation on AI the day after Huang’s resignation, his fall from grace is a reminder that it’s American tech bros — not European military men — who now hold the secrets that can decide the fate",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The session comes as Europe struggles to find its place in global AI.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e07fedf840f05ba0c75f": {
+      "storyId": "e07fedf840f05ba0c75f",
+      "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
+      "title": "Helping robots fit into the human workplace",
+      "source": "MIT News AI",
+      "published": "2026-11-13T05:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9dfca9f30364ec1442aabb55",
+      "bodyFingerprint": "8d243c876eb12ead6e997bef",
+      "bodyCharacterCount": 7873,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T08:02:25.992Z",
+      "assessment": {
+        "centralEvent": "Helping robots fit into the human workplace",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The primary workflows involve Carter robots moving things from one place to another, often in large warehouses or factories, where they say human workers can walk on average 30,000 steps a day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 50,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-13T01:07:45.241Z"
+  "updatedAt": "2026-11-13T08:02:25.992Z"
 }
