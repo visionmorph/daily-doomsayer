@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-12T19:00:00.000Z",
+  "generatedAt": "2026-11-13T01:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-12",
@@ -17,12 +17,40 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-12",
           "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T19:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "67995f7cc430892b7825",
+          "title": "US public workers are fighting to protect their jobs from AI – and some are winning",
+          "url": "https://www.theguardian.com/technology/2026/nov/12/us-workers-governments-unions-ai",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/56480260b7bf656d9742122815f5137a16b1a1e8/329_0_1706_1365/master/1706.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 50.44,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-12",
+          "firstObservedAt": "2026-11-13T01:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
+          "average": 50.44
+        },
+        {
+          "storyId": "d533790e4d2bd7ed50cf",
+          "title": "Jensen Huang is out. What did China want from him?",
+          "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD_1112_Site.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 49.99,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-12",
+          "firstObservedAt": "2026-11-13T01:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
+          "average": 49.99
         },
         {
           "storyId": "3927e8656e242ccd5091",
@@ -45,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.66,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-12",
           "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T19:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
           "average": 49.66
         },
         {
@@ -59,12 +87,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 49.55,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-12",
           "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T19:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
           "average": 49.55
+        },
+        {
+          "storyId": "648ab3e5a06f7ebf2df3",
+          "title": "Oh, Palantir is ‘progressive’ now, is it?",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/8407711/479950372.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 49.5,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-12",
+          "firstObservedAt": "2026-11-13T01:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
+          "average": 49.5
         },
         {
           "storyId": "5c8b564162bfa0a4a224",
@@ -73,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-12",
           "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T19:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
           "average": 49.01
         },
         {
@@ -87,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-12",
           "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T19:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
           "average": 49.01
         },
         {
@@ -101,54 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.73,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-12",
           "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T19:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
           "average": 48.73
-        },
-        {
-          "storyId": "1a82fe7532bdbaf87304",
-          "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
-          "url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6aee70f5276d9711716c9d02/master/pass/Gemini-AI-Coached-Teen-Suicide-Business.jpg",
-          "peak": 48.67,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-12",
-          "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T11:00:00.000Z",
-          "average": 48.67
-        },
-        {
-          "storyId": "36841df3d1321307afbc",
-          "title": "Earth's fiery birth may have created hundreds of oceans' worth of water",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm",
-          "source": "ScienceDaily Technology",
-          "image": "",
-          "peak": 48.67,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-12",
-          "firstObservedAt": "2026-11-12T19:00:00.000Z",
-          "lastObservedAt": "2026-11-12T19:00:00.000Z",
-          "average": 48.67
-        },
-        {
-          "storyId": "1340eca528bf94ae2324",
-          "title": "China’s Nvidia Honeypot Isn’t Surprising. Jensen Huang Fell for It Anyway",
-          "url": "https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6af3b2cb420c0dad2c15cd3b/master/pass/Jensen-Honeypot-Big-Story-2.jpg",
-          "peak": 48.51,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-12",
-          "firstObservedAt": "2026-11-12T11:00:00.000Z",
-          "lastObservedAt": "2026-11-12T11:00:00.000Z",
-          "average": 48.51
         }
       ]
     },
@@ -10894,11 +10894,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 4,
           "peakDate": "2026-11-09",
           "firstObservedAt": "2026-11-09T06:00:00.000Z",
-          "lastObservedAt": "2026-11-12T19:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
           "average": 51.23
         },
         {
@@ -10930,6 +10930,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.66
         },
         {
+          "storyId": "67995f7cc430892b7825",
+          "title": "US public workers are fighting to protect their jobs from AI – and some are winning",
+          "url": "https://www.theguardian.com/technology/2026/nov/12/us-workers-governments-unions-ai",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/56480260b7bf656d9742122815f5137a16b1a1e8/329_0_1706_1365/master/1706.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 50.44,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-12",
+          "firstObservedAt": "2026-11-13T01:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
+          "average": 50.44
+        },
+        {
           "storyId": "14306c6faa513eee6703",
           "title": "How AI Companies Want to Be Governed, and What That Means for AI Governance",
           "url": "https://techpolicy.press/how-ai-companies-want-to-be-governed-and-what-that-means-for-ai-governance",
@@ -10942,6 +10956,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-09T06:00:00.000Z",
           "lastObservedAt": "2026-11-09T06:00:00.000Z",
           "average": 50.24
+        },
+        {
+          "storyId": "d533790e4d2bd7ed50cf",
+          "title": "Jensen Huang is out. What did China want from him?",
+          "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD_1112_Site.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 49.99,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-12",
+          "firstObservedAt": "2026-11-13T01:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
+          "average": 49.99
         },
         {
           "storyId": "fcba619a931fe449f288",
@@ -10992,40 +11020,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 49.66,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 4,
           "peakDate": "2026-11-09",
           "firstObservedAt": "2026-11-10T01:00:00.000Z",
-          "lastObservedAt": "2026-11-12T19:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
           "average": 49.66
-        },
-        {
-          "storyId": "a0bc7c01bae020f16c0d",
-          "title": "Global fossil fuel emissions set to fall in 2026, but total CO2 keeps rising",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261109205358.htm",
-          "source": "ScienceDaily Technology",
-          "image": "",
-          "peak": 49.55,
-          "observations": 5,
-          "daysTracked": 2,
-          "peakDate": "2026-11-11",
-          "firstObservedAt": "2026-11-11T15:00:00.000Z",
-          "lastObservedAt": "2026-11-12T19:00:00.000Z",
-          "average": 49.55
-        },
-        {
-          "storyId": "129afffcefeaa8a89935",
-          "title": "Today’s AI won’t achieve superintelligence. But catastrophic risk is real | Sunita Verma",
-          "url": "https://www.theguardian.com/commentisfree/2026/nov/09/ai-superintelligence-risk",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/61f2a12727abb4833954c062ef986ee4b1361691/497_0_4966_3972/master/4966.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 49.5,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-09",
-          "firstObservedAt": "2026-11-10T01:00:00.000Z",
-          "lastObservedAt": "2026-11-10T01:00:00.000Z",
-          "average": 49.5
         }
       ]
     },
@@ -12650,11 +12650,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 42,
+          "observations": 43,
           "daysTracked": 12,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-12T19:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
           "average": 51.23
         },
         {
@@ -12728,6 +12728,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 50.66
         },
         {
+          "storyId": "67995f7cc430892b7825",
+          "title": "US public workers are fighting to protect their jobs from AI – and some are winning",
+          "url": "https://www.theguardian.com/technology/2026/nov/12/us-workers-governments-unions-ai",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/56480260b7bf656d9742122815f5137a16b1a1e8/329_0_1706_1365/master/1706.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 50.44,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-12",
+          "firstObservedAt": "2026-11-13T01:00:00.000Z",
+          "lastObservedAt": "2026-11-13T01:00:00.000Z",
+          "average": 50.44
+        },
+        {
           "storyId": "912dfdbd28658cc8a20b",
           "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
           "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
@@ -12754,20 +12768,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-03T06:00:00.000Z",
           "lastObservedAt": "2026-11-09T06:00:00.000Z",
           "average": 50.24
-        },
-        {
-          "storyId": "806fd4811804d7b24b40",
-          "title": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
-          "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/cb4db687d218902c0710319b5c22a27ce31c84f2/446_0_3333_2667/master/3333.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 50.16,
-          "observations": 4,
-          "daysTracked": 2,
-          "peakDate": "2026-11-05",
-          "firstObservedAt": "2026-11-05T15:00:00.000Z",
-          "lastObservedAt": "2026-11-06T10:00:00.000Z",
-          "average": 50.16
         }
       ]
     },
