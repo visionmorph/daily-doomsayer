@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-13T16:00:00.000Z",
+  "generatedAt": "2026-11-13T22:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-13",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-13",
           "firstObservedAt": "2026-11-13T08:00:00.000Z",
-          "lastObservedAt": "2026-11-13T16:00:00.000Z",
+          "lastObservedAt": "2026-11-13T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -67,6 +67,20 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.83
         },
         {
+          "storyId": "1dcca899a4f1e51430e5",
+          "title": "The unfolding Jensen Huang scandal: a timeline",
+          "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 49.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-13",
+          "firstObservedAt": "2026-11-13T22:00:00.000Z",
+          "lastObservedAt": "2026-11-13T22:00:00.000Z",
+          "average": 49.83
+        },
+        {
           "storyId": "498519c87733ddee5786",
           "title": "A New Agenda for Tech Regulation Beyond AI",
           "url": "https://techpolicy.press/a-new-agenda-for-tech-regulation-beyond-ai",
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/8407711/479950372.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 49.5,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-13",
           "firstObservedAt": "2026-11-13T08:00:00.000Z",
-          "lastObservedAt": "2026-11-13T16:00:00.000Z",
+          "lastObservedAt": "2026-11-13T22:00:00.000Z",
           "average": 49.5
         },
         {
@@ -115,40 +129,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6af5ee2157e0a3ee177875cd/master/pass/Uncanny-Valley-Jensen-Emergency-Pod.jpg",
           "peak": 49.06,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-13",
           "firstObservedAt": "2026-11-13T08:00:00.000Z",
-          "lastObservedAt": "2026-11-13T16:00:00.000Z",
+          "lastObservedAt": "2026-11-13T22:00:00.000Z",
           "average": 49.06
         },
         {
-          "storyId": "5c8b564162bfa0a4a224",
-          "title": "Independent Digital Media Is Not a Privilege Governments Can Revoke: The Fight to Save Egypt’s Mada Masr",
-          "url": "https://www.eff.org/deeplinks/2026/11/independent-digital-media-not-privilege-governments-can-revoke-fight-save-egypts",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/offline-general.png",
-          "peak": 49.01,
-          "observations": 2,
+          "storyId": "05bcc59a06644b13a031",
+          "title": "Dark energy may have flipped from negative to positive 9.5 billion years ago",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261111005901.htm",
+          "source": "ScienceDaily Technology",
+          "image": "",
+          "peak": 49.03,
+          "observations": 1,
           "daysTracked": 1,
           "peakDate": "2026-11-13",
-          "firstObservedAt": "2026-11-13T08:00:00.000Z",
-          "lastObservedAt": "2026-11-13T16:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "71c4631f575b0ad325b2",
-          "title": "The Confessions of an AI Fraud Kingpin",
-          "url": "https://www.404media.co/the-confessions-of-an-ai-fraud-kingpin-onlyfake-owner-nazarenko/",
-          "source": "404 Media AI",
-          "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
-          "peak": 49.01,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-11-13",
-          "firstObservedAt": "2026-11-13T08:00:00.000Z",
-          "lastObservedAt": "2026-11-13T16:00:00.000Z",
-          "average": 49.01
+          "firstObservedAt": "2026-11-13T22:00:00.000Z",
+          "lastObservedAt": "2026-11-13T22:00:00.000Z",
+          "average": 49.03
         }
       ]
     },
@@ -11039,11 +11039,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 15,
+          "observations": 16,
           "daysTracked": 5,
           "peakDate": "2026-11-09",
           "firstObservedAt": "2026-11-09T06:00:00.000Z",
-          "lastObservedAt": "2026-11-13T16:00:00.000Z",
+          "lastObservedAt": "2026-11-13T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -12795,11 +12795,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 45,
+          "observations": 46,
           "daysTracked": 13,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-13T16:00:00.000Z",
+          "lastObservedAt": "2026-11-13T22:00:00.000Z",
           "average": 51.23
         },
         {
