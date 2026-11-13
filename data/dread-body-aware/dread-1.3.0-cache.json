@@ -359140,8 +359140,1750 @@
           "vulnerability": 0
         }
       }
+    },
+    "5387364b19c512f9e0ed": {
+      "storyId": "5387364b19c512f9e0ed",
+      "url": "https://www.inc.com/dan-schawbel/mckinsey-says-ceos-can-use-ai-to-capture-how-they-decide-and-share-it-across-the-company/91436330",
+      "title": "McKinsey Has a New Idea for AI: Teach It How Your CEO Makes Decisions",
+      "source": "Inc. AI",
+      "published": "2026-11-13T22:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0333d3fb334eab71abfe42c7",
+      "bodyFingerprint": "574d0951e4bfe6341d2688c8",
+      "bodyCharacterCount": 48,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-13T22:40:49.092Z",
+      "assessment": {
+        "centralEvent": "McKinsey Has a New Idea for AI: Teach It How Your CEO Makes Decisions",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cfa3c0b31cbaad3ada82": {
+      "storyId": "cfa3c0b31cbaad3ada82",
+      "url": "https://www.inc.com/dave-sokolin/outlook-went-down-the-bigger-problem-is-that-we-still-need-to-open-it/91436671",
+      "title": "Outlook Went Down. The Bigger Problem Is That We Still Need to Open It",
+      "source": "Inc. AI",
+      "published": "2026-11-13T21:52:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5f76dace148499383fc01664",
+      "bodyFingerprint": "1fa4325aaee84e304d3ab818",
+      "bodyCharacterCount": 88,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-13T22:40:49.098Z",
+      "assessment": {
+        "centralEvent": "Outlook Went Down. The Bigger Problem Is That We Still Need to Open It",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Microsoft says it wasn’t hacked.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 44,
+        "rawScore": 44,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0be23f22892ef25fd39a": {
+      "storyId": "0be23f22892ef25fd39a",
+      "url": "https://www.inc.com/brian-contreras/amber-venz-box-has-the-inside-scoop-on-where-ai-shopping-goes-next/91434944",
+      "title": "Amber Venz Box Has the Inside Scoop on Where AI Shopping Goes Next",
+      "source": "Inc. AI",
+      "published": "2026-11-13T21:48:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "44820ea29fead112c2f97e26",
+      "bodyFingerprint": "48bb8b68f7ee9c89ec3bb4a0",
+      "bodyCharacterCount": 118,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-13T22:40:49.101Z",
+      "assessment": {
+        "centralEvent": "Amber Venz Box Has the Inside Scoop on Where AI Shopping Goes Next",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c6f748c25b779864fa70": {
+      "storyId": "c6f748c25b779864fa70",
+      "url": "https://mashable.com/tech/openai-launches-chatgpt-wallet",
+      "title": "OpenAI launches ChatGPT Wallet, claiming its a safe way to have AI shop for you",
+      "source": "Mashable AI",
+      "published": "2026-11-13T21:36:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d4c6fc02542aca84b0cc77be",
+      "bodyFingerprint": "45a86442739c97dd0d1528f9",
+      "bodyCharacterCount": 3965,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.163Z",
+      "assessment": {
+        "centralEvent": "OpenAI launches ChatGPT Wallet, claiming its a safe way to have AI shop for you",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "You May Also Like According to OpenAI, ChatGPT Wallet will let AI agents make purchases for users without sharing their credit card information each time.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "42a12beb2c637f1e1273": {
+      "storyId": "42a12beb2c637f1e1273",
+      "url": "https://www.inc.com/annabel-burba/warby-parker-smart-glasses-meta-google-samsung/91436436",
+      "title": "Warby Parker Takes on Meta ‘Creep Glasses’ with New $395 Google-Powered Frames",
+      "source": "Inc. AI",
+      "published": "2026-11-13T21:08:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4f0690aaf7953aba51a7508a",
+      "bodyFingerprint": "371eb29ab3c98fa39125f77e",
+      "bodyCharacterCount": 169,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-13T22:40:49.181Z",
+      "assessment": {
+        "centralEvent": "Warby Parker Takes on Meta ‘Creep Glasses’ with New $395 Google-Powered Frames",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7e8a918c3908973f72a3": {
+      "storyId": "7e8a918c3908973f72a3",
+      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+      "title": "Tech Companies Are Trying to Shift the Entire Concept of Privacy (Again)",
+      "source": "EFF AI",
+      "published": "2026-11-13T21:29:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "03515b9b653e0e2abcd4d260",
+      "bodyFingerprint": "9b2601638a26a9a07c3daa49",
+      "bodyCharacterCount": 7777,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.198Z",
+      "assessment": {
+        "centralEvent": "Tech Companies Are Trying to Shift the Entire Concept of Privacy (Again)",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "They believe these ambient surveillance devices that work in the background and are designed to look as normal as possible are the future, while they also expect the owners of these devices to use them responsibly and to notify those around",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Dozens of other companies are introducing pendants, rings, and other products designed to record, transcribe, or summarize everything we say and do all day long.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Tech companies want us to accept a reality where one person’s privacy choices (or lack thereof) means you suddenly need to be an expert in consumer tech who understands the capabilities of many devices on the market, how they work, how and ",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Even taken at face value, none of these products can understand the complex social context we all navigate every day.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 109,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.02,
+        "rawScore": 48.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1a17631568f09624472f": {
+      "storyId": "1a17631568f09624472f",
+      "url": "https://mashable.com/tech/uber-hack-stolen-drivers-licenses",
+      "title": "Uber confirms thousands of driver IDs compromised in data breach",
+      "source": "Mashable AI",
+      "published": "2026-11-13T19:55:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fdefb6499bcd12c37fcc1edf",
+      "bodyFingerprint": "bec457ad472e461dd787d7bd",
+      "bodyCharacterCount": 2989,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.237Z",
+      "assessment": {
+        "centralEvent": "Uber confirms thousands of driver IDs compromised in data breach",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "Uber confirms thousands of driver IDs compromised in data breach",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Stories Uber launches new live video feature to monitor teen riders Flock pitched turning Uber and Lyft drivers into a mobile surveillance network $6 billion Binance hack started with a fake job interview The 6 biggest cybersecurity",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The rideshare giant confirmed the breach in filings submitted to nationwide attorneys general this month.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9d6b164dfb130e71aa7f": {
+      "storyId": "9d6b164dfb130e71aa7f",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/13/chuck-schumer-chris-van-hollen-senate-leader",
+      "title": "What the choice between Chuck Schumer and Chris Van Hollen for Senate leader is all about | Bernie Sanders",
+      "source": "The Guardian AI",
+      "published": "2026-11-13T21:28:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8686717314ff598e5256b9c0",
+      "bodyFingerprint": "e5e657201f9bb4279d466dce",
+      "bodyCharacterCount": 4215,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.316Z",
+      "assessment": {
+        "centralEvent": "What the choice between Chuck Schumer and Chris Van Hollen for Senate leader is all about | Bernie Sanders",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "49f0b0840b1ef26af09f": {
+      "storyId": "49f0b0840b1ef26af09f",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "source": "TechCrunch AI",
+      "published": "2026-11-13T19:37:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9e976b1c662d47979e16fe2a",
+      "bodyFingerprint": "46ca7a54f54c2197a21590d4",
+      "bodyCharacterCount": 2596,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.322Z",
+      "assessment": {
+        "centralEvent": "AI agent startup LangChain hits $3B valuation",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news Related Security Microsoft’s latest email outage turned into a full-blown global cloud crisis Zack Whittaker 9 hours ago AI Democrats ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "754f24889ed9e00a6da8": {
+      "storyId": "754f24889ed9e00a6da8",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "source": "The Verge AI",
+      "published": "2026-11-13T20:45:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "67a9b0267d55790aa683d66a",
+      "bodyFingerprint": "f876415b344134f9bdae3a68",
+      "bodyCharacterCount": 3871,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.328Z",
+      "assessment": {
+        "centralEvent": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI says that in order for agents to use ChatGPT Wallet, “websites need to ensure agents are not inadvertently blocked, and payment and risk systems need to recognize legitimate purchases made by agents.” Follow topics and authors from t",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Eventually, OpenAI says it expects “users to be able to delegate purchases entirely to their agent by setting clear parameters—such as spending limits, purchase categories, or time periods—and pre-approve those purchases.” ChatGPT Wallet mi",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e479559e2c0a731cb7f3": {
+      "storyId": "e479559e2c0a731cb7f3",
+      "url": "https://www.theguardian.com/news/video/2026/nov/13/why-the-nvidia-scandal-is-far-from-over-the-latest",
+      "title": "Why the Nvidia scandal is far from over - The Latest",
+      "source": "The Guardian AI",
+      "published": "2026-11-13T19:20:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "48905b4c11030852996cd101",
+      "bodyFingerprint": "e87ea05ae7c5301c3e29c304",
+      "bodyCharacterCount": 623,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.331Z",
+      "assessment": {
+        "centralEvent": "Why the Nvidia scandal is far from over - The Latest",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The fallout is not over yet, with criticism mounting over the apparent lack of action from the US commerce secretary, Howard Lutnick.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Huang resigned after reported affairs with an Nvidia executive and a woman alleged to be a Chinese spy.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Jensen Huang’s resignation from the AI chipmaker Nvidia has sent shockwaves through the global economy.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.59,
+        "rawScore": 25.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.145,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c9a260e6a9e86ea5f6e7": {
+      "storyId": "c9a260e6a9e86ea5f6e7",
+      "url": "https://www.theguardian.com/news/audio/2026/nov/13/why-the-nvidia-scandal-is-far-from-over-the-latest",
+      "title": "Why the Nvidia scandal is far from over – The Latest",
+      "source": "The Guardian AI",
+      "published": "2026-11-13T19:01:38.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c22a5ddd6f3fa47d831e1462",
+      "bodyFingerprint": "bcfc67d1154aba9134a396cf",
+      "bodyCharacterCount": 712,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.340Z",
+      "assessment": {
+        "centralEvent": "Why the Nvidia scandal is far from over – The Latest",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The fallout is not over yet, with criticism mounting over the apparent lack of action from the US commerce secretary, Howard Lutnick.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Huang resigned after reported affairs with an Nvidia executive and a woman alleged to be a Chinese spy.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Jensen Huang’s resignation from the AI chipmaker Nvidia has sent shockwaves through the global economy.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.59,
+        "rawScore": 25.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.145,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e5f9139258a8abf16a71": {
+      "storyId": "e5f9139258a8abf16a71",
+      "url": "https://www.inc.com/robert-gillespie/chatgpt-20-percent-google-search-b2b-buyers-vendors/91435784",
+      "title": "ChatGPT Officially Reached 20% of Google’s Search Volume. But B2B Buyers Mostly Use It to Check Vendors They Already Know",
+      "source": "Inc. AI",
+      "published": "2026-11-13T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "56da9dc246945ec6ad65781a",
+      "bodyFingerprint": "d3bba488539213763925a857",
+      "bodyCharacterCount": 168,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-13T22:40:49.356Z",
+      "assessment": {
+        "centralEvent": "ChatGPT Officially Reached 20% of Google’s Search Volume. But B2B Buyers Mostly Use It to Check Vendors They Already Know",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a5cbeaaf0b4df56fac42": {
+      "storyId": "a5cbeaaf0b4df56fac42",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "source": "TechCrunch AI",
+      "published": "2026-11-13T18:40:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b7c923fa3449543d2e427638",
+      "bodyFingerprint": "eeac35f796782da17d6beae4",
+      "bodyCharacterCount": 7278,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.390Z",
+      "assessment": {
+        "centralEvent": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Other theories for the hold-up include preparation for a potential trade deal that would involve importing a large volume of U.S. goods, or concerns about potential surveillance technology in the chips.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Friday, Bloomberg also reported that a company with links to Alice Huang was involved in smuggling banned Nvidia chips to a data center in Shanghai.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Formerly, he was a senior reporter at Quartz, the global business news site, for more than a decade, and began his career as a political reporter in Washington, D.C.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cea3b4172f28bc3cc025": {
+      "storyId": "cea3b4172f28bc3cc025",
+      "url": "https://www.politico.eu/article/eu-deal-on-ukraine-talks-overshadows-ai-focused-summit-in-dublin",
+      "title": "EU deal on Ukraine talks overshadows AI-focused summit in Dublin",
+      "source": "POLITICO Europe AI",
+      "published": "2026-11-13T19:10:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "06e0b70e865598637d7aaee3",
+      "bodyFingerprint": "21305adc77821c0a1d4b34b2",
+      "bodyCharacterCount": 5301,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.441Z",
+      "assessment": {
+        "centralEvent": "EU deal on Ukraine talks overshadows AI-focused summit in Dublin",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "31c49203321b95e5613e": {
+      "storyId": "31c49203321b95e5613e",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/13/the-guardian-view-on-m-john-harrisons-booker-win-a-new-frontier-for-science-fiction",
+      "title": "The Guardian view on M John Harrison’s Booker win: a new frontier for science fiction | Editorial",
+      "source": "The Guardian AI",
+      "published": "2026-11-13T18:00:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e94ba29b6057888a56d9b0a9",
+      "bodyFingerprint": "d864ae8484ca0f3670f1fc37",
+      "bodyCharacterCount": 4238,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.451Z",
+      "assessment": {
+        "centralEvent": "The Guardian view on M John Harrison’s Booker win: a new frontier for science fiction | Editorial",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Capitalism, ecological disaster, AI, Brexit – the cause of “the crisis” is unclear.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "379fd6c3601c622da1a9": {
+      "storyId": "379fd6c3601c622da1a9",
+      "url": "https://www.inc.com/aaron-mok/the-microsoft-outage-also-hit-chatgpt-and-claude-but-theres-an-easy-workaround/91436228",
+      "title": "The Microsoft Outage Also Hit ChatGPT and Claude. But There’s an Easy Workaround",
+      "source": "Inc. AI",
+      "published": "2026-11-13T17:56:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aa95298a9f4e289bc85f00a9",
+      "bodyFingerprint": "b5cac8210c8f25a0f2dd9597",
+      "bodyCharacterCount": 110,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-13T22:40:49.468Z",
+      "assessment": {
+        "centralEvent": "The Microsoft Outage Also Hit ChatGPT and Claude. But There’s an Easy Workaround",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "OpenAI and Anthropic reported disruptions to the connections that let ChatGPT and Claude access Microsoft 365.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "05648108c87680dd8673": {
+      "storyId": "05648108c87680dd8673",
+      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "source": "Ars Technica AI",
+      "published": "2026-11-13T21:20:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1780a7323e9386151e9a9be5",
+      "bodyFingerprint": "a0ea5a4e6994f8388221c102",
+      "bodyCharacterCount": 4693,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.537Z",
+      "assessment": {
+        "centralEvent": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Windows 0-day dropped by disgruntled researcher hands hackers System rights 5.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4888df4a109a32c89d5e": {
+      "storyId": "4888df4a109a32c89d5e",
+      "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage",
+      "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+      "source": "WIRED AI",
+      "published": "2026-11-13T19:08:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7d77827f86a88bb84eb01797",
+      "bodyFingerprint": "a9a236bcb9bf3cb6c68f9861",
+      "bodyCharacterCount": 3641,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.551Z",
+      "assessment": {
+        "centralEvent": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "After a widespread outage shut down Microsoft 365 services for businesses, governments, and tens of millions of other users around the world, the essential cloud services are now (mostly) back online, according to the company’s status page ",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "The company says a bad update—not a cyberattack or AI—caused its servers around the world to crash.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "We have addressed the underlying issue and continue to restore service to remaining customers and regions.” The company has promised a “full post-incident report” after it has fully reviewed what went wrong.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "After a widespread outage shut down Microsoft 365 services for businesses, governments, and tens of millions of other users around the world, the essential cloud services are now (mostly) back online, according to the company’s status page ",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Ultimately, the episode serves as a reminder of the risks involved when the whole world relies on a single company for a critical service .",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.83,
+        "rawScore": 69.83,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.53,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bf2cbea674323c2aaad7": {
+      "storyId": "bf2cbea674323c2aaad7",
+      "url": "https://www.theguardian.com/world/2026/nov/13/if-gen-z-are-asked-to-go-to-war-it-might-not-be-in-the-way-they-expect",
+      "title": "If Gen Z are asked to go to war, it might not be in the way they expect | Brief letters",
+      "source": "The Guardian AI",
+      "published": "2026-11-13T17:52:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "789c8ae57d0e22334605b5de",
+      "bodyFingerprint": "1d4eb32b17c745d27024dd85",
+      "bodyCharacterCount": 1854,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.558Z",
+      "assessment": {
+        "centralEvent": "If Gen Z are asked to go to war, it might not be in the way they expect | Brief letters",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "If Gen Z are asked to go to war, it might not be in the way they expect | Brief letters",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d8266871295a8e589276": {
+      "storyId": "d8266871295a8e589276",
+      "url": "https://www.lawfaremedia.org/article/with-mythos--a-fable-as-old-as-time",
+      "title": "With Mythos, a Fable as Old as Time",
+      "source": "Lawfare AI",
+      "published": "2026-11-13T18:01:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0dbd2cea64f67027b4b02de2",
+      "bodyFingerprint": "125ec1068f86487abf3ac9c5",
+      "bodyCharacterCount": 10956,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.805Z",
+      "assessment": {
+        "centralEvent": "With Mythos, a Fable as Old as Time",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Except now even those are hacked (see, for example, SolarWinds , Okta , CrowdStrike ).",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It was a failure to configure a testing environment correctly, according to globally accepted but voluntary standards.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "AI Can (Mostly) Solve Cyber Regulatory Harmonization and Efficiency Jason Healey Benjamin Pearl Nov 10, 2026 With AI-driven compliance, it has never been less important to fix cyber-regulatory inefficiencies of the “DC-MOB.” Other Topics Ar",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The very nature of large language models (LLMs), their randomness and unpredictability, means a vulnerability can remain invisible without intentional investment (including time) into discovering it—a model is neither “safe” nor “not safe” ",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Two years later, a different House GOP member has fully introduced the “ AI Incident Reporting Act ,” which pretty much dispenses with any voluntary expectation and goes straight to mandatory.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 83,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.23,
+        "rawScore": 48.23,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.385,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4513c6ea6021e8f29c38": {
+      "storyId": "4513c6ea6021e8f29c38",
+      "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
+      "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+      "source": "Ars Technica AI",
+      "published": "2026-11-13T17:25:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0a1fa83f195f6f8ebf4149a0",
+      "bodyFingerprint": "66523d213dfc4a2b6fdb71d8",
+      "bodyCharacterCount": 8887,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.878Z",
+      "assessment": {
+        "centralEvent": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Windows 0-day dropped by disgruntled researcher hands hackers System rights 5.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "12990af15e181ab96cfc": {
+      "storyId": "12990af15e181ab96cfc",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "title": "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths",
+      "source": "The Guardian AI",
+      "published": "2026-11-13T16:38:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "65ce21f010a2f6807d650458",
+      "bodyFingerprint": "31e63bac8c6c2f4dcde002af",
+      "bodyCharacterCount": 8397,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.887Z",
+      "assessment": {
+        "centralEvent": "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "When these results were put into Coq: “About 400 were verified as stated, about 200 were repaired, meaning that perhaps the statement of the theorem had to be made more precise, or some assumption had to be added.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 66,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c62951c6db31e5c189e6": {
+      "storyId": "c62951c6db31e5c189e6",
+      "url": "https://www.theguardian.com/technology/2026/nov/13/how-it-feels-to-battle-with-a-flood-of-ai-generated-complaints",
+      "title": "How it feels to battle with a flood of AI-generated complaints | Letters",
+      "source": "The Guardian AI",
+      "published": "2026-11-13T17:53:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "111799082b9b3aa8a7683a41",
+      "bodyFingerprint": "cdc1ae5bc8950330e53e4b0b",
+      "bodyCharacterCount": 3173,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:49.892Z",
+      "assessment": {
+        "centralEvent": "How it feels to battle with a flood of AI-generated complaints | Letters",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "‘Our organisation is considering classing bombarding us with massive AI-generated contact as a form of harassment.’ Photograph: JYPIX/Alamy View image in fullscreen ‘Our organisation is considering classing bombarding us with massive AI-gen",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "‘Our organisation is considering classing bombarding us with massive AI-generated contact as a form of harassment.’ Photograph: JYPIX/Alamy View image in fullscreen ‘Our organisation is considering classing bombarding us with massive AI-gen",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“Frequent flyers” are part of any complaints role, but receiving multiple, massive, AI-generated complaints a month from someone makes us feel as if they don’t see us as people worthy of respect.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0f92a695eb9251f6e82f": {
+      "storyId": "0f92a695eb9251f6e82f",
+      "url": "https://techpolicy.press/ai-is-killing-autonomously-time-for-new-rules",
+      "title": "AI Is Killing Autonomously. Time for New Rules.",
+      "source": "Tech Policy Press AI",
+      "published": "2026-11-13T17:26:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c2ff54795387bc26f5d45a69",
+      "bodyFingerprint": "f642e7bff2eb90f65b62f661",
+      "bodyCharacterCount": 7031,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:50.297Z",
+      "assessment": {
+        "centralEvent": "AI Is Killing Autonomously. Time for New Rules.",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "If policymakers keep clinging to this fiction, they risk ignoring a widening enforcement gap because international law barely registers the new paradigm of degraded human control.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to this position , operators deploying the system remain responsible for any fallout, including its precautionary assessments.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "This lethal targeting without human intervention announces a new regime of violence that we are utterly unprepared for: although international laws govern human decision-making, they fail to capture the new realities of digital warfare.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Who intended those deaths?",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Kill decisions are also deeply networked, arising from sensor and platform interaction rather than from a single, isolated judgment.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.06,
+        "rawScore": 29.06,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.46,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5209104f13240720d0a8": {
+      "storyId": "5209104f13240720d0a8",
+      "url": "https://techpolicy.press/how-to-think-about-making-ai-and-social-media-pro-human",
+      "title": "How to Think About Making AI and Social Media Pro-Human",
+      "source": "Tech Policy Press AI",
+      "published": "2026-11-13T17:50:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dfb4cee872516c8e7dea39bb",
+      "bodyFingerprint": "00254e782cf759e59e3edf73",
+      "bodyCharacterCount": 18021,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-13T22:40:50.429Z",
+      "assessment": {
+        "centralEvent": "How to Think About Making AI and Social Media Pro-Human",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Whatever one’s assessment of existential risk , societal risk is already a clear and present danger common to both AI and social media.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "And thanks to Audrey Hingle for insightful editorial support. (AI was used for supplementary research and analysis, and for suggesting condensations of text that I first drafted and then carefully checked word by word.) This piece expresses",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Donate Authors Richard Reisman Richard Reisman is a non-resident senior fellow at the Foundation for American Innovation, contributing author to the Centre for International Governance Innovation’s Freedom of Thought Project, and a frequent",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Disconnect 3: Remediation requires a whole-of-society project A third disconnect is that even as these ideas gain recognition, putting fixes into practice is difficult.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "For those who want technology to be pro-human, it is time to treat the new problems of AI and the still unresolved problems of social media as related parts of the same challenge: building a digital ecosystem that serves people and democrac",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "I suggest generalizing this into the single, simplest, most essential principle to keep top-of-mind as we design, develop, deploy, and use these new tools: The essential test question at every decision point, for every component, is “ Who d",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 105,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.23,
+        "rawScore": 29.23,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.475,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 2,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-13T16:28:58.969Z"
+  "updatedAt": "2026-11-13T22:40:50.429Z"
 }
