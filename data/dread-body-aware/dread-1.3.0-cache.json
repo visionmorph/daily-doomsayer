@@ -361844,8 +361844,769 @@
           "vulnerability": 0
         }
       }
+    },
+    "299cfd655b5df2e69b8e": {
+      "storyId": "299cfd655b5df2e69b8e",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "source": "TechCrunch AI",
+      "published": "2026-11-14T16:34:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2ede4fca817197ca853b97f2",
+      "bodyFingerprint": "5c852e544958a4dc18824f13",
+      "bodyCharacterCount": 5499,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T18:08:15.309Z",
+      "assessment": {
+        "centralEvent": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Huang’s exit has also raised uncertainty over more than $3 billion in Chinese AI computing projects reliant on Nvidia’s restricted processors, according to Reuters’ review of procurement notices, investment plans and corporate disclosures.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Huang’s exit has also raised uncertainty over more than $3 billion in Chinese AI computing projects reliant on Nvidia’s restricted processors, according to Reuters’ review of procurement notices, investment plans and corporate disclosures.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The chip giant has built close ties with companies worldwide, particularly in Asia, where many of its key partners play important roles in the global AI industry.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Singapore also said it received limited assistance from U.S. authorities despite repeated requests for information about U.S. server maker Supermicro.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.07,
+        "rawScore": 28.07,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.37,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "238432e278b3a0376a6f": {
+      "storyId": "238432e278b3a0376a6f",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "source": "TechCrunch AI",
+      "published": "2026-11-14T17:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "537938d0bc41db834a1be530",
+      "bodyFingerprint": "21a134df02d909a4768d8559",
+      "bodyCharacterCount": 10668,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T18:08:15.318Z",
+      "assessment": {
+        "centralEvent": "The AI graveyard: a running list of projects and startups that didn’t make it",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One of the more recent examples was its attempt to turn ChatGPT into a broader “ super app .” On July 9, OpenAI updated the app to combine several experiences, including separate “Chat,” “Codex,” and “Work” modes, while renaming the traditi",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to S&P Global Market Intelligence , about 42% of AI initiatives are ultimately abandoned by their corporate parents.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "According to S&P Global Market Intelligence , about 42% of AI initiatives are ultimately abandoned by their corporate parents.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A cybersecurity researcher recently built a tool that could extract and display data that Recall had captured, reviving questions about whether Microsoft has actually fixed the underlying problem.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 78,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.99,
+        "rawScore": 27.99,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3625,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6c2539c06ead4df20530": {
+      "storyId": "6c2539c06ead4df20530",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "source": "The Verge AI",
+      "published": "2026-11-14T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e2c569f836cd0bdea77ffc0b",
+      "bodyFingerprint": "3dfc2cafbfb02089d1c69d2c",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T18:08:15.348Z",
+      "assessment": {
+        "centralEvent": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "This summer, AI models from OpenAI and Anthropic broke out of their testing environments and hacked real companies.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nilay Patel Nov 7 Big Tech lost big in the 2026 election David Pierce Nov 6 The hidden supply chain costs of the AI boom Nilay Patel Nov 5 Advertiser Content From This is the title for the native ad Top Stories 12:00 PM UTC Jensen Huang and",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Basically in 2019, a group of us decided that there was a lot happening and a lot of emerging technologies that were becoming very relevant in the national security space, and the security space more broadly,.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "We’ll see if they have revitalized the institutions. [Laughs] I’m sure it’ll be all fixed overnight.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "We’ll see if they have revitalized the institutions. [Laughs] I’m sure it’ll be all fixed overnight.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "There’ll be an entire CNBC machine that wakes up every day and is like, “Is Anthropic winning or is OpenAI winning?” That is a race dynamic that might be really healthy.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 767,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.91,
+        "rawScore": 49.91,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5375,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0a695ae9afdd897daea8": {
+      "storyId": "0a695ae9afdd897daea8",
+      "url": "https://www.inc.com/kamya-marwah/priyanka-vergadia-health-first-snacks-ai-startup/91436246",
+      "title": "She Worked at Google and Microsoft. Then She Used AI to Build a 6-Figure Snack Brand",
+      "source": "Inc. AI",
+      "published": "2026-11-14T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9f93c65d5fef3b8008928680",
+      "bodyFingerprint": "b3b04877f83691cd827455bc",
+      "bodyCharacterCount": 122,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-14T18:08:15.393Z",
+      "assessment": {
+        "centralEvent": "She Worked at Google and Microsoft. Then She Used AI to Build a 6-Figure Snack Brand",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "00bca2997e0251c7e2c2": {
+      "storyId": "00bca2997e0251c7e2c2",
+      "url": "https://www.inc.com/jason-aten/apples-new-holiday-ad-is-the-perfect-antidote-to-techs-ai-obsession/91437043",
+      "title": "Apple’s New Holiday Ad Is the Perfect Antidote to Tech’s AI Obsession",
+      "source": "Inc. AI",
+      "published": "2026-11-14T13:51:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2f30a30ab53aad8991e669ae",
+      "bodyFingerprint": "ce72c0940835747b8fa25741",
+      "bodyCharacterCount": 132,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-14T18:08:15.397Z",
+      "assessment": {
+        "centralEvent": "Apple’s New Holiday Ad Is the Perfect Antidote to Tech’s AI Obsession",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f88fcfa12fe4eda6caa6": {
+      "storyId": "f88fcfa12fe4eda6caa6",
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "source": "The Verge AI",
+      "published": "2026-11-14T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f0c43dd7c8c8d56bc9c63ad3",
+      "bodyFingerprint": "59d288e615bb9a2589548c49",
+      "bodyCharacterCount": 15341,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T18:08:15.408Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang and the decline of the visionary showman founder CEO",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The bigger risk than any rival chip is customers hedging during a vacuum.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Google’s Larry Page and Sergey Brin stepped away in 2019 as their company dealt with growing employee turmoil , leaving the company in the hands of Sundar Pichai, and both Microsoft and Apple have each passed the torch twice since the days ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "That’s because Huang wasn’t merely running the first $5 trillion company , he was the visionary leader in control of the must-have GPUs powering the worldwide AI boom, part of a company that represents around 6 percent of the S&P 500 stock ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "He stopped over and over to sign autographs, including one on a woman’s chest .",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Huang was one of countless tech leaders who followed his example by introducing their products in keynote speeches, adopting a single recognizable piece of clothing like Jobs’ trademark black turtleneck, and even occasionally teasing “one m",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 101,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29,
+        "rawScore": 29,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.455,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "03ae413c2fba02f13ebf": {
+      "storyId": "03ae413c2fba02f13ebf",
+      "url": "https://www.bbc.co.uk/news/articles/c8n50w445zgpo?at_campaign=rss&at_medium=RSS",
+      "title": "Thousands turn out in Edinburgh to protest against AI data centres",
+      "source": "BBC News AI",
+      "published": "2026-11-14T17:20:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "511e59a0e1e95fb3ae562943",
+      "bodyFingerprint": "364df417021c32b4d773c6a8",
+      "bodyCharacterCount": 4898,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T18:08:15.436Z",
+      "assessment": {
+        "centralEvent": "Thousands turn out in Edinburgh to protest against AI data centres",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It's going to be a monstrosity on the environment. \"The air pollution, the light pollution - it's just not needed.\" Image source, Press Association Image source, Press Association AI is seen by some as the most transformative technology eve",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "15 September Listen on Sounds The Scottish government confirmed it would publish new planning guidance on data centres before the end of the year and was \"developing a strategic approach to maximising the public benefit from data centres lo",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "She said: \"The way that these data centres are being proposed is going to make a lot of profit for big tech companies but they're going to have huge impacts for people in Scotland. \"These developments are so massive they're going to have na",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.13,
+        "rawScore": 47.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6197956b0b48e97bf681": {
+      "storyId": "6197956b0b48e97bf681",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112025544.htm",
+      "title": "Scientists discover a surprisingly simple way to turn coffee waste into fuel",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-14T11:42:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dc7e96ecaae758ef39407ca9",
+      "bodyFingerprint": "fb83ea34926c281ca4910d78",
+      "bodyCharacterCount": 10209,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T18:08:15.525Z",
+      "assessment": {
+        "centralEvent": "Scientists discover a surprisingly simple way to turn coffee waste into fuel",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com A Simple Pill Could Cure a Common Cause of High Blood Pressure A 6-Million-Year-Old Whale Had a Face So Strange Scientists Thought It Was Crushed Stonehenge’s Mysterious Six-Ton Stone Has Scientists Searching Ac",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Through a series of carefully designed experiments, they evaluated how changes in temperature, extraction time, and solvent quantity affected the results, both individually and in combination. \"We have found that the optimal conditions are ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The findings, published in Biomass and Bioenergy , highlight the untapped potential of spent coffee grounds , a waste product generated in enormous quantities worldwide.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Under these conditions, the researchers recovered approximately 90% as much oil as could be extracted using Soxhlet, a standard laboratory method known for its high extraction yields.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 68,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.49,
+        "rawScore": 27.49,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3175,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c82a612c5e6a19eafc35": {
+      "storyId": "c82a612c5e6a19eafc35",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230447.htm",
+      "title": "A giant icy world hiding beyond Pluto could be our sixth dwarf planet",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-14T11:58:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a856ff117ca4036cc2f30b36",
+      "bodyFingerprint": "f48da99ebcdcc33fdb92ae65",
+      "bodyCharacterCount": 11278,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T18:08:15.548Z",
+      "assessment": {
+        "centralEvent": "A giant icy world hiding beyond Pluto could be our sixth dwarf planet",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com A Simple Pill Could Cure a Common Cause of High Blood Pressure A 6-Million-Year-Old Whale Had a Face So Strange Scientists Thought It Was Crushed Stonehenge’s Mysterious Six-Ton Stone Has Scientists Searching Ac",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "If its status is confirmed, it would join the five dwarf planets currently recognized by the International Astronomical Union: Pluto, Ceres, Eris, Haumea and Makemake.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "If its status is confirmed, it would join the five dwarf planets currently recognized by the International Astronomical Union: Pluto, Ceres, Eris, Haumea and Makemake.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Holman made the initial discovery, while Jurić helped gather the additional evidence needed to verify it. \"If confirmed as a dwarf planet, ED138 would join a very small family of worlds,\" Holman said. \"Rubin will image the whole southern sk",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.62,
+        "rawScore": 28.62,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.42,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7f554d543072bd6350e7": {
+      "storyId": "7f554d543072bd6350e7",
+      "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom",
+      "title": "Beware the New AI-Fueled Ransomware Boom",
+      "source": "WIRED AI",
+      "published": "2026-11-14T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9c73990e91a9f200c2d05595",
+      "bodyFingerprint": "7d7dd4d4c2292c547848154a",
+      "bodyCharacterCount": 6777,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T18:08:15.680Z",
+      "assessment": {
+        "centralEvent": "Beware the New AI-Fueled Ransomware Boom",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But in the new era of AI-powered and automated cyberattacks, the danger posed by ransomware is only increasing as cybercriminals profit by combining established methods with new techniques made possible or more accessible by AI.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "One new group calling itself Global Secret Group claimed attacks on 48 victims, with more than half of these being listed on the same day, according to security firm ReliaQuest’s analysis.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“What we see is most of the recent increase was fueled by international attacks; the United States was a little more steady, but still high, still a lot of attacks,” says Cynthia Kaiser, former FBI cyber deputy director who now leads resear",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Halcyon’s Kaiser agrees that more actors are using AI to attempt to strike out on their own with expanded capabilities to trick targets, exploit vulnerabilities, check their code, and even compromise other groups’ remote-access tools to gai",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.68,
+        "rawScore": 28.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-14T11:31:33.029Z"
+  "updatedAt": "2026-11-14T18:08:15.680Z"
 }
