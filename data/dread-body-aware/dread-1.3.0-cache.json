@@ -360882,8 +360882,470 @@
           "vulnerability": 0
         }
       }
+    },
+    "fb6d4b7f8c6246896af7": {
+      "storyId": "fb6d4b7f8c6246896af7",
+      "url": "https://mashable.com/tech/faa-nationwide-ground-stop-why",
+      "title": "FAA nationwide ground stop: Why it happened, according to officials",
+      "source": "Mashable AI",
+      "published": "2026-11-14T02:01:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cb78a0d4ed04088f8ddad535",
+      "bodyFingerprint": "d3333feafca1fcd71ed6e484",
+      "bodyCharacterCount": 4425,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T03:20:28.529Z",
+      "assessment": {
+        "centralEvent": "FAA nationwide ground stop: Why it happened, according to officials",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It does not appear that way,\" Mullin said. \"The public was never at danger.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Travelers contend with thousands of delayed flights as ground stop continues into its fourth hour.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The FAA nationwide ground stop sparks travel panic and viral memes Flight status tracker: How to check online after FAA grounds all flights Microsoft apologizes for global outage: We 'regret the impact,' can rule out cyberattack Air Space I",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to multiple insiders with knowledge of the incident, an update to a private communications network used by air traffic controllers forced the system to reboot and impede communications at the nation's 22 regional air traffic contr",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.84,
+        "rawScore": 28.84,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c7896ddd93f39108da29": {
+      "storyId": "c7896ddd93f39108da29",
+      "url": "https://www.inc.com/jason-aten/this-week-the-faa-rolled-out-ai-air-traffic-management-then-it-grounded-flights-nationwide/91437031",
+      "title": "This Week, the FAA Rolled Out AI Air Traffic Management. Then It Grounded Flights Nationwide",
+      "source": "Inc. AI",
+      "published": "2026-11-14T02:08:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a17a1fabf1d18bc2cf8fd3d1",
+      "bodyFingerprint": "3f07aabc5d1876d015568456",
+      "bodyCharacterCount": 111,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-14T03:20:28.543Z",
+      "assessment": {
+        "centralEvent": "This Week, the FAA Rolled Out AI Air Traffic Management. Then It Grounded Flights Nationwide",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4e934dd0cb41b9df1a70": {
+      "storyId": "4e934dd0cb41b9df1a70",
+      "url": "https://mashable.com/tech/faa-smart-ai-tool-nationwide-groundstop",
+      "title": "Is the nationwide ground stop related to the FAAs new air traffic AI?",
+      "source": "Mashable AI",
+      "published": "2026-11-13T23:53:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "71bb2e5b394be0bb92a59e55",
+      "bodyFingerprint": "8e18cc5e40effe7ef09842ee",
+      "bodyCharacterCount": 4089,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T03:20:28.561Z",
+      "assessment": {
+        "centralEvent": "Is the nationwide ground stop related to the FAAs new air traffic AI?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Uber confirms thousands of driver IDs compromised in data breach A third Jensen Huang affair just dropped When asked about the possibility that SMART could have impacted the nation's air traffic control systems, Mullin said, \"You can't rule",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "More than 2,000 flights have already been affected and flights into the U.S. have also been halted.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "title",
+            "excerpt": "Is the nationwide ground stop related to the FAAs new air traffic AI?",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.69,
+        "rawScore": 47.69,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "96048276e5de0ccf8cbe": {
+      "storyId": "96048276e5de0ccf8cbe",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "source": "The Verge AI",
+      "published": "2026-11-13T23:49:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1d10a30e8c91862ceeaf6d15",
+      "bodyFingerprint": "6112fcfd9f354f080d93eac5",
+      "bodyCharacterCount": 4411,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T03:20:28.587Z",
+      "assessment": {
+        "centralEvent": "Amazon has a plan to index the world’s online shopping data",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Microsoft’s massive Outlook outage might be over The Jensen Huang scandal is hardly over Claude’s Duet agent is a little neurotic and surprisingly helpful Advertiser Content From This is the title for the native ad More in Tech ChatGPT Wall",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9d694fa95af0cfaecf52": {
+      "storyId": "9d694fa95af0cfaecf52",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "source": "TechCrunch AI",
+      "published": "2026-11-13T22:43:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "70dc9c177377f7fa5637d3d3",
+      "bodyFingerprint": "d603adb48aeba7129efbbc50",
+      "bodyCharacterCount": 7217,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T03:20:28.617Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Over the last several years, Nvidia has been a prolific investor , pouring tens of billions into startups annually and participating in 105 rounds this year alone, often as the largest investor, according to PitchBook.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "cd267c5d5f2de8e8f1f2": {
+      "storyId": "cd267c5d5f2de8e8f1f2",
+      "url": "https://techpolicy.press/does-the-trump-administrations-campaign-to-rebrand-ai-as-super-intelligence-matter",
+      "title": "Does the Trump Administration’s Campaign to Rebrand AI as ‘Super Intelligence’ Matter?",
+      "source": "Tech Policy Press AI",
+      "published": "2026-11-14T00:07:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8fb98b6e7670477d17ce7a4c",
+      "bodyFingerprint": "05ba35cdfdbca97e58bf46f0",
+      "bodyCharacterCount": 10596,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T03:20:29.150Z",
+      "assessment": {
+        "centralEvent": "Does the Trump Administration’s Campaign to Rebrand AI as ‘Super Intelligence’ Matter?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Pure genius If you haven’t been following the matter that closely — and there are indeed more important things to concern yourself with — it’s worth a brief refresh on the timeline of Trump’s bid to rename AI.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Asked whether the reported telecommunications failure affecting all flights might be related to artificial intelligence, Mullin paused to correct a reporter's choice of words.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Indeed, the stated goal of US AI policy is to “achieve and maintain unquestioned and unchallenged global technological dominance.” Trump doubled down on this idea when discussing America.gov, a new website to query government information.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 87,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e7b2bfb1548bb94162e0": {
+      "storyId": "e7b2bfb1548bb94162e0",
+      "url": "https://www.bbc.co.uk/iplayer/episode/m0034hf1?at_campaign=rss&at_medium=RSS",
+      "title": "Tech Now",
+      "source": "BBC News AI",
+      "published": "2026-11-14T01:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "baf54bcbce71b4291870068c",
+      "bodyFingerprint": "8ce963030be7e8489be43512",
+      "bodyCharacterCount": 87,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-14T03:20:29.224Z",
+      "assessment": {
+        "centralEvent": "Tech Now",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Yasmin Morgan-Griffiths follows a team testing AI early warning systems for landslides.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 2,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-13T22:40:50.429Z"
+  "updatedAt": "2026-11-14T03:20:29.224Z"
 }
