@@ -361344,8 +361344,508 @@
           "vulnerability": 0
         }
       }
+    },
+    "7e39aa9ab6607cea7607": {
+      "storyId": "7e39aa9ab6607cea7607",
+      "url": "https://www.theguardian.com/books/ng-interactive/2026/nov/14/its-like-the-wild-west-how-ai-has-rocked-the-literary-world",
+      "title": "‘It’s like the wild west’: how AI has rocked the literary world",
+      "source": "The Guardian AI",
+      "published": "2026-11-14T09:00:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "83822787716bb74726a758bf",
+      "bodyFingerprint": "d7a99f1d02abfdf3082dba1a",
+      "bodyCharacterCount": 16953,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T11:31:32.747Z",
+      "assessment": {
+        "centralEvent": "‘It’s like the wild west’: how AI has rocked the literary world",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "If large language models can spit out books that people want to read, or produce a convincing pastiche of your favourite writer, that’s almost certainly because they were trained on established writers’ stolen work.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "By herself, Hart can write 10,000 words a day, but AI could help her produce many more.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“We’re in the human creativity business, not in the business of giving robots jobs,” says Doug Wallace, managing director at Andrew Nurnberg Associates International, a network of literary agencies.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“The minute someone discloses [AI use] they get death threats, they get called names, they’re ousted,” she says.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Another unresolved question is if and when publishers should withdraw books.",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“I worry for authors when they don’t have a chance to make a case in defence of their work ... there needs to be a fair and thoughtful process, where if publishers and agents have concerns, they can discuss them with the authors.” In the me",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 131,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 51.48,
+        "rawScore": 51.48,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.68,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 2,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a452f5824a86a9954317": {
+      "storyId": "a452f5824a86a9954317",
+      "url": "https://www.theguardian.com/business/2026/nov/14/young-people-shut-out-of-work-ai",
+      "title": "‘The social contract is broken’: young people on feeling shut out of careers",
+      "source": "The Guardian AI",
+      "published": "2026-11-14T10:00:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d69db8d246e163145c4f6f51",
+      "bodyFingerprint": "b64e06aba10178d70ee2c508",
+      "bodyCharacterCount": 10535,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T11:31:32.767Z",
+      "assessment": {
+        "centralEvent": "‘The social contract is broken’: young people on feeling shut out of careers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Yet so many people have been unable to get jobs, and when they do, it is often things they are wildly overqualified for and has nothing to do with what they studied.” When Alice, 24, went from her state secondary school to study at the Univ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 83,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4996bbca7f573f525947": {
+      "storyId": "4996bbca7f573f525947",
+      "url": "https://mashable.com/tech/nov-14-askanymodel-ai-pro-plan-lifetime-subscription",
+      "title": "Send one prompt to 6 AI models and compare their answers with AskAnyModel for $31.99",
+      "source": "Mashable AI",
+      "published": "2026-11-14T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "812af24bc46df7a2924323fb",
+      "bodyFingerprint": "c9c0abb3dd09fbeccad84954",
+      "bodyCharacterCount": 3132,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T11:31:32.786Z",
+      "assessment": {
+        "centralEvent": "Send one prompt to 6 AI models and compare their answers with AskAnyModel for $31.99",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "75102a44dc7a210b1ce4": {
+      "storyId": "75102a44dc7a210b1ce4",
+      "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong",
+      "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+      "source": "WIRED AI",
+      "published": "2026-11-14T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1b9256d13c5f4b8b65c9fcf2",
+      "bodyFingerprint": "a988e93b1d443dafe9bf1f59",
+      "bodyCharacterCount": 14978,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T11:31:32.802Z",
+      "assessment": {
+        "centralEvent": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Any computer-based system can potentially be hacked; any AI system creative enough to ideate novel solutions could also hallucinate crucial details.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“Certification standards and airworthiness require proof and demonstrated safety, and that usually means incremental rather than radical change.” The FAA was in no rush to let unproven robots go careening around the national airspace.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Almost three weeks later, that post would get a new life, as a nervous joke, as the FAA issued a national groundstop on Friday the 13th that instantly threw the world’s airline schedules into chaos.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In 2023, the FAA began issuing waivers to allow delivery-drone flights beyond the visual range of operators; by the end of this year it could make the rule change permanent.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The plane, a single-engine turboprop, then turned east to Fort Worth, stopped at Shaw Air Force Base in South Carolina, and finally arrived at Dare County Regional Airport off the coast of North Carolina.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The plane, a single-engine turboprop, then turned east to Fort Worth, stopped at Shaw Air Force Base in South Carolina, and finally arrived at Dare County Regional Airport off the coast of North Carolina.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 102,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.61,
+        "rawScore": 49.61,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.51,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5884cd8d4a8bcc5a9d89": {
+      "storyId": "5884cd8d4a8bcc5a9d89",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_campaign=rss&at_medium=RSS",
+      "title": "Microsoft says services fully restored after day-long global outage",
+      "source": "BBC News AI",
+      "published": "2026-11-14T06:42:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f02afda1882828c0231cd377",
+      "bodyFingerprint": "ea8ce92d0c3d11efa2d707db",
+      "bodyCharacterCount": 5660,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T11:31:32.822Z",
+      "assessment": {
+        "centralEvent": "Microsoft says services fully restored after day-long global outage",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Bloomberg via Getty Images Image caption, Products such as Microsoft Teams and Outlook have been out of service for much of Friday By Rachel Clun Business reporter , Reporting from New York Published 13 November 2026 Updated 4",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5c0a51196e9cb3b8f2da": {
+      "storyId": "5c0a51196e9cb3b8f2da",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112025523.htm",
+      "title": "Scientists capture electrons making seemingly impossible quantum jumps",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-14T01:13:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "691b00739e5a0d7d57b90873",
+      "bodyFingerprint": "21b795d255c65d5217cf7f53",
+      "bodyCharacterCount": 11314,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T11:31:32.925Z",
+      "assessment": {
+        "centralEvent": "Scientists capture electrons making seemingly impossible quantum jumps",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "However, the researchers observed something very different when they exposed graphene to intense pulses of light.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "However, the researchers observed something very different when they exposed graphene to intense pulses of light.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "An international team of researchers observed how electrons, excited by ultrafast light pulses, danced in unison around a particle less ...",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 75,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.63,
+        "rawScore": 47.63,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b69ee6c302f8932898a5": {
+      "storyId": "b69ee6c302f8932898a5",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261111005913.htm",
+      "title": "AI supercharges laser physics with a stunning 250x speed boost",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-13T23:41:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7a21dfcaf61fa96446ef2a74",
+      "bodyFingerprint": "a0bd7ac0ac3d3fe422cabe0e",
+      "bodyCharacterCount": 10586,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-14T11:31:33.029Z",
+      "assessment": {
+        "centralEvent": "AI supercharges laser physics with a stunning 250x speed boost",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The system also demonstrated an important ability to capture the interconnected behavior of the light waves.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 72,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-14T03:20:29.224Z"
+  "updatedAt": "2026-11-14T11:31:33.029Z"
 }
