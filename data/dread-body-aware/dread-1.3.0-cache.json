@@ -363220,8 +363220,759 @@
           "vulnerability": 0
         }
       }
+    },
+    "8f4703b4d71533ef80c4": {
+      "storyId": "8f4703b4d71533ef80c4",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/15/the-guardian-view-on-civil-service-reform-ai-cannot-conjure-a-capable-state-on-its-own",
+      "title": "The Guardian view on civil service reform: AI cannot conjure a capable state on its own | Editorial",
+      "source": "The Guardian AI",
+      "published": "2026-11-15T17:25:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1d03bc896017947321bf8a1d",
+      "bodyFingerprint": "fbdd9a9766b4b9f444688aef",
+      "bodyCharacterCount": 4345,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-15T17:45:23.911Z",
+      "assessment": {
+        "centralEvent": "The Guardian view on civil service reform: AI cannot conjure a capable state on its own | Editorial",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Opening routes to leadership would bring skills that are too often overlooked The cabinet secretary, Antonia Romeo, called for an overhaul of a “reactive and risk-averse” civil service in her speech last Tuesday.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Such a “ cultural disconnect ”, experts say, has caused major policy blunders.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Ministers planned a “radical shift” of powers, resources and accountability to regional and local government, which she said would leave Whitehall “leaner and more strategic”.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Reinvention is in the civil service’s blood – ever since it was founded as a permanent, impartial institution in 1854.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 46,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.23,
+        "rawScore": 28.23,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.385,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c2df7acbae00d74c4045": {
+      "storyId": "c2df7acbae00d74c4045",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/16/is-the-ai-job-apocalypse-finally-here-the-evidence-suggests-otherwise",
+      "title": "Is the AI job apocalypse finally here? The evidence suggests otherwise | John Quiggin",
+      "source": "The Guardian AI",
+      "published": "2026-11-15T14:00:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4f666dbdd66d947a15e7a6c3",
+      "bodyFingerprint": "1557a9cfd85937450105f3ee",
+      "bodyCharacterCount": 4963,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-15T17:45:23.998Z",
+      "assessment": {
+        "centralEvent": "Is the AI job apocalypse finally here? The evidence suggests otherwise | John Quiggin",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The role AI played in job losses at Australia’s NAB, Qantas, Canva and Atlassian is far from clear – but it may prove to have more impact on the stock market than the jobs market",
+            "matchedRule": "/\\b(?:lost jobs|job losses|laid off|displaced workers?|denied benefits?)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "‘Four years after the launch of ChatGPT, and the pattern seems to be much the same: lots of hype and excitement but with very little productivity growth.’ Illustration: BlackJack3D/Getty Images View image in fullscreen ‘Four years after the",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The decision to outsource 850 jobs to India is consistent with the airline’s longstanding strategy of doing over Australian workers while claiming preferential treatment due to being a national flag carrier.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.03,
+        "rawScore": 46.03,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9502bb4778e818bd8672": {
+      "storyId": "9502bb4778e818bd8672",
+      "url": "https://www.inc.com/entrepreneurs-organization/ai-can-save-time-on-branding-it-could-also-erase-what-makes-you-different/91435072",
+      "title": "AI Can Save Time on Branding. It Could Also Erase What Makes You Different",
+      "source": "Inc. AI",
+      "published": "2026-11-15T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fd683c3ef49395412fc54946",
+      "bodyFingerprint": "e01167e57d090f9cfc0b9d33",
+      "bodyCharacterCount": 56,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-15T17:45:24.000Z",
+      "assessment": {
+        "centralEvent": "AI Can Save Time on Branding. It Could Also Erase What Makes You Different",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c58c89c7dd6ea7d2653c": {
+      "storyId": "c58c89c7dd6ea7d2653c",
+      "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_campaign=rss&at_medium=RSS",
+      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "source": "BBC News AI",
+      "published": "2026-11-15T14:56:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8a64da8d2a21e6f857550f8d",
+      "bodyFingerprint": "763f71c7019903159f07c811",
+      "bodyCharacterCount": 3317,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-15T17:45:24.197Z",
+      "assessment": {
+        "centralEvent": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Related topics Artificial intelligence Nvidia China More on this story How the Jensen Huang scandal created a headache for business-friendly Singapore Published 1 day ago How a sex scandal at Nvidia is putting pressure on the White House Pu",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Reuters Image caption, The Nvidia scandal has sent shockwaves through Silicon Valley as well as the political establishment By Dearbail Jordan Business reporter Published 2 hours ago Alice Huang, a suspected China spy who has ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It said it was aware of reports \"containing assertions about our business, supply chain and global operations that are not supported by verifiable evidence\".",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d4ef7c11dabf8dcf9bd4": {
+      "storyId": "d4ef7c11dabf8dcf9bd4",
+      "url": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_campaign=rss&at_medium=RSS",
+      "title": "South Korea's top scorer in tax accountancy exam admits cheating",
+      "source": "BBC News AI",
+      "published": "2026-11-15T13:37:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "19e14864fcb02dc206a628f2",
+      "bodyFingerprint": "66f0e62ef1eedc3c321bfa1c",
+      "bodyCharacterCount": 3470,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-15T17:45:24.204Z",
+      "assessment": {
+        "centralEvent": "South Korea's top scorer in tax accountancy exam admits cheating",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Lee Don-Ho/YouTube Image caption, Han Won-seok confessed in a video on the YouTube channel of his lawyer By Dan Sales Published 4 hours ago A candidate who came first in South Korea's certified tax accountancy exam has admitte",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9d95da9404a743686e34": {
+      "storyId": "9d95da9404a743686e34",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202204.htm",
+      "title": "Uranus and Neptune’s bizarre magnetic fields may finally be explained",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-15T13:43:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "18f2d7f4748e9731dc698518",
+      "bodyFingerprint": "134b5907e8bbd25dd8f9ae3d",
+      "bodyCharacterCount": 11155,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-15T17:45:24.222Z",
+      "assessment": {
+        "centralEvent": "Uranus and Neptune’s bizarre magnetic fields may finally be explained",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com A Simple Pill Could Cure a Common Cause of High Blood Pressure A 6-Million-Year-Old Whale Had a Face So Strange Scientists Thought It Was Crushed Stonehenge’s Mysterious Six-Ton Stone Has Scientists Searching Ac",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Now, researchers believe they may have found an answer hidden deep inside these enormous worlds.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "25, 2024  When Voyager 2 flew by Uranus and Neptune 40 years ago, astronomers were surprised that it detected no global dipole magnetic fields, like Earth's.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Researchers have now developed a single atmospheric model that matches observations of both planets. ...",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 82,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.96,
+        "rawScore": 27.96,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.36,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2d48d8ea751d352969a2": {
+      "storyId": "2d48d8ea751d352969a2",
+      "url": "https://www.inc.com/connor-jewiss/this-499-ring-guesses-what-you-need-next-its-biggest-rival-is-already-on-your-wrist/91432177",
+      "title": "This $499 Ring Guesses What You Need Next. Its Biggest Rival Is Already on Your Wrist",
+      "source": "Inc. AI",
+      "published": "2026-11-15T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f83c7fcedd0192efb4e3ea04",
+      "bodyFingerprint": "4d3234a93953b217d96c2cca",
+      "bodyCharacterCount": 89,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-15T17:45:24.231Z",
+      "assessment": {
+        "centralEvent": "This $499 Ring Guesses What You Need Next. Its Biggest Rival Is Already on Your Wrist",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "86dce4ca328e8bdaa9a2": {
+      "storyId": "86dce4ca328e8bdaa9a2",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+      "title": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-15T13:04:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cfd2b68351f2eff7672fdc24",
+      "bodyFingerprint": "535a1ecb84ff9340a6e0431d",
+      "bodyCharacterCount": 10721,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-15T17:45:24.271Z",
+      "assessment": {
+        "centralEvent": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to study co-author Associate Professor Natasha Hurley-Walker, the observations exposed stellar flares associated with powerful magnetic disturbances.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "To confirm the findings and examine the white dwarf's orbital motion, the researchers analyzed more than 100 hours of radio observations using computing resources at the Pawsey Supercomputing Research Centre.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Science News from research organizations Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses Date: November 15, 2026 Source: International Centre for Radio Astronomy Research Summary: Scientists hav",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "13482003797f2776b71c": {
+      "storyId": "13482003797f2776b71c",
+      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "title": "An overview of Jensen Huang’s messy days",
+      "source": "The Verge AI",
+      "published": "2026-11-15T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a60d6a06cbde0210c2947c22",
+      "bodyFingerprint": "3b18a7f8fe49720105129a3e",
+      "bodyCharacterCount": 13984,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-15T17:45:24.350Z",
+      "assessment": {
+        "centralEvent": "An overview of Jensen Huang’s messy days",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Any major tech CEO potentially being compromised by the Chinese government is concerning - especially Jensen Huang. \"If you could draw the network diagram of the entire US AI e ...",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Terrence O'Brien AI Column Nvidia Security Tech The Stepback Most Popular Most Popular Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print Work to replace old copper wire led to the FAA’s ground stop",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Read this While a lot has changed, it’s still worth reading the Times ’ first big report from October 29th that lays the groundwork for the eventual deluge of international intrigue and infidelity that ultimately led to Jensen Huang’s downf",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In a memo to employees, Jones said the company would “search for a permanent successor looking at both internal and external candidates.” But the destabilizing impact was immediate.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“If you could draw the diagram of the entire Nvidia ecosystem, a single man is standing at the heart of all of that.” The Times reported that Jensen Huang had developed a “ close relationship ” with Alice Huang (no relation), an executive a",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 91,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.16,
+        "rawScore": 50.16,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.56,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "813b58e5440732006ed1": {
+      "storyId": "813b58e5440732006ed1",
+      "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets",
+      "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+      "source": "WIRED AI",
+      "published": "2026-11-15T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "03b944a5f7f8b7445b039e32",
+      "bodyFingerprint": "842a62eca6714bac8a928f13",
+      "bodyCharacterCount": 6816,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-15T17:45:24.370Z",
+      "assessment": {
+        "centralEvent": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "I feel like in the future of computing, we will have more of a relationship with AI, but we should definitely be careful not to abuse this.\" Comments Back to top Join the discussion Comments Back to top You Might Also Like In your inbox: Fo",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Kim says she distributed OATs to many people and found that people use them in three different ways.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 44.99,
+        "rawScore": 44.99,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.09,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dc713a483ba5be6154a3": {
+      "storyId": "dc713a483ba5be6154a3",
+      "url": "https://www.wired.com/story/ai-djs-completely-kill-my-groove",
+      "title": "AI DJs Completely Kill My Groove",
+      "source": "WIRED AI",
+      "published": "2026-11-15T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "95b1eb7bb5c1b9e08984252f",
+      "bodyFingerprint": "bee9c562f1360c9bc6d5df71",
+      "bodyCharacterCount": 5198,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-15T17:45:24.540Z",
+      "assessment": {
+        "centralEvent": "AI DJs Completely Kill My Groove",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Although Spotify claims it has “80 percent of listeners coming back to DJ week after week,” according to the company’s launch blog , I won’t be one of them.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-15T10:59:35.042Z"
+  "updatedAt": "2026-11-15T17:45:24.540Z"
 }
