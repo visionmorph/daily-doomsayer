@@ -362792,8 +362792,436 @@
           "vulnerability": 0
         }
       }
+    },
+    "7baef69b91ca14a8b268": {
+      "storyId": "7baef69b91ca14a8b268",
+      "url": "https://www.inc.com/minda-zetlin/pwc-is-teaching-critical-thinking-to-85000-employees-we-all-need-it-with-or-without-ai/91435254",
+      "title": "PwC Is Teaching Critical Thinking to 85,000 Employees. We All Need It—With or Without AI",
+      "source": "Inc. AI",
+      "published": "2026-11-15T10:31:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3b10f18f38f4c396c22f5ba2",
+      "bodyFingerprint": "4a7810c34e29da03bfc55841",
+      "bodyCharacterCount": 120,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-15T10:59:34.696Z",
+      "assessment": {
+        "centralEvent": "PwC Is Teaching Critical Thinking to 85,000 Employees. We All Need It—With or Without AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eb93c7394ac0d7c21028": {
+      "storyId": "eb93c7394ac0d7c21028",
+      "url": "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
+      "title": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick",
+      "source": "The Guardian AI",
+      "published": "2026-11-15T06:00:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8f8cc80eef00e830b99f4bc3",
+      "bodyFingerprint": "360a01a1e65e7d44b682cadf",
+      "bodyCharacterCount": 14612,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-15T10:59:34.794Z",
+      "assessment": {
+        "centralEvent": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Corporate intelligence firms, AI companies and US officials have been on alert for espionage operations targeting tech executives – with some major tech firms warning employees to be skeptical of their personal relationships and holding inv",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Huang’s downfall is a nightmare scenario for a tech industry that has become increasingly fearful of security threats, and a glimpse into what intelligence experts say is a constant theater of corporate espionage secretly playing out every ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Jensen Huang’s affair with a suspected spy is Silicon Valley’s worst nightmare come true The resignation this week of Nvidia’s founder and CEO Jensen Huang is one of the most astonishing corporate scandals in memory, featuring allegations o",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Huang’s downfall is a nightmare scenario for a tech industry that has become increasingly fearful of security threats, and a glimpse into what intelligence experts say is a constant theater of corporate espionage secretly playing out every ",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 80,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.4,
+        "rawScore": 48.4,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "32b37ac6f0f1162d352a": {
+      "storyId": "32b37ac6f0f1162d352a",
+      "url": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
+      "title": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
+      "source": "The Guardian AI",
+      "published": "2026-11-15T08:56:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "75b3b8b9d4965746c7fa0a94",
+      "bodyFingerprint": "8de75a312ac514bb12bac888",
+      "bodyCharacterCount": 3456,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-15T10:59:34.801Z",
+      "assessment": {
+        "centralEvent": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "High school students leaving after last year’s national college entrance exam – a high-pressure event for which many will have spent much of their lives preparing.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Fears for national college entrance exam next week as test taker admits sending photos of questions to AI tool The marks attained by the top scorer ⁠on South Korea’s national exam for aspiring tax accountants this year seemed too good to be",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.48,
+        "rawScore": 25.48,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.135,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bbb025c77e6c6d7a5f19": {
+      "storyId": "bbb025c77e6c6d7a5f19",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230456.htm",
+      "title": "AI discovers a hidden heart signal that could predict sudden death",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-15T01:05:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2721cc9813872c04a312b8eb",
+      "bodyFingerprint": "a9083e23336e8824291746ad",
+      "bodyCharacterCount": 14698,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-15T10:59:35.029Z",
+      "assessment": {
+        "centralEvent": "AI discovers a hidden heart signal that could predict sudden death",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Scientists have uncovered a hidden warning sign in routine heart scans that could predict sudden cardiac death before it strikes.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "At the same time, thousands of people who are not recognized as being at risk die unexpectedly each year. \"In some fraction of those people, we could have prevented those deaths if we had just known it in time,\" Obermeyer said. \"There are a",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Another major advantage is that the AI system works with ordinary EKG images, which are already routinely collected in hospitals and medical centers around the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "title",
+            "excerpt": "AI discovers a hidden heart signal that could predict sudden death",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A heart attack happens when blood flow to part of the heart becomes blocked or severely restricted.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Obermeyer, assembling the datasets took approximately 10 years and involved contributions from two organizations he helped establish, Dandelion Health and Nightingale Open Science.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 87,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.98,
+        "rawScore": 30.98,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.635,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2eebac51b78e0574add2": {
+      "storyId": "2eebac51b78e0574add2",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230504.htm",
+      "title": "Euclid discovers ancient cosmic beacons from the dawn of time, shining like a trillion suns",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-15T01:52:47.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "78e96aeb2d72bd078f0f5f5d",
+      "bodyFingerprint": "f8b1b9e566c0172179299939",
+      "bodyCharacterCount": 11753,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-15T10:59:35.037Z",
+      "assessment": {
+        "centralEvent": "Euclid discovers ancient cosmic beacons from the dawn of time, shining like a trillion suns",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com A Simple Pill Could Cure a Common Cause of High Blood Pressure A 6-Million-Year-Old Whale Had a Face So Strange Scientists Thought It Was Crushed Stonehenge’s Mysterious Six-Ton Stone Has Scientists Searching Ac",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Credit: ESA The European Space Agency's Euclid space telescope has discovered 31 exceptionally ancient quasars, including two that have set new records as the earliest ever observed.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 71,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.65,
+        "rawScore": 25.65,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ba1698e740a19b823231": {
+      "storyId": "ba1698e740a19b823231",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261112230500.htm",
+      "title": "Physicists use laser light to unlock a crystal's hidden electrical powers",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-15T02:18:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a870891ec57a2f0acdc9fe0c",
+      "bodyFingerprint": "44a11cda20d9f4d33212503e",
+      "bodyCharacterCount": 9760,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-15T10:59:35.042Z",
+      "assessment": {
+        "centralEvent": "Physicists use laser light to unlock a crystal's hidden electrical powers",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com A Simple Pill Could Cure a Common Cause of High Blood Pressure A 6-Million-Year-Old Whale Had a Face So Strange Scientists Thought It Was Crushed Stonehenge’s Mysterious Six-Ton Stone Has Scientists Searching Ac",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers also demonstrated that short laser pulses could temporarily align the electrical islands, even at higher temperatures when the regions would ordinarily remain disorganized.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Scientists at Japan's National Institute of Advanced Industrial Science and Technology produced the crystals used in the study.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 63,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.14,
+        "rawScore": 27.14,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-15T02:42:59.491Z"
+  "updatedAt": "2026-11-15T10:59:35.042Z"
 }
