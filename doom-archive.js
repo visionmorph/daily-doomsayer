@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-16T11:00:00.000Z",
+  "generatedAt": "2026-11-16T22:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-16",
@@ -17,12 +17,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-16T11:00:00.000Z",
+          "lastObservedAt": "2026-11-16T22:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "6a404d2b3018ac0bab0a",
+          "title": "The secret to building Moon bases may be hiding in emergency blankets",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261115085549.htm",
+          "source": "ScienceDaily Technology",
+          "image": "",
+          "peak": 50.27,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-16",
+          "firstObservedAt": "2026-11-16T22:00:00.000Z",
+          "lastObservedAt": "2026-11-16T22:00:00.000Z",
+          "average": 50.27
         },
         {
           "storyId": "13482003797f2776b71c",
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6af75c7bac6958eb8481a5e6/master/pass/Security_MicrosoftBackOnline_v1.jpg",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-16T11:00:00.000Z",
+          "lastObservedAt": "2026-11-16T22:00:00.000Z",
           "average": 49.83
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6af209f8ab17b1a731ed42b4/master/pass/ai_aviation.gif",
           "peak": 49.61,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-16T11:00:00.000Z",
+          "lastObservedAt": "2026-11-16T22:00:00.000Z",
           "average": 49.61
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-16T11:00:00.000Z",
+          "lastObservedAt": "2026-11-16T22:00:00.000Z",
           "average": 49.01
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-16T11:00:00.000Z",
+          "lastObservedAt": "2026-11-16T22:00:00.000Z",
           "average": 49.01
         },
         {
@@ -135,20 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
           "lastObservedAt": "2026-11-16T11:00:00.000Z",
           "average": 48.73
-        },
-        {
-          "storyId": "adf65f70bcfc77d468e6",
-          "title": "Reports of AI-related child sexual abuse material rise 8,400% in two years, data shows",
-          "url": "https://www.theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/290c54f9326fd6704518afe33633827e4920b4e8/255_0_1269_1015/master/1269.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 48.48,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-16",
-          "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-16T11:00:00.000Z",
-          "average": 48.48
         }
       ]
     },
@@ -11474,12 +11474,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-16T11:00:00.000Z",
+          "lastObservedAt": "2026-11-16T22:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "6a404d2b3018ac0bab0a",
+          "title": "The secret to building Moon bases may be hiding in emergency blankets",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261115085549.htm",
+          "source": "ScienceDaily Technology",
+          "image": "",
+          "peak": 50.27,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-16",
+          "firstObservedAt": "2026-11-16T22:00:00.000Z",
+          "lastObservedAt": "2026-11-16T22:00:00.000Z",
+          "average": 50.27
         },
         {
           "storyId": "13482003797f2776b71c",
@@ -11516,11 +11530,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6af75c7bac6958eb8481a5e6/master/pass/Security_MicrosoftBackOnline_v1.jpg",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-16T11:00:00.000Z",
+          "lastObservedAt": "2026-11-16T22:00:00.000Z",
           "average": 49.83
         },
         {
@@ -11530,11 +11544,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6af209f8ab17b1a731ed42b4/master/pass/ai_aviation.gif",
           "peak": 49.61,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-16T11:00:00.000Z",
+          "lastObservedAt": "2026-11-16T22:00:00.000Z",
           "average": 49.61
         },
         {
@@ -11558,11 +11572,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-16T11:00:00.000Z",
+          "lastObservedAt": "2026-11-16T22:00:00.000Z",
           "average": 49.01
         },
         {
@@ -11572,11 +11586,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-16T11:00:00.000Z",
+          "lastObservedAt": "2026-11-16T22:00:00.000Z",
           "average": 49.01
         },
         {
@@ -11592,20 +11606,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
           "lastObservedAt": "2026-11-16T11:00:00.000Z",
           "average": 48.73
-        },
-        {
-          "storyId": "adf65f70bcfc77d468e6",
-          "title": "Reports of AI-related child sexual abuse material rise 8,400% in two years, data shows",
-          "url": "https://www.theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/290c54f9326fd6704518afe33633827e4920b4e8/255_0_1269_1015/master/1269.jpg?width=800&dpr=2&s=none&crop=none",
-          "peak": 48.48,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-16",
-          "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-16T11:00:00.000Z",
-          "average": 48.48
         }
       ]
     },
@@ -13389,11 +13389,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01-1200x628.jpg",
           "peak": 51.23,
-          "observations": 56,
+          "observations": 57,
           "daysTracked": 16,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-16T11:00:00.000Z",
+          "lastObservedAt": "2026-11-16T22:00:00.000Z",
           "average": 51.23
         },
         {
