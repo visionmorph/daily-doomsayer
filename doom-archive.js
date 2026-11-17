@@ -5,8 +5,153 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-17T04:00:00.000Z",
+  "generatedAt": "2026-11-17T14:00:00.000Z",
   "daily": [
+    {
+      "period": "2026-11-17",
+      "stories": [
+        {
+          "storyId": "150a4c2c4547ed1e5729",
+          "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+          "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
+          "peak": 70.33,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "average": 70.33
+        },
+        {
+          "storyId": "7f59634912f807d87840",
+          "title": "US moves to cut China’s remote access to AI chips",
+          "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
+          "peak": 70.16,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "average": 70.16
+        },
+        {
+          "storyId": "3bf44cdfb8f59b7f06d5",
+          "title": "Kaiser Permanente nurses say technology is making their jobs — and patient care — worse",
+          "url": "https://themarkup.org/artificial-intelligence/2026/07/09/kaiser-permanente-nurses-say-technology-is-making-their-jobs-and-patient-care-worse",
+          "source": "The Markup AI",
+          "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
+          "peak": 51.23,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "average": 51.23
+        },
+        {
+          "storyId": "616d362bf0f56a202faa",
+          "title": "US data centers now burn more electricity than a midsized country",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+          "source": "The Verge AI",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "peak": 50.66,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "average": 50.66
+        },
+        {
+          "storyId": "6a404d2b3018ac0bab0a",
+          "title": "The secret to building Moon bases may be hiding in emergency blankets",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261115085549.htm",
+          "source": "ScienceDaily Technology",
+          "image": "",
+          "peak": 50.27,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "average": 50.27
+        },
+        {
+          "storyId": "4888df4a109a32c89d5e",
+          "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+          "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6af75c7bac6958eb8481a5e6/master/pass/Security_MicrosoftBackOnline_v1.jpg",
+          "peak": 49.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "average": 49.83
+        },
+        {
+          "storyId": "75102a44dc7a210b1ce4",
+          "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+          "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6af209f8ab17b1a731ed42b4/master/pass/ai_aviation.gif",
+          "peak": 49.61,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "average": 49.61
+        },
+        {
+          "storyId": "5c8b564162bfa0a4a224",
+          "title": "Independent Digital Media Is Not a Privilege Governments Can Revoke: The Fight to Save Egypt’s Mada Masr",
+          "url": "https://www.eff.org/deeplinks/2026/11/independent-digital-media-not-privilege-governments-can-revoke-fight-save-egypts",
+          "source": "EFF AI",
+          "image": "https://www.eff.org/files/banner_library/offline-general.png",
+          "peak": 49.01,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "average": 49.01
+        },
+        {
+          "storyId": "71c4631f575b0ad325b2",
+          "title": "The Confessions of an AI Fraud Kingpin",
+          "url": "https://www.404media.co/the-confessions-of-an-ai-fraud-kingpin-onlyfake-owner-nazarenko/",
+          "source": "404 Media AI",
+          "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
+          "peak": 49.01,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "average": 49.01
+        },
+        {
+          "storyId": "b5b8d2f9cb551dda74e9",
+          "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+          "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 48.23,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "average": 48.23
+        }
+      ]
+    },
     {
       "period": "2026-11-16",
       "stories": [
@@ -11468,17 +11613,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
       "period": "2026-W47",
       "stories": [
         {
+          "storyId": "150a4c2c4547ed1e5729",
+          "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+          "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
+          "peak": 70.33,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "average": 70.33
+        },
+        {
           "storyId": "7f59634912f807d87840",
           "title": "US moves to cut China’s remote access to AI chips",
           "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
           "peak": 70.16,
-          "observations": 1,
-          "daysTracked": 1,
+          "observations": 2,
+          "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-17T04:00:00.000Z",
-          "lastObservedAt": "2026-11-17T04:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
           "average": 70.16
         },
         {
@@ -11488,11 +11647,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 3,
-          "daysTracked": 1,
+          "observations": 4,
+          "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-17T04:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
           "average": 51.23
         },
         {
@@ -11502,11 +11661,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_B.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.66,
-          "observations": 1,
-          "daysTracked": 1,
+          "observations": 2,
+          "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-17T04:00:00.000Z",
-          "lastObservedAt": "2026-11-17T04:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
           "average": 50.66
         },
         {
@@ -11516,11 +11675,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 50.27,
-          "observations": 2,
-          "daysTracked": 1,
+          "observations": 3,
+          "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T22:00:00.000Z",
-          "lastObservedAt": "2026-11-17T04:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
           "average": 50.27
         },
         {
@@ -11558,11 +11717,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6af75c7bac6958eb8481a5e6/master/pass/Security_MicrosoftBackOnline_v1.jpg",
           "peak": 49.83,
-          "observations": 3,
-          "daysTracked": 1,
+          "observations": 4,
+          "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-17T04:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
           "average": 49.83
         },
         {
@@ -11572,11 +11731,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6af209f8ab17b1a731ed42b4/master/pass/ai_aviation.gif",
           "peak": 49.61,
-          "observations": 3,
-          "daysTracked": 1,
+          "observations": 4,
+          "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-17T04:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
           "average": 49.61
         },
         {
@@ -11592,20 +11751,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-17T04:00:00.000Z",
           "lastObservedAt": "2026-11-17T04:00:00.000Z",
           "average": 49.17
-        },
-        {
-          "storyId": "a3cef106d94780825271",
-          "title": "Jensen Huang Is Out. Will Nvidia’s Rivals Cash In?",
-          "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huang-is-out-will-nvidias-rivals-cash-in/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6af5ee2157e0a3ee177875cd/master/pass/Uncanny-Valley-Jensen-Emergency-Pod.jpg",
-          "peak": 49.06,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-16",
-          "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-16T11:00:00.000Z",
-          "average": 49.06
         }
       ]
     },
@@ -13369,17 +13514,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 70.82
         },
         {
+          "storyId": "150a4c2c4547ed1e5729",
+          "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+          "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
+          "peak": 70.33,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "average": 70.33
+        },
+        {
           "storyId": "7f59634912f807d87840",
           "title": "US moves to cut China’s remote access to AI chips",
           "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
           "peak": 70.16,
-          "observations": 1,
-          "daysTracked": 1,
+          "observations": 2,
+          "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-17T04:00:00.000Z",
-          "lastObservedAt": "2026-11-17T04:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
           "average": 70.16
         },
         {
@@ -13403,11 +13562,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 58,
-          "daysTracked": 16,
+          "observations": 59,
+          "daysTracked": 17,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-17T04:00:00.000Z",
+          "lastObservedAt": "2026-11-17T14:00:00.000Z",
           "average": 51.23
         },
         {
@@ -13478,20 +13637,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-11-07",
           "firstObservedAt": "2026-11-07T20:00:00.000Z",
           "lastObservedAt": "2026-11-09T17:00:00.000Z",
-          "average": 50.66
-        },
-        {
-          "storyId": "616d362bf0f56a202faa",
-          "title": "US data centers now burn more electricity than a midsized country",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 50.66,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-16",
-          "firstObservedAt": "2026-11-17T04:00:00.000Z",
-          "lastObservedAt": "2026-11-17T04:00:00.000Z",
           "average": 50.66
         }
       ]
