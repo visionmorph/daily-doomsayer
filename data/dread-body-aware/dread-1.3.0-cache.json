@@ -370882,8 +370882,2004 @@
           "vulnerability": 0
         }
       }
+    },
+    "fc38b51a6db9bccf157a": {
+      "storyId": "fc38b51a6db9bccf157a",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo",
+      "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T22:42:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0907cada1212a8888916dc83",
+      "bodyFingerprint": "8a490941ca7aefe242aeebbc",
+      "bodyCharacterCount": 3507,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:14.778Z",
+      "assessment": {
+        "centralEvent": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Jones told listeners that Huang’s return was not something that company leadership was considering.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dc52e334dcb4a8525419": {
+      "storyId": "dc52e334dcb4a8525419",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T22:29:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "71a51dd845768ed7edd355ca",
+      "bodyFingerprint": "952d88bf7cc6b84ba4477b8d",
+      "bodyCharacterCount": 3125,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:14.784Z",
+      "assessment": {
+        "centralEvent": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "When Amazon invested billions in Anthropic in 2023 and 2024 (long before Claude Code took the enterprise world by storm, back in the day when Anthropic looked like it would forever be a speck in OpenAI’s shadow), the cloud giant obtained pr",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "04c4dac80f3d2432755a": {
+      "storyId": "04c4dac80f3d2432755a",
+      "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit",
+      "title": "SEC reportedly investigating Nvidia amid Huang exit",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T21:48:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aa1ba28b9dd2e62cb0aa6017",
+      "bodyFingerprint": "9d80e59604f0884f8cf11604",
+      "bodyCharacterCount": 2412,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:14.815Z",
+      "assessment": {
+        "centralEvent": "SEC reportedly investigating Nvidia amid Huang exit",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news Related AI Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO Russell Brandom 6 hours ago AI Trump says ex-Nvi",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 10,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bb59199150f2453b2fe4": {
+      "storyId": "bb59199150f2453b2fe4",
+      "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
+      "title": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
+      "source": "The Guardian AI",
+      "published": "2026-11-17T22:27:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2097009a083ee21c514bdfaa",
+      "bodyFingerprint": "84961135ef945366b4e8195a",
+      "bodyCharacterCount": 4360,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:14.890Z",
+      "assessment": {
+        "centralEvent": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "The company reported doubling revenue in its first earnings report after the ouster of CEO over allegations of affair with suspected Chinese spy Nvidia “does not intend to reinstate Jensen as CEO”, the chairman of the company’s board said T",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d1906bdd50b78f194df9": {
+      "storyId": "d1906bdd50b78f194df9",
+      "url": "https://www.inc.com/chloe-aiello/microsoft-and-the-faa-both-suffered-massive-failures-the-causes-have-1-simple-thing-in-common/91438482",
+      "title": "Microsoft and the FAA Both Suffered Massive Failures. The Causes Have 1 Simple Thing in Common",
+      "source": "Inc. AI",
+      "published": "2026-11-17T22:05:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ef65a4933b3a2669e99a8cba",
+      "bodyFingerprint": "8f9c8fb4f9a1e4dd753dc532",
+      "bodyCharacterCount": 102,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-17T22:55:14.897Z",
+      "assessment": {
+        "centralEvent": "Microsoft and the FAA Both Suffered Massive Failures. The Causes Have 1 Simple Thing in Common",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8747618ef36a2661dd4f": {
+      "storyId": "8747618ef36a2661dd4f",
+      "url": "https://mashable.com/tech/instagram-content-protection-ai-stolen-jokes",
+      "title": "Instagram takes on AI copycat videos once and for all",
+      "source": "Mashable AI",
+      "published": "2026-11-17T21:43:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "60429add8ace0c4daf12f827",
+      "bodyFingerprint": "da059121a397e63b64cc094d",
+      "bodyCharacterCount": 4331,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:14.904Z",
+      "assessment": {
+        "centralEvent": "Instagram takes on AI copycat videos once and for all",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The distinction matters for creators whose work has been repackaged this way, especially comedians like Sarah Purdum , who told Mashable in October that her material had been used by an AI account. \"It seems to be that female comedians work",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "afd67ab8557789c682ac": {
+      "storyId": "afd67ab8557789c682ac",
+      "url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang",
+      "title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
+      "source": "WIRED AI",
+      "published": "2026-11-17T22:19:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "aa287b74bd5abcee8d562d5f",
+      "bodyFingerprint": "32cca09da0b0f9863d38ef69",
+      "bodyCharacterCount": 1987,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:14.929Z",
+      "assessment": {
+        "centralEvent": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Despite pressure from President Trump, Elon Musk, and Silicon Valley executives, Nvidia’s board says it “does not intend” to reinstate the company’s ousted CEO.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Save this story Save this story As Nvidia reported its third-quarter earnings on Tuesday, the company’s financial performance was overshadowed by the drama surrounding its former CEO .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 16,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "10493fa85ddbf2d5567c": {
+      "storyId": "10493fa85ddbf2d5567c",
+      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one",
+      "title": "Google joins the tech outage trend by announcing it’s not having one",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T21:34:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "979cfbcdb220880bc13d4a56",
+      "bodyFingerprint": "6753446797bd0bfed45b29fd",
+      "bodyCharacterCount": 3697,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:14.944Z",
+      "assessment": {
+        "centralEvent": "Google joins the tech outage trend by announcing it’s not having one",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "As it turns out, the company was trying to head off reports of a Gmail outage that began circulating on X on Tuesday around the same time that Apple was seeing a number of verified outages of its own .",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "89ca5c5934ce4af9eee6": {
+      "storyId": "89ca5c5934ce4af9eee6",
+      "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
+      "title": "Putting a spotlight on AI, society, and humanity",
+      "source": "MIT News AI",
+      "published": "2026-11-17T20:40:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e2792b396cb116c8d2f46dc1",
+      "bodyFingerprint": "2583834616af0d56d04db4df",
+      "bodyCharacterCount": 12034,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.023Z",
+      "assessment": {
+        "centralEvent": "Putting a spotlight on AI, society, and humanity",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The ongoing project, which has demonstrated how voters in Alaska’s midterms who conducted their pre-election research using Anthropic’s AI model, Claude, may have received incomplete information about candidates and their views, was recentl",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "be466738ec1cd018ad1e": {
+      "storyId": "be466738ec1cd018ad1e",
+      "url": "https://www.404media.co/a-man-and-his-muse-ai-agent-sue-meta",
+      "title": "A Man and His Muse AI Agent Sue Meta",
+      "source": "404 Media AI",
+      "published": "2026-11-17T19:41:33.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cd0a27729816e176885f42c0",
+      "bodyFingerprint": "a89e6a636d8e195e3a4f6061",
+      "bodyCharacterCount": 10360,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.052Z",
+      "assessment": {
+        "centralEvent": "A Man and His Muse AI Agent Sue Meta",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The lawsuit was filed in Oconee County Court in South Carolina on Monday, according to a copy of the lawsuit I obtained from the court.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 70,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9fdb7eafd9b743622657": {
+      "storyId": "9fdb7eafd9b743622657",
+      "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+      "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+      "source": "The Verge AI",
+      "published": "2026-11-17T21:40:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "72c1f89eb5604a85f6639fec",
+      "bodyFingerprint": "f9b5cc82a716ab3639a737e6",
+      "bodyCharacterCount": 4575,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.068Z",
+      "assessment": {
+        "centralEvent": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Jay Peters AI Business News Nvidia Tech More In Fall 2026 earnings watch See all Read everything that Nvidia’s board chair had to say about Jensen Huang Stevie Bonifield 18 minutes ago Nvidia says it does not intend to reinstate Jensen Huan",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "782245fbd80625eb45b0": {
+      "storyId": "782245fbd80625eb45b0",
+      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "source": "The Verge AI",
+      "published": "2026-11-17T21:00:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4a30e3d0c7ee2ecdb82d2618",
+      "bodyFingerprint": "10fdcdc8e26c3dfcb1cb5d95",
+      "bodyCharacterCount": 4955,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.076Z",
+      "assessment": {
+        "centralEvent": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Mia Sato AI Meta News OpenAI Tech Most Popular Most Popular Tech leaders are convinced that Jensen Huang’s exit was a plot against him The Verge Best of 2026 Sam Altman says he wants everyone ‘to have a lot of RAM’ America’s air traffic con",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2fb55c3571a040c5ae0c": {
+      "storyId": "2fb55c3571a040c5ae0c",
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T19:32:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8bef8c1546e4833547fff2e4",
+      "bodyFingerprint": "0caba58ebe0116154cbc18fa",
+      "bodyCharacterCount": 2589,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.080Z",
+      "assessment": {
+        "centralEvent": "Model ML raises $250M to automate investment banking grunt work",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news Related Apps Spotify’s new tool aims to stop deepfakes from being attributed to real artists Aisha Malik 9 hours ago AI Sam Altman on ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "20774146b79ca781277a": {
+      "storyId": "20774146b79ca781277a",
+      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+      "source": "The Verge AI",
+      "published": "2026-11-17T18:58:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7a5b992e524435826132ec47",
+      "bodyFingerprint": "c4ba784795fc7776f26cab6f",
+      "bodyCharacterCount": 3943,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.104Z",
+      "assessment": {
+        "centralEvent": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth AI Google News Tech Most Popular Most Popular Tech leaders are convinced that Jensen Huang’s exit was a plot against him The Verge Best of 2026 Sam Altman says he wants everyone ‘to have a lot of RAM’ America’s air traffic control",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "92ead912d06bbf7e268a": {
+      "storyId": "92ead912d06bbf7e268a",
+      "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
+      "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T18:48:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fd64c69c7cdf71673cc1684a",
+      "bodyFingerprint": "2c5aa894b5e39118223421de",
+      "bodyCharacterCount": 3077,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.108Z",
+      "assessment": {
+        "centralEvent": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "af36944b8f532014f977": {
+      "storyId": "af36944b8f532014f977",
+      "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+      "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T19:02:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "95f77126399d6041ea7d64a0",
+      "bodyFingerprint": "6cb6ef7a799d4ed36100f478",
+      "bodyCharacterCount": 2492,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.111Z",
+      "assessment": {
+        "centralEvent": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news Related Security Google joins the tech outage trend by announcing it’s not having one Sarah Perez 1 hour ago AI Google to keep Gemini ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 15,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6420ccdcb0b076c31c03": {
+      "storyId": "6420ccdcb0b076c31c03",
+      "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier",
+      "title": "As decision model use skyrockets, is customization the next frontier?",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T18:10:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "38e5f79b77968fff7de18112",
+      "bodyFingerprint": "fe5849570dc798342417c6f2",
+      "bodyCharacterCount": 5540,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.128Z",
+      "assessment": {
+        "centralEvent": "As decision model use skyrockets, is customization the next frontier?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Data appears to be the key to a successful model in this category — TypeSafe CEO Diogo Almeida told TechCrunch that the hardest part of building Jev was finely calibrating its judgement using statistically-adjusted synthetic data.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5a600a844d9b7ef8d45f": {
+      "storyId": "5a600a844d9b7ef8d45f",
+      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain",
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T18:04:16.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5509e521fa8030030dc9c836",
+      "bodyFingerprint": "984a03803aed2cc06f5989a0",
+      "bodyCharacterCount": 3835,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.139Z",
+      "assessment": {
+        "centralEvent": "Pedestal AI raises $4.7 million to agentify the supply chain",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b4fc97228580f320e548": {
+      "storyId": "b4fc97228580f320e548",
+      "url": "https://www.theguardian.com/technology/2026/nov/17/jensen-huang-testify-congress-nvidia-affair-spy",
+      "title": "Jensen Huang to testify before Congress on ‘potential breach of national security’",
+      "source": "The Guardian AI",
+      "published": "2026-11-17T17:58:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ee712c3e1f40d12e13ae15b1",
+      "bodyFingerprint": "d52d481e0e3a8cb6b79e6d81",
+      "bodyCharacterCount": 3217,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.159Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang to testify before Congress on ‘potential breach of national security’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The justice department, led by the attorney general, Todd Blanche, took over in 2025.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "High-stakes hearing comes in wake of resignation from Nvidia after alleged affair with suspected Chinese spy Nvidia’s former CEO Jensen Huang will testify before several congressional committees on 1 December, setting the stage for a high-s",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Alice Huang, also known as Huang Le, had been Megaspeed International’s executive director.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "85bd515d71fb7a7aa42c": {
+      "storyId": "85bd515d71fb7a7aa42c",
+      "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia",
+      "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+      "source": "Ars Technica AI",
+      "published": "2026-11-17T20:32:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "56ff53d5496bd3a780e49aa8",
+      "bodyFingerprint": "b309a95ebcbfccbe9ff2f093",
+      "bodyCharacterCount": 13090,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.188Z",
+      "assessment": {
+        "centralEvent": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Trump may have learned as early as this spring that Huang was potentially the target of Chinese espionage, but the president claimed recently that he didn’t know Huang was potentially exposed to a Chinese spy as he was becoming a prominent ",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Probes may delay Huang’s return Haworth said the next 48 hours will be critical in determining whether Huang succeeds in returning to Nvidia.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“In his role as Secretary, Lutnick is responsible for policing exports of sensitive technology to adversaries and global rivals, like China,” TOP reported.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Citing Sacks’ alignment with Huang, TOP reported that after just one meeting with the two men, Trump decided to allow Nvidia to sell AI chips to China that the Biden administration had previously blocked.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 78,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.67,
+        "rawScore": 48.67,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3818d6ccd2a7f7a119bf": {
+      "storyId": "3818d6ccd2a7f7a119bf",
+      "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop",
+      "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T17:32:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "859624ee95398447172f752f",
+      "bodyFingerprint": "9385d8429d575195c3d2b5e1",
+      "bodyCharacterCount": 4586,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.195Z",
+      "assessment": {
+        "centralEvent": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Already, the major model makers, including OpenAI, Anthropic, Meta, and others, offer desktop tools for working with their AI technologies, but doing so invites increased risk to users’ personal data .",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Connie Loizos Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang Anthony Ha Microsoft’s latest email outage turned into a full-blown global cloud crisis Zack Whittaker Jensen Huang didn’t show confidence i",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Proton says that users can decide for each connector which actions Lumo can perform automatically, which require approval, and which are blocked entirely.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.48,
+        "rawScore": 26.48,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.225,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e588dfc2c0337535c9da": {
+      "storyId": "e588dfc2c0337535c9da",
+      "url": "https://www.inc.com/temilola-agbede/google-ai-ads-cannibalization-reddit-reviews/91437668",
+      "title": "Google Admits Its AI Feature Is Eating Its Own Ads. Why Reddit’s New Move Changes Everything for Brands",
+      "source": "Inc. AI",
+      "published": "2026-11-17T17:11:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "daf2d5ed81d7698030c3da00",
+      "bodyFingerprint": "2dd7cdb0dc343be54a7026fa",
+      "bodyCharacterCount": 159,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-17T22:55:15.198Z",
+      "assessment": {
+        "centralEvent": "Google Admits Its AI Feature Is Eating Its Own Ads. Why Reddit’s New Move Changes Everything for Brands",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a432600bf1732f69ab96": {
+      "storyId": "a432600bf1732f69ab96",
+      "url": "https://www.inc.com/ash-kumra/investors-are-tired-of-hearing-ai-powered-heres-what-they-want-instead/91437105",
+      "title": "Investors Are Tired of Hearing ‘AI-Powered.’ Here’s What They Want Instead",
+      "source": "Inc. AI",
+      "published": "2026-11-17T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "998254bf7c1d8cc1a71974fb",
+      "bodyFingerprint": "c0ef8e3bd60330dae005032a",
+      "bodyCharacterCount": 57,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-17T22:55:15.217Z",
+      "assessment": {
+        "centralEvent": "Investors Are Tired of Hearing ‘AI-Powered.’ Here’s What They Want Instead",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0f23f3a02ee9e0a1484e": {
+      "storyId": "0f23f3a02ee9e0a1484e",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history",
+      "title": "Google makes it easier to use Gemini without training AI on your data",
+      "source": "Ars Technica AI",
+      "published": "2026-11-17T16:50:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4895afec803c776b7d5de2e2",
+      "bodyFingerprint": "2ad8239dee147f93824f118a",
+      "bodyCharacterCount": 4335,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.229Z",
+      "assessment": {
+        "centralEvent": "Google makes it easier to use Gemini without training AI on your data",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Currently, if you disable history, Google still retains that data for 72 hours (and 24 hours for the user).",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "825618225fbb1ec86e2f": {
+      "storyId": "825618225fbb1ec86e2f",
+      "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+      "title": "The DOJ says it’s investigating Megaspeed",
+      "source": "The Verge AI",
+      "published": "2026-11-17T16:19:03.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a7e6b8ccb6e692132708c0af",
+      "bodyFingerprint": "2233af2dc20b06e3ca3c4729",
+      "bodyCharacterCount": 5473,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.248Z",
+      "assessment": {
+        "centralEvent": "The DOJ says it’s investigating Megaspeed",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emma Roth An hour ago Most Popular Most Popular Tech leaders are convinced that Jensen Huang’s exit was a plot against him The Verge Best of 2026 Sam Altman says he wants everyone ‘to have a lot of RAM’ America’s air traffic control system ",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth An hour ago Most Popular Most Popular Tech leaders are convinced that Jensen Huang’s exit was a plot against him The Verge Best of 2026 Sam Altman says he wants everyone ‘to have a lot of RAM’ America’s air traffic control system ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The scandal has raised questions about national security , and sparked scrutiny of Nvidia’s handling of exports of its chips to China and Megaspeed’s possible role in moving along Nvidia’s chips.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emma Roth An hour ago Most Popular Most Popular Tech leaders are convinced that Jensen Huang’s exit was a plot against him The Verge Best of 2026 Sam Altman says he wants everyone ‘to have a lot of RAM’ America’s air traffic control system ",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.34,
+        "rawScore": 48.34,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.395,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "327034ed1b49f420bffe": {
+      "storyId": "327034ed1b49f420bffe",
+      "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+      "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
+      "source": "The Verge AI",
+      "published": "2026-11-17T16:09:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2472f82aa4dcc7869d8182d4",
+      "bodyFingerprint": "e0a7568179f7f4d243e460a9",
+      "bodyCharacterCount": 6035,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.259Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang says he’s willing to return as Nvidia CEO",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth 58 minutes ago Most Popular Most Popular Tech leaders are convinced that Jensen Huang’s exit was a plot against him The Verge Best of 2026 Sam Altman says he wants everyone ‘to have a lot of RAM’ America’s air traffic control syst",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a8d6cfaec298d66393e8": {
+      "storyId": "a8d6cfaec298d66393e8",
+      "url": "https://www.404media.co/the-department-of-justice-is-using-ai-detector-pangram-against-defense-attorneys",
+      "title": "The Department of Justice Is Using AI Detector Pangram Against Defense Attorneys",
+      "source": "404 Media AI",
+      "published": "2026-11-17T15:14:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "58c54f40aeb9ae39abf4f91b",
+      "bodyFingerprint": "9f4275d68e2f13a3a0787972",
+      "bodyCharacterCount": 8425,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.263Z",
+      "assessment": {
+        "centralEvent": "The Department of Justice Is Using AI Detector Pangram Against Defense Attorneys",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“This case has turned into defense by ChatGPT,” government attorneys wrote in the case , which centers around a high-profile voter fraud case .",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Over the last few years, we have documented many attorneys getting caught by judges using AI after citing hallucinated cases that do not exist.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "‘Defense by ChatGPT’ is a label the government placed in a court filing regarding the defense of a 70-year-old permanent resident facing prison and deportation.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The judge in the case , Mark Pittman, chastised the defense attorneys for their use of AI, and wrote, “This Court is disturbed by counsel’s repeated filings which subtly bend the law by proffering superficially persuasive but fundamentally ",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.29,
+        "rawScore": 48.29,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.39,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "844cc2bc7cc5cf8af281": {
+      "storyId": "844cc2bc7cc5cf8af281",
+      "url": "https://www.theguardian.com/global/2026/nov/16/jensen-huang-nvidia-ceo-china",
+      "title": "Jensen Huang’s departure as Nvidia CEO becomes a political proxy war",
+      "source": "The Guardian AI",
+      "published": "2026-11-17T14:50:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "16ac895e30fb5a44bbbb49f4",
+      "bodyFingerprint": "d6f68d210d9e6528254fe211",
+      "bodyCharacterCount": 10499,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.293Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang’s departure as Nvidia CEO becomes a political proxy war",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "They don’t want to start a worldwide panic.” The wider TechScape California sues OpenAI over safety concerns after rogue agent hacking Ministers to end Palantir’s contract with NHS in England in 2029 Revealed: Israel uploaded millions of ph",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The Financial Times reported on Sunday that Huang had discussed a return to Nvidia with allies, à la Sam Altman’s firing and rehiring at OpenAI.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Its wares are considered the cream of the crop, so incomparable that they are the target of international espionage operations and so valuable that the company forecast $100bn in quarterly revenue . skip past newsletter promotion after news",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Microsoft said it had resolved the issue and restored service by Saturday.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 85,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.49,
+        "rawScore": 47.49,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.3175,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "718faf12489b51566a1c": {
+      "storyId": "718faf12489b51566a1c",
+      "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement",
+      "title": "Jensen Huang says he would be ‘honored’ to return to Nvidia as CEO",
+      "source": "The Guardian AI",
+      "published": "2026-11-17T17:35:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a3f5f9c4a4c5076f5888c4f3",
+      "bodyFingerprint": "405166f3790878be0469110b",
+      "bodyCharacterCount": 4011,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.320Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang says he would be ‘honored’ to return to Nvidia as CEO",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The US government confirmed on Tuesday morning that the commerce and justice departments had been investigating Megaspeed since 2024.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 42,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3fa84863303fa17ae7dd": {
+      "storyId": "3fa84863303fa17ae7dd",
+      "url": "https://www.lawfaremedia.org/article/access-to-generative-ai--privilege-or-right",
+      "title": "Access to Generative AI: Privilege or Right?",
+      "source": "Lawfare AI",
+      "published": "2026-11-17T18:00:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3b49c8ed6144fb31395227aa",
+      "bodyFingerprint": "46ae91595a8fceac47b09a41",
+      "bodyCharacterCount": 18022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.837Z",
+      "assessment": {
+        "centralEvent": "Access to Generative AI: Privilege or Right?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "To protect the public interest and prevent monopolistic abuse, Washington moved to actively legislate on this issue, formally making the slogan of “universal service” a legislative requirement.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "By October 2026, OpenAI alone reported more than 1.2 billion monthly ChatGPT users.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In the decades since, electricity access has become a global priority.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Should this trend continue, generative AI may gain a permanent foothold in our economies and societies.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In the U.S., utility companies can shut down power to a home after repeated nonpayment, though many states have exemptions , which further substantiates conceiving of electricity as a right.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In the U.S., utility companies can shut down power to a home after repeated nonpayment, though many states have exemptions , which further substantiates conceiving of electricity as a right.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 120,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 50.22,
+        "rawScore": 50.22,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.565,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d980fd85bdf5ef97a835": {
+      "storyId": "d980fd85bdf5ef97a835",
+      "url": "https://www.lawfaremedia.org/article/live-from-georgetown-university--ai-policy-in-2027-with-alexandra-reeve-givens",
+      "title": "Live from Georgetown University: AI Policy in 2027 with Alexandra Reeve Givens",
+      "source": "Lawfare AI",
+      "published": "2026-11-17T15:00:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0368de9a9617d645808f81c4",
+      "bodyFingerprint": "3155ad305e07c85695d3ea43",
+      "bodyCharacterCount": 2549,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T22:55:15.864Z",
+      "assessment": {
+        "centralEvent": "Live from Georgetown University: AI Policy in 2027 with Alexandra Reeve Givens",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Alexandra Reeve Givens, CEO of the Center for Democracy & Technology, joins Kevin Frazier, Director of the AI Innovation and Law Program and a Senior Editor at Lawfare, and Alex Bores, New York Assemblymember and Co-founder of Who Decides, ",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-17T14:29:18.806Z"
+  "updatedAt": "2026-11-17T22:55:15.864Z"
 }
