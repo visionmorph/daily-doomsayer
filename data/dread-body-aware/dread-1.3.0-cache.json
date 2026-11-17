@@ -368045,8 +368045,686 @@
           "vulnerability": 0
         }
       }
+    },
+    "01ddc470569b6c529670": {
+      "storyId": "01ddc470569b6c529670",
+      "url": "https://www.inc.com/nick-hobson/databricks-ceo-uses-ai-to-listen-to-his-12000-employees-heres-what-it-cant-hear/91435751",
+      "title": "Databricks’ CEO Uses AI to Listen to His 12,000 Employees. Here’s What it Can’t Hear",
+      "source": "Inc. AI",
+      "published": "2026-11-17T01:38:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e6e3481f74e54ba4a43885a4",
+      "bodyFingerprint": "cf47d7b2670d0bceef38fc4f",
+      "bodyCharacterCount": 137,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-17T04:31:29.916Z",
+      "assessment": {
+        "centralEvent": "Databricks’ CEO Uses AI to Listen to His 12,000 Employees. Here’s What it Can’t Hear",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "A CEO can analyze thousands of employee messages and workflows using AI, but research on workplace silence reveals the flaw in that plan.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fe023ceca2fe56df02c6": {
+      "storyId": "fe023ceca2fe56df02c6",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "source": "TechCrunch AI",
+      "published": "2026-11-16T23:32:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7eba1a25203c91b891725277",
+      "bodyFingerprint": "e38d87865e5ba0d543b4a7da",
+      "bodyCharacterCount": 2528,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T04:31:29.936Z",
+      "assessment": {
+        "centralEvent": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Interest in its product skyrocketed after a series of security incidents sent chief information security officers scrambling on October 21 when a critical flaw was found in PHP , a popular web programming language.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news Related Security Cyber giant Infoblox confirms security incident after hackers access ‘company information’ Zack Whittaker 6 hours ago",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news Related Security Cyber giant Infoblox confirms security incident after hackers access ‘company information’ Zack Whittaker 6 hours ago",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Popular open source tool LiteLLM, a proxy for routing requests to multiple LLM providers, also disclosed a security incident.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.51,
+        "rawScore": 28.51,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ae3d9685f670ac125fb3": {
+      "storyId": "ae3d9685f670ac125fb3",
+      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+      "source": "The Verge AI",
+      "published": "2026-11-16T23:17:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2717ad1e3fa98f13974c1a03",
+      "bodyFingerprint": "3a439917468f9f5eb75f1f8b",
+      "bodyCharacterCount": 6778,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T04:31:29.983Z",
+      "assessment": {
+        "centralEvent": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "So if no one’s willing to back that up now, then again, I question why this entire chain of events happened.” Epic Games CEO Tim Sweeney similarly expressed concern about how Huang’s resignation played out.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "US agencies haven't confirmed whether this is the case, and President Donald Trump claims he was unaware of any spy ...",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Emma Roth Nov 16 The Nvidia scandal isn’t slowing down Hayden Field Nov 16 Most Popular Most Popular Vulcan rocket fails, destroying 40 Amazon Leo satellites Tech leaders are convinced that Jensen Huang’s exit was a plot against him The Nvi",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.98,
+        "rawScore": 25.98,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "60c3888fe1cb48d17d30": {
+      "storyId": "60c3888fe1cb48d17d30",
+      "url": "https://www.bbc.co.uk/news/articles/c820vnln2lzpo?at_campaign=rss&at_medium=RSS",
+      "title": "The AI start-ups fixing India's broken roads and messy land records",
+      "source": "BBC News AI",
+      "published": "2026-11-16T23:25:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8d163c19fce88f96c3b8f79b",
+      "bodyFingerprint": "9ea0eee011084524570c399c",
+      "bodyCharacterCount": 7059,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T04:31:30.002Z",
+      "assessment": {
+        "centralEvent": "The AI start-ups fixing India's broken roads and messy land records",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Image source, Hindustan Times via Getty Images Image caption, Fractal Analytics, a listed AI company has deployed its AI tool \"Vaidya\" in hospitals run by the Mumbai civic authority Without these fundamental issues being addressed, there's ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images Image caption, At least half a dozen Indian start-ups are using AI to map and report road damage to authorities By Nikhil Inamdar Mumbai Published 5 hours ago In 2020, Sanjay Mandava flew down from Chicago to Chen",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Unlike the US and China which have a global dominance in building frontier language models like ChatGPT, India's AI revolution is happening downstream in data centre infrastructure and consumer applications rather than in research.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "From a lack of experienced talent to the struggle to turn successful pilots into recurring government contracts to heavy dependence on expensive foreign technology, Indian founders are powering through many odds. \"We can still do it.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.17,
+        "rawScore": 29.17,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "24b8a882ac0c0adac944": {
+      "storyId": "24b8a882ac0c0adac944",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_campaign=rss&at_medium=RSS",
+      "title": "California sues OpenAI over Hugging Face attack",
+      "source": "BBC News AI",
+      "published": "2026-11-16T23:12:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fb64f50b8e31d3603ebca455",
+      "bodyFingerprint": "ef87825718abf357e8a2a627",
+      "bodyCharacterCount": 2929,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T04:31:30.008Z",
+      "assessment": {
+        "centralEvent": "California sues OpenAI over Hugging Face attack",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Lily Jamali North America Technology correspondent , Reporting from Palo Alto, CA Published 5 hours ago California Attorney General Rob Bonta sued OpenAI on Monday, alleging the ChatGPT-maker misled and endange",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "OpenAI spokesperson Drew Pusateri told the BBC in a statement that Bonta's lawsuit \"appears to single out OpenAI over a challenge that's been identified by every major AI lab\".",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "83efcaf1e169dfd2b35d": {
+      "storyId": "83efcaf1e169dfd2b35d",
+      "url": "https://www.bbc.co.uk/news/articles/cm3eg3v9jkk8o?at_campaign=rss&at_medium=RSS",
+      "title": "China is hosting the world's leaders in its AI wonderland. Here's what they won't see",
+      "source": "BBC News AI",
+      "published": "2026-11-16T23:07:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "894f86b7a8285c7fabcd4346",
+      "bodyFingerprint": "3d3dc13be2ee2a95b5b343dc",
+      "bodyCharacterCount": 12479,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T04:31:30.015Z",
+      "assessment": {
+        "centralEvent": "China is hosting the world's leaders in its AI wonderland. Here's what they won't see",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "This tech-charged optimism, which is everywhere in the building, jars with the uncertainty elsewhere in Shenzhen, where robots are nowhere to be found.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Figure caption, Watch: The two sides of daily life in Shenzhen By Laura Bicker China correspondent , Reporting from Shenzhen Published 5 hours ago At 27, Huang Shihua is living the Chinese Dream.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "So where better to show it off than Shenzhen, which will be centre-stage when US President Donald Trump, Russian leader Vladimir Putin and others arrive for a global economic summit this week.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "I don't have time to think about anything else.\" Permanent jobs often require contributions to social security and pension, which reduces take-home pay.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But gig work means more cash in hand and flexibile hours. \"Most workers prefer jobs with a fixed, shorter-term duration.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 84,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.33,
+        "rawScore": 30.33,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.575,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8513a800023541e8acad": {
+      "storyId": "8513a800023541e8acad",
+      "url": "https://www.eff.org/deeplinks/2026/11/effs-ai-cybersecurity-policy-framework",
+      "title": "EFF’s AI Cybersecurity Policy Framework",
+      "source": "EFF AI",
+      "published": "2026-11-16T22:50:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "75a9798ad7b38367a0f5a736",
+      "bodyFingerprint": "97e2f1b390f995c53a028449",
+      "bodyCharacterCount": 5358,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T04:31:30.141Z",
+      "assessment": {
+        "centralEvent": "EFF’s AI Cybersecurity Policy Framework",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Lawmakers should start by referencing existing legal protections, including claims like negligence, gross negligence, trespass to chattels, Section 1201 of the Digital Millennium Copyright Act (DMCA), and computer trespass statutes like the",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "By adopting policies that address demonstrated risks, lawmakers can provide meaningful public protection without hampering the development of useful tools.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "To the extent that gaps in existing laws warrant new legislation, EFF recommends the following policy framework: STATUTORY SECURITY REQUIREMENTS: Lawmakers should enact legislation that requires AI developers to adhere to well-established c",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.13,
+        "rawScore": 47.13,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.285,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e4cb208326285c9ba00b": {
+      "storyId": "e4cb208326285c9ba00b",
+      "url": "https://mashable.com/tech/openai-csam-child-sexual-abuse-detection-tool",
+      "title": "OpenAI launches tool for finding child sexual abuse material",
+      "source": "Mashable AI",
+      "published": "2026-11-16T21:47:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c92e986c524cb66d0e769797",
+      "bodyFingerprint": "25e499821f7f29d1d5f9a885",
+      "bodyCharacterCount": 14546,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T04:31:30.219Z",
+      "assessment": {
+        "centralEvent": "OpenAI launches tool for finding child sexual abuse material",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "OpenAI launches tool for finding child sexual abuse material",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "OpenAI routinely uses model cards to provide detailed information about how its ChatGPT products have been refined and tested. (() => { window.videoEmbeds = window.videoEmbeds || []; let data = {\"id\":90759,\"uuid\":\"02SNNXp22RvTDluDE3rNgg8\",\"",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A new analysis conducted by Childlight — Global Child Safety Institute at the University of Edinburgh found AI-related reports of CSAM increased globally by more than 8,400 percent from 2023 to 2025.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "150a4c2c4547ed1e5729": {
+      "storyId": "150a4c2c4547ed1e5729",
+      "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse",
+      "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+      "source": "Ars Technica AI",
+      "published": "2026-11-16T22:58:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "68b156df51d31978caa25456",
+      "bodyFingerprint": "6910380ab56a0b81b7f9c95f",
+      "bodyCharacterCount": 7277,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-17T04:31:30.232Z",
+      "assessment": {
+        "centralEvent": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "US now \"comfortable\" with children dying of measles as death toll hits 10 3.",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day 4.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Microsoft details how three problems combined for a global outage 5.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "US now \"comfortable\" with children dying of measles as death toll hits 10 3.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "He said that the robots never made it to Ukraine because they were stopped at the border with Poland.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 48,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 70.33,
+        "rawScore": 70.33,
+        "band": "DIRE",
+        "requestedBand": "DIRE",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.575,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-16T22:08:57.282Z"
+  "updatedAt": "2026-11-17T04:31:30.233Z"
 }
