@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-17T14:00:00.000Z",
+  "generatedAt": "2026-11-17T22:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-17",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
           "peak": 70.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 70.33
         },
         {
@@ -31,12 +31,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
           "peak": 70.16,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 70.16
+        },
+        {
+          "storyId": "c183b19404c146298c5f",
+          "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+          "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
+          "peak": 69.33,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "average": 69.33
         },
         {
           "storyId": "3bf44cdfb8f59b7f06d5",
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_B.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.66,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 50.66
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 50.27,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 50.27
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6af209f8ab17b1a731ed42b4/master/pass/ai_aviation.gif",
           "peak": 49.61,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 49.61
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 49.01
         },
         {
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 49.01
-        },
-        {
-          "storyId": "b5b8d2f9cb551dda74e9",
-          "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
-          "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 48.23,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-17",
-          "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
-          "average": 48.23
         }
       ]
     },
@@ -11619,11 +11619,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
           "peak": 70.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 70.33
         },
         {
@@ -11633,12 +11633,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
           "peak": 70.16,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-17T04:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 70.16
+        },
+        {
+          "storyId": "c183b19404c146298c5f",
+          "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+          "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
+          "peak": 69.33,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "average": 69.33
         },
         {
           "storyId": "3bf44cdfb8f59b7f06d5",
@@ -11647,11 +11661,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -11661,11 +11675,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Verge AI",
           "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_B.jpg?quality=90&strip=all&crop=0,0,100,100",
           "peak": 50.66,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-17T04:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 50.66
         },
         {
@@ -11675,11 +11689,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 50.27,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T22:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 50.27
         },
         {
@@ -11731,26 +11745,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6af209f8ab17b1a731ed42b4/master/pass/ai_aviation.gif",
           "peak": 49.61,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 49.61
-        },
-        {
-          "storyId": "37e7777f21965965b8e8",
-          "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
-          "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
-          "source": "TechCrunch AI",
-          "image": "",
-          "peak": 49.17,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-16",
-          "firstObservedAt": "2026-11-17T04:00:00.000Z",
-          "lastObservedAt": "2026-11-17T04:00:00.000Z",
-          "average": 49.17
         }
       ]
     },
@@ -13520,11 +13520,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
           "peak": 70.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 70.33
         },
         {
@@ -13534,12 +13534,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
           "peak": 70.16,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-17T04:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 70.16
+        },
+        {
+          "storyId": "c183b19404c146298c5f",
+          "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+          "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+          "source": "Ars Technica AI",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
+          "peak": 69.33,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "average": 69.33
         },
         {
           "storyId": "7e39aa9ab6607cea7607",
@@ -13562,11 +13576,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 59,
+          "observations": 60,
           "daysTracked": 17,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-17T14:00:00.000Z",
+          "lastObservedAt": "2026-11-17T22:00:00.000Z",
           "average": 51.23
         },
         {
@@ -13623,20 +13637,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
           "lastObservedAt": "2026-11-03T06:00:00.000Z",
-          "average": 50.66
-        },
-        {
-          "storyId": "4b429bd7582936e31a06",
-          "title": "AI broke the cybersecurity world. What’s next?",
-          "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_110726.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 50.66,
-          "observations": 8,
-          "daysTracked": 3,
-          "peakDate": "2026-11-07",
-          "firstObservedAt": "2026-11-07T20:00:00.000Z",
-          "lastObservedAt": "2026-11-09T17:00:00.000Z",
           "average": 50.66
         }
       ]
