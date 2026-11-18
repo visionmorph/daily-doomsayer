@@ -372878,8 +372878,889 @@
           "vulnerability": 0
         }
       }
+    },
+    "ae2a07fd7950b9ad3e7e": {
+      "storyId": "ae2a07fd7950b9ad3e7e",
+      "url": "https://www.eff.org/deeplinks/2026/11/voters-reject-alprs-and-surveillance-tech-ballot-box",
+      "title": "Voters Reject ALPRs and Surveillance Tech at the Ballot Box",
+      "source": "EFF AI",
+      "published": "2026-11-18T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "260ea26282ba7649ccc3fb95",
+      "bodyFingerprint": "e07a08093e291f2631ffd2a5",
+      "bodyCharacterCount": 2581,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T04:25:59.578Z",
+      "assessment": {
+        "centralEvent": "Voters Reject ALPRs and Surveillance Tech at the Ballot Box",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "That vote was formally approved on November 17, which began a 72-hour window to remove the cameras.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0d4a3780c61dc50a9792": {
+      "storyId": "0d4a3780c61dc50a9792",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T01:44:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "db33a125dc8e310ff1a2a8cb",
+      "bodyFingerprint": "79c251276ec749785a13a438",
+      "bodyCharacterCount": 4449,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T04:25:59.594Z",
+      "assessment": {
+        "centralEvent": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Huang’s rampant dealmaking has reportedly been a source of concern for Kress.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Nvidia’s equity in private companies continues to grow: it revealed its stakes are now worth $65.5 billion on Tuesday , up from the $22 billion reported in January.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Connie Loizos Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang Anthony Ha The unfolding Jensen Huang scandal: a timeline Amanda Silberling Microsoft’s latest email outage turned into a full-blown global ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Just how strategic startups will be under her leadership, and under the future permanent CEO, remains to be seen.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.73,
+        "rawScore": 28.73,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.43,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f00def5ed9a84ec0e22d": {
+      "storyId": "f00def5ed9a84ec0e22d",
+      "url": "https://www.inc.com/melissa-angell/nvidias-earnings-shows-the-ai-race-must-go-on-without-jensen-huang/91437489",
+      "title": "Nvidia’s Earnings Shows The AI Race Must Go On Without Jensen Huang",
+      "source": "Inc. AI",
+      "published": "2026-11-18T04:09:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "41e46c7a9d16f3bdccda2445",
+      "bodyFingerprint": "eadc0f162d13536e33b35e79",
+      "bodyCharacterCount": 111,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-18T04:25:59.596Z",
+      "assessment": {
+        "centralEvent": "Nvidia’s Earnings Shows The AI Race Must Go On Without Jensen Huang",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a726a4f040d1324990be": {
+      "storyId": "a726a4f040d1324990be",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now",
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T00:16:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c405c5c662a6aff616aba94a",
+      "bodyFingerprint": "b8d56ff44aa33064b4aba96f",
+      "bodyCharacterCount": 3407,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T04:25:59.633Z",
+      "assessment": {
+        "centralEvent": "Nvidia promises that revenue will keep soaring — for now",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Investors, however, celebrated Tuesday’s quarterly results, sending shares up about 4% in after-hours trading.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5a4880985565541fe67c": {
+      "storyId": "5a4880985565541fe67c",
+      "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_campaign=rss&at_medium=RSS",
+      "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+      "source": "BBC News AI",
+      "published": "2026-11-18T01:18:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "65b8e3089f525214e3129e93",
+      "bodyFingerprint": "1a4f17b7812e1dc661afc3c2",
+      "bodyCharacterCount": 4930,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T04:25:59.684Z",
+      "assessment": {
+        "centralEvent": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Given the uncertainty surrounding the company after Huang's exit, financial analysts had been unsure that Nvidia would provide any forward-looking guidance.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty/Nvidia via Reuters Image caption, Jensen Huang and Nvidia's interim CEO, Colette Kress By Kali Hays , Technology reporter and Osmond Chia , Business reporter Published 17 November 2026 Updated 3 hours ago Nvidia's quarte",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related topics Artificial intelligence International Business More on this story Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7648720b0216823afd6f": {
+      "storyId": "7648720b0216823afd6f",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster",
+      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T23:37:48.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3fd0344839c9921f336a1f9c",
+      "bodyFingerprint": "d8625dc2ef37389191daf047",
+      "bodyCharacterCount": 4713,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T04:25:59.722Z",
+      "assessment": {
+        "centralEvent": "Nvidia is abandoning China after Jensen Huang’s ouster",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The government would prefer to generate demand for the country’s domestic chip industry, even if major AI compute users want the still-superior Nvidia equipment, according to Jacob Feldgoise, a researcher at Georgetown’s Center for Security",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "98fd3f3a72979d0d960f": {
+      "storyId": "98fd3f3a72979d0d960f",
+      "url": "https://www.theguardian.com/education/2026/nov/18/ofqual-urges-life-altering-penalties-for-students-who-use-tech-to",
+      "title": "Ofqual urges ‘life-altering’ penalties for students who use tech to cheat",
+      "source": "The Guardian AI",
+      "published": "2026-11-18T00:01:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2ff0a80b09d0b0ca00264d8b",
+      "bodyFingerprint": "f7ca75b84102270e7b5cb58e",
+      "bodyCharacterCount": 3946,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T04:25:59.728Z",
+      "assessment": {
+        "centralEvent": "Ofqual urges ‘life-altering’ penalties for students who use tech to cheat",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Bauckham is also writing to examination boards in England to tell them that exam hall invigilators and supervisors should be trained to spot the “emerging risk” posed by wearable devices during next summer’s exam season.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Bauckham said Ofqual was considering ways to guard against AI and plagiarism, including greater interrogation of the sources students use.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d34ce25785fdf87b116d": {
+      "storyId": "d34ce25785fdf87b116d",
+      "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "title": "Satya Nadella says he’s AGI-pilled now",
+      "source": "The Verge AI",
+      "published": "2026-11-17T23:41:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "94a8b4c48de81227aeda8ed9",
+      "bodyFingerprint": "150cea16659455c05845ce0c",
+      "bodyCharacterCount": 5748,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T04:25:59.763Z",
+      "assessment": {
+        "centralEvent": "Satya Nadella says he’s AGI-pilled now",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7c1076c2aa096bdea824": {
+      "storyId": "7c1076c2aa096bdea824",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit",
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T23:04:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "187fa00294f96acb8cfe1f29",
+      "bodyFingerprint": "370e1d739c15852a099bc26e",
+      "bodyCharacterCount": 3946,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T04:25:59.768Z",
+      "assessment": {
+        "centralEvent": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Meanwhile, the SEC is investigating Nvidia over whether the company’s disclosures misled investors, The WSJ reported .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "29bec5a29dac66d71e15": {
+      "storyId": "29bec5a29dac66d71e15",
+      "url": "https://www.inc.com/jennifer-conrad/wonder-unveils-ai-powered-restaurant-builder-as-marc-lore-pushes-toward-a-fully-automated-food-business/91437793",
+      "title": "Wonder Unveils AI-Powered Restaurant Builder as Marc Lore Pushes Toward a Fully Automated Food Business",
+      "source": "Inc. AI",
+      "published": "2026-11-17T23:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "06b35991f04edfc6ec7c5005",
+      "bodyFingerprint": "604aac50be13f2dddb8863ff",
+      "bodyCharacterCount": 249,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-18T04:25:59.785Z",
+      "assessment": {
+        "centralEvent": "Wonder Unveils AI-Powered Restaurant Builder as Marc Lore Pushes Toward a Fully Automated Food Business",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a0216c6ea54c79d53fcb": {
+      "storyId": "a0216c6ea54c79d53fcb",
+      "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_campaign=rss&at_medium=RSS",
+      "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+      "source": "BBC News AI",
+      "published": "2026-11-17T23:02:12.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "edd20031720789159f396776",
+      "bodyFingerprint": "47c081ce99df2c873a4aed06",
+      "bodyCharacterCount": 7473,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T04:25:59.853Z",
+      "assessment": {
+        "centralEvent": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Many in the US have long viewed these chips as a national security issue, arguing they could strengthen China's military and surveillance capabilities.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Laura Bicker China correspondent Published 5 hours ago Jensen Huang is out but his shadow looms over the upcoming meeting between US President Donald Trump and his Chinese counterpart Xi Jinping this week.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The incident showed how quickly a security dispute could overwhelm diplomatic efforts and push relations into a deep freeze. \"The mere passage of a balloon sent American public opinion and politicians into a state of high alert, as if a \"Ch",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 51,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "893a0ed465aa9d1f9f7e": {
+      "storyId": "893a0ed465aa9d1f9f7e",
+      "url": "https://www.inc.com/michael-tasner/anthropic-ipo-gta-vi-grandthropic-business-lessons/91438301",
+      "title": "‘Barbenheimer’ Walked So ‘Grandthropic’ Could Run. What Happens When a Trillion-Dollar IPO Collides With A Record-Breaking Video Game Launch",
+      "source": "Inc. AI",
+      "published": "2026-11-17T22:58:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9d8e953fdd804f25051efb24",
+      "bodyFingerprint": "abd271f7da1202c64b15f848",
+      "bodyCharacterCount": 144,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-18T04:25:59.894Z",
+      "assessment": {
+        "centralEvent": "‘Barbenheimer’ Walked So ‘Grandthropic’ Could Run. What Happens When a Trillion-Dollar IPO Collides With A Record-Breaking Video Game Launch",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0db3b4bdf59c14e4c5f1": {
+      "storyId": "0db3b4bdf59c14e4c5f1",
+      "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
+      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+      "source": "Ars Technica AI",
+      "published": "2026-11-18T00:27:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f8143ede569ddc998d65e14b",
+      "bodyFingerprint": "2582d1899c40897b4547cde1",
+      "bodyCharacterCount": 8369,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T04:25:59.924Z",
+      "assessment": {
+        "centralEvent": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“We know the trust you place in our services and take that responsibility extremely seriously, and in that context I know we have work to do.” Some big promises Some big promises That statement was all the time the elephant in the room was ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day 3.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In a nutshell, Autopilot is a cloud-based autonomous AI agent that users can delegate responsibilities to, not just single tasks.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3711a57a3cfc6c132d98": {
+      "storyId": "3711a57a3cfc6c132d98",
+      "url": "https://thedispatch.com/newsletter/boilingfrogs/outages-artificial-intellience-hacking-trump-administration",
+      "title": "How an ‘AI Event’ Could Swallow Our Politics Whole",
+      "source": "The Dispatch AI",
+      "published": "2026-11-17T23:27:39+00:00",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3b6eff430f9b96bbfbd10a0c",
+      "bodyFingerprint": "6285507aff60eb1141177daa",
+      "bodyCharacterCount": 5369,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T04:26:00.304Z",
+      "assessment": {
+        "centralEvent": "How an ‘AI Event’ Could Swallow Our Politics Whole",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Your gift link works for 30 days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-17T22:55:15.864Z"
+  "updatedAt": "2026-11-18T04:26:00.304Z"
 }
