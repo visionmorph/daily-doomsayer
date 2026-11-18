@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-17T22:00:00.000Z",
+  "generatedAt": "2026-11-18T04:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-17",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
           "peak": 70.33,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 70.33
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
           "peak": 70.16,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 70.16
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
           "peak": 69.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T22:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 69.33
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 51.23
         },
         {
@@ -87,12 +87,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 50.27,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 50.27
+        },
+        {
+          "storyId": "3fa84863303fa17ae7dd",
+          "title": "Access to Generative AI: Privilege or Right?",
+          "url": "https://www.lawfaremedia.org/article/access-to-generative-ai--privilege-or-right",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 50.22,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-18T04:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
+          "average": 50.22
         },
         {
           "storyId": "4888df4a109a32c89d5e",
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6af209f8ab17b1a731ed42b4/master/pass/ai_aviation.gif",
           "peak": 49.61,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 49.61
         },
         {
@@ -129,25 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/offline-general.png",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "71c4631f575b0ad325b2",
-          "title": "The Confessions of an AI Fraud Kingpin",
-          "url": "https://www.404media.co/the-confessions-of-an-ai-fraud-kingpin-onlyfake-owner-nazarenko/",
-          "source": "404 Media AI",
-          "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
-          "peak": 49.01,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-11-17",
-          "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 49.01
         }
       ]
@@ -11619,11 +11619,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
           "peak": 70.33,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 70.33
         },
         {
@@ -11633,11 +11633,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
           "peak": 70.16,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-17T04:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 70.16
         },
         {
@@ -11647,11 +11647,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
           "peak": 69.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T22:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 69.33
         },
         {
@@ -11661,11 +11661,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 51.23
         },
         {
@@ -11689,12 +11689,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 50.27,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T22:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 50.27
+        },
+        {
+          "storyId": "3fa84863303fa17ae7dd",
+          "title": "Access to Generative AI: Privilege or Right?",
+          "url": "https://www.lawfaremedia.org/article/access-to-generative-ai--privilege-or-right",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 50.22,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-17",
+          "firstObservedAt": "2026-11-18T04:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
+          "average": 50.22
         },
         {
           "storyId": "13482003797f2776b71c",
@@ -11737,20 +11751,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
           "lastObservedAt": "2026-11-17T14:00:00.000Z",
           "average": 49.83
-        },
-        {
-          "storyId": "75102a44dc7a210b1ce4",
-          "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
-          "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
-          "source": "WIRED AI",
-          "image": "https://media.wired.com/photos/6af209f8ab17b1a731ed42b4/master/pass/ai_aviation.gif",
-          "peak": 49.61,
-          "observations": 5,
-          "daysTracked": 2,
-          "peakDate": "2026-11-16",
-          "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
-          "average": 49.61
         }
       ]
     },
@@ -13520,11 +13520,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
           "peak": 70.33,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 70.33
         },
         {
@@ -13534,11 +13534,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
           "peak": 70.16,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-17T04:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 70.16
         },
         {
@@ -13548,11 +13548,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
           "peak": 69.33,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T22:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 69.33
         },
         {
@@ -13576,11 +13576,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 60,
+          "observations": 61,
           "daysTracked": 17,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-17T22:00:00.000Z",
+          "lastObservedAt": "2026-11-18T04:00:00.000Z",
           "average": 51.23
         },
         {
