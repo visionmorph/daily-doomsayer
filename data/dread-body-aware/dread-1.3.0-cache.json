@@ -373759,8 +373759,1715 @@
           "vulnerability": 0
         }
       }
+    },
+    "ddf152f6d3b592a40ce9": {
+      "storyId": "ddf152f6d3b592a40ce9",
+      "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+      "title": "Will Wright’s next game uses AI to map your memories",
+      "source": "The Verge AI",
+      "published": "2026-11-18T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2b4aafc2fc6fbb65c467370a",
+      "bodyFingerprint": "53efb79eecbc8c0ff56740a1",
+      "bodyCharacterCount": 7036,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.450Z",
+      "assessment": {
+        "centralEvent": "Will Wright’s next game uses AI to map your memories",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "He attributes negativity over AI to be toward the meaning of art and authorship and credit, a concern he calls “well-founded.” But he also calls AI an “amazing tool.” Image: Gallium Studios “We’re not making slop,” says McArthur.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Here’s another way to think of it, from Virginia McArthur, executive producer and GM at MyMems developer Gallium Studios: “It’s a cozy world builder with a really deep social simulation underneath.” Image: Gallium Studios I’ll admit that I ",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "With The Sims , Wright says that many people tried making their real families in the game.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.54,
+        "rawScore": 25.54,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.14,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fcf93c416202eb38a45d": {
+      "storyId": "fcf93c416202eb38a45d",
+      "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+      "title": "Nvidia isn’t selling any more AI chips to China",
+      "source": "The Verge AI",
+      "published": "2026-11-18T13:01:05.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e1ab25d2b271fbffd9801ecf",
+      "bodyFingerprint": "f720452764debb09a621aaf4",
+      "bodyCharacterCount": 4176,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.488Z",
+      "assessment": {
+        "centralEvent": "Nvidia isn’t selling any more AI chips to China",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Emma Roth Nov 17 Most Popular Most Popular The Verge Best of 2026 Nvidia says it does not intend to reinstate Jensen Huang as CEO Tech leaders are convinced that Jensen Huang’s exit was a plot against him Inside Microsoft’s giant Outlook ou",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth Nov 17 Most Popular Most Popular The Verge Best of 2026 Nvidia says it does not intend to reinstate Jensen Huang as CEO Tech leaders are convinced that Jensen Huang’s exit was a plot against him Inside Microsoft’s giant Outlook ou",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Nvidia has stopped sending its advanced AI chips to China, despite the approval it received from the White House to do so in December last year.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.7,
+        "rawScore": 26.7,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3d5c166919b8dcaf6cb9": {
+      "storyId": "3d5c166919b8dcaf6cb9",
+      "url": "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o?at_campaign=rss&at_medium=RSS",
+      "title": "Hacks, AI or just overdue updates - why have there been so many outages?",
+      "source": "BBC News AI",
+      "published": "2026-11-18T13:16:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "223a5af72faf1e29330cd927",
+      "bodyFingerprint": "c5f52a30f3f476f1c91068b0",
+      "bodyCharacterCount": 7090,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.518Z",
+      "assessment": {
+        "centralEvent": "Hacks, AI or just overdue updates - why have there been so many outages?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "And researcher Scott Helme also discovered malicious code in Optimizely, a platform which is used by some of the world's largest companies.",
+            "matchedRule": "/\\b(?:malware|malicious code|unauthorized access|took over|hijack)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Rubio says US not 'under systemic attack' after series of tech outages Published 9 hours ago Security flaw found in Java, world's third-largest programming language Published 5 hours ago Sign up for our Tech Decoded newsletter to follow the",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In the past week, there has been a massive Microsoft outage , an apparent tech glitch which grounded all US flights for hours , and issues for the National Security Agency (NSA).",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "A network upgrade at Microsoft caused servers to become overloaded and shut down.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.18,
+        "rawScore": 48.18,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d429cde9eef95acf460a": {
+      "storyId": "d429cde9eef95acf460a",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_campaign=rss&at_medium=RSS",
+      "title": "Anthropic: The seven founders who are about to become multi-billionaires",
+      "source": "BBC News AI",
+      "published": "2026-11-18T13:55:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5f56de051d5197657066b5ce",
+      "bodyFingerprint": "4aa990b5f3b28243af2b89cf",
+      "bodyCharacterCount": 6009,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.523Z",
+      "assessment": {
+        "centralEvent": "Anthropic: The seven founders who are about to become multi-billionaires",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "She has also worked at financial services platform Stripe, where she was head of risk operations.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The company behind the AI platform Claude was formed by seven people who left rival OpenAI in 2021 and, in a matter of hours, will become multi-billionaires - on paper at least.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "But following his father's death from hepatitis C, he switched to biology and biomedical sciences.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.85,
+        "rawScore": 27.85,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.35,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b9b3936785bef30064f9": {
+      "storyId": "b9b3936785bef30064f9",
+      "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds",
+      "title": "Nvidia clarifies when it will — and won’t —keep financing neoclouds",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c8ff31bd2d2a62d0e4400033",
+      "bodyFingerprint": "2e87ba0c95814d4c07f6dc37",
+      "bodyCharacterCount": 4742,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.582Z",
+      "assessment": {
+        "centralEvent": "Nvidia clarifies when it will — and won’t —keep financing neoclouds",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The company reported on Tuesday net income of $64.9 billion for the third quarter , which was up from $59.7 billion the prior quarter.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4bc39c5fd1337995c2a4": {
+      "storyId": "4bc39c5fd1337995c2a4",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261117033909.htm",
+      "title": "Scientists create a remarkable new rechargeable battery using vitamin B12",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-18T12:26:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "87fc4cbab35136f49a499d9a",
+      "bodyFingerprint": "80d66107604256d6c3c0858f",
+      "bodyCharacterCount": 10357,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.593Z",
+      "assessment": {
+        "centralEvent": "Scientists create a remarkable new rechargeable battery using vitamin B12",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Astronomers Discover a Chilling Preview of Our Solar System’s Future Scientists Discover Alarming Signs of Extinction Risk Deep Beneath the Ocean Scientists Discover a Disturbing Link Between Cannabis Use and Ea",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Manuel Cano Luna, one of the study's authors, explained that \"we looked at the properties we can find in naturally occurring materials to use them in new batteries,\" while describing the team's search for useful biological compounds.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "13, 2024  With global demand for lithium-ion batteries fast depleting reserves of raw materials, experts are seeking safe, affordable and reliable alternatives for rechargeable batteries.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "To make the design work, the researchers attached vitamin B12 molecules to single-walled carbon nanotubes.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.41,
+        "rawScore": 27.41,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.31,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2e7bb942bc930af22fef": {
+      "storyId": "2e7bb942bc930af22fef",
+      "url": "https://www.politico.com/news/2026/11/18/china-based-ai-safety-group-briefed-us-ai-labs-including-openai-01172150",
+      "title": "China-based AI safety group briefed US AI labs, including OpenAI",
+      "source": "POLITICO AI",
+      "published": "2026-11-18T12:01:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "80f55cbfcf672399d1b2a5e5",
+      "bodyFingerprint": "dcfeb30837694a26e2ef4c2b",
+      "bodyCharacterCount": 104,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-18T14:04:19.609Z",
+      "assessment": {
+        "centralEvent": "China-based AI safety group briefed US AI labs, including OpenAI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2c4163c7e21d994db2e8": {
+      "storyId": "2c4163c7e21d994db2e8",
+      "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents",
+      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a911511bd7016df52f5bbc99",
+      "bodyFingerprint": "4eaa0edb0d2e22b563030e79",
+      "bodyCharacterCount": 6077,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.621Z",
+      "assessment": {
+        "centralEvent": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The results have, however, not been independently verified.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ddb370c34e5553db3786": {
+      "storyId": "ddb370c34e5553db3786",
+      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers",
+      "title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T11:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1554b4c9b2712376d9da4a82",
+      "bodyFingerprint": "58129d185b7d4d1b7ab432e2",
+      "bodyCharacterCount": 5113,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.649Z",
+      "assessment": {
+        "centralEvent": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The startup pays workers and data collection partners daily or weekly but typically waits 30 to 60 days to receive payments from its AI lab customers.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "942518637ca001c7d154": {
+      "storyId": "942518637ca001c7d154",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+      "title": "Suno now lets you make AI videos for your AI music",
+      "source": "The Verge AI",
+      "published": "2026-11-18T11:16:53.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1f40361f2b5447cb9efa0512",
+      "bodyFingerprint": "cfa556bf00b353e1d6739127",
+      "bodyCharacterCount": 5058,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.663Z",
+      "assessment": {
+        "centralEvent": "Suno now lets you make AI videos for your AI music",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Adding video capabilities is another attempt to diversify the platform after Suno’s music generator attracted a number of high-profile lawsuits , though it seems some users would rather the company focus on improving those song-generating c",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c61f88025cdcfce69c7a": {
+      "storyId": "c61f88025cdcfce69c7a",
+      "url": "https://www.inc.com/robert-gillespie/ai-marketing-speed-quality-burnout-cmi-survey/91435787",
+      "title": "Only 17% of Marketers Say AI Made Their Work Better. How Smart Leaders Should Avoid Wrecking Their Brand Trust",
+      "source": "Inc. AI",
+      "published": "2026-11-18T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9fc8e1b147354458d98726bf",
+      "bodyFingerprint": "5d1ceccf17852e4c0218f801",
+      "bodyCharacterCount": 152,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-18T14:04:19.697Z",
+      "assessment": {
+        "centralEvent": "Only 17% of Marketers Say AI Made Their Work Better. How Smart Leaders Should Avoid Wrecking Their Brand Trust",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "70ad0d679b3dc021e84c": {
+      "storyId": "70ad0d679b3dc021e84c",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm",
+      "title": "New discovery reveals what may be holding back room-temperature superconductors",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-18T12:16:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a069bf9e56745e7c513d5d9a",
+      "bodyFingerprint": "bf60cd4567152d29d57a697e",
+      "bodyCharacterCount": 10605,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.730Z",
+      "assessment": {
+        "centralEvent": "New discovery reveals what may be holding back room-temperature superconductors",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "TRENDING AT SCITECHDAILY.com Astronomers Discover a Chilling Preview of Our Solar System’s Future Scientists Discover Alarming Signs of Extinction Risk Deep Beneath the Ocean Scientists Discover a Disturbing Link Between Cannabis Use and Ea",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Superconductivity was first observed in 1911.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 75,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.65,
+        "rawScore": 25.65,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bdd3cf35dda2f080b5a5": {
+      "storyId": "bdd3cf35dda2f080b5a5",
+      "url": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio",
+      "title": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
+      "source": "The Guardian AI",
+      "published": "2026-11-18T11:35:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1544d74170bdc0c89a7b0806",
+      "bodyFingerprint": "0e95179a812ad3cb3afb5a5b",
+      "bodyCharacterCount": 6057,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.739Z",
+      "assessment": {
+        "centralEvent": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "US secretary of state’s comments come as vulnerability in programming language Java highlighted There is “zero evidence” that a wave of IT outages – which have grounded flights, cut off work access, limited bank access, affected Apple and d",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Apple also confirmed problems with its iPhone apps, such as Apple Pay and iCloud, on Tuesday but said it had resolved them.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Marco Rubio said the US was “not under systemic attack” and a cascade of network problems was “not inter-related”.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "People in the US: share your views on the recent flight disruption and Microsoft outage Read more “We have zero evidence or any reason to believe that any of these isolated or individual instances have anything to do with nefarious actors, ",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.46,
+        "rawScore": 27.46,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.315,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8b9eeeba1795a3fec84e": {
+      "storyId": "8b9eeeba1795a3fec84e",
+      "url": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_campaign=rss&at_medium=RSS",
+      "title": "Security flaw found in Java, world's third-largest programming language",
+      "source": "BBC News AI",
+      "published": "2026-11-18T08:47:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3d24a4218b6e2d35500fa496",
+      "bodyFingerprint": "d4245476a2212140861f8f3e",
+      "bodyCharacterCount": 4936,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.755Z",
+      "assessment": {
+        "centralEvent": "Security flaw found in Java, world's third-largest programming language",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The latest incidents have exposed how nearly every critical sector - including national security systems, aviation and telecommunications - relies on legacy infrastructure online.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images Image caption, A tech start-up used AI to uncover a critical software bug in Java that had existed for more than a decade (generic photo) By Claire Keenan and Imran Rahman-Jones , technology reporter Published 18 ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "What is PHP and why did it spark a global cyber-security scramble?",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But there are fears hackers could now identify the bug if the flaw isn't fixed.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But there are fears hackers could now identify the bug if the flaw isn't fixed.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.09,
+        "rawScore": 49.09,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.4625,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "406e8f309d617f7fd2ec": {
+      "storyId": "406e8f309d617f7fd2ec",
+      "url": "https://www.theguardian.com/music/2026/nov/18/elton-john-ai-campaign-australia-artists-aria-awards-copyright",
+      "title": "Elton John backs Australian artists in fight against AI in surprise Aria awards appearance",
+      "source": "The Guardian AI",
+      "published": "2026-11-18T08:29:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "505f8fe7796a5a9df06101a5",
+      "bodyFingerprint": "903b1ec079c8dde9e172d222",
+      "bodyCharacterCount": 6832,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.765Z",
+      "assessment": {
+        "centralEvent": "Elton John backs Australian artists in fight against AI in surprise Aria awards appearance",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4ea0ac519441d7a4d576": {
+      "storyId": "4ea0ac519441d7a4d576",
+      "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_campaign=rss&at_medium=RSS",
+      "title": "How important are Nvidia and Jensen Huang to the US economy?",
+      "source": "BBC News AI",
+      "published": "2026-11-18T06:04:21.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d1c445d1d55d20fbd0f0b2d0",
+      "bodyFingerprint": "009ed23c639ca278126550e4",
+      "bodyCharacterCount": 5587,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.777Z",
+      "assessment": {
+        "centralEvent": "How important are Nvidia and Jensen Huang to the US economy?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Michael Race Business reporter Published 7 hours ago Nvidia and its co-founder Jensen Huang have been at the centre of the artificial intelligence (AI) spending boom.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "954eb9455a05fbbd6f5e": {
+      "storyId": "954eb9455a05fbbd6f5e",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2ev38k4yno?at_campaign=rss&at_medium=RSS",
+      "title": "'Human' is Cambridge Dictionary Word of the Year",
+      "source": "BBC News AI",
+      "published": "2026-11-18T05:39:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "dbc44f6dd546150d9b60c774",
+      "bodyFingerprint": "37703ac5422b02d6b1e119c3",
+      "bodyCharacterCount": 4387,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.791Z",
+      "assessment": {
+        "centralEvent": "'Human' is Cambridge Dictionary Word of the Year",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "There's a real risk that it deepens existing inequalities, but it also has the potential to solve them.\" Cambridge Dictionary reveal their word of 2026 Why ‘human’ has been chosen as Cambridge Dictionary’s word of the year for 2026.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Olly Courtney/BBC/Boffola Pictures Image caption, BBC comedy Ann Droid explored the possibility of a human (played by Sue Johnston) having an AI robot as a live-in carer (Diane Morgan) By Katy Prickett Published 8 hours ago \"H",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.2,
+        "rawScore": 26.2,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d8fd3df7d4c18a920e1c": {
+      "storyId": "d8fd3df7d4c18a920e1c",
+      "url": "https://www.theguardian.com/music/video/2026/nov/18/aria-awards-how-do-australian-artists-feel-about-their-music-being-used-to-train-ai-video",
+      "title": "Aria awards: how do Australian artists feel about their music being used to train AI? – video",
+      "source": "The Guardian AI",
+      "published": "2026-11-18T10:22:44.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "770e884a4b6503f80a78db7e",
+      "bodyFingerprint": "111706c471ea47bf251758df",
+      "bodyCharacterCount": 543,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.819Z",
+      "assessment": {
+        "centralEvent": "Aria awards: how do Australian artists feel about their music being used to train AI? – video",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bbcff37f6db04fcc1f3c": {
+      "storyId": "bbcff37f6db04fcc1f3c",
+      "url": "https://www.404media.co/gallup-study-friendship-ai-companions",
+      "title": "Massive New Study Shows How Young People Feel About AI Companions",
+      "source": "404 Media AI",
+      "published": "2026-11-18T05:01:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e34cc036854ddb8a5ca6f645",
+      "bodyFingerprint": "661a43ef47169ee5f2acb8c1",
+      "bodyCharacterCount": 5681,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.828Z",
+      "assessment": {
+        "centralEvent": "Massive New Study Shows How Young People Feel About AI Companions",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Young people in the United States, Canada, and UK reported the least interest in AI overall, with only 20% saying they used it once a day or more.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "09e445f22de482f49297": {
+      "storyId": "09e445f22de482f49297",
+      "url": "https://mashable.com/tech/nov-18-notepik-ai-lifetime-subscription",
+      "title": "This $50 AI assistant turns every meeting into notes, decisions, and to-do lists",
+      "source": "Mashable AI",
+      "published": "2026-11-18T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3d3d7d0523d1c0e93ed1585a",
+      "bodyFingerprint": "bbb2ba1f8eb9a5eb1d877e65",
+      "bodyCharacterCount": 3122,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.834Z",
+      "assessment": {
+        "centralEvent": "This $50 AI assistant turns every meeting into notes, decisions, and to-do lists",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "61beae6e211fcf1edaca": {
+      "storyId": "61beae6e211fcf1edaca",
+      "url": "https://www.theguardian.com/science/2026/nov/18/cambridge-word-of-the-year-human",
+      "title": "‘Human’ wins Cambridge dictionary’s word of the year",
+      "source": "The Guardian AI",
+      "published": "2026-11-18T05:00:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6e6da8ee3578cdc6e157177b",
+      "bodyFingerprint": "999214ff5749cd4d1348f28a",
+      "bodyCharacterCount": 3917,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.846Z",
+      "assessment": {
+        "centralEvent": "‘Human’ wins Cambridge dictionary’s word of the year",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Looksmaxxing”, describing the act of making oneself as physically attractive as possible, which has been associated with the online manosphere , and “aura farming”, another term often encountered on social media, which refers to “the activ",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "15614df6726481499d90": {
+      "storyId": "15614df6726481499d90",
+      "url": "https://www.wired.com/story/lovable-wants-you-to-vibe-code-a-living",
+      "title": "Lovable Wants You to Vibe Code Your Dream Job",
+      "source": "WIRED AI",
+      "published": "2026-11-18T10:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8a886741a6db330d7f433483",
+      "bodyFingerprint": "b579c32d87279dab369abb87",
+      "bodyCharacterCount": 4988,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.878Z",
+      "assessment": {
+        "centralEvent": "Lovable Wants You to Vibe Code Your Dream Job",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Video: Courtesy of Lovable The startup was one of many vibe-coded services that came under fire this year for facilitating user-generated apps that exposed data on the open web.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Courtesy of Lovable But Osika isn’t satisfied with helping millions of people vibe code apps for their everyday life—he also wants Lovable users to make more cash.",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.48,
+        "rawScore": 45.48,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.135,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "55cafb7085284a534355": {
+      "storyId": "55cafb7085284a534355",
+      "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
+      "title": "Helping AI text detectors keep up with changing conditions",
+      "source": "MIT News AI",
+      "published": "2026-11-18T05:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d525e924bafc7951f536bc9b",
+      "bodyFingerprint": "da078bd4837b8908b8a4c173",
+      "bodyCharacterCount": 8901,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.912Z",
+      "assessment": {
+        "centralEvent": "Helping AI text detectors keep up with changing conditions",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It could also be used by cybersecurity experts to prevent email phishing scams or identify search engine optimization fraud.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In a new paper , the researchers demonstrated how a special training technique makes an AI detector more accurate and resilient to deception, even as human and AI writing constantly changes.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“There are many high-stakes contexts where people really care about the identity of the author, from scientific publishing to short story competitions.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 52,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.64,
+        "rawScore": 46.64,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.24,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0b739fb0e0ef7ad39b41": {
+      "storyId": "0b739fb0e0ef7ad39b41",
+      "url": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship",
+      "title": "Over a Third of Gen Z-ers Rely on AI for Friendship",
+      "source": "WIRED AI",
+      "published": "2026-11-18T05:01:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "57115460398b0ed3197d800d",
+      "bodyFingerprint": "b619ff9315c4b9fc218d9bfe",
+      "bodyCharacterCount": 6856,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.930Z",
+      "assessment": {
+        "centralEvent": "Over a Third of Gen Z-ers Rely on AI for Friendship",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "They talk to people they don't know, which is always a risk, but it’s also how you make friends,” Bickham says.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "In “ Friendship in an Online-Offline World: Digital Life, Connection and Wellbeing ” researchers from public polling firm Gallup and the Digital Wellness Lab at Boston Children’s Hospital found that more than one-third of Gen Z (33 percent)",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "While researchers are wary of classifying the report as a permanent shift in how young people form relationships, they say it does signal a growing reliance on AI companionship as part of a pattern of digital social engagement unfolding amo",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "While researchers are wary of classifying the report as a permanent shift in how young people form relationships, they say it does signal a growing reliance on AI companionship as part of a pattern of digital social engagement unfolding amo",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.29,
+        "rawScore": 28.29,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.39,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f6b7aafe5a37bebecee9": {
+      "storyId": "f6b7aafe5a37bebecee9",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261117033920.htm",
+      "title": "NASA pushes Mars helicopter blades beyond the speed of sound",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-18T03:16:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e6f6e874baae687cc00f0e1e",
+      "bodyFingerprint": "b22f7c12d7fb4ddeeeb47830",
+      "bodyCharacterCount": 11264,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-18T14:04:19.934Z",
+      "assessment": {
+        "centralEvent": "NASA pushes Mars helicopter blades beyond the speed of sound",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It kept the blades away from the complex and potentially unpredictable conditions near the sound barrier, and it provided a safety margin in case sudden winds (from a dust devil, for instance) caused the blade tips to move faster relative t",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "48a11b18c29d8d1b50bd": {
+      "storyId": "48a11b18c29d8d1b50bd",
+      "url": "https://www.nature.com/articles/d41586-026-03040-z",
+      "title": "Are you a budding science sleuth? Take our plagiarism quiz to test your skills",
+      "source": "Nature AI News & Comment",
+      "published": "2026-11-18T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6c4a5889ec43ec945bc4c634",
+      "bodyFingerprint": "03650aec0b89385eb7e9a545",
+      "bodyCharacterCount": 79,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-18T14:04:20.764Z",
+      "assessment": {
+        "centralEvent": "Are you a budding science sleuth? Take our plagiarism quiz to test your skills",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-18T04:26:00.304Z"
+  "updatedAt": "2026-11-18T14:04:20.764Z"
 }
