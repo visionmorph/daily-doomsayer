@@ -378152,8 +378152,1002 @@
           "vulnerability": 0
         }
       }
+    },
+    "916c82b799cde7b5ad2a": {
+      "storyId": "916c82b799cde7b5ad2a",
+      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_campaign=rss&at_medium=RSS",
+      "title": "AI giant Anthropic valued at up to $1.5tn ahead of stock market debut",
+      "source": "BBC News AI",
+      "published": "2026-11-19T02:20:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "148defca669e16a31afe0e9a",
+      "bodyFingerprint": "0131e9b637efa42a0098c667",
+      "bodyCharacterCount": 6162,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-19T03:33:03.735Z",
+      "assessment": {
+        "centralEvent": "AI giant Anthropic valued at up to $1.5tn ahead of stock market debut",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The seven Anthropic founders who are about to become multi-billionaires Published 3 hours ago There is excitement around Anthropic's listing, but also some concern from investors around its ability to generate revenue and profits going forw",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images Image caption, Anthropic CEO Dario Amodei has quickly become a big name in the tech industry By Kali Hays , Technology reporter , Samira Hussain , North America business correspondent and Osmond Chia , Business re",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But demand for Anthropic's stock debut - commonly referred to as its initial public offering, or IPO - is very high, according to one early investor in the company who spoke with the BBC on condition of anonymity.",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.7,
+        "rawScore": 26.7,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.245,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9ad39218c90aa030a025": {
+      "storyId": "9ad39218c90aa030a025",
+      "url": "https://www.theguardian.com/us-news/2026/nov/18/maryland-baltimore-county-doritos-gun-ai-lawsuit",
+      "title": "Four Maryland high school students sue after AI mistakes Doritos bag for gun",
+      "source": "The Guardian AI",
+      "published": "2026-11-18T23:53:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "81fc414eed31e1a10644f20d",
+      "bodyFingerprint": "719acc6a7b1e8037823da798",
+      "bodyCharacterCount": 4720,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-19T03:33:03.772Z",
+      "assessment": {
+        "centralEvent": "Four Maryland high school students sue after AI mistakes Doritos bag for gun",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“ No child in Baltimore county should face this kind of danger while waiting outside his own school for a ride home from his mother,” said Winfield.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The students had just wrapped up football practice on the evening of 20 October when their coach passed out bags of Doritos to the team, according to the complaint.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 1,
+            "source": "body",
+            "excerpt": "One officer allegedly told them as he left the scene: “Hey, thanks for not running away, that would have been a real problem.” The complaint described a chaotic series of events in which Omnilert’s AI gun-detection system flagged the chips ",
+            "matchedRule": "/\\b(?:one|single|individual|local)\\b.*\\b(?:person|organization|company|system|community|incident)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The legal complaint stated that the plaintiffs “were in shock and feared for their lives after being stopped, ordered to their knees, handcuffed and searched” by armed officers.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Football players say they are ‘traumatized’ after being handcuffed and detained by police while waiting for rides home Four current and former students at a Maryland high school have filed a lawsuit a year after armed police detained them, ",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.75,
+        "rawScore": 26.75,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.25,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "add9ef5bb513e6b399c6": {
+      "storyId": "add9ef5bb513e6b399c6",
+      "url": "https://www.inc.com/jason-aten/anthropic-is-about-to-have-the-biggest-ipo-ever-it-might-not-be-enough/91439656",
+      "title": "Anthropic Is About to Have the Biggest IPO Ever. It Might Not Be Enough",
+      "source": "Inc. AI",
+      "published": "2026-11-19T02:04:39.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8c63c3ea7a409beabd7c7cda",
+      "bodyFingerprint": "4a04b78d203c8b60e023faa5",
+      "bodyCharacterCount": 93,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-19T03:33:03.780Z",
+      "assessment": {
+        "centralEvent": "Anthropic Is About to Have the Biggest IPO Ever. It Might Not Be Enough",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "76052896ed5fc980fe27": {
+      "storyId": "76052896ed5fc980fe27",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T00:42:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3d925ac16edb616e7e36945d",
+      "bodyFingerprint": "4a215ae0e011d238dce8c306",
+      "bodyCharacterCount": 4138,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-19T03:33:03.800Z",
+      "assessment": {
+        "centralEvent": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Most Popular Amazon and Google will together own nearly 30% of Anthropic after its IPO Julie Bort FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’ Zack Whittaker",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "28a1e7a21c66bddf9bd1": {
+      "storyId": "28a1e7a21c66bddf9bd1",
+      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable",
+      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T23:45:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3a29b84601706432e6d58a2c",
+      "bodyFingerprint": "860f6c0345d72355d0652dfd",
+      "bodyCharacterCount": 3835,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-19T03:33:03.825Z",
+      "assessment": {
+        "centralEvent": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Still, the reality of AI-aided cyberattacks is spurring companies to find new strategies for vulnerability discovery and remediation.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Most Popular Amazon and Google will together own nearly 30% of Anthropic after its IPO Julie Bort FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’ Zack Whittaker",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Nadella touched briefly on the recent Outlook situation, noting that the global inconvenience was the result of a “latent bug” that led to a “perfect storm.” “We put out an incident response, and we’re going to obviously take all of the lea",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Still, the reality of AI-aided cyberattacks is spurring companies to find new strategies for vulnerability discovery and remediation.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“The patch [now] needs to go instantly from being available to being patched in production, because it’s being exploited in the wild, right?",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.5,
+        "rawScore": 29.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.5,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "806578be9a08eded4bcf": {
+      "storyId": "806578be9a08eded4bcf",
+      "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team",
+      "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T23:25:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "290667accb60f7ded9dc34ca",
+      "bodyFingerprint": "37f869e0acb974ee16ff2f32",
+      "bodyCharacterCount": 4284,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-19T03:33:03.835Z",
+      "assessment": {
+        "centralEvent": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "They know it makes America weaker to knock him out.” Musk also did not express concern over what Huang’s affair with an alleged Chinese spy could mean for U.S. national security.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Most Popular Amazon and Google will together own nearly 30% of Anthropic after its IPO Julie Bort FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’ Zack Whittaker",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "They know it makes America weaker to knock him out.” Musk also did not express concern over what Huang’s affair with an alleged Chinese spy could mean for U.S. national security.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fd0f1695410f8d6eef32": {
+      "storyId": "fd0f1695410f8d6eef32",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit",
+      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T23:17:28.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c8822f0f4952437bad7231ee",
+      "bodyFingerprint": "5c045d80682459ab4844a86c",
+      "bodyCharacterCount": 3553,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-19T03:33:03.847Z",
+      "assessment": {
+        "centralEvent": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Most Popular Amazon and Google will together own nearly 30% of Anthropic after its IPO Julie Bort FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’ Zack Whittaker",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "493f624c6fcc2b093655": {
+      "storyId": "493f624c6fcc2b093655",
+      "url": "https://www.inc.com/michael-tasner/disney-anzellans-droids-physical-ai-strategy/91439401",
+      "title": "Disney’s ‘Star Wars’ Droids Just Solved the Biggest Flaw in AI—And Every Business Needs to Copy Its Playbook",
+      "source": "Inc. AI",
+      "published": "2026-11-18T22:36:04.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0dd5a368d7f4634fd219bb87",
+      "bodyFingerprint": "92d8374f306fbfb4d41c8e51",
+      "bodyCharacterCount": 189,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-19T03:33:03.858Z",
+      "assessment": {
+        "centralEvent": "Disney’s ‘Star Wars’ Droids Just Solved the Biggest Flaw in AI—And Every Business Needs to Copy Its Playbook",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Disney’s ‘Star Wars’ Droids Just Solved the Biggest Flaw in AI—And Every Business Needs to Copy Its Playbook",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 24,
+        "rawScore": 24,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "591236888382df2bc009": {
+      "storyId": "591236888382df2bc009",
+      "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web",
+      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T22:58:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "47e8bdb2175882994d18fc4e",
+      "bodyFingerprint": "7c58dc9c37ddb334ac98d32e",
+      "bodyCharacterCount": 2875,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-19T03:33:03.879Z",
+      "assessment": {
+        "centralEvent": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news Related AI Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit Amanda Silberling 4 hours ago AI More banks say ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 14,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d8ba4398191c3d4681c9": {
+      "storyId": "d8ba4398191c3d4681c9",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "title": "The nation’s largest school districts consider ditching Google Search",
+      "source": "The Verge AI",
+      "published": "2026-11-18T23:18:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e1705e1ecf5b6bab5af6013a",
+      "bodyFingerprint": "75b45a3cb80e0fedd8f889a0",
+      "bodyCharacterCount": 4539,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-19T03:33:03.898Z",
+      "assessment": {
+        "centralEvent": "The nation’s largest school districts consider ditching Google Search",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f1c91517466855db2fe4": {
+      "storyId": "f1c91517466855db2fe4",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/19/australia-has-a-reputation-for-being-the-most-secretive-democracy-in-the-world-new-laws-could-make-it-worse",
+      "title": "Australia has a reputation for being the most secretive democracy in the world. New laws could make it worse | Tom Sulston",
+      "source": "The Guardian AI",
+      "published": "2026-11-18T22:00:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e53ca5be73f5e4b68c531383",
+      "bodyFingerprint": "6b7cee05864c04705dda3fef",
+      "bodyCharacterCount": 5606,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-19T03:33:03.904Z",
+      "assessment": {
+        "centralEvent": "Australia has a reputation for being the most secretive democracy in the world. New laws could make it worse | Tom Sulston",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Since then, a succession of defence, anti-terror and surveillance bills over consecutive governments have stripped away parliamentary power in favour of executive power In this tradition, the government has been quiet about the accelerating",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Despite flagging changes to Australia’s criminal law, the government seems willing to accept criminal behaviour by AI companies in their desperate scramble for productivity.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "At the same time, tech corporations in the United States are expanding their customer base to include national defence departments.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.03,
+        "rawScore": 46.03,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "9cd84c2455ae281d32d9": {
+      "storyId": "9cd84c2455ae281d32d9",
+      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range",
+      "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T22:11:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "84994cd2385654581f5a9fe6",
+      "bodyFingerprint": "323a1b1e9c2b19d772e3127e",
+      "bodyCharacterCount": 3961,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-19T03:33:03.907Z",
+      "assessment": {
+        "centralEvent": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Most Popular Amazon and Google will together own nearly 30% of Anthropic after its IPO Julie Bort FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’ Zack Whittaker",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "34a1e26d29087d915476": {
+      "storyId": "34a1e26d29087d915476",
+      "url": "https://www.wired.com/story/guys-really-we-got-this",
+      "title": "Does Nvidia Got This? Interim CEO Colette Kress Says It’s Got This",
+      "source": "WIRED AI",
+      "published": "2026-11-18T22:16:23.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "201f12df82a55e6734030aef",
+      "bodyFingerprint": "be03f401e5887a72028401b7",
+      "bodyCharacterCount": 3868,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-19T03:33:04.073Z",
+      "assessment": {
+        "centralEvent": "Does Nvidia Got This? Interim CEO Colette Kress Says It’s Got This",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "And as part of her calming campaign, Kress has also been deploying a catchphrase that sounds like it was taken straight from the draft files of a summer of ’24 Democratic campaign strategist: “We’ve got this.” By WIRED’s count, Kress has pu",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6f9ed3e369658f97fd8e": {
+      "storyId": "6f9ed3e369658f97fd8e",
+      "url": "https://www.wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit",
+      "title": "Even His Own Officials Don’t Think Trump’s China Trip Will Lead to Progress on AI",
+      "source": "WIRED AI",
+      "published": "2026-11-18T22:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "24f0de366ca15562406ab2f8",
+      "bodyFingerprint": "08d6787901e724518ffdb14e",
+      "bodyCharacterCount": 4235,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-19T03:33:04.079Z",
+      "assessment": {
+        "centralEvent": "Even His Own Officials Don’t Think Trump’s China Trip Will Lead to Progress on AI",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It marked a direct intervention by Trump in response to the alleged role of Megaspeed in the Nvidia scandal and criticism that a firm with ties to China had gained access to advanced AI chips.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The rule could also prevent similar companies that might have their corporate parents in China from doing business with Nvidia, WIRED has previously reported .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Previously, he was a White House correspondent for The Guardian and is the 2022 recipient of the National Press Club award for political reporting.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.59,
+        "rawScore": 26.59,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.235,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "70c66430a512eaf9b69f": {
+      "storyId": "70c66430a512eaf9b69f",
+      "url": "https://news.sky.com/story/ai-giant-anthropic-raises-more-money-than-any-other-company-when-going-public-13613708",
+      "title": "Anthropic share price revealed ahead of stock market debut",
+      "source": "Sky News AI",
+      "published": "2026-11-18T19:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ee2f903147b6b6dd20b95830",
+      "bodyFingerprint": "20dfed7c9a3ca9e3a2adc002",
+      "bodyCharacterCount": 176,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-19T03:33:04.087Z",
+      "assessment": {
+        "centralEvent": "Anthropic share price revealed ahead of stock market debut",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-18T21:59:57.592Z"
+  "updatedAt": "2026-11-19T03:33:04.087Z"
 }
