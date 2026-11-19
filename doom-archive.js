@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-18T21:00:00.000Z",
+  "generatedAt": "2026-11-19T03:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-18",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
           "peak": 70.33,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-18",
           "firstObservedAt": "2026-11-18T14:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 70.33
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
           "peak": 70.16,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-18",
           "firstObservedAt": "2026-11-18T14:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 70.16
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
           "peak": 69.33,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-18",
           "firstObservedAt": "2026-11-18T14:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 69.33
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-18",
           "firstObservedAt": "2026-11-18T14:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 51.23
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 50.27,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-18",
           "firstObservedAt": "2026-11-18T14:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 50.27
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b2fd/live/c9c932d0-e324-11f1-99a1-253766e7ad8b.jpg",
           "peak": 49.09,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-18",
           "firstObservedAt": "2026-11-18T21:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 49.09
         },
         {
@@ -115,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-18",
           "firstObservedAt": "2026-11-18T14:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 49.01
         },
         {
@@ -143,11 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-1100x648.jpg",
           "peak": 48.67,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-18",
           "firstObservedAt": "2026-11-18T14:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 48.67
         }
       ]
@@ -11764,11 +11764,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
           "peak": 70.33,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 70.33
         },
         {
@@ -11778,11 +11778,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
           "peak": 70.16,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 3,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-17T04:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 70.16
         },
         {
@@ -11792,11 +11792,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
           "peak": 69.33,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T22:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 69.33
         },
         {
@@ -11806,11 +11806,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 51.23
         },
         {
@@ -11834,11 +11834,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "",
           "peak": 50.27,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 3,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T22:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 50.27
         },
         {
@@ -13665,11 +13665,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
           "peak": 70.33,
-          "observations": 5,
+          "observations": 6,
           "daysTracked": 2,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 70.33
         },
         {
@@ -13679,11 +13679,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
           "peak": 70.16,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 3,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-17T04:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 70.16
         },
         {
@@ -13693,11 +13693,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
           "peak": 69.33,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T22:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 69.33
         },
         {
@@ -13721,11 +13721,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 63,
+          "observations": 64,
           "daysTracked": 18,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-18T21:00:00.000Z",
+          "lastObservedAt": "2026-11-19T03:00:00.000Z",
           "average": 51.23
         },
         {
