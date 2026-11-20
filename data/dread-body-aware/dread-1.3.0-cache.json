@@ -383665,8 +383665,1192 @@
           "vulnerability": 0
         }
       }
+    },
+    "6d8bdce082370ecd3144": {
+      "storyId": "6d8bdce082370ecd3144",
+      "url": "https://www.inc.com/moses-jeanfrancois/anthropic-employees-enough-wealth-buy-9-percent-san-francisco-homes/91439826",
+      "title": "Anthropic Employees Now Hold Enough Wealth to Buy 9 Percent of San Francisco’s Homes. Sellers Aren’t Waiting for Them to Start Buying",
+      "source": "Inc. AI",
+      "published": "2026-11-20T03:04:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e662532095cecc347fe5281d",
+      "bodyFingerprint": "51560ac7e03b32a341b2f34d",
+      "bodyCharacterCount": 151,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-20T03:21:29.500Z",
+      "assessment": {
+        "centralEvent": "Anthropic Employees Now Hold Enough Wealth to Buy 9 Percent of San Francisco’s Homes. Sellers Aren’t Waiting for Them to Start Buying",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ad84405834598899fa48": {
+      "storyId": "ad84405834598899fa48",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "source": "TechCrunch AI",
+      "published": "2026-11-20T00:43:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ab0c63a83e6bc88c4cc25ccc",
+      "bodyFingerprint": "b50656c299ae547cc4917c39",
+      "bodyCharacterCount": 4436,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:29.537Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Just for comparison: When Facebook had its then record-breaking IPO in 2012, it raised $16 billion on IPO day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 37,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "dbe111187a465a8a1fe0": {
+      "storyId": "dbe111187a465a8a1fe0",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "source": "TechCrunch AI",
+      "published": "2026-11-20T00:56:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6ccaf73be5dace9961196f9c",
+      "bodyFingerprint": "b9156816ca62c624af966bb9",
+      "bodyCharacterCount": 3430,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:29.542Z",
+      "assessment": {
+        "centralEvent": "Apple may be developing its own AI agent that runs your Mac",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Most Popular Microsoft CEO Satya Nadella explains why he asked 60K employees to quit Julie Bort Amazon and Google will together own nearly 30% of Anthropic after its IPO Julie Bort Google joins the tech",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 19,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "165d32dea04bfb101c7c": {
+      "storyId": "165d32dea04bfb101c7c",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2q223z1jlo?at_campaign=rss&at_medium=RSS",
+      "title": "Why Canada is embracing AI data centres while the US pushes back",
+      "source": "BBC News AI",
+      "published": "2026-11-20T00:13:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "08daa721bef53344c478d67e",
+      "bodyFingerprint": "749ac2bca7bbd250ebb17368",
+      "bodyCharacterCount": 8506,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:29.663Z",
+      "assessment": {
+        "centralEvent": "Why Canada is embracing AI data centres while the US pushes back",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "By Nadine Yousif Senior Canada reporter Published 3 hours ago As Americans have grown increasingly sour on artificial intelligence (AI) data centre development, Canada's industry leaders are sensing an opportunity. \"Data centres in Canada l",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 45,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4bf8c6ef95b7239829d1": {
+      "storyId": "4bf8c6ef95b7239829d1",
+      "url": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_campaign=rss&at_medium=RSS",
+      "title": "How did Anthropic's stock market debut unfold?",
+      "source": "BBC News AI",
+      "published": "2026-11-19T23:52:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "edd30d9b3a3df1713f7c5ae1",
+      "bodyFingerprint": "558dc4916ecc24c972db1b39",
+      "bodyCharacterCount": 772,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:29.675Z",
+      "assessment": {
+        "centralEvent": "How did Anthropic's stock market debut unfold?",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Close Anthropic, the company behind AI chatbot Claude, closed 17% higher on its first day as a publicly traded company.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": true,
+          "segmentCount": 9,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e331df4bbad46ad6a219": {
+      "storyId": "e331df4bbad46ad6a219",
+      "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_campaign=rss&at_medium=RSS",
+      "title": "California targets Nvidia in China AI chip probe",
+      "source": "BBC News AI",
+      "published": "2026-11-19T23:04:30.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "172b1214b692b8b338e9771e",
+      "bodyFingerprint": "d665879d987e76688d247db9",
+      "bodyCharacterCount": 2396,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:29.699Z",
+      "assessment": {
+        "centralEvent": "California targets Nvidia in China AI chip probe",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Reuters By Lily Jamali North America Technology correspondent Published 4 hours ago California has served an investigative subpoena on the AI chip designer Nvidia in the wake of a scandal that ended in the departure of longtim",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b2c8d06dad1e2250e1f9": {
+      "storyId": "b2c8d06dad1e2250e1f9",
+      "url": "https://www.theguardian.com/technology/commentisfree/2026/nov/20/big-tech-is-already-building-datacentres-in-australia-why-is-labor-desperate-to-give-them-loopholes",
+      "title": "Big tech is already building datacentres in Australia. Why is Labor so desperate to give them loopholes?",
+      "source": "The Guardian AI",
+      "published": "2026-11-20T02:00:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cacae4fd586cb4bf1316b3ac",
+      "bodyFingerprint": "8f02278d7ca71bf72cd53696",
+      "bodyCharacterCount": 5162,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:29.709Z",
+      "assessment": {
+        "centralEvent": "Big tech is already building datacentres in Australia. Why is Labor so desperate to give them loopholes?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "First Nations artists are already having their work stolen and sold on platforms like Temu without permission or payment.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "If the government bends to AI companies, artists, creatives and journalists will be the sacrificial lamb – and Australia will become a global pariah",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.98,
+        "rawScore": 45.98,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.18,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b16dae3f77c4af4198f8": {
+      "storyId": "b16dae3f77c4af4198f8",
+      "url": "https://www.eff.org/deeplinks/2026/11/outage-chaos-who-turned-all-computer",
+      "title": "Outage Chaos: Who Turned Off All The Computer?",
+      "source": "EFF AI",
+      "published": "2026-11-19T23:30:50.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d5d53d68a7d550d7fce03e5a",
+      "bodyFingerprint": "a6ee338af26167c0f41f1533",
+      "bodyCharacterCount": 6835,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:29.723Z",
+      "assessment": {
+        "centralEvent": "Outage Chaos: Who Turned Off All The Computer?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "But after a major incident like the Microsoft cloud outage on November 12, any smaller disruption is more likely to become a story as part of a pattern instead of an isolated incident.",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Technical service outages are nothing new, but why do so many big ones seem to be happening all at once?",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Are hackers, AI, and international conflicts to blame?",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "But after a major incident like the Microsoft cloud outage on November 12, any smaller disruption is more likely to become a story as part of a pattern instead of an isolated incident.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 87,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.86,
+        "rawScore": 66.86,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.26,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4b22911b670922f3d97d": {
+      "storyId": "4b22911b670922f3d97d",
+      "url": "https://mashable.com/tech/google-gemini-control-macbook-apple",
+      "title": "You can finally use Google Gemini to control your MacBook",
+      "source": "Mashable AI",
+      "published": "2026-11-19T23:07:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3b032a8811fbe2888c94e9b3",
+      "bodyFingerprint": "0333f787b907685c8e086431",
+      "bodyCharacterCount": 3648,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:29.742Z",
+      "assessment": {
+        "centralEvent": "You can finally use Google Gemini to control your MacBook",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c50ae88809b45c3df898": {
+      "storyId": "c50ae88809b45c3df898",
+      "url": "https://mashable.com/tech/microsoft-ceo-satya-nadella-layoffs",
+      "title": "Microsoft CEO explains reason behind the 60,000 buyouts (its AI, of course)",
+      "source": "Mashable AI",
+      "published": "2026-11-19T22:10:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5c7559ba3f9c1ad8c42734d6",
+      "bodyFingerprint": "7a7539f1d7e4bb0da4616b2b",
+      "bodyCharacterCount": 3360,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:29.768Z",
+      "assessment": {
+        "centralEvent": "Microsoft CEO explains reason behind the 60,000 buyouts (its AI, of course)",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In a talk with Andrew Ross Sorkin at the New York Times ' DealBook Summit in New York City (as reported by TechCrunch ), Nadella addressed the buyout offer that made headlines in October.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c842cebd4bd1f2ab5a8a": {
+      "storyId": "c842cebd4bd1f2ab5a8a",
+      "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+      "title": "AI helps researchers investigate how thousands of medical studies share code",
+      "source": "MIT News AI",
+      "published": "2026-11-19T22:15:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0e91132be22e7e4880eeaa74",
+      "bodyFingerprint": "c9dd228289d09beb46c3eab1",
+      "bodyCharacterCount": 7414,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:29.815Z",
+      "assessment": {
+        "centralEvent": "AI helps researchers investigate how thousands of medical studies share code",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Such studies develop or evaluate models to estimate patient outcomes, such as the risk of developing a disease.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Some repositories were “extremely well-organized and -documented, while others gave almost no guidance at all,” Sounack says.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "This is where an international team led by researchers at MIT and Dana-Farber Cancer Institute sought to help, by examining how code is currently shared in clinical prediction studies.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.63,
+        "rawScore": 27.63,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.33,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "df28de10cb58d72f5a87": {
+      "storyId": "df28de10cb58d72f5a87",
+      "url": "https://www.politico.com/news/2026/11/19/rob-bonta-probes-nvidia-over-jensen-huang-scandal-01177017",
+      "title": "California attorney general opens probe into Nvidia over Jensen Huang scandal",
+      "source": "POLITICO AI",
+      "published": "2026-11-19T22:43:13.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8d20841ee346e657de3d71c6",
+      "bodyFingerprint": "56c78cfec24a8b133df84ba6",
+      "bodyCharacterCount": 75,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-20T03:21:29.817Z",
+      "assessment": {
+        "centralEvent": "California attorney general opens probe into Nvidia over Jensen Huang scandal",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "001e20945eceeac01202": {
+      "storyId": "001e20945eceeac01202",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300",
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T21:58:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2af7a19cd09681048434f9ed",
+      "bodyFingerprint": "396c47680ab422841344ea38",
+      "bodyCharacterCount": 2768,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:29.841Z",
+      "assessment": {
+        "centralEvent": "Meta’s new Muse Charm device may cost $300",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Newsletters See More Subscribe for the industry’s biggest tech news Related AI Apple may be developing its own AI agent that runs your Mac Lucas Ropek 2 hours ago Apps Superhuman pushes its Go assistant",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5aebf622386bee88211e": {
+      "storyId": "5aebf622386bee88211e",
+      "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-ipo-protests",
+      "title": "Protesters rally against Anthropic in New York and San Francisco after $2tn stock market debut",
+      "source": "The Guardian AI",
+      "published": "2026-11-19T21:52:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "deaba3e981c18126ef85796b",
+      "bodyFingerprint": "ec6e1e2160322fb4f7a52429",
+      "bodyCharacterCount": 4225,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:29.854Z",
+      "assessment": {
+        "centralEvent": "Protesters rally against Anthropic in New York and San Francisco after $2tn stock market debut",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "87b2502506d7cb89efaf": {
+      "storyId": "87b2502506d7cb89efaf",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style",
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T21:42:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5b8bc2d1dd5d3b268b8d7da8",
+      "bodyFingerprint": "2489c8b14f5c1ad3738835e7",
+      "bodyCharacterCount": 6238,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:29.881Z",
+      "assessment": {
+        "centralEvent": "These tech outages are giving Y2K, AI agent style",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“The fault is the rushed mix of the legacy and modern systems without a clear understanding of operational and cyber risk or the ability to gatekeep and protect the legacy systems.” Organizations need a more steadfast approach to AI adoptio",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The FAA had to ground all flights for hours (only the third time in history since 9/11), and Microsoft was hit with an outage that took down Outlook, Teams, and Copilot for nearly two days.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Here in the U.S., the director of National Intelligence said these outages don’t seem related to state-sponsored terrorism, while President Trump called the issues “individual events.” Many of the companies themselves have said the outages ",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 2,
+            "source": "body",
+            "excerpt": "DeWalt expects a rise in companies focused on “AI-driven vulnerability management, autonomous remediation, safe patch testing and deployment, and resilience for the systems that keep critical infrastructure running,” he said.",
+            "matchedRule": "/\\b(?:substantial effort|costly recovery|rebuild|restore|remediation|months to recover)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“The fault is the rushed mix of the legacy and modern systems without a clear understanding of operational and cyber risk or the ability to gatekeep and protect the legacy systems.” Organizations need a more steadfast approach to AI adoptio",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "It feels like every day brings another reminder that AI is moving faster than our ability to manage its consequences,” the senator wrote on X .",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.32,
+        "rawScore": 30.32,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.575,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 2,
+          "containment": 1,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7cdd1365e307bf1b98b2": {
+      "storyId": "7cdd1365e307bf1b98b2",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages",
+      "title": "What’s With All These Outages?",
+      "source": "WIRED AI",
+      "published": "2026-11-19T21:57:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0eefcc41a4c2ec53ac8eb972",
+      "bodyFingerprint": "3c3a2808454ef9b1b573587b",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:30.022Z",
+      "assessment": {
+        "centralEvent": "What’s With All These Outages?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Articles mentioned in this episode: Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself FAA Grounds All US Flights Until Further Notice The Microsoft Outage Is a Warning for the World The Bank Outage May Have Nothin",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Last Thursday, Microsoft had an outage in Outlook and Teams that was about 24 hours, which is incredibly long for those services to be out when the whole world basically depends on them to communicate.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "He's traveling with Trump in Asia this week, and he said in a press conference multiple times, \"We are not under systemic attack.\" Marco Rubio, archival audio : The first thing I want to make very clear is that we have zero evidence whatsoe",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Brian Barrett : Everything's broken and breaking, increasingly fixed.",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Brian Barrett : Everything's broken and breaking, increasingly fixed.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Sophie Kleeman : To give you two very, very, very distinct examples, yesterday my fantasy football group chat blew up because someone was like, \"Hey guys who follow this, and who are paying attention, are we under attack?\" And Brian, you'll",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 213,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.25,
+        "rawScore": 29.25,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.4775,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f8133dc16aac0ad50d90": {
+      "storyId": "f8133dc16aac0ad50d90",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "source": "The Verge AI",
+      "published": "2026-11-19T22:31:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9b8bd36b198f9a14f96626d4",
+      "bodyFingerprint": "c6330ed7f6b68d5515b933c7",
+      "bodyCharacterCount": 4142,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:30.041Z",
+      "assessment": {
+        "centralEvent": "Apple is hiring engineers to build its own AI agent",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Emma Roth AI Apple Apple Rumors News Tech Most Popular Most Popular The wait begins for GTA VI on PC Grand Theft Auto VI does something impossible — it lives up to the hype The first Nvidia RTX Spark mini PCs launch today from Asus, Dell, a",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 22,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a16a060150c59a522d90": {
+      "storyId": "a16a060150c59a522d90",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "source": "The Verge AI",
+      "published": "2026-11-19T21:59:35.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "42b4193aee2eeda94839626a",
+      "bodyFingerprint": "367c3a38e13ff00eb1cf9fef",
+      "bodyCharacterCount": 9498,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-20T03:21:30.049Z",
+      "assessment": {
+        "centralEvent": "A brief history of Nvidia’s recent stock fluctuations",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The memo coincided with the opening of an independent investigation by Nvidia’s board into Huang’s alleged misconduct and whether company secrets or national security had been compromised.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The share price closed at $213.66 on October 29th, down just 0.8 percent from the previous day. (Julian Barnes, one of the reporters on the story, later commented , “I will confess I was kind of surprised that the world’s initial reaction t",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The report centered on his “close relationship” with Alice Huang, a Chinese national and an executive at Megaspeed, a Singapore-based data center company and one of Nvidia’s clients.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The share price closed at $213.66 on October 29th, down just 0.8 percent from the previous day. (Julian Barnes, one of the reporters on the story, later commented , “I will confess I was kind of surprised that the world’s initial reaction t",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.02,
+        "rawScore": 48.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-19T21:40:16.863Z"
+  "updatedAt": "2026-11-20T03:21:30.050Z"
 }
