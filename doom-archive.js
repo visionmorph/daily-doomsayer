@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-19T21:00:00.000Z",
+  "generatedAt": "2026-11-20T03:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-19",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
           "peak": 70.33,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-19",
           "firstObservedAt": "2026-11-19T13:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 70.33
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
           "peak": 70.16,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-19",
           "firstObservedAt": "2026-11-19T13:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 70.16
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
           "peak": 69.33,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-19",
           "firstObservedAt": "2026-11-19T13:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 69.33
         },
         {
@@ -59,12 +59,54 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-19",
           "firstObservedAt": "2026-11-19T13:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 51.23
+        },
+        {
+          "storyId": "e47a989bf0c58877b271",
+          "title": "The Data Is the Target",
+          "url": "https://www.lawfaremedia.org/article/the-data-is-the-target",
+          "source": "Lawfare AI",
+          "image": "",
+          "peak": 49.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-19",
+          "firstObservedAt": "2026-11-20T03:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
+          "average": 49.83
+        },
+        {
+          "storyId": "6bdfccb498eb826a94e3",
+          "title": "Study reveals data centers’ long-distance damage to air quality",
+          "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+          "source": "MIT News AI",
+          "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Datacenter-Health-01-press.jpg?itok=GrhdbTzT",
+          "peak": 49.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-19",
+          "firstObservedAt": "2026-11-20T03:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
+          "average": 49.83
+        },
+        {
+          "storyId": "6844576f831e5af28e14",
+          "title": "The unfolding Jensen Huang scandal: a timeline",
+          "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "source": "TechCrunch AI",
+          "image": "",
+          "peak": 49.83,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-19",
+          "firstObservedAt": "2026-11-20T03:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
+          "average": 49.83
         },
         {
           "storyId": "8b9eeeba1795a3fec84e",
@@ -73,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b2fd/live/c9c932d0-e324-11f1-99a1-253766e7ad8b.jpg",
           "peak": 49.09,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-19",
           "firstObservedAt": "2026-11-19T13:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 49.09
         },
         {
@@ -87,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-19",
           "firstObservedAt": "2026-11-19T13:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 49.01
         },
         {
@@ -101,54 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-1100x648.jpg",
           "peak": 48.67,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-19",
           "firstObservedAt": "2026-11-19T13:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 48.67
-        },
-        {
-          "storyId": "93a898efbfedd251b80a",
-          "title": "Britain’s AI Assurance Approach Needs a Second Act",
-          "url": "https://techpolicy.press/britains-ai-assurance-approach-needs-a-second-act",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 48.59,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-11-19",
-          "firstObservedAt": "2026-11-19T13:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
-          "average": 48.59
-        },
-        {
-          "storyId": "25a4ca5f35209bfb4641",
-          "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-          "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-1024x648.jpg",
-          "peak": 48.34,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-11-19",
-          "firstObservedAt": "2026-11-19T13:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
-          "average": 48.34
-        },
-        {
-          "storyId": "c27d0683dfe4bf75255c",
-          "title": "'Synthetic Suspicion' and the Perils of AI-Prompted Police Actions",
-          "url": "https://techpolicy.press/synthetic-suspicion-and-the-perils-of-aiprompted-police-actions",
-          "source": "Tech Policy Press AI",
-          "image": "",
-          "peak": 48.34,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-11-19",
-          "firstObservedAt": "2026-11-19T13:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
-          "average": 48.34
         }
       ]
     },
@@ -11909,11 +11909,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
           "peak": 70.33,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 70.33
         },
         {
@@ -11923,11 +11923,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
           "peak": 70.16,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 4,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-17T04:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 70.16
         },
         {
@@ -11937,11 +11937,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
           "peak": 69.33,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 3,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T22:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 69.33
         },
         {
@@ -11951,11 +11951,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 11,
+          "observations": 12,
           "daysTracked": 4,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-16T11:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 51.23
         },
         {
@@ -13810,11 +13810,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
           "peak": 70.33,
-          "observations": 8,
+          "observations": 9,
           "daysTracked": 3,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T14:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 70.33
         },
         {
@@ -13824,11 +13824,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
           "peak": 70.16,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 4,
           "peakDate": "2026-11-16",
           "firstObservedAt": "2026-11-17T04:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 70.16
         },
         {
@@ -13838,11 +13838,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
           "peak": 69.33,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 3,
           "peakDate": "2026-11-17",
           "firstObservedAt": "2026-11-17T22:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 69.33
         },
         {
@@ -13866,11 +13866,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 66,
+          "observations": 67,
           "daysTracked": 19,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-19T21:00:00.000Z",
+          "lastObservedAt": "2026-11-20T03:00:00.000Z",
           "average": 51.23
         },
         {
