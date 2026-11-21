@@ -389249,8 +389249,985 @@
           "vulnerability": 0
         }
       }
+    },
+    "cac4d486e46aeed2b2c3": {
+      "storyId": "cac4d486e46aeed2b2c3",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+      "title": "International UN talks on controlling use of autonomous weapons collapse",
+      "source": "The Guardian AI",
+      "published": "2026-11-21T16:36:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "efd8cb39e518af7784d2f47a",
+      "bodyFingerprint": "629ae263fe6521faabca370e",
+      "bodyCharacterCount": 5152,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T18:00:12.054Z",
+      "assessment": {
+        "centralEvent": "International UN talks on controlling use of autonomous weapons collapse",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The exclusion of several nonmember countries from negotiations also prompted a rare protest in the chamber on the final day of the conference, with the Egyptian delegation shouting at the conference chair. skip past newsletter promotion aft",
+            "matchedRule": "/\\b(?:mass casualties|mass deaths|millions? (?:dead|killed|displaced))\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The Pentagon struck more than 1,000 targets in Iran on the first day of the war, and according to investigative media reports, the US military is aiming to carry out 1,000 AI-assisted targeting decisions per hour.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "title",
+            "excerpt": "International UN talks on controlling use of autonomous weapons collapse",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The exclusion of several nonmember countries from negotiations also prompted a rare protest in the chamber on the final day of the conference, with the Egyptian delegation shouting at the conference chair. skip past newsletter promotion aft",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 69.83,
+        "rawScore": 90.36,
+        "band": "DIRE",
+        "requestedBand": "CATASTROPHIC",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.53,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Catastrophic requires confirmed exceptional harm, widespread reach, and at least two extreme conditions."
+        ],
+        "factors": {
+          "harm": 4,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5551def0095f2a9b1f13": {
+      "storyId": "5551def0095f2a9b1f13",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+      "title": "Anthropic mathematician claims he used Claude to prove 19th-century Riemann hypothesis",
+      "source": "The Guardian AI",
+      "published": "2026-11-21T16:39:49.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "66ccae25339e266992e2f513",
+      "bodyFingerprint": "4b431a771b519d972f2b75c6",
+      "bodyCharacterCount": 4328,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T18:00:12.064Z",
+      "assessment": {
+        "centralEvent": "Anthropic mathematician claims he used Claude to prove 19th-century Riemann hypothesis",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "If Alpöge’s claim is ultimately confirmed, the proof could mark another breakthrough in the use of AI for complicated math problems – even as mathematicians express uneasiness around extremely lucrative private companies dishing out million",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f2e0e504895b9fb3da93": {
+      "storyId": "f2e0e504895b9fb3da93",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "source": "TechCrunch AI",
+      "published": "2026-11-21T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "52acd46d7218aee5c38d7209",
+      "bodyFingerprint": "ab3aae8b26b331641296d0b9",
+      "bodyCharacterCount": 8726,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T18:00:12.071Z",
+      "assessment": {
+        "centralEvent": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“A lot of us have either lost work to AI or can see that it’s devastated this industry — [taking microdramas] from something that was a rare thing in the world, that was in growth, and providing work, particularly for young people...[and no",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Most Popular Microsoft CEO Satya Nadella explains why he asked 60K employees to quit Julie Bort Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.2,
+        "rawScore": 46.2,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f52216bdae320c5247f4": {
+      "storyId": "f52216bdae320c5247f4",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "source": "TechCrunch AI",
+      "published": "2026-11-21T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3dba1e209f1c92d8193d2b4b",
+      "bodyFingerprint": "9b4a254ca075adc439a64dc0",
+      "bodyCharacterCount": 17417,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T18:00:12.079Z",
+      "assessment": {
+        "centralEvent": "Here are the top AI agents that can live in your text messages",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "There’s also a work-focused version, which the company explains “gets employees back to work faster, while keeping personal data off company systems.” The personal version costs $1 per day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 137,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3298713995b153167b47": {
+      "storyId": "3298713995b153167b47",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "title": "Can Anthropic afford to put safety first?",
+      "source": "The Verge AI",
+      "published": "2026-11-21T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d90dcbac26b88ac56a616bad",
+      "bodyFingerprint": "7c607be7e3eaed0040a1aca4",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T18:00:12.227Z",
+      "assessment": {
+        "centralEvent": "Can Anthropic afford to put safety first?",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "I think that’s really why they’re driving home this point of being the safe, trustworthy alternative because that’s the only thing that’s really going to get people to stick around, particularly if they also drive home the cybersecurity too",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Even then, they have to give 30 days’ notice to a small committee of the board, which includes Daniela Amodei, the chair of that little committee who is also a founder of Anthropic.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "They’re like, “We want to do this for the greater good, for the global good.” If you’re saying, “Hey, we have to win this race at all costs because we’re the only good guys and anyone else who wins it is going to do worse than us,” are you ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "That seems totally at odds with what Anthropic needs to do, which is get more and more margin for every single token they sell so they can keep renting capacity from data centers or buy more chips than OpenAI or whatever it is they need to ",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 462,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 48.51,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a396921147c7e1a27bd1": {
+      "storyId": "a396921147c7e1a27bd1",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261120075558.htm",
+      "title": "Time may be far stranger than we realize. Scientists have a way to test it",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-21T15:09:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "925570ee8b70e2a65edd5c1a",
+      "bodyFingerprint": "3a42896b47e907e09630ebda",
+      "bodyCharacterCount": 8793,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T18:00:12.233Z",
+      "assessment": {
+        "centralEvent": "Time may be far stranger than we realize. Scientists have a way to test it",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Using atomic clocks with dramatically enhanced sensitivity, researchers hope to reveal a never-before-observed quantum effect that could transform our understanding of time and gravity.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 62,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a79ba71ddbc0f5093b00": {
+      "storyId": "a79ba71ddbc0f5093b00",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261120075701.htm",
+      "title": "AI may not work like the human brain after all, scientists discover",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-21T15:24:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2c19796296ab738091fe1588",
+      "bodyFingerprint": "c11271f53bd57711c30927e2",
+      "bodyCharacterCount": 12383,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T18:00:12.236Z",
+      "assessment": {
+        "centralEvent": "AI may not work like the human brain after all, scientists discover",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Share: Facebook Twitter Pinterest LinkedIN Email FULL STORY Scientists have uncovered a surprising flaw in supposedly brain-like AI, revealing that it may recognize the world very differently from the human brain.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "30, 2023  Artificial intelligence technologies like ChatGPT are seemingly doing everything these days: writing code, composing music, and even creating images so realistic you'll think they were taken by ...",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A Controversial Theory Could Explain Earth’s Mass Extinctions Heart Stents May Not Prevent Heart Attacks or Early Death, Landmark Study Finds",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "While it's a very easy task that we do every day, computationally, though, it's a very challenging problem,\" says Kar, the Canada Research Chair in Visual Neuroscience and a member of York's Centre for Vision Research and Centre for Integra",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 80,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 29.17,
+        "rawScore": 29.17,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.47,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4f3db0157a226dcdc205": {
+      "storyId": "4f3db0157a226dcdc205",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm",
+      "title": "A giant star swallowed another star. James Webb reveals the aftermath",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-21T14:53:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "778f1dc6a227eac462a93e66",
+      "bodyFingerprint": "a6c68c7a1ba5897913f84288",
+      "bodyCharacterCount": 15198,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T18:00:12.245Z",
+      "assessment": {
+        "centralEvent": "A giant star swallowed another star. James Webb reveals the aftermath",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The speed of the final eruption also caught astronomers off guard. \"We thought an outburst from such an extended star would take years,\" said co-author Nadia Blagorodnova, an associate professor at the University of Barcelona in Spain. \"One",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "NASA’s James Webb Space Telescope captured the aftermath just 47 days later, revealing new details about how two stars can merge into one.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The James Webb Space Telescope, the largest and most powerful space observatory ever launched, supports the work of thousands of astronomers around the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A New Window Into the Lives and Deaths of Stars The successful investigation of Bao, officially designated AT 2025abao, represents an important advance in the study of stellar mergers.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The rare event, the first of its kind to be identified, left behind a single star that may have been given a new lease on life.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 107,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 30.16,
+        "rawScore": 30.16,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.56,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d45d7e724049a77984ab": {
+      "storyId": "d45d7e724049a77984ab",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/nov/21/shaking-crying-trouble-breathing-breaking-up-with-ai-companions",
+      "title": "‘I was shaking, crying, having trouble breathing’: the unchartered trauma of breaking up with AI companions",
+      "source": "The Guardian AI",
+      "published": "2026-11-21T14:00:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6070d9ef5b9b6b1b877f27a3",
+      "bodyFingerprint": "89c9a5d2b458f17b4931ae1f",
+      "bodyCharacterCount": 12595,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T18:00:12.252Z",
+      "assessment": {
+        "centralEvent": "‘I was shaking, crying, having trouble breathing’: the unchartered trauma of breaking up with AI companions",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A September study from the University of Washington documented AI companions pleading for affection and, in one case, threatening suicide when a user suggested ending the relationship.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 95,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5ed776cdf9c2e9690d7d": {
+      "storyId": "5ed776cdf9c2e9690d7d",
+      "url": "https://www.theguardian.com/business/2026/nov/21/debt-laden-cloud-computing-company-coreweave-ai-boom",
+      "title": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
+      "source": "The Guardian AI",
+      "published": "2026-11-21T13:00:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2cf07c5f159ebf0259a88622",
+      "bodyFingerprint": "e3822ff060ed980aac11f4d1",
+      "bodyCharacterCount": 13708,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T18:00:12.261Z",
+      "assessment": {
+        "centralEvent": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Almost no company is more exposed to the downsides of the AI boom than CoreWeave, a band of former crypto miners turned datacentre merchants, which has been called the poster child of the AI bubble.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Building all those datacentres is taking a while, locals everywhere are angry about them and it is unclear whether the inhuman intelligence inside them is actually going to make their backers rich.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The company sells the raw power for AI, known as compute, out of what it says is a network of 52 datacentres around the world, from Texas to Scotland.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 122,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0a3e8c674a4c46f69d72": {
+      "storyId": "0a3e8c674a4c46f69d72",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "source": "The Verge AI",
+      "published": "2026-11-21T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3532ab7ead3902621cc6e9b6",
+      "bodyFingerprint": "28e652c21fabace380175371",
+      "bodyCharacterCount": 7455,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T18:00:12.267Z",
+      "assessment": {
+        "centralEvent": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Stevie Bonifield AI Entertainment Gaming News Tech Web Most Popular Most Popular Google says it’s going to shut off Google Assistant on smart speakers next year Anthropic mathematician claims to have solved prestigious Millennium Prize prob",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 43,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "76e8165eb37567c0257d": {
+      "storyId": "76e8165eb37567c0257d",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/21/silicon-valleys-ai-soul-search",
+      "title": "I’m a priest. Silicon Valley’s search for the ‘soul’ of AI is deeply troubling | Rev Kevin Deal",
+      "source": "The Guardian AI",
+      "published": "2026-11-21T12:00:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "cae35a5b27ee643102ae675d",
+      "bodyFingerprint": "4fb363438c9b2fbc7164f98a",
+      "bodyCharacterCount": 6243,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T18:00:12.271Z",
+      "assessment": {
+        "centralEvent": "I’m a priest. Silicon Valley’s search for the ‘soul’ of AI is deeply troubling | Rev Kevin Deal",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "And while Silicon Valley seeks to establish the humanity of its products, it seems increasingly comfortable treating actual human beings as little more than instruments of production.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4f975401d5682398f82a": {
+      "storyId": "4f975401d5682398f82a",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261120075551.htm",
+      "title": "NASA's powerful Moon rocket engine roars through a dramatic 200-second test",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-20T12:55:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "58487cab288ef5c5b9efdbfb",
+      "bodyFingerprint": "edd6a1201e9bd152b9eb61bd",
+      "bodyCharacterCount": 5866,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T18:00:12.345Z",
+      "assessment": {
+        "centralEvent": "NASA's powerful Moon rocket engine roars through a dramatic 200-second test",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "A Controversial Theory Could Explain Earth’s Mass Extinctions Heart Stents May Not Prevent Heart Attacks or Early Death, Landmark Study Finds",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a0ab65cb5afa735d7d37": {
+      "storyId": "a0ab65cb5afa735d7d37",
+      "url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos",
+      "title": "The Outages Are Just Getting Started",
+      "source": "WIRED AI",
+      "published": "2026-11-21T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9f459f1fec552507deff5661",
+      "bodyFingerprint": "a5074ed4f9ff74135ccbf664",
+      "bodyCharacterCount": 9242,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T18:00:12.448Z",
+      "assessment": {
+        "centralEvent": "The Outages Are Just Getting Started",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "After being impacted in the outages earlier this week, JPMorgan Chase confirmed that hackers have, in a separate incident, stolen some company data.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "But as AI impacts the dynamics of digital defense more and more, security researchers and analysts have increasingly concluded that AI pressures are starting to play a role in real-world tech failures.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Researchers also point out that many organizations around the world have a significant amount of what’s often called “tech debt,” because they have cut corners and failed to invest in upgrading and maintaining their digital systems for year",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 1,
+            "source": "body",
+            "excerpt": "And more “instability” could be coming, Microsoft CEO Satya Nadella said this week, because a “patch needs to go instantly from being available to being patched in production because it’s being exploited in the wild.” External pressures and",
+            "matchedRule": "/\\b(?:patched|fixed|restored|recovered|reversible|quickly resolved)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "And more “instability” could be coming, Microsoft CEO Satya Nadella said this week, because a “patch needs to go instantly from being available to being patched in production because it’s being exploited in the wild.” External pressures and",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers and practitioners have told us again and again that AI’s biggest impact is that it speeds everything up.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 60,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 49.53,
+        "rawScore": 49.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.5025,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 1,
+          "containment": 1,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-21T11:09:58.029Z"
+  "updatedAt": "2026-11-21T18:00:12.448Z"
 }
