@@ -388222,8 +388222,523 @@
           "vulnerability": 0
         }
       }
+    },
+    "201ad5752fd75e25e064": {
+      "storyId": "201ad5752fd75e25e064",
+      "url": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi",
+      "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
+      "source": "WIRED AI",
+      "published": "2026-11-20T23:24:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c19266f6f6dee2f158e06392",
+      "bodyFingerprint": "68cd54cec8919b017b509b73",
+      "bodyCharacterCount": 6212,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T02:20:44.692Z",
+      "assessment": {
+        "centralEvent": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In the most dystopian development of all, a US Army battalion in Georgia granted 43 eligible soldiers four days off to play the new GTA in return for reenlisting for another two years of service.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 40,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1d5ddceb6f7e57d3aa2c": {
+      "storyId": "1d5ddceb6f7e57d3aa2c",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_campaign=rss&at_medium=RSS",
+      "title": "Can AI really help spot Black Friday deals? We put it to the test",
+      "source": "BBC News AI",
+      "published": "2026-11-21T00:06:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "603b21c682932361c9251774",
+      "bodyFingerprint": "ea22460183a70dbad173e86b",
+      "bodyCharacterCount": 7554,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T02:20:44.883Z",
+      "assessment": {
+        "centralEvent": "Can AI really help spot Black Friday deals? We put it to the test",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But consumer group Which? recently said inaccurate pricing in AI results added more work , external to Black Friday deal-hunting. \"If you ask ChatGPT for a list of 10 laptops under £400 and seven of the results are priced higher, you've lik",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images By Liv McMahon and Imran Rahman-Jones , Technology reporters Published 2 hours ago Whether it's scrolling through endless choice, spotting fake reviews, or working out if a \"deal\" is a deal at all, Black Friday su",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Slim pickings While we were served up the same brands again and again, in reality there are tonnes of products listed for sale around Black Friday.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.19,
+        "rawScore": 47.19,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.29,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3d08251616727e19e357": {
+      "storyId": "3d08251616727e19e357",
+      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_campaign=rss&at_medium=RSS",
+      "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+      "source": "BBC News AI",
+      "published": "2026-11-20T23:08:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "933522f1e2fcf537f7f3b7d2",
+      "bodyFingerprint": "1cf50134aa4a8dfdb9b3f2bb",
+      "bodyCharacterCount": 3736,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T02:20:44.888Z",
+      "assessment": {
+        "centralEvent": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The problem was part of the Navier-Stokes equations, which concern how fluids move.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Reuters Image caption, Anthropic just went public with a major IPO this week By Kali Hays Technology reporter Published 3 hours ago An Anthropic employee and mathematician claims to have used the company's artificial intellige",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It is a nearly 170-year-old maths problem that deals with prime numbers and is widely considered to be the single most famous problem in maths, in large part due to how complex it is.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d0c489704cb38d1ef202": {
+      "storyId": "d0c489704cb38d1ef202",
+      "url": "https://mashable.com/tech/signal-blocks-screenshots-ai-assistants",
+      "title": "Signal blocking screenshots to keep AI assistants out of private chats",
+      "source": "Mashable AI",
+      "published": "2026-11-20T21:14:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e97671a9d9f4ba2904a40f82",
+      "bodyFingerprint": "92156be6cf01673295fa7fa2",
+      "bodyCharacterCount": 4201,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T02:20:44.992Z",
+      "assessment": {
+        "centralEvent": "Signal blocking screenshots to keep AI assistants out of private chats",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Once it has the text, Signal has no say in whether the assistant processes it on the phone or sends it to a remote server, according to their blog post.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b2926e8e7f4e634ac812": {
+      "storyId": "b2926e8e7f4e634ac812",
+      "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
+      "title": "New approach enables physically consistent AI models of chaotic systems",
+      "source": "MIT News AI",
+      "published": "2026-11-20T20:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d3615fb0bb4f4e8c5594d452",
+      "bodyFingerprint": "2441045763fe88b25b6d97c7",
+      "bodyCharacterCount": 9845,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T02:20:45.009Z",
+      "assessment": {
+        "centralEvent": "New approach enables physically consistent AI models of chaotic systems",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Now, researchers with MIT’s Laboratory for Information and Decision Systems (LIDS) have found a way to introduce physics-based restrictions on machine learning models that can ensure that such models never exceed realistic bounds, based on ",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "ff62a6d0a83feae45bdb": {
+      "storyId": "ff62a6d0a83feae45bdb",
+      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar",
+      "title": "Google rolls out new search homepage with AI chat history and no search button",
+      "source": "Ars Technica AI",
+      "published": "2026-11-20T21:58:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e2150729f423355c5afd8165",
+      "bodyFingerprint": "cc224bb262c9f57ca6d73e0c",
+      "bodyCharacterCount": 3649,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T02:20:45.135Z",
+      "assessment": {
+        "centralEvent": "Google rolls out new search homepage with AI chat history and no search button",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Google search VP Robby Stein confirmed on X that Google is deploying the new desktop search page after a successful test.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 38,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "66eae4612900f2e7c8ef": {
+      "storyId": "66eae4612900f2e7c8ef",
+      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+      "source": "Ars Technica AI",
+      "published": "2026-11-20T21:47:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0e29874ead191a3ff9ca13be",
+      "bodyFingerprint": "3882b7b8d25f565b4a0c74ef",
+      "bodyCharacterCount": 5574,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-21T02:20:45.138Z",
+      "assessment": {
+        "centralEvent": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The publication Data Center Dynamics pointed out that “Meta is the only hyperscaler to report indirect water use, a growing concern as data centers shift to closed-loop cooling systems that, despite using less water at source, require more ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "That revelation in Meta’s latest sustainability report comes as the company reported a record percentage increase in greenhouse gas emissions that exceeds any other Big Tech competitor racing to build new AI data centers.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The company’s 2026 sustainability report claims that “our long-term ambitions haven’t changed, but our operating environment has,” according to an introduction from Rachel Peterson, vice president of data centers at Meta, and Blair Swedeen,",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d14f4134996d05ef9940": {
+      "storyId": "d14f4134996d05ef9940",
+      "url": "https://www.nature.com/articles/d41586-026-03812-7",
+      "title": "Mathematician says he and AI solved Riemann hypothesis — the field’s biggest outstanding challenge",
+      "source": "Nature AI News & Comment",
+      "published": "2026-11-20T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "397a1a1722a3a99b7618b197",
+      "bodyFingerprint": "30450dbf13ee8e14746cc665",
+      "bodyCharacterCount": 99,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-21T02:20:45.857Z",
+      "assessment": {
+        "centralEvent": "Mathematician says he and AI solved Riemann hypothesis — the field’s biggest outstanding challenge",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-20T21:09:49.843Z"
+  "updatedAt": "2026-11-21T02:20:45.857Z"
 }
