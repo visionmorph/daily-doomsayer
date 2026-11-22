@@ -390755,8 +390755,664 @@
           "vulnerability": 0
         }
       }
+    },
+    "bcfbfc0dfa7b8ecf5ea0": {
+      "storyId": "bcfbfc0dfa7b8ecf5ea0",
+      "url": "https://www.bbc.co.uk/news/articles/c68x08nzpk9no?at_campaign=rss&at_medium=RSS",
+      "title": "RAF's next fighter jet could be last crewed combat plane, air chief says",
+      "source": "BBC News AI",
+      "published": "2026-11-22T14:19:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e4ca73eb12cfac0c5290115e",
+      "bodyFingerprint": "eb1f17895ec04e0abcc57d34",
+      "bodyCharacterCount": 2586,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T15:22:16.631Z",
+      "assessment": {
+        "centralEvent": "RAF's next fighter jet could be last crewed combat plane, air chief says",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, BAE Systems/PA Wire Image caption, A computer-generated concept model of the next generation aircraft the Tempest By Florence Freeman Published 1 hour ago Britain's next-generation fighter jet could be the last crewed combat a",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 18,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6d0928a00e731df14d38": {
+      "storyId": "6d0928a00e731df14d38",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/22/grand-theft-auto-vi-gaming",
+      "title": "As the real world falls apart, Grand Theft Auto looks more and more appealing | Dave Schilling",
+      "source": "The Guardian AI",
+      "published": "2026-11-22T12:00:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d6a1643ccfb1634f74382bf0",
+      "bodyFingerprint": "a96fe27dd2856e1067f549fa",
+      "bodyCharacterCount": 7647,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T15:22:16.643Z",
+      "assessment": {
+        "centralEvent": "As the real world falls apart, Grand Theft Auto looks more and more appealing | Dave Schilling",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The anticipation built to a fever pitch, with gaming enthusiasts practically going feral at the prospect of finally getting to schlep groceries and engage in casual bird-watching after brutally running over a pedestrian with a stolen Porsch",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "This plan seems to be a huge success for everyone but actual human beings with normal, non-billionaire lives.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Millions around the world checked out of their usual responsibilities in order to immerse themselves in a game where you run errands for your girlfriend in between murdering people.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Sorting through a health insurance claim is almost as annoying as a boss fight in a classic Sonic the Hedgehog game – repeated button-smashing, gnashed teeth, and frayed nerves.",
+            "matchedRule": "/\\b(?:repeated|recurring|ongoing pattern|pattern of|again and again)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 59,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.52,
+        "rawScore": 47.52,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.32,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 3,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d7f78a9d79cb8accb7fb": {
+      "storyId": "d7f78a9d79cb8accb7fb",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/will-fragile-bipartisanship-on-ai-survive-silly-season-or-is-parliament-heading-for-a-holiday-meltdown-the-agenda",
+      "title": "Will fragile bipartisanship on AI survive the silly season, or is parliament heading for a holiday meltdown? | Josh Butler",
+      "source": "The Guardian AI",
+      "published": "2026-11-22T14:00:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3c8c20234a17e0b7f6675df9",
+      "bodyFingerprint": "78bc5123efb1a7a152a78521",
+      "bodyCharacterCount": 6976,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T15:22:16.650Z",
+      "assessment": {
+        "centralEvent": "Will fragile bipartisanship on AI survive the silly season, or is parliament heading for a holiday meltdown? | Josh Butler",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But the shadow attorney general, Michaelia Cash, labelled the potential music carveout a “ham-fisted tactic”, saying property should not be “stolen”.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to advance notes, she will say the development of AI must not “reward speed over prudence” and urge a “shared, global endeavour” which Australia wants to help shape.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "According to advance notes, she will say the development of AI must not “reward speed over prudence” and urge a “shared, global endeavour” which Australia wants to help shape.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e8029993afd719ae8379": {
+      "storyId": "e8029993afd719ae8379",
+      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "title": "The vibe-coding revolution is coming to all the gadgets",
+      "source": "The Verge AI",
+      "published": "2026-11-22T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e7456669ba4f1700b60505a8",
+      "bodyFingerprint": "3f6801f0da7c0ad1d2f9c3c0",
+      "bodyCharacterCount": 13055,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T15:22:16.662Z",
+      "assessment": {
+        "centralEvent": "The vibe-coding revolution is coming to all the gadgets",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "“If that camera can be hacked with AI vibe coded 3rd party firmware to change its functions and features, is it still the same camera?” Just as AI is being used to revive and improve old gadgets, The Verge ’s Andrew Webster found that so to",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "David Pierce AI Column Tech The Stepback Most Popular Most Popular Teenage Engineering’s first CD player puts the spinning disc on display Google says it’s going to shut off Google Assistant on smart speakers next year Harbinger is building",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It became one of the most popular repositories on GitHub, got thousands of pull requests and feature ideas, and inspired countless people to point their own chatbot at their big screen.",
+            "matchedRule": "/\\b(?:thousands|hundreds)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "As Ritchie Roesch wrote recently at Fuji X Weekly , “It’s not so much if someone’s camera will become a permanent paperweight, it’s a matter of when and how many, and whether it will be yours.” The safer (and less litigious ) route for the ",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 96,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.84,
+        "rawScore": 48.84,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.44,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 2,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "908f6f932c5c3b988be4": {
+      "storyId": "908f6f932c5c3b988be4",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/22/why-i-wont-leave-mathematics-despite-ai-solving-centuries-old-problems",
+      "title": "Why I won’t leave mathematics, despite AI solving centuries-old problems | Ken Ono",
+      "source": "The Guardian AI",
+      "published": "2026-11-22T11:00:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "54ee8dc7f4e7257087f6a3fa",
+      "bodyFingerprint": "7f6e247a8835c03de41c4e66",
+      "bodyCharacterCount": 6159,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T15:22:16.668Z",
+      "assessment": {
+        "centralEvent": "Why I won’t leave mathematics, despite AI solving centuries-old problems | Ken Ono",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "I cannot ask a graduate student to regard uncertainty as an adventure because I have found rewarding work within it.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "‘After 24 days of work, I watched the final milestones land on my laptop.’ Photograph: Trish Gant/Alamy View image in fullscreen ‘After 24 days of work, I watched the final milestones land on my laptop.’ Photograph: Trish Gant/Alamy Why I w",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "These views do not necessarily reflect those of Axiom Math, the University of Virginia, the National Academies, or any other institution with which I am affiliated.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 74,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.68,
+        "rawScore": 27.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.335,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "929307f066c8592e072f": {
+      "storyId": "929307f066c8592e072f",
+      "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_campaign=rss&at_medium=RSS",
+      "title": "South Korea education minister resigns over exam cheating scandal",
+      "source": "BBC News AI",
+      "published": "2026-11-22T09:20:45.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1ab30b2aebf2b89b56cb43f8",
+      "bodyFingerprint": "e066b519a42f6410472e46a8",
+      "bodyCharacterCount": 3451,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T15:22:16.678Z",
+      "assessment": {
+        "centralEvent": "South Korea education minister resigns over exam cheating scandal",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Image source, EPA/Shutterstock Image caption, South Korean high school pupils in Daegu check their answers, a day after the annual college entrance exam \"As the minister in charge, I believe I cannot escape criticism that we failed to prepa",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Figure caption, How South Korea tackles cheating on its college entrance exam By Jaroslav Lukiv Published 6 hours ago South Korea's Education Minister Choi Kyo-jin has resigned over an exam cheating scandal that shocked the nation.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "A week ago, the top scorer in the national tax accountancy exam admitted using a mini-camera, mobile phone and AI tools.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "This prompted officials to act urgently to detect hidden devices, including sending emergency alerts to every single mobile phone in the country.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.02,
+        "rawScore": 28.02,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "eddbf49d13f44b73fcaf": {
+      "storyId": "eddbf49d13f44b73fcaf",
+      "url": "https://www.theguardian.com/science/2026/nov/22/red-cross-warns-too-late-regulate-autonomous-weapons-united-nations",
+      "title": "It will soon be too late to regulate use of autonomous weapons, warns Red Cross",
+      "source": "The Guardian AI",
+      "published": "2026-11-22T09:00:22.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3b53a42c3478e2d908d41611",
+      "bodyFingerprint": "c3e3f1da0c52c7bb94a44a92",
+      "bodyCharacterCount": 5707,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T15:22:16.685Z",
+      "assessment": {
+        "centralEvent": "It will soon be too late to regulate use of autonomous weapons, warns Red Cross",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Warning about putting ‘genie back in the bottle’ comes as UN conference fails to agree on regulation instrument The International Committee of the Red Cross and rights groups have warned that it will soon be too late to put the “genie back ",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Warning about putting ‘genie back in the bottle’ comes as UN conference fails to agree on regulation instrument The International Committee of the Red Cross and rights groups have warned that it will soon be too late to put the “genie back ",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Warning about putting ‘genie back in the bottle’ comes as UN conference fails to agree on regulation instrument The International Committee of the Red Cross and rights groups have warned that it will soon be too late to put the “genie back ",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 33,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c0e0b6535da09ab2a790": {
+      "storyId": "c0e0b6535da09ab2a790",
+      "url": "https://mashable.com/tech/nov-22-chatplayground-ai-unlimited-plan-lifetime-subscriptions",
+      "title": "Compare ChatGPT, Gemini, DeepSeek, and other AI models — stop juggling AI tabs for $54.97",
+      "source": "Mashable AI",
+      "published": "2026-11-22T09:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "46b280aa96659a5d7215b4ea",
+      "bodyFingerprint": "c8efd20cd5689f5eeefb5b91",
+      "bodyCharacterCount": 3062,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T15:22:16.779Z",
+      "assessment": {
+        "centralEvent": "Compare ChatGPT, Gemini, DeepSeek, and other AI models — stop juggling AI tabs for $54.97",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Since it’s a lifetime purchase, you won’t have another monthly subscription to keep track of, although you’ll need to redeem your code within 30 days of purchase.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6b55ef71c32ff32b2089": {
+      "storyId": "6b55ef71c32ff32b2089",
+      "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents",
+      "title": "Banks Have Had It Up to Here With Your AI Agent",
+      "source": "WIRED AI",
+      "published": "2026-11-22T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "00803a88e0efb965d0f61545",
+      "bodyFingerprint": "2260e1da9e1a3572b8c3f0fa",
+      "bodyCharacterCount": 7086,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T15:22:17.010Z",
+      "assessment": {
+        "centralEvent": "Banks Have Had It Up to Here With Your AI Agent",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "While Kim expects some consumers to feel like it's unfair to be held accountable for their agent’s mistakes, she doesn’t expect these policy moves by financial institutions to scare off the early-adopter crowd already in deep and using the ",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Save this story Save this story Wells Fargo is set to enact an updated agreement with millions of customers, specifically about AI agents , starting on Tuesday.",
+            "matchedRule": "/\\b(?:millions|hundreds of thousands)\\b.*\\b(?:people|users|workers|patients|students|customers)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Amazon, one of the largest online retailers, blocked Meta’s Muse, one of the most widely used AI agents, from making purchases on its platform.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 54,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.53,
+        "rawScore": 26.53,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-22T06:55:06.663Z"
+  "updatedAt": "2026-11-22T15:22:17.011Z"
 }
