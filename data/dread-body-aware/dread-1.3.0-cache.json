@@ -391411,8 +391411,812 @@
           "vulnerability": 0
         }
       }
+    },
+    "0a3f026f3a8e88bda835": {
+      "storyId": "0a3f026f3a8e88bda835",
+      "url": "https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy",
+      "title": "Jensen Huang’s reported affair was ‘most expensive sex since Helen of Troy’, US senator says",
+      "source": "The Guardian AI",
+      "published": "2026-11-22T20:23:36.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2258fc97b85068e5c3177d57",
+      "bodyFingerprint": "b5f9d6adf469e74edd54e60b",
+      "bodyCharacterCount": 4231,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T21:49:25.897Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang’s reported affair was ‘most expensive sex since Helen of Troy’, US senator says",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "Host Kristen Welker asked Kennedy, known for his colloquialisms, if US national security was put at risk by Huang’s affair, given the position his company’s chips have occupied at the forefront of the artificial intelligence boom.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "View image in fullscreen John Kennedy speaks to the media on 10 November, the day of the Senate Republican caucus leadership elections at the US Capitol in Washington DC.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "His ties to Nvidia may spell his downfall Read more Alice Huang, also known as Huang Le, had been executive director of Megaspeed International.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 29,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0162d4886027e7025e58": {
+      "storyId": "0162d4886027e7025e58",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds",
+      "title": "Datacentre bosses met Australian state premiers and ministers almost 120 times in three years, analysis finds",
+      "source": "The Guardian AI",
+      "published": "2026-11-22T19:00:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7732f68aab8fb799a297953a",
+      "bodyFingerprint": "226507b8c1f8a0be431f7673",
+      "bodyCharacterCount": 6299,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T21:49:25.915Z",
+      "assessment": {
+        "centralEvent": "Datacentre bosses met Australian state premiers and ministers almost 120 times in three years, analysis finds",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "‘Communities are really angry’: how Australia’s datacentre opposition has gone from marginal to mainstream in five months Read more This included three meetings in as many weeks in August and September with Australia’s largest datacentre op",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Datacentres to create 70% more carbon emissions by 2030, IEA report warns Australians are yet to see the benefits of AI and datacentres – and US midterms show they could be political kryptonite Firmus pulls biggest ASX float since Telstra a",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Transparency International says Queensland’s David Crisafulli was ‘by far the most frequently accessed’ state leader, with 13 meetings",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "883b69d3f986860bffa5": {
+      "storyId": "883b69d3f986860bffa5",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "source": "TechCrunch AI",
+      "published": "2026-11-22T21:14:07.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d2a05843d7637cf747df4463",
+      "bodyFingerprint": "5ce1b241de6a981b72a58832",
+      "bodyCharacterCount": 3556,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T21:49:25.923Z",
+      "assessment": {
+        "centralEvent": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Most Popular Startup sues Apple in India over tap-to-share contacts feature Jagmeet Singh AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too Tim Fernholz Microsoft CEO S",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "90213ffb47d84b68b181": {
+      "storyId": "90213ffb47d84b68b181",
+      "url": "https://www.politico.com/news/2026/11/22/catholic-church-ai-regulation-lobbying-01179266",
+      "title": "American bishops plan for ‘groundswell’ of political action for AI regulation",
+      "source": "POLITICO AI",
+      "published": "2026-11-22T19:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "838c2cc63016e84584d15f44",
+      "bodyFingerprint": "352cd7105fbd7c16f04b7c39",
+      "bodyCharacterCount": 179,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-22T21:49:25.927Z",
+      "assessment": {
+        "centralEvent": "American bishops plan for ‘groundswell’ of political action for AI regulation",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8af39869d610a0737868": {
+      "storyId": "8af39869d610a0737868",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/22/stopped-talking-to-husband-let-ai-do-it-instead",
+      "title": "I stopped talking to my husband and let AI do it instead. He didn’t even notice | Polly Hudson",
+      "source": "The Guardian AI",
+      "published": "2026-11-22T16:00:31.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "66156ecb2724c92552a4344d",
+      "bodyFingerprint": "5f2f3ca7e5f7da9613c68419",
+      "bodyCharacterCount": 2696,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T21:49:25.943Z",
+      "assessment": {
+        "centralEvent": "I stopped talking to my husband and let AI do it instead. He didn’t even notice | Polly Hudson",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Because that-which-shall-eventually-rule could tell I’d used its proposed sentences, it was encouraged, and proposed more, which I was tutting and scoffing at until it recommended a reply that ended with the nickname I call my husband.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "47b2738e2872fd88c166": {
+      "storyId": "47b2738e2872fd88c166",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "source": "TechCrunch AI",
+      "published": "2026-11-22T18:08:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d08740f035c68dd10f573c9f",
+      "bodyFingerprint": "f1fd1b66af740f0bb97341d8",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T21:49:25.955Z",
+      "assessment": {
+        "centralEvent": "Why data centers are at the center of the Big Tech backlash",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Paired with that, there has been this massive environmental cost [...] but there’s also this massive and growing social cost, when you think about the mental health impacts of chatbot dependence, of all the false information that pervades s",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Sign up for our waitlist Register Now Most Popular Startup sues Apple in India over tap-to-share contacts feature Jagmeet Singh AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too Tim Fernholz Microsoft CEO S",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "They have pivoted, instead, to focus on the water question, where I think that they feel that they can use more abstract national figures in order to confuse the public about what’s going on.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Then when I got there, they had to check the passport, and then as we were going through the data center itself, every single door in the data center was locked unless you had a key card to unlock it.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 105,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.02,
+        "rawScore": 48.02,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "28c764e2cf8a36efd027": {
+      "storyId": "28c764e2cf8a36efd027",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "source": "The Verge AI",
+      "published": "2026-11-22T17:25:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b57f42dd3f6de0cea8d7c759",
+      "bodyFingerprint": "15da851f3a7657678960729f",
+      "bodyCharacterCount": 3577,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T21:49:25.994Z",
+      "assessment": {
+        "centralEvent": "Binding of Isaac developer removes AI music from Repentance Plus",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Terrence O'Brien AI Entertainment Gaming Music News Most Popular Most Popular Teenage Engineering’s first CD player puts the spinning disc on display The vibe-coding revolution is coming to all the gadgets Google says it’s going to shut off",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3a5bbb048817de73bb4a": {
+      "storyId": "3a5bbb048817de73bb4a",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261120075604.htm",
+      "title": "AI uncovers hidden bladder cancer warning signs years before diagnosis",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-22T03:43:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "f7f5eab4ead7915e72504f4f",
+      "bodyFingerprint": "85b67646ffc56d89e3de2787",
+      "bodyCharacterCount": 12772,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T21:49:26.239Z",
+      "assessment": {
+        "centralEvent": "AI uncovers hidden bladder cancer warning signs years before diagnosis",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Helen Winter, Clinical Director for the Somerset, Wiltshire, Avon and Gloucestershire (SWAG) Cancer Alliance, emphasized the importance of developing better screening methods. \"Bladder cancer has a major unmet need in early detection and th",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Importantly, the system demonstrated effective detection as early as 12 months before a patient's official diagnosis.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Credit: Shutterstock Bladder cancer kills approximately 220,000 people worldwide each year, yet recognizing the disease early can be difficult.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Explore More from ScienceDaily RELATED STORIES AI Discovers a Hidden Heart Signal That Could Predict Sudden Death Nov.",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Scientists have developed an AI tool that can uncover hidden warning signs of bladder cancer up to five years before diagnosis, identifying 85% of cases in a major study involving nearly 70,000 patients.",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Helen Winter, Clinical Director for the Somerset, Wiltshire, Avon and Gloucestershire (SWAG) Cancer Alliance, emphasized the importance of developing better screening methods. \"Bladder cancer has a major unmet need in early detection and th",
+            "matchedRule": "/\\b(?:children|patients|elderly|disabled people|low-income|victims of abuse)\\b.*\\b(?:harmed|targeted|exposed|affected|at risk)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 6 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 81,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 71.34,
+        "rawScore": 71.34,
+        "band": "DIRE",
+        "requestedBand": "DIRE",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.6675,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 3,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 3
+        }
+      }
+    },
+    "fcc4f724f2541fd9bcd2": {
+      "storyId": "fcc4f724f2541fd9bcd2",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261121221126.htm",
+      "title": "A mysterious gap hints at black holes born from stars that never exploded",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-22T11:46:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3ba020baca27e5b10ae937ac",
+      "bodyFingerprint": "d738cd70333f7344fbab4431",
+      "bodyCharacterCount": 10709,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T21:49:26.243Z",
+      "assessment": {
+        "centralEvent": "A mysterious gap hints at black holes born from stars that never exploded",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers found that these events could explain chemical patterns seen in ...",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 73,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "acbba396a2d40264a078": {
+      "storyId": "acbba396a2d40264a078",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261120071305.htm",
+      "title": "Interstellar solar sails hit a bizarre problem at 75% of light speed",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-22T11:59:29.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "82bb68ec5e279a36ffd0c3ac",
+      "bodyFingerprint": "ce6d782cd557c746e7f36495",
+      "bodyCharacterCount": 11695,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T21:49:26.252Z",
+      "assessment": {
+        "centralEvent": "Interstellar solar sails hit a bizarre problem at 75% of light speed",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "This creates a tiny pushing force known as radiation pressure.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "4, 2023  In giant clusters of hundreds or thousands of galaxies, innumerable stars wander among the galaxies like lost souls, emitting a ghostly haze of light.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "A Controversial Theory Could Explain Earth’s Mass Extinctions Heart Stents May Not Prevent Heart Attacks or Early Death, Landmark Study Finds",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 87,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.85,
+        "rawScore": 27.85,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.35,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d51d44db1c2845b0daf1": {
+      "storyId": "d51d44db1c2845b0daf1",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261120075602.htm",
+      "title": "Einstein’s relativity just upended a fundamental rule of chemistry",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-20T12:56:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "5b65a46cb5c8fb0285e11fd2",
+      "bodyFingerprint": "bd91416a270c6fd1eaed8a6b",
+      "bodyCharacterCount": 10348,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T21:49:26.312Z",
+      "assessment": {
+        "centralEvent": "Einstein’s relativity just upended a fundamental rule of chemistry",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Researchers found direct evidence that Einstein's theory of relativity changes how heavy atoms form triple bonds, causing normally distinct types of chemical bonds to blend together.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 79,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "85136eb4a61d9e63399f": {
+      "storyId": "85136eb4a61d9e63399f",
+      "url": "https://techpolicy.press/julin-posada-on-the-people-powering-ai-and-the-platforms-exploiting-them",
+      "title": "Julián Posada on the People Powering AI and the Platforms Exploiting Them",
+      "source": "Tech Policy Press AI",
+      "published": "2026-11-22T15:49:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c75dc644f3fa3b9fb5f49107",
+      "bodyFingerprint": "6aa70a151301ff8e39eef539",
+      "bodyCharacterCount": 18023,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-22T21:49:26.600Z",
+      "assessment": {
+        "centralEvent": "Julián Posada on the People Powering AI and the Platforms Exploiting Them",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "And this data collection process then starting in 2020, 2021, completely remote because of the pandemic restrictions and also made actually this case study not only about Venezuela, but also about the pandemic times and how it affected data",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 154,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-22T15:22:17.011Z"
+  "updatedAt": "2026-11-22T21:49:26.600Z"
 }
