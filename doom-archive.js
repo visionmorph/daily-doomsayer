@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-23T12:00:00.000Z",
+  "generatedAt": "2026-11-24T00:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-23",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "https://www.sciencedaily.com/images/1920/glowing-urinary-bladder-cancer.webp",
           "peak": 71.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
           "average": 71.34
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Datacenter-Health-01-press.jpg?itok=GrhdbTzT",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
           "average": 49.83
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6b00ba06fb286bb31d23be2b/master/pass/Kernel-Panic-Brace-for-More-Outages-Security.jpg",
           "peak": 49.53,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
           "average": 49.53
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
           "average": 49.01
         },
         {
@@ -109,17 +109,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 48.67
         },
         {
+          "storyId": "a2b7f9f35e547e98971f",
+          "title": "Goodbye, World: The End of Programmers",
+          "url": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6afb501c3f280c58f990fcf3/master/pass/WIRED-MREnglish-AaronFernandez-01.png",
+          "peak": 48.67,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-23",
+          "firstObservedAt": "2026-11-24T00:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
+          "average": 48.67
+        },
+        {
           "storyId": "29c6398dc2aba28f7ebb",
           "title": "Following the “mathocalypse,” mathematicians consider the future",
           "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Math-AI-01-press.jpg?itok=kKHwiUOm",
           "peak": 48.51,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
           "average": 48.51
         },
         {
@@ -135,20 +149,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
           "lastObservedAt": "2026-11-23T12:00:00.000Z",
           "average": 48.51
-        },
-        {
-          "storyId": "25a4ca5f35209bfb4641",
-          "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-          "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-1024x648.jpg",
-          "peak": 48.34,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-23",
-          "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
-          "average": 48.34
         }
       ]
     },
@@ -12489,11 +12489,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "https://www.sciencedaily.com/images/1920/glowing-urinary-bladder-cancer.webp",
           "peak": 71.34,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
           "average": 71.34
         },
         {
@@ -12503,11 +12503,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -12517,11 +12517,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Datacenter-Health-01-press.jpg?itok=GrhdbTzT",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
           "average": 49.83
         },
         {
@@ -12531,11 +12531,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6b00ba06fb286bb31d23be2b/master/pass/Kernel-Panic-Brace-for-More-Outages-Security.jpg",
           "peak": 49.53,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
           "average": 49.53
         },
         {
@@ -12545,11 +12545,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
           "average": 49.01
         },
         {
@@ -12581,17 +12581,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 48.67
         },
         {
+          "storyId": "a2b7f9f35e547e98971f",
+          "title": "Goodbye, World: The End of Programmers",
+          "url": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
+          "source": "WIRED AI",
+          "image": "https://media.wired.com/photos/6afb501c3f280c58f990fcf3/master/pass/WIRED-MREnglish-AaronFernandez-01.png",
+          "peak": 48.67,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-23",
+          "firstObservedAt": "2026-11-24T00:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
+          "average": 48.67
+        },
+        {
           "storyId": "29c6398dc2aba28f7ebb",
           "title": "Following the “mathocalypse,” mathematicians consider the future",
           "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Math-AI-01-press.jpg?itok=kKHwiUOm",
           "peak": 48.51,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
           "average": 48.51
         },
         {
@@ -12607,20 +12621,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
           "lastObservedAt": "2026-11-23T12:00:00.000Z",
           "average": 48.51
-        },
-        {
-          "storyId": "25a4ca5f35209bfb4641",
-          "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-          "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-          "source": "Ars Technica AI",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-1024x648.jpg",
-          "peak": 48.34,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-23",
-          "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
-          "average": 48.34
         }
       ]
     },
@@ -14521,11 +14521,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "https://www.sciencedaily.com/images/1920/glowing-urinary-bladder-cancer.webp",
           "peak": 71.34,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 2,
           "peakDate": "2026-11-22",
           "firstObservedAt": "2026-11-23T02:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
           "average": 71.34
         },
         {
@@ -14619,11 +14619,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 78,
+          "observations": 79,
           "daysTracked": 23,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
+          "lastObservedAt": "2026-11-24T00:00:00.000Z",
           "average": 51.23
         },
         {
