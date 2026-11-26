@@ -406684,8 +406684,878 @@
           "vulnerability": 0
         }
       }
+    },
+    "05dae1fff14a03638ac8": {
+      "storyId": "05dae1fff14a03638ac8",
+      "url": "https://www.theguardian.com/news/video/2026/nov/26/can-elon-musk-really-put-ai-datacentres-in-space-the-latest",
+      "title": "Can Elon Musk really put AI datacentres in space? - The Latest",
+      "source": "The Guardian AI",
+      "published": "2026-11-26T18:34:17.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4dcbd65aa594adbfc16ba98f",
+      "bodyFingerprint": "1ac1cdfd724bbca59e323f8b",
+      "bodyCharacterCount": 731,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T19:39:37.713Z",
+      "assessment": {
+        "centralEvent": "Can Elon Musk really put AI datacentres in space? - The Latest",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 11,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7aa896c7cb490e59f4cc": {
+      "storyId": "7aa896c7cb490e59f4cc",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "source": "TechCrunch AI",
+      "published": "2026-11-26T16:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d4b847621776ed2e324b843f",
+      "bodyFingerprint": "0416127621457c7b0738004e",
+      "bodyCharacterCount": 8269,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T19:39:37.772Z",
+      "assessment": {
+        "centralEvent": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "GTA VI launched as the highest-rated game of all time on Metacritic and made $3.79 billion on release day to mark what could be the biggest entertainment event ever – more massive than “Avengers: Endgame” ( $2.9 billion ) or Taylor Swift’s ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 49,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "617eff98d592cab41071": {
+      "storyId": "617eff98d592cab41071",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/26/ai-leader-tech-giant-trust-safeguarding-privacy-profit",
+      "title": "I’m an AI leader at a tech giant. Our industry has stopped taking safety seriously | Anonymous",
+      "source": "The Guardian AI",
+      "published": "2026-11-26T14:06:10.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a6ce613e6d602f78ac9c4a0a",
+      "bodyFingerprint": "28cb2b2b02c3cf7c96c5651b",
+      "bodyCharacterCount": 4733,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T19:39:37.788Z",
+      "assessment": {
+        "centralEvent": "I’m an AI leader at a tech giant. Our industry has stopped taking safety seriously | Anonymous",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 47,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "aa045bbefc0f249f80fe": {
+      "storyId": "aa045bbefc0f249f80fe",
+      "url": "https://www.inc.com/ethan-fixell/a-ceo-made-2000-employees-take-an-ai-course-employers-say-theyre-missing-a-bigger-skill/91442275",
+      "title": "A CEO Made 2,000 Employees Take an AI Course. Employers Say They’re Missing a Bigger Skill",
+      "source": "Inc. AI",
+      "published": "2026-11-26T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ee26b67c0ac5c7790f156457",
+      "bodyFingerprint": "a23febde354455ed58cbbad0",
+      "bodyCharacterCount": 65,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-26T19:39:37.828Z",
+      "assessment": {
+        "centralEvent": "A CEO Made 2,000 Employees Take an AI Course. Employers Say They’re Missing a Bigger Skill",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "de80b1d2c10571015ea4": {
+      "storyId": "de80b1d2c10571015ea4",
+      "url": "https://mashable.com/tech/claude-artifacts-apps",
+      "title": "Anthropics Claude now lets you turn artifacts into apps",
+      "source": "Mashable AI",
+      "published": "2026-11-26T14:21:42.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "7a8fa12c93042ce8e28f061f",
+      "bodyFingerprint": "db9f373ad3d049bb394e3490",
+      "bodyCharacterCount": 2850,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T19:39:37.871Z",
+      "assessment": {
+        "centralEvent": "Anthropics Claude now lets you turn artifacts into apps",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f4070aa5ad5f30e3daeb": {
+      "storyId": "f4070aa5ad5f30e3daeb",
+      "url": "https://www.inc.com/michael-tasner/ai-agents-76-billion-black-friday-brand-visibility/91443182",
+      "title": "AI Agents Could Spend $76 Billion This Cyber Week. They Can’t See Your Brand",
+      "source": "Inc. AI",
+      "published": "2026-11-26T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ed42995edf9a943dac695344",
+      "bodyFingerprint": "5b1483bccdbb85c1dcf76098",
+      "bodyCharacterCount": 150,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-26T19:39:37.873Z",
+      "assessment": {
+        "centralEvent": "AI Agents Could Spend $76 Billion This Cyber Week. They Can’t See Your Brand",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "6d6e04f3f6b077a77630": {
+      "storyId": "6d6e04f3f6b077a77630",
+      "url": "https://www.theguardian.com/technology/2026/nov/26/employers-do-you-have-concerns-about-the-rollout-of-muse-and-other-ai-agents",
+      "title": "Employers: do you have concerns about the rollout of Muse and other AI agents?",
+      "source": "The Guardian AI",
+      "published": "2026-11-26T11:23:41.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "4f858adbe3aed9fa06f57752",
+      "bodyFingerprint": "cd50aebbe96f06576d2931ce",
+      "bodyCharacterCount": 2601,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T19:39:37.906Z",
+      "assessment": {
+        "centralEvent": "Employers: do you have concerns about the rollout of Muse and other AI agents?",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "However, the possibility of employees connecting their Muse assistant to their work emails and databases is a concern for companies and their clients.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "Meta has rolled out its Muse AI assistant, which can be tasked with shopping, booking tickets and carrying out negotiations on a user’s behalf, across countries including the UK, US, Canada, Australia and Japan.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.5,
+        "rawScore": 24.5,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.045,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e29997c4052052ed4028": {
+      "storyId": "e29997c4052052ed4028",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct978n?at_campaign=rss&at_medium=RSS",
+      "title": "BBC Inside Science",
+      "source": "BBC News AI",
+      "published": "2026-11-26T17:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0feffad7e8f4a030dd8506c1",
+      "bodyFingerprint": "613d6eb168b841702af7bc12",
+      "bodyCharacterCount": 1009,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T19:39:37.916Z",
+      "assessment": {
+        "centralEvent": "BBC Inside Science",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Episode details Radio 4 , · 26 Nov 2026 , · 28 mins The Mathematical Revolution BBC Inside Science Play Bookmark Bookmark Subscribe Subscribe Available for 34 days Could AI have solved mathematics’ greatest mystery?",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 8,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "24048e11fc61b6719d28": {
+      "storyId": "24048e11fc61b6719d28",
+      "url": "https://www.bbc.co.uk/news/videos/c6x289n79vx1o?at_campaign=rss&at_medium=RSS",
+      "title": "MP says her likeness used in deepfake AI porn",
+      "source": "BBC News AI",
+      "published": "2026-11-26T11:43:52.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b021f9760aba0ba2dfc99765",
+      "bodyFingerprint": "68b270f1c71c188e0f58d07b",
+      "bodyCharacterCount": 394,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T19:39:37.922Z",
+      "assessment": {
+        "centralEvent": "MP says her likeness used in deepfake AI porn",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "title",
+            "excerpt": "MP says her likeness used in deepfake AI porn",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Subsection Wales Published 7 hours ago Share close panel Share page Copy link About sharing Related topics Wales Follow Wales Deepfakes Follow Deepfakes Mims Davies Follow Mims Davies Conservative Party Follow Conservative Party Pornography",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 2 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.1,
+        "rawScore": 25.1,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "136d58e773e3d288676a": {
+      "storyId": "136d58e773e3d288676a",
+      "url": "https://www.inc.com/bill-murphy-jr/i-asked-chatgpt-what-to-be-thankful-for-we-came-up-with-more-than-100-things-id-never-considered/91443425",
+      "title": "I Asked ChatGPT What to Be Thankful For. We Came Up With More Than 100 Things I’d Never Considered",
+      "source": "Inc. AI",
+      "published": "2026-11-26T10:30:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6eb553004cdf53c9d9f2b076",
+      "bodyFingerprint": "7318b6b7c8e0286397ba649f",
+      "bodyCharacterCount": 34,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-26T19:39:37.936Z",
+      "assessment": {
+        "centralEvent": "I Asked ChatGPT What to Be Thankful For. We Came Up With More Than 100 Things I’d Never Considered",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0b032116e10466e07e3b": {
+      "storyId": "0b032116e10466e07e3b",
+      "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
+      "title": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
+      "source": "The Guardian AI",
+      "published": "2026-11-26T12:19:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "159321590272f38558eb7444",
+      "bodyFingerprint": "f0d25282f4526d19d8f6f990",
+      "bodyCharacterCount": 5615,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T19:39:37.957Z",
+      "assessment": {
+        "centralEvent": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Senior legal figures have warned about the danger of AI when used to cut corners and build cases.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "title",
+            "excerpt": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Exclusive: Investigation finds at least 25 cases affected by AI-generated witness statements, fictitious case law and nonexistent statutes Undisclosed AI use has affected more than two dozen court cases this year, prompting judges to compla",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 26.86,
+        "rawScore": 26.86,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.26,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e51b021662e92d608165": {
+      "storyId": "e51b021662e92d608165",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "source": "The Verge AI",
+      "published": "2026-11-26T09:54:40.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "109b8a6e0fb4bf353171866a",
+      "bodyFingerprint": "b878e710dc04c988f014dd90",
+      "bodyCharacterCount": 4109,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T19:39:38.094Z",
+      "assessment": {
+        "centralEvent": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Terrence O'Brien AI Law News Policy Most Popular Most Popular Microsoft declares ‘Code Red’ after huge Outlook outage 1Password breach leaked customer names and emails, but not passwords GTA VI PC recompilation project shut down by Take-Two",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Advertiser Content From This is the title for the native ad More in Policy Federal judge blocks the FCC from reviewing ABC’s licenses early Amazon loses its latest attempt to get out of handling more recall notices EPA reports ‘zero’ airbor",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Terrence O'Brien AI Law News Policy Most Popular Most Popular Microsoft declares ‘Code Red’ after huge Outlook outage 1Password breach leaked customer names and emails, but not passwords GTA VI PC recompilation project shut down by Take-Two",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Advertiser Content From This is the title for the native ad More in Policy Federal judge blocks the FCC from reviewing ABC’s licenses early Amazon loses its latest attempt to get out of handling more recall notices EPA reports ‘zero’ airbor",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 20,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.35,
+        "rawScore": 47.35,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.305,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "4ba3d6965f092d812df2": {
+      "storyId": "4ba3d6965f092d812df2",
+      "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains",
+      "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+      "source": "WIRED AI",
+      "published": "2026-11-26T10:51:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1f05ea35c1115b5427fbacbd",
+      "bodyFingerprint": "e0e357564df3b85291916c07",
+      "bodyCharacterCount": 3490,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T19:39:38.105Z",
+      "assessment": {
+        "centralEvent": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Save this story Save this story Meta declined a suggestion from the UK’s financial regulator last week that they joint-test Muse using their sandbox, according to the watchdog’s head of innovation Colin Payne.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 24,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "30c1d7d0e5f1596709a0": {
+      "storyId": "30c1d7d0e5f1596709a0",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261124055901.htm",
+      "title": "Deep beneath Australia, hidden caves could unlock the secrets of alien worlds",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-26T11:06:15.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a96014e414140658dd602d52",
+      "bodyFingerprint": "ad9501ebac35c364863b5139",
+      "bodyCharacterCount": 10039,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T19:39:38.175Z",
+      "assessment": {
+        "centralEvent": "Deep beneath Australia, hidden caves could unlock the secrets of alien worlds",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Study Reveals a Dark Side of Keto Scientists Discover 130-Year-Old Fish Still Swimming in an American River America’s Data Centers Have a Hidden Death Toll, MIT Researchers Warn Scientists Discover a Potential New Way To Treat Diabetes – No",
+            "matchedRule": "/\\b(?:death toll|fatalities|people (?:died|were killed)|loss of life)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "The work demonstrated that the shallow surface trenches sit above deep zones of broken rock, and in places line up with known cave systems and sinkholes.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Pockmarked karst landscapes (where rocks are dissolved by water, resulting in caves and sinkholes) represent 15% of the ice-free Earth’s surface and supply water to 10–25% of the global population .",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "reversibility",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Study Reveals a Dark Side of Keto Scientists Discover 130-Year-Old Fish Still Swimming in an American River America’s Data Centers Have a Hidden Death Toll, MIT Researchers Warn Scientists Discover a Potential New Way To Treat Diabetes – No",
+            "matchedRule": "/\\b(?:irreversible|permanent|cannot be undone|mass casualties|deaths?|fatalities)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 78,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 69.28,
+        "rawScore": 69.28,
+        "band": "DIRE",
+        "requestedBand": "DIRE",
+        "effectiveBand": "DIRE",
+        "supportIntensity": 0.48,
+        "direEligible": true,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 3,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 4,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-26T09:34:09.707Z"
+  "updatedAt": "2026-11-26T19:39:38.175Z"
 }
