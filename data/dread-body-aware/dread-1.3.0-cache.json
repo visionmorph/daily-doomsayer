@@ -404865,8 +404865,1371 @@
           "vulnerability": 0
         }
       }
+    },
+    "3d18a8cf68611dcb4b67": {
+      "storyId": "3d18a8cf68611dcb4b67",
+      "url": "https://www.inc.com/kit-eaton/amazon-meta-ai-agents-future-shopping-technology/91443060",
+      "title": "Amazon and Meta May Agree Over Allowing AI Agents. The Future of Shopping Just Changed",
+      "source": "Inc. AI",
+      "published": "2026-11-25T21:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e6b7771128cfc94c11e39e2c",
+      "bodyFingerprint": "9f5e6845d7d8d58fbb1c4e2e",
+      "bodyCharacterCount": 148,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-26T00:24:55.133Z",
+      "assessment": {
+        "centralEvent": "Amazon and Meta May Agree Over Allowing AI Agents. The Future of Shopping Just Changed",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "77bb663b6361291f59ee": {
+      "storyId": "77bb663b6361291f59ee",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "source": "TechCrunch AI",
+      "published": "2026-11-25T22:44:32.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b036c7bc3919b56ddaa51ca7",
+      "bodyFingerprint": "7e309782878990897e5d5fd0",
+      "bodyCharacterCount": 2524,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.142Z",
+      "assessment": {
+        "centralEvent": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Despite Nvidia’s strong financial performance, the ouster and reinstatement of CEO Jensen Huang has raised concerns about “weak executive oversight and lack of succession planning” and “key man risk,” meaning heavy reliance on Huang for its",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The agency expects to finish its review within 90 days and could cut Nvidia’s rating from AA to AA-, the fourth-highest on its scale.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "In Brief Posted: 2:44 PM PST · November 25, 2026 Image Credits: Fabrice COFFRINI/AFP / Getty Images Marina Temkin S&P considers Nvidia credit downgrade over governance and ‘key man’ risks S&P Global Ratings, one of the three major credit ra",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 3 supported factors; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 13,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.05,
+        "rawScore": 25.05,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.095,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 1,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "5512f8ba8e11219205f0": {
+      "storyId": "5512f8ba8e11219205f0",
+      "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_campaign=rss&at_medium=RSS",
+      "title": "US approves SpaceX plan to send a million data satellites to space",
+      "source": "BBC News AI",
+      "published": "2026-11-26T00:07:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3968e031aaaf7ae7af57f26b",
+      "bodyFingerprint": "9c77de5cc99818740ffa0443",
+      "bodyCharacterCount": 4314,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.162Z",
+      "assessment": {
+        "centralEvent": "US approves SpaceX plan to send a million data satellites to space",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "An expert previously told the BBC that launching hardware into orbit remains expensive and that the infrastructure to protect, cool and power them can be complex - while a growing quantity of space debris puts the physical hardware at risk.",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related topics SpaceX Elon Musk Space United States International Business More on this story Images of asteroid targeted to test Earth's defences reveal stadium-sized crater Published 6 hours ago Elon Musk is a 'real genius', Putin says af",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The ever-expanding use of AI computing has seen a massive increase in the amount of data that needs to be stored and processed around the world.",
+            "matchedRule": "/\\b(?:billions of people|across the world|around the world)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.18,
+        "rawScore": 28.18,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.38,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "3a73412d0df0bb71aee5": {
+      "storyId": "3a73412d0df0bb71aee5",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "source": "TechCrunch AI",
+      "published": "2026-11-25T20:03:27.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "807f3073088aa7223945b4c2",
+      "bodyFingerprint": "c340bf576545c6544ffac387",
+      "bodyCharacterCount": 3317,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.171Z",
+      "assessment": {
+        "centralEvent": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 23,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c91a30b4e6522b01bf53": {
+      "storyId": "c91a30b4e6522b01bf53",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "source": "The Verge AI",
+      "published": "2026-11-25T21:51:26.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8abfebbcac8fb4d6149a5cfe",
+      "bodyFingerprint": "270c0e660e16e8f02491d148",
+      "bodyCharacterCount": 6541,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.178Z",
+      "assessment": {
+        "centralEvent": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "My Channel feels like an even more depressing idea when you consider how the service would make it that much easier for its users to avoid broadening their horizons by being exposed to new things that exist outside their comfort zones.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to the patent, My Channel would be able to churn out entire movies of various genres.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Charles Pulliam-Moore AI Entertainment Film Google Streaming Tech TV Shows Most Popular Most Popular Microsoft declares ‘Code Red’ after huge Outlook outage GTA VI PC recompilation project shut down by Take-Two US financial crimes bureau di",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Charles Pulliam-Moore AI Entertainment Film Google Streaming Tech TV Shows Most Popular Most Popular Microsoft declares ‘Code Red’ after huge Outlook outage GTA VI PC recompilation project shut down by Take-Two US financial crimes bureau di",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.26,
+        "rawScore": 46.26,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.205,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "580aa78eec1de7128930": {
+      "storyId": "580aa78eec1de7128930",
+      "url": "https://www.inc.com/sneha-saigal/75-percent-of-holiday-shoppers-want-to-buy-from-a-small-business-and-many-are-asking-ai-for-ideas-take-4-steps-to-get-recommended/91435732",
+      "title": "75 Percent of Holiday Shoppers Want to Buy From a Small Business—and Many Are Asking AI for Ideas. Take 4 Steps to Get Recommended",
+      "source": "Inc. AI",
+      "published": "2026-11-25T19:33:37.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "e9ec6d3954c55d955658c9a9",
+      "bodyFingerprint": "733543b124eddc60655362d9",
+      "bodyCharacterCount": 219,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-26T00:24:55.195Z",
+      "assessment": {
+        "centralEvent": "75 Percent of Holiday Shoppers Want to Buy From a Small Business—and Many Are Asking AI for Ideas. Take 4 Steps to Get Recommended",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 6,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "71a07b1df043fc19097f": {
+      "storyId": "71a07b1df043fc19097f",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd",
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "source": "TechCrunch AI",
+      "published": "2026-11-25T19:44:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "0feeabbcb4f2725f28884104",
+      "bodyFingerprint": "056c5dfc04a12ec607b3c502",
+      "bodyCharacterCount": 5759,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.204Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "This argument against autocracy applies word for word against governance by AI, and I feel equally strongly that turning over governance to AI is a bad idea...No one who had carefully read my writing or my interviews could reasonably conclu",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "In its own IPO filings, Anthropic describes how each successive generation of Claude accelerates the development of the next, a process it refers to as “closing the loop.” “As we said publicly in early November, we don’t expect it to be saf",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 26,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 24.55,
+        "rawScore": 24.55,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "c3986ed0d71a9c0fde5f": {
+      "storyId": "c3986ed0d71a9c0fde5f",
+      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it",
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "source": "TechCrunch AI",
+      "published": "2026-11-25T19:54:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c3de3e29733427709bcc621b",
+      "bodyFingerprint": "75e4ab432ccf4d5c247fb724",
+      "bodyCharacterCount": 4672,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.211Z",
+      "assessment": {
+        "centralEvent": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But that “does not mean, the moment you violate a code of conduct, we walk you out the door,” Huang said, according to Wired .",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 35,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0521be47f5bd639bbb48": {
+      "storyId": "0521be47f5bd639bbb48",
+      "url": "https://www.bbc.co.uk/news/articles/cr742z9gx894o?at_campaign=rss&at_medium=RSS",
+      "title": "MP calls for action after her likeness used for AI porn deepfakes",
+      "source": "BBC News AI",
+      "published": "2026-11-25T19:01:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2fb517c33130bc849b4c3d13",
+      "bodyFingerprint": "fdf1dee3685faab1c74a758c",
+      "bodyCharacterCount": 4499,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.225Z",
+      "assessment": {
+        "centralEvent": "MP calls for action after her likeness used for AI porn deepfakes",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It is illegal , external to share or threaten to share intimate photos or videos of someone without their consent, including through deepfake images.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Image source, Getty Images Image caption, Davies said she was concerned similar incidents could put women off entering politics By Leigh Boobyer BBC Wales Published 5 hours ago A member of parliament whose name and image were used in AI con",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Davies, who studied politics and international relations at Swansea University before embarking on a career in journalism in Wales, said the issue was likely to make women \"feel less likely to want to enter public life\". \"It doesn't just af",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "You never know when you're walking into a room what people might be thinking. \"We need more women in public life at every single level, from councillors, to Westminster and to the Senedd.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 48.51,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "a757a7ce118510db803b": {
+      "storyId": "a757a7ce118510db803b",
+      "url": "https://mashable.com/tech/spacex-starmind-fcc-approval-ai-data-centers-space",
+      "title": "FCC clears SpaceX to put up to 1 million AI satellites in orbit",
+      "source": "Mashable AI",
+      "published": "2026-11-25T20:33:09.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "890bc31fbd1fdba5f82f9c7c",
+      "bodyFingerprint": "c9953274686231ec9e8de07c",
+      "bodyCharacterCount": 6529,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.229Z",
+      "assessment": {
+        "centralEvent": "FCC clears SpaceX to put up to 1 million AI satellites in orbit",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Watch SpaceX's wildest test yet: A 22-hour flight and a historic return New photo reveals an asteroid view that a NASA spacecraft never saw The FCC said SpaceX's commitment to work with the National Science Foundation was enough to address ",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 61,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 6,
+        "rawScore": 6,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.2,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8e0a5c0482086870ebf2": {
+      "storyId": "8e0a5c0482086870ebf2",
+      "url": "https://www.inc.com/aaron-mok/anthropic-claude-turn-workflows-into-desktop-apps/91442773",
+      "title": "Anthropic’s Claude Can Now Turn Your Workflows Into Desktop Apps. Here’s How to Get Started",
+      "source": "Inc. AI",
+      "published": "2026-11-25T18:47:19.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "af3f3efaf8d0b733db6b6130",
+      "bodyFingerprint": "1e50c51cfb5f63d1b75a7b17",
+      "bodyCharacterCount": 123,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-26T00:24:55.230Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s Claude Can Now Turn Your Workflows Into Desktop Apps. Here’s How to Get Started",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "17929128d139e3d01b22": {
+      "storyId": "17929128d139e3d01b22",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "source": "The Verge AI",
+      "published": "2026-11-25T17:44:51.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ab42494ad92c1398be2246e1",
+      "bodyFingerprint": "a3d032edb09b2936f1efc594",
+      "bodyCharacterCount": 3913,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.250Z",
+      "assessment": {
+        "centralEvent": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emma Roth AI Elon Musk News Science Space SpaceX Tech Most Popular Most Popular Microsoft declares ‘Code Red’ after huge Outlook outage GTA VI PC recompilation project shut down by Take-Two US financial crimes bureau discloses ‘cybersecurit",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Emma Roth AI Elon Musk News Science Space SpaceX Tech Most Popular Most Popular Microsoft declares ‘Code Red’ after huge Outlook outage GTA VI PC recompilation project shut down by Take-Two US financial crimes bureau discloses ‘cybersecurit",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emma Roth AI Elon Musk News Science Space SpaceX Tech Most Popular Most Popular Microsoft declares ‘Code Red’ after huge Outlook outage GTA VI PC recompilation project shut down by Take-Two US financial crimes bureau discloses ‘cybersecurit",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 45.16,
+        "rawScore": 45.16,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.105,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "fd3eea6ab732b7250509": {
+      "storyId": "fd3eea6ab732b7250509",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "source": "TechCrunch AI",
+      "published": "2026-11-25T18:11:46.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "65353d7db755d342785dd74a",
+      "bodyFingerprint": "a1067b0890c3cb9f8fd0a13e",
+      "bodyCharacterCount": 5462,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.257Z",
+      "assessment": {
+        "centralEvent": "Want to buy your kid an AI toy this Christmas? Not in New York",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "“Parents shopping for gifts for the holidays or any other occasion should not have to worry that dangerous chatbots disguised as toys could expose their children to inappropriate conversations, manipulate their feelings or put their privacy",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Technically, the new law takes effect 90 days after signing, so some parents could try to fulfill their kids’ wish lists for a creepy toy like a jumped-up Furby in time for the holidays, but the governor urges them not to, given the risks.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "vulnerability",
+            "level": 3,
+            "source": "body",
+            "excerpt": "“Parents shopping for gifts for the holidays or any other occasion should not have to worry that dangerous chatbots disguised as toys could expose their children to inappropriate conversations, manipulate their feelings or put their privacy",
+            "matchedRule": "/\\b(?:children|patients|elderly|disabled people|low-income|victims of abuse)\\b.*\\b(?:harmed|targeted|exposed|affected|at risk)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 30,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.6,
+        "rawScore": 27.6,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.3275,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 3
+        }
+      }
+    },
+    "81b9fcdbd51e85373632": {
+      "storyId": "81b9fcdbd51e85373632",
+      "url": "https://www.inc.com/tim-hilcove/ai-could-be-harming-your-brand-without-you-even-knowing-it/91441190",
+      "title": "AI could be harming your brand without you even knowing it",
+      "source": "Inc. AI",
+      "published": "2026-11-25T19:33:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9a254817ef4fde5c56f817e6",
+      "bodyFingerprint": "ab1d8415f0e0c3b50c08b49f",
+      "bodyCharacterCount": 71,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-26T00:24:55.261Z",
+      "assessment": {
+        "centralEvent": "AI could be harming your brand without you even knowing it",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "0e9e1cb93dba4805e41a": {
+      "storyId": "0e9e1cb93dba4805e41a",
+      "url": "https://www.inc.com/joseph-s-pete/indycar-sponsors-accused-of-600-million-ponzi-scheme/91441723",
+      "title": "IndyCar Sponsors Accused of $600 Million Ponzi Scheme",
+      "source": "Inc. AI",
+      "published": "2026-11-25T17:35:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "984a9f2df14c7ab5d254d2fc",
+      "bodyFingerprint": "0c7004a86452943e7bdb72da",
+      "bodyCharacterCount": 133,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-26T00:24:55.274Z",
+      "assessment": {
+        "centralEvent": "IndyCar Sponsors Accused of $600 Million Ponzi Scheme",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "628d3c512960bc42def6": {
+      "storyId": "628d3c512960bc42def6",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
+      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "source": "TechCrunch AI",
+      "published": "2026-11-25T17:35:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "01a121933971303c863b7809",
+      "bodyFingerprint": "b2fb2acfd226074d8b9688fc",
+      "bodyCharacterCount": 5697,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.281Z",
+      "assessment": {
+        "centralEvent": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "summary",
+            "excerpt": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "85a014409b0b5add28d4": {
+      "storyId": "85a014409b0b5add28d4",
+      "url": "https://mashable.com/tech/data-center-emissions-pollution-worse-than-we-knew-harvard-study",
+      "title": "Data center emissions are worse than we knew, Harvard study confirms",
+      "source": "Mashable AI",
+      "published": "2026-11-25T17:02:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "8961f6a35df5c48241ecbe26",
+      "bodyFingerprint": "6be068a491809aa26b536706",
+      "bodyCharacterCount": 4022,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.289Z",
+      "assessment": {
+        "centralEvent": "Data center emissions are worse than we knew, Harvard study confirms",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "As voters push back against data centers, a new study out of Harvard reveals startling revelations about the severity of the pollution they create.",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Researchers found that 2 percent of all electricity use in the U.S. during the study period came from data centers.",
+            "matchedRule": "/\\b(?:investigation|researchers?|officials?|court|regulator)\\b.*\\b(?:found|concluded|reported|ruled)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 2,
+            "source": "body",
+            "excerpt": "However, data centers are proving unpopular in many communities.",
+            "matchedRule": "/\\b(?:multiple|several|many)\\b.*\\b(?:people|organizations|companies|systems|communities)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The study found that the largest data centers in the U.S. use as much energy in a single year as the state of Michigan does.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 34,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.97,
+        "rawScore": 46.97,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.27,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 2,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "927dd6b10beb1b9592b8": {
+      "storyId": "927dd6b10beb1b9592b8",
+      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "title": "Nothing offers a full look at its AI earbuds and charging case",
+      "source": "The Verge AI",
+      "published": "2026-11-25T16:00:59.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b7cab304e13356dafb093c4a",
+      "bodyFingerprint": "e976ce68fab73292df8f0ed9",
+      "bodyCharacterCount": 3834,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.296Z",
+      "assessment": {
+        "centralEvent": "Nothing offers a full look at its AI earbuds and charging case",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emma Roth AI Gadgets News Tech Wearable Most Popular Most Popular Microsoft declares ‘Code Red’ after huge Outlook outage GTA VI PC recompilation project shut down by Take-Two US financial crimes bureau discloses ‘cybersecurity incident’ Ba",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "In a post on X , Nothing CEO Carl Pei says the button will allow you to record calls through the earbuds, and meetings through the case as a “first step toward a hardware context layer for AI.” As previously reported by Bloomberg , the buds",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Emma Roth AI Gadgets News Tech Wearable Most Popular Most Popular Microsoft declares ‘Code Red’ after huge Outlook outage GTA VI PC recompilation project shut down by Take-Two US financial crimes bureau discloses ‘cybersecurity incident’ Ba",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Emma Roth AI Gadgets News Tech Wearable Most Popular Most Popular Microsoft declares ‘Code Red’ after huge Outlook outage GTA VI PC recompilation project shut down by Take-Two US financial crimes bureau discloses ‘cybersecurity incident’ Ba",
+            "matchedRule": "/\\b(?:multiple|several|two|three|four|five)\\b.*\\b(?:incidents?|attacks?|breaches?|cases?|organizations?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 21,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.26,
+        "rawScore": 46.26,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.205,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 2,
+          "vulnerability": 0
+        }
+      }
+    },
+    "551b41b55629eb2adfe6": {
+      "storyId": "551b41b55629eb2adfe6",
+      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it",
+      "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+      "source": "TechCrunch AI",
+      "published": "2026-11-25T15:41:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b2cf948a3ab9078cb4f23863",
+      "bodyFingerprint": "406fd9403f3e19f966ba5bbf",
+      "bodyCharacterCount": 3733,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.313Z",
+      "assessment": {
+        "centralEvent": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7ba35f202e74a88acfe6": {
+      "storyId": "7ba35f202e74a88acfe6",
+      "url": "https://www.politico.com/news/2026/11/25/elon-musk-space-datacenters-fcc-01183330",
+      "title": "FCC authorizes Elon Musk’s plans for data centers in space",
+      "source": "POLITICO AI",
+      "published": "2026-11-25T17:39:34.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d18f8d8bd16d56574e48c6c9",
+      "bodyFingerprint": "fd9091320c01fdc1c7686871",
+      "bodyCharacterCount": 132,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-26T00:24:55.340Z",
+      "assessment": {
+        "centralEvent": "FCC authorizes Elon Musk’s plans for data centers in space",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "e0d965bae52b98751269": {
+      "storyId": "e0d965bae52b98751269",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop",
+      "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+      "source": "Ars Technica AI",
+      "published": "2026-11-25T16:47:14.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9c483e3f0c34d8d7d65a5d4f",
+      "bodyFingerprint": "065177e6baa1563db99f2b7b",
+      "bodyCharacterCount": 5407,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-26T00:24:55.652Z",
+      "assessment": {
+        "centralEvent": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Microsoft's historic cloud outage exposed an engineering “fog of war” 4.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Once a military uses a piece of civilian infrastructure, at least under international law or in terms of the principles of targeting that are taken forward by militaries, it can sometimes become a military object and is therefore of interes",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 28,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-25T15:39:46.931Z"
+  "updatedAt": "2026-11-26T00:24:55.652Z"
 }
