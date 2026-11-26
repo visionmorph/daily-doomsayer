@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-25T15:00:00.000Z",
+  "generatedAt": "2026-11-26T00:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-25",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
           "peak": 52.22,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-25",
           "firstObservedAt": "2026-11-25T15:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 52.22
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-25",
           "firstObservedAt": "2026-11-25T15:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,12 +45,26 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Datacenter-Health-01-press.jpg?itok=GrhdbTzT",
           "peak": 49.83,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-25",
           "firstObservedAt": "2026-11-25T15:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 49.83
+        },
+        {
+          "storyId": "7b105f846bd91f3fea70",
+          "title": "Democrats must unite on AI regulation. Here’s our three-point plan | Nathan E Sanders and Bruce Schneier",
+          "url": "https://www.theguardian.com/commentisfree/2026/nov/25/democrats-ai-regulation-plan",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/052f70b3cd29d16bf1465828355cd94e1de55a2f/31_0_4626_3703/master/4626.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 49.28,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-25",
+          "firstObservedAt": "2026-11-26T00:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
+          "average": 49.28
         },
         {
           "storyId": "0d6037370fa1be2af78f",
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6b05a2cb470266bfec0ce9be/master/pass/GettyImages-2306037065.jpg",
           "peak": 49.09,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-25",
           "firstObservedAt": "2026-11-25T15:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 49.09
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-25",
           "firstObservedAt": "2026-11-25T15:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 49.01
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.59,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-25",
           "firstObservedAt": "2026-11-25T15:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 48.59
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Math-AI-01-press.jpg?itok=kKHwiUOm",
           "peak": 48.51,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-25",
           "firstObservedAt": "2026-11-25T15:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 48.51
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/CleanShot-2026-11-17-at-7.11.44-AM@2x.png",
           "peak": 48.29,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-25",
           "firstObservedAt": "2026-11-25T15:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 48.29
         },
         {
@@ -129,25 +143,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "EFF AI",
           "image": "https://www.eff.org/files/banner_library/flock-comic-banner-2.jpg",
           "peak": 48.18,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-25",
           "firstObservedAt": "2026-11-25T15:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
-          "average": 48.18
-        },
-        {
-          "storyId": "7ca162416a245caf5c4e",
-          "title": "Should AI be judging our credit worthiness?",
-          "url": "https://www.bbc.co.uk/news/articles/c6d94pzk9vleo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News AI",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5352/live/663fec10-d765-11f1-93e1-3b657b665bcf.jpg",
-          "peak": 48.18,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-25",
-          "firstObservedAt": "2026-11-25T15:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 48.18
         }
       ]
@@ -12793,11 +12793,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
           "peak": 52.22,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-24",
           "firstObservedAt": "2026-11-24T10:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 52.22
         },
         {
@@ -12807,11 +12807,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 3,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 51.23
         },
         {
@@ -12821,11 +12821,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Datacenter-Health-01-press.jpg?itok=GrhdbTzT",
           "peak": 49.83,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 3,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 49.83
         },
         {
@@ -12843,17 +12843,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 49.53
         },
         {
+          "storyId": "7b105f846bd91f3fea70",
+          "title": "Democrats must unite on AI regulation. Here’s our three-point plan | Nathan E Sanders and Bruce Schneier",
+          "url": "https://www.theguardian.com/commentisfree/2026/nov/25/democrats-ai-regulation-plan",
+          "source": "The Guardian AI",
+          "image": "https://i.guim.co.uk/img/media/052f70b3cd29d16bf1465828355cd94e1de55a2f/31_0_4626_3703/master/4626.jpg?width=800&dpr=2&s=none&crop=none",
+          "peak": 49.28,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-25",
+          "firstObservedAt": "2026-11-26T00:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
+          "average": 49.28
+        },
+        {
           "storyId": "0d6037370fa1be2af78f",
           "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
           "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6b05a2cb470266bfec0ce9be/master/pass/GettyImages-2306037065.jpg",
           "peak": 49.09,
-          "observations": 1,
+          "observations": 2,
           "daysTracked": 1,
           "peakDate": "2026-11-25",
           "firstObservedAt": "2026-11-25T15:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 49.09
         },
         {
@@ -12863,11 +12877,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 6,
+          "observations": 7,
           "daysTracked": 3,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 49.01
         },
         {
@@ -12897,20 +12911,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "firstObservedAt": "2026-11-24T10:00:00.000Z",
           "lastObservedAt": "2026-11-24T10:00:00.000Z",
           "average": 49.01
-        },
-        {
-          "storyId": "e8029993afd719ae8379",
-          "title": "The vibe-coding revolution is coming to all the gadgets",
-          "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
-          "source": "The Verge AI",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/AI_vibe_coding_hacker_hardware.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "peak": 48.84,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-23",
-          "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-23T12:00:00.000Z",
-          "average": 48.84
         }
       ]
     },
@@ -14895,11 +14895,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
           "peak": 52.22,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-24",
           "firstObservedAt": "2026-11-24T10:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 52.22
         },
         {
@@ -14923,11 +14923,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 83,
+          "observations": 84,
           "daysTracked": 25,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-25T15:00:00.000Z",
+          "lastObservedAt": "2026-11-26T00:00:00.000Z",
           "average": 51.23
         },
         {
