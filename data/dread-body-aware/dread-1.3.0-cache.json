@@ -407700,8 +407700,923 @@
           "vulnerability": 0
         }
       }
+    },
+    "ab23f8214d8352551d81": {
+      "storyId": "ab23f8214d8352551d81",
+      "url": "https://www.inc.com/scott-hutcheson/adobe-predicts-a-95-surge-in-ai-shopping-traffic-this-black-friday/91440392",
+      "title": "Adobe Predicts a 95% Surge in AI Shopping Traffic This Black Friday",
+      "source": "Inc. AI",
+      "published": "2026-11-27T12:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "87eb021a92b1556141cf1e53",
+      "bodyFingerprint": "d84b69cf1f7eb5e9c99ebd2a",
+      "bodyCharacterCount": 69,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-27T12:28:50.615Z",
+      "assessment": {
+        "centralEvent": "Adobe Predicts a 95% Surge in AI Shopping Traffic This Black Friday",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "title",
+            "excerpt": "Adobe Predicts a 95% Surge in AI Shopping Traffic This Black Friday",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f44f0edb4298fd487140": {
+      "storyId": "f44f0edb4298fd487140",
+      "url": "https://www.inc.com/entrepreneurs-organization/anthropics-81-billion-ipo-reveals-the-next-big-opportunity-in-ai-compute/91441924",
+      "title": "Anthropic’s $81 Billion IPO Reveals the Next Big Opportunity in AI: Compute",
+      "source": "Inc. AI",
+      "published": "2026-11-27T11:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d40359640081bc706faa8144",
+      "bodyFingerprint": "8cf99624c0a90ff3d448304a",
+      "bodyCharacterCount": 51,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-27T12:28:50.626Z",
+      "assessment": {
+        "centralEvent": "Anthropic’s $81 Billion IPO Reveals the Next Big Opportunity in AI: Compute",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2e82e64cd7bbce13712f": {
+      "storyId": "2e82e64cd7bbce13712f",
+      "url": "https://www.theguardian.com/us-news/2026/nov/27/ai-retailer-consumer-guardrails",
+      "title": "‘It’s not helping’: calls for guardrails and regulations as AI use rises at US retailers",
+      "source": "The Guardian AI",
+      "published": "2026-11-27T10:00:02.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "1038cf832906d6effcd93511",
+      "bodyFingerprint": "b7e5a6efdad6513a6ff27b2a",
+      "bodyCharacterCount": 10698,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T12:28:50.649Z",
+      "assessment": {
+        "centralEvent": "‘It’s not helping’: calls for guardrails and regulations as AI use rises at US retailers",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Some 75% of retailers surveyed reported implementing AI tools for coding and app development, 73% for office productivity tools, 66% for cybersecurity and fraud development, 59% reported preparing or implementing AI for supply chain and war",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "According to Anna, AI is used for human resources tasks such as scheduling, assigning attendance disciplinary points, and through a safety alert system that she says is often inaccurate and often pulls her away from customer service interac",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“As retailers feel the pressure from Wall Street to cut costs and pump up share prices, they’re turning to AI to do the dirty work,” said Milton Jones, international president of the United Food and Commercial Workers, which represents work",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "The announcement came after the company was hit with a charge of $2.6bn in 2025 following its decision to shut down three automated robotic delivery centers, which Kroger did not comment on.",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 53,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.58,
+        "rawScore": 47.58,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.325,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d7a5446727907e74c9b2": {
+      "storyId": "d7a5446727907e74c9b2",
+      "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+      "title": "Pizza history: AI agent’s cardless purchase is a first for UK",
+      "source": "The Guardian AI",
+      "published": "2026-11-27T09:53:11.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "6c41f6dda961c63b0b5ec545",
+      "bodyFingerprint": "72945cbd56f3aa12c9e24bd4",
+      "bodyCharacterCount": 4092,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T12:28:50.671Z",
+      "assessment": {
+        "centralEvent": "Pizza history: AI agent’s cardless purchase is a first for UK",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Earlier this week the FCA issued a warning to financial services companies developing AI agents that they must comply with existing regulations .",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "We confirmed the order and the pizza arrived later.” The team ordered the pizzas using the Papa John’s AI agent, which had been given permission to access their bank account and request payment to the retailer’s account.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 27,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.65,
+        "rawScore": 25.65,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "d3ecfa25499f6d6f7e4c": {
+      "storyId": "d3ecfa25499f6d6f7e4c",
+      "url": "https://mashable.com/tech/nov-27-chatplayground-ai-unlimited-plan-lifetime-subscriptions",
+      "title": "Get ChatGPT, Claude, Gemini, and more in one dashboard for just $55 for Black Friday",
+      "source": "Mashable AI",
+      "published": "2026-11-27T08:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "69630b514ce4f8886215b144",
+      "bodyFingerprint": "be58c8028a4794561548a524",
+      "bodyCharacterCount": 3656,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T12:28:50.769Z",
+      "assessment": {
+        "centralEvent": "Get ChatGPT, Claude, Gemini, and more in one dashboard for just $55 for Black Friday",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 31,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "2f60d24207b6324a64a6": {
+      "storyId": "2f60d24207b6324a64a6",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261126033501.htm",
+      "title": "Scientists turn one of the world’s hardest-to-recycle plastics into high-performance lubricating oil",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-27T09:52:24.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ee634c8becae831e636dc2b1",
+      "bodyFingerprint": "279faa1266a2ac160eb204f1",
+      "bodyCharacterCount": 11710,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T12:28:50.777Z",
+      "assessment": {
+        "centralEvent": "Scientists turn one of the world’s hardest-to-recycle plastics into high-performance lubricating oil",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "The breakthrough could turn a major source of plastic pollution into a valuable industrial resource while making lubricant production more sustainable.",
+            "matchedRule": "/\\b(?:major|widespread|severe)\\b.*\\b(?:outage|breach|disruption|harm|pollution|damage)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "The mixture is heated to 158 degrees Fahrenheit for three hours, after which the researchers extract a relatively thick lubricating oil.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Turning Plastic Waste Into High-Performance Lubricants Meanwhile, global demand for lubricants continues to grow, and producing these materials can come with significant environmental costs.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "29, 2022  Polyethylene plastics -- single-use bags and general-purpose bottles -- are indestructable forever plastics.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 85,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.51,
+        "rawScore": 68.51,
+        "band": "ALARMING",
+        "requestedBand": "DIRE",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.41,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "Dire requires strongly confirmed severe harm and at least two aggravating conditions."
+        ],
+        "factors": {
+          "harm": 3,
+          "certainty": 4,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "bc2fdf52c72d3534c313": {
+      "storyId": "bc2fdf52c72d3534c313",
+      "url": "https://www.theguardian.com/environment/2026/nov/27/natural-england-objected-datacentre-ministers-abolish-bristol",
+      "title": "Natural England objected to a datacentre. Weeks later ministers threatened to abolish the agency",
+      "source": "The Guardian AI",
+      "published": "2026-11-27T07:00:57.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b3e8a06e9fce23ab7b3f0ccc",
+      "bodyFingerprint": "2cfd62c6864d1dac58e67f71",
+      "bodyCharacterCount": 6052,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T12:28:50.787Z",
+      "assessment": {
+        "centralEvent": "Natural England objected to a datacentre. Weeks later ministers threatened to abolish the agency",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "But they face considerable environmental and sustainability issues over their high energy use, pollution, encroachment on protected habitats and emissions from fossil fuel power stations many want to install while waiting for grid connectio",
+            "matchedRule": "/\\b(?:material harm|meaningful harm|significant disruption|financial loss|pollution)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "View towards Avonmouth docks, close to the proposed site for the datacentre.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Computer-generated: Rivington Energy In a response to the government’s draft datacentre national policy statement , Natural England said AI datacentres were a relatively new development type whose full environmental impacts were still being",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 32,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.03,
+        "rawScore": 46.03,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.185,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "09f8f8be60e4729c98fd": {
+      "storyId": "09f8f8be60e4729c98fd",
+      "url": "https://www.eff.org/deeplinks/2026/11/rad-gifts-fund-fight-effs-holiday-merch-guide-2026",
+      "title": "Rad Gifts That Fund the Fight: EFF's Holiday Merch Guide for 2026",
+      "source": "EFF AI",
+      "published": "2026-11-27T08:00:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b7fae7c5f405cd5d931e8b40",
+      "bodyFingerprint": "d3691bd205cc9a7ced2ea236",
+      "bodyCharacterCount": 4039,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T12:28:50.795Z",
+      "assessment": {
+        "centralEvent": "Rad Gifts That Fund the Fight: EFF's Holiday Merch Guide for 2026",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 69,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "74846481be2f28afade1": {
+      "storyId": "74846481be2f28afade1",
+      "url": "https://www.theguardian.com/business/2026/nov/27/retailers-ai-shopping-assistants-black-friday-brands-meta-muse",
+      "title": "‘If the bot gets it wrong, who’s liable?’ Retailers enter the unknown with AI shopping assistants on Black Friday",
+      "source": "The Guardian AI",
+      "published": "2026-11-27T07:00:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "75b2d36679487cc066b858db",
+      "bodyFingerprint": "187d3a6ac001e96e8f104729",
+      "bodyCharacterCount": 10156,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T12:28:50.803Z",
+      "assessment": {
+        "centralEvent": "‘If the bot gets it wrong, who’s liable?’ Retailers enter the unknown with AI shopping assistants on Black Friday",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "This year, a third of people planning to shop during Black Friday sales intend to get help from AI – up from 19% last year, according to a recent YouGov poll.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.5,
+        "rawScore": 5.5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.1,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 2,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f0b4551a4162361d3575": {
+      "storyId": "f0b4551a4162361d3575",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261126033220.htm",
+      "title": "Scientists identify two ages when children may be most vulnerable to screen time",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-27T03:56:06.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3e0a15ec97018cdc26b82121",
+      "bodyFingerprint": "63c5af8c14891cb5355c08c6",
+      "bodyCharacterCount": 10270,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T12:28:50.858Z",
+      "assessment": {
+        "centralEvent": "Scientists identify two ages when children may be most vulnerable to screen time",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Higher Blood Pressure Is Associated With Poorer Cognition in Adolescence June 5, 2024  Adolescents with elevated blood pressure and arterial stiffness may experience poorer cognitive functions, according to a recent study.",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Recommendations from the World Health Organization (WHO) and the American Academy of Pediatrics generally emphasize avoiding screen exposure during the first 18 to 24 months of life and limiting it to less than one hour a day for children a",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Scientists from Inserm and the National University of Singapore addressed these gaps in a study published in the World Journal of Pediatrics .",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Many earlier studies examined children at a single point in time, concentrated on children already attending school, or did not regularly track screen habits throughout early childhood.",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 65,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.02,
+        "rawScore": 28.02,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.365,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "83c389f1316ba410e5ed": {
+      "storyId": "83c389f1316ba410e5ed",
+      "url": "https://www.theguardian.com/books/2026/nov/27/careless-people-author-sarah-wynn-williams-the-silence-is-mine-it-doesnt-have-to-be-yours",
+      "title": "‘I am scared’: Careless People author Sarah Wynn-Williams on living under a gag order - and why it’s time to speak out against big tech",
+      "source": "The Guardian AI",
+      "published": "2026-11-27T10:00:01.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "30a9d1cb6e9d64e15e27671f",
+      "bodyFingerprint": "c11d84e8a8336659c96afb17",
+      "bodyCharacterCount": 15945,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T12:28:50.868Z",
+      "assessment": {
+        "centralEvent": "‘I am scared’: Careless People author Sarah Wynn-Williams on living under a gag order - and why it’s time to speak out against big tech",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "It contains allegations of a toxic internal culture, including sexual harassment and gender-based discriminatory practices.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Meta has described the book as a “mix of out-of-date and previously reported claims about the company and false accusations about our executives”.",
+            "matchedRule": "/\\b(?:reported|according to|study|analysis|researchers? say|experts? say)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Quick Guide Sarah Wynn-Williams Show In 2011, Sarah Wynn-Williams was appointed director of global public policy at Facebook (now Meta).",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 175,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 47.08,
+        "rawScore": 47.08,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.28,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 2,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8741809fb21ab4d37714": {
+      "storyId": "8741809fb21ab4d37714",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261126063333.htm",
+      "title": "Harvard’s tiny UV light chip could help shrink quantum computers",
+      "source": "ScienceDaily Technology",
+      "published": "2026-11-27T03:22:20.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "c8266e37bc44cc91628e216a",
+      "bodyFingerprint": "2c8283ac5a263ccb10664683",
+      "bodyCharacterCount": 11820,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T12:28:50.881Z",
+      "assessment": {
+        "centralEvent": "Harvard’s tiny UV light chip could help shrink quantum computers",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Now, a Harvard-led research team has demonstrated a microscopic photonic device that produces approximately 120 times more UV power than previous comparable devices.",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 76,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.75,
+        "rawScore": 5.75,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.15,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 3,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "8a7bedc20d3b6ed3ea23": {
+      "storyId": "8a7bedc20d3b6ed3ea23",
+      "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light",
+      "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+      "source": "WIRED AI",
+      "published": "2026-11-27T07:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "fa7b62db12b9c7cacfc4ac30",
+      "bodyFingerprint": "ec8075e79d2393c094bafd1f",
+      "bodyCharacterCount": 8460,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T12:28:50.972Z",
+      "assessment": {
+        "centralEvent": "A New Breed of Chip Runs AI Models Using Waves of Light",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "But if you take something that has been optimized for a GPU only, you should not expect that automatically things will run faster.",
+            "matchedRule": "/\\b(?:proposal|proposed|planned|considering|expects?|predicts?)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 1 supported factor; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 80,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f16ccf373cc8ea460e40": {
+      "storyId": "f16ccf373cc8ea460e40",
+      "url": "https://www.nature.com/articles/d41586-026-03849-8",
+      "title": "Why the incoming US Congress should ban the development of self-improving AI",
+      "source": "Nature AI News & Comment",
+      "published": "2026-11-27T00:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b83bdea92ef3e32d29759121",
+      "bodyFingerprint": "119b1f08f53da7348426088e",
+      "bodyCharacterCount": 77,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-27T12:28:51.477Z",
+      "assessment": {
+        "centralEvent": "Why the incoming US Congress should ban the development of self-improving AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 3,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-27T02:53:01.296Z"
+  "updatedAt": "2026-11-27T12:28:51.477Z"
 }
