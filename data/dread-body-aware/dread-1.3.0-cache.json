@@ -408615,8 +408615,715 @@
           "vulnerability": 0
         }
       }
+    },
+    "4ec55441219f7163f2be": {
+      "storyId": "4ec55441219f7163f2be",
+      "url": "https://www.inc.com/jason-aten/for-2-years-coca-colas-holiday-ads-made-people-mad-this-year-it-skipped-the-ai/91443522",
+      "title": "For 2 Years, Coca-Cola’s Holiday Ads Made People Mad. This Year, It Skipped the AI",
+      "source": "Inc. AI",
+      "published": "2026-11-27T20:09:56.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "2f2d27eeef002b79128aadc6",
+      "bodyFingerprint": "d736833e99d8a1260570a557",
+      "bodyCharacterCount": 97,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-27T21:59:58.910Z",
+      "assessment": {
+        "centralEvent": "For 2 Years, Coca-Cola’s Holiday Ads Made People Mad. This Year, It Skipped the AI",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "57599766fd0d8e41cc63": {
+      "storyId": "57599766fd0d8e41cc63",
+      "url": "https://www.inc.com/jason-aten/openai-made-a-big-mistake-its-response-was-even-worse/91443527",
+      "title": "OpenAI Made a Big Mistake. Its Response Was Even Worse",
+      "source": "Inc. AI",
+      "published": "2026-11-27T21:28:25.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "b061b105325d7bf966309db2",
+      "bodyFingerprint": "843fd418d8c6ede12b168fe8",
+      "bodyCharacterCount": 99,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-27T21:59:58.914Z",
+      "assessment": {
+        "centralEvent": "OpenAI Made a Big Mistake. Its Response Was Even Worse",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "f82a6d02f442dce33af9": {
+      "storyId": "f82a6d02f442dce33af9",
+      "url": "https://www.inc.com/dan-schawbel/otter-ais-ceo-grew-up-with-rationed-food-and-still-runs-his-100-million-company-frugally/91442172",
+      "title": "Otter.ai’s CEO Grew Up With Rationed Food and Still Runs His $100 Million Company Frugally",
+      "source": "Inc. AI",
+      "published": "2026-11-27T15:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a17d4c4b1be22bc163f06798",
+      "bodyFingerprint": "89fe9facea5cb7e216350ebe",
+      "bodyCharacterCount": 70,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-27T21:59:58.935Z",
+      "assessment": {
+        "centralEvent": "Otter.ai’s CEO Grew Up With Rationed Food and Still Runs His $100 Million Company Frugally",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 5,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7b08811f046f622d4d55": {
+      "storyId": "7b08811f046f622d4d55",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/27/the-guardian-view-on-ai-and-the-riemann-hypothesis-a-triumph-of-intelligence-a-test-of-democracy",
+      "title": "The Guardian view on AI and the Riemann hypothesis: a triumph of intelligence, a test of democracy | Editorial",
+      "source": "The Guardian AI",
+      "published": "2026-11-27T18:07:43.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "ddcbc4c7a9127b910f014186",
+      "bodyFingerprint": "b0b3ab6df9bf009590eea31d",
+      "bodyCharacterCount": 4508,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T21:59:59.019Z",
+      "assessment": {
+        "centralEvent": "The Guardian view on AI and the Riemann hypothesis: a triumph of intelligence, a test of democracy | Editorial",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "The cryptosphere is humming with rumours that its walls will be breached within two years.",
+            "matchedRule": "/\\b(?:hacked|breached|compromised|stolen|exposed|leaked)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 1,
+            "source": "body",
+            "excerpt": "It appears that the most consequential mathematical discoveries are occurring inside privately owned AI labs.",
+            "matchedRule": "/\\b(?:alleged|reportedly|appears?|seems?|unclear|unverified)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Leading mathematicians fear it has broken, or is close to breaking, the encryption that safeguards global finance, communications and the privacy of billions of people.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 44,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 46.53,
+        "rawScore": 46.53,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.23,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 1,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "58eb837256d0180b82a8": {
+      "storyId": "58eb837256d0180b82a8",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/27/donald-trump-destroying-us-law-tech-titans-jensen-huang-nvidia",
+      "title": "Trump is destroying the rule of law in the US – to protect himself and the tech titans he worships as new gods | Jonathan Freedland",
+      "source": "The Guardian AI",
+      "published": "2026-11-27T18:10:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "9fc80c652df41e7bf2554ce1",
+      "bodyFingerprint": "b09312e32fbf62c853c4b2df",
+      "bodyCharacterCount": 8935,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T21:59:59.026Z",
+      "assessment": {
+        "centralEvent": "Trump is destroying the rule of law in the US – to protect himself and the tech titans he worships as new gods | Jonathan Freedland",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 2,
+            "source": "body",
+            "excerpt": "Trump will not fear any consequences for the abuse of power he just committed.",
+            "matchedRule": "/\\b(?:harassment|abuse|fraud|scam|deepfake|surveillance|privacy violation)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "Breaking the norm observed by previous presidents who, keen to avoid even the appearance of a conflict of interest, either divested themselves of stock holdings or placed them in a blind trust, Trump cheerfully buys and sells stocks in comp",
+            "matchedRule": "/\\b(?:confirmed|documented|demonstrated|verified|observed|evidence shows)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 4,
+            "source": "summary",
+            "excerpt": "To get Jensen Huang back at Nvidia, the president trampled on the justice system, national security and the trust America needs to do business in the global economy Don’t let the sex distract you.",
+            "matchedRule": "/\\b(?:global|worldwide|international|across countries|multiple countries)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Plenty of people stopped being shocked by that long ago, just as they learned to shrug off most of the president’s pronouncements and posts on social media – including this week an AI-generated version of the emblematic image of a bloodied ",
+            "matchedRule": "/\\b(?:patched|fixed|blocked|stopped|fully contained|prevented|shut down)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 1,
+            "source": "body",
+            "excerpt": "What is the impact of a US leader who clearly measures the health of the national economy by a single metric, namely the state of the stock market?",
+            "matchedRule": "/\\b(?:single|isolated|one-time|one incident|first reported)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 5 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 67,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 48.45,
+        "rawScore": 48.45,
+        "band": "ALARMING",
+        "requestedBand": "ALARMING",
+        "effectiveBand": "ALARMING",
+        "supportIntensity": 0.405,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 2,
+          "certainty": 3,
+          "reach": 4,
+          "reversibility": 0,
+          "containment": 1,
+          "recurrence": 1,
+          "vulnerability": 0
+        }
+      }
+    },
+    "db367a35fb282de990d7": {
+      "storyId": "db367a35fb282de990d7",
+      "url": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits",
+      "title": "Google told to halt Belgium datacentre construction over lack of planning permit",
+      "source": "The Guardian AI",
+      "published": "2026-11-27T17:21:18.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "d6a6ebda5ff3099cb33ae1de",
+      "bodyFingerprint": "6eb20a92ba7aa448510fd8f0",
+      "bodyCharacterCount": 4940,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T21:59:59.031Z",
+      "assessment": {
+        "centralEvent": "Google told to halt Belgium datacentre construction over lack of planning permit",
+        "confidence": "high",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "US midterms vote puts AI, datacentres and the broligarchy back in their box Parents and teachers decry Google pledge to yank Search if schools block AI: ‘This threat is nothing but extortion’ Lanarkshire AI datacentre to fully rely on natio",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "“Against this backdrop, the construction of energy-guzzling behemoths cannot be allowed to go unnoticed.” How datacentres are driving an illegal mining rush in the Amazon ‘more devastating than gold’ Read more Google’s 2024 permit was to co",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "summary",
+            "excerpt": "“Inspectors visited the site and observed that the building was almost finished, with the structural work completed, even though the permit had been refused,” Raphaël Stokis, a Wallonia regional official, told the public broadcaster RTBF.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          },
+          {
+            "factor": "containment",
+            "level": 2,
+            "source": "summary",
+            "excerpt": "Greenpeace publishes report showing tech firm is continuing to build despite planning appeal still unresolved Belgian authorities have ordered Google to halt construction work on a large datacentre in the south of the country because the US",
+            "matchedRule": "/\\b(?:partially contained|still developing|unresolved|ongoing investigation|remains active)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 4 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 25,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 28.68,
+        "rawScore": 28.68,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.425,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 2,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "05444f0c901ac8992239": {
+      "storyId": "05444f0c901ac8992239",
+      "url": "https://www.inc.com/kimanzi-constable/ashton-kutcher-made-an-early-bet-on-anthropic-his-investment-is-now-worth-7-billion/91441970",
+      "title": "Ashton Kutcher Made an Early Bet on Anthropic. His Investment Is Now Worth $7 Billion",
+      "source": "Inc. AI",
+      "published": "2026-11-27T13:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "a43a84c1fa162432954971dc",
+      "bodyFingerprint": "736b58eae70545437b60a1f8",
+      "bodyCharacterCount": 51,
+      "evidenceScope": "feed-only",
+      "assessedAt": "2026-11-27T21:59:59.053Z",
+      "assessment": {
+        "centralEvent": "Ashton Kutcher Made an Early Bet on Anthropic. His Investment Is Now Worth $7 Billion",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": false,
+          "routineOrProtective": false,
+          "segmentCount": 4,
+          "evidenceScope": "feed-only"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "609638029bd3c47a91da": {
+      "storyId": "609638029bd3c47a91da",
+      "url": "https://www.theguardian.com/technology/2026/nov/27/meta-whistleblower-sarah-wynn-williams-calls-on-burnham-to-go-further-with-ban-on-non-disclosure-agreements",
+      "title": "Meta whistleblower calls on Burnham to go further with ban on NDAs",
+      "source": "The Guardian AI",
+      "published": "2026-11-27T12:30:08.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "331b860239cd9e4d44e30735",
+      "bodyFingerprint": "0f10cfc574f39512f84a4777",
+      "bodyCharacterCount": 5378,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T21:59:59.078Z",
+      "assessment": {
+        "centralEvent": "Meta whistleblower calls on Burnham to go further with ban on NDAs",
+        "confidence": "low",
+        "evidence": [],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected.",
+          "Routine, beneficial, or protective context prevents risk language from becoming harm."
+        ],
+        "rationale": "No phrase-context rule established material harmful consequences.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 41,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5,
+        "rawScore": 5,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 0,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "1d140bb3b26b0663e87b": {
+      "storyId": "1d140bb3b26b0663e87b",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "source": "The Verge AI",
+      "published": "2026-11-27T14:00:00.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "bda782ae884d1c9ca0617ce4",
+      "bodyFingerprint": "1af279f2529676dca5b873c7",
+      "bodyCharacterCount": 6559,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T21:59:59.127Z",
+      "assessment": {
+        "centralEvent": "Android’s DIY widgets are a bit of vibe-coding fun",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Allison Johnson AI Android Google Google Pixel Tech Most Popular Most Popular The absolute best Black Friday deals we’ve found (so far) Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday Grand Theft Auto VI is a dif",
+            "matchedRule": "/\\b(?:risk|warning|concern|vulnerability|flaw|danger|unsafe)\\b/i"
+          },
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Related Vibe coding is coming to your phone I fired it up on a Pixel 11 Pro and cooked up my first few widgets, including one that shows a different quote from Jurassic Park every hour — the original film, not any of the sequels, naturally.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          },
+          {
+            "factor": "recurrence",
+            "level": 4,
+            "source": "body",
+            "excerpt": "For anything more open ended, your widget will pull from Google search results (suggest a different three-ingredient cocktail recipe every day, for example) or prompt Gemini to figure it out for you.",
+            "matchedRule": "/\\b(?:widespread and continuous|continuously occurring|every day|daily occurrence)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 3 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": true,
+          "segmentCount": 57,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 27.52,
+        "rawScore": 27.52,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.32,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 4,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 4,
+          "vulnerability": 0
+        }
+      }
+    },
+    "7f731902dde201725871": {
+      "storyId": "7f731902dde201725871",
+      "url": "https://mashable.com/tech/nov-27-lg-65-inch-oled-evo-tv-black-friday-deal",
+      "title": "The 2026 LG 65-inch OLED C6 TV is marked down by more than 50% for Black Friday: Save over $1,400",
+      "source": "Mashable AI",
+      "published": "2026-11-27T13:58:58.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "3b3b12f0d07c9f86dc24d7d5",
+      "bodyFingerprint": "f5eb4f636145fa2a8f7a7f4d",
+      "bodyCharacterCount": 3449,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T21:59:59.173Z",
+      "assessment": {
+        "centralEvent": "The 2026 LG 65-inch OLED C6 TV is marked down by more than 50% for Black Friday: Save over $1,400",
+        "confidence": "low",
+        "evidence": [
+          {
+            "factor": "certainty",
+            "level": 4,
+            "source": "body",
+            "excerpt": "Up to 2 messages/day.",
+            "matchedRule": "/\\b(?:\\d[\\d,.]*|dozens|hundreds|thousands|millions)\\b.*\\b(?:affected|exposed|lost|killed|injured|displaced|hours?|days?)\\b/i"
+          }
+        ],
+        "constraints": [
+          "No realized or credibly imminent harmful consequence was detected."
+        ],
+        "rationale": "Local context rules found 1 supported factor; the story remains speculative or preventive.",
+        "diagnostics": {
+          "realized": false,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 36,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 5.25,
+        "rawScore": 5.25,
+        "band": "UNEASY",
+        "requestedBand": "UNEASY",
+        "effectiveBand": "UNEASY",
+        "supportIntensity": 0.05,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [
+          "No material harm anchors the story in Uneasy; contextual risk cannot raise its severity band."
+        ],
+        "factors": {
+          "harm": 0,
+          "certainty": 1,
+          "reach": 0,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
+    },
+    "b9532be595c86507e127": {
+      "storyId": "b9532be595c86507e127",
+      "url": "https://www.politico.eu/article/wed-be-stupid-not-to-poland-defends-300m-military-ai-deal-with-palantir",
+      "title": "We’d be ‘stupid’ not to: Poland defends $300M military AI deal with Palantir",
+      "source": "POLITICO Europe AI",
+      "published": "2026-11-27T14:41:55.000Z",
+      "version": "1.3.0",
+      "formulaVersion": "1.3.0-body-context.1",
+      "formulaFingerprint": "5616a7325b811a3302fe",
+      "analyzerVersion": "1.3.0-context-rules.1",
+      "inputFingerprint": "abff6b428a4b4d672850c7fa",
+      "bodyFingerprint": "c0f18f7b7742b37449126fd5",
+      "bodyCharacterCount": 2277,
+      "evidenceScope": "article-body",
+      "assessedAt": "2026-11-27T21:59:59.181Z",
+      "assessment": {
+        "centralEvent": "We’d be ‘stupid’ not to: Poland defends $300M military AI deal with Palantir",
+        "confidence": "medium",
+        "evidence": [
+          {
+            "factor": "harm",
+            "level": 1,
+            "source": "body",
+            "excerpt": "Palantir celebrated the deal on X, calling Maven “the vanguard of next-generation AI warfare” and saying it was proud to stand with Poland in defending a “sovereign Europe.” The company, which has drawn criticism for its work with U.S. immi",
+            "matchedRule": "/\\b(?:controversy|backlash|criticism|pressure|uncertainty)\\b/i"
+          },
+          {
+            "factor": "reach",
+            "level": 3,
+            "source": "body",
+            "excerpt": "Advertisement Poland’s deal is a national rollout of Maven, which allied militaries already use through NATO’s command structure , as European militaries try to strengthen their defenses while reducing reliance on American technology.",
+            "matchedRule": "/\\b(?:national|nationwide|systemic|regional|statewide|industry-wide)\\b/i"
+          }
+        ],
+        "constraints": [],
+        "rationale": "Local context rules found 2 supported factors; realized consequences are present.",
+        "diagnostics": {
+          "realized": true,
+          "speculative": true,
+          "routineOrProtective": false,
+          "segmentCount": 17,
+          "evidenceScope": "article-body"
+        }
+      },
+      "score": {
+        "value": 25.48,
+        "rawScore": 25.48,
+        "band": "OMINOUS",
+        "requestedBand": "OMINOUS",
+        "effectiveBand": "OMINOUS",
+        "supportIntensity": 0.135,
+        "direEligible": false,
+        "catastrophicEligible": false,
+        "constraints": [],
+        "factors": {
+          "harm": 1,
+          "certainty": 0,
+          "reach": 3,
+          "reversibility": 0,
+          "containment": 0,
+          "recurrence": 0,
+          "vulnerability": 0
+        }
+      }
     }
   },
   "formulaFingerprint": "5616a7325b811a3302fe",
-  "updatedAt": "2026-11-27T12:28:51.477Z"
+  "updatedAt": "2026-11-27T21:59:59.181Z"
 }
