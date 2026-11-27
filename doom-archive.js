@@ -5,11 +5,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-26T19:00:00.000Z",
+  "generatedAt": "2026-11-27T02:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-26",
       "stories": [
+        {
+          "storyId": "30c1d7d0e5f1596709a0",
+          "title": "Deep beneath Australia, hidden caves could unlock the secrets of alien worlds",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261124055901.htm",
+          "source": "ScienceDaily Technology",
+          "image": "https://www.sciencedaily.com/images/1920/australia-nullarbor-plain-caves.webp",
+          "peak": 69.28,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-26",
+          "firstObservedAt": "2026-11-27T02:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
+          "average": 69.28
+        },
         {
           "storyId": "bf2b853553a4f5010e2d",
           "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
@@ -17,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
           "peak": 52.22,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-26",
           "firstObservedAt": "2026-11-26T09:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 52.22
         },
         {
@@ -31,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-26",
           "firstObservedAt": "2026-11-26T09:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 51.23
         },
         {
@@ -45,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Datacenter-Health-01-press.jpg?itok=GrhdbTzT",
           "peak": 49.83,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-26",
           "firstObservedAt": "2026-11-26T09:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 49.83
         },
         {
@@ -59,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/052f70b3cd29d16bf1465828355cd94e1de55a2f/31_0_4626_3703/master/4626.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 49.28,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-26",
           "firstObservedAt": "2026-11-26T09:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 49.28
         },
         {
@@ -73,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6b05a2cb470266bfec0ce9be/master/pass/GettyImages-2306037065.jpg",
           "peak": 49.09,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-26",
           "firstObservedAt": "2026-11-26T09:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 49.09
         },
         {
@@ -87,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-26",
           "firstObservedAt": "2026-11-26T09:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 49.01
         },
         {
@@ -101,11 +115,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.59,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-26",
           "firstObservedAt": "2026-11-26T09:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 48.59
         },
         {
@@ -115,11 +129,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Math-AI-01-press.jpg?itok=kKHwiUOm",
           "peak": 48.51,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-26",
           "firstObservedAt": "2026-11-26T09:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 48.51
         },
         {
@@ -129,26 +143,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "BBC News AI",
           "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c01/live/7606dbe0-e8bd-11f1-ac76-db9e97f93d67.jpg",
           "peak": 48.51,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-26",
           "firstObservedAt": "2026-11-26T09:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 48.51
-        },
-        {
-          "storyId": "a8d6cfaec298d66393e8",
-          "title": "The Department of Justice Is Using AI Detector Pangram Against Defense Attorneys",
-          "url": "https://www.404media.co/the-department-of-justice-is-using-ai-detector-pangram-against-defense-attorneys/",
-          "source": "404 Media AI",
-          "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/CleanShot-2026-11-17-at-7.11.44-AM@2x.png",
-          "peak": 48.29,
-          "observations": 2,
-          "daysTracked": 1,
-          "peakDate": "2026-11-26",
-          "firstObservedAt": "2026-11-26T09:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
-          "average": 48.29
         }
       ]
     },
@@ -12932,17 +12932,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 71.34
         },
         {
+          "storyId": "30c1d7d0e5f1596709a0",
+          "title": "Deep beneath Australia, hidden caves could unlock the secrets of alien worlds",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261124055901.htm",
+          "source": "ScienceDaily Technology",
+          "image": "https://www.sciencedaily.com/images/1920/australia-nullarbor-plain-caves.webp",
+          "peak": 69.28,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-26",
+          "firstObservedAt": "2026-11-27T02:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
+          "average": 69.28
+        },
+        {
           "storyId": "bf2b853553a4f5010e2d",
           "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
           "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
           "peak": 52.22,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 3,
           "peakDate": "2026-11-24",
           "firstObservedAt": "2026-11-24T10:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 52.22
         },
         {
@@ -12952,11 +12966,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 4,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 51.23
         },
         {
@@ -12966,11 +12980,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Datacenter-Health-01-press.jpg?itok=GrhdbTzT",
           "peak": 49.83,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 4,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 49.83
         },
         {
@@ -12994,11 +13008,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Guardian AI",
           "image": "https://i.guim.co.uk/img/media/052f70b3cd29d16bf1465828355cd94e1de55a2f/31_0_4626_3703/master/4626.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 49.28,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-11-25",
           "firstObservedAt": "2026-11-26T00:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 49.28
         },
         {
@@ -13008,11 +13022,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6b05a2cb470266bfec0ce9be/master/pass/GettyImages-2306037065.jpg",
           "peak": 49.09,
-          "observations": 4,
+          "observations": 5,
           "daysTracked": 2,
           "peakDate": "2026-11-25",
           "firstObservedAt": "2026-11-25T15:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 49.09
         },
         {
@@ -13022,11 +13036,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 9,
+          "observations": 10,
           "daysTracked": 4,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 49.01
         },
         {
@@ -13035,20 +13049,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "url": "https://www.lawfaremedia.org/article/inside-the-black-market-for-america-s-artificial-intelligence",
           "source": "Lawfare AI",
           "image": "",
-          "peak": 49.01,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-24",
-          "firstObservedAt": "2026-11-24T10:00:00.000Z",
-          "lastObservedAt": "2026-11-24T10:00:00.000Z",
-          "average": 49.01
-        },
-        {
-          "storyId": "cebb3704f07352337888",
-          "title": "How freaked out should we be? After mass outages, experts tell us how close we are to ‘doomsday’",
-          "url": "https://www.theguardian.com/technology/2026/nov/23/tech-outages-security-experts",
-          "source": "The Guardian AI",
-          "image": "https://i.guim.co.uk/img/media/9d85845928e02b3a6eff671b4454f59dd4937dfb/1_0_2999_2400/master/2999.jpg?width=800&dpr=2&s=none&crop=none",
           "peak": 49.01,
           "observations": 1,
           "daysTracked": 1,
@@ -15034,17 +15034,31 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "average": 69.33
         },
         {
+          "storyId": "30c1d7d0e5f1596709a0",
+          "title": "Deep beneath Australia, hidden caves could unlock the secrets of alien worlds",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261124055901.htm",
+          "source": "ScienceDaily Technology",
+          "image": "https://www.sciencedaily.com/images/1920/australia-nullarbor-plain-caves.webp",
+          "peak": 69.28,
+          "observations": 1,
+          "daysTracked": 1,
+          "peakDate": "2026-11-26",
+          "firstObservedAt": "2026-11-27T02:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
+          "average": 69.28
+        },
+        {
           "storyId": "bf2b853553a4f5010e2d",
           "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
           "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
           "peak": 52.22,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 3,
           "peakDate": "2026-11-24",
           "firstObservedAt": "2026-11-24T10:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 52.22
         },
         {
@@ -15068,26 +15082,12 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 86,
+          "observations": 87,
           "daysTracked": 26,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-26T19:00:00.000Z",
+          "lastObservedAt": "2026-11-27T02:00:00.000Z",
           "average": 51.23
-        },
-        {
-          "storyId": "9155943304f11d5864c1",
-          "title": "EFF’s State Legislative Agenda to End ALPR Mass Surveillance",
-          "url": "https://www.eff.org/deeplinks/2026/10/effs-state-legislative-agenda-end-alpr-mass-surveillance",
-          "source": "EFF AI",
-          "image": "https://www.eff.org/files/banner_library/flock-vector-1b.png",
-          "peak": 51.15,
-          "observations": 5,
-          "daysTracked": 2,
-          "peakDate": "2026-11-01",
-          "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-02T06:00:00.000Z",
-          "average": 51.15
         }
       ]
     },
