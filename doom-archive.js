@@ -5,7 +5,7 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
   "formulaFingerprint": "5616a7325b811a3302fe",
   "timeZone": "America/Chicago",
   "weekStartsOn": "Monday",
-  "generatedAt": "2026-11-27T21:00:00.000Z",
+  "generatedAt": "2026-11-28T03:00:00.000Z",
   "daily": [
     {
       "period": "2026-11-27",
@@ -17,11 +17,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "https://www.sciencedaily.com/images/1920/australia-nullarbor-plain-caves.webp",
           "peak": 69.28,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-27",
           "firstObservedAt": "2026-11-27T12:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 69.28
         },
         {
@@ -31,11 +31,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
           "peak": 52.22,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-27",
           "firstObservedAt": "2026-11-27T12:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 52.22
         },
         {
@@ -45,11 +45,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-27",
           "firstObservedAt": "2026-11-27T12:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 51.23
         },
         {
@@ -59,11 +59,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Datacenter-Health-01-press.jpg?itok=GrhdbTzT",
           "peak": 49.83,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-27",
           "firstObservedAt": "2026-11-27T12:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 49.83
         },
         {
@@ -73,11 +73,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6b05a2cb470266bfec0ce9be/master/pass/GettyImages-2306037065.jpg",
           "peak": 49.09,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-27",
           "firstObservedAt": "2026-11-27T12:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 49.09
         },
         {
@@ -87,11 +87,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-27",
           "firstObservedAt": "2026-11-27T12:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 49.01
         },
         {
@@ -101,11 +101,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Tech Policy Press AI",
           "image": "",
           "peak": 48.59,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-27",
           "firstObservedAt": "2026-11-27T12:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 48.59
         },
         {
@@ -115,11 +115,25 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Math-AI-01-press.jpg?itok=kKHwiUOm",
           "peak": 48.51,
-          "observations": 2,
+          "observations": 3,
           "daysTracked": 1,
           "peakDate": "2026-11-27",
           "firstObservedAt": "2026-11-27T12:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
+          "average": 48.51
+        },
+        {
+          "storyId": "2f60d24207b6324a64a6",
+          "title": "Scientists turn one of the world’s hardest-to-recycle plastics into high-performance lubricating oil",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261126033501.htm",
+          "source": "ScienceDaily Technology",
+          "image": "",
+          "peak": 48.51,
+          "observations": 2,
+          "daysTracked": 1,
+          "peakDate": "2026-11-27",
+          "firstObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 48.51
         },
         {
@@ -134,20 +148,6 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "peakDate": "2026-11-27",
           "firstObservedAt": "2026-11-27T12:00:00.000Z",
           "lastObservedAt": "2026-11-27T12:00:00.000Z",
-          "average": 48.51
-        },
-        {
-          "storyId": "2f60d24207b6324a64a6",
-          "title": "Scientists turn one of the world’s hardest-to-recycle plastics into high-performance lubricating oil",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261126033501.htm",
-          "source": "ScienceDaily Technology",
-          "image": "",
-          "peak": 48.51,
-          "observations": 1,
-          "daysTracked": 1,
-          "peakDate": "2026-11-27",
-          "firstObservedAt": "2026-11-27T21:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
           "average": 48.51
         }
       ]
@@ -13083,11 +13083,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "https://www.sciencedaily.com/images/1920/australia-nullarbor-plain-caves.webp",
           "peak": 69.28,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-11-26",
           "firstObservedAt": "2026-11-27T02:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 69.28
         },
         {
@@ -13097,11 +13097,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
           "peak": 52.22,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 4,
           "peakDate": "2026-11-24",
           "firstObservedAt": "2026-11-24T10:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 52.22
         },
         {
@@ -13111,11 +13111,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 5,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 51.23
         },
         {
@@ -13125,11 +13125,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "MIT News AI",
           "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Datacenter-Health-01-press.jpg?itok=GrhdbTzT",
           "peak": 49.83,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 5,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 49.83
         },
         {
@@ -13167,11 +13167,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "WIRED AI",
           "image": "https://media.wired.com/photos/6b05a2cb470266bfec0ce9be/master/pass/GettyImages-2306037065.jpg",
           "peak": 49.09,
-          "observations": 7,
+          "observations": 8,
           "daysTracked": 3,
           "peakDate": "2026-11-25",
           "firstObservedAt": "2026-11-25T15:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 49.09
         },
         {
@@ -13181,11 +13181,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "404 Media AI",
           "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/B_V4.jpg",
           "peak": 49.01,
-          "observations": 12,
+          "observations": 13,
           "daysTracked": 5,
           "peakDate": "2026-11-23",
           "firstObservedAt": "2026-11-23T12:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 49.01
         },
         {
@@ -15185,11 +15185,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "ScienceDaily Technology",
           "image": "https://www.sciencedaily.com/images/1920/australia-nullarbor-plain-caves.webp",
           "peak": 69.28,
-          "observations": 3,
+          "observations": 4,
           "daysTracked": 2,
           "peakDate": "2026-11-26",
           "firstObservedAt": "2026-11-27T02:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 69.28
         },
         {
@@ -15199,11 +15199,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "Ars Technica AI",
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2284791219-1024x648.jpg",
           "peak": 52.22,
-          "observations": 10,
+          "observations": 11,
           "daysTracked": 4,
           "peakDate": "2026-11-24",
           "firstObservedAt": "2026-11-24T10:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 52.22
         },
         {
@@ -15227,11 +15227,11 @@ window.DAILY_DOOMSAYER_ARCHIVE = {
           "source": "The Markup AI",
           "image": "https://mrkp-static-production.themarkup.org/uploads/2026/07/040626_Nurses-AI_CS_MU_01.jpg",
           "peak": 51.23,
-          "observations": 89,
+          "observations": 90,
           "daysTracked": 27,
           "peakDate": "2026-11-01",
           "firstObservedAt": "2026-11-01T07:00:00.000Z",
-          "lastObservedAt": "2026-11-27T21:00:00.000Z",
+          "lastObservedAt": "2026-11-28T03:00:00.000Z",
           "average": 51.23
         }
       ]
